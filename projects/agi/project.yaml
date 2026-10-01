@@ -1,0 +1,25 @@
+schema_version: 1
+id: LLMV_001
+slug: agi
+title: AGI
+type: music-video
+created_at: 2026-10-01
+source_url: https://www.bilibili.com/video/BV18ta86EEHb/
+source_project_url: https://github.com/mexicat/pdoom-video
+source_metadata: sources/asset-original-v001.yaml
+rights:
+  status: TBD
+  notes: 原始视频、音乐、歌词与改编权利沿用来源登记；生成候选未获人工批准。
+sources:
+  - id: LLMV_001_SOURCE
+    kind: reference-video
+    path: sources/references/LLMV_001_source_v001.mp4
+    sha256: 47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890
+  - id: LLMV_001_AUDIO_001
+    kind: original-audio
+    path: sources/audio/LLMV_001_audio_original_v001.m4a
+    sha256: c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274
+  - id: LLMV_001_AUDIO_002
+    kind: editing-audio
+    path: sources/audio/LLMV_001_audio_pcm_v001.wav
+    sha256: a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197

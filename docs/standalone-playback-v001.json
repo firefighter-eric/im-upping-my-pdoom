@@ -1,0 +1,93 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v001",
+  "date": "2026-10-01T15:47:22.499Z",
+  "browser": "154.0.8037.92",
+  "status": "passed",
+  "results": [
+    {
+      "variant": "abstract",
+      "generation_id": "LLMV_001_MV_001",
+      "src": "http://127.0.0.1:59907/versions/v001/outputs/LLMV_001_MV_001_abstract_1080p24_v001.mp4",
+      "time": 1.088442,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.220894,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.484867,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.915152,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "narrative",
+      "generation_id": "LLMV_001_MV_002",
+      "src": "http://127.0.0.1:59907/versions/v001/outputs/LLMV_001_MV_002_narrative_1080p24_v001.mp4",
+      "time": 1.087644,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.216022,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.482565,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.914567,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "lyrics",
+      "generation_id": "LLMV_001_MV_003",
+      "src": "http://127.0.0.1:59907/versions/v001/outputs/LLMV_001_MV_003_lyrics_1080p24_v001.mp4",
+      "time": 1.067552,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.215832,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.487348,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.915946,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

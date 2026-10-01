@@ -1,0 +1,86 @@
+{
+  "repository": "https://github.com/mexicat/pdoom-video",
+  "commit": "bdbad537a7b7af3213475651774030c47568c181",
+  "imported_at": "2026-10-02T05:10:46.244Z",
+  "license": "MIT code; music and lyrics excluded",
+  "files": [
+    {
+      "upstream_path": "analysis/align.py",
+      "upstream_sha256": "16c52ff97438d97eaccb52663844fd97f757ab82c378708ac5ed214312615ea4",
+      "adapted_path": "analysis/tooling/align.py",
+      "adapted_sha256": "3a04f6008c3397b4cce55c7f2dee478abb5f71079af528ce5334a5aa1d4d02ce"
+    },
+    {
+      "upstream_path": "analysis/analyze.py",
+      "upstream_sha256": "a1bdfc7082aaed9b94183250903c02318b5f0b2679e9a6088e3d7605f1861095",
+      "adapted_path": "analysis/tooling/analyze.py",
+      "adapted_sha256": "dd52b92ead6748a8e8ca5088de180f837da7121098265d3bec4c6e94e5ae238c"
+    },
+    {
+      "upstream_path": "analysis/common.py",
+      "upstream_sha256": "ddff5a922e887832ec649f8226ec9695eade47b523bcd0ac2db45085d119d18b",
+      "adapted_path": "analysis/tooling/common.py",
+      "adapted_sha256": "6e3b14ff994d20daa0c82d6b82df10abb3e7a585d17e7b5100e973c75d2e23ad"
+    },
+    {
+      "upstream_path": "analysis/ctc_emissions.py",
+      "upstream_sha256": "6f6950775afdf3dfd8c2f97bf8a669f350aa861c0a027ca941d7332d13225c7e",
+      "adapted_path": "analysis/tooling/ctc_emissions.py",
+      "adapted_sha256": "6f6950775afdf3dfd8c2f97bf8a669f350aa861c0a027ca941d7332d13225c7e"
+    },
+    {
+      "upstream_path": "analysis/ctcalign.py",
+      "upstream_sha256": "dfc9b0682e36a4aec62f43391e9ba29c04cda33d2b36715c4b2b0a5982772512",
+      "adapted_path": "analysis/tooling/ctcalign.py",
+      "adapted_sha256": "780e9d6106f99f6f0703ce2fa8a9437f94f18b7a64181abb9bb861ca738887d5"
+    },
+    {
+      "upstream_path": "analysis/make_fonts.py",
+      "upstream_sha256": "15a5e30d5673df02d6e602343137e8c0b5f06a00d32c4c1c7226331393a1a067",
+      "adapted_path": "analysis/tooling/make_fonts.py",
+      "adapted_sha256": "15a5e30d5673df02d6e602343137e8c0b5f06a00d32c4c1c7226331393a1a067"
+    },
+    {
+      "upstream_path": "analysis/pron.py",
+      "upstream_sha256": "394a94dd9fa3e95522385ee6b52de813a78d1cd003f4c032cec17316a7196000",
+      "adapted_path": "analysis/tooling/pron.py",
+      "adapted_sha256": "394a94dd9fa3e95522385ee6b52de813a78d1cd003f4c032cec17316a7196000"
+    },
+    {
+      "upstream_path": "analysis/qa_plot.py",
+      "upstream_sha256": "fad9c10259cc75e22ad182b50fed2e638c4a0044bc62512a656c39d180941512",
+      "adapted_path": "analysis/tooling/qa_plot.py",
+      "adapted_sha256": "fad9c10259cc75e22ad182b50fed2e638c4a0044bc62512a656c39d180941512"
+    },
+    {
+      "upstream_path": "analysis/vocal_feats.py",
+      "upstream_sha256": "dbfa09c54ac61d25310067502f1ef3856ff68009a52de317b9e858f573f733e8",
+      "adapted_path": "analysis/tooling/vocal_feats.py",
+      "adapted_sha256": "dbfa09c54ac61d25310067502f1ef3856ff68009a52de317b9e858f573f733e8"
+    },
+    {
+      "upstream_path": "analysis/whisper_run.py",
+      "upstream_sha256": "75ecc9f9902606b28412df2e312bf235c9e6ce72f774909906c6d534b4e5ce27",
+      "adapted_path": "analysis/tooling/whisper_run.py",
+      "adapted_sha256": "6076811970f9ed63bce3246458e29299b8317046f3e424de39dd8bf83982cbba"
+    },
+    {
+      "upstream_path": "analysis/zoom.py",
+      "upstream_sha256": "9882ba138ce883efedc1460fdccf0a402e9a5a1661f47680e200c55d51725f9e",
+      "adapted_path": "analysis/tooling/zoom.py",
+      "adapted_sha256": "9882ba138ce883efedc1460fdccf0a402e9a5a1661f47680e200c55d51725f9e"
+    }
+  ],
+  "added": [
+    "analysis/tooling/separate.py",
+    "analysis/tooling/lead.py",
+    "analysis/tooling/align_lead.py"
+  ],
+  "adaptations": [
+    "Version-scoped input, lyric and model-cache paths",
+    "Full WAV duration and zero source offset",
+    "Disable upstream song-specific manual alignment fixes",
+    "Use current source stems and lyrics; bind outputs to this version"
+  ],
+  "runs": "See version runs for exact executed tool hashes, package versions, parameters and output hashes"
+}

@@ -1,0 +1,6 @@
+<!doctype html><meta charset="utf-8"><title>Draft version renderer</title><style>body{margin:0;background:#050910;display:grid;place-items:center;height:100vh}canvas{width:min(100vw,177.77vh);height:auto}</style><canvas width="1920" height="1080"></canvas><script>
+const canvas=document.querySelector('canvas'),context=canvas.getContext('2d',{alpha:false});
+// A contract scaffold only. Replace with the new version's actual creative treatment.
+window.renderFrame=(seconds,variant='main',capture=true)=>{context.fillStyle='#050910';context.fillRect(0,0,canvas.width,canvas.height);context.fillStyle='#b6cbd1';context.font='32px monospace';context.textAlign='center';context.fillText('TBD',canvas.width/2,canvas.height/2);return capture?canvas.toDataURL('image/jpeg',.94).split(',')[1]:null};
+window.ready=Promise.resolve().then(()=>window.renderFrame(0,'main',false));
+</script>

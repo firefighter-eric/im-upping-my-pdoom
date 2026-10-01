@@ -1,0 +1,10 @@
+# Sources and third-party material
+
+- AGI reference: https://www.bilibili.com/video/BV18ta86EEHb/ . Public-page uploader: 白雪仅当雪白. Original bytes, page metadata and extracted complete audio are preserved in projects/agi/sources. Reference-video and audio rights: TBD.
+- Source project named by the reference page: https://github.com/mexicat/pdoom-video . Its data/lyrics.json supplies auxiliary word timing in AGI v001. This workspace preserves attribution and provenance; no blanket music or lyric permission is inferred from a code license.
+- Song identification and production credits remain in source metadata and source-project documentation. Claims about the original LLM and its prompts are not treated as independently verified production facts.
+- AGI v001 visual renderer was written in this project session with Codex (GPT-6). Its actual code and render process are separately recorded; no source-video frames were used as generated visual output.
+- Playwright and YAML dependencies retain their package licenses. Optional NumPy / MLX Whisper packages retain theirs. v001 uses system fonts; model weights and dependency source trees are excluded from Git.
+- AGI v002 adapts the TypeScript/Three.js engine, scenes and analysis algorithms from mexicat/pdoom-video at commit bdbad537a7b7af3213475651774030c47568c181. Copyright (c) 2026 Giacomo Magnanini. Its MIT notice is retained in v002/renderer/LICENSE.reference.txt and v002/analysis/tooling/LICENSE.reference.txt. This applies to that code, not a blanket music/lyrics license.
+- v002 vendors the reference renderer's font assets (Archivo, IBM Plex Mono, Cormorant Garamond; OFL) and single-stroke font data (OFL / public domain as attributed upstream), with its font notice retained under renderer/public/fonts/src/OFL.txt. Upstream rendered rewind thumbnails are imported reference assets, recorded separately with rights TBD.
+- Three.js, Vite, TypeScript, opentype.js, ws and the audio-analysis dependencies retain their own licenses. Models and generated stem/intermediate files are confined to ignored .cache paths.

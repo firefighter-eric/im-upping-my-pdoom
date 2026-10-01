@@ -1,0 +1,7 @@
+{
+  "reference_audio_duration": 156.651,
+  "local_audio_duration": 156.65066666666667,
+  "rms_correlation": 0.931243792388378,
+  "best_offset_seconds": 0.02,
+  "method": "Compare local mono RMS against source 100Hz loudness envelope across +/-0.75s"
+}

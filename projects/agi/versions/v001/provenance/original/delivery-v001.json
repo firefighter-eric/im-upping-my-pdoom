@@ -1,0 +1,133 @@
+{
+  "id": "LLMV_001_MV_DELIVERY_001",
+  "version": "v001",
+  "status": "review",
+  "date": "2026-10-01",
+  "timezone": "Asia/Shanghai",
+  "user_requests": [
+    "根据AGI视频拿出来的音频，制作一个MV视频",
+    "3个版本都做"
+  ],
+  "model": "Codex (GPT-6)",
+  "method": "Original deterministic Canvas 2D animation -> Chrome JPEG frames -> ffmpeg H.264; source AAC stream-copy",
+  "seed_policy": "Deterministic procedural hash function; no random model sampling",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "node": "v25.8.2"
+  },
+  "inputs": {
+    "audio_id": "LLMV_001_AUDIO_001",
+    "audio_sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+    "wav_sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197",
+    "reference_lyric_timing_url": "https://raw.githubusercontent.com/mexicat/pdoom-video/main/data/lyrics.json"
+  },
+  "source_hashes": {
+    "renderer.html": "2e4708104bb23d2b9c8fb1e5c6280c7ef42b4ce847b51856d1b4f4ca9dd7e487",
+    "render.mjs": "cd96c2a10a8e9f0e3b46b87585f7d1f1ee0e774ab22447a3ae37b06a77360f54",
+    "analyze.py": "c9e386b01d9a7a6ea15c2309beea0db45d685d53f293a6efebb903edef3c58d4",
+    "audio-features-v001.json": "0a3dfc20059920e2583c22bd8f977f329f9291dd8d06201a4b5324ce213b2290",
+    "transcribe.py": "18ab54c2b5aeb5c5d6ece93539438cc081bb9955a93decc7162b4a54c9a43068",
+    "transcript-asr-v001.json": "33fed4ac69014f57f17026a0020b43d8b5723815936a9a8dbc735c4d70bea5e4",
+    "reference-lyric-timing-v001.json": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "lyric-alignment-check-v001.json": "4db3120e914e4dd34aee120b9f3c5c09eec88408f909b855d1518a82a50e779e"
+  },
+  "outputs": [
+    {
+      "id": "LLMV_001_MV_001",
+      "label": "科幻抽象版",
+      "path": "generations/LLMV_001_MV_001_abstract_1080p24_v001.mp4",
+      "version": "v001",
+      "status": "review",
+      "description": "信号球体、数据隧道、波场与事件视界，随原音轨变化。",
+      "poster": "analysis/LLMV_001_MV_001_poster_v001.jpg",
+      "sha256": "0346a97c5c5ef0b5cc872f3138ba09958b2c85d212f2e0205bcf309221785910",
+      "size_bytes": 109037761,
+      "duration_seconds": 156.666667,
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "24/1",
+      "frame_count": 3760,
+      "audio_source_id": "LLMV_001_AUDIO_001",
+      "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+      "generation_date": "2026-10-01",
+      "rights_status": "TBD",
+      "model": "Codex (GPT-6) code-authored Canvas 2D; no video diffusion model",
+      "production_record": "production/mv-v001/delivery-v001.json",
+      "known_issues": []
+    },
+    {
+      "id": "LLMV_001_MV_002",
+      "label": "AGI 觉醒叙事版",
+      "path": "generations/LLMV_001_MV_002_narrative_1080p24_v001.mp4",
+      "version": "v001",
+      "status": "review",
+      "description": "从实验室启动到网络扩张、失控与余波的八段几何动画。",
+      "poster": "analysis/LLMV_001_MV_002_poster_v001.jpg",
+      "sha256": "12841efd0148a5a366d3a91a8824f57f1a1810255a266459f6ae493ae4dda24a",
+      "size_bytes": 109777138,
+      "duration_seconds": 156.666667,
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "24/1",
+      "frame_count": 3760,
+      "audio_source_id": "LLMV_001_AUDIO_001",
+      "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+      "generation_date": "2026-10-01",
+      "rights_status": "TBD",
+      "model": "Codex (GPT-6) code-authored Canvas 2D; no video diffusion model",
+      "production_record": "production/mv-v001/delivery-v001.json",
+      "known_issues": []
+    },
+    {
+      "id": "LLMV_001_MV_003",
+      "label": "歌词视觉版",
+      "path": "generations/LLMV_001_MV_003_lyrics_1080p24_v001.mp4",
+      "version": "v001",
+      "status": "review",
+      "description": "保留原英文歌词，逐词高亮与副歌强调，完整保留尾奏。",
+      "poster": "analysis/LLMV_001_MV_003_poster_v001.jpg",
+      "sha256": "dd38b9d9f660eebd308f1d9ff05bfaec6e2b1a0cef2cd2de55e4ce75c80ca2d5",
+      "size_bytes": 21146293,
+      "duration_seconds": 156.666667,
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "24/1",
+      "frame_count": 3760,
+      "audio_source_id": "LLMV_001_AUDIO_001",
+      "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+      "generation_date": "2026-10-01",
+      "rights_status": "TBD",
+      "model": "Codex (GPT-6) code-authored Canvas 2D; no video diffusion model",
+      "production_record": "production/mv-v001/delivery-v001.json",
+      "known_issues": [
+        "歌词逐词时间来自来源项目，个别发音与高亮需人工审看"
+      ]
+    }
+  ],
+  "rights": {
+    "visuals": "Original code authored for this request",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001"
+  },
+  "validation": {
+    "full_decode": "passed",
+    "frame_count": 3760,
+    "cfr": "24/1",
+    "audio_packet_copy": "identical for all three",
+    "story_studio": "passed: all 3 exact candidates readyState=4, playback advances, seek at 47/100/145s, error=null",
+    "story_studio_record": "story-studio-playback-v001.json",
+    "tests": "16 passed",
+    "typescript": "passed",
+    "horizontal_overflow": false,
+    "lyric_alignment": {
+      "reference_audio_duration": 156.651,
+      "local_audio_duration": 156.65066666666667,
+      "rms_correlation": 0.931243792388378,
+      "best_offset_seconds": 0.02,
+      "method": "Compare local mono RMS against source 100Hz loudness envelope across +/-0.75s"
+    }
+  },
+  "render_status": "completed"
+}

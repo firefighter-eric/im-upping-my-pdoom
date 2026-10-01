@@ -1,0 +1,141 @@
+id: LLMV_001
+title: AGI
+source_title: 吓哭了Opus5.5 AGI概念MV
+status: review
+version: v001
+imported_at: 2026-10-01
+source_url: https://www.bilibili.com/video/BV18ta86EEHb/
+source_platform_id: BV18ta86EEHb
+source_aid: 117342331868425
+source_cid: 42246409074
+uploader: 白雪仅当雪白
+uploader_id: 593044297
+source_published_at: 2026-09-27T17:47:56+08:00
+description: |-
+  在黑x上很火的pdoomMV，这个是我觉得看起来最神的一个。
+
+  作者是mexicat开源了项目在https://github.com/mexicat/pdoom-video.
+
+  视频是4K快门0采样auto拖影强度0.35参数重新渲染的。
+project_url: https://github.com/mexicat/pdoom-video
+production_method: 页面简介称作者为 mexicat，来源项目为 pdoom-video；本条为用户指定的 LLM 视频制作参考。实际使用的 LLM、生成 Prompt 和渲染过程为 TBD，未将标题中的 Opus5.5 作为已验证模型记录。
+rights:
+  status: TBD
+  notes: 用户提供链接用于项目内部学习参考；源视频、音乐、对白、图形与转载、改编和商业使用权利待确认。
+download:
+  method: bilibili_public_view_and_playurl_range_download
+  access: anonymous_without_cookies
+  quality: 64
+  format: mp4720
+  notes: 匿名接口提供 720p H.264/AAC；未下载或声称取得 4K。首轮响应不完整，最终逐段验证 Content-Range 和总字节数，完整音画解码通过。
+  size_bytes: 38410013
+video:
+  id: LLMV_001_SOURCE
+  label: 参考原片
+  path: references/LLMV_001_source_v001.mp4
+  sha256: 47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890
+  size_bytes: 38410013
+  duration_seconds: 156.687625
+  codec: h264
+  width: 1280
+  height: 720
+  frame_rate: 30/1
+audio:
+  - id: LLMV_001_AUDIO_001
+    label: M4A · 原始音轨
+    path: audio/LLMV_001_audio_original_v001.m4a
+    sha256: c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274
+    size_bytes: 3335582
+    duration_seconds: 156.650667
+    codec: aac
+    channels: 2
+    sample_rate: 48000
+  - id: LLMV_001_AUDIO_002
+    label: WAV · 编辑用音频
+    path: audio/LLMV_001_audio_pcm_v001.wav
+    sha256: a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197
+    size_bytes: 30077006
+    duration_seconds: 156.650667
+    codec: pcm_s16le
+    channels: 2
+    sample_rate: 48000
+poster: analysis/LLMV_001_poster_v001.jpg
+processing:
+  tool: ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers
+  audio_original: ffmpeg -i references/LLMV_001_source_v001.mp4 -map 0:a:0 -vn -c:a copy -movflags +faststart
+    audio/LLMV_001_audio_original_v001.m4a
+  audio_pcm: ffmpeg -i references/LLMV_001_source_v001.mp4 -map 0:a:0 -vn -c:a pcm_s16le audio/LLMV_001_audio_pcm_v001.wav
+  notes: 不裁剪、不变速、不分离人声与伴奏；M4A 无重编码，WAV 解码为 16-bit PCM，保留 48kHz 双声道。
+  date: 2026-10-01
+known_issues:
+  - rights_TBD
+  - actual_llm_model_and_prompts_TBD
+  - anonymous_download_is_720p_not_4k
+generations:
+  - id: LLMV_001_MV_001
+    label: 科幻抽象版
+    path: generations/LLMV_001_MV_001_abstract_1080p24_v001.mp4
+    version: v001
+    status: review
+    description: 信号球体、数据隧道、波场与事件视界，随原音轨变化。
+    poster: analysis/LLMV_001_MV_001_poster_v001.jpg
+    sha256: 0346a97c5c5ef0b5cc872f3138ba09958b2c85d212f2e0205bcf309221785910
+    size_bytes: 109037761
+    duration_seconds: 156.666667
+    codec: h264
+    width: 1920
+    height: 1080
+    frame_rate: 24/1
+    frame_count: 3760
+    audio_source_id: LLMV_001_AUDIO_001
+    audio_packet_hash: SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d
+    generation_date: 2026-10-01
+    rights_status: TBD
+    model: Codex (GPT-6) code-authored Canvas 2D; no video diffusion model
+    production_record: production/mv-v001/delivery-v001.json
+    known_issues: []
+  - id: LLMV_001_MV_002
+    label: AGI 觉醒叙事版
+    path: generations/LLMV_001_MV_002_narrative_1080p24_v001.mp4
+    version: v001
+    status: review
+    description: 从实验室启动到网络扩张、失控与余波的八段几何动画。
+    poster: analysis/LLMV_001_MV_002_poster_v001.jpg
+    sha256: 12841efd0148a5a366d3a91a8824f57f1a1810255a266459f6ae493ae4dda24a
+    size_bytes: 109777138
+    duration_seconds: 156.666667
+    codec: h264
+    width: 1920
+    height: 1080
+    frame_rate: 24/1
+    frame_count: 3760
+    audio_source_id: LLMV_001_AUDIO_001
+    audio_packet_hash: SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d
+    generation_date: 2026-10-01
+    rights_status: TBD
+    model: Codex (GPT-6) code-authored Canvas 2D; no video diffusion model
+    production_record: production/mv-v001/delivery-v001.json
+    known_issues: []
+  - id: LLMV_001_MV_003
+    label: 歌词视觉版
+    path: generations/LLMV_001_MV_003_lyrics_1080p24_v001.mp4
+    version: v001
+    status: review
+    description: 保留原英文歌词，逐词高亮与副歌强调，完整保留尾奏。
+    poster: analysis/LLMV_001_MV_003_poster_v001.jpg
+    sha256: dd38b9d9f660eebd308f1d9ff05bfaec6e2b1a0cef2cd2de55e4ce75c80ca2d5
+    size_bytes: 21146293
+    duration_seconds: 156.666667
+    codec: h264
+    width: 1920
+    height: 1080
+    frame_rate: 24/1
+    frame_count: 3760
+    audio_source_id: LLMV_001_AUDIO_001
+    audio_packet_hash: SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d
+    generation_date: 2026-10-01
+    rights_status: TBD
+    model: Codex (GPT-6) code-authored Canvas 2D; no video diffusion model
+    production_record: production/mv-v001/delivery-v001.json
+    known_issues:
+      - 歌词逐词时间来自来源项目，个别发音与高亮需人工审看

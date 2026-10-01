@@ -1,0 +1,9 @@
+schema_version: 1
+name: im-upping-my-pdoom
+organization: project-and-version
+projects_root: projects
+version_pattern: vNNN
+initial_project_id: LLMV_001
+initial_project_slug: agi
+shared_tools: scripts
+review_policy: human-approval-required

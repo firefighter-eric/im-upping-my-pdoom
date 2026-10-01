@@ -1,0 +1,370 @@
+{
+  "id": "AUDIO_2026-10-01T16-30-29-518Z_d723143c",
+  "project_id": "LLMV_001",
+  "version": "v002",
+  "purpose": "audio-analysis",
+  "stage": "all",
+  "status": "completed",
+  "started_at": "2026-10-01T16:30:29.519Z",
+  "input_sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197",
+  "lyrics_sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+  "tools": {
+    "align.py": "3a04f6008c3397b4cce55c7f2dee478abb5f71079af528ce5334a5aa1d4d02ce",
+    "analyze.py": "dd52b92ead6748a8e8ca5088de180f837da7121098265d3bec4c6e94e5ae238c",
+    "common.py": "6e3b14ff994d20daa0c82d6b82df10abb3e7a585d17e7b5100e973c75d2e23ad",
+    "ctc_emissions.py": "6f6950775afdf3dfd8c2f97bf8a669f350aa861c0a027ca941d7332d13225c7e",
+    "ctcalign.py": "780e9d6106f99f6f0703ce2fa8a9437f94f18b7a64181abb9bb861ca738887d5",
+    "lead.py": "89278500f85de2c70e70a2d8d6b1f98275d47d38a199768ba2f109685a571ca9",
+    "make_fonts.py": "15a5e30d5673df02d6e602343137e8c0b5f06a00d32c4c1c7226331393a1a067",
+    "pron.py": "394a94dd9fa3e95522385ee6b52de813a78d1cd003f4c032cec17316a7196000",
+    "qa_plot.py": "fad9c10259cc75e22ad182b50fed2e638c4a0044bc62512a656c39d180941512",
+    "separate.py": "7710d6bef79f98efb4c6b06e2334a0a430830f924cd89e47541ac723215a1864",
+    "vocal_feats.py": "dbfa09c54ac61d25310067502f1ef3856ff68009a52de317b9e858f573f733e8",
+    "whisper_run.py": "6076811970f9ed63bce3246458e29299b8317046f3e424de39dd8bf83982cbba",
+    "zoom.py": "9882ba138ce883efedc1460fdccf0a402e9a5a1661f47680e200c55d51725f9e"
+  },
+  "parameters": {
+    "device": "mps",
+    "demucs_model": "htdemucs_ft",
+    "lead_model": null,
+    "stem_offset_seconds": 0
+  },
+  "steps": [
+    {
+      "name": "separate",
+      "status": "completed",
+      "started_at": "2026-10-01T16:30:29.562Z",
+      "finished_at": "2026-10-01T16:31:12.725Z"
+    },
+    {
+      "name": "ctc_emissions",
+      "status": "completed",
+      "started_at": "2026-10-01T16:31:12.725Z",
+      "finished_at": "2026-10-01T16:32:32.839Z"
+    },
+    {
+      "name": "whisper_run",
+      "status": "completed",
+      "started_at": "2026-10-01T16:32:32.840Z",
+      "finished_at": "2026-10-01T16:33:44.011Z"
+    },
+    {
+      "name": "vocal_feats",
+      "status": "completed",
+      "started_at": "2026-10-01T16:33:44.012Z",
+      "finished_at": "2026-10-01T16:33:51.968Z"
+    },
+    {
+      "name": "align",
+      "status": "completed",
+      "started_at": "2026-10-01T16:33:51.969Z",
+      "finished_at": "2026-10-01T16:34:15.451Z"
+    },
+    {
+      "name": "analyze",
+      "status": "completed",
+      "started_at": "2026-10-01T16:34:15.451Z",
+      "finished_at": "2026-10-01T16:34:21.934Z"
+    }
+  ],
+  "outputs": [
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/data/audio.json",
+      "sha256": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/data/lyrics.json",
+      "sha256": "4b66dc422bf3d9a168097fba0b9c534eaa24c3a37d4dcf3e6299e357b576d8f5"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_000.png",
+      "sha256": "4342929d42352945f9ff6a0a93ba56499b3e4d601e8a6d41f76c53e396c6a4ab"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_014.png",
+      "sha256": "20b4dfd25bc04421ccba55bd217425fb5b4785e5a7807028310afaaf187edbc1"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_028.png",
+      "sha256": "7b04989f16a87452106467cc882c465f0a512c7888f863fcc900ed56b2e9df87"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_056.png",
+      "sha256": "572afe441a5901cc69c743079d04eafa974b4cbe377c6152a9bc25110c895f75"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_086.png",
+      "sha256": "f6606f28e16cfba87c09cf54d39995c98da8d274911b4d03d7172fb402d58af7"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_106.png",
+      "sha256": "34de9b28ac906d6c5ddd11b934c8b2ec381ce7d14366698ea2e3fe0d6ac94abe"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_136.png",
+      "sha256": "5b991cbec896088018637c0b29a4539a7f667a396be1fb5a4ee5119c69a55d5f"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_148.png",
+      "sha256": "bfbd51d3744c6ee3c5b153a1f1b7d9a1955c097e62cd8703746de0298440d2f4"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/audio_overview.png",
+      "sha256": "852d99f4448fa34bf9ced9277764dbabc8777430ff64813785432e83dcdb03af"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_00.png",
+      "sha256": "d7c4300c8aaf45433884eecd4691081c91d0cc929588fe37fcb01314a88c1dfb"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_01.png",
+      "sha256": "2064be35eb0d0d637f856d6c865ecae50851d1b3f35d46212bb8574fb7595e3f"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_02.png",
+      "sha256": "a975d3cbeecf198e666f8d305da23470d9ecbaf593ad060e0748b7147c772a66"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_03.png",
+      "sha256": "774e3a7884d3498701c38887743f8d5f8e13457389bef7cd7dac97c4eba8a2dd"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_04.png",
+      "sha256": "f0a3c6c337eb9be3df7a2a968312cc67497553cf17315ef20be19760caad65bd"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_05.png",
+      "sha256": "ab05caa85358febabcbab70c14f264aa8b62606d63deb42e24039d7a07c6d905"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_06.png",
+      "sha256": "f51e877736d6af69d108eb311b2150f52dd52e62cd1b3742c7c04d3909ae394b"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_07.png",
+      "sha256": "6fa37e3218bfc2528924f7f217fe9e539c3bcfb553e15370daa024dcfb8def7a"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_08.png",
+      "sha256": "a22ca6e602a234c5abf0b8b604260052d99981e04b28434cf4cbe2624bb7b3a0"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_09.png",
+      "sha256": "057b6e8d620f9d078e50d8299d018f4a8cd09d6322dfb7875da744f97ead92fe"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_10.png",
+      "sha256": "248a49f16761fbdf24e0297c71bdad4d88db1f02f24d20b58066c2cfbdb64fe6"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_11.png",
+      "sha256": "4763a8d020fd5bdfc3741318613ce7dbf1a82af528cbb79786fd2a7b3f220547"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_12.png",
+      "sha256": "28389ddd327b22e28124b61bbdd389a9b626e1961d8bedebca38a4f40b988c02"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_13.png",
+      "sha256": "84f7d1b9f10be4ffa6a2b26d7426207ccee288dc9a8494e150ae3506b5551fe3"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_14.png",
+      "sha256": "d711bb42ab0e8c3602f021161100c7bc159834e10926abc2bebf9d3b19b5cdc7"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_15.png",
+      "sha256": "4e287d91d3c0a5e9cee9d114fc38276a3cf6e28114e2916e1074b18e9506f5b0"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_16.png",
+      "sha256": "493013c9dafebdde7fecc7854fc6719f1ba051e1bf59cef9149c0f594927e2a5"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_17.png",
+      "sha256": "e2c58945abdcb8ecce2ec114810286d2cef65a60b0fbf750ada272477799a362"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_18.png",
+      "sha256": "d1450f7ec48de3654f5ec47e246429c443ffb41fc940b7ab689d76abfb661b00"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_19.png",
+      "sha256": "def020ca2b6afb50a7089239b66f1161eb29c0255f94fe2e0994ede1fe9bba63"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_20.png",
+      "sha256": "ba65ed7eb343252a7c9a1c1e93cfa3c563171c2e3c3e467652bebe2fc781955b"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_21.png",
+      "sha256": "d5b9d50bc03101591c66a068497721a96eb7b2089543055d3f1285498ba937e2"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_22.png",
+      "sha256": "b088f07402ce15e9d8dac27f1e2658bdfcc0894fae810ac2e6936c69fb42230d"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_23.png",
+      "sha256": "79b0c4bce797780f8858ebbb02fd5884d5159956edee00967824951ed13c821e"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_24.png",
+      "sha256": "81f8037b51f19ef0738b934cc77f274e0eaff91d514483d3129189828ea516f8"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_25.png",
+      "sha256": "f833e07e157130669e7bc3dfc4c025163ce0608cef1a8d168ed32c81200ddf41"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_26.png",
+      "sha256": "809e13cbf5988ba0b8a76cbf9712a9748770f9939a6b8afe1a556d7f856177c8"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_27.png",
+      "sha256": "d6e6169174a4a5a5f862df9be0cbf0e17e297e6df1ba5baabe9a1777c6b4934d"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_28.png",
+      "sha256": "d3407c22d1e5e89e33db6b959cf46aa3e24fd66ebc051a8eb2b59a111792c955"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_29.png",
+      "sha256": "daa1853393cf99723db413c980d41de43445a16fad6e2d38a58295a0ff506797"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_30.png",
+      "sha256": "58bb7d7a2ba0940aacc74ff69b7078af317658cd3c180afc2cf8eb768ce649bf"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_31.png",
+      "sha256": "aed3343e59f88f9fdeb48a5ff7c2c9b3c47a2ce2b9fc04057c6ef189b2482720"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_32.png",
+      "sha256": "fb8edd1478201553c50d825d9b7b4c8ece6ff2828d3f88d503969b0ed39133d5"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_33.png",
+      "sha256": "55e6164324d6518916ae86177e1aa738c2be4b9736bb050ccd63d3af251d21b2"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_34.png",
+      "sha256": "f3f8b5b3ac50ce5017e312c6f29eaf607d1339c09f612ba8c98709089d24540d"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_35.png",
+      "sha256": "51f9e72279d9e16ddd23036e1cd93169f6cd6c72751603908a0de1d892827ea8"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_36.png",
+      "sha256": "41ba5af077766c891ae1aa48dfb64b01adad52069fddc6b5ab1b82ea1a9a83af"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_37.png",
+      "sha256": "4c3669c7bcb239e1fcc68f244708d42c3e13ae55ce6b1729451396cadea3a674"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_38.png",
+      "sha256": "73ce70a31ceab07787ae001819369e9f9be96e6a6fb0d4f0467b84f414339f63"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_39.png",
+      "sha256": "e723baa1ba96f048864a9c46ddea292f54f1948cb031d3fd2bb459068ecde2ec"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_40.png",
+      "sha256": "649eb5f5e347b7d1db7ba34fd1941473d753f6ad3fec04cd3ac61a541bfbe14f"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_41.png",
+      "sha256": "a7430ed2431ddea65e5e6253aef270934b24c47e68a07969f857cd5d10b11e33"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_42.png",
+      "sha256": "1c0eb450da487a225ca36af4188b4f1c4d5fc20d076a1c3d26e97ab0a9e7ca1f"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_43.png",
+      "sha256": "ee7b9832587c99b84109e9f8222616260082afdf65dbf10986fcefebd119acb2"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_44.png",
+      "sha256": "2d15dca614363a276e06432be8122801b5c9d259d90d56024d8a66a0a5a1c948"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/qa/line_45.png",
+      "sha256": "736a259c74702c41282e80b30882a50f63239685adbbc8ee636034bdd8a780f2"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/stems/bass.wav",
+      "sha256": "f78e0ecac03c354397b3e23747c05075c16a812276b1a3e490a2039ea29d7b50"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/stems/drums.wav",
+      "sha256": "dae5152a0b7637a3d46f10e457fa2a05230db32a578d58ebe4a9a0565ecb5789"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/stems/other.wav",
+      "sha256": "a1ff2a6f98d475f5dc9d0e47638c810bd8f369fecbb1eff08de9396a9bd72141"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/stems/vocals.wav",
+      "sha256": "bbed0ba717f4534299e20786379143ba3e414274f3257a88a4b33e5cf04a1019"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/align_debug.json",
+      "sha256": "7a812c22175c15df081eb520d805a96556fba13d151f0aaac768adf22269ea00"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_lv60k.npy",
+      "sha256": "a63725797d3b88f4d49f5eb982f0b2607dfb43d134e04954da416ca82105abf1"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_lv60k_vocL.npy",
+      "sha256": "4a1f7bf242ca8727b41cea14a031949e01a12dc82dcd0a0df9ab43038eb09c89"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_lv60k_vocR.npy",
+      "sha256": "27e4d71143cf0f2b105e1c3337153c96690fa03779a39ffff79e98cc8c3bb13d"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_mms.npy",
+      "sha256": "35c1660afcac67e744df4c21bfd6377782b8ac81b6eea270a28032ad7984e305"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_mms_vocL.npy",
+      "sha256": "87178c48d15070857578352f8684e7acaabf51502f59beec52b0f9306c2fb3c7"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/emission_mms_vocR.npy",
+      "sha256": "d425a76814ded274126bfbfd88335f9eaee20d734835d50c58b56e6c7af5128e"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/vocal_feats.npz",
+      "sha256": "530c7ccec50de92347ba0391bd37f41d908bc859461def20883972618697898c"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/vocals16k.wav",
+      "sha256": "a6b5628af776050d4b7ba665bae7e50561f2bc42447ec0b7fdee61b28c6f8c5a"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/whisper_turbo.json",
+      "sha256": "cc6b68a6ef45b42992f9f2d3039af7256ccc368b5ac4404b87f12f1a0373e499"
+    },
+    {
+      "path": ".cache/audio/agi/v002/AUDIO_2026-10-01T16-30-29-518Z_d723143c/work/whisper_turbo_prompt.json",
+      "sha256": "c961c48af46f2f078a76e44fe3b3d849912d64d0663b675c4b8cfda9a55f7f9a"
+    }
+  ],
+  "packages": {
+    "demucs": "4.1.0",
+    "torch": "2.14.1",
+    "torchaudio": "2.11.0",
+    "librosa": "1.0.0",
+    "numpy": "2.5.3",
+    "mlx-whisper": "0.4.3",
+    "audio-separator": "0.47.0"
+  },
+  "finished_at": "2026-10-01T16:34:22.055Z"
+}

@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-01",
+  "source_project": "AI Short Drama / LLMV_001_pdoom",
+  "method": "byte-preserving copy, original retained",
+  "files": [
+    {
+      "path": "projects/agi/sources/analysis/LLMV_001_MV_001_poster_v001.jpg",
+      "size_bytes": 100280,
+      "sha256": "0d9999b4e4f63ee6bae1f1dea3579e45e3ad5c5ef362855ff78400299648e583",
+      "source_relative_path": "analysis/LLMV_001_MV_001_poster_v001.jpg"
+    },
+    {
+      "path": "projects/agi/sources/analysis/LLMV_001_MV_002_poster_v001.jpg",
+      "size_bytes": 195576,
+      "sha256": "c6e0e7af87dc935491ec3ea48b81be57e5b0631266048ad721c3f9fb419fde52",
+      "source_relative_path": "analysis/LLMV_001_MV_002_poster_v001.jpg"
+    },
+    {
+      "path": "projects/agi/sources/analysis/LLMV_001_MV_003_poster_v001.jpg",
+      "size_bytes": 125395,
+      "sha256": "4e66c4fa131e5ab11fc849e3543eeb372d5e8a09befdb502f17023720ecb50b4",
+      "source_relative_path": "analysis/LLMV_001_MV_003_poster_v001.jpg"
+    },
+    {
+      "path": "projects/agi/sources/analysis/LLMV_001_poster_v001.jpg",
+      "size_bytes": 183584,
+      "sha256": "00764747ceeb73948fc94991cd3f2eea4167f82a2542274875c694a6981987ce",
+      "source_relative_path": "analysis/LLMV_001_poster_v001.jpg"
+    },
+    {
+      "path": "projects/agi/sources/analysis/llmv_001_audio_001_ffprobe_v001.json",
+      "size_bytes": 1999,
+      "sha256": "3876320bc17de87c7a4a8e20a0b09360c583a0ede5807ebe9afa4b687e87ac92",
+      "source_relative_path": "analysis/llmv_001_audio_001_ffprobe_v001.json"
+    },
+    {
+      "path": "projects/agi/sources/analysis/llmv_001_audio_002_ffprobe_v001.json",
+      "size_bytes": 1490,
+      "sha256": "f58899926204a1aa47b6f0bf31d290448b3fd636a4f5d4d4c112f9cee2c50ede",
+      "source_relative_path": "analysis/llmv_001_audio_002_ffprobe_v001.json"
+    },
+    {
+      "path": "projects/agi/sources/analysis/llmv_001_source_ffprobe_v001.json",
+      "size_bytes": 3659,
+      "sha256": "a3ffeb7264b99442a451828f7115a2e4eb68a60ea8bb7771c739c1a4bdef94c1",
+      "source_relative_path": "analysis/llmv_001_source_ffprobe_v001.json"
+    },
+    {
+      "path": "projects/agi/sources/analysis/source-metadata_v001.json",
+      "size_bytes": 590,
+      "sha256": "9d7b88e48364a0fcd8e0b3f6d74a0b75dfcfba72f251f3e408120c8acd5bcf5d",
+      "source_relative_path": "analysis/source-metadata_v001.json"
+    },
+    {
+      "path": "projects/agi/sources/asset-original-v001.yaml",
+      "size_bytes": 5676,
+      "sha256": "34cb3843645138fca42963f08a72e2c9689d7e927d23d9e37198404283d04de6",
+      "source_relative_path": "asset.yaml"
+    },
+    {
+      "path": "projects/agi/sources/audio/LLMV_001_audio_original_v001.m4a",
+      "size_bytes": 3335582,
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "source_relative_path": "audio/LLMV_001_audio_original_v001.m4a"
+    },
+    {
+      "path": "projects/agi/sources/audio/LLMV_001_audio_pcm_v001.wav",
+      "size_bytes": 30077006,
+      "sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197",
+      "source_relative_path": "audio/LLMV_001_audio_pcm_v001.wav"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_001_abstract_1080p24_v001.mp4",
+      "size_bytes": 109037761,
+      "sha256": "0346a97c5c5ef0b5cc872f3138ba09958b2c85d212f2e0205bcf309221785910",
+      "source_relative_path": "generations/LLMV_001_MV_001_abstract_1080p24_v001.mp4"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_002_narrative_1080p24_v001.mp4",
+      "size_bytes": 109777138,
+      "sha256": "12841efd0148a5a366d3a91a8824f57f1a1810255a266459f6ae493ae4dda24a",
+      "source_relative_path": "generations/LLMV_001_MV_002_narrative_1080p24_v001.mp4"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_003_lyrics_1080p24_v001.mp4",
+      "size_bytes": 21146293,
+      "sha256": "dd38b9d9f660eebd308f1d9ff05bfaec6e2b1a0cef2cd2de55e4ce75c80ca2d5",
+      "source_relative_path": "generations/LLMV_001_MV_003_lyrics_1080p24_v001.mp4"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/TREATMENT.md",
+      "size_bytes": 2856,
+      "sha256": "22702250cd76bf89e4269867600516a5f06c69e47f8bebf0aad8084f3d639fc0",
+      "source_relative_path": "production/mv-v001/TREATMENT.md"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-100.jpg",
+      "size_bytes": 109994,
+      "sha256": "546e651f9d81ab791c394dcffb510c7981dcab38b1259cca2cff390c7a98e529",
+      "source_relative_path": "production/mv-v001/abstract-100.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-124.jpg",
+      "size_bytes": 127280,
+      "sha256": "04b816852c0ebe46bec4555fe9ba06b35693147f30f5d666ee2551435c06d686",
+      "source_relative_path": "production/mv-v001/abstract-124.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-145.jpg",
+      "size_bytes": 53984,
+      "sha256": "49f395b5a97803f02ccfa34414c240b0e532ee2740dab6dfbbf07638574642a2",
+      "source_relative_path": "production/mv-v001/abstract-145.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-27.jpg",
+      "size_bytes": 161155,
+      "sha256": "6d0e702cf6e5a8cf9a4ad6f784e4b4b8405fb80f39593b09392461bdb52715ef",
+      "source_relative_path": "production/mv-v001/abstract-27.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-46.jpg",
+      "size_bytes": 69354,
+      "sha256": "b33a9ccfa13a2921e56b0ae8b7146765acf2c47c081aa2303bf4de4a4436d485",
+      "source_relative_path": "production/mv-v001/abstract-46.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-5.jpg",
+      "size_bytes": 67328,
+      "sha256": "ad09894b2192271248a892c86cbd98f8f44a7f231df3cbc4eacce674cd455a83",
+      "source_relative_path": "production/mv-v001/abstract-5.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-64.jpg",
+      "size_bytes": 116179,
+      "sha256": "f0ea8f3e337bcf9b9056fcaa7009402a99e91f936d178deb3123dd65726ac000",
+      "source_relative_path": "production/mv-v001/abstract-64.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/abstract-83.jpg",
+      "size_bytes": 164462,
+      "sha256": "d7e430c936053419c0dc16f84d3c768836c68752ca092c96391e8beb309273a1",
+      "source_relative_path": "production/mv-v001/abstract-83.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/analyze.py",
+      "size_bytes": 873,
+      "sha256": "c9e386b01d9a7a6ea15c2309beea0db45d685d53f293a6efebb903edef3c58d4",
+      "source_relative_path": "production/mv-v001/analyze.py"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/audio-features-v001.json",
+      "size_bytes": 96467,
+      "sha256": "0a3dfc20059920e2583c22bd8f977f329f9291dd8d06201a4b5324ce213b2290",
+      "source_relative_path": "production/mv-v001/audio-features-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/contact-sheet-v001.jpg",
+      "size_bytes": 128251,
+      "sha256": "643a2ec534c67ff1cc8ddcb34ad04212b8ea1752d84ea031b2c07d20eac38fe7",
+      "source_relative_path": "production/mv-v001/contact-sheet-v001.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/delivery-v001.json",
+      "size_bytes": 5815,
+      "sha256": "28d130c2e2954d7d46fd0cbb637df751c3f5843d9f8ea3b0a0b0c4472bfa2a2f",
+      "source_relative_path": "production/mv-v001/delivery-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyric-alignment-check-v001.json",
+      "size_bytes": 251,
+      "sha256": "4db3120e914e4dd34aee120b9f3c5c09eec88408f909b855d1518a82a50e779e",
+      "source_relative_path": "production/mv-v001/lyric-alignment-check-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-100.jpg",
+      "size_bytes": 101951,
+      "sha256": "ac659ea5011920192b0f2079fe6f6294a857fc47386a748b54ed208d25b04c3c",
+      "source_relative_path": "production/mv-v001/lyrics-100.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-124.jpg",
+      "size_bytes": 99321,
+      "sha256": "2c27e978d2dc4f9ad42e7720d540f39ec6331584d42fee4809f7dc22a2d81b2a",
+      "source_relative_path": "production/mv-v001/lyrics-124.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-145.jpg",
+      "size_bytes": 82811,
+      "sha256": "8e9d4461800415fcee50cccb903de96ede134f7f9bd37c574a4265f6908d496b",
+      "source_relative_path": "production/mv-v001/lyrics-145.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-27.jpg",
+      "size_bytes": 107095,
+      "sha256": "e5a2208e83f12962d7127aca81438448539804ca8d0bc37ac4acf7db73d5fb75",
+      "source_relative_path": "production/mv-v001/lyrics-27.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-46.jpg",
+      "size_bytes": 97984,
+      "sha256": "8e32fa5a8d762b4d443923b9af0e659e7084f2349830985765a0c92b5739c306",
+      "source_relative_path": "production/mv-v001/lyrics-46.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-5.jpg",
+      "size_bytes": 89634,
+      "sha256": "ddd4d8f5f8a5ace1d1597105de1c88a8813a3ca949bfba053862c6c82efabe52",
+      "source_relative_path": "production/mv-v001/lyrics-5.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-64.jpg",
+      "size_bytes": 98697,
+      "sha256": "a4c00213d4cb74c6f593db48f30a1f7582a543fbdb3dc85964815680221d67ad",
+      "source_relative_path": "production/mv-v001/lyrics-64.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/lyrics-83.jpg",
+      "size_bytes": 101565,
+      "sha256": "dfe6b12c6cef704e5bba920b080a0445f37c43b2692b6062ceecf0c9a4e5be6b",
+      "source_relative_path": "production/mv-v001/lyrics-83.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/mv-001-ffprobe-v001.json",
+      "size_bytes": 3879,
+      "sha256": "8ba3c9dd1b246917db8e9cb0e838e91068f509481c2a2790f810af807068ae37",
+      "source_relative_path": "production/mv-v001/mv-001-ffprobe-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/mv-002-ffprobe-v001.json",
+      "size_bytes": 3880,
+      "sha256": "cbd19a3c9fec80048e59ac2afd70d34b7807e853a99b872d0057f636d65a8e03",
+      "source_relative_path": "production/mv-v001/mv-002-ffprobe-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/mv-003-ffprobe-v001.json",
+      "size_bytes": 3875,
+      "sha256": "be8317d769bf64e7960025201a80b2537d29e36da1df3993f6ed672dd6fc575b",
+      "source_relative_path": "production/mv-v001/mv-003-ffprobe-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-100.jpg",
+      "size_bytes": 188633,
+      "sha256": "b2c5db673c6d69f2788edf15ce28a09775c9e4bcafaa350cf4359c6b20d7eae3",
+      "source_relative_path": "production/mv-v001/narrative-100.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-124.jpg",
+      "size_bytes": 143817,
+      "sha256": "2747e14a624468dbc1ac3feb02214d1407b31bc680f872c9c83ace93faa5a7e9",
+      "source_relative_path": "production/mv-v001/narrative-124.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-145.jpg",
+      "size_bytes": 144336,
+      "sha256": "2feb2608ff6013f4f9662014b6f5e68eedd3e7f1bb6bd52bb4df59c78d67b464",
+      "source_relative_path": "production/mv-v001/narrative-145.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-27.jpg",
+      "size_bytes": 139310,
+      "sha256": "19bece6aeaa5d3120a2b5f0a9b8b3a79c75039a51f600262f3dbbc5a2c02f842",
+      "source_relative_path": "production/mv-v001/narrative-27.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-46.jpg",
+      "size_bytes": 155424,
+      "sha256": "abd5f474cd230d8a956ee8fa9ed0c8249e1d93d890d606ae7a8e040b6f4819b7",
+      "source_relative_path": "production/mv-v001/narrative-46.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-5.jpg",
+      "size_bytes": 74698,
+      "sha256": "ebbd42234737f37182baf48ec792f2ba8eb0a9e9ef541fefe7c802e614bd9a53",
+      "source_relative_path": "production/mv-v001/narrative-5.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-64.jpg",
+      "size_bytes": 173728,
+      "sha256": "9fe0e8710b4cad67c5ca101090547b4624db97977cff64fe9fdd79cc841d9516",
+      "source_relative_path": "production/mv-v001/narrative-64.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/narrative-83.jpg",
+      "size_bytes": 195259,
+      "sha256": "776bb9390e6a713d6614a5b5d8c7b1a7c9b1e478475b71a3ad897fa64c9bd60e",
+      "source_relative_path": "production/mv-v001/narrative-83.jpg"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/reference-lyric-timing-v001.json",
+      "size_bytes": 31277,
+      "sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+      "source_relative_path": "production/mv-v001/reference-lyric-timing-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/register.mjs",
+      "size_bytes": 4682,
+      "sha256": "9104b1b6407bb6e84a392c8e5f5c96708e5b6b93c18f643bab7cc40744a43093",
+      "source_relative_path": "production/mv-v001/register.mjs"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/render.mjs",
+      "size_bytes": 2873,
+      "sha256": "cd96c2a10a8e9f0e3b46b87585f7d1f1ee0e774ab22447a3ae37b06a77360f54",
+      "source_relative_path": "production/mv-v001/render.mjs"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/renderer.html",
+      "size_bytes": 12930,
+      "sha256": "2e4708104bb23d2b9c8fb1e5c6280c7ef42b4ce847b51856d1b4f4ca9dd7e487",
+      "source_relative_path": "production/mv-v001/renderer.html"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/story-studio-playback-v001.json",
+      "size_bytes": 2195,
+      "sha256": "dbe105ca086bcc2e24393646a6f30e773de67b597d7b3f8be80346f4f4a93af5",
+      "source_relative_path": "production/mv-v001/story-studio-playback-v001.json"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/transcribe.py",
+      "size_bytes": 615,
+      "sha256": "18ab54c2b5aeb5c5d6ece93539438cc081bb9955a93decc7162b4a54c9a43068",
+      "source_relative_path": "production/mv-v001/transcribe.py"
+    },
+    {
+      "path": "projects/agi/versions/v001/provenance/original/transcript-asr-v001.json",
+      "size_bytes": 58558,
+      "sha256": "33fed4ac69014f57f17026a0020b43d8b5723815936a9a8dbc735c4d70bea5e4",
+      "source_relative_path": "production/mv-v001/transcript-asr-v001.json"
+    },
+    {
+      "path": "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+      "size_bytes": 38410013,
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+      "source_relative_path": "references/LLMV_001_source_v001.mp4"
+    }
+  ]
+}

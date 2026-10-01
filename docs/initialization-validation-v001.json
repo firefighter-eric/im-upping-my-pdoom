@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "organization": "project/version/variant",
+  "migration": {
+    "preserved_files": 55,
+    "bytes": 315625318,
+    "all_sha256_match": true
+  },
+  "checks": {
+    "javascript": "passed",
+    "tests": {
+      "passed": 4,
+      "failed": 0
+    },
+    "media": "passed: 1080p24, 3760 frames, same AAC packets",
+    "playback": "passed: three complete videos start and progress; three seeks each; readyState=4; no media errors",
+    "playback_record": "standalone-playback-v001.json",
+    "smoke": {
+      "status": "completed",
+      "variants": [
+        "abstract",
+        "narrative",
+        "lyrics"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "frames_each": 24,
+      "registered_as_delivery": false
+    }
+  },
+  "original_project": "retained; copied rather than deleted"
+}

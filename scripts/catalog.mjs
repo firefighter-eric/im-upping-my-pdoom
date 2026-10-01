@@ -1,0 +1,2 @@
+import {listProjects,loadProject,versionNames,loadVersion} from './project.mjs';
+const catalog=[];for(const slug of await listProjects()){const p=await loadProject(slug);const versions=[];for(const version of await versionNames(p.directory)){const v=await loadVersion(slug,version);versions.push({version,status:v.manifest.status,parent:v.manifest.parent_version,variants:v.manifest.variants.map(x=>({id:x.id,output:x.output?.path??null}))});}catalog.push({id:p.metadata.id,slug,title:p.metadata.title,versions});}console.log(JSON.stringify(catalog,null,2));

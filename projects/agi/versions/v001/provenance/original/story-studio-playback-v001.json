@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-01",
+  "viewport": "1600x1000",
+  "route": "http://127.0.0.1:5173/#/llm-video/LLMV_001",
+  "horizontalOverflow": false,
+  "results": [
+    {
+      "id": "LLMV_001_MV_001",
+      "label": "LLMV_001_MV_001 科幻抽象版",
+      "src": "http://127.0.0.1:5173/content/llm-video-references/LLMV_001/LLMV_001_MV_001-0346a97c5c5ef0b5.mp4",
+      "time": 1.073968,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.216923,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.220178,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.216311,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "LLMV_001_MV_002",
+      "label": "LLMV_001_MV_002 AGI 觉醒叙事版",
+      "src": "http://127.0.0.1:5173/content/llm-video-references/LLMV_001/LLMV_001_MV_002-12841efd0148a5a3.mp4",
+      "time": 1.067904,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.217391,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.221614,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.218173,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "LLMV_001_MV_003",
+      "label": "LLMV_001_MV_003 歌词视觉版",
+      "src": "http://127.0.0.1:5173/content/llm-video-references/LLMV_001/LLMV_001_MV_003-dd38b9d9f660eebd.mp4",
+      "time": 1.064212,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.21869,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.216672,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.213214,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

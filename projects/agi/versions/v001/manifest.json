@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v001",
+  "status": "review",
+  "created_at": "2026-10-01",
+  "parent_version": null,
+  "request": [
+    "根据AGI视频拿出来的音频，制作一个MV视频",
+    "3个版本都做"
+  ],
+  "model": "Codex (GPT-6)",
+  "method": "Original deterministic Canvas 2D animation -> Chrome JPEG frames -> ffmpeg H.264; source AAC stream-copy",
+  "renderer": {
+    "path": "renderer.html",
+    "entrypoint": "renderFrame",
+    "sha256": "22f4da263bf96a5c3259da5b6232ad60b5cb70cee8856c84f6d202ee3356051d"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_seconds": 156.650667,
+    "target_frames": 3760
+  },
+  "inputs": {
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    },
+    "wav": {
+      "source_id": "LLMV_001_AUDIO_002",
+      "path": "sources/audio/LLMV_001_audio_pcm_v001.wav",
+      "sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197"
+    }
+  },
+  "data": {
+    "audio_features": "data/audio-features-v001.json",
+    "lyrics": "data/reference-lyric-timing-v001.json"
+  },
+  "variants": [
+    {
+      "id": "abstract",
+      "label": "科幻抽象版",
+      "generation_id": "LLMV_001_MV_001",
+      "description": "信号球体、数据隧道、波场与事件视界，随原音轨变化。",
+      "known_issues": [],
+      "output": {
+        "sha256": "0346a97c5c5ef0b5cc872f3138ba09958b2c85d212f2e0205bcf309221785910",
+        "size_bytes": 109037761,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "frame_count": 3760,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "review",
+        "path": "outputs/LLMV_001_MV_001_abstract_1080p24_v001.mp4"
+      },
+      "poster": "sources/analysis/LLMV_001_MV_001_poster_v001.jpg"
+    },
+    {
+      "id": "narrative",
+      "label": "AGI 觉醒叙事版",
+      "generation_id": "LLMV_001_MV_002",
+      "description": "从实验室启动到网络扩张、失控与余波的八段几何动画。",
+      "known_issues": [],
+      "output": {
+        "sha256": "12841efd0148a5a366d3a91a8824f57f1a1810255a266459f6ae493ae4dda24a",
+        "size_bytes": 109777138,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "frame_count": 3760,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "review",
+        "path": "outputs/LLMV_001_MV_002_narrative_1080p24_v001.mp4"
+      },
+      "poster": "sources/analysis/LLMV_001_MV_002_poster_v001.jpg"
+    },
+    {
+      "id": "lyrics",
+      "label": "歌词视觉版",
+      "generation_id": "LLMV_001_MV_003",
+      "description": "保留原英文歌词，逐词高亮与副歌强调，完整保留尾奏。",
+      "known_issues": [
+        "歌词逐词时间来自来源项目，个别发音与高亮需人工审看"
+      ],
+      "output": {
+        "sha256": "dd38b9d9f660eebd308f1d9ff05bfaec6e2b1a0cef2cd2de55e4ce75c80ca2d5",
+        "size_bytes": 21146293,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "24/1",
+        "frame_count": 3760,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "review",
+        "path": "outputs/LLMV_001_MV_003_lyrics_1080p24_v001.mp4"
+      },
+      "poster": "sources/analysis/LLMV_001_MV_003_poster_v001.jpg"
+    }
+  ],
+  "rights": {
+    "visuals": "Original code authored for this request",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001"
+  },
+  "validation": {
+    "full_decode": "passed",
+    "frame_count": 3760,
+    "cfr": "24/1",
+    "audio_packet_copy": "identical for all three",
+    "story_studio": "passed: all 3 exact candidates readyState=4, playback advances, seek at 47/100/145s, error=null",
+    "story_studio_record": "story-studio-playback-v001.json",
+    "tests": "16 passed",
+    "typescript": "passed",
+    "horizontal_overflow": false,
+    "lyric_alignment": {
+      "reference_audio_duration": 156.651,
+      "local_audio_duration": 156.65066666666667,
+      "rms_correlation": 0.931243792388378,
+      "best_offset_seconds": 0.02,
+      "method": "Compare local mono RMS against source 100Hz loudness envelope across +/-0.75s"
+    },
+    "historical_context": "The copied validation records describe the original Story Studio delivery; standalone migration checks are in docs."
+  },
+  "historical_provenance": "provenance/original/delivery-v001.json",
+  "data_hashes": {
+    "audio_features": "0a3dfc20059920e2583c22bd8f977f329f9291dd8d06201a4b5324ce213b2290",
+    "lyrics": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d"
+  }
+}
