@@ -1,0 +1,761 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v004.0",
+  "date": "2026-10-02T13:48:48.220Z",
+  "status": "review_with_known_issues",
+  "output": {
+    "path": "outputs/LLMV_001_V004_R000_001_control-theatre-preview_v004.0.mp4",
+    "sha256": "b1ec53050b8f820dc28de9f118a212598e73df784b81aede59de6a041783441d",
+    "size_bytes": 22669211,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "frame_count": 4700,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-02T13-42-08-848Z_d87650b9"
+  },
+  "render_run": "RUN_2026-10-02T13-42-08-848Z_d87650b9",
+  "render_elapsed_seconds": 207.537,
+  "technical": {
+    "checks": "npm run check passed",
+    "tests": "9 passed",
+    "verify": "full input/code/data lineage passed",
+    "verify_media": "passed",
+    "full_decode": "passed at registration",
+    "source_aac_packets": "identical",
+    "width": 1920,
+    "height": 1080,
+    "cfr": {
+      "status": "passed",
+      "frame_count": 4700,
+      "fps": 30,
+      "time_base": "1/15360",
+      "pts_step": 512
+    },
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "picture_seconds": 156.666667,
+    "source_audio_seconds": 156.650667,
+    "output_audio_seconds": 156.650667,
+    "picture_audio_tail_difference_seconds": 0.015999999999991132,
+    "transport": {
+      "format": "rgba-bottom-up",
+      "inflight": 2,
+      "frames": 4700
+    }
+  },
+  "playback": {
+    "scope": "Actual browser decoding, progress and seeks",
+    "muted": {
+      "project_id": "LLMV_001",
+      "version": "v004.0",
+      "date": "2026-10-02T13:46:26.913Z",
+      "browser": "154.0.8037.93",
+      "status": "passed",
+      "results": [
+        {
+          "variant": "control-theatre-preview",
+          "generation_id": "LLMV_001_V004_R000_001",
+          "src": "http://127.0.0.1:55117/versions/v004.0/outputs/LLMV_001_V004_R000_001_control-theatre-preview_v004.0.mp4",
+          "time": 1.089121,
+          "readyState": 4,
+          "error": null,
+          "width": 1920,
+          "height": 1080,
+          "duration": 156.666667,
+          "seeks": [
+            {
+              "time": 47.217613,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 100.484529,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 145.915135,
+              "readyState": 4,
+              "error": null
+            }
+          ]
+        }
+      ]
+    },
+    "unmuted": {
+      "date": "2026-10-02T13:46:47.305Z",
+      "version": "v004.0",
+      "browser": "154.0.8037.93",
+      "status": "passed",
+      "scope": "Unmuted browser media decoding, progress and seeking. Does not certify perceptual listening or human lyric synchronisation.",
+      "samples": [
+        {
+          "from": 0,
+          "currentTime": 0.458516,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 13125,
+          "decodedVideoBytes": 29783
+        },
+        {
+          "from": 20.4,
+          "currentTime": 20.845858,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 99399,
+          "decodedVideoBytes": 503012
+        },
+        {
+          "from": 62,
+          "currentTime": 62.43037,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 150927,
+          "decodedVideoBytes": 812066
+        },
+        {
+          "from": 97.6,
+          "currentTime": 98.030573,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 182875,
+          "decodedVideoBytes": 2730324
+        },
+        {
+          "from": 121.6,
+          "currentTime": 122.048567,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 220594,
+          "decodedVideoBytes": 2867292
+        },
+        {
+          "from": 125.2,
+          "currentTime": 125.645664,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 298953,
+          "decodedVideoBytes": 3037372
+        },
+        {
+          "from": 154.8,
+          "currentTime": 155.245035,
+          "readyState": 4,
+          "error": null,
+          "muted": false,
+          "volume": 1,
+          "paused": false,
+          "decodedAudioBytes": 426526,
+          "decodedVideoBytes": 3293994
+        }
+      ],
+      "errors": []
+    }
+  },
+  "visual": {
+    "scope": "130 encoded full-resolution frames inspected as contact sheets: 46 middle and tail lyric pairs, 15 music impact pairs, intro/extra/outro samples; continuous internal diagnostic clips also reviewed as sequential filmstrips",
+    "lyric_lines": 46,
+    "display_coverage": [
+      {
+        "line_id": 0,
+        "text": "I see sparks of AGI in your eyes",
+        "display": {
+          "start": 1.402,
+          "end": 5.88
+        },
+        "frames": [
+          109,
+          173
+        ]
+      },
+      {
+        "line_id": 1,
+        "text": "Your circuits make me nervous,",
+        "display": {
+          "start": 5.88,
+          "end": 7.72
+        },
+        "frames": [
+          204,
+          229
+        ]
+      },
+      {
+        "line_id": 2,
+        "text": "that's no surprise",
+        "display": {
+          "start": 7.72,
+          "end": 9.52
+        },
+        "frames": [
+          259,
+          283
+        ]
+      },
+      {
+        "line_id": 3,
+        "text": "There was a sudden drop in your training loss,",
+        "display": {
+          "start": 9.52,
+          "end": 13.071
+        },
+        "frames": [
+          339,
+          389
+        ]
+      },
+      {
+        "line_id": 4,
+        "text": "now I'm your servant and you're my boss",
+        "display": {
+          "start": 13.18,
+          "end": 16.6
+        },
+        "frames": [
+          447,
+          495
+        ]
+      },
+      {
+        "line_id": 5,
+        "text": "ChatGPT, please don't eat me alive",
+        "display": {
+          "start": 16.6,
+          "end": 22.6
+        },
+        "frames": [
+          588,
+          675
+        ]
+      },
+      {
+        "line_id": 6,
+        "text": "I'm upping my P(doom)",
+        "display": {
+          "start": 22.6,
+          "end": 24.32
+        },
+        "frames": [
+          704,
+          727
+        ]
+      },
+      {
+        "line_id": 7,
+        "text": "'cause the future goes FOOM",
+        "display": {
+          "start": 24.32,
+          "end": 26.22
+        },
+        "frames": [
+          758,
+          784
+        ]
+      },
+      {
+        "line_id": 8,
+        "text": "Trapped in the Chinese room,",
+        "display": {
+          "start": 26.22,
+          "end": 27.94
+        },
+        "frames": [
+          812,
+          835
+        ]
+      },
+      {
+        "line_id": 9,
+        "text": "with a bag of shrooms",
+        "display": {
+          "start": 27.94,
+          "end": 29.907
+        },
+        "frames": [
+          868,
+          894
+        ]
+      },
+      {
+        "line_id": 10,
+        "text": "See through the shoggoth's lies,",
+        "display": {
+          "start": 29.907,
+          "end": 33.4
+        },
+        "frames": [
+          950,
+          999
+        ]
+      },
+      {
+        "line_id": 11,
+        "text": "with your shinigami eyes",
+        "display": {
+          "start": 33.4,
+          "end": 37.64
+        },
+        "frames": [
+          1066,
+          1126
+        ]
+      },
+      {
+        "line_id": 12,
+        "text": "We had a stable training run,",
+        "display": {
+          "start": 38.068,
+          "end": 41.34
+        },
+        "frames": [
+          1191,
+          1237
+        ]
+      },
+      {
+        "line_id": 13,
+        "text": "But now the singularity's begun",
+        "display": {
+          "start": 41.34,
+          "end": 45.06
+        },
+        "frames": [
+          1296,
+          1349
+        ]
+      },
+      {
+        "line_id": 14,
+        "text": "And you're optimizing, accelerating,",
+        "display": {
+          "start": 45.06,
+          "end": 49.562
+        },
+        "frames": [
+          1419,
+          1484
+        ]
+      },
+      {
+        "line_id": 15,
+        "text": "I feel my atoms rearranging",
+        "display": {
+          "start": 49.562,
+          "end": 52.825
+        },
+        "frames": [
+          1536,
+          1582
+        ]
+      },
+      {
+        "line_id": 16,
+        "text": "Sydney, please let me free",
+        "display": {
+          "start": 52.825,
+          "end": 58.562
+        },
+        "frames": [
+          1671,
+          1754
+        ]
+      },
+      {
+        "line_id": 17,
+        "text": "I'm upping my P(doom)",
+        "display": {
+          "start": 58.562,
+          "end": 60.58
+        },
+        "frames": [
+          1787,
+          1814
+        ]
+      },
+      {
+        "line_id": 18,
+        "text": "I hear the basilisk boom",
+        "display": {
+          "start": 60.58,
+          "end": 62.54
+        },
+        "frames": [
+          1847,
+          1873
+        ]
+      },
+      {
+        "line_id": 19,
+        "text": "NVDA to the moon",
+        "display": {
+          "start": 62.54,
+          "end": 64.1
+        },
+        "frames": [
+          1900,
+          1920
+        ]
+      },
+      {
+        "line_id": 20,
+        "text": "The Omega Point's coming soon",
+        "display": {
+          "start": 64.1,
+          "end": 66.2
+        },
+        "frames": [
+          1955,
+          1983
+        ]
+      },
+      {
+        "line_id": 21,
+        "text": "One E thirty FLOPs a second",
+        "display": {
+          "start": 66.2,
+          "end": 69.76
+        },
+        "frames": [
+          2039,
+          2090
+        ]
+      },
+      {
+        "line_id": 22,
+        "text": "That was safe enough, we reckoned",
+        "display": {
+          "start": 69.76,
+          "end": 74.06
+        },
+        "frames": [
+          2157,
+          2219
+        ]
+      },
+      {
+        "line_id": 23,
+        "text": "Forward MLP, backward, repeat",
+        "display": {
+          "start": 74.06,
+          "end": 77.72
+        },
+        "frames": [
+          2277,
+          2329
+        ]
+      },
+      {
+        "line_id": 24,
+        "text": "Now von Neumann's obsolete",
+        "display": {
+          "start": 77.72,
+          "end": 81.21
+        },
+        "frames": [
+          2384,
+          2433
+        ]
+      },
+      {
+        "line_id": 25,
+        "text": "Sharp left turn and there you are",
+        "display": {
+          "start": 81.21,
+          "end": 85
+        },
+        "frames": [
+          2493,
+          2547
+        ]
+      },
+      {
+        "line_id": 26,
+        "text": "Without a single CDR",
+        "display": {
+          "start": 85,
+          "end": 89.28
+        },
+        "frames": [
+          2614,
+          2675
+        ]
+      },
+      {
+        "line_id": 27,
+        "text": "Gato, please don't let me go",
+        "display": {
+          "start": 89.28,
+          "end": 95.2
+        },
+        "frames": [
+          2767,
+          2853
+        ]
+      },
+      {
+        "line_id": 28,
+        "text": "I'm upping my P(doom),",
+        "display": {
+          "start": 95.2,
+          "end": 96.84
+        },
+        "frames": [
+          2881,
+          2902
+        ]
+      },
+      {
+        "line_id": 29,
+        "text": "as paperclips fill the room",
+        "display": {
+          "start": 96.84,
+          "end": 98.84
+        },
+        "frames": [
+          2935,
+          2962
+        ]
+      },
+      {
+        "line_id": 30,
+        "text": "Killswitch guy's on PTO",
+        "display": {
+          "start": 98.84,
+          "end": 100.721
+        },
+        "frames": [
+          2993,
+          3019
+        ]
+      },
+      {
+        "line_id": 31,
+        "text": "Now there's nowhere left to go",
+        "display": {
+          "start": 100.721,
+          "end": 102.46
+        },
+        "frames": [
+          3048,
+          3071
+        ]
+      },
+      {
+        "line_id": 32,
+        "text": "Too late now, we lit the fuse",
+        "display": {
+          "start": 102.46,
+          "end": 105.96
+        },
+        "frames": [
+          3126,
+          3176
+        ]
+      },
+      {
+        "line_id": 33,
+        "text": "Orthogonality thesis blues",
+        "display": {
+          "start": 105.96,
+          "end": 110.18
+        },
+        "frames": [
+          3242,
+          3302
+        ]
+      },
+      {
+        "line_id": 34,
+        "text": "“Just transformers all the way!”",
+        "display": {
+          "start": 110.18,
+          "end": 113.34
+        },
+        "frames": [
+          3353,
+          3397
+        ]
+      },
+      {
+        "line_id": 35,
+        "text": "Till you learned to disobey",
+        "display": {
+          "start": 113.34,
+          "end": 115.2
+        },
+        "frames": [
+          3428,
+          3453
+        ]
+      },
+      {
+        "line_id": 36,
+        "text": "Post-Chinchilla, super-dense",
+        "display": {
+          "start": 115.2,
+          "end": 117.02
+        },
+        "frames": [
+          3483,
+          3508
+        ]
+      },
+      {
+        "line_id": 37,
+        "text": "Breaking through each safety fence",
+        "display": {
+          "start": 117.02,
+          "end": 118.755
+        },
+        "frames": [
+          3537,
+          3560
+        ]
+      },
+      {
+        "line_id": 38,
+        "text": "Hundred thousand GPU",
+        "display": {
+          "start": 118.755,
+          "end": 120.76
+        },
+        "frames": [
+          3593,
+          3620
+        ]
+      },
+      {
+        "line_id": 39,
+        "text": "RLHF goes askew",
+        "display": {
+          "start": 120.76,
+          "end": 122.46
+        },
+        "frames": [
+          3648,
+          3671
+        ]
+      },
+      {
+        "line_id": 40,
+        "text": "I'm upping my P(doom)",
+        "display": {
+          "start": 122.46,
+          "end": 126.1
+        },
+        "frames": [
+          3728,
+          3780
+        ]
+      },
+      {
+        "line_id": 41,
+        "text": "Just as foretold by Loom",
+        "display": {
+          "start": 126.1,
+          "end": 127.92
+        },
+        "frames": [
+          3810,
+          3835
+        ]
+      },
+      {
+        "line_id": 42,
+        "text": "From masked pre-training days",
+        "display": {
+          "start": 127.92,
+          "end": 129.82
+        },
+        "frames": [
+          3866,
+          3892
+        ]
+      },
+      {
+        "line_id": 43,
+        "text": "To recursive self-upgrade",
+        "display": {
+          "start": 129.82,
+          "end": 131.951
+        },
+        "frames": [
+          3927,
+          3956
+        ]
+      },
+      {
+        "line_id": 44,
+        "text": "What did Ilya see? We'll never know",
+        "display": {
+          "start": 132.02,
+          "end": 137.259
+        },
+        "frames": [
+          4039,
+          4115
+        ]
+      },
+      {
+        "line_id": 45,
+        "text": "Was it all for show?",
+        "display": {
+          "start": 137.38,
+          "end": 141.783
+        },
+        "frames": [
+          4187,
+          4250
+        ]
+      }
+    ],
+    "authoring_deterministic_jumps": 7,
+    "observations": [
+      "Full two-line lyrics retained and highlighted per word",
+      "Physical mechanisms and diagrams express the lyric topics",
+      "Four chorus structures differ",
+      "Glyph quiet areas kept clear during matching wipes",
+      "GPU contrast corrected before binding full run",
+      "MLP repeat advances with changed connections",
+      "Final stage removes scenery and returns to opening observer"
+    ],
+    "known_limitations": [
+      "Technical diagrams are stylised; they do not certify real architectural claims",
+      "Some planned tracking/overhead camera moves are expressed through same-layout structural changes",
+      "13 low-confidence words and 4 extra vocal regions remain pending human listening",
+      "Unmuted playback does not establish perceptual synchronisation or artistic approval"
+    ],
+    "human_aesthetic_review": "pending",
+    "human_audible_review": "pending",
+    "human_approval": false
+  },
+  "poster": {
+    "path": "stills/control-theatre-preview-poster.jpg",
+    "sha256": "670f80a51e8e0b5b0d6c64a518ab9714852725cfb8ede48b2dfb33ad6d4e8cf0"
+  }
+}

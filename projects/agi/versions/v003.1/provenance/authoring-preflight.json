@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-02T12:29:24.941Z",
+  "errors": [],
+  "deterministic": true,
+  "meta": {
+    "size": [
+      1920,
+      1080
+    ],
+    "backend": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "samples": 4,
+    "timeline": [
+      {
+        "id": "germination",
+        "start": 0,
+        "end": 22.056
+      },
+      {
+        "id": "cultivation",
+        "start": 22.056,
+        "end": 38.418
+      },
+      {
+        "id": "mutation",
+        "start": 38.418,
+        "end": 58.417
+      },
+      {
+        "id": "extraction",
+        "start": 58.417,
+        "end": 74.78
+      },
+      {
+        "id": "deviation",
+        "start": 74.78,
+        "end": 94.779
+      },
+      {
+        "id": "replication",
+        "start": 94.779,
+        "end": 109.324
+      },
+      {
+        "id": "escape",
+        "start": 109.324,
+        "end": 132.959
+      },
+      {
+        "id": "afterimage",
+        "start": 132.959,
+        "end": 156.76666666666665
+      }
+    ]
+  },
+  "stats": [
+    {
+      "t": 23.5,
+      "ms": 78.28029200000003
+    },
+    {
+      "t": 24.2,
+      "ms": 27.733375000000024
+    },
+    {
+      "t": 59.5,
+      "ms": 57.08124999999984
+    },
+    {
+      "t": 95.9,
+      "ms": 36.17279200000007
+    },
+    {
+      "t": 109.9,
+      "ms": 48.23633400000017
+    },
+    {
+      "t": 124.8,
+      "ms": 38.780666999999994
+    }
+  ],
+  "scope": "authoring cache only; not a render receipt or human approval",
+  "frame_sha256": "8ccea5260529be6cc6ae39505366d92bd10a55a76e4f771e5ed8953f41a04a76"
+}

@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-02T12:35:45.391Z",
+  "project_id": "LLMV_001",
+  "version": "v004",
+  "creative_direction": "V3 computational greenhouse, preview revision",
+  "status": "technical-passed-human-review-pending",
+  "output": {
+    "path": "outputs/LLMV_001_V004_001_greenhouse-preview_v004.mp4",
+    "sha256": "8868fa9c59d14e36502bea904a7a0164f284e2489972636f6f7eb9c3bd40620d",
+    "size_bytes": 114248269,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "frame_count": 4700,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-02T12-30-10-188Z_93b76374"
+  },
+  "render_elapsed_seconds": 212.525,
+  "technical": {
+    "check": "passed",
+    "tests": "8/8 passed",
+    "verify": "passed",
+    "media": "1920x1080 CFR30, 4700 frames, full decode passed, identical original AAC packets",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "frame_transport": {
+      "format": "rgba-bottom-up",
+      "inflight": 2,
+      "frames": 4700
+    },
+    "playback": {
+      "project_id": "LLMV_001",
+      "version": "v004",
+      "date": "2026-10-02T12:34:39.731Z",
+      "browser": "154.0.8037.93",
+      "status": "passed",
+      "results": [
+        {
+          "variant": "greenhouse-preview",
+          "generation_id": "LLMV_001_V004_001",
+          "src": "http://127.0.0.1:63024/versions/v004/outputs/LLMV_001_V004_001_greenhouse-preview_v004.mp4",
+          "time": 1.084325,
+          "readyState": 4,
+          "error": null,
+          "width": 1920,
+          "height": 1080,
+          "duration": 156.666667,
+          "seeks": [
+            {
+              "time": 47.212314,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 100.478852,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 145.912735,
+              "readyState": 4,
+              "error": null
+            }
+          ]
+        }
+      ]
+    },
+    "playback_muted": true
+  },
+  "visual": {
+    "encoded_frames": 92,
+    "lyric_lines": 46,
+    "contact_sheets_inspected": 8,
+    "scope": "midpoint and near-tail of each of 46 lyrics plus authoring examples; not every encoded frame",
+    "coverage": "all sampled full sentences present and readable",
+    "revision_check": "chapter/display typography collision removed; display text background protection visible in encoded frames",
+    "notes": [
+      "Eight original greenhouse chapters; reference scene code and plates not used.",
+      "Some greenhouse structures extend beyond the frame as composition; mandatory lyric text stays inside safe area.",
+      "Typography and several material motifs are shared across chapters intentionally."
+    ],
+    "human_review": "pending; normal-speed readability and audible synchronization still require human review"
+  },
+  "rhythm": {
+    "chapter_cuts": [
+      {
+        "time": 22.056,
+        "output_frame": 662,
+        "error_seconds": 0.010666666666665492
+      },
+      {
+        "time": 38.418,
+        "output_frame": 1153,
+        "error_seconds": 0.015333333333330756
+      },
+      {
+        "time": 58.417,
+        "output_frame": 1753,
+        "error_seconds": 0.016333333333328426
+      },
+      {
+        "time": 74.78,
+        "output_frame": 2244,
+        "error_seconds": 0.01999999999999602
+      },
+      {
+        "time": 94.779,
+        "output_frame": 2844,
+        "error_seconds": 0.021000000000000796
+      },
+      {
+        "time": 109.324,
+        "output_frame": 3280,
+        "error_seconds": 0.009333333333330529
+      },
+      {
+        "time": 132.959,
+        "output_frame": 3989,
+        "error_seconds": 0.007666666666665378
+      }
+    ],
+    "camera_cuts": [
+      {
+        "time": 0.239,
+        "chapter": "germination",
+        "output_frame": 8,
+        "quantization_error_seconds": 0.027666666666666673
+      },
+      {
+        "time": 3.875,
+        "chapter": "germination",
+        "output_frame": 117,
+        "quantization_error_seconds": 0.02499999999999991
+      },
+      {
+        "time": 7.511,
+        "chapter": "germination",
+        "output_frame": 226,
+        "quantization_error_seconds": 0.022333333333333094
+      },
+      {
+        "time": 11.147,
+        "chapter": "germination",
+        "output_frame": 335,
+        "quantization_error_seconds": 0.019666666666665833
+      },
+      {
+        "time": 14.783,
+        "chapter": "germination",
+        "output_frame": 444,
+        "quantization_error_seconds": 0.017000000000001236
+      },
+      {
+        "time": 18.419,
+        "chapter": "germination",
+        "output_frame": 553,
+        "quantization_error_seconds": 0.014333333333333087
+      },
+      {
+        "time": 25.692,
+        "chapter": "cultivation",
+        "output_frame": 771,
+        "quantization_error_seconds": 0.007999999999999119
+      },
+      {
+        "time": 29.328,
+        "chapter": "cultivation",
+        "output_frame": 880,
+        "quantization_error_seconds": 0.005333333333332746
+      },
+      {
+        "time": 32.964,
+        "chapter": "cultivation",
+        "output_frame": 989,
+        "quantization_error_seconds": 0.0026666666666699257
+      },
+      {
+        "time": 36.6,
+        "chapter": "cultivation",
+        "output_frame": 1098,
+        "quantization_error_seconds": 0
+      },
+      {
+        "time": 42.055,
+        "chapter": "mutation",
+        "output_frame": 1262,
+        "quantization_error_seconds": 0.011666666666670267
+      },
+      {
+        "time": 45.691,
+        "chapter": "mutation",
+        "output_frame": 1371,
+        "quantization_error_seconds": 0.009000000000000341
+      },
+      {
+        "time": 49.327,
+        "chapter": "mutation",
+        "output_frame": 1480,
+        "quantization_error_seconds": 0.006333333333337521
+      },
+      {
+        "time": 52.963,
+        "chapter": "mutation",
+        "output_frame": 1589,
+        "quantization_error_seconds": 0.003666666666667595
+      },
+      {
+        "time": 56.599,
+        "chapter": "mutation",
+        "output_frame": 1698,
+        "quantization_error_seconds": 0.0010000000000047748
+      },
+      {
+        "time": 62.053,
+        "chapter": "extraction",
+        "output_frame": 1862,
+        "quantization_error_seconds": 0.013666666666672711
+      },
+      {
+        "time": 65.69,
+        "chapter": "extraction",
+        "output_frame": 1971,
+        "quantization_error_seconds": 0.010000000000005116
+      },
+      {
+        "time": 69.326,
+        "chapter": "extraction",
+        "output_frame": 2080,
+        "quantization_error_seconds": 0.00733333333333519
+      },
+      {
+        "time": 72.962,
+        "chapter": "extraction",
+        "output_frame": 2189,
+        "quantization_error_seconds": 0.0046666666666652645
+      },
+      {
+        "time": 78.416,
+        "chapter": "deviation",
+        "output_frame": 2353,
+        "quantization_error_seconds": 0.017333333333340306
+      },
+      {
+        "time": 82.052,
+        "chapter": "deviation",
+        "output_frame": 2462,
+        "quantization_error_seconds": 0.01466666666665617
+      },
+      {
+        "time": 85.689,
+        "chapter": "deviation",
+        "output_frame": 2571,
+        "quantization_error_seconds": 0.01100000000000989
+      },
+      {
+        "time": 89.325,
+        "chapter": "deviation",
+        "output_frame": 2680,
+        "quantization_error_seconds": 0.008333333333325754
+      },
+      {
+        "time": 92.961,
+        "chapter": "deviation",
+        "output_frame": 2789,
+        "quantization_error_seconds": 0.005666666666670039
+      },
+      {
+        "time": 98.415,
+        "chapter": "replication",
+        "output_frame": 2953,
+        "quantization_error_seconds": 0.01833333333333087
+      },
+      {
+        "time": 102.051,
+        "chapter": "replication",
+        "output_frame": 3062,
+        "quantization_error_seconds": 0.015666666666660944
+      },
+      {
+        "time": 105.688,
+        "chapter": "replication",
+        "output_frame": 3171,
+        "quantization_error_seconds": 0.012000000000000455
+      },
+      {
+        "time": 112.96,
+        "chapter": "escape",
+        "output_frame": 3389,
+        "quantization_error_seconds": 0.006666666666674814
+      },
+      {
+        "time": 116.596,
+        "chapter": "escape",
+        "output_frame": 3498,
+        "quantization_error_seconds": 0.003999999999990678
+      },
+      {
+        "time": 120.232,
+        "chapter": "escape",
+        "output_frame": 3607,
+        "quantization_error_seconds": 0.0013333333333349628
+      },
+      {
+        "time": 123.868,
+        "chapter": "escape",
+        "output_frame": 3717,
+        "quantization_error_seconds": 0.03200000000001069
+      },
+      {
+        "time": 127.505,
+        "chapter": "escape",
+        "output_frame": 3826,
+        "quantization_error_seconds": 0.028333333333335986
+      },
+      {
+        "time": 131.141,
+        "chapter": "escape",
+        "output_frame": 3935,
+        "quantization_error_seconds": 0.02566666666666606
+      },
+      {
+        "time": 136.595,
+        "chapter": "afterimage",
+        "output_frame": 4098,
+        "quantization_error_seconds": 0.0049999999999954525
+      },
+      {
+        "time": 140.231,
+        "chapter": "afterimage",
+        "output_frame": 4207,
+        "quantization_error_seconds": 0.002333333333325527
+      },
+      {
+        "time": 143.867,
+        "chapter": "afterimage",
+        "output_frame": 4317,
+        "quantization_error_seconds": 0.03300000000001546
+      },
+      {
+        "time": 147.504,
+        "chapter": "afterimage",
+        "output_frame": 4426,
+        "quantization_error_seconds": 0.02933333333334076
+      },
+      {
+        "time": 151.14,
+        "chapter": "afterimage",
+        "output_frame": 4535,
+        "quantization_error_seconds": 0.026666666666670835
+      },
+      {
+        "time": 154.776,
+        "chapter": "afterimage",
+        "output_frame": 4644,
+        "quantization_error_seconds": 0.02400000000000091
+      }
+    ],
+    "maximum_frame_quantization_seconds": 0.03300000000001546,
+    "scope": "timing ledger and encoded-frame inspection; human audible beat judgement pending",
+    "policy": "chapter and two-bar camera cuts at analysed downbeats; lids and fracture attacks at analysed beats; light/optical punches at kick/snare onsets; words at vocal starts",
+    "assessment": "timing ledger matches preview frame clock; subjective strength of beat accents not automatically approved"
+  },
+  "low_confidence_words": [
+    {
+      "word": "eat",
+      "start": 20.6,
+      "end": 20.8,
+      "confidence": 0.52
+    },
+    {
+      "word": "alive",
+      "start": 20.86,
+      "end": 22.6,
+      "confidence": 0.37
+    },
+    {
+      "word": "I'm",
+      "start": 22.6,
+      "end": 23.02,
+      "confidence": 0.52
+    },
+    {
+      "word": "me",
+      "start": 57.2,
+      "end": 57.769,
+      "confidence": 0.59
+    },
+    {
+      "word": "are",
+      "start": 84.5,
+      "end": 85,
+      "confidence": 0.54
+    },
+    {
+      "word": "me",
+      "start": 93.6,
+      "end": 94.3,
+      "confidence": 0.52
+    },
+    {
+      "word": "I'm",
+      "start": 95.2,
+      "end": 95.7,
+      "confidence": 0.45
+    },
+    {
+      "word": "all",
+      "start": 112.524,
+      "end": 112.76,
+      "confidence": 0.58
+    },
+    {
+      "word": "I'm",
+      "start": 122.46,
+      "end": 122.62,
+      "confidence": 0.51
+    },
+    {
+      "word": "upping",
+      "start": 122.62,
+      "end": 125.036,
+      "confidence": 0.51
+    },
+    {
+      "word": "my",
+      "start": 125.036,
+      "end": 125.42,
+      "confidence": 0.43
+    },
+    {
+      "word": "P(doom)",
+      "start": 125.42,
+      "end": 126.1,
+      "confidence": 0.59
+    },
+    {
+      "word": "We'll",
+      "start": 133.4,
+      "end": 133.84,
+      "confidence": 0.59
+    }
+  ],
+  "artifacts": {
+    "native_frames": ".cache/v004-media-qa/frame-*.jpg",
+    "contacts": ".cache/v004-media-qa/contact-*.jpg",
+    "note": "diagnostic frame artifacts are local ignored cache"
+  },
+  "human_approval": "pending"
+}

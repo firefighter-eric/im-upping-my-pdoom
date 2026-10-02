@@ -14,6 +14,18 @@ const ids=new Set();for(const slug of await listProjects()){const p=await loadPr
   checkedVersions++;
   if(!['draft','review','approved','superseded'].includes(m.status))throw Error('Invalid status '+slug+'/'+version);
   if(m.status==='approved'&&!m.review?.human_approval)throw Error('Approved versions require an explicit human approval record');
+  if(m.naming_migration){
+   const naming=await readJson(inside(v.directory,m.naming_migration));
+   if(naming.project_id!==m.project_id||naming.to_version!==m.version||naming.to_parent_version!==m.parent_version)throw Error('Version rename lineage mismatch');
+   for(const evidence of naming.preserved_files)if(digest(await readFile(inside(v.directory,evidence.path)))!==evidence.sha256)throw Error('Renamed version historical evidence changed: '+evidence.path);
+   const previous=await readJson(inside(v.directory,naming.original_manifest));
+   if(previous.version!==naming.from_version||previous.parent_version!==naming.from_parent_version)throw Error('Original rename identity mismatch');
+   if(naming.outputs.length!==m.variants.length)throw Error('Renamed output count mismatch');
+   for(const output of naming.outputs){
+    const current=m.variants.find(x=>x.generation_id===output.generation_id),original=previous.variants.find(x=>x.generation_id===output.generation_id);
+    if(!current?.output||current.output.path!==output.to_path||current.output.sha256!==output.sha256||original?.output?.path!==output.from_path||original.output.sha256!==output.sha256)throw Error('Renamed output identity mismatch');
+   }
+  }
   const code=await readFile(inside(v.directory,m.renderer.path));if(digest(code)!==m.renderer.sha256)throw Error('Renderer changed without an updated version record: '+slug+'/'+version);
   if(m.renderer.files&&JSON.stringify(await rendererFiles(v))!==JSON.stringify(m.renderer.files))throw Error('Renderer dependency changed: '+slug+'/'+version);
   if(Number.isFinite(m.settings.duration_seconds)){if(m.settings.duration_seconds<=0||m.settings.fps<=0||m.settings.target_frames!==Math.ceil(m.settings.duration_seconds*m.settings.fps))throw Error('Duration/FPS/frame count mismatch');}

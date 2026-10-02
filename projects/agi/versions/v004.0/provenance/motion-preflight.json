@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-02T13:41:05.809Z",
+  "errors": [],
+  "clips": [
+    {
+      "start": 23,
+      "end": 27,
+      "frames": 120,
+      "path": ".cache/v004-0-motion/foom.mp4",
+      "sampling": {
+        "mode": "fixed",
+        "samples": 4,
+        "shutter": 0.2
+      },
+      "sha256": "3c4941fd928222997b9863c7ad51bad73a756fda52d464b54c835146979579b1"
+    },
+    {
+      "start": 95.2,
+      "end": 105.96,
+      "frames": 323,
+      "path": ".cache/v004-0-motion/consequences.mp4",
+      "sampling": {
+        "mode": "fixed",
+        "samples": 4,
+        "shutter": 0.2
+      },
+      "sha256": "7e32a74673733ff31fdcc185389431b3428774ff9b7c4bdd5f8b65e3dbf5b7b2"
+    },
+    {
+      "start": 118.755,
+      "end": 132.02,
+      "frames": 398,
+      "path": ".cache/v004-0-motion/takeover.mp4",
+      "sampling": {
+        "mode": "fixed",
+        "samples": 4,
+        "shutter": 0.2
+      },
+      "sha256": "8f2be19f20670382d86cdfe6288bfdf985760c54988e0ff1e6e9f1f5236e92a0"
+    }
+  ],
+  "scope": "Internal motion diagnostics only. Excerpts use re-encoded AAC; full candidate will preserve original packets. No human approval.",
+  "visual_inspection": {
+    "at": "2026-10-02T13:42:08.517Z",
+    "scope": "Sequential filmstrips from the internal encoded excerpts",
+    "observations": [
+      "FOOM structure expands after vocal onset",
+      "Paperclips fill the exit region progressively",
+      "PTO plaque lands; the station stays empty",
+      "Fuse advances after lit",
+      "RLHF FAIL becomes PASS after askew",
+      "Upgrade stages respond separately"
+    ],
+    "audible_sync": "pending human listening",
+    "human_approval": false
+  }
+}

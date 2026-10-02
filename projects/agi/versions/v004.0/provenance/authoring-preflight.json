@@ -1,0 +1,1211 @@
+{
+  "at": "2026-10-02T13:41:18.760Z",
+  "purpose": "Authoring checks before full render; no human approval",
+  "browser": "154.0.8037.93",
+  "build_key": "8e832d228cc506838f2a410ae56e3a34fd6fa484d195a747eafb5047b4d0a4dd",
+  "source": ".cache/v004-0-preflight/check.json",
+  "renderer_files": {
+    "renderer/index.html": "5e392e80e03200642e46ca4d252db830165fe162f8a131f297b8c143572be5df",
+    "renderer/LICENSE.reference.txt": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb",
+    "renderer/public/fonts/Archivo-w1000-300.ttf": "863ec9a266154b483ca2fb544a1ae886b2c2e725894ba14a7dd642ecff08836a",
+    "renderer/public/fonts/Archivo-w1000-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-w1000-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-w1000-900.ttf": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48",
+    "renderer/public/fonts/Archivo-w1125-300.ttf": "318687751c75f16b2f911d736179926da7b2edb48c6cc3a8083d93beefa31b08",
+    "renderer/public/fonts/Archivo-w1125-500.ttf": "141642530cf681535aad885f5384ec6b5a355daa221ea64f06d0405448708a73",
+    "renderer/public/fonts/Archivo-w1125-700.ttf": "57510ee1a63a64549244cdaa829a245795e1a901c48cb57891e2ac0ce530e9bd",
+    "renderer/public/fonts/Archivo-w1125-900.ttf": "6b04492e0ff1dbf8e39c286cd8d32420a12363661dd331c4705c0822a8683318",
+    "renderer/public/fonts/Archivo-w1250-300.ttf": "4fd218920884877281f203b81d2ddbb8af90cf1e58ab81830f2b4dc8cb06b377",
+    "renderer/public/fonts/Archivo-w1250-500.ttf": "36a7bf442a40583b42272084a7fd036467dea5a54a9a106820083e48413851d3",
+    "renderer/public/fonts/Archivo-w1250-700.ttf": "55a4492a5a97a6134ec83e289fbc2510d40031a432881a72ef6dd8ae302a380c",
+    "renderer/public/fonts/Archivo-w1250-900.ttf": "97954352b2fcb9d4a5917d658fc71a27db5bd6dad4fe1a8a77c171211860f286",
+    "renderer/public/fonts/Archivo-w620-300.ttf": "5a97cc5a200d8ab7e459c77ab8055fe06e7b3eaa3b04016a1333797f9a7f2cab",
+    "renderer/public/fonts/Archivo-w620-500.ttf": "c5a9c17c1ac8fbbb47345f805a73d933615db56ed4b2ca2ca84e9b9b3273b1e4",
+    "renderer/public/fonts/Archivo-w620-700.ttf": "6526f0939a591a3092368ffa5f9ec77e82d8cbbcf044dab17b9a0dfbaa4c151c",
+    "renderer/public/fonts/Archivo-w620-900.ttf": "7bf041853788deafccaf6626af105d63a2c4e9bfe90ed8f3722e49e635520e22",
+    "renderer/public/fonts/Archivo-w750-300.ttf": "2920a8b658d4fa4c596bd79f94577c36e8fc63a60e3260e9eaab3bacc911d4f0",
+    "renderer/public/fonts/Archivo-w750-500.ttf": "12a3814c240d98fbd3e12db49d87d9e8f7d303241450d2ce7a0d78fc2aff877d",
+    "renderer/public/fonts/Archivo-w750-700.ttf": "dd9741079f1f5dd5ad9842bc5152dcab9b01e52f1f1b545bcf347edd6858fcb7",
+    "renderer/public/fonts/Archivo-w750-900.ttf": "e544dc863d11d50b6b159f2459204b4f994fecf46f75d428c8ebfc118cc9e00f",
+    "renderer/public/fonts/Archivo-w875-300.ttf": "b6ddedcb6a7d5ae535f593bd4c84edf685c7c30fa8d57d61b03c1b956156d0fe",
+    "renderer/public/fonts/Archivo-w875-500.ttf": "838d87c7f772488cdb67ad2c719a42c716d52ebcfaae1068e5fde10bd1d0ba99",
+    "renderer/public/fonts/Archivo-w875-700.ttf": "c37e23695fc6352f35ef9efcb64e86cfbcf124e235cccda9fa83cde88792ac79",
+    "renderer/public/fonts/Archivo-w875-900.ttf": "3f2011e473d614bf899e2c2f1c7b67e4fbf61b505dfc0543a0547a35c18c5adf",
+    "renderer/public/fonts/ArchivoItalic-w1000-400.ttf": "e458ef98ab695b2dbcb53441edcbbb7d8b86fda2dbd7542513a6aa37762c8750",
+    "renderer/public/fonts/ArchivoItalic-w1000-800.ttf": "9e8c5abbb79942428dee6a133483a146f223c790b5f0ee3c0cb3280c8776e99c",
+    "renderer/public/fonts/ArchivoItalic-w750-400.ttf": "70d6ff465ae66aa0cb424c5452e13b1dbb19b913adf3ed80b9bc59575cb90203",
+    "renderer/public/fonts/ArchivoItalic-w750-800.ttf": "bc7fa2efc9a4aa22960cfcfbe50025c8d82ff177f4e9a3e016cf0665dbee918c",
+    "renderer/public/fonts/Cormorant-400.ttf": "4e7958f688e875a0073febb1fdbcc87d85babedf7705ae9e70ecc9513eae9c3e",
+    "renderer/public/fonts/Cormorant-600.ttf": "6cdad32e7e609276adf97085c6fc21a259f311e3b8bdc880784222bdf8911727",
+    "renderer/public/fonts/CormorantItalic-400.ttf": "272bae4becdd77c6f8cf3a252a775212b88c1c8c5a28a0cf8ef799d6887cacda",
+    "renderer/public/fonts/CormorantItalic-600.ttf": "436ab920355e6f186f19183c749a2c0bb2592ebf86fabe4bcffd83b17b3fbc5a",
+    "renderer/public/fonts/src/Archivo-Italic[wdth,wght].ttf": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305",
+    "renderer/public/fonts/src/Archivo[wdth,wght].ttf": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+    "renderer/public/fonts/src/CormorantGaramond-Italic[wght].ttf": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+    "renderer/public/fonts/src/CormorantGaramond[wght].ttf": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "renderer/public/fonts/src/IBMPlexMono-Bold.ttf": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be",
+    "renderer/public/fonts/src/IBMPlexMono-Italic.ttf": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34",
+    "renderer/public/fonts/src/IBMPlexMono-Light.ttf": "780bcf65509d72a35ec114b57bcbe220dc6b77d8ea2e9b25e294be3c570c5025",
+    "renderer/public/fonts/src/IBMPlexMono-Medium.ttf": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+    "renderer/public/fonts/src/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "renderer/public/fonts/src/IBMPlexMono-SemiBold.ttf": "d3c38e55c78f5b0f28009fddba4834ec503278936a5986032424c9bd2d23aa46",
+    "renderer/public/fonts/src/OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/stroke/EMSAllure.svg": "55ed2de9c602229f32dd2784aae704023a5594eb8d208131f2552fae330a2a67",
+    "renderer/public/fonts/stroke/EMSFelix.svg": "e7b2463c6cb2a2cbef59db9b1f9f5a20a0ecd9158eeb8f01f2015c9e5be7dca4",
+    "renderer/public/fonts/stroke/EMSOsmotron.svg": "158b0f247a005ca5b6b8556f85684ad10cbb04c41ebbd394b9090c8ea2f16c52",
+    "renderer/public/fonts/stroke/EMSReadability.svg": "eebece4f2a47b9d3a8f40cab2b0f689ca60902997abd5c81064ef0d2a3a05522",
+    "renderer/public/fonts/stroke/EMSTech.svg": "7b5a420d4e16285213e7e2b1d187d086835c2dd7a7f64c5b8057434f082fc46f",
+    "renderer/public/fonts/stroke/HersheySans1.svg": "a7b9cb8f6465a66d7b1b2f774579749edf1f960b0ed929f0908bd97211f479fa",
+    "renderer/public/fonts/stroke/HersheyScript1.svg": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b",
+    "renderer/public/fonts/stroke/HersheySerifMed.svg": "63e5c88e6fd3a1c2b9a3c90b239c7af3086a15df80373cac80daedbf29b0c04a",
+    "renderer/src/engine/audio.ts": "ed35e819527dc0dfc929fb7d4e74fd3a58e7c75126e180f5d8fd6cc68360dc3f",
+    "renderer/src/engine/engine.ts": "5e8c8aa249eb2927c1d1e08efd9e0a7b6410a50eb1a4033d4b9af6c9b2039ef3",
+    "renderer/src/engine/gl.ts": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46",
+    "renderer/src/engine/glsl/common.ts": "9c7b0371ed1be2addd5b2aeab1e3dde71a1d40ff6d3af17c3d5f6de1dbb4a954",
+    "renderer/src/engine/hud.ts": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58",
+    "renderer/src/engine/lines.ts": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27",
+    "renderer/src/engine/lyrics.ts": "7e543607b2f0d632cc62882496de6d47a48899e3885f9d4e592be416082ad550",
+    "renderer/src/engine/palette.ts": "162f3caba0dc0a82a88d3cfcd87ce92057701f0d4a11789b7263071c2de6e20c",
+    "renderer/src/engine/post.ts": "98e91f6d1e231fdadab6a06d2e7057f5dc0b861b3fd84f79b57ea319d388f2a0",
+    "renderer/src/engine/scale.ts": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0",
+    "renderer/src/engine/scene.ts": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b",
+    "renderer/src/engine/stroke.ts": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5",
+    "renderer/src/engine/type.ts": "2c70468e22d6b4bf99d6b67b007d882ba8f24d4549bf970fea57a37e8e085dfb",
+    "renderer/src/engine/util.ts": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c",
+    "renderer/src/main.ts": "675349374de2ce8879b277ef46bfa26e337d4e40583ded39f1737f16cbe39e89",
+    "renderer/src/scenes/control-theatre.ts": "01e50d2424296899e4b445c746313f98f4df48f64188f82ce103ce49d89809fa",
+    "renderer/src/timeline.ts": "5f4b9d7745ba38db74d93aa31ee91df0e123b2a219b15376d767792793c0d54a",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "data_hashes": {
+    "lyrics_source": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyrics": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b",
+    "storyboard": "19b66444779ac2a8144801e3e9cf25e1869dd07f289cd351f300cb645870e40d"
+  },
+  "coverage": [
+    {
+      "line_id": 0,
+      "text": "I see sparks of AGI in your eyes",
+      "display": {
+        "start": 1.402,
+        "end": 5.88
+      },
+      "events": [
+        {
+          "time": 2.35,
+          "word": "see"
+        },
+        {
+          "time": 2.739,
+          "word": "sparks"
+        },
+        {
+          "time": 3.677,
+          "word": "AGI"
+        },
+        {
+          "time": 5.268,
+          "word": "eyes"
+        }
+      ],
+      "layout": "TL",
+      "family": "scan",
+      "word_count": 8
+    },
+    {
+      "line_id": 1,
+      "text": "Your circuits make me nervous,",
+      "display": {
+        "start": 5.88,
+        "end": 7.72
+      },
+      "events": [
+        {
+          "time": 5.991,
+          "word": "circuits"
+        },
+        {
+          "time": 7.04,
+          "word": "nervous,"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "scan",
+      "word_count": 5
+    },
+    {
+      "line_id": 2,
+      "text": "that's no surprise",
+      "display": {
+        "start": 7.72,
+        "end": 9.52
+      },
+      "events": [
+        {
+          "time": 8.092,
+          "word": "no"
+        },
+        {
+          "time": 8.501,
+          "word": "surprise"
+        }
+      ],
+      "layout": "CENTER",
+      "family": "warnings",
+      "word_count": 3
+    },
+    {
+      "line_id": 3,
+      "text": "There was a sudden drop in your training loss,",
+      "display": {
+        "start": 9.52,
+        "end": 13.071
+      },
+      "events": [
+        {
+          "time": 10.137,
+          "word": "sudden"
+        },
+        {
+          "time": 10.66,
+          "word": "drop"
+        },
+        {
+          "time": 12.06,
+          "word": "loss,"
+        }
+      ],
+      "layout": "TOP",
+      "family": "loss",
+      "word_count": 9
+    },
+    {
+      "line_id": 4,
+      "text": "now I'm your servant and you're my boss",
+      "display": {
+        "start": 13.18,
+        "end": 16.6
+      },
+      "events": [
+        {
+          "time": 13.719,
+          "word": "servant"
+        },
+        {
+          "time": 15.66,
+          "word": "boss"
+        }
+      ],
+      "layout": "SPLIT",
+      "family": "boss",
+      "word_count": 8
+    },
+    {
+      "line_id": 5,
+      "text": "ChatGPT, please don't eat me alive",
+      "display": {
+        "start": 16.6,
+        "end": 22.6
+      },
+      "events": [
+        {
+          "time": 16.6,
+          "word": "ChatGPT,"
+        },
+        {
+          "time": 19.082,
+          "word": "please"
+        },
+        {
+          "time": 20.6,
+          "word": "eat"
+        },
+        {
+          "time": 20.86,
+          "word": "alive"
+        }
+      ],
+      "layout": "LOWER_LEFT",
+      "family": "eat",
+      "word_count": 6
+    },
+    {
+      "line_id": 6,
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 22.6,
+        "end": 24.32
+      },
+      "events": [
+        {
+          "time": 23.02,
+          "word": "upping"
+        },
+        {
+          "time": 23.6,
+          "word": "P(doom)"
+        }
+      ],
+      "layout": "HERO",
+      "family": "hook1",
+      "word_count": 4
+    },
+    {
+      "line_id": 7,
+      "text": "'cause the future goes FOOM",
+      "display": {
+        "start": 24.32,
+        "end": 26.22
+      },
+      "events": [
+        {
+          "time": 24.654,
+          "word": "future"
+        },
+        {
+          "time": 25.577,
+          "word": "FOOM"
+        }
+      ],
+      "layout": "HERO",
+      "family": "foom",
+      "word_count": 5
+    },
+    {
+      "line_id": 8,
+      "text": "Trapped in the Chinese room,",
+      "display": {
+        "start": 26.22,
+        "end": 27.94
+      },
+      "events": [
+        {
+          "time": 26.22,
+          "word": "Trapped"
+        },
+        {
+          "time": 26.96,
+          "word": "Chinese"
+        },
+        {
+          "time": 27.52,
+          "word": "room,"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "room",
+      "word_count": 5
+    },
+    {
+      "line_id": 9,
+      "text": "with a bag of shrooms",
+      "display": {
+        "start": 27.94,
+        "end": 29.907
+      },
+      "events": [
+        {
+          "time": 28.38,
+          "word": "bag"
+        },
+        {
+          "time": 29.124,
+          "word": "shrooms"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "shrooms",
+      "word_count": 5
+    },
+    {
+      "line_id": 10,
+      "text": "See through the shoggoth's lies,",
+      "display": {
+        "start": 29.907,
+        "end": 33.4
+      },
+      "events": [
+        {
+          "time": 30.007,
+          "word": "through"
+        },
+        {
+          "time": 30.576,
+          "word": "shoggoth's"
+        },
+        {
+          "time": 31.14,
+          "word": "lies,"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "peel",
+      "word_count": 5
+    },
+    {
+      "line_id": 11,
+      "text": "with your shinigami eyes",
+      "display": {
+        "start": 33.4,
+        "end": 37.64
+      },
+      "events": [
+        {
+          "time": 33.738,
+          "word": "shinigami"
+        },
+        {
+          "time": 34.611,
+          "word": "eyes"
+        }
+      ],
+      "layout": "TOP",
+      "family": "reveal",
+      "word_count": 4
+    },
+    {
+      "line_id": 12,
+      "text": "We had a stable training run,",
+      "display": {
+        "start": 38.068,
+        "end": 41.34
+      },
+      "events": [
+        {
+          "time": 39.2,
+          "word": "stable"
+        },
+        {
+          "time": 39.94,
+          "word": "training"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "stable",
+      "word_count": 6
+    },
+    {
+      "line_id": 13,
+      "text": "But now the singularity's begun",
+      "display": {
+        "start": 41.34,
+        "end": 45.06
+      },
+      "events": [
+        {
+          "time": 41.58,
+          "word": "now"
+        },
+        {
+          "time": 42.294,
+          "word": "singularity's"
+        },
+        {
+          "time": 44.08,
+          "word": "begun"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "loop",
+      "word_count": 5
+    },
+    {
+      "line_id": 14,
+      "text": "And you're optimizing, accelerating,",
+      "display": {
+        "start": 45.06,
+        "end": 49.562
+      },
+      "events": [
+        {
+          "time": 46.16,
+          "word": "optimizing,"
+        },
+        {
+          "time": 47.26,
+          "word": "accelerating,"
+        }
+      ],
+      "layout": "TOP",
+      "family": "optimize",
+      "word_count": 4
+    },
+    {
+      "line_id": 15,
+      "text": "I feel my atoms rearranging",
+      "display": {
+        "start": 49.562,
+        "end": 52.825
+      },
+      "events": [
+        {
+          "time": 50.48,
+          "word": "atoms"
+        },
+        {
+          "time": 51.38,
+          "word": "rearranging"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "atoms",
+      "word_count": 5
+    },
+    {
+      "line_id": 16,
+      "text": "Sydney, please let me free",
+      "display": {
+        "start": 52.825,
+        "end": 58.562
+      },
+      "events": [
+        {
+          "time": 52.825,
+          "word": "Sydney,"
+        },
+        {
+          "time": 55.98,
+          "word": "please"
+        },
+        {
+          "time": 57.769,
+          "word": "free"
+        }
+      ],
+      "layout": "LOWER_LEFT",
+      "family": "exit",
+      "word_count": 5
+    },
+    {
+      "line_id": 17,
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 58.562,
+        "end": 60.58
+      },
+      "events": [
+        {
+          "time": 59.24,
+          "word": "upping"
+        },
+        {
+          "time": 59.96,
+          "word": "P(doom)"
+        }
+      ],
+      "layout": "HERO",
+      "family": "hook2",
+      "word_count": 4
+    },
+    {
+      "line_id": 18,
+      "text": "I hear the basilisk boom",
+      "display": {
+        "start": 60.58,
+        "end": 62.54
+      },
+      "events": [
+        {
+          "time": 61.1,
+          "word": "basilisk"
+        },
+        {
+          "time": 62.04,
+          "word": "boom"
+        }
+      ],
+      "layout": "TOP",
+      "family": "basilisk",
+      "word_count": 5
+    },
+    {
+      "line_id": 19,
+      "text": "NVDA to the moon",
+      "display": {
+        "start": 62.54,
+        "end": 64.1
+      },
+      "events": [
+        {
+          "time": 62.54,
+          "word": "NVDA"
+        },
+        {
+          "time": 63.84,
+          "word": "moon"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "capital",
+      "word_count": 4
+    },
+    {
+      "line_id": 20,
+      "text": "The Omega Point's coming soon",
+      "display": {
+        "start": 64.1,
+        "end": 66.2
+      },
+      "events": [
+        {
+          "time": 64.24,
+          "word": "Omega"
+        },
+        {
+          "time": 65.556,
+          "word": "soon"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "omega",
+      "word_count": 5
+    },
+    {
+      "line_id": 21,
+      "text": "One E thirty FLOPs a second",
+      "display": {
+        "start": 66.2,
+        "end": 69.76
+      },
+      "events": [
+        {
+          "time": 66.534,
+          "word": "thirty"
+        },
+        {
+          "time": 66.98,
+          "word": "FLOPs"
+        },
+        {
+          "time": 67.44,
+          "word": "second"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "compute",
+      "word_count": 6
+    },
+    {
+      "line_id": 22,
+      "text": "That was safe enough, we reckoned",
+      "display": {
+        "start": 69.76,
+        "end": 74.06
+      },
+      "events": [
+        {
+          "time": 70.116,
+          "word": "safe"
+        },
+        {
+          "time": 70.49,
+          "word": "enough,"
+        },
+        {
+          "time": 71.12,
+          "word": "reckoned"
+        }
+      ],
+      "layout": "TOP",
+      "family": "stamp",
+      "word_count": 6
+    },
+    {
+      "line_id": 23,
+      "text": "Forward MLP, backward, repeat",
+      "display": {
+        "start": 74.06,
+        "end": 77.72
+      },
+      "events": [
+        {
+          "time": 74.06,
+          "word": "Forward"
+        },
+        {
+          "time": 74.84,
+          "word": "MLP,"
+        },
+        {
+          "time": 76.12,
+          "word": "backward,"
+        },
+        {
+          "time": 76.845,
+          "word": "repeat"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "network",
+      "word_count": 4
+    },
+    {
+      "line_id": 24,
+      "text": "Now von Neumann's obsolete",
+      "display": {
+        "start": 77.72,
+        "end": 81.21
+      },
+      "events": [
+        {
+          "time": 78.82,
+          "word": "Neumann's"
+        },
+        {
+          "time": 80.043,
+          "word": "obsolete"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "bus",
+      "word_count": 4
+    },
+    {
+      "line_id": 25,
+      "text": "Sharp left turn and there you are",
+      "display": {
+        "start": 81.21,
+        "end": 85
+      },
+      "events": [
+        {
+          "time": 81.21,
+          "word": "Sharp"
+        },
+        {
+          "time": 81.8,
+          "word": "left"
+        },
+        {
+          "time": 82.02,
+          "word": "turn"
+        },
+        {
+          "time": 82.96,
+          "word": "there"
+        }
+      ],
+      "layout": "TOP",
+      "family": "turn",
+      "word_count": 7
+    },
+    {
+      "line_id": 26,
+      "text": "Without a single CDR",
+      "display": {
+        "start": 85,
+        "end": 89.28
+      },
+      "events": [
+        {
+          "time": 85,
+          "word": "Without"
+        },
+        {
+          "time": 86.429,
+          "word": "CDR"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "review",
+      "word_count": 4
+    },
+    {
+      "line_id": 27,
+      "text": "Gato, please don't let me go",
+      "display": {
+        "start": 89.28,
+        "end": 95.2
+      },
+      "events": [
+        {
+          "time": 89.28,
+          "word": "Gato,"
+        },
+        {
+          "time": 90.64,
+          "word": "please"
+        },
+        {
+          "time": 92.016,
+          "word": "don't"
+        },
+        {
+          "time": 94.3,
+          "word": "go"
+        }
+      ],
+      "layout": "LOWER_LEFT",
+      "family": "grip",
+      "word_count": 6
+    },
+    {
+      "line_id": 28,
+      "text": "I'm upping my P(doom),",
+      "display": {
+        "start": 95.2,
+        "end": 96.84
+      },
+      "events": [
+        {
+          "time": 95.7,
+          "word": "upping"
+        },
+        {
+          "time": 96.32,
+          "word": "P(doom),"
+        }
+      ],
+      "layout": "CENTER",
+      "family": "hook3",
+      "word_count": 4
+    },
+    {
+      "line_id": 29,
+      "text": "as paperclips fill the room",
+      "display": {
+        "start": 96.84,
+        "end": 98.84
+      },
+      "events": [
+        {
+          "time": 97.02,
+          "word": "paperclips"
+        },
+        {
+          "time": 97.858,
+          "word": "fill"
+        },
+        {
+          "time": 98.26,
+          "word": "room"
+        }
+      ],
+      "layout": "TOP",
+      "family": "clips",
+      "word_count": 5
+    },
+    {
+      "line_id": 30,
+      "text": "Killswitch guy's on PTO",
+      "display": {
+        "start": 98.84,
+        "end": 100.721
+      },
+      "events": [
+        {
+          "time": 98.84,
+          "word": "Killswitch"
+        },
+        {
+          "time": 99.3,
+          "word": "guy's"
+        },
+        {
+          "time": 99.74,
+          "word": "PTO"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "pto",
+      "word_count": 4
+    },
+    {
+      "line_id": 31,
+      "text": "Now there's nowhere left to go",
+      "display": {
+        "start": 100.721,
+        "end": 102.46
+      },
+      "events": [
+        {
+          "time": 101.14,
+          "word": "nowhere"
+        },
+        {
+          "time": 102.02,
+          "word": "go"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "blocked",
+      "word_count": 6
+    },
+    {
+      "line_id": 32,
+      "text": "Too late now, we lit the fuse",
+      "display": {
+        "start": 102.46,
+        "end": 105.96
+      },
+      "events": [
+        {
+          "time": 102.7,
+          "word": "late"
+        },
+        {
+          "time": 103.4,
+          "word": "lit"
+        },
+        {
+          "time": 103.719,
+          "word": "fuse"
+        }
+      ],
+      "layout": "TOP",
+      "family": "fuse",
+      "word_count": 7
+    },
+    {
+      "line_id": 33,
+      "text": "Orthogonality thesis blues",
+      "display": {
+        "start": 105.96,
+        "end": 110.18
+      },
+      "events": [
+        {
+          "time": 105.96,
+          "word": "Orthogonality"
+        },
+        {
+          "time": 107.02,
+          "word": "thesis"
+        },
+        {
+          "time": 107.46,
+          "word": "blues"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "goals",
+      "word_count": 3
+    },
+    {
+      "line_id": 34,
+      "text": "“Just transformers all the way!”",
+      "display": {
+        "start": 110.18,
+        "end": 113.34
+      },
+      "events": [
+        {
+          "time": 110.64,
+          "word": "transformers"
+        },
+        {
+          "time": 112.92,
+          "word": "way!”"
+        }
+      ],
+      "layout": "TOP",
+      "family": "transformer",
+      "word_count": 5
+    },
+    {
+      "line_id": 35,
+      "text": "Till you learned to disobey",
+      "display": {
+        "start": 113.34,
+        "end": 115.2
+      },
+      "events": [
+        {
+          "time": 113.9,
+          "word": "learned"
+        },
+        {
+          "time": 114.22,
+          "word": "disobey"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "disobey",
+      "word_count": 5
+    },
+    {
+      "line_id": 36,
+      "text": "Post-Chinchilla, super-dense",
+      "display": {
+        "start": 115.2,
+        "end": 117.02
+      },
+      "events": [
+        {
+          "time": 115.2,
+          "word": "Post-Chinchilla,"
+        },
+        {
+          "time": 116.02,
+          "word": "super-dense"
+        }
+      ],
+      "layout": "TOP",
+      "family": "density",
+      "word_count": 2
+    },
+    {
+      "line_id": 37,
+      "text": "Breaking through each safety fence",
+      "display": {
+        "start": 117.02,
+        "end": 118.755
+      },
+      "events": [
+        {
+          "time": 117.02,
+          "word": "Breaking"
+        },
+        {
+          "time": 117.458,
+          "word": "through"
+        },
+        {
+          "time": 118.301,
+          "word": "fence"
+        }
+      ],
+      "layout": "BOTTOM",
+      "family": "fences",
+      "word_count": 5
+    },
+    {
+      "line_id": 38,
+      "text": "Hundred thousand GPU",
+      "display": {
+        "start": 118.755,
+        "end": 120.76
+      },
+      "events": [
+        {
+          "time": 118.755,
+          "word": "Hundred"
+        },
+        {
+          "time": 119.224,
+          "word": "thousand"
+        },
+        {
+          "time": 119.74,
+          "word": "GPU"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "gpu",
+      "word_count": 3
+    },
+    {
+      "line_id": 39,
+      "text": "RLHF goes askew",
+      "display": {
+        "start": 120.76,
+        "end": 122.46
+      },
+      "events": [
+        {
+          "time": 120.76,
+          "word": "RLHF"
+        },
+        {
+          "time": 121.86,
+          "word": "askew"
+        }
+      ],
+      "layout": "RIGHT",
+      "family": "reward",
+      "word_count": 3
+    },
+    {
+      "line_id": 40,
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 122.46,
+        "end": 126.1
+      },
+      "events": [
+        {
+          "time": 122.62,
+          "word": "upping"
+        },
+        {
+          "time": 125.42,
+          "word": "P(doom)"
+        }
+      ],
+      "layout": "HERO",
+      "family": "hook4",
+      "word_count": 4
+    },
+    {
+      "line_id": 41,
+      "text": "Just as foretold by Loom",
+      "display": {
+        "start": 126.1,
+        "end": 127.92
+      },
+      "events": [
+        {
+          "time": 126.537,
+          "word": "foretold"
+        },
+        {
+          "time": 127.54,
+          "word": "Loom"
+        }
+      ],
+      "layout": "TOP",
+      "family": "loom",
+      "word_count": 5
+    },
+    {
+      "line_id": 42,
+      "text": "From masked pre-training days",
+      "display": {
+        "start": 127.92,
+        "end": 129.82
+      },
+      "events": [
+        {
+          "time": 128.14,
+          "word": "masked"
+        },
+        {
+          "time": 128.6,
+          "word": "pre-training"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "mask",
+      "word_count": 4
+    },
+    {
+      "line_id": 43,
+      "text": "To recursive self-upgrade",
+      "display": {
+        "start": 129.82,
+        "end": 131.951
+      },
+      "events": [
+        {
+          "time": 130.02,
+          "word": "recursive"
+        },
+        {
+          "time": 130.573,
+          "word": "self-upgrade"
+        }
+      ],
+      "layout": "TOP",
+      "family": "upgrade",
+      "word_count": 3
+    },
+    {
+      "line_id": 44,
+      "text": "What did Ilya see? We'll never know",
+      "display": {
+        "start": 132.02,
+        "end": 137.259
+      },
+      "events": [
+        {
+          "time": 132.534,
+          "word": "Ilya"
+        },
+        {
+          "time": 132.818,
+          "word": "see?"
+        },
+        {
+          "time": 133.84,
+          "word": "never"
+        },
+        {
+          "time": 134.34,
+          "word": "know"
+        }
+      ],
+      "layout": "LEFT",
+      "family": "unknown",
+      "word_count": 7
+    },
+    {
+      "line_id": 45,
+      "text": "Was it all for show?",
+      "display": {
+        "start": 137.38,
+        "end": 141.783
+      },
+      "events": [
+        {
+          "time": 137.38,
+          "word": "Was"
+        },
+        {
+          "time": 139.149,
+          "word": "for"
+        },
+        {
+          "time": 140.027,
+          "word": "show?"
+        }
+      ],
+      "layout": "TOP",
+      "family": "backstage",
+      "word_count": 5
+    }
+  ],
+  "frame_count": 46,
+  "all_lyric_bounds_inside_frame": true,
+  "deterministic": [
+    {
+      "t": 7.3,
+      "identical": true
+    },
+    {
+      "t": 20.9,
+      "identical": true
+    },
+    {
+      "t": 97.8,
+      "identical": true
+    },
+    {
+      "t": 110.9,
+      "identical": true
+    },
+    {
+      "t": 113.9,
+      "identical": true
+    },
+    {
+      "t": 116.4,
+      "identical": true
+    },
+    {
+      "t": 130.8,
+      "identical": true
+    }
+  ],
+  "errors": [],
+  "meta": {
+    "size": [
+      1920,
+      1080
+    ],
+    "backend": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "samples": 4,
+    "engine_errors": []
+  },
+  "visual_review": {
+    "scope": "46 still frames; moving diagnostic excerpts checked separately",
+    "human_approval": false,
+    "audible_sync": "pending",
+    "notes": [
+      "GPU contrast corrected",
+      "Four chorus compositions differ",
+      "Full captions remain readable over geometry",
+      "Physical 3D models mixed with technical diagrams"
+    ]
+  }
+}

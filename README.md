@@ -1,6 +1,6 @@
 # I'm Upping My P(doom) · Video workspace
 
-以 **作品 → 制作版本 → 变体与交付记录** 为核心的代码视频创作仓库。首个作品是 **AGI**：复用参考视频提取的完整音轨，制作三种不同视觉处理。后续类似视频使用独立作品目录；没有固定的前端项目。
+以 **作品 → 制作版本 → 变体与交付记录** 为核心的代码视频创作仓库。首个作品是 **AGI**：保留参考视频提取的完整音轨，按独立制作版本探索不同的视觉处理。后续类似视频使用独立作品目录；没有固定的前端项目。
 
 ![AGI v001 三版画面对比](projects/agi/versions/v001/provenance/original/contact-sheet-v001.jpg)
 
@@ -9,11 +9,18 @@
 | 作品 | 版本 | 变体 | 状态 |
 | --- | --- | --- | --- |
 | AGI / LLMV_001 | v001 | 科幻抽象、AGI 觉醒叙事、歌词视觉 | review |
-| AGI / LLMV_001 | v002 | 参考引擎、原生 4K60 技术迁移 | draft |
+| AGI / LLMV_001 | v002 | 参考引擎、原生 4K60 技术迁移 | review |
+| AGI / LLMV_001 | v003.0 | 失控的计算温室 · 首轮 Preview | superseded |
+| AGI / LLMV_001 | v003.1 | 失控的计算温室 · 排版修订 | review |
+| AGI / LLMV_001 | v004.0 | 谁在控制谁 · 逐句控制剧场 | review |
 
-三版均为 **1920×1080、24fps、约 2 分 37 秒**，完整复用原 AAC 音轨。参考原片、M4A 原音频、WAV 编辑音频和三部 MP4 在本地完整保留；GitHub 上传画面静帧、源代码、歌词对齐数据、转录、媒体探测和原 Story Studio 验收记录。
+v001 的三种变体均为 **1920×1080、24fps、约 2 分 37 秒**，完整复用原 AAC 音轨。参考原片、M4A 原音频、WAV 编辑音频和三部 MP4 在本地完整保留；GitHub 上传画面静帧、源代码、歌词对齐数据、转录、媒体探测和原 Story Studio 验收记录。
 
-v002 已采用参考项目的 **TypeScript＋Three.js／WebGL、22 段场景、歌词／节拍时间线、HDR 后期、自适应运动模糊及有背压的 RGBA/WebSocket 导出**。实际出帧规格为 **3840×2160、60fps**，完整音轨对应 9400 帧；旧 v001 保留。v002 当前为技术迁移 draft，技术验收短片不构成完整候选交付。
+v002 已采用参考项目的 **TypeScript＋Three.js／WebGL、22 段场景、歌词／节拍时间线、HDR 后期、自适应运动模糊及有背压的 RGBA/WebSocket 导出**。实际出帧规格为 **3840×2160、60fps**，完整音轨对应 9400 帧；旧 v001 保留。v002 完整候选已登记为 review，规格、解码和原音轨一致性检查通过，人工审美和有声同步仍待审看。
+
+最新完整 Preview 为 **v004.0「谁在控制谁」**：1920×1080、CFR 30fps、固定 4 次时间采样、4700 帧，完整原 AAC 音轨；46 句全文字幕、逐句机械／图解语义事件与四遍不同副歌。单次整片渲染约 3 分 28 秒，完整解码、均匀帧时间戳和播放／跳转通过。方案见 [TREATMENT](projects/agi/versions/v004.0/TREATMENT.md)，交付说明见 [VERSION](projects/agi/versions/v004.0/VERSION.md)。
+
+复用制作方法见 [歌词视频 Skill](.agents/skills/lyric-code-video/SKILL.md)。离线 Preview 默认为 1080p30／固定四次采样；正式成片默认为原生 4K60，采样策略按新版本单独设置。
 
 当前 WAV 已实际重新执行 **Demucs 四分轨、mel-band-roformer 主唱分离、MMS_FA＋wav2vec2 的多声道 CTC 强制对齐、Whisper 交叉检查、人声音高／起音分析、节拍／重拍／鼓起音及 100Hz 分轨包络**。自动时点仍须人工听辨，记录见 v002/runs。
 
@@ -33,7 +40,7 @@ npm run verify:source
 npm run catalog
 ```
 
-根据 2026-10-02 用户要求，GitHub 不包含视频、音频或其 LFS 指针；Git 和 ZIP 下载都只包含代码、字体／图片、分析数据与制作记录。媒体路径、规格与 SHA-256 仍保留，可追溯到本地原始文件。已有原始文件须按 project.yaml／manifest 映射放回对应路径；本仓库不提供媒体下载。
+根据 2026-10-02 用户要求，GitHub 不包含视频、音频或其 LFS 指针；Git 和 ZIP 下载都只包含代码、字体／图片、分析数据与制作记录。媒体路径、规格与 SHA-256 仍保留，可追溯到本地原始文件。已有原始文件须按 project.yaml／manifest 映射放回对应路径；本仓库不提供媒体下载。批量诊断静帧 `stills/RUN_*/` 和缓存只在本地保留，其执行记录与哈希继续追踪；正式海报、字体和渲染器图片资产随代码上传。
 
 恢复本地媒体后运行：
 
@@ -89,30 +96,32 @@ npm run preview -- --project agi --version v001 --variant abstract --time 46
 ### 预览 Three.js 版本与创建下一版本
 
 ```sh
-npm run preview -- --project agi --version v002 --time 23
-npm run build:renderer -- --project agi --version v002
-npm run version:new -- --project agi --from v002 --version v003
+npm run preview -- --project agi --version v004.0 --time 23
+npm run build:renderer -- --project agi --version v004.0
+npm run version:new -- --project agi --from v004.0 --version v004.1
 ```
 
-v003 继承完整的 renderer/ TypeScript 模块、字体与资源、音频分析工具代码以及数据映射；成片、运行记录和人类批准独立。
+v004.1 继承完整的 renderer/ TypeScript 模块、字体与资源、音频分析工具代码以及数据映射；成片、运行记录和人类批准独立。
 
 ### 从历史 Canvas 版本另建分支
 
 ```sh
-npm run version:new -- --project agi --from v001 --version v004
+npm run version:new -- --project agi --from v001 --version v005.0
 ```
 
-此例假定 v003 已创建；版本号必须大于现有所有版本。继承输入映射、数据和渲染代码，新版本从 `draft` 开始。编辑 `v004/TREATMENT.md`、`manifest.json` 和 `renderer.html`；旧版本的输出、批准状态和执行记录不复制。若修改代码或参数，应先更新该 draft manifest 中对应哈希与规格，再执行检查。
+此例从历史版本开启新的创意主版本；版本号必须大于现有所有版本。继承输入映射、数据和渲染代码，新版本从 `draft` 开始。编辑 `v005.0/TREATMENT.md`、`manifest.json` 和 `renderer.html`；旧版本的输出、批准状态和执行记录不复制。若修改代码或参数，应先更新该 draft manifest 中对应哈希与规格，再执行检查。
 
 ```sh
 # 首次使用：安装 Playwright Chromium；本机已有 Chrome 时可用 --browser chrome
 npx playwright install chromium
-npm run render:smoke -- --project agi --version v002
-npm run render:stills -- --project agi --version v002
-npm run render -- --project agi --version v002
-npm run register -- --project agi --version v002
-npm run verify:media -- --project agi --version v002
+npm run render:smoke -- --project agi --version v004.1
+npm run render:stills -- --project agi --version v004.1
+npm run render -- --project agi --version v004.1
+npm run register -- --project agi --version v004.1
+npm run verify:media -- --project agi --version v004.1
 ```
+
+以上渲染命令针对刚创建并填写好方案、参数与哈希的 v004.1 draft；已交付的 review／superseded 版本不能再次完整渲染。
 
 `render` 默认输出该版本全部变体，也可传 `--variant abstract`。不会覆盖已有输出；失败记录后停止。`register` 必须有每个变体的成功执行记录，并验证哈希、全片帧数、音轨一致和完整解码，随后登记为 `review`。Smoke 输出在 `.cache/`，不算完整交付。
 
@@ -131,7 +140,7 @@ npm run project:new -- --slug new-film --id VIDEO_002 --title "新作品"
 ```sh
 uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements-audio.lock.txt
-npm run audio:prepare -- --project agi --version v003 --device mps
+npm run audio:prepare -- --project agi --version v004.1 --device mps
 ```
 
 仅允许 draft 且无已交付输出的版本。命令核对 WAV 与歌词来源哈希，使用版本内 audio_pipeline 配置，模型权重／分轨／CTC 中间数据／QA 图在忽略的 .cache。成功才把新的 audio/lyrics JSON 绑定当前版本；运行与失败记录写入该版本 runs/，不自动重试。AGI v002 默认模型按参考算法兼容性固定，实际模型与包版本记录在运行证据中。
@@ -154,4 +163,4 @@ python3 -m venv .venv
 
 参考原片来自用户指定的 [B 站视频 BV18ta86EEHb](https://www.bilibili.com/video/BV18ta86EEHb/)，页面上传者为白雪仅当雪白；页面关联来源项目为 [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)。原始链接、规格和哈希均保留。v001 的逐词歌词辅助时间数据注明该来源；本地音轨转录和对齐检查也已保留。
 
-三版尚待人工审核；歌词高亮个别时点需要审看。音乐、歌词与参考视频权利按源资产保持 **TBD**，不因放入 GitHub 而变为已授权素材。项目级代码许可证也暂为 TBD，详见 [`LICENSE.md`](LICENSE.md) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
+当前 review 候选尚待人工审核；自动对齐的 13 个低置信词、额外声部和有声同步需听辨。PR 合并只批准源码发布，不自动将视频标记为 approved。音乐、歌词与参考视频权利按源资产保持 **TBD**，不因放入 GitHub 而变为已授权素材。项目级代码许可证也暂为 TBD，详见 [`LICENSE.md`](LICENSE.md) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。

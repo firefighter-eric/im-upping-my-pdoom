@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-02T13:28:00.834Z",
+  "scope": "Approved script as basis for full Preview production; no media aesthetic approval",
+  "human_request": "好的，现在开始制作整个视频，然后用Preview模式渲染。",
+  "source_script": "docs/plans/agi-v004.0-script.json",
+  "source_input_hash": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+  "version": "v004.0"
+}

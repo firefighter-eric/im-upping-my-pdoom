@@ -1,0 +1,219 @@
+{
+  "id": "QA_2026-10-02T09-48-25-802Z",
+  "purpose": "delivery-qa",
+  "status": "completed",
+  "date": "2026-10-02T09:48:25.802473+00:00",
+  "project_id": "LLMV_001",
+  "version": "v002",
+  "render_run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693",
+  "render_elapsed_seconds": 13719.415,
+  "output": {
+    "path": "outputs/LLMV_001_V002_001_reference_v002.mp4",
+    "sha256": "d769f89d7906c1460fdd897ac6f4ba9b97e8fc788a142e99373c4315b2880914",
+    "size_bytes": 2049460015,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "frame_count": 9400,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693"
+  },
+  "checks": {
+    "check": "passed",
+    "test": {
+      "passed": 8,
+      "failed": 0
+    },
+    "verify": {
+      "preserved_migration_files": 55,
+      "versions_checked": 2,
+      "media_skipped": 0,
+      "status": "passed"
+    },
+    "verify_media": "passed",
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "playback": "passed"
+  },
+  "playback": {
+    "muted": true,
+    "artifact": ".cache/acceptance/agi-v002-playback.json",
+    "sha256": "15f1475603d7c74480fa43fe47c2bb44a6eea08ca03af01bb61c5ea874a83e1b",
+    "observed": [
+      {
+        "variant": "reference",
+        "generation_id": "LLMV_001_V002_001",
+        "src": "http://127.0.0.1:56723/versions/v002/outputs/LLMV_001_V002_001_reference_v002.mp4",
+        "time": 1.152341,
+        "readyState": 4,
+        "error": null,
+        "width": 3840,
+        "height": 2160,
+        "duration": 156.666667,
+        "seeks": [
+          {
+            "time": 47.240632,
+            "readyState": 4,
+            "error": null
+          },
+          {
+            "time": 100.51335,
+            "readyState": 4,
+            "error": null
+          },
+          {
+            "time": 145.916475,
+            "readyState": 4,
+            "error": null
+          }
+        ]
+      }
+    ]
+  },
+  "visual_sampling": {
+    "lines": 46,
+    "native_frames": 92,
+    "phases": [
+      "mid",
+      "end"
+    ],
+    "sampling_manifest": ".cache/v002-delivery-qa/lyric-sampling.json",
+    "sampling_manifest_sha256": "bd293dce576fb3f1d5a9b74ee3514c895f7622d71b1f37e870d29ff402e2fbf3",
+    "contact_sheets": [
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-1.jpg",
+        "sha256": "36998cd14e3a8f0151abb2a40d072abce6a7463b66ca017fd7b870daafcde0d5"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-2.jpg",
+        "sha256": "58d5255833d2fca4e0333137cf5ffd9744360c3ffba3569dd719c8ed2acc7d31"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-3.jpg",
+        "sha256": "ab2a6f3673a227066324413037a05bb46f53126dcd0ca0464359ec5224c31ff9"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-4.jpg",
+        "sha256": "a614f3ab61c3dac36c74105bc166e0d268be4ed25d8c34ae579da00a89d24933"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-5.jpg",
+        "sha256": "6bb1ddf91f6f15957c248d2775501f34bc4a824118df0bbaec40e90830ef1148"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-6.jpg",
+        "sha256": "a074c59f77b665c4e717d309673c6446be095ad63d94ef3110c68f759ef2dd1f"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-7.jpg",
+        "sha256": "22f1d43316aa13da9e0d9bd0775962e9d2d9ddd0cf040aebf373a01722c95134"
+      },
+      {
+        "path": ".cache/v002-delivery-qa/lyrics-contact-8.jpg",
+        "sha256": "19168a7df56437ac2da2b2135988a03f4d7cc243fccaf74565286368a81532e5"
+      }
+    ],
+    "inspection": "All eight contact sheets visually inspected; scene assets and fonts present, with progressive typography, intentional cropping and fades/cuts at some line tails.",
+    "limits": "Static samples do not prove every word remains readable throughout singing or that audible word synchronization is correct. Analytical sample files are local ignored cache artifacts."
+  },
+  "human_review": {
+    "status": "pending",
+    "audible_lyric_sync": "pending",
+    "normal_speed_readability": "pending",
+    "low_confidence_words": [
+      {
+        "word": "eat",
+        "start": 20.6,
+        "end": 20.8,
+        "confidence": 0.52
+      },
+      {
+        "word": "alive",
+        "start": 20.86,
+        "end": 22.6,
+        "confidence": 0.37
+      },
+      {
+        "word": "I'm",
+        "start": 22.6,
+        "end": 23.02,
+        "confidence": 0.52
+      },
+      {
+        "word": "me",
+        "start": 57.2,
+        "end": 57.769,
+        "confidence": 0.59
+      },
+      {
+        "word": "are",
+        "start": 84.5,
+        "end": 85,
+        "confidence": 0.54
+      },
+      {
+        "word": "me",
+        "start": 93.6,
+        "end": 94.3,
+        "confidence": 0.52
+      },
+      {
+        "word": "I'm",
+        "start": 95.2,
+        "end": 95.7,
+        "confidence": 0.45
+      },
+      {
+        "word": "all",
+        "start": 112.524,
+        "end": 112.76,
+        "confidence": 0.58
+      },
+      {
+        "word": "I'm",
+        "start": 122.46,
+        "end": 122.62,
+        "confidence": 0.51
+      },
+      {
+        "word": "upping",
+        "start": 122.62,
+        "end": 125.036,
+        "confidence": 0.51
+      },
+      {
+        "word": "my",
+        "start": 125.036,
+        "end": 125.42,
+        "confidence": 0.43
+      },
+      {
+        "word": "P(doom)",
+        "start": 125.42,
+        "end": 126.1,
+        "confidence": 0.59
+      },
+      {
+        "word": "We'll",
+        "start": 133.4,
+        "end": 133.84,
+        "confidence": 0.59
+      }
+    ],
+    "approval": null
+  },
+  "preview_defaults": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4
+    },
+    "audio_policy": "preserve_full_original",
+    "scope": "Future previews; this completed V2 uses its bound 4K60 adaptive settings."
+  }
+}
