@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-02T12:29:43.241Z",
+  "project_id": "LLMV_001",
+  "version": "v003",
+  "status": "technical-passed-visual-revision-required",
+  "output": {
+    "path": "outputs/LLMV_001_V003_001_greenhouse-preview_v003.mp4",
+    "sha256": "9adb27d62588b97829d4e85f4f5c691e0fa92c2f2e16d3f8075cfc91ee00b434",
+    "size_bytes": 114871019,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "frame_count": 4700,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-02T12-22-26-786Z_29adc0bb"
+  },
+  "technical": {
+    "checks": "npm run check passed; npm test 8/8; npm run verify passed",
+    "media": "specs, frame count, identical source AAC packets, full decode passed",
+    "playback": {
+      "project_id": "LLMV_001",
+      "version": "v003",
+      "date": "2026-10-02T12:27:21.031Z",
+      "browser": "154.0.8037.93",
+      "status": "passed",
+      "results": [
+        {
+          "variant": "greenhouse-preview",
+          "generation_id": "LLMV_001_V003_001",
+          "src": "http://127.0.0.1:61940/versions/v003/outputs/LLMV_001_V003_001_greenhouse-preview_v003.mp4",
+          "time": 1.081881,
+          "readyState": 4,
+          "error": null,
+          "width": 1920,
+          "height": 1080,
+          "duration": 156.666667,
+          "seeks": [
+            {
+              "time": 47.214172,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 100.479302,
+              "readyState": 4,
+              "error": null
+            },
+            {
+              "time": 145.912403,
+              "readyState": 4,
+              "error": null
+            }
+          ]
+        }
+      ]
+    },
+    "playback_muted": true
+  },
+  "visual": {
+    "encoded_frames": 92,
+    "lyric_lines": 46,
+    "contact_sheets_inspected": 8,
+    "lyric_coverage": "sentence visible at midpoint and near tail for all 46 lines",
+    "finding": "Decorative chapter heading overlaps chorus display text at the start of cultivation, extraction and replication; mandatory lyric layer remains readable.",
+    "revision_directory": "v004"
+  },
+  "rhythm": {
+    "chapter_cuts": [
+      {
+        "time": 22.056,
+        "output_frame": 662,
+        "error_seconds": 0.010666666666665492
+      },
+      {
+        "time": 38.418,
+        "output_frame": 1153,
+        "error_seconds": 0.015333333333330756
+      },
+      {
+        "time": 58.417,
+        "output_frame": 1753,
+        "error_seconds": 0.016333333333328426
+      },
+      {
+        "time": 74.78,
+        "output_frame": 2244,
+        "error_seconds": 0.01999999999999602
+      },
+      {
+        "time": 94.779,
+        "output_frame": 2844,
+        "error_seconds": 0.021000000000000796
+      },
+      {
+        "time": 109.324,
+        "output_frame": 3280,
+        "error_seconds": 0.009333333333330529
+      },
+      {
+        "time": 132.959,
+        "output_frame": 3989,
+        "error_seconds": 0.007666666666665378
+      }
+    ],
+    "camera_cuts": [
+      {
+        "time": 0.239,
+        "chapter": "germination",
+        "output_frame": 8,
+        "quantization_error_seconds": 0.027666666666666673
+      },
+      {
+        "time": 3.875,
+        "chapter": "germination",
+        "output_frame": 117,
+        "quantization_error_seconds": 0.02499999999999991
+      },
+      {
+        "time": 7.511,
+        "chapter": "germination",
+        "output_frame": 226,
+        "quantization_error_seconds": 0.022333333333333094
+      },
+      {
+        "time": 11.147,
+        "chapter": "germination",
+        "output_frame": 335,
+        "quantization_error_seconds": 0.019666666666665833
+      },
+      {
+        "time": 14.783,
+        "chapter": "germination",
+        "output_frame": 444,
+        "quantization_error_seconds": 0.017000000000001236
+      },
+      {
+        "time": 18.419,
+        "chapter": "germination",
+        "output_frame": 553,
+        "quantization_error_seconds": 0.014333333333333087
+      },
+      {
+        "time": 25.692,
+        "chapter": "cultivation",
+        "output_frame": 771,
+        "quantization_error_seconds": 0.007999999999999119
+      },
+      {
+        "time": 29.328,
+        "chapter": "cultivation",
+        "output_frame": 880,
+        "quantization_error_seconds": 0.005333333333332746
+      },
+      {
+        "time": 32.964,
+        "chapter": "cultivation",
+        "output_frame": 989,
+        "quantization_error_seconds": 0.0026666666666699257
+      },
+      {
+        "time": 36.6,
+        "chapter": "cultivation",
+        "output_frame": 1098,
+        "quantization_error_seconds": 0
+      },
+      {
+        "time": 42.055,
+        "chapter": "mutation",
+        "output_frame": 1262,
+        "quantization_error_seconds": 0.011666666666670267
+      },
+      {
+        "time": 45.691,
+        "chapter": "mutation",
+        "output_frame": 1371,
+        "quantization_error_seconds": 0.009000000000000341
+      },
+      {
+        "time": 49.327,
+        "chapter": "mutation",
+        "output_frame": 1480,
+        "quantization_error_seconds": 0.006333333333337521
+      },
+      {
+        "time": 52.963,
+        "chapter": "mutation",
+        "output_frame": 1589,
+        "quantization_error_seconds": 0.003666666666667595
+      },
+      {
+        "time": 56.599,
+        "chapter": "mutation",
+        "output_frame": 1698,
+        "quantization_error_seconds": 0.0010000000000047748
+      },
+      {
+        "time": 62.053,
+        "chapter": "extraction",
+        "output_frame": 1862,
+        "quantization_error_seconds": 0.013666666666672711
+      },
+      {
+        "time": 65.69,
+        "chapter": "extraction",
+        "output_frame": 1971,
+        "quantization_error_seconds": 0.010000000000005116
+      },
+      {
+        "time": 69.326,
+        "chapter": "extraction",
+        "output_frame": 2080,
+        "quantization_error_seconds": 0.00733333333333519
+      },
+      {
+        "time": 72.962,
+        "chapter": "extraction",
+        "output_frame": 2189,
+        "quantization_error_seconds": 0.0046666666666652645
+      },
+      {
+        "time": 78.416,
+        "chapter": "deviation",
+        "output_frame": 2353,
+        "quantization_error_seconds": 0.017333333333340306
+      },
+      {
+        "time": 82.052,
+        "chapter": "deviation",
+        "output_frame": 2462,
+        "quantization_error_seconds": 0.01466666666665617
+      },
+      {
+        "time": 85.689,
+        "chapter": "deviation",
+        "output_frame": 2571,
+        "quantization_error_seconds": 0.01100000000000989
+      },
+      {
+        "time": 89.325,
+        "chapter": "deviation",
+        "output_frame": 2680,
+        "quantization_error_seconds": 0.008333333333325754
+      },
+      {
+        "time": 92.961,
+        "chapter": "deviation",
+        "output_frame": 2789,
+        "quantization_error_seconds": 0.005666666666670039
+      },
+      {
+        "time": 98.415,
+        "chapter": "replication",
+        "output_frame": 2953,
+        "quantization_error_seconds": 0.01833333333333087
+      },
+      {
+        "time": 102.051,
+        "chapter": "replication",
+        "output_frame": 3062,
+        "quantization_error_seconds": 0.015666666666660944
+      },
+      {
+        "time": 105.688,
+        "chapter": "replication",
+        "output_frame": 3171,
+        "quantization_error_seconds": 0.012000000000000455
+      },
+      {
+        "time": 112.96,
+        "chapter": "escape",
+        "output_frame": 3389,
+        "quantization_error_seconds": 0.006666666666674814
+      },
+      {
+        "time": 116.596,
+        "chapter": "escape",
+        "output_frame": 3498,
+        "quantization_error_seconds": 0.003999999999990678
+      },
+      {
+        "time": 120.232,
+        "chapter": "escape",
+        "output_frame": 3607,
+        "quantization_error_seconds": 0.0013333333333349628
+      },
+      {
+        "time": 123.868,
+        "chapter": "escape",
+        "output_frame": 3717,
+        "quantization_error_seconds": 0.03200000000001069
+      },
+      {
+        "time": 127.505,
+        "chapter": "escape",
+        "output_frame": 3826,
+        "quantization_error_seconds": 0.028333333333335986
+      },
+      {
+        "time": 131.141,
+        "chapter": "escape",
+        "output_frame": 3935,
+        "quantization_error_seconds": 0.02566666666666606
+      },
+      {
+        "time": 136.595,
+        "chapter": "afterimage",
+        "output_frame": 4098,
+        "quantization_error_seconds": 0.0049999999999954525
+      },
+      {
+        "time": 140.231,
+        "chapter": "afterimage",
+        "output_frame": 4207,
+        "quantization_error_seconds": 0.002333333333325527
+      },
+      {
+        "time": 143.867,
+        "chapter": "afterimage",
+        "output_frame": 4317,
+        "quantization_error_seconds": 0.03300000000001546
+      },
+      {
+        "time": 147.504,
+        "chapter": "afterimage",
+        "output_frame": 4426,
+        "quantization_error_seconds": 0.02933333333334076
+      },
+      {
+        "time": 151.14,
+        "chapter": "afterimage",
+        "output_frame": 4535,
+        "quantization_error_seconds": 0.026666666666670835
+      },
+      {
+        "time": 154.776,
+        "chapter": "afterimage",
+        "output_frame": 4644,
+        "quantization_error_seconds": 0.02400000000000091
+      }
+    ],
+    "maximum_frame_quantization_seconds": 0.03300000000001546,
+    "scope": "timing ledger and encoded-frame inspection; human audible beat judgement pending"
+  },
+  "human_review": "pending; audible sync and subjective beat/visual quality not automatically approved"
+}

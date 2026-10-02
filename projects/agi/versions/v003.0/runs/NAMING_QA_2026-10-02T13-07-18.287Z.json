@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v003.0",
+  "at": "2026-10-02T13:07:18.287Z",
+  "purpose": "version naming migration validation",
+  "status": "passed",
+  "scope": "Naming and path changes only; no render or creative approval",
+  "checks": {
+    "check": "passed",
+    "tests": {
+      "passed": 9,
+      "failed": 0
+    },
+    "verify": "passed",
+    "verify_source": "passed",
+    "verify_media": "passed",
+    "historical_evidence_hashes": "unchanged",
+    "output_content_hashes": "unchanged",
+    "media_ignored_by_git": true
+  },
+  "naming_record": "provenance/version-naming.json",
+  "previous_version": "v003",
+  "playback": {
+    "project_id": "LLMV_001",
+    "version": "v003.0",
+    "date": "2026-10-02T13:06:40.795Z",
+    "browser": "154.0.8037.93",
+    "status": "passed",
+    "results": [
+      {
+        "variant": "greenhouse-preview",
+        "generation_id": "LLMV_001_V003_001",
+        "src": "http://127.0.0.1:50290/versions/v003.0/outputs/LLMV_001_v003.0_greenhouse-preview.mp4",
+        "time": 1.088584,
+        "readyState": 4,
+        "error": null,
+        "width": 1920,
+        "height": 1080,
+        "duration": 156.666667,
+        "seeks": [
+          {
+            "time": 47.214246,
+            "readyState": 4,
+            "error": null
+          },
+          {
+            "time": 100.479835,
+            "readyState": 4,
+            "error": null
+          },
+          {
+            "time": 145.915482,
+            "readyState": 4,
+            "error": null
+          }
+        ]
+      }
+    ]
+  },
+  "human_review": "pending"
+}

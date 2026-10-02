@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-02T13:46:47.305Z",
+  "version": "v004.0",
+  "browser": "154.0.8037.93",
+  "status": "passed",
+  "scope": "Unmuted browser media decoding, progress and seeking. Does not certify perceptual listening or human lyric synchronisation.",
+  "samples": [
+    {
+      "from": 0,
+      "currentTime": 0.458516,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 13125,
+      "decodedVideoBytes": 29783
+    },
+    {
+      "from": 20.4,
+      "currentTime": 20.845858,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 99399,
+      "decodedVideoBytes": 503012
+    },
+    {
+      "from": 62,
+      "currentTime": 62.43037,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 150927,
+      "decodedVideoBytes": 812066
+    },
+    {
+      "from": 97.6,
+      "currentTime": 98.030573,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 182875,
+      "decodedVideoBytes": 2730324
+    },
+    {
+      "from": 121.6,
+      "currentTime": 122.048567,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 220594,
+      "decodedVideoBytes": 2867292
+    },
+    {
+      "from": 125.2,
+      "currentTime": 125.645664,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 298953,
+      "decodedVideoBytes": 3037372
+    },
+    {
+      "from": 154.8,
+      "currentTime": 155.245035,
+      "readyState": 4,
+      "error": null,
+      "muted": false,
+      "volume": 1,
+      "paused": false,
+      "decodedAudioBytes": 426526,
+      "decodedVideoBytes": 3293994
+    }
+  ],
+  "errors": []
+}

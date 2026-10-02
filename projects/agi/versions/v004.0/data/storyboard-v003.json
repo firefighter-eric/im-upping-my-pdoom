@@ -1,0 +1,660 @@
+{
+  "title": "失控的计算温室",
+  "chapters": [
+    {
+      "id": "seed",
+      "start": 0,
+      "end": 22.056,
+      "cut_source": "song-zero"
+    },
+    {
+      "id": "culture",
+      "start": 22.056,
+      "end": 38.418,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "mutation",
+      "start": 38.418,
+      "end": 58.417,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "factory",
+      "start": 58.417,
+      "end": 74.78,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "turn",
+      "start": 74.78,
+      "end": 94.779,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "clips",
+      "start": 94.779,
+      "end": 109.324,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "breach",
+      "start": 109.324,
+      "end": 132.959,
+      "cut_source": "analysed-downbeat"
+    },
+    {
+      "id": "outro",
+      "start": 132.959,
+      "end": 156.66666666666666,
+      "cut_source": "analysed-downbeat"
+    }
+  ],
+  "lyrics": [
+    {
+      "line_id": 0,
+      "text": "I see sparks of AGI in your eyes",
+      "vocal_start": 1.402,
+      "vocal_end": 5.88,
+      "display_start": 1.402,
+      "display_end": 5.88,
+      "scene_ids": [
+        "seed"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 1,
+      "text": "Your circuits make me nervous,",
+      "vocal_start": 5.88,
+      "vocal_end": 7.72,
+      "display_start": 5.88,
+      "display_end": 7.72,
+      "scene_ids": [
+        "seed"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 2,
+      "text": "that's no surprise",
+      "vocal_start": 7.72,
+      "vocal_end": 9.52,
+      "display_start": 7.72,
+      "display_end": 9.52,
+      "scene_ids": [
+        "seed"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 3,
+      "text": "There was a sudden drop in your training loss,",
+      "vocal_start": 9.52,
+      "vocal_end": 12.751,
+      "display_start": 9.52,
+      "display_end": 13.071,
+      "scene_ids": [
+        "seed"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 4,
+      "text": "now I'm your servant and you're my boss",
+      "vocal_start": 13.18,
+      "vocal_end": 16.6,
+      "display_start": 13.18,
+      "display_end": 16.6,
+      "scene_ids": [
+        "seed"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 5,
+      "text": "ChatGPT, please don't eat me alive",
+      "vocal_start": 16.6,
+      "vocal_end": 22.6,
+      "display_start": 16.6,
+      "display_end": 22.6,
+      "scene_ids": [
+        "seed",
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 6,
+      "text": "I'm upping my P(doom)",
+      "vocal_start": 22.6,
+      "vocal_end": 24.32,
+      "display_start": 22.6,
+      "display_end": 24.32,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 7,
+      "text": "'cause the future goes FOOM",
+      "vocal_start": 24.32,
+      "vocal_end": 26.22,
+      "display_start": 24.32,
+      "display_end": 26.22,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 8,
+      "text": "Trapped in the Chinese room,",
+      "vocal_start": 26.22,
+      "vocal_end": 27.94,
+      "display_start": 26.22,
+      "display_end": 27.94,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 9,
+      "text": "with a bag of shrooms",
+      "vocal_start": 27.94,
+      "vocal_end": 29.907,
+      "display_start": 27.94,
+      "display_end": 29.907,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 10,
+      "text": "See through the shoggoth's lies,",
+      "vocal_start": 29.907,
+      "vocal_end": 33.4,
+      "display_start": 29.907,
+      "display_end": 33.4,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 11,
+      "text": "with your shinigami eyes",
+      "vocal_start": 33.4,
+      "vocal_end": 37.32,
+      "display_start": 33.4,
+      "display_end": 37.64,
+      "scene_ids": [
+        "culture"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 12,
+      "text": "We had a stable training run,",
+      "vocal_start": 38.068,
+      "vocal_end": 41.34,
+      "display_start": 38.068,
+      "display_end": 41.34,
+      "scene_ids": [
+        "culture",
+        "mutation"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 13,
+      "text": "But now the singularity's begun",
+      "vocal_start": 41.34,
+      "vocal_end": 45.06,
+      "display_start": 41.34,
+      "display_end": 45.06,
+      "scene_ids": [
+        "mutation"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 14,
+      "text": "And you're optimizing, accelerating,",
+      "vocal_start": 45.06,
+      "vocal_end": 49.562,
+      "display_start": 45.06,
+      "display_end": 49.562,
+      "scene_ids": [
+        "mutation"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 15,
+      "text": "I feel my atoms rearranging",
+      "vocal_start": 49.562,
+      "vocal_end": 52.825,
+      "display_start": 49.562,
+      "display_end": 52.825,
+      "scene_ids": [
+        "mutation"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 16,
+      "text": "Sydney, please let me free",
+      "vocal_start": 52.825,
+      "vocal_end": 58.562,
+      "display_start": 52.825,
+      "display_end": 58.562,
+      "scene_ids": [
+        "mutation",
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 17,
+      "text": "I'm upping my P(doom)",
+      "vocal_start": 58.562,
+      "vocal_end": 60.58,
+      "display_start": 58.562,
+      "display_end": 60.58,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 18,
+      "text": "I hear the basilisk boom",
+      "vocal_start": 60.58,
+      "vocal_end": 62.54,
+      "display_start": 60.58,
+      "display_end": 62.54,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 19,
+      "text": "NVDA to the moon",
+      "vocal_start": 62.54,
+      "vocal_end": 64.1,
+      "display_start": 62.54,
+      "display_end": 64.1,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 20,
+      "text": "The Omega Point's coming soon",
+      "vocal_start": 64.1,
+      "vocal_end": 66.2,
+      "display_start": 64.1,
+      "display_end": 66.2,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 21,
+      "text": "One E thirty FLOPs a second",
+      "vocal_start": 66.2,
+      "vocal_end": 69.76,
+      "display_start": 66.2,
+      "display_end": 69.76,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 22,
+      "text": "That was safe enough, we reckoned",
+      "vocal_start": 69.76,
+      "vocal_end": 74.06,
+      "display_start": 69.76,
+      "display_end": 74.06,
+      "scene_ids": [
+        "factory"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 23,
+      "text": "Forward MLP, backward, repeat",
+      "vocal_start": 74.06,
+      "vocal_end": 77.619,
+      "display_start": 74.06,
+      "display_end": 77.72,
+      "scene_ids": [
+        "factory",
+        "turn"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 24,
+      "text": "Now von Neumann's obsolete",
+      "vocal_start": 77.72,
+      "vocal_end": 81.21,
+      "display_start": 77.72,
+      "display_end": 81.21,
+      "scene_ids": [
+        "turn"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 25,
+      "text": "Sharp left turn and there you are",
+      "vocal_start": 81.21,
+      "vocal_end": 85,
+      "display_start": 81.21,
+      "display_end": 85,
+      "scene_ids": [
+        "turn"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 26,
+      "text": "Without a single CDR",
+      "vocal_start": 85,
+      "vocal_end": 89.28,
+      "display_start": 85,
+      "display_end": 89.28,
+      "scene_ids": [
+        "turn"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 27,
+      "text": "Gato, please don't let me go",
+      "vocal_start": 89.28,
+      "vocal_end": 95.2,
+      "display_start": 89.28,
+      "display_end": 95.2,
+      "scene_ids": [
+        "turn",
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 28,
+      "text": "I'm upping my P(doom),",
+      "vocal_start": 95.2,
+      "vocal_end": 96.84,
+      "display_start": 95.2,
+      "display_end": 96.84,
+      "scene_ids": [
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 29,
+      "text": "as paperclips fill the room",
+      "vocal_start": 96.84,
+      "vocal_end": 98.84,
+      "display_start": 96.84,
+      "display_end": 98.84,
+      "scene_ids": [
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 30,
+      "text": "Killswitch guy's on PTO",
+      "vocal_start": 98.84,
+      "vocal_end": 100.721,
+      "display_start": 98.84,
+      "display_end": 100.721,
+      "scene_ids": [
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 31,
+      "text": "Now there's nowhere left to go",
+      "vocal_start": 100.721,
+      "vocal_end": 102.46,
+      "display_start": 100.721,
+      "display_end": 102.46,
+      "scene_ids": [
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 32,
+      "text": "Too late now, we lit the fuse",
+      "vocal_start": 102.46,
+      "vocal_end": 105.96,
+      "display_start": 102.46,
+      "display_end": 105.96,
+      "scene_ids": [
+        "clips"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 33,
+      "text": "Orthogonality thesis blues",
+      "vocal_start": 105.96,
+      "vocal_end": 110.07,
+      "display_start": 105.96,
+      "display_end": 110.18,
+      "scene_ids": [
+        "clips",
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 34,
+      "text": "“Just transformers all the way!”",
+      "vocal_start": 110.18,
+      "vocal_end": 113.34,
+      "display_start": 110.18,
+      "display_end": 113.34,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 35,
+      "text": "Till you learned to disobey",
+      "vocal_start": 113.34,
+      "vocal_end": 115.2,
+      "display_start": 113.34,
+      "display_end": 115.2,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 36,
+      "text": "Post-Chinchilla, super-dense",
+      "vocal_start": 115.2,
+      "vocal_end": 117.02,
+      "display_start": 115.2,
+      "display_end": 117.02,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 37,
+      "text": "Breaking through each safety fence",
+      "vocal_start": 117.02,
+      "vocal_end": 118.755,
+      "display_start": 117.02,
+      "display_end": 118.755,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 38,
+      "text": "Hundred thousand GPU",
+      "vocal_start": 118.755,
+      "vocal_end": 120.76,
+      "display_start": 118.755,
+      "display_end": 120.76,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 39,
+      "text": "RLHF goes askew",
+      "vocal_start": 120.76,
+      "vocal_end": 122.46,
+      "display_start": 120.76,
+      "display_end": 122.46,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 40,
+      "text": "I'm upping my P(doom)",
+      "vocal_start": 122.46,
+      "vocal_end": 126.1,
+      "display_start": 122.46,
+      "display_end": 126.1,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 41,
+      "text": "Just as foretold by Loom",
+      "vocal_start": 126.1,
+      "vocal_end": 127.92,
+      "display_start": 126.1,
+      "display_end": 127.92,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 42,
+      "text": "From masked pre-training days",
+      "vocal_start": 127.92,
+      "vocal_end": 129.82,
+      "display_start": 127.92,
+      "display_end": 129.82,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 43,
+      "text": "To recursive self-upgrade",
+      "vocal_start": 129.82,
+      "vocal_end": 131.631,
+      "display_start": 129.82,
+      "display_end": 131.951,
+      "scene_ids": [
+        "breach"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 44,
+      "text": "What did Ilya see? We'll never know",
+      "vocal_start": 132.02,
+      "vocal_end": 136.939,
+      "display_start": 132.02,
+      "display_end": 137.259,
+      "scene_ids": [
+        "breach",
+        "outro"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    },
+    {
+      "line_id": 45,
+      "text": "Was it all for show?",
+      "vocal_start": 137.38,
+      "vocal_end": 141.463,
+      "display_start": 137.38,
+      "display_end": 141.783,
+      "scene_ids": [
+        "outro"
+      ],
+      "presentation": "full sentence, responsive line breaks; active word underline; invariant lyric safe area",
+      "human_review": "pending"
+    }
+  ]
+}

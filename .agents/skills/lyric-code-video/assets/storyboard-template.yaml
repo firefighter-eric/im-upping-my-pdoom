@@ -1,0 +1,67 @@
+# 复制到新作品／版本后填写；未知内容保留 TBD 或 null。
+# 每一句演唱、每一遍重复副歌都新增独立条目；器乐段用 instrumental 条目。
+project_id: TBD
+version: TBD
+status: draft
+scope: TBD # analysis / proposal / sample / full
+inputs:
+  song: {id: TBD, path: TBD, sha256: TBD, rights: TBD}
+  lyrics: {path: TBD, sha256: TBD, language: TBD, rights: TBD}
+  reference: {path_or_url: TBD, revision: TBD, observation_scope: TBD, rights: TBD}
+output:
+  width: 3840
+  height: 2160
+  fps: 60
+  audio_policy: preserve_full_original
+  duration_seconds: null
+  target_frames: null # ceil(duration_seconds * fps)
+preview_defaults:
+  width: 1920
+  height: 1080
+  fps: 30
+  sampling: {mode: fixed, samples: 4, shutter: 0.2}
+  audio_policy: preserve_full_original
+visual_bible:
+  concept: TBD
+  palette: []
+  typography_roles: []
+  materials: []
+  recurring_motifs: []
+  motion_rules: []
+  chapter_progression: TBD
+scenes:
+  - id: S001
+    type: lyric # lyric / instrumental
+    section: TBD
+    lyric_occurrence_id: L001
+    lyric_text: TBD
+    sung_interval_seconds: {start: null, end: null}
+    display_interval_seconds: {start: null, end: null}
+    visual_event: TBD # 歌词在视觉上发生什么
+    composition_and_hierarchy: TBD
+    typography_and_readability: TBD
+    word_timing_data: TBD
+    audio_features_used: []
+    camera_and_motion: TBD
+    transition_in: TBD
+    transition_out: TBD
+    motif_change: TBD
+    implementation: TBD
+    reference_evidence: TBD
+    qa:
+      lyric_coverage: pending
+      audible_sync: pending
+      visual_review: pending
+      notes: TBD
+production:
+  tools_and_models: []
+  input_and_code_hashes: []
+  runs: []
+  known_issues: []
+acceptance:
+  technical: pending
+  full_lyric_coverage: pending
+  visual: pending
+  playback_with_audio: pending
+  evidence_paths: []
+  human_approval: null # 仅明确人类批准后填写批准人、时间与范围

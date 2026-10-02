@@ -1,0 +1,4 @@
+interface:
+  display_name: "歌词驱动代码音乐视频"
+  short_description: "参考原片，把歌词设计成视觉事件，完成音频分析、分镜、代码动画与4K60验收"
+  default_prompt: "使用 $lyric-code-video，参考这首歌和原片，制作逐句歌词可读、画面随语义发展的代码音乐视频。"

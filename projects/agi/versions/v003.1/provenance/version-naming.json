@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "at": "2026-10-02T13:05:51.932Z",
+  "reason": "User requested one V3 creative direction with v003.0 initial and v003.1 typography revision",
+  "from_version": "v004",
+  "to_version": "v003.1",
+  "from_parent_version": "v003",
+  "to_parent_version": "v003.0",
+  "original_manifest": "provenance/manifest-before-version-rename.json",
+  "outputs": [
+    {
+      "generation_id": "LLMV_001_V004_001",
+      "from_path": "outputs/LLMV_001_V004_001_greenhouse-preview_v004.mp4",
+      "to_path": "outputs/LLMV_001_v003.1_greenhouse-preview.mp4",
+      "sha256": "8868fa9c59d14e36502bea904a7a0164f284e2489972636f6f7eb9c3bd40620d"
+    }
+  ],
+  "preserved_files": [
+    {
+      "path": "TREATMENT.md",
+      "sha256": "6fc67b0e15526a0624535498a4eecd89ccb6fa23bcb87d5051403a87c0083177"
+    },
+    {
+      "path": "runs/LLMV_001_V004_001-ffprobe.json",
+      "sha256": "dc259fe0ab101d8fd06b4e5910765980f34e947f70fe9a08b9f79ca5eb76511f"
+    },
+    {
+      "path": "runs/QA_2026-10-02T12-35-45-391Z.json",
+      "sha256": "b68179e812b59316c443af130961e9f4c1577602a3dfa25469b946d6b5babd09"
+    },
+    {
+      "path": "runs/RUN_2026-10-02T12-30-10-188Z_93b76374.json",
+      "sha256": "95c54b5bc2d233fd5e3b56c092a00ea4d10c758844809939f113c990da265f22"
+    },
+    {
+      "path": "provenance/authoring-preflight.json",
+      "sha256": "4b9f72125cb25dbbb9817e25e898e584328d0bf9cca50e7d98c6664766050f76"
+    },
+    {
+      "path": "provenance/reference-import.json",
+      "sha256": "0d8fa8cd312b8230816e952e1ef0f42aa9c64a216d8465f3506e507279b0db66"
+    },
+    {
+      "path": "provenance/v003-design-revision.json",
+      "sha256": "b6b9abc692f14655059ccba97d854381dd8dad9f992217f22d90983a84c03de6"
+    },
+    {
+      "path": "provenance/manifest-before-version-rename.json",
+      "sha256": "e1c470d9308255728cef63cd2bb6d26d3d4d50e9d4bfeb60db06a196f57f14a2"
+    }
+  ],
+  "note": "Media bytes, generation IDs, source code, data, TREATMENT and original execution/provenance records are unchanged. Historical names remain in those records."
+}

@@ -16,6 +16,9 @@ output/qa/
 .render.lock
 .audio.lock
 
+# Batch diagnostic stills stay local; their run records and hashes remain tracked.
+projects/*/versions/*/stills/RUN_*/
+
 # Video/audio stay local; publish code, assets and production records only.
 *.mp4
 *.mov

@@ -1,0 +1,160 @@
+{
+  "created_at": "2026-10-02T12:22:07.178Z",
+  "parent_version": "v002",
+  "reference_commit": "bdbad537a7b7af3213475651774030c47568c181",
+  "retained_scope": "engine typography/font assets, linear HDR averaging, post and export bootstrap",
+  "replaced_scope": "all 22 reference scenes and timeline; reference preview plates not used",
+  "new_scene": "renderer/src/scenes/greenhouse.ts",
+  "new_timeline": "renderer/src/timeline.ts",
+  "input_analysis": "same original audio hashes; inherited V2 analysis, no new model invocation",
+  "preview_spec": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 156.650667,
+    "target_frames": 4700,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "crf": 18,
+    "preset": "fast",
+    "frame_transport": "rgba-websocket",
+    "purpose": "preview"
+  },
+  "preflight": {
+    "at": "2026-10-02T12:21:20.294Z",
+    "errors": [],
+    "deterministic": true,
+    "meta": {
+      "size": [
+        1920,
+        1080
+      ],
+      "backend": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "samples": 4,
+      "timeline": [
+        {
+          "id": "germination",
+          "start": 0,
+          "end": 22.056
+        },
+        {
+          "id": "cultivation",
+          "start": 22.056,
+          "end": 38.418
+        },
+        {
+          "id": "mutation",
+          "start": 38.418,
+          "end": 58.417
+        },
+        {
+          "id": "extraction",
+          "start": 58.417,
+          "end": 74.78
+        },
+        {
+          "id": "deviation",
+          "start": 74.78,
+          "end": 94.779
+        },
+        {
+          "id": "replication",
+          "start": 94.779,
+          "end": 109.324
+        },
+        {
+          "id": "escape",
+          "start": 109.324,
+          "end": 132.959
+        },
+        {
+          "id": "afterimage",
+          "start": 132.959,
+          "end": 156.76666666666665
+        }
+      ]
+    },
+    "stats": [
+      {
+        "t": 4,
+        "ms": 67.38908300000003
+      },
+      {
+        "t": 11.1,
+        "ms": 21.05704199999991
+      },
+      {
+        "t": 15,
+        "ms": 20.682209000000057
+      },
+      {
+        "t": 24.8,
+        "ms": 35.242665999999986
+      },
+      {
+        "t": 32,
+        "ms": 28.820042000000058
+      },
+      {
+        "t": 42,
+        "ms": 39.513041000000044
+      },
+      {
+        "t": 50,
+        "ms": 29.548833999999943
+      },
+      {
+        "t": 63,
+        "ms": 52.545457999999826
+      },
+      {
+        "t": 71,
+        "ms": 39.834749999999985
+      },
+      {
+        "t": 82,
+        "ms": 29.32941700000015
+      },
+      {
+        "t": 90,
+        "ms": 25.54274999999984
+      },
+      {
+        "t": 98,
+        "ms": 31.56466599999999
+      },
+      {
+        "t": 105,
+        "ms": 28.21912499999985
+      },
+      {
+        "t": 115,
+        "ms": 43.2710840000002
+      },
+      {
+        "t": 126,
+        "ms": 34.60341699999981
+      },
+      {
+        "t": 136,
+        "ms": 22.21158400000013
+      },
+      {
+        "t": 145,
+        "ms": 23.18816700000002
+      },
+      {
+        "t": 154,
+        "ms": 16.781165999999985
+      }
+    ],
+    "scope": "authoring cache only; not a render receipt or human approval",
+    "frame_sha256": "efb23187c11bfd7dabe166677419123d20736158f738df670a3bb1fb7589b169"
+  },
+  "sampling_check": "fixed 4 actual samples in native 1920x1080",
+  "creative_author": "Codex",
+  "human_approval": "pending"
+}

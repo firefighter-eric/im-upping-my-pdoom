@@ -4,7 +4,23 @@ import {readFile,readdir,mkdir,writeFile,cp} from 'node:fs/promises';
 import YAML from 'yaml';
 export const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 export const SLUG=/^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-export const VERSION=/^v\d{3}$/;
+export const VERSION=/^v\d{3}(?:\.(?:0|[1-9]\d*))?$/;
+export function versionParts(version){
+ if(!VERSION.test(version??'')||Number(version.slice(1,4))<1)throw Error('Use --version v001 or v003.0 (positive major version)');
+ const [major,revision]=version.slice(1).split('.');return {major:Number(major),revision:BigInt(revision??0),explicitRevision:revision!==undefined};
+}
+export function compareVersions(a,b){
+ const x=versionParts(a),y=versionParts(b);
+ return x.major!==y.major?Math.sign(x.major-y.major):x.revision===y.revision?0:x.revision<y.revision?-1:1;
+}
+export function nextVersion(version){
+ const p=versionParts(version);if(p.explicitRevision)return `${version.split('.')[0]}.${p.revision+1n}`;
+ if(p.major===999)throw Error('No next major version within the three-digit version format');
+ return `v${String(p.major+1).padStart(3,'0')}`;
+}
+export function generationVersionTag(version){
+ const p=versionParts(version);return `V${String(p.major).padStart(3,'0')}${p.explicitRevision?'_R'+String(p.revision).padStart(3,'0'):''}`;
+}
 export function inside(base,relative) {
  const resolved=path.resolve(base,relative);
  if(resolved!==base&&!resolved.startsWith(base+path.sep))throw Error('Path must stay inside its project');
@@ -33,18 +49,22 @@ export async function loadProject(slug,root=ROOT){
  if(metadata.slug!==slug||!metadata.id)throw Error('Project identity mismatch');return {directory,metadata};
 }
 export async function loadVersion(slug,version,root=ROOT){
- if(!VERSION.test(version??'')||Number(version.slice(1))<1)throw Error('Use --version v001 or later');
+ versionParts(version);
  const project=await loadProject(slug,root),directory=path.join(project.directory,'versions',version),manifest=await readJson(path.join(directory,'manifest.json'));
  if(manifest.project_id!==project.metadata.id||manifest.version!==version)throw Error('Version lineage mismatch');
  return {...project,projectDirectory:project.directory,directory,manifest};
 }
-export async function versionNames(directory){return (await readdir(path.join(directory,'versions'))).filter(x=>VERSION.test(x)).sort();}
+export async function versionNames(directory){
+ const names=(await readdir(path.join(directory,'versions'),{withFileTypes:true})).filter(x=>x.isDirectory()&&VERSION.test(x.name)).map(x=>x.name).sort(compareVersions);
+ for(let i=1;i<names.length;i++)if(compareVersions(names[i-1],names[i])===0)throw Error('Equivalent version directories: '+names[i-1]+' and '+names[i]);
+ return names;
+}
 export function outputIdentity(manifest,variant){return {id:variant.generation_id,path:`outputs/${variant.generation_id}_${variant.id}_${manifest.version}.mp4`};}
 export async function cloneVersion(slug,version,from,root=ROOT){
  const old=await loadVersion(slug,from,root);
- if(!VERSION.test(version??'')||Number(version.slice(1))<=Number(from.slice(1)))throw Error('New version must be greater than its parent');
+ if(compareVersions(version,from)<=0)throw Error('New version must be greater than its parent');
  const names=await versionNames(old.projectDirectory);
- if(Number(version.slice(1))<=Number(names.at(-1).slice(1)))throw Error('New version must be greater than all existing versions');
+ if(compareVersions(version,names.at(-1))<=0)throw Error('New version must be greater than all existing versions');
  const directory=path.join(old.projectDirectory,'versions',version);
  await mkdir(directory); // EEXIST is intentional; never merge with an existing version.
  if(old.manifest.renderer.source_directory)await cp(inside(old.directory,old.manifest.renderer.source_directory),inside(directory,old.manifest.renderer.source_directory),{recursive:true});
@@ -55,8 +75,9 @@ export async function cloneVersion(slug,version,from,root=ROOT){
  const manifest=structuredClone(old.manifest);
  delete manifest.review;
  delete manifest.analysis;
+ delete manifest.naming_migration;
  Object.assign(manifest,{version,parent_version:from,status:'draft',created_at:new Date().toISOString(),request:['TBD'],model:'TBD',validation:{},historical_provenance:null});
- manifest.variants=manifest.variants.map((v,i)=>({...v,generation_id:`${manifest.project_id}_V${version.slice(1)}_${String(i+1).padStart(3,'0')}`,output:null,poster:null,known_issues:[]}));
+ manifest.variants=manifest.variants.map((v,i)=>({...v,generation_id:`${manifest.project_id}_${generationVersionTag(version)}_${String(i+1).padStart(3,'0')}`,output:null,poster:null,known_issues:[]}));
  await saveJson(path.join(directory,'manifest.json'),manifest);
  await writeFile(path.join(directory,'TREATMENT.md'),`# ${old.metadata.title} · ${version}\n\nParent: ${from}\n\nCreative changes and prompts: TBD. Inputs and renderer copied from the parent; outputs remain independent.\n`);
  return directory;

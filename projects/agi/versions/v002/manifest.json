@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project_id": "LLMV_001",
   "version": "v002",
-  "status": "draft",
+  "status": "review",
   "created_at": "2026-10-01T16:19:56.598Z",
   "parent_version": "v001",
   "request": [
@@ -185,11 +185,24 @@
       "id": "reference",
       "label": "参考引擎 4K60 版",
       "generation_id": "LLMV_001_V002_001",
-      "description": "基于来源项目的场景、字体与后期引擎进行技术迁移；本版本仍为 draft。",
+      "description": "基于参考项目的场景、字体与后期引擎进行技术迁移；完整 4K60 候选已登记为 review。",
       "known_issues": [
-        "自动对齐需人工听辨；尚无完整 4K60 候选成片。"
+        "自动对齐有 13 个低置信词，仍需有声听辨；人工视觉与同步审核待完成。"
       ],
-      "output": null,
+      "output": {
+        "path": "outputs/LLMV_001_V002_001_reference_v002.mp4",
+        "sha256": "d769f89d7906c1460fdd897ac6f4ba9b97e8fc788a142e99373c4315b2880914",
+        "size_bytes": 2049460015,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 3840,
+        "height": 2160,
+        "frame_rate": "60/1",
+        "frame_count": 9400,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "review",
+        "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693"
+      },
       "poster": null
     }
   ],
@@ -199,7 +212,14 @@
     "audio_and_lyrics": "TBD, inherited from LLMV_001",
     "reference_preview_plates": "TBD; upstream rendered rewind thumbnails, preserved as reference material"
   },
-  "validation": {},
+  "validation": {
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-02T09:42:08.876Z",
+    "human_review": "pending",
+    "delivery_qa": "runs/QA_2026-10-02T09-48-25-802Z.json",
+    "visual_sampling": "92 native frames across 46 lines inspected; full human visual and audible review pending"
+  },
   "historical_provenance": null,
   "data_hashes": {
     "lyrics_source": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",

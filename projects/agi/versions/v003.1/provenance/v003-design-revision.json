@@ -1,0 +1,17 @@
+{
+  "parent_version": "v003",
+  "creative_direction": "V3 computational greenhouse",
+  "revision": "display typography collision fix",
+  "input_analysis": "same source hashes and V2 analysis",
+  "at": "2026-10-02T12:29:01.974Z",
+  "changed_files": [
+    "renderer/src/scenes/greenhouse.ts",
+    "renderer/index.html"
+  ],
+  "reference_engine": {
+    "repository": "https://github.com/mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "import_record": "provenance/reference-import.json"
+  },
+  "original_scene_code": "renderer/src/scenes/greenhouse.ts"
+}

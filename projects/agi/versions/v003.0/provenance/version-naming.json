@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "at": "2026-10-02T13:05:51.932Z",
+  "reason": "User requested one V3 creative direction with v003.0 initial and v003.1 typography revision",
+  "from_version": "v003",
+  "to_version": "v003.0",
+  "from_parent_version": "v002",
+  "to_parent_version": "v002",
+  "original_manifest": "provenance/manifest-before-version-rename.json",
+  "outputs": [
+    {
+      "generation_id": "LLMV_001_V003_001",
+      "from_path": "outputs/LLMV_001_V003_001_greenhouse-preview_v003.mp4",
+      "to_path": "outputs/LLMV_001_v003.0_greenhouse-preview.mp4",
+      "sha256": "9adb27d62588b97829d4e85f4f5c691e0fa92c2f2e16d3f8075cfc91ee00b434"
+    }
+  ],
+  "preserved_files": [
+    {
+      "path": "TREATMENT.md",
+      "sha256": "9779cbc33ca792c61dbdc2287763f8c3f05943dc3cd5d7d4124b2315efb6d113"
+    },
+    {
+      "path": "runs/LLMV_001_V003_001-ffprobe.json",
+      "sha256": "211a153038ef6c07567a5a95c8da44bff418ff6e92ed34899ae2f6b1e8d3aa3c"
+    },
+    {
+      "path": "runs/QA_2026-10-02T12-29-43-241Z.json",
+      "sha256": "7bb0b6e8f0cf1d080cc84624a5628ecbdd9ceae12adcd3a62c0527a693790d71"
+    },
+    {
+      "path": "runs/RUN_2026-10-02T12-22-26-786Z_29adc0bb.json",
+      "sha256": "4f9d7213bf80009c8a0f11b1aafd6ec0eda3823dc80de2fabb9e9274eb73912b"
+    },
+    {
+      "path": "provenance/reference-import.json",
+      "sha256": "0d8fa8cd312b8230816e952e1ef0f42aa9c64a216d8465f3506e507279b0db66"
+    },
+    {
+      "path": "provenance/v003-design.json",
+      "sha256": "793162c49b799f79bcfc67c70d20e665062f27de6bafc91ec3b5295b6e017660"
+    },
+    {
+      "path": "provenance/manifest-before-version-rename.json",
+      "sha256": "078a3e909728e12cc2d07e7d91177694aa1bb8e1a74d6aa2b9e7c3abaa545ee1"
+    }
+  ],
+  "note": "Media bytes, generation IDs, source code, data, TREATMENT and original execution/provenance records are unchanged. Historical names remain in those records."
+}
