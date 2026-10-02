@@ -45,6 +45,8 @@ npm run verify:playback -- --project agi --version v001
 
 CI 只验代码、版本资料和非媒体原始文件；不替代完整素材哈希校验或本地媒体验收。LFS 扩展配置仅保留为将来明确授权媒体发布时的保护。
 
+首次代码上传的提交、远端树、文件体积、媒体排除清单和 CI 验收见 [`docs/github-publication-v001.json`](docs/github-publication-v001.json)。记录只对应首次上传，不作为视频候选的人类批准。
+
 ## 结构
 
 ```text

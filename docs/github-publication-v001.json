@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/firefighter-eric/im-upping-my-pdoom",
+  "publication": "initial code-only upload",
+  "verified_at": "2026-10-02T05:27:20.725Z",
+  "branch": "main",
+  "commit": "3b515fbe8e39ce616ecbddf255871bee1a10417f",
+  "tree": "f85e558d29773756ec8f4db41fa0bc16ca76b0a7",
+  "file_count": 258,
+  "uncompressed_size_bytes": 25196918,
+  "remote_media_files": 0,
+  "lfs_pointers": 0,
+  "remote_tree_matches_local": true,
+  "local_checks": {
+    "check": "passed",
+    "tests": {
+      "passed": 8,
+      "failed": 0
+    },
+    "verify": {
+      "preserved_migration_files": 55,
+      "versions": 2,
+      "status": "passed"
+    },
+    "fresh_clone": {
+      "check": "passed",
+      "test": "passed",
+      "verify_source": "passed",
+      "media_present": false
+    }
+  },
+  "github_actions": {
+    "conclusion": "success",
+    "headSha": "3b515fbe8e39ce616ecbddf255871bee1a10417f",
+    "status": "completed",
+    "url": "https://github.com/firefighter-eric/im-upping-my-pdoom/actions/runs/36968919441"
+  },
+  "media_distribution": "excluded; original local bytes retained; restore registered media before full verification/rendering",
+  "excluded_local_media": [
+    {
+      "path": "projects/agi/sources/audio/LLMV_001_audio_original_v001.m4a",
+      "size_bytes": 3335582,
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    },
+    {
+      "path": "projects/agi/sources/audio/LLMV_001_audio_pcm_v001.wav",
+      "size_bytes": 30077006,
+      "sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_001_abstract_1080p24_v001.mp4",
+      "size_bytes": 109037761,
+      "sha256": "0346a97c5c5ef0b5cc872f3138ba09958b2c85d212f2e0205bcf309221785910"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_002_narrative_1080p24_v001.mp4",
+      "size_bytes": 109777138,
+      "sha256": "12841efd0148a5a366d3a91a8824f57f1a1810255a266459f6ae493ae4dda24a"
+    },
+    {
+      "path": "projects/agi/versions/v001/outputs/LLMV_001_MV_003_lyrics_1080p24_v001.mp4",
+      "size_bytes": 21146293,
+      "sha256": "dd38b9d9f660eebd308f1d9ff05bfaec6e2b1a0cef2cd2de55e4ce75c80ca2d5"
+    },
+    {
+      "path": "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+      "size_bytes": 38410013,
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    }
+  ],
+  "rights": "unchanged; audio, lyrics and reference-video rights remain TBD",
+  "scope": "This record describes the initial commit only; later commits have independent CI checks. It is not approval of a video candidate."
+}
