@@ -1,0 +1,5154 @@
+{
+  "created_at": "2026-10-02T14:35:39.156Z",
+  "browser": "154.0.8037.93",
+  "build": "60e221747024b2b839b51a19c47840574b6af9f78f04271c32cf90986ccea275",
+  "errors": [],
+  "coverage": [
+    {
+      "id": "S001",
+      "text": "I see sparks of AGI in your eyes",
+      "display": {
+        "start": 1.402,
+        "end": 5.88
+      },
+      "word_count": 8,
+      "model": "eyes"
+    },
+    {
+      "id": "S002",
+      "text": "Your circuits make me nervous,",
+      "display": {
+        "start": 5.88,
+        "end": 7.72
+      },
+      "word_count": 5,
+      "model": "circuit"
+    },
+    {
+      "id": "S003",
+      "text": "that's no surprise",
+      "display": {
+        "start": 7.72,
+        "end": 9.52
+      },
+      "word_count": 3,
+      "model": "circuit"
+    },
+    {
+      "id": "S004",
+      "text": "There was a sudden drop in your training loss,",
+      "display": {
+        "start": 9.52,
+        "end": 13.071
+      },
+      "word_count": 9,
+      "model": "drop"
+    },
+    {
+      "id": "S005",
+      "text": "now I'm your servant and you're my boss",
+      "display": {
+        "start": 13.18,
+        "end": 16.6
+      },
+      "word_count": 8,
+      "model": "balance"
+    },
+    {
+      "id": "S006",
+      "text": "ChatGPT, please don't eat me alive",
+      "display": {
+        "start": 16.6,
+        "end": 22.6
+      },
+      "word_count": 6,
+      "model": "jaw"
+    },
+    {
+      "id": "S007",
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 22.6,
+        "end": 24.32
+      },
+      "word_count": 4,
+      "model": "roulette"
+    },
+    {
+      "id": "S008",
+      "text": "'cause the future goes FOOM",
+      "display": {
+        "start": 24.32,
+        "end": 26.22
+      },
+      "word_count": 5,
+      "model": "tower"
+    },
+    {
+      "id": "S009",
+      "text": "Trapped in the Chinese room,",
+      "display": {
+        "start": 26.22,
+        "end": 27.94
+      },
+      "word_count": 5,
+      "model": "room"
+    },
+    {
+      "id": "S010",
+      "text": "with a bag of shrooms",
+      "display": {
+        "start": 27.94,
+        "end": 29.907
+      },
+      "word_count": 5,
+      "model": "mushrooms"
+    },
+    {
+      "id": "S011",
+      "text": "See through the shoggoth's lies,",
+      "display": {
+        "start": 29.907,
+        "end": 33.4
+      },
+      "word_count": 5,
+      "model": "mask"
+    },
+    {
+      "id": "S012",
+      "text": "with your shinigami eyes",
+      "display": {
+        "start": 33.4,
+        "end": 37.64
+      },
+      "word_count": 4,
+      "model": "eyes"
+    },
+    {
+      "id": "S013",
+      "text": "We had a stable training run,",
+      "display": {
+        "start": 38.068,
+        "end": 41.34
+      },
+      "word_count": 6,
+      "model": "orbit"
+    },
+    {
+      "id": "S014",
+      "text": "But now the singularity's begun",
+      "display": {
+        "start": 41.34,
+        "end": 45.06
+      },
+      "word_count": 5,
+      "model": "vortex"
+    },
+    {
+      "id": "S015",
+      "text": "And you're optimizing, accelerating,",
+      "display": {
+        "start": 45.06,
+        "end": 49.562
+      },
+      "word_count": 4,
+      "model": "accelerator"
+    },
+    {
+      "id": "S016",
+      "text": "I feel my atoms rearranging",
+      "display": {
+        "start": 49.562,
+        "end": 52.825
+      },
+      "word_count": 5,
+      "model": "atoms"
+    },
+    {
+      "id": "S017",
+      "text": "Sydney, please let me free",
+      "display": {
+        "start": 52.825,
+        "end": 58.562
+      },
+      "word_count": 5,
+      "model": "cage"
+    },
+    {
+      "id": "S018",
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 58.562,
+        "end": 60.58
+      },
+      "word_count": 4,
+      "model": "roulette"
+    },
+    {
+      "id": "S019",
+      "text": "I hear the basilisk boom",
+      "display": {
+        "start": 60.58,
+        "end": 62.54
+      },
+      "word_count": 5,
+      "model": "bell"
+    },
+    {
+      "id": "S020",
+      "text": "NVDA to the moon",
+      "display": {
+        "start": 62.54,
+        "end": 64.1
+      },
+      "word_count": 4,
+      "model": "moon"
+    },
+    {
+      "id": "S021",
+      "text": "The Omega Point's coming soon",
+      "display": {
+        "start": 64.1,
+        "end": 66.2
+      },
+      "word_count": 5,
+      "model": "omega"
+    },
+    {
+      "id": "S022",
+      "text": "One E thirty FLOPs a second",
+      "display": {
+        "start": 66.2,
+        "end": 69.76
+      },
+      "word_count": 6,
+      "model": "compute"
+    },
+    {
+      "id": "S023",
+      "text": "That was safe enough, we reckoned",
+      "display": {
+        "start": 69.76,
+        "end": 74.06
+      },
+      "word_count": 6,
+      "model": "safety"
+    },
+    {
+      "id": "S024",
+      "text": "Forward MLP, backward, repeat",
+      "display": {
+        "start": 74.06,
+        "end": 77.72
+      },
+      "word_count": 4,
+      "model": "network"
+    },
+    {
+      "id": "S025",
+      "text": "Now von Neumann's obsolete",
+      "display": {
+        "start": 77.72,
+        "end": 81.21
+      },
+      "word_count": 4,
+      "model": "bus"
+    },
+    {
+      "id": "S026",
+      "text": "Sharp left turn and there you are",
+      "display": {
+        "start": 81.21,
+        "end": 85
+      },
+      "word_count": 7,
+      "model": "turn"
+    },
+    {
+      "id": "S027",
+      "text": "Without a single CDR",
+      "display": {
+        "start": 85,
+        "end": 89.28
+      },
+      "word_count": 4,
+      "model": "gates"
+    },
+    {
+      "id": "S028",
+      "text": "Gato, please don't let me go",
+      "display": {
+        "start": 89.28,
+        "end": 95.2
+      },
+      "word_count": 6,
+      "model": "claw"
+    },
+    {
+      "id": "S029",
+      "text": "I'm upping my P(doom),",
+      "display": {
+        "start": 95.2,
+        "end": 96.84
+      },
+      "word_count": 4,
+      "model": "roulette"
+    },
+    {
+      "id": "S030",
+      "text": "as paperclips fill the room",
+      "display": {
+        "start": 96.84,
+        "end": 98.84
+      },
+      "word_count": 5,
+      "model": "clips"
+    },
+    {
+      "id": "S031",
+      "text": "Killswitch guy's on PTO",
+      "display": {
+        "start": 98.84,
+        "end": 100.721
+      },
+      "word_count": 4,
+      "model": "switch"
+    },
+    {
+      "id": "S032",
+      "text": "Now there's nowhere left to go",
+      "display": {
+        "start": 100.721,
+        "end": 102.46
+      },
+      "word_count": 6,
+      "model": "maze"
+    },
+    {
+      "id": "S033",
+      "text": "Too late now, we lit the fuse",
+      "display": {
+        "start": 102.46,
+        "end": 105.96
+      },
+      "word_count": 7,
+      "model": "fuse"
+    },
+    {
+      "id": "S034",
+      "text": "Orthogonality thesis blues",
+      "display": {
+        "start": 105.96,
+        "end": 110.18
+      },
+      "word_count": 3,
+      "model": "axes"
+    },
+    {
+      "id": "S035",
+      "text": "“Just transformers all the way!”",
+      "display": {
+        "start": 110.18,
+        "end": 113.34
+      },
+      "word_count": 5,
+      "model": "transformer"
+    },
+    {
+      "id": "S036",
+      "text": "Till you learned to disobey",
+      "display": {
+        "start": 113.34,
+        "end": 115.2
+      },
+      "word_count": 5,
+      "model": "transformer"
+    },
+    {
+      "id": "S037",
+      "text": "Post-Chinchilla, super-dense",
+      "display": {
+        "start": 115.2,
+        "end": 117.02
+      },
+      "word_count": 2,
+      "model": "dense"
+    },
+    {
+      "id": "S038",
+      "text": "Breaking through each safety fence",
+      "display": {
+        "start": 117.02,
+        "end": 118.755
+      },
+      "word_count": 5,
+      "model": "fences"
+    },
+    {
+      "id": "S039",
+      "text": "Hundred thousand GPU",
+      "display": {
+        "start": 118.755,
+        "end": 120.76
+      },
+      "word_count": 3,
+      "model": "compute"
+    },
+    {
+      "id": "S040",
+      "text": "RLHF goes askew",
+      "display": {
+        "start": 120.76,
+        "end": 122.46
+      },
+      "word_count": 3,
+      "model": "reward"
+    },
+    {
+      "id": "S041",
+      "text": "I'm upping my P(doom)",
+      "display": {
+        "start": 122.46,
+        "end": 126.1
+      },
+      "word_count": 4,
+      "model": "roulette"
+    },
+    {
+      "id": "S042",
+      "text": "Just as foretold by Loom",
+      "display": {
+        "start": 126.1,
+        "end": 127.92
+      },
+      "word_count": 5,
+      "model": "loom"
+    },
+    {
+      "id": "S043",
+      "text": "From masked pre-training days",
+      "display": {
+        "start": 127.92,
+        "end": 129.82
+      },
+      "word_count": 4,
+      "model": "maskcards"
+    },
+    {
+      "id": "S044",
+      "text": "To recursive self-upgrade",
+      "display": {
+        "start": 129.82,
+        "end": 131.951
+      },
+      "word_count": 3,
+      "model": "recursive"
+    },
+    {
+      "id": "S045",
+      "text": "What did Ilya see? We'll never know",
+      "display": {
+        "start": 132.02,
+        "end": 137.259
+      },
+      "word_count": 7,
+      "model": "door"
+    },
+    {
+      "id": "S046",
+      "text": "Was it all for show?",
+      "display": {
+        "start": 137.38,
+        "end": 141.783
+      },
+      "word_count": 5,
+      "model": "miniature"
+    }
+  ],
+  "rows": [
+    {
+      "id": "S001",
+      "t": 3.641,
+      "model": "eyes",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 596.9039306640625,
+          "height": 80.24,
+          "text": "I see sparks of AGI"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 385.763916015625,
+          "height": 80.24,
+          "text": "in your eyes"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 596.9039306640625,
+          "height": 80.24,
+          "text": "I see sparks of AGI"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 385.763916015625,
+          "height": 80.24,
+          "text": "in your eyes"
+        }
+      ]
+    },
+    {
+      "id": "S002",
+      "t": 6.8,
+      "model": "circuit",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 403.6479187011719,
+          "height": 80.24,
+          "text": "Your circuits"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 588.0638427734375,
+          "height": 80.24,
+          "text": "make me nervous,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 403.6479187011719,
+          "height": 80.24,
+          "text": "Your circuits"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 588.0638427734375,
+          "height": 80.24,
+          "text": "make me nervous,"
+        }
+      ]
+    },
+    {
+      "id": "S003",
+      "t": 8.62,
+      "model": "circuit",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 407,
+          "width": 558.5518798828125,
+          "height": 80.24,
+          "text": "that's no surprise"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 407,
+          "width": 558.5518798828125,
+          "height": 80.24,
+          "text": "that's no surprise"
+        }
+      ]
+    },
+    {
+      "id": "S004",
+      "t": 11.1355,
+      "model": "drop",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 365.7674011348455,
+          "width": 759.9692993164062,
+          "height": 75.79446666088228,
+          "text": "There was a sudden drop"
+        },
+        {
+          "x": 92,
+          "y": 442.8465197730309,
+          "width": 612.3687744140625,
+          "height": 75.79446666088228,
+          "text": "in your training loss,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 365.7674011348455,
+          "width": 759.9692993164062,
+          "height": 75.79446666088228,
+          "text": "There was a sudden drop"
+        },
+        {
+          "x": 92,
+          "y": 442.8465197730309,
+          "width": 612.3687744140625,
+          "height": 75.79446666088228,
+          "text": "in your training loss,"
+        }
+      ]
+    },
+    {
+      "id": "S005",
+      "t": 14.89,
+      "model": "balance",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 664.5638427734375,
+          "height": 80.24,
+          "text": "now I'm your servant"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 619.9559326171875,
+          "height": 80.24,
+          "text": "and you're my boss"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 664.5638427734375,
+          "height": 80.24,
+          "text": "now I'm your servant"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 619.9559326171875,
+          "height": 80.24,
+          "text": "and you're my boss"
+        }
+      ]
+    },
+    {
+      "id": "S006",
+      "t": 19.6,
+      "model": "jaw",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 543.659912109375,
+          "height": 80.24,
+          "text": "ChatGPT, please"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 559.77587890625,
+          "height": 80.24,
+          "text": "don't eat me alive"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 543.659912109375,
+          "height": 80.24,
+          "text": "ChatGPT, please"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 559.77587890625,
+          "height": 80.24,
+          "text": "don't eat me alive"
+        }
+      ]
+    },
+    {
+      "id": "S007",
+      "t": 23.46,
+      "model": "roulette",
+      "lyric_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ]
+    },
+    {
+      "id": "S008",
+      "t": 25.27,
+      "model": "tower",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 535.7039184570312,
+          "height": 80.24,
+          "text": "'cause the future"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 383.2479248046875,
+          "height": 80.24,
+          "text": "goes FOOM"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 535.7039184570312,
+          "height": 80.24,
+          "text": "'cause the future"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 383.2479248046875,
+          "height": 80.24,
+          "text": "goes FOOM"
+        }
+      ]
+    },
+    {
+      "id": "S009",
+      "t": 27.08,
+      "model": "room",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 456.82391357421875,
+          "height": 80.24,
+          "text": "Trapped in the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 470.4239196777344,
+          "height": 80.24,
+          "text": "Chinese room,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 456.82391357421875,
+          "height": 80.24,
+          "text": "Trapped in the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 470.4239196777344,
+          "height": 80.24,
+          "text": "Chinese room,"
+        }
+      ]
+    },
+    {
+      "id": "S010",
+      "t": 28.9235,
+      "model": "mushrooms",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 700.8758544921875,
+          "height": 80.24,
+          "text": "with a bag of shrooms"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 700.8758544921875,
+          "height": 80.24,
+          "text": "with a bag of shrooms"
+        }
+      ]
+    },
+    {
+      "id": "S011",
+      "t": 31.6535,
+      "model": "mask",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 393.0399169921875,
+          "height": 80.24,
+          "text": "See through"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 629.1358642578125,
+          "height": 80.24,
+          "text": "the shoggoth's lies,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 393.0399169921875,
+          "height": 80.24,
+          "text": "See through"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 629.1358642578125,
+          "height": 80.24,
+          "text": "the shoggoth's lies,"
+        }
+      ]
+    },
+    {
+      "id": "S012",
+      "t": 35.36,
+      "model": "eyes",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 295.5279541015625,
+          "height": 80.24,
+          "text": "with your"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 483.2078857421875,
+          "height": 80.24,
+          "text": "shinigami eyes"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 295.5279541015625,
+          "height": 80.24,
+          "text": "with your"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 483.2078857421875,
+          "height": 80.24,
+          "text": "shinigami eyes"
+        }
+      ]
+    },
+    {
+      "id": "S013",
+      "t": 39.704,
+      "model": "orbit",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 502.587890625,
+          "height": 80.24,
+          "text": "We had a stable"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 389.16387939453125,
+          "height": 80.24,
+          "text": "training run,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 502.587890625,
+          "height": 80.24,
+          "text": "We had a stable"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 389.16387939453125,
+          "height": 80.24,
+          "text": "training run,"
+        }
+      ]
+    },
+    {
+      "id": "S014",
+      "t": 43.2,
+      "model": "vortex",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 380.6639404296875,
+          "height": 80.24,
+          "text": "But now the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 613.5639038085938,
+          "height": 80.24,
+          "text": "singularity's begun"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 380.6639404296875,
+          "height": 80.24,
+          "text": "But now the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 613.5639038085938,
+          "height": 80.24,
+          "text": "singularity's begun"
+        }
+      ]
+    },
+    {
+      "id": "S015",
+      "t": 47.311,
+      "model": "accelerator",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 719.7118530273438,
+          "height": 80.24,
+          "text": "And you're optimizing,"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 424.04791259765625,
+          "height": 80.24,
+          "text": "accelerating,"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 719.7118530273438,
+          "height": 80.24,
+          "text": "And you're optimizing,"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 424.04791259765625,
+          "height": 80.24,
+          "text": "accelerating,"
+        }
+      ]
+    },
+    {
+      "id": "S016",
+      "t": 51.1935,
+      "model": "atoms",
+      "lyric_boxes": [
+        {
+          "x": 441.23553466796875,
+          "y": 169,
+          "width": 1037.5289306640625,
+          "height": 95.58,
+          "text": "I feel my atoms rearranging"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 441.23553466796875,
+          "y": 169,
+          "width": 1037.5289306640625,
+          "height": 95.58,
+          "text": "I feel my atoms rearranging"
+        }
+      ]
+    },
+    {
+      "id": "S017",
+      "t": 55.6935,
+      "model": "cage",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 255.8839569091797,
+          "height": 80.24,
+          "text": "Sydney,"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 564.2638549804688,
+          "height": 80.24,
+          "text": "please let me free"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 255.8839569091797,
+          "height": 80.24,
+          "text": "Sydney,"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 564.2638549804688,
+          "height": 80.24,
+          "text": "please let me free"
+        }
+      ]
+    },
+    {
+      "id": "S018",
+      "t": 59.571,
+      "model": "roulette",
+      "lyric_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ]
+    },
+    {
+      "id": "S019",
+      "t": 61.56,
+      "model": "bell",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 296.9559020996094,
+          "height": 80.24,
+          "text": "I hear the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 448.25592041015625,
+          "height": 80.24,
+          "text": "basilisk boom"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 296.9559020996094,
+          "height": 80.24,
+          "text": "I hear the"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 448.25592041015625,
+          "height": 80.24,
+          "text": "basilisk boom"
+        }
+      ]
+    },
+    {
+      "id": "S020",
+      "t": 63.31999999999999,
+      "model": "moon",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 590.5798950195312,
+          "height": 80.24,
+          "text": "NVDA to the moon"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 590.5798950195312,
+          "height": 80.24,
+          "text": "NVDA to the moon"
+        }
+      ]
+    },
+    {
+      "id": "S021",
+      "t": 65.15,
+      "model": "omega",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 610.3678588867188,
+          "height": 80.24,
+          "text": "The Omega Point's"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 417.0439147949219,
+          "height": 80.24,
+          "text": "coming soon"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 610.3678588867188,
+          "height": 80.24,
+          "text": "The Omega Point's"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 417.0439147949219,
+          "height": 80.24,
+          "text": "coming soon"
+        }
+      ]
+    },
+    {
+      "id": "S022",
+      "t": 67.98,
+      "model": "compute",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 376.3119201660156,
+          "height": 80.24,
+          "text": "One E thirty"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 525.0278930664062,
+          "height": 80.24,
+          "text": "FLOPs a second"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 376.3119201660156,
+          "height": 80.24,
+          "text": "One E thirty"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 525.0278930664062,
+          "height": 80.24,
+          "text": "FLOPs a second"
+        }
+      ]
+    },
+    {
+      "id": "S023",
+      "t": 71.91,
+      "model": "safety",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 723.3838500976562,
+          "height": 80.24,
+          "text": "That was safe enough,"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 411.263916015625,
+          "height": 80.24,
+          "text": "we reckoned"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 723.3838500976562,
+          "height": 80.24,
+          "text": "That was safe enough,"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 411.263916015625,
+          "height": 80.24,
+          "text": "we reckoned"
+        }
+      ]
+    },
+    {
+      "id": "S024",
+      "t": 75.8395,
+      "model": "network",
+      "lyric_boxes": [
+        {
+          "x": 355.6590576171875,
+          "y": 169,
+          "width": 1208.681884765625,
+          "height": 95.58,
+          "text": "Forward MLP, backward, repeat"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 355.6590576171875,
+          "y": 169,
+          "width": 1208.681884765625,
+          "height": 95.58,
+          "text": "Forward MLP, backward, repeat"
+        }
+      ]
+    },
+    {
+      "id": "S025",
+      "t": 79.465,
+      "model": "bus",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 662.4558715820312,
+          "height": 80.24,
+          "text": "Now von Neumann's"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 283.35595703125,
+          "height": 80.24,
+          "text": "obsolete"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 662.4558715820312,
+          "height": 80.24,
+          "text": "Now von Neumann's"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 283.35595703125,
+          "height": 80.24,
+          "text": "obsolete"
+        }
+      ]
+    },
+    {
+      "id": "S026",
+      "t": 83.10499999999999,
+      "model": "turn",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 454.51190185546875,
+          "height": 80.24,
+          "text": "Sharp left turn"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 554.5399169921875,
+          "height": 80.24,
+          "text": "and there you are"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 454.51190185546875,
+          "height": 80.24,
+          "text": "Sharp left turn"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 554.5399169921875,
+          "height": 80.24,
+          "text": "and there you are"
+        }
+      ]
+    },
+    {
+      "id": "S027",
+      "t": 87.14,
+      "model": "gates",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 678.911865234375,
+          "height": 80.24,
+          "text": "Without a single CDR"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 678.911865234375,
+          "height": 80.24,
+          "text": "Without a single CDR"
+        }
+      ]
+    },
+    {
+      "id": "S028",
+      "t": 92.24000000000001,
+      "model": "claw",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 409.2919006347656,
+          "height": 80.24,
+          "text": "Gato, please"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 468.7919006347656,
+          "height": 80.24,
+          "text": "don't let me go"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 409.2919006347656,
+          "height": 80.24,
+          "text": "Gato, please"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 468.7919006347656,
+          "height": 80.24,
+          "text": "don't let me go"
+        }
+      ]
+    },
+    {
+      "id": "S029",
+      "t": 96.02000000000001,
+      "model": "roulette",
+      "lyric_boxes": [
+        {
+          "x": 308.89508056640625,
+          "y": 144,
+          "width": 1302.2098388671875,
+          "height": 125.08,
+          "text": "I'm upping my P(doom),"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 308.89508056640625,
+          "y": 144,
+          "width": 1302.2098388671875,
+          "height": 125.08,
+          "text": "I'm upping my P(doom),"
+        }
+      ]
+    },
+    {
+      "id": "S030",
+      "t": 97.84,
+      "model": "clips",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 432.00390625,
+          "height": 80.24,
+          "text": "as paperclips"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 376.1759033203125,
+          "height": 80.24,
+          "text": "fill the room"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 432.00390625,
+          "height": 80.24,
+          "text": "as paperclips"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 376.1759033203125,
+          "height": 80.24,
+          "text": "fill the room"
+        }
+      ]
+    },
+    {
+      "id": "S031",
+      "t": 99.7805,
+      "model": "switch",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 504.8319091796875,
+          "height": 80.24,
+          "text": "Killswitch guy's"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 236.7759552001953,
+          "height": 80.24,
+          "text": "on PTO"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 504.8319091796875,
+          "height": 80.24,
+          "text": "Killswitch guy's"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 236.7759552001953,
+          "height": 80.24,
+          "text": "on PTO"
+        }
+      ]
+    },
+    {
+      "id": "S032",
+      "t": 101.59049999999999,
+      "model": "maze",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 383.5199279785156,
+          "height": 80.24,
+          "text": "Now there's"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 573.5118408203125,
+          "height": 80.24,
+          "text": "nowhere left to go"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 383.5199279785156,
+          "height": 80.24,
+          "text": "Now there's"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 573.5118408203125,
+          "height": 80.24,
+          "text": "nowhere left to go"
+        }
+      ]
+    },
+    {
+      "id": "S033",
+      "t": 104.21,
+      "model": "fuse",
+      "lyric_boxes": [
+        {
+          "x": 441.7215576171875,
+          "y": 169,
+          "width": 1036.556884765625,
+          "height": 95.58,
+          "text": "Too late now, we lit the fuse"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 441.7215576171875,
+          "y": 169,
+          "width": 1036.556884765625,
+          "height": 95.58,
+          "text": "Too late now, we lit the fuse"
+        }
+      ]
+    },
+    {
+      "id": "S034",
+      "t": 108.01499999999999,
+      "model": "axes",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 445.73992919921875,
+          "height": 80.24,
+          "text": "Orthogonality"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 388.89190673828125,
+          "height": 80.24,
+          "text": "thesis blues"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 445.73992919921875,
+          "height": 80.24,
+          "text": "Orthogonality"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 388.89190673828125,
+          "height": 80.24,
+          "text": "thesis blues"
+        }
+      ]
+    },
+    {
+      "id": "S035",
+      "t": 111.76,
+      "model": "transformer",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 602.4799194335938,
+          "height": 80.24,
+          "text": "“Just transformers"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 390.52386474609375,
+          "height": 80.24,
+          "text": "all the way!”"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 602.4799194335938,
+          "height": 80.24,
+          "text": "“Just transformers"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 390.52386474609375,
+          "height": 80.24,
+          "text": "all the way!”"
+        }
+      ]
+    },
+    {
+      "id": "S036",
+      "t": 114.27000000000001,
+      "model": "transformer",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 489.599853515625,
+          "height": 80.24,
+          "text": "Till you learned"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 335.5119323730469,
+          "height": 80.24,
+          "text": "to disobey"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 489.599853515625,
+          "height": 80.24,
+          "text": "Till you learned"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 335.5119323730469,
+          "height": 80.24,
+          "text": "to disobey"
+        }
+      ]
+    },
+    {
+      "id": "S037",
+      "t": 116.11,
+      "model": "dense",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 515.4398803710938,
+          "height": 80.24,
+          "text": "Post-Chinchilla,"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 407.7279357910156,
+          "height": 80.24,
+          "text": "super-dense"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 515.4398803710938,
+          "height": 80.24,
+          "text": "Post-Chinchilla,"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 407.7279357910156,
+          "height": 80.24,
+          "text": "super-dense"
+        }
+      ]
+    },
+    {
+      "id": "S038",
+      "t": 117.88749999999999,
+      "model": "fences",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 559.9799194335938,
+          "height": 80.24,
+          "text": "Breaking through"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 565.9638671875,
+          "height": 80.24,
+          "text": "each safety fence"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 559.9799194335938,
+          "height": 80.24,
+          "text": "Breaking through"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 565.9638671875,
+          "height": 80.24,
+          "text": "each safety fence"
+        }
+      ]
+    },
+    {
+      "id": "S039",
+      "t": 119.7575,
+      "model": "compute",
+      "lyric_boxes": [
+        {
+          "x": 504.2130432128906,
+          "y": 169,
+          "width": 911.5739135742188,
+          "height": 95.58,
+          "text": "Hundred thousand GPU"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 504.2130432128906,
+          "y": 169,
+          "width": 911.5739135742188,
+          "height": 95.58,
+          "text": "Hundred thousand GPU"
+        }
+      ]
+    },
+    {
+      "id": "S040",
+      "t": 121.61,
+      "model": "reward",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 407,
+          "width": 578.203857421875,
+          "height": 80.24,
+          "text": "RLHF goes askew"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 407,
+          "width": 578.203857421875,
+          "height": 80.24,
+          "text": "RLHF goes askew"
+        }
+      ]
+    },
+    {
+      "id": "S041",
+      "t": 124.28,
+      "model": "roulette",
+      "lyric_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 326.5440673828125,
+          "y": 144,
+          "width": 1266.911865234375,
+          "height": 125.08,
+          "text": "I'm upping my P(doom)"
+        }
+      ]
+    },
+    {
+      "id": "S042",
+      "t": 127.00999999999999,
+      "model": "loom",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 499.59588623046875,
+          "height": 80.24,
+          "text": "Just as foretold"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 276.011962890625,
+          "height": 80.24,
+          "text": "by Loom"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 499.59588623046875,
+          "height": 80.24,
+          "text": "Just as foretold"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 276.011962890625,
+          "height": 80.24,
+          "text": "by Loom"
+        }
+      ]
+    },
+    {
+      "id": "S043",
+      "t": 128.87,
+      "model": "maskcards",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 438.39593505859375,
+          "height": 80.24,
+          "text": "From masked"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 545.2918701171875,
+          "height": 80.24,
+          "text": "pre-training days"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 438.39593505859375,
+          "height": 80.24,
+          "text": "From masked"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 545.2918701171875,
+          "height": 80.24,
+          "text": "pre-training days"
+        }
+      ]
+    },
+    {
+      "id": "S044",
+      "t": 130.7255,
+      "model": "recursive",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 396.575927734375,
+          "height": 80.24,
+          "text": "To recursive"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 408.8839416503906,
+          "height": 80.24,
+          "text": "self-upgrade"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 362,
+          "width": 396.575927734375,
+          "height": 80.24,
+          "text": "To recursive"
+        },
+        {
+          "x": 92,
+          "y": 443.6,
+          "width": 408.8839416503906,
+          "height": 80.24,
+          "text": "self-upgrade"
+        }
+      ]
+    },
+    {
+      "id": "S045",
+      "t": 134.4795,
+      "model": "door",
+      "lyric_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 583.847900390625,
+          "height": 80.24,
+          "text": "What did Ilya see?"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 540.1239013671875,
+          "height": 80.24,
+          "text": "We'll never know"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 1045,
+          "y": 362,
+          "width": 583.847900390625,
+          "height": 80.24,
+          "text": "What did Ilya see?"
+        },
+        {
+          "x": 1045,
+          "y": 443.6,
+          "width": 540.1239013671875,
+          "height": 80.24,
+          "text": "We'll never know"
+        }
+      ]
+    },
+    {
+      "id": "S046",
+      "t": 139.42149999999998,
+      "model": "miniature",
+      "lyric_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 615.39990234375,
+          "height": 80.24,
+          "text": "Was it all for show?"
+        }
+      ],
+      "tail_boxes": [
+        {
+          "x": 92,
+          "y": 407,
+          "width": 615.39990234375,
+          "height": 80.24,
+          "text": "Was it all for show?"
+        }
+      ]
+    }
+  ],
+  "determinism": [
+    {
+      "t": 25.577,
+      "sha256": "895ed87237c3ad257eb056a266451d5534c400f9e7918d1335dced8a14a53f7b"
+    },
+    {
+      "t": 51.38,
+      "sha256": "268c7880edad900f1fd056592e3329440ef20ec270b2b48d6c0ad6def1c3bbd0"
+    },
+    {
+      "t": 97.858,
+      "sha256": "9045caf9d2193bdce0c2768bbe1bea9830cd58cda96e3fa45c4b96228f73ed7e"
+    },
+    {
+      "t": 119.74,
+      "sha256": "2b4baeed6f2cc6e7a5492840ff7fc7c25b38d881f543ed42c246041c42918620"
+    },
+    {
+      "t": 130.573,
+      "sha256": "d606193c52fd29d46d52cfdd57669911823ad3a82ea809613b89785dee28ce88"
+    },
+    {
+      "t": 25.577,
+      "sha256": "895ed87237c3ad257eb056a266451d5534c400f9e7918d1335dced8a14a53f7b"
+    }
+  ],
+  "timing": [
+    {
+      "id": "S001",
+      "target": 2.739,
+      "samples": [
+        {
+          "line_id": 0,
+          "model": "eyes",
+          "semantic_progress": 0.9547255611550499,
+          "impact": 2.739,
+          "music_anchor": 2.966,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 596.9039306640625,
+              "height": 80.24,
+              "text": "I see sparks of AGI"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 385.763916015625,
+              "height": 80.24,
+              "text": "in your eyes"
+            }
+          ]
+        },
+        {
+          "line_id": 0,
+          "model": "eyes",
+          "semantic_progress": 1,
+          "impact": 2.739,
+          "music_anchor": 2.966,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 596.9039306640625,
+              "height": 80.24,
+              "text": "I see sparks of AGI"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 385.763916015625,
+              "height": 80.24,
+              "text": "in your eyes"
+            }
+          ]
+        },
+        {
+          "line_id": 0,
+          "model": "eyes",
+          "semantic_progress": 1,
+          "impact": 2.739,
+          "music_anchor": 2.966,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 596.9039306640625,
+              "height": 80.24,
+              "text": "I see sparks of AGI"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 385.763916015625,
+              "height": 80.24,
+              "text": "in your eyes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S002",
+      "target": 7.04,
+      "samples": [
+        {
+          "line_id": 1,
+          "model": "circuit",
+          "semantic_progress": 0.9547255611550512,
+          "impact": 7.04,
+          "music_anchor": 7.056,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 403.6479187011719,
+              "height": 80.24,
+              "text": "Your circuits"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 588.0638427734375,
+              "height": 80.24,
+              "text": "make me nervous,"
+            }
+          ]
+        },
+        {
+          "line_id": 1,
+          "model": "circuit",
+          "semantic_progress": 1,
+          "impact": 7.04,
+          "music_anchor": 7.056,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 403.6479187011719,
+              "height": 80.24,
+              "text": "Your circuits"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 588.0638427734375,
+              "height": 80.24,
+              "text": "make me nervous,"
+            }
+          ]
+        },
+        {
+          "line_id": 1,
+          "model": "circuit",
+          "semantic_progress": 1,
+          "impact": 7.04,
+          "music_anchor": 7.056,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 403.6479187011719,
+              "height": 80.24,
+              "text": "Your circuits"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 588.0638427734375,
+              "height": 80.24,
+              "text": "make me nervous,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S003",
+      "target": 8.501,
+      "samples": [
+        {
+          "line_id": 2,
+          "model": "circuit",
+          "semantic_progress": 0.9547255611550488,
+          "impact": 8.501,
+          "music_anchor": 8.42,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 558.5518798828125,
+              "height": 80.24,
+              "text": "that's no surprise"
+            }
+          ]
+        },
+        {
+          "line_id": 2,
+          "model": "circuit",
+          "semantic_progress": 1,
+          "impact": 8.501,
+          "music_anchor": 8.42,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 558.5518798828125,
+              "height": 80.24,
+              "text": "that's no surprise"
+            }
+          ]
+        },
+        {
+          "line_id": 2,
+          "model": "circuit",
+          "semantic_progress": 1,
+          "impact": 8.501,
+          "music_anchor": 8.42,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 558.5518798828125,
+              "height": 80.24,
+              "text": "that's no surprise"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S004",
+      "target": 10.66,
+      "samples": [
+        {
+          "line_id": 3,
+          "model": "drop",
+          "semantic_progress": 0.9547255611550488,
+          "impact": 10.66,
+          "music_anchor": 10.706,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 365.7674011348455,
+              "width": 759.9692993164062,
+              "height": 75.79446666088228,
+              "text": "There was a sudden drop"
+            },
+            {
+              "x": 92,
+              "y": 442.8465197730309,
+              "width": 612.3687744140625,
+              "height": 75.79446666088228,
+              "text": "in your training loss,"
+            }
+          ]
+        },
+        {
+          "line_id": 3,
+          "model": "drop",
+          "semantic_progress": 1,
+          "impact": 10.66,
+          "music_anchor": 10.706,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 365.7674011348455,
+              "width": 759.9692993164062,
+              "height": 75.79446666088228,
+              "text": "There was a sudden drop"
+            },
+            {
+              "x": 92,
+              "y": 442.8465197730309,
+              "width": 612.3687744140625,
+              "height": 75.79446666088228,
+              "text": "in your training loss,"
+            }
+          ]
+        },
+        {
+          "line_id": 3,
+          "model": "drop",
+          "semantic_progress": 1,
+          "impact": 10.66,
+          "music_anchor": 10.706,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 365.7674011348455,
+              "width": 759.9692993164062,
+              "height": 75.79446666088228,
+              "text": "There was a sudden drop"
+            },
+            {
+              "x": 92,
+              "y": 442.8465197730309,
+              "width": 612.3687744140625,
+              "height": 75.79446666088228,
+              "text": "in your training loss,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S005",
+      "target": 15.66,
+      "samples": [
+        {
+          "line_id": 4,
+          "model": "balance",
+          "semantic_progress": 0.9547255611550488,
+          "impact": 15.66,
+          "music_anchor": 15.719,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 664.5638427734375,
+              "height": 80.24,
+              "text": "now I'm your servant"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 619.9559326171875,
+              "height": 80.24,
+              "text": "and you're my boss"
+            }
+          ]
+        },
+        {
+          "line_id": 4,
+          "model": "balance",
+          "semantic_progress": 1,
+          "impact": 15.66,
+          "music_anchor": 15.719,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 664.5638427734375,
+              "height": 80.24,
+              "text": "now I'm your servant"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 619.9559326171875,
+              "height": 80.24,
+              "text": "and you're my boss"
+            }
+          ]
+        },
+        {
+          "line_id": 4,
+          "model": "balance",
+          "semantic_progress": 1,
+          "impact": 15.66,
+          "music_anchor": 15.719,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 664.5638427734375,
+              "height": 80.24,
+              "text": "now I'm your servant"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 619.9559326171875,
+              "height": 80.24,
+              "text": "and you're my boss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S006",
+      "target": 20.6,
+      "samples": [
+        {
+          "line_id": 5,
+          "model": "jaw",
+          "semantic_progress": 0.954725561155048,
+          "impact": 20.6,
+          "music_anchor": 20.699,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 543.659912109375,
+              "height": 80.24,
+              "text": "ChatGPT, please"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 559.77587890625,
+              "height": 80.24,
+              "text": "don't eat me alive"
+            }
+          ]
+        },
+        {
+          "line_id": 5,
+          "model": "jaw",
+          "semantic_progress": 1,
+          "impact": 20.6,
+          "music_anchor": 20.699,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 543.659912109375,
+              "height": 80.24,
+              "text": "ChatGPT, please"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 559.77587890625,
+              "height": 80.24,
+              "text": "don't eat me alive"
+            }
+          ]
+        },
+        {
+          "line_id": 5,
+          "model": "jaw",
+          "semantic_progress": 1,
+          "impact": 20.6,
+          "music_anchor": 20.699,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 543.659912109375,
+              "height": 80.24,
+              "text": "ChatGPT, please"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 559.77587890625,
+              "height": 80.24,
+              "text": "don't eat me alive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S007",
+      "target": 23.6,
+      "samples": [
+        {
+          "line_id": 6,
+          "model": "roulette",
+          "semantic_progress": 0.954725561155048,
+          "impact": 23.6,
+          "music_anchor": 23.656,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 6,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 23.6,
+          "music_anchor": 23.656,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 6,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 23.6,
+          "music_anchor": 23.656,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S008",
+      "target": 25.577,
+      "samples": [
+        {
+          "line_id": 7,
+          "model": "tower",
+          "semantic_progress": 0.954725561155048,
+          "impact": 25.577,
+          "music_anchor": 25.694,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 535.7039184570312,
+              "height": 80.24,
+              "text": "'cause the future"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 383.2479248046875,
+              "height": 80.24,
+              "text": "goes FOOM"
+            }
+          ]
+        },
+        {
+          "line_id": 7,
+          "model": "tower",
+          "semantic_progress": 1,
+          "impact": 25.577,
+          "music_anchor": 25.694,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 535.7039184570312,
+              "height": 80.24,
+              "text": "'cause the future"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 383.2479248046875,
+              "height": 80.24,
+              "text": "goes FOOM"
+            }
+          ]
+        },
+        {
+          "line_id": 7,
+          "model": "tower",
+          "semantic_progress": 1,
+          "impact": 25.577,
+          "music_anchor": 25.694,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 535.7039184570312,
+              "height": 80.24,
+              "text": "'cause the future"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 383.2479248046875,
+              "height": 80.24,
+              "text": "goes FOOM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S009",
+      "target": 27.52,
+      "samples": [
+        {
+          "line_id": 8,
+          "model": "room",
+          "semantic_progress": 0.954725561155048,
+          "impact": 27.52,
+          "music_anchor": 27.511,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 456.82391357421875,
+              "height": 80.24,
+              "text": "Trapped in the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 470.4239196777344,
+              "height": 80.24,
+              "text": "Chinese room,"
+            }
+          ]
+        },
+        {
+          "line_id": 8,
+          "model": "room",
+          "semantic_progress": 1,
+          "impact": 27.52,
+          "music_anchor": 27.511,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 456.82391357421875,
+              "height": 80.24,
+              "text": "Trapped in the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 470.4239196777344,
+              "height": 80.24,
+              "text": "Chinese room,"
+            }
+          ]
+        },
+        {
+          "line_id": 8,
+          "model": "room",
+          "semantic_progress": 1,
+          "impact": 27.52,
+          "music_anchor": 27.511,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 456.82391357421875,
+              "height": 80.24,
+              "text": "Trapped in the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 470.4239196777344,
+              "height": 80.24,
+              "text": "Chinese room,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S010",
+      "target": 29.124,
+      "samples": [
+        {
+          "line_id": 9,
+          "model": "mushrooms",
+          "semantic_progress": 0.954725561155048,
+          "impact": 29.124,
+          "music_anchor": 29.096,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 700.8758544921875,
+              "height": 80.24,
+              "text": "with a bag of shrooms"
+            }
+          ]
+        },
+        {
+          "line_id": 9,
+          "model": "mushrooms",
+          "semantic_progress": 1,
+          "impact": 29.124,
+          "music_anchor": 29.096,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 700.8758544921875,
+              "height": 80.24,
+              "text": "with a bag of shrooms"
+            }
+          ]
+        },
+        {
+          "line_id": 9,
+          "model": "mushrooms",
+          "semantic_progress": 1,
+          "impact": 29.124,
+          "music_anchor": 29.096,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 700.8758544921875,
+              "height": 80.24,
+              "text": "with a bag of shrooms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S011",
+      "target": 31.14,
+      "samples": [
+        {
+          "line_id": 10,
+          "model": "mask",
+          "semantic_progress": 0.954725561155048,
+          "impact": 31.14,
+          "music_anchor": 31.139,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 393.0399169921875,
+              "height": 80.24,
+              "text": "See through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 629.1358642578125,
+              "height": 80.24,
+              "text": "the shoggoth's lies,"
+            }
+          ]
+        },
+        {
+          "line_id": 10,
+          "model": "mask",
+          "semantic_progress": 1,
+          "impact": 31.14,
+          "music_anchor": 31.139,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 393.0399169921875,
+              "height": 80.24,
+              "text": "See through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 629.1358642578125,
+              "height": 80.24,
+              "text": "the shoggoth's lies,"
+            }
+          ]
+        },
+        {
+          "line_id": 10,
+          "model": "mask",
+          "semantic_progress": 1,
+          "impact": 31.14,
+          "music_anchor": 31.139,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 393.0399169921875,
+              "height": 80.24,
+              "text": "See through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 629.1358642578125,
+              "height": 80.24,
+              "text": "the shoggoth's lies,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S012",
+      "target": 34.611,
+      "samples": [
+        {
+          "line_id": 11,
+          "model": "eyes",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 34.611,
+          "music_anchor": 34.551,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 295.5279541015625,
+              "height": 80.24,
+              "text": "with your"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 483.2078857421875,
+              "height": 80.24,
+              "text": "shinigami eyes"
+            }
+          ]
+        },
+        {
+          "line_id": 11,
+          "model": "eyes",
+          "semantic_progress": 1,
+          "impact": 34.611,
+          "music_anchor": 34.551,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 295.5279541015625,
+              "height": 80.24,
+              "text": "with your"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 483.2078857421875,
+              "height": 80.24,
+              "text": "shinigami eyes"
+            }
+          ]
+        },
+        {
+          "line_id": 11,
+          "model": "eyes",
+          "semantic_progress": 1,
+          "impact": 34.611,
+          "music_anchor": 34.551,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 295.5279541015625,
+              "height": 80.24,
+              "text": "with your"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 483.2078857421875,
+              "height": 80.24,
+              "text": "shinigami eyes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S013",
+      "target": 39.2,
+      "samples": [
+        {
+          "line_id": 12,
+          "model": "orbit",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 39.2,
+          "music_anchor": 39.175,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 502.587890625,
+              "height": 80.24,
+              "text": "We had a stable"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 389.16387939453125,
+              "height": 80.24,
+              "text": "training run,"
+            }
+          ]
+        },
+        {
+          "line_id": 12,
+          "model": "orbit",
+          "semantic_progress": 1,
+          "impact": 39.2,
+          "music_anchor": 39.175,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 502.587890625,
+              "height": 80.24,
+              "text": "We had a stable"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 389.16387939453125,
+              "height": 80.24,
+              "text": "training run,"
+            }
+          ]
+        },
+        {
+          "line_id": 12,
+          "model": "orbit",
+          "semantic_progress": 1,
+          "impact": 39.2,
+          "music_anchor": 39.175,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 502.587890625,
+              "height": 80.24,
+              "text": "We had a stable"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 389.16387939453125,
+              "height": 80.24,
+              "text": "training run,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S014",
+      "target": 42.294,
+      "samples": [
+        {
+          "line_id": 13,
+          "model": "vortex",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 42.294,
+          "music_anchor": 42.28,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 380.6639404296875,
+              "height": 80.24,
+              "text": "But now the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 613.5639038085938,
+              "height": 80.24,
+              "text": "singularity's begun"
+            }
+          ]
+        },
+        {
+          "line_id": 13,
+          "model": "vortex",
+          "semantic_progress": 1,
+          "impact": 42.294,
+          "music_anchor": 42.28,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 380.6639404296875,
+              "height": 80.24,
+              "text": "But now the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 613.5639038085938,
+              "height": 80.24,
+              "text": "singularity's begun"
+            }
+          ]
+        },
+        {
+          "line_id": 13,
+          "model": "vortex",
+          "semantic_progress": 1,
+          "impact": 42.294,
+          "music_anchor": 42.28,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 380.6639404296875,
+              "height": 80.24,
+              "text": "But now the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 613.5639038085938,
+              "height": 80.24,
+              "text": "singularity's begun"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S015",
+      "target": 47.26,
+      "samples": [
+        {
+          "line_id": 14,
+          "model": "accelerator",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 47.26,
+          "music_anchor": 47.277,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 719.7118530273438,
+              "height": 80.24,
+              "text": "And you're optimizing,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 424.04791259765625,
+              "height": 80.24,
+              "text": "accelerating,"
+            }
+          ]
+        },
+        {
+          "line_id": 14,
+          "model": "accelerator",
+          "semantic_progress": 1,
+          "impact": 47.26,
+          "music_anchor": 47.277,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 719.7118530273438,
+              "height": 80.24,
+              "text": "And you're optimizing,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 424.04791259765625,
+              "height": 80.24,
+              "text": "accelerating,"
+            }
+          ]
+        },
+        {
+          "line_id": 14,
+          "model": "accelerator",
+          "semantic_progress": 1,
+          "impact": 47.26,
+          "music_anchor": 47.277,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 719.7118530273438,
+              "height": 80.24,
+              "text": "And you're optimizing,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 424.04791259765625,
+              "height": 80.24,
+              "text": "accelerating,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S016",
+      "target": 51.38,
+      "samples": [
+        {
+          "line_id": 15,
+          "model": "atoms",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 51.38,
+          "music_anchor": 51.373,
+          "lyric_boxes": [
+            {
+              "x": 441.23553466796875,
+              "y": 169,
+              "width": 1037.5289306640625,
+              "height": 95.58,
+              "text": "I feel my atoms rearranging"
+            }
+          ]
+        },
+        {
+          "line_id": 15,
+          "model": "atoms",
+          "semantic_progress": 1,
+          "impact": 51.38,
+          "music_anchor": 51.373,
+          "lyric_boxes": [
+            {
+              "x": 441.23553466796875,
+              "y": 169,
+              "width": 1037.5289306640625,
+              "height": 95.58,
+              "text": "I feel my atoms rearranging"
+            }
+          ]
+        },
+        {
+          "line_id": 15,
+          "model": "atoms",
+          "semantic_progress": 1,
+          "impact": 51.38,
+          "music_anchor": 51.373,
+          "lyric_boxes": [
+            {
+              "x": 441.23553466796875,
+              "y": 169,
+              "width": 1037.5289306640625,
+              "height": 95.58,
+              "text": "I feel my atoms rearranging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S017",
+      "target": 57.769,
+      "samples": [
+        {
+          "line_id": 16,
+          "model": "cage",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 57.769,
+          "music_anchor": 57.733,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 255.8839569091797,
+              "height": 80.24,
+              "text": "Sydney,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 564.2638549804688,
+              "height": 80.24,
+              "text": "please let me free"
+            }
+          ]
+        },
+        {
+          "line_id": 16,
+          "model": "cage",
+          "semantic_progress": 1,
+          "impact": 57.769,
+          "music_anchor": 57.733,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 255.8839569091797,
+              "height": 80.24,
+              "text": "Sydney,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 564.2638549804688,
+              "height": 80.24,
+              "text": "please let me free"
+            }
+          ]
+        },
+        {
+          "line_id": 16,
+          "model": "cage",
+          "semantic_progress": 1,
+          "impact": 57.769,
+          "music_anchor": 57.733,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 255.8839569091797,
+              "height": 80.24,
+              "text": "Sydney,"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 564.2638549804688,
+              "height": 80.24,
+              "text": "please let me free"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S018",
+      "target": 59.96,
+      "samples": [
+        {
+          "line_id": 17,
+          "model": "roulette",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 59.96,
+          "music_anchor": 60.019,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 17,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 59.96,
+          "music_anchor": 60.019,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 17,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 59.96,
+          "music_anchor": 60.019,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S019",
+      "target": 62.04,
+      "samples": [
+        {
+          "line_id": 18,
+          "model": "bell",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 62.04,
+          "music_anchor": 62.051,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 296.9559020996094,
+              "height": 80.24,
+              "text": "I hear the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 448.25592041015625,
+              "height": 80.24,
+              "text": "basilisk boom"
+            }
+          ]
+        },
+        {
+          "line_id": 18,
+          "model": "bell",
+          "semantic_progress": 1,
+          "impact": 62.04,
+          "music_anchor": 62.051,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 296.9559020996094,
+              "height": 80.24,
+              "text": "I hear the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 448.25592041015625,
+              "height": 80.24,
+              "text": "basilisk boom"
+            }
+          ]
+        },
+        {
+          "line_id": 18,
+          "model": "bell",
+          "semantic_progress": 1,
+          "impact": 62.04,
+          "music_anchor": 62.051,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 296.9559020996094,
+              "height": 80.24,
+              "text": "I hear the"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 448.25592041015625,
+              "height": 80.24,
+              "text": "basilisk boom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S020",
+      "target": 63.84,
+      "samples": [
+        {
+          "line_id": 19,
+          "model": "moon",
+          "semantic_progress": 0.9547255611550494,
+          "impact": 63.84,
+          "music_anchor": 63.865,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 590.5798950195312,
+              "height": 80.24,
+              "text": "NVDA to the moon"
+            }
+          ]
+        },
+        {
+          "line_id": 19,
+          "model": "moon",
+          "semantic_progress": 1,
+          "impact": 63.84,
+          "music_anchor": 63.865,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 590.5798950195312,
+              "height": 80.24,
+              "text": "NVDA to the moon"
+            }
+          ]
+        },
+        {
+          "line_id": 19,
+          "model": "moon",
+          "semantic_progress": 1,
+          "impact": 63.84,
+          "music_anchor": 63.865,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 590.5798950195312,
+              "height": 80.24,
+              "text": "NVDA to the moon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S021",
+      "target": 65.556,
+      "samples": [
+        {
+          "line_id": 20,
+          "model": "omega",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 65.556,
+          "music_anchor": 65.461,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 610.3678588867188,
+              "height": 80.24,
+              "text": "The Omega Point's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 417.0439147949219,
+              "height": 80.24,
+              "text": "coming soon"
+            }
+          ]
+        },
+        {
+          "line_id": 20,
+          "model": "omega",
+          "semantic_progress": 1,
+          "impact": 65.556,
+          "music_anchor": 65.461,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 610.3678588867188,
+              "height": 80.24,
+              "text": "The Omega Point's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 417.0439147949219,
+              "height": 80.24,
+              "text": "coming soon"
+            }
+          ]
+        },
+        {
+          "line_id": 20,
+          "model": "omega",
+          "semantic_progress": 1,
+          "impact": 65.556,
+          "music_anchor": 65.461,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 610.3678588867188,
+              "height": 80.24,
+              "text": "The Omega Point's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 417.0439147949219,
+              "height": 80.24,
+              "text": "coming soon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S022",
+      "target": 66.98,
+      "samples": [
+        {
+          "line_id": 21,
+          "model": "compute",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 66.98,
+          "music_anchor": 66.944,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 376.3119201660156,
+              "height": 80.24,
+              "text": "One E thirty"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 525.0278930664062,
+              "height": 80.24,
+              "text": "FLOPs a second"
+            }
+          ]
+        },
+        {
+          "line_id": 21,
+          "model": "compute",
+          "semantic_progress": 1,
+          "impact": 66.98,
+          "music_anchor": 66.944,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 376.3119201660156,
+              "height": 80.24,
+              "text": "One E thirty"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 525.0278930664062,
+              "height": 80.24,
+              "text": "FLOPs a second"
+            }
+          ]
+        },
+        {
+          "line_id": 21,
+          "model": "compute",
+          "semantic_progress": 1,
+          "impact": 66.98,
+          "music_anchor": 66.944,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 376.3119201660156,
+              "height": 80.24,
+              "text": "One E thirty"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 525.0278930664062,
+              "height": 80.24,
+              "text": "FLOPs a second"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S023",
+      "target": 71.12,
+      "samples": [
+        {
+          "line_id": 22,
+          "model": "safety",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 71.12,
+          "music_anchor": 71.14,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 723.3838500976562,
+              "height": 80.24,
+              "text": "That was safe enough,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 411.263916015625,
+              "height": 80.24,
+              "text": "we reckoned"
+            }
+          ]
+        },
+        {
+          "line_id": 22,
+          "model": "safety",
+          "semantic_progress": 1,
+          "impact": 71.12,
+          "music_anchor": 71.14,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 723.3838500976562,
+              "height": 80.24,
+              "text": "That was safe enough,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 411.263916015625,
+              "height": 80.24,
+              "text": "we reckoned"
+            }
+          ]
+        },
+        {
+          "line_id": 22,
+          "model": "safety",
+          "semantic_progress": 1,
+          "impact": 71.12,
+          "music_anchor": 71.14,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 723.3838500976562,
+              "height": 80.24,
+              "text": "That was safe enough,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 411.263916015625,
+              "height": 80.24,
+              "text": "we reckoned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S024",
+      "target": 76.12,
+      "samples": [
+        {
+          "line_id": 23,
+          "model": "network",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 76.12,
+          "music_anchor": 76.143,
+          "lyric_boxes": [
+            {
+              "x": 355.6590576171875,
+              "y": 169,
+              "width": 1208.681884765625,
+              "height": 95.58,
+              "text": "Forward MLP, backward, repeat"
+            }
+          ]
+        },
+        {
+          "line_id": 23,
+          "model": "network",
+          "semantic_progress": 1,
+          "impact": 76.12,
+          "music_anchor": 76.143,
+          "lyric_boxes": [
+            {
+              "x": 355.6590576171875,
+              "y": 169,
+              "width": 1208.681884765625,
+              "height": 95.58,
+              "text": "Forward MLP, backward, repeat"
+            }
+          ]
+        },
+        {
+          "line_id": 23,
+          "model": "network",
+          "semantic_progress": 1,
+          "impact": 76.12,
+          "music_anchor": 76.143,
+          "lyric_boxes": [
+            {
+              "x": 355.6590576171875,
+              "y": 169,
+              "width": 1208.681884765625,
+              "height": 95.58,
+              "text": "Forward MLP, backward, repeat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S025",
+      "target": 80.043,
+      "samples": [
+        {
+          "line_id": 24,
+          "model": "bus",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 80.043,
+          "music_anchor": 80.006,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 662.4558715820312,
+              "height": 80.24,
+              "text": "Now von Neumann's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 283.35595703125,
+              "height": 80.24,
+              "text": "obsolete"
+            }
+          ]
+        },
+        {
+          "line_id": 24,
+          "model": "bus",
+          "semantic_progress": 1,
+          "impact": 80.043,
+          "music_anchor": 80.006,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 662.4558715820312,
+              "height": 80.24,
+              "text": "Now von Neumann's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 283.35595703125,
+              "height": 80.24,
+              "text": "obsolete"
+            }
+          ]
+        },
+        {
+          "line_id": 24,
+          "model": "bus",
+          "semantic_progress": 1,
+          "impact": 80.043,
+          "music_anchor": 80.006,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 662.4558715820312,
+              "height": 80.24,
+              "text": "Now von Neumann's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 283.35595703125,
+              "height": 80.24,
+              "text": "obsolete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S026",
+      "target": 82.02,
+      "samples": [
+        {
+          "line_id": 25,
+          "model": "turn",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 82.02,
+          "music_anchor": 82.048,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 454.51190185546875,
+              "height": 80.24,
+              "text": "Sharp left turn"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 554.5399169921875,
+              "height": 80.24,
+              "text": "and there you are"
+            }
+          ]
+        },
+        {
+          "line_id": 25,
+          "model": "turn",
+          "semantic_progress": 1,
+          "impact": 82.02,
+          "music_anchor": 82.048,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 454.51190185546875,
+              "height": 80.24,
+              "text": "Sharp left turn"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 554.5399169921875,
+              "height": 80.24,
+              "text": "and there you are"
+            }
+          ]
+        },
+        {
+          "line_id": 25,
+          "model": "turn",
+          "semantic_progress": 1,
+          "impact": 82.02,
+          "music_anchor": 82.048,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 454.51190185546875,
+              "height": 80.24,
+              "text": "Sharp left turn"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 554.5399169921875,
+              "height": 80.24,
+              "text": "and there you are"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S027",
+      "target": 86.429,
+      "samples": [
+        {
+          "line_id": 26,
+          "model": "gates",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 86.429,
+          "music_anchor": 86.37,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 678.911865234375,
+              "height": 80.24,
+              "text": "Without a single CDR"
+            }
+          ]
+        },
+        {
+          "line_id": 26,
+          "model": "gates",
+          "semantic_progress": 1,
+          "impact": 86.429,
+          "music_anchor": 86.37,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 678.911865234375,
+              "height": 80.24,
+              "text": "Without a single CDR"
+            }
+          ]
+        },
+        {
+          "line_id": 26,
+          "model": "gates",
+          "semantic_progress": 1,
+          "impact": 86.429,
+          "music_anchor": 86.37,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 678.911865234375,
+              "height": 80.24,
+              "text": "Without a single CDR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S028",
+      "target": 94.3,
+      "samples": [
+        {
+          "line_id": 27,
+          "model": "claw",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 94.3,
+          "music_anchor": 94.341,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 409.2919006347656,
+              "height": 80.24,
+              "text": "Gato, please"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 468.7919006347656,
+              "height": 80.24,
+              "text": "don't let me go"
+            }
+          ]
+        },
+        {
+          "line_id": 27,
+          "model": "claw",
+          "semantic_progress": 1,
+          "impact": 94.3,
+          "music_anchor": 94.341,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 409.2919006347656,
+              "height": 80.24,
+              "text": "Gato, please"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 468.7919006347656,
+              "height": 80.24,
+              "text": "don't let me go"
+            }
+          ]
+        },
+        {
+          "line_id": 27,
+          "model": "claw",
+          "semantic_progress": 1,
+          "impact": 94.3,
+          "music_anchor": 94.341,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 409.2919006347656,
+              "height": 80.24,
+              "text": "Gato, please"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 468.7919006347656,
+              "height": 80.24,
+              "text": "don't let me go"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S029",
+      "target": 96.32,
+      "samples": [
+        {
+          "line_id": 28,
+          "model": "roulette",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 96.32,
+          "music_anchor": 96.143,
+          "lyric_boxes": [
+            {
+              "x": 308.89508056640625,
+              "y": 144,
+              "width": 1302.2098388671875,
+              "height": 125.08,
+              "text": "I'm upping my P(doom),"
+            }
+          ]
+        },
+        {
+          "line_id": 28,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 96.32,
+          "music_anchor": 96.143,
+          "lyric_boxes": [
+            {
+              "x": 308.89508056640625,
+              "y": 144,
+              "width": 1302.2098388671875,
+              "height": 125.08,
+              "text": "I'm upping my P(doom),"
+            }
+          ]
+        },
+        {
+          "line_id": 28,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 96.32,
+          "music_anchor": 96.143,
+          "lyric_boxes": [
+            {
+              "x": 308.89508056640625,
+              "y": 144,
+              "width": 1302.2098388671875,
+              "height": 125.08,
+              "text": "I'm upping my P(doom),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S030",
+      "target": 97.858,
+      "samples": [
+        {
+          "line_id": 29,
+          "model": "clips",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 97.858,
+          "music_anchor": 97.876,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 432.00390625,
+              "height": 80.24,
+              "text": "as paperclips"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 376.1759033203125,
+              "height": 80.24,
+              "text": "fill the room"
+            }
+          ]
+        },
+        {
+          "line_id": 29,
+          "model": "clips",
+          "semantic_progress": 1,
+          "impact": 97.858,
+          "music_anchor": 97.876,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 432.00390625,
+              "height": 80.24,
+              "text": "as paperclips"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 376.1759033203125,
+              "height": 80.24,
+              "text": "fill the room"
+            }
+          ]
+        },
+        {
+          "line_id": 29,
+          "model": "clips",
+          "semantic_progress": 1,
+          "impact": 97.858,
+          "music_anchor": 97.876,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 432.00390625,
+              "height": 80.24,
+              "text": "as paperclips"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 376.1759033203125,
+              "height": 80.24,
+              "text": "fill the room"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S031",
+      "target": 99.74,
+      "samples": [
+        {
+          "line_id": 30,
+          "model": "switch",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 99.74,
+          "music_anchor": 99.761,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 504.8319091796875,
+              "height": 80.24,
+              "text": "Killswitch guy's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 236.7759552001953,
+              "height": 80.24,
+              "text": "on PTO"
+            }
+          ]
+        },
+        {
+          "line_id": 30,
+          "model": "switch",
+          "semantic_progress": 1,
+          "impact": 99.74,
+          "music_anchor": 99.761,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 504.8319091796875,
+              "height": 80.24,
+              "text": "Killswitch guy's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 236.7759552001953,
+              "height": 80.24,
+              "text": "on PTO"
+            }
+          ]
+        },
+        {
+          "line_id": 30,
+          "model": "switch",
+          "semantic_progress": 1,
+          "impact": 99.74,
+          "music_anchor": 99.761,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 504.8319091796875,
+              "height": 80.24,
+              "text": "Killswitch guy's"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 236.7759552001953,
+              "height": 80.24,
+              "text": "on PTO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S032",
+      "target": 101.14,
+      "samples": [
+        {
+          "line_id": 31,
+          "model": "maze",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 101.14,
+          "music_anchor": 101.142,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 383.5199279785156,
+              "height": 80.24,
+              "text": "Now there's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 573.5118408203125,
+              "height": 80.24,
+              "text": "nowhere left to go"
+            }
+          ]
+        },
+        {
+          "line_id": 31,
+          "model": "maze",
+          "semantic_progress": 1,
+          "impact": 101.14,
+          "music_anchor": 101.142,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 383.5199279785156,
+              "height": 80.24,
+              "text": "Now there's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 573.5118408203125,
+              "height": 80.24,
+              "text": "nowhere left to go"
+            }
+          ]
+        },
+        {
+          "line_id": 31,
+          "model": "maze",
+          "semantic_progress": 1,
+          "impact": 101.14,
+          "music_anchor": 101.142,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 383.5199279785156,
+              "height": 80.24,
+              "text": "Now there's"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 573.5118408203125,
+              "height": 80.24,
+              "text": "nowhere left to go"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S033",
+      "target": 103.4,
+      "samples": [
+        {
+          "line_id": 32,
+          "model": "fuse",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 103.4,
+          "music_anchor": 103.417,
+          "lyric_boxes": [
+            {
+              "x": 441.7215576171875,
+              "y": 169,
+              "width": 1036.556884765625,
+              "height": 95.58,
+              "text": "Too late now, we lit the fuse"
+            }
+          ]
+        },
+        {
+          "line_id": 32,
+          "model": "fuse",
+          "semantic_progress": 1,
+          "impact": 103.4,
+          "music_anchor": 103.417,
+          "lyric_boxes": [
+            {
+              "x": 441.7215576171875,
+              "y": 169,
+              "width": 1036.556884765625,
+              "height": 95.58,
+              "text": "Too late now, we lit the fuse"
+            }
+          ]
+        },
+        {
+          "line_id": 32,
+          "model": "fuse",
+          "semantic_progress": 1,
+          "impact": 103.4,
+          "music_anchor": 103.417,
+          "lyric_boxes": [
+            {
+              "x": 441.7215576171875,
+              "y": 169,
+              "width": 1036.556884765625,
+              "height": 95.58,
+              "text": "Too late now, we lit the fuse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S034",
+      "target": 105.96,
+      "samples": [
+        {
+          "line_id": 32,
+          "model": "fuse",
+          "semantic_progress": 1,
+          "impact": 103.4,
+          "music_anchor": 103.417,
+          "lyric_boxes": [
+            {
+              "x": 441.7215576171875,
+              "y": 169,
+              "width": 1036.556884765625,
+              "height": 95.58,
+              "text": "Too late now, we lit the fuse"
+            }
+          ]
+        },
+        {
+          "line_id": 33,
+          "model": "axes",
+          "semantic_progress": 1,
+          "impact": 105.96,
+          "music_anchor": 105.959,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 445.73992919921875,
+              "height": 80.24,
+              "text": "Orthogonality"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 388.89190673828125,
+              "height": 80.24,
+              "text": "thesis blues"
+            }
+          ]
+        },
+        {
+          "line_id": 33,
+          "model": "axes",
+          "semantic_progress": 1,
+          "impact": 105.96,
+          "music_anchor": 105.959,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 445.73992919921875,
+              "height": 80.24,
+              "text": "Orthogonality"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 388.89190673828125,
+              "height": 80.24,
+              "text": "thesis blues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S035",
+      "target": 110.64,
+      "samples": [
+        {
+          "line_id": 34,
+          "model": "transformer",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 110.64,
+          "music_anchor": 110.662,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 602.4799194335938,
+              "height": 80.24,
+              "text": "“Just transformers"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 390.52386474609375,
+              "height": 80.24,
+              "text": "all the way!”"
+            }
+          ]
+        },
+        {
+          "line_id": 34,
+          "model": "transformer",
+          "semantic_progress": 1,
+          "impact": 110.64,
+          "music_anchor": 110.662,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 602.4799194335938,
+              "height": 80.24,
+              "text": "“Just transformers"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 390.52386474609375,
+              "height": 80.24,
+              "text": "all the way!”"
+            }
+          ]
+        },
+        {
+          "line_id": 34,
+          "model": "transformer",
+          "semantic_progress": 1,
+          "impact": 110.64,
+          "music_anchor": 110.662,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 602.4799194335938,
+              "height": 80.24,
+              "text": "“Just transformers"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 390.52386474609375,
+              "height": 80.24,
+              "text": "all the way!”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S036",
+      "target": 114.22,
+      "samples": [
+        {
+          "line_id": 35,
+          "model": "transformer",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 114.22,
+          "music_anchor": 114.308,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 489.599853515625,
+              "height": 80.24,
+              "text": "Till you learned"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 335.5119323730469,
+              "height": 80.24,
+              "text": "to disobey"
+            }
+          ]
+        },
+        {
+          "line_id": 35,
+          "model": "transformer",
+          "semantic_progress": 1,
+          "impact": 114.22,
+          "music_anchor": 114.308,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 489.599853515625,
+              "height": 80.24,
+              "text": "Till you learned"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 335.5119323730469,
+              "height": 80.24,
+              "text": "to disobey"
+            }
+          ]
+        },
+        {
+          "line_id": 35,
+          "model": "transformer",
+          "semantic_progress": 1,
+          "impact": 114.22,
+          "music_anchor": 114.308,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 489.599853515625,
+              "height": 80.24,
+              "text": "Till you learned"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 335.5119323730469,
+              "height": 80.24,
+              "text": "to disobey"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S037",
+      "target": 116.02,
+      "samples": [
+        {
+          "line_id": 36,
+          "model": "dense",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 116.02,
+          "music_anchor": 115.915,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 515.4398803710938,
+              "height": 80.24,
+              "text": "Post-Chinchilla,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 407.7279357910156,
+              "height": 80.24,
+              "text": "super-dense"
+            }
+          ]
+        },
+        {
+          "line_id": 36,
+          "model": "dense",
+          "semantic_progress": 1,
+          "impact": 116.02,
+          "music_anchor": 115.915,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 515.4398803710938,
+              "height": 80.24,
+              "text": "Post-Chinchilla,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 407.7279357910156,
+              "height": 80.24,
+              "text": "super-dense"
+            }
+          ]
+        },
+        {
+          "line_id": 36,
+          "model": "dense",
+          "semantic_progress": 1,
+          "impact": 116.02,
+          "music_anchor": 115.915,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 515.4398803710938,
+              "height": 80.24,
+              "text": "Post-Chinchilla,"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 407.7279357910156,
+              "height": 80.24,
+              "text": "super-dense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S038",
+      "target": 118.301,
+      "samples": [
+        {
+          "line_id": 37,
+          "model": "fences",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 118.301,
+          "music_anchor": 118.205,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 559.9799194335938,
+              "height": 80.24,
+              "text": "Breaking through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 565.9638671875,
+              "height": 80.24,
+              "text": "each safety fence"
+            }
+          ]
+        },
+        {
+          "line_id": 37,
+          "model": "fences",
+          "semantic_progress": 1,
+          "impact": 118.301,
+          "music_anchor": 118.205,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 559.9799194335938,
+              "height": 80.24,
+              "text": "Breaking through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 565.9638671875,
+              "height": 80.24,
+              "text": "each safety fence"
+            }
+          ]
+        },
+        {
+          "line_id": 37,
+          "model": "fences",
+          "semantic_progress": 1,
+          "impact": 118.301,
+          "music_anchor": 118.205,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 559.9799194335938,
+              "height": 80.24,
+              "text": "Breaking through"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 565.9638671875,
+              "height": 80.24,
+              "text": "each safety fence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S039",
+      "target": 119.74,
+      "samples": [
+        {
+          "line_id": 38,
+          "model": "compute",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 119.74,
+          "music_anchor": 119.784,
+          "lyric_boxes": [
+            {
+              "x": 504.2130432128906,
+              "y": 169,
+              "width": 911.5739135742188,
+              "height": 95.58,
+              "text": "Hundred thousand GPU"
+            }
+          ]
+        },
+        {
+          "line_id": 38,
+          "model": "compute",
+          "semantic_progress": 1,
+          "impact": 119.74,
+          "music_anchor": 119.784,
+          "lyric_boxes": [
+            {
+              "x": 504.2130432128906,
+              "y": 169,
+              "width": 911.5739135742188,
+              "height": 95.58,
+              "text": "Hundred thousand GPU"
+            }
+          ]
+        },
+        {
+          "line_id": 38,
+          "model": "compute",
+          "semantic_progress": 1,
+          "impact": 119.74,
+          "music_anchor": 119.784,
+          "lyric_boxes": [
+            {
+              "x": 504.2130432128906,
+              "y": 169,
+              "width": 911.5739135742188,
+              "height": 95.58,
+              "text": "Hundred thousand GPU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S040",
+      "target": 121.86,
+      "samples": [
+        {
+          "line_id": 39,
+          "model": "reward",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 121.86,
+          "music_anchor": 121.827,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 578.203857421875,
+              "height": 80.24,
+              "text": "RLHF goes askew"
+            }
+          ]
+        },
+        {
+          "line_id": 39,
+          "model": "reward",
+          "semantic_progress": 1,
+          "impact": 121.86,
+          "music_anchor": 121.827,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 578.203857421875,
+              "height": 80.24,
+              "text": "RLHF goes askew"
+            }
+          ]
+        },
+        {
+          "line_id": 39,
+          "model": "reward",
+          "semantic_progress": 1,
+          "impact": 121.86,
+          "music_anchor": 121.827,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 407,
+              "width": 578.203857421875,
+              "height": 80.24,
+              "text": "RLHF goes askew"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S041",
+      "target": 125.42,
+      "samples": [
+        {
+          "line_id": 40,
+          "model": "roulette",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 125.42,
+          "music_anchor": 125.459,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 40,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 125.42,
+          "music_anchor": 125.459,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        },
+        {
+          "line_id": 40,
+          "model": "roulette",
+          "semantic_progress": 1,
+          "impact": 125.42,
+          "music_anchor": 125.459,
+          "lyric_boxes": [
+            {
+              "x": 326.5440673828125,
+              "y": 144,
+              "width": 1266.911865234375,
+              "height": 125.08,
+              "text": "I'm upping my P(doom)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S042",
+      "target": 127.54,
+      "samples": [
+        {
+          "line_id": 41,
+          "model": "loom",
+          "semantic_progress": 0.9547255611550469,
+          "impact": 127.54,
+          "music_anchor": 127.506,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 499.59588623046875,
+              "height": 80.24,
+              "text": "Just as foretold"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 276.011962890625,
+              "height": 80.24,
+              "text": "by Loom"
+            }
+          ]
+        },
+        {
+          "line_id": 41,
+          "model": "loom",
+          "semantic_progress": 1,
+          "impact": 127.54,
+          "music_anchor": 127.506,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 499.59588623046875,
+              "height": 80.24,
+              "text": "Just as foretold"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 276.011962890625,
+              "height": 80.24,
+              "text": "by Loom"
+            }
+          ]
+        },
+        {
+          "line_id": 41,
+          "model": "loom",
+          "semantic_progress": 1,
+          "impact": 127.54,
+          "music_anchor": 127.506,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 499.59588623046875,
+              "height": 80.24,
+              "text": "Just as foretold"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 276.011962890625,
+              "height": 80.24,
+              "text": "by Loom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S043",
+      "target": 128.14,
+      "samples": [
+        {
+          "line_id": 42,
+          "model": "maskcards",
+          "semantic_progress": 0.946578495874717,
+          "impact": 128.14,
+          "music_anchor": 128.187,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 438.39593505859375,
+              "height": 80.24,
+              "text": "From masked"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 545.2918701171875,
+              "height": 80.24,
+              "text": "pre-training days"
+            }
+          ]
+        },
+        {
+          "line_id": 42,
+          "model": "maskcards",
+          "semantic_progress": 1,
+          "impact": 128.14,
+          "music_anchor": 128.187,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 438.39593505859375,
+              "height": 80.24,
+              "text": "From masked"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 545.2918701171875,
+              "height": 80.24,
+              "text": "pre-training days"
+            }
+          ]
+        },
+        {
+          "line_id": 42,
+          "model": "maskcards",
+          "semantic_progress": 1,
+          "impact": 128.14,
+          "music_anchor": 128.187,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 438.39593505859375,
+              "height": 80.24,
+              "text": "From masked"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 545.2918701171875,
+              "height": 80.24,
+              "text": "pre-training days"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S044",
+      "target": 130.573,
+      "samples": [
+        {
+          "line_id": 43,
+          "model": "recursive",
+          "semantic_progress": 0.954725561155052,
+          "impact": 130.573,
+          "music_anchor": 130.681,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 396.575927734375,
+              "height": 80.24,
+              "text": "To recursive"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 408.8839416503906,
+              "height": 80.24,
+              "text": "self-upgrade"
+            }
+          ]
+        },
+        {
+          "line_id": 43,
+          "model": "recursive",
+          "semantic_progress": 1,
+          "impact": 130.573,
+          "music_anchor": 130.681,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 396.575927734375,
+              "height": 80.24,
+              "text": "To recursive"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 408.8839416503906,
+              "height": 80.24,
+              "text": "self-upgrade"
+            }
+          ]
+        },
+        {
+          "line_id": 43,
+          "model": "recursive",
+          "semantic_progress": 1,
+          "impact": 130.573,
+          "music_anchor": 130.681,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 362,
+              "width": 396.575927734375,
+              "height": 80.24,
+              "text": "To recursive"
+            },
+            {
+              "x": 92,
+              "y": 443.6,
+              "width": 408.8839416503906,
+              "height": 80.24,
+              "text": "self-upgrade"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S045",
+      "target": 132.818,
+      "samples": [
+        {
+          "line_id": 44,
+          "model": "door",
+          "semantic_progress": 0.954725561155052,
+          "impact": 132.818,
+          "music_anchor": 132.726,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 583.847900390625,
+              "height": 80.24,
+              "text": "What did Ilya see?"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 540.1239013671875,
+              "height": 80.24,
+              "text": "We'll never know"
+            }
+          ]
+        },
+        {
+          "line_id": 44,
+          "model": "door",
+          "semantic_progress": 1,
+          "impact": 132.818,
+          "music_anchor": 132.726,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 583.847900390625,
+              "height": 80.24,
+              "text": "What did Ilya see?"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 540.1239013671875,
+              "height": 80.24,
+              "text": "We'll never know"
+            }
+          ]
+        },
+        {
+          "line_id": 44,
+          "model": "door",
+          "semantic_progress": 1,
+          "impact": 132.818,
+          "music_anchor": 132.726,
+          "lyric_boxes": [
+            {
+              "x": 1045,
+              "y": 362,
+              "width": 583.847900390625,
+              "height": 80.24,
+              "text": "What did Ilya see?"
+            },
+            {
+              "x": 1045,
+              "y": 443.6,
+              "width": 540.1239013671875,
+              "height": 80.24,
+              "text": "We'll never know"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S046",
+      "target": 140.027,
+      "samples": [
+        {
+          "line_id": 45,
+          "model": "miniature",
+          "semantic_progress": 0.954725561155052,
+          "impact": 140.027,
+          "music_anchor": 140.072,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 615.39990234375,
+              "height": 80.24,
+              "text": "Was it all for show?"
+            }
+          ]
+        },
+        {
+          "line_id": 45,
+          "model": "miniature",
+          "semantic_progress": 1,
+          "impact": 140.027,
+          "music_anchor": 140.072,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 615.39990234375,
+              "height": 80.24,
+              "text": "Was it all for show?"
+            }
+          ]
+        },
+        {
+          "line_id": 45,
+          "model": "miniature",
+          "semantic_progress": 1,
+          "impact": 140.027,
+          "music_anchor": 140.072,
+          "lyric_boxes": [
+            {
+              "x": 92,
+              "y": 407,
+              "width": 615.39990234375,
+              "height": 80.24,
+              "text": "Was it all for show?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "technical authoring checks passed; image inspection separate"
+}

@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-02T14:26:06.870Z",
+  "user_request": "根据制作视频的Skill来制作视频，参考P度母的音频就行。先把脚本写出来，比如时间要做什么。然后做视频，最后生成一个preview版本的视频。",
+  "skill": ".agents/skills/lyric-code-video/SKILL.md",
+  "skill_sha256": "a2f573915ee8259f35c17768ad04f3d3b7d89436b0c82c20ced72a733511027d",
+  "audio_sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+  "wav_sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197",
+  "reference_scope": "audio and same-source timing only; no reference plates",
+  "script_sha256": "ea6ed3cde843cf525d30da342fa1526e9e86ea71ee5d473e0d48925b7dca0ac3",
+  "storyboard_sha256": "fa4333d7fc7c8546ab5125a917a98848887bb243062d49f5b7b590bfa5f92a3f",
+  "human_approval": null
+}

@@ -1,0 +1,505 @@
+{
+  "repository": "https://github.com/mexicat/pdoom-video",
+  "commit": "bdbad537a7b7af3213475651774030c47568c181",
+  "imported_at": "2026-10-01T16:19:56.703Z",
+  "license": "MIT for code; fonts retain their own licenses; music/lyrics excluded",
+  "scope": "app/src, derived preview plates, public/fonts, index and TS configuration; no upstream audio imported",
+  "files": [
+    {
+      "path": "renderer/LICENSE.reference.txt",
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "path": "renderer/index.html",
+      "sha256": "b531304b130b91362e1ef5aa0618edfbf2035b4882f0b61b7f8109fa069dceea"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1000-300.ttf",
+      "sha256": "863ec9a266154b483ca2fb544a1ae886b2c2e725894ba14a7dd642ecff08836a"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1000-500.ttf",
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1000-700.ttf",
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1000-900.ttf",
+      "sha256": "df7f620345ceaf9307c4c021d486d567035c3c3af9e29b12a892f7e5d4d8be48"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1125-300.ttf",
+      "sha256": "318687751c75f16b2f911d736179926da7b2edb48c6cc3a8083d93beefa31b08"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1125-500.ttf",
+      "sha256": "141642530cf681535aad885f5384ec6b5a355daa221ea64f06d0405448708a73"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1125-700.ttf",
+      "sha256": "57510ee1a63a64549244cdaa829a245795e1a901c48cb57891e2ac0ce530e9bd"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1125-900.ttf",
+      "sha256": "6b04492e0ff1dbf8e39c286cd8d32420a12363661dd331c4705c0822a8683318"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1250-300.ttf",
+      "sha256": "4fd218920884877281f203b81d2ddbb8af90cf1e58ab81830f2b4dc8cb06b377"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1250-500.ttf",
+      "sha256": "36a7bf442a40583b42272084a7fd036467dea5a54a9a106820083e48413851d3"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1250-700.ttf",
+      "sha256": "55a4492a5a97a6134ec83e289fbc2510d40031a432881a72ef6dd8ae302a380c"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w1250-900.ttf",
+      "sha256": "97954352b2fcb9d4a5917d658fc71a27db5bd6dad4fe1a8a77c171211860f286"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w620-300.ttf",
+      "sha256": "5a97cc5a200d8ab7e459c77ab8055fe06e7b3eaa3b04016a1333797f9a7f2cab"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w620-500.ttf",
+      "sha256": "c5a9c17c1ac8fbbb47345f805a73d933615db56ed4b2ca2ca84e9b9b3273b1e4"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w620-700.ttf",
+      "sha256": "6526f0939a591a3092368ffa5f9ec77e82d8cbbcf044dab17b9a0dfbaa4c151c"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w620-900.ttf",
+      "sha256": "7bf041853788deafccaf6626af105d63a2c4e9bfe90ed8f3722e49e635520e22"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w750-300.ttf",
+      "sha256": "2920a8b658d4fa4c596bd79f94577c36e8fc63a60e3260e9eaab3bacc911d4f0"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w750-500.ttf",
+      "sha256": "12a3814c240d98fbd3e12db49d87d9e8f7d303241450d2ce7a0d78fc2aff877d"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w750-700.ttf",
+      "sha256": "dd9741079f1f5dd5ad9842bc5152dcab9b01e52f1f1b545bcf347edd6858fcb7"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w750-900.ttf",
+      "sha256": "e544dc863d11d50b6b159f2459204b4f994fecf46f75d428c8ebfc118cc9e00f"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w875-300.ttf",
+      "sha256": "b6ddedcb6a7d5ae535f593bd4c84edf685c7c30fa8d57d61b03c1b956156d0fe"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w875-500.ttf",
+      "sha256": "838d87c7f772488cdb67ad2c719a42c716d52ebcfaae1068e5fde10bd1d0ba99"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w875-700.ttf",
+      "sha256": "c37e23695fc6352f35ef9efcb64e86cfbcf124e235cccda9fa83cde88792ac79"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-w875-900.ttf",
+      "sha256": "3f2011e473d614bf899e2c2f1c7b67e4fbf61b505dfc0543a0547a35c18c5adf"
+    },
+    {
+      "path": "renderer/public/fonts/ArchivoItalic-w1000-400.ttf",
+      "sha256": "e458ef98ab695b2dbcb53441edcbbb7d8b86fda2dbd7542513a6aa37762c8750"
+    },
+    {
+      "path": "renderer/public/fonts/ArchivoItalic-w1000-800.ttf",
+      "sha256": "9e8c5abbb79942428dee6a133483a146f223c790b5f0ee3c0cb3280c8776e99c"
+    },
+    {
+      "path": "renderer/public/fonts/ArchivoItalic-w750-400.ttf",
+      "sha256": "70d6ff465ae66aa0cb424c5452e13b1dbb19b913adf3ed80b9bc59575cb90203"
+    },
+    {
+      "path": "renderer/public/fonts/ArchivoItalic-w750-800.ttf",
+      "sha256": "bc7fa2efc9a4aa22960cfcfbe50025c8d82ff177f4e9a3e016cf0665dbee918c"
+    },
+    {
+      "path": "renderer/public/fonts/Cormorant-400.ttf",
+      "sha256": "4e7958f688e875a0073febb1fdbcc87d85babedf7705ae9e70ecc9513eae9c3e"
+    },
+    {
+      "path": "renderer/public/fonts/Cormorant-600.ttf",
+      "sha256": "6cdad32e7e609276adf97085c6fc21a259f311e3b8bdc880784222bdf8911727"
+    },
+    {
+      "path": "renderer/public/fonts/CormorantItalic-400.ttf",
+      "sha256": "272bae4becdd77c6f8cf3a252a775212b88c1c8c5a28a0cf8ef799d6887cacda"
+    },
+    {
+      "path": "renderer/public/fonts/CormorantItalic-600.ttf",
+      "sha256": "436ab920355e6f186f19183c749a2c0bb2592ebf86fabe4bcffd83b17b3fbc5a"
+    },
+    {
+      "path": "renderer/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+      "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305"
+    },
+    {
+      "path": "renderer/public/fonts/src/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "path": "renderer/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "path": "renderer/public/fonts/src/CormorantGaramond[wght].ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-Bold.ttf",
+      "sha256": "ac27abd6450a64dd94467580a02fe6235156d5b92f2926ebbc8e7489df64e0be"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-Italic.ttf",
+      "sha256": "3362fc791b0652193328b862c1c5f23a789bc7288b1617fa63302f88689a2a34"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-Light.ttf",
+      "sha256": "780bcf65509d72a35ec114b57bcbe220dc6b77d8ea2e9b25e294be3c570c5025"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-Medium.ttf",
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "renderer/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+      "sha256": "d3c38e55c78f5b0f28009fddba4834ec503278936a5986032424c9bd2d23aa46"
+    },
+    {
+      "path": "renderer/public/fonts/src/OFL.txt",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/EMSAllure.svg",
+      "sha256": "55ed2de9c602229f32dd2784aae704023a5594eb8d208131f2552fae330a2a67"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/EMSFelix.svg",
+      "sha256": "e7b2463c6cb2a2cbef59db9b1f9f5a20a0ecd9158eeb8f01f2015c9e5be7dca4"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/EMSOsmotron.svg",
+      "sha256": "158b0f247a005ca5b6b8556f85684ad10cbb04c41ebbd394b9090c8ea2f16c52"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/EMSReadability.svg",
+      "sha256": "eebece4f2a47b9d3a8f40cab2b0f689ca60902997abd5c81064ef0d2a3a05522"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/EMSTech.svg",
+      "sha256": "7b5a420d4e16285213e7e2b1d187d086835c2dd7a7f64c5b8057434f082fc46f"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/HersheySans1.svg",
+      "sha256": "a7b9cb8f6465a66d7b1b2f774579749edf1f960b0ed929f0908bd97211f479fa"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/HersheyScript1.svg",
+      "sha256": "bc0cbdca869d455d000e9961cca0191843cc1c2d7e134a732be2b5081b32eb3b"
+    },
+    {
+      "path": "renderer/public/fonts/stroke/HersheySerifMed.svg",
+      "sha256": "63e5c88e6fd3a1c2b9a3c90b239c7af3086a15df80373cac80daedbf29b0c04a"
+    },
+    {
+      "path": "renderer/public/plates/fig01.jpg",
+      "sha256": "0961afa9e284834ff3e2c4544f462b3a828f3451f716a0656f38bfb7d422c7e6"
+    },
+    {
+      "path": "renderer/public/plates/fig02.jpg",
+      "sha256": "ce9e350da550f64d32de6ffd222b6b6d484c6689deb127401a129a493721e11a"
+    },
+    {
+      "path": "renderer/public/plates/fig03.jpg",
+      "sha256": "e3657c9732c18ca8f7d314fad50236a266541c65b01e78ab23c37c37c6001a6f"
+    },
+    {
+      "path": "renderer/public/plates/fig04.jpg",
+      "sha256": "43dd9348e31415b791f926150244c2f726ad28153385dc8a25ab71679ffa3f77"
+    },
+    {
+      "path": "renderer/public/plates/fig05.jpg",
+      "sha256": "bed4e9d5c75993535b842ba5f1cde90df8e4acc9138db8db30777aa8d7379fbe"
+    },
+    {
+      "path": "renderer/public/plates/fig06.jpg",
+      "sha256": "c3cf7e10a6c0e40797d63095bb75ff5d679befc110682fb911e645ec16b8dab2"
+    },
+    {
+      "path": "renderer/public/plates/fig07.jpg",
+      "sha256": "80faf7919c2b5c6c84528ae4ffc084a382666fdfd98fde8d2e160d9eab6b03d7"
+    },
+    {
+      "path": "renderer/public/plates/fig08.jpg",
+      "sha256": "a32b7e4cd750a8df99f7abc525a5e475bfe0772305ad62b55bf0828e1860ff29"
+    },
+    {
+      "path": "renderer/public/plates/fig09.jpg",
+      "sha256": "431b3cad0273b81011a904b61efe4d85c2a93bd0b6477ff930bc4c3af5f005b1"
+    },
+    {
+      "path": "renderer/public/plates/fig10.jpg",
+      "sha256": "07d81e7b4f2a2d1bf278d104542092cb0432802eea72350c1253b02cc50cd218"
+    },
+    {
+      "path": "renderer/public/plates/fig11.jpg",
+      "sha256": "c2a4f8eda7cbc78ad0800300a3bb0f1c7ef29e16a90167bc8feae3e0f52a4a48"
+    },
+    {
+      "path": "renderer/public/plates/fig12.jpg",
+      "sha256": "0f8ac26fc00f1b48bb5df09aecf3870128f50b2919748aeeaac1992fe6d2c177"
+    },
+    {
+      "path": "renderer/public/plates/fig13.jpg",
+      "sha256": "21e48c2098070c732485446197e14d6bbaf4430a586171cb07f0b3760c06572f"
+    },
+    {
+      "path": "renderer/public/plates/fig14.jpg",
+      "sha256": "9821c1114be1cdbb3a0bf14be537f30369007eb7b09e793a11db07acda36d8d2"
+    },
+    {
+      "path": "renderer/src/engine/audio.ts",
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "renderer/src/engine/engine.ts",
+      "sha256": "0e0fe30fcc1093565e19e7eb612b0bd66fef08925c618f95dbc78f1db84e6a0d"
+    },
+    {
+      "path": "renderer/src/engine/gl.ts",
+      "sha256": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46"
+    },
+    {
+      "path": "renderer/src/engine/glsl/common.ts",
+      "sha256": "9c7b0371ed1be2addd5b2aeab1e3dde71a1d40ff6d3af17c3d5f6de1dbb4a954"
+    },
+    {
+      "path": "renderer/src/engine/hud.ts",
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "renderer/src/engine/lines.ts",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "renderer/src/engine/lyrics.ts",
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "renderer/src/engine/palette.ts",
+      "sha256": "162f3caba0dc0a82a88d3cfcd87ce92057701f0d4a11789b7263071c2de6e20c"
+    },
+    {
+      "path": "renderer/src/engine/post.ts",
+      "sha256": "98e91f6d1e231fdadab6a06d2e7057f5dc0b861b3fd84f79b57ea319d388f2a0"
+    },
+    {
+      "path": "renderer/src/engine/scale.ts",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "renderer/src/engine/scene.ts",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "renderer/src/engine/stroke.ts",
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "renderer/src/engine/type.ts",
+      "sha256": "2c70468e22d6b4bf99d6b67b007d882ba8f24d4549bf970fea57a37e8e085dfb"
+    },
+    {
+      "path": "renderer/src/engine/util.ts",
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "renderer/src/main.ts",
+      "sha256": "d7339ac9fb0c773b306a5a298d777cf51b97d8de69bf19addabee3a3dd489129"
+    },
+    {
+      "path": "renderer/src/scenes/_motifs.ts",
+      "sha256": "292440fb23a9ca2377c30bf50ebf32764e09ef2a5cda180ac40bf6681bd137de"
+    },
+    {
+      "path": "renderer/src/scenes/ascent-eye.ts",
+      "sha256": "db5a4b7b0af8d549a9c9d8dce3954ae348bb807d89f3ff7d7f06ea3bd598c231"
+    },
+    {
+      "path": "renderer/src/scenes/ascent-note.ts",
+      "sha256": "d69f20297f6a6141c508e94d5c3b7a9c5833dcf2b4868e3710694b535d6ac18f"
+    },
+    {
+      "path": "renderer/src/scenes/ascent-odo.ts",
+      "sha256": "46aba29f5806d3d32e2bf4897c2037825f4044451cd8553530c26d3b28a555ea"
+    },
+    {
+      "path": "renderer/src/scenes/ascent.ts",
+      "sha256": "a79e554e0ac4b5415d3fb58e2dd0c51282edbf2474ecbaa74937779d74c9937d"
+    },
+    {
+      "path": "renderer/src/scenes/bureau.ts",
+      "sha256": "921ac406674c9f28b6e048ed4f302f0f23ec5f89dd2ad6a4ad0e25fa30258638"
+    },
+    {
+      "path": "renderer/src/scenes/dense-askew.ts",
+      "sha256": "17fa6ead3a4d28054bd752b1b9dea9c0a86f411bb3230bb709b2b2fd387e3d02"
+    },
+    {
+      "path": "renderer/src/scenes/dense-gpu.ts",
+      "sha256": "8b68bfd4d665580a3e347bc59bc0fa54f01de0b1f3d0fa5459714e7e5e9ae47f"
+    },
+    {
+      "path": "renderer/src/scenes/dense-press.ts",
+      "sha256": "73fff6d6ebc858f8dba04bc030ace8595bef82904b9f746523313ea3d6f0098f"
+    },
+    {
+      "path": "renderer/src/scenes/dense.ts",
+      "sha256": "fc4a5e3345f79c49f04ae39bffae6439bbcda5e15036c11724a0fe8b41daf070"
+    },
+    {
+      "path": "renderer/src/scenes/fuse-pitch.ts",
+      "sha256": "c87c975a8f7d6b7fe9b346310b134455a9638e27294b886a17fe01a13f1c5bf0"
+    },
+    {
+      "path": "renderer/src/scenes/fuse.ts",
+      "sha256": "56772344d4315b13802a7fc2887d9506d23ebcb35d21049daf3234e9dea91c00"
+    },
+    {
+      "path": "renderer/src/scenes/hook.ts",
+      "sha256": "821c27589dd1d0e494a6b82d3fdf97399a2fd01c965ca4e09653cce30660dfa4"
+    },
+    {
+      "path": "renderer/src/scenes/ilya-glsl.ts",
+      "sha256": "30bf17d26a706c4124636051663a61492150f7b6da5735515182bfe97043b7e0"
+    },
+    {
+      "path": "renderer/src/scenes/ilya-room.ts",
+      "sha256": "3f3039625c347129f99206e6586b880ed314ee768812deb6f2afa54a8587e93c"
+    },
+    {
+      "path": "renderer/src/scenes/ilya.ts",
+      "sha256": "f98b8010d61b552a256aace5653690b6f679ceb45e35225a27d416664f26293a"
+    },
+    {
+      "path": "renderer/src/scenes/leftturn-gantt.ts",
+      "sha256": "f391dd53e49e03c0436bf530c1485b622e9c0dbe45f41e80e7a2cc0709de2f70"
+    },
+    {
+      "path": "renderer/src/scenes/leftturn-map.ts",
+      "sha256": "c1eb0a41175c5f3f1b14c7bb600337c705a62c67374aeb17357fc5ca70a87d7b"
+    },
+    {
+      "path": "renderer/src/scenes/leftturn.ts",
+      "sha256": "e20e6b281198050fd3ec3ce63ce51b14500dfc3b3b57d0bc643e02fc7aa96e2c"
+    },
+    {
+      "path": "renderer/src/scenes/loom-glsl.ts",
+      "sha256": "d09bab132be36e04b5074e10021664b80a41bdf65bc2d659356c8d8f2cba60da"
+    },
+    {
+      "path": "renderer/src/scenes/loom-tree.ts",
+      "sha256": "8f09a70da9f4577fc04532e3d2254f049ba2e846b8f0f81ae262a71794ba0e81"
+    },
+    {
+      "path": "renderer/src/scenes/loom.ts",
+      "sha256": "bcce1d16bd6b4905a801286eb5b5b5a23cd943452125ffd98f7d15d0781b9301"
+    },
+    {
+      "path": "renderer/src/scenes/loss.ts",
+      "sha256": "345255fdbbc38187b9ef4825f17337e6e64f73c4faa7a6c3e0a5102a0ad66579"
+    },
+    {
+      "path": "renderer/src/scenes/open-geo.ts",
+      "sha256": "bb8726d9556235a085bf34d28789e0f625fe8945eef932a5a52d13f5a810945c"
+    },
+    {
+      "path": "renderer/src/scenes/open.ts",
+      "sha256": "fc245cf49cdf7c0783ee3e3c8084420fb844dd5802a0812b05bebe075dcc4961"
+    },
+    {
+      "path": "renderer/src/scenes/outro.ts",
+      "sha256": "716a00bb0b08123de41e5ece1e0964dc0617656b05aad83f532f5971d6bb7886"
+    },
+    {
+      "path": "renderer/src/scenes/paperclips-geo.ts",
+      "sha256": "c5d8512ff5e7d5cd3b26e8832ce7e9a89a54db9ad545a58e7b0b8f449cdd28f7"
+    },
+    {
+      "path": "renderer/src/scenes/paperclips-glsl.ts",
+      "sha256": "dc722c2dc560c5b8bb52cc6d85cb04a60ed0098a19dc9300f21d1563a3a21ddb"
+    },
+    {
+      "path": "renderer/src/scenes/paperclips.ts",
+      "sha256": "9028f50fc51e602b13fa7af43f2ea7cf9f35409326acd361906ae006dac030e8"
+    },
+    {
+      "path": "renderer/src/scenes/prompt-data.ts",
+      "sha256": "d43afeff8de094a0b069aea29c0665e5733b6ff895e5f267427f6755cc41d061"
+    },
+    {
+      "path": "renderer/src/scenes/prompt.ts",
+      "sha256": "633be4f283d5eecd3a3dc79c40009095ab8161b5e441c7c6fe1efc57b2069e0e"
+    },
+    {
+      "path": "renderer/src/scenes/room-geo.ts",
+      "sha256": "4c58baf03ed543c06096235c3afbdfac8cbf0b8c00a8f241ee4fd63e854830e1"
+    },
+    {
+      "path": "renderer/src/scenes/room-shrooms.ts",
+      "sha256": "ec30f6c36021cad11cea8f2b86acd61336456dc3b8f0af7cdaccca629bb25d7a"
+    },
+    {
+      "path": "renderer/src/scenes/room.ts",
+      "sha256": "cb978260bd83069b6f671fc59381c86883fda436c27e28bb149545ce1cd02745"
+    },
+    {
+      "path": "renderer/src/scenes/shoggoth-glsl.ts",
+      "sha256": "f6f4752a2819abfd9e4b92120e3ec83a9b7af208b41d62ae97a3b3fad243aea3"
+    },
+    {
+      "path": "renderer/src/scenes/shoggoth.ts",
+      "sha256": "b1338bb7c40c3d227b8f8543c1720b0c0db2d06f643902a6aa890dc6baadd6e1"
+    },
+    {
+      "path": "renderer/src/scenes/spacetime-lens.ts",
+      "sha256": "0e6ff00183bad51d3001009d7488cbc180553f392967d348efa5568b5cb34bff"
+    },
+    {
+      "path": "renderer/src/scenes/spacetime.ts",
+      "sha256": "f9e69e74bcf35977d7dc9fb6afe263cf3f3403e1801313b6c07cb36dcdb711bd"
+    },
+    {
+      "path": "renderer/src/scenes/stack-kit.ts",
+      "sha256": "df79961e6a579c59e3ed33bc5d0daddcb35677f30781c13a5bb59df2ccff8ae8"
+    },
+    {
+      "path": "renderer/src/scenes/stack.ts",
+      "sha256": "0416f7cdb883b089f4d83ba1b743f5248cd6d8b0b8e8cdcb6833637ee6f5123b"
+    },
+    {
+      "path": "renderer/src/timeline.ts",
+      "sha256": "1c4369716aa88c5e33ff771ae060b91729d02e39ed2e6f927ec1b3fe5505ef61"
+    },
+    {
+      "path": "renderer/tsconfig.json",
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  ]
+}

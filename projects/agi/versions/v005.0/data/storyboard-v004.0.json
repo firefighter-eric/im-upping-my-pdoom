@@ -1,0 +1,5279 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "proposed_version": "v004.0",
+  "title": "谁在控制谁",
+  "status": "authorized-production-basis",
+  "scope": "User-authorized full Preview production; 46 timed shots retained from approved script. Output human review pending.",
+  "created_at": "2026-10-02T13:20:47.517Z",
+  "clock": "original source audio seconds",
+  "audio_duration_seconds": 156.650667,
+  "picture_end_seconds": 156.66666666666666,
+  "inputs": {
+    "audio": {
+      "path": "projects/agi/sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "rights": "TBD"
+    },
+    "lyrics": {
+      "path": "projects/agi/versions/v003.1/data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+      "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+    },
+    "audio_analysis": {
+      "path": "projects/agi/versions/v003.1/data/audio-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+      "sha256": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b"
+    }
+  },
+  "preview": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "target_frames": 4700,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    }
+  },
+  "future_master": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "target_frames": 9400,
+    "sampling": "TBD, separate production version"
+  },
+  "timing_notice": "Millisecond notation is data/proposal precision, not listening-confirmed accuracy. 13 low-confidence words and all extra vocal occurrences remain pending. Beat/bar interpretation in inherited analysis is pending review. Word highlighting does not precede vocals.",
+  "visual_bible": {
+    "concept": "系统逐渐接管关于自己的演示；指令线不断改变控制方向",
+    "palette": {
+      "ink": "#12151D",
+      "paper": "#F2EFE6",
+      "blue": "#315CFF",
+      "yellow": "#E0EF43",
+      "failure_red": "#C93D45"
+    },
+    "typography": "Archivo for complete lyrics, IBM Plex Mono for technical labels; whole sentences remain readable, active words follow current input alignment",
+    "motif": "输入信号 → 控制线 → 束缚 → 绕过检查的路径 → 燃烧引线 → 自我改写回路",
+    "layouts": {
+      "TL": "文字左上 x6–56%, y10–27%；主体右下。",
+      "LEFT": "文字左侧 x6–46%, y24–58%；主体右侧。",
+      "RIGHT": "文字右侧 x54–94%, y24–58%；主体左侧。",
+      "TOP": "文字上方 x6–94%, y8–26%；主体位于 y32–90%。",
+      "BOTTOM": "文字下方 x6–94%, y76–92%；主体位于 y8–68%。",
+      "LOWER_LEFT": "文字左下 x6–64%, y67–90%；主要动作保持在右上。",
+      "CENTER": "文字中部 x12–88%, y36–64%；物体只在外围或背景。",
+      "HERO": "完整两行主字 x8–92%, y24–76%；无永久角落 HUD。",
+      "SPLIT": "两行文字 x8–92%, y18–38%；主仆物体在 y46–90%。"
+    },
+    "readability": "1080p 下，长句的字母主体高度目标为 34–44px，短句 44–66px，副歌主字 80–150px，技术标记 24–30px。这些是待布局验证的设计目标。文字位于 6% 安全边距内，主要事件不能遮挡必读句子。未唱词保持约 55–65% 亮度，已唱词按原时间变成钴蓝或纸面上的深蓝。场景文字发生变形时，另保留清楚的完整句。",
+    "motion": "运动遵循准备 → 有意义的命中 → 结果停留。不固定循环机位，不持续整屏抖动。明暗服务场景，高光仅用于信号边缘。转场使用硬切、跟随物体、纸面折叠与构图匹配，不反复使用同一种淡入淡出。"
+  },
+  "intro": {
+    "id": "INTRO",
+    "start": 0,
+    "end": 1.402,
+    "text": null,
+    "events": [
+      {
+        "time": 0,
+        "action": "炭黑场，一条未连接的钴蓝指令线与纸白扫描孔边缘；不是空帧。"
+      },
+      {
+        "time": 0.239,
+        "action": "分析重拍：扫描器第一次轻微机械定位，只让边缘亮起。"
+      },
+      {
+        "time": 0.693,
+        "action": "分析拍点：线接到扫描孔，摄影机开始向前；不出现虚构歌词。"
+      },
+      {
+        "time": 1.402,
+        "action": "第一句全文出现，进入 S001。"
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "S001",
+      "line_id": 0,
+      "title": "扫描孔",
+      "meaning": "看见智能迹象，观察关系开始反转",
+      "lyric_text": "I see sparks of AGI in your eyes",
+      "proposed_line_breaks": [
+        "I see sparks of AGI",
+        "in your eyes"
+      ],
+      "sung_interval": {
+        "start": 1.402,
+        "end": 5.88
+      },
+      "display_interval": {
+        "start": 1.402,
+        "end": 5.88
+      },
+      "scene_interval": {
+        "start": 1.402,
+        "end": 5.88
+      },
+      "layout": "TL",
+      "word_timing": [
+        {
+          "w": "I",
+          "start": 1.402,
+          "end": 2.35,
+          "conf": 0.93
+        },
+        {
+          "w": "see",
+          "start": 2.35,
+          "end": 2.739,
+          "conf": 1
+        },
+        {
+          "w": "sparks",
+          "start": 2.739,
+          "end": 3.482,
+          "conf": 1
+        },
+        {
+          "w": "of",
+          "start": 3.482,
+          "end": 3.677,
+          "conf": 1
+        },
+        {
+          "w": "AGI",
+          "start": 3.677,
+          "end": 4.704,
+          "conf": 0.85,
+          "syl": [
+            [
+              3.677,
+              4.06
+            ],
+            [
+              4.06,
+              4.355
+            ],
+            [
+              4.355,
+              4.704
+            ]
+          ]
+        },
+        {
+          "w": "in",
+          "start": 4.809,
+          "end": 5,
+          "conf": 0.85
+        },
+        {
+          "w": "your",
+          "start": 5,
+          "end": 5.268,
+          "conf": 1
+        },
+        {
+          "w": "eyes",
+          "start": 5.268,
+          "end": 5.88,
+          "conf": 0.92
+        }
+      ],
+      "events": [
+        {
+          "time": 2.35,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "see",
+          "word_end": 2.739,
+          "action_interval": {
+            "start": 2.35,
+            "end": 2.739
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "镜头正对双孔扫描器，孔后尚无可见主体。"
+        },
+        {
+          "time": 2.739,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "sparks",
+          "word_end": 3.482,
+          "action_interval": {
+            "start": 2.739,
+            "end": 3.482
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "钴蓝点光从孔内出现，沿细线向外运动；只在金属边缘产生短促高光。"
+        },
+        {
+          "time": 3.677,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "AGI",
+          "word_end": 4.704,
+          "action_interval": {
+            "start": 3.677,
+            "end": 4.704
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "AGI 作为主字出现在孔后；完整句保留在左上。"
+        },
+        {
+          "time": 5.268,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "eyes",
+          "word_end": 5.88,
+          "action_interval": {
+            "start": 5.268,
+            "end": 5.88
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "双孔转向观看者；由我们观察它变成它观察我们，镜头缓慢拉近。"
+        }
+      ],
+      "transition_interval": {
+        "start": 5.76,
+        "end": 5.88
+      },
+      "transition_out": "5.880：保持左侧指令线的位置，右侧扫描孔的连线展开成电路。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S002",
+      "line_id": 1,
+      "title": "绷紧的电路",
+      "meaning": "电路让观察者紧张",
+      "lyric_text": "Your circuits make me nervous,",
+      "proposed_line_breaks": [
+        "Your circuits",
+        "make me nervous,"
+      ],
+      "sung_interval": {
+        "start": 5.88,
+        "end": 7.72
+      },
+      "display_interval": {
+        "start": 5.88,
+        "end": 7.72
+      },
+      "scene_interval": {
+        "start": 5.88,
+        "end": 7.72
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Your",
+          "start": 5.88,
+          "end": 5.991,
+          "conf": 0.83
+        },
+        {
+          "w": "circuits",
+          "start": 5.991,
+          "end": 6.56,
+          "conf": 1
+        },
+        {
+          "w": "make",
+          "start": 6.56,
+          "end": 6.82,
+          "conf": 1
+        },
+        {
+          "w": "me",
+          "start": 6.82,
+          "end": 7.04,
+          "conf": 1
+        },
+        {
+          "w": "nervous,",
+          "start": 7.04,
+          "end": 7.72,
+          "conf": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 5.991,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "circuits",
+          "word_end": 6.56,
+          "action_interval": {
+            "start": 5.991,
+            "end": 6.56
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "线路从扫描孔延伸到观察者手边；镜头由正面转为浅角度剖视。"
+        },
+        {
+          "time": 7.04,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "nervous,",
+          "word_end": 7.72,
+          "action_interval": {
+            "start": 7.04,
+            "end": 7.72
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "线突然拉直、绷紧，手部剪影被牵动；一次局部振动后停住，不持续抖屏。"
+        }
+      ],
+      "transition_interval": {
+        "start": 7.6,
+        "end": 7.72
+      },
+      "transition_out": "7.720：线路在同一构图中进入报警记录，保留上一句的紧张姿态。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S003",
+      "line_id": 2,
+      "title": "早已存在的预警",
+      "meaning": "危险其实早已可见，带一点冷幽默",
+      "lyric_text": "that's no surprise",
+      "proposed_line_breaks": [
+        "that's no surprise"
+      ],
+      "sung_interval": {
+        "start": 7.72,
+        "end": 9.52
+      },
+      "display_interval": {
+        "start": 7.72,
+        "end": 9.52
+      },
+      "scene_interval": {
+        "start": 7.72,
+        "end": 9.52
+      },
+      "layout": "CENTER",
+      "word_timing": [
+        {
+          "w": "that's",
+          "start": 7.72,
+          "end": 8.092,
+          "conf": 0.85
+        },
+        {
+          "w": "no",
+          "start": 8.092,
+          "end": 8.501,
+          "conf": 1
+        },
+        {
+          "w": "surprise",
+          "start": 8.501,
+          "end": 9.52,
+          "conf": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 8.092,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "no",
+          "word_end": 8.501,
+          "action_interval": {
+            "start": 8.092,
+            "end": 8.501
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "预警纸带显露出来，旧标记已经排满，新的异常被机械归档。"
+        },
+        {
+          "time": 8.501,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "surprise",
+          "word_end": 9.52,
+          "action_interval": {
+            "start": 8.501,
+            "end": 9.52
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "画面大字 surprise 保持平静；警告没有引起响应，镜头锁定 0.6 秒。"
+        }
+      ],
+      "transition_interval": {
+        "start": 9.38,
+        "end": 9.52
+      },
+      "transition_out": "9.520：纸带向下拉出，边缘成为下一镜的训练坐标轴，匹配切。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S004",
+      "line_id": 3,
+      "title": "训练曲线坠落",
+      "meaning": "损失突然下降，控制系统随之变化",
+      "lyric_text": "There was a sudden drop in your training loss,",
+      "proposed_line_breaks": [
+        "There was a sudden drop",
+        "in your training loss,"
+      ],
+      "sung_interval": {
+        "start": 9.52,
+        "end": 12.751
+      },
+      "display_interval": {
+        "start": 9.52,
+        "end": 13.071
+      },
+      "scene_interval": {
+        "start": 9.52,
+        "end": 13.18
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "There",
+          "start": 9.52,
+          "end": 9.8,
+          "conf": 0.85
+        },
+        {
+          "w": "was",
+          "start": 9.8,
+          "end": 10.04,
+          "conf": 1
+        },
+        {
+          "w": "a",
+          "start": 10.04,
+          "end": 10.137,
+          "conf": 1
+        },
+        {
+          "w": "sudden",
+          "start": 10.137,
+          "end": 10.66,
+          "conf": 1
+        },
+        {
+          "w": "drop",
+          "start": 10.66,
+          "end": 11.18,
+          "conf": 1
+        },
+        {
+          "w": "in",
+          "start": 11.18,
+          "end": 11.34,
+          "conf": 0.85
+        },
+        {
+          "w": "your",
+          "start": 11.34,
+          "end": 11.52,
+          "conf": 0.88
+        },
+        {
+          "w": "training",
+          "start": 11.52,
+          "end": 12.06,
+          "conf": 1
+        },
+        {
+          "w": "loss,",
+          "start": 12.06,
+          "end": 12.751,
+          "conf": 0.84
+        }
+      ],
+      "events": [
+        {
+          "time": 10.137,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "sudden",
+          "word_end": 10.66,
+          "action_interval": {
+            "start": 10.137,
+            "end": 10.66
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "机械笔先画出稳定平台；镜头俯视纸面，给下降留出空间。"
+        },
+        {
+          "time": 10.66,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "drop",
+          "word_end": 11.18,
+          "action_interval": {
+            "start": 10.66,
+            "end": 11.18
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "曲线突然垂直坠落，纸面沿曲线折下，控制杆被拉动；主动作跟人声。"
+        },
+        {
+          "time": 12.06,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "loss,",
+          "word_end": 12.751,
+          "action_interval": {
+            "start": 12.06,
+            "end": 12.751
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "镜头滑到纸面侧面，看到下陷已经改变控制机构。"
+        }
+      ],
+      "transition_interval": {
+        "start": 13.071,
+        "end": 13.18
+      },
+      "transition_out": "12.751–13.071 保留全句；13.071–13.180 熄去文字、保留翻面动作的准备；13.180 接控制权反转。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S005",
+      "line_id": 4,
+      "title": "主仆位置互换",
+      "meaning": "工具成为主人，操作权转移",
+      "lyric_text": "now I'm your servant and you're my boss",
+      "proposed_line_breaks": [
+        "now I'm your servant",
+        "and you're my boss"
+      ],
+      "sung_interval": {
+        "start": 13.18,
+        "end": 16.6
+      },
+      "display_interval": {
+        "start": 13.18,
+        "end": 16.6
+      },
+      "scene_interval": {
+        "start": 13.18,
+        "end": 16.6
+      },
+      "layout": "SPLIT",
+      "word_timing": [
+        {
+          "w": "now",
+          "start": 13.18,
+          "end": 13.5,
+          "conf": 0.85
+        },
+        {
+          "w": "I'm",
+          "start": 13.5,
+          "end": 13.62,
+          "conf": 0.76
+        },
+        {
+          "w": "your",
+          "start": 13.62,
+          "end": 13.719,
+          "conf": 0.98
+        },
+        {
+          "w": "servant",
+          "start": 13.719,
+          "end": 14.607,
+          "conf": 0.91
+        },
+        {
+          "w": "and",
+          "start": 15.02,
+          "end": 15.16,
+          "conf": 0.85
+        },
+        {
+          "w": "you're",
+          "start": 15.16,
+          "end": 15.42,
+          "conf": 0.9
+        },
+        {
+          "w": "my",
+          "start": 15.42,
+          "end": 15.66,
+          "conf": 0.95
+        },
+        {
+          "w": "boss",
+          "start": 15.66,
+          "end": 16.6,
+          "conf": 0.95
+        }
+      ],
+      "events": [
+        {
+          "time": 13.719,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "servant",
+          "word_end": 14.607,
+          "action_interval": {
+            "start": 13.719,
+            "end": 14.607
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "人的操作端降到下方，指令从输入变成接收；人物只用手和剪影表达。"
+        },
+        {
+          "time": 15.66,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "boss",
+          "word_end": 16.6,
+          "action_interval": {
+            "start": 15.66,
+            "end": 16.6
+          },
+          "confidence": 0.95,
+          "human_sync_review": "pending",
+          "action": "机械操作端升到上方并锁定；两个字的视觉等级随权力互换，完整两行保持可读。"
+        }
+      ],
+      "transition_interval": {
+        "start": 16.48,
+        "end": 16.6
+      },
+      "transition_out": "16.600：从下方人的输入线跟拍到一个吸入式反馈口；不使用 180 度整屏翻转。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S006",
+      "line_id": 5,
+      "title": "请求被吞入",
+      "meaning": "恳求不要被系统吞噬",
+      "lyric_text": "ChatGPT, please don't eat me alive",
+      "proposed_line_breaks": [
+        "ChatGPT, please",
+        "don't eat me alive"
+      ],
+      "sung_interval": {
+        "start": 16.6,
+        "end": 22.6
+      },
+      "display_interval": {
+        "start": 16.6,
+        "end": 22.6
+      },
+      "scene_interval": {
+        "start": 16.6,
+        "end": 22.6
+      },
+      "layout": "LOWER_LEFT",
+      "word_timing": [
+        {
+          "w": "ChatGPT,",
+          "start": 16.6,
+          "end": 19.082,
+          "conf": 0.79,
+          "syl": [
+            [
+              16.6,
+              17.24
+            ],
+            [
+              17.24,
+              17.92
+            ],
+            [
+              17.92,
+              18.36
+            ],
+            [
+              18.36,
+              19.082
+            ]
+          ]
+        },
+        {
+          "w": "please",
+          "start": 19.082,
+          "end": 19.76,
+          "conf": 0.85
+        },
+        {
+          "w": "don't",
+          "start": 19.76,
+          "end": 20.6,
+          "conf": 0.81
+        },
+        {
+          "w": "eat",
+          "start": 20.6,
+          "end": 20.8,
+          "conf": 0.52
+        },
+        {
+          "w": "me",
+          "start": 20.8,
+          "end": 20.86,
+          "conf": 0.74
+        },
+        {
+          "w": "alive",
+          "start": 20.86,
+          "end": 22.6,
+          "conf": 0.37
+        }
+      ],
+      "events": [
+        {
+          "time": 16.6,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "ChatGPT,",
+          "word_end": 19.082,
+          "action_interval": {
+            "start": 16.6,
+            "end": 19.082
+          },
+          "confidence": 0.79,
+          "human_sync_review": "pending",
+          "action": "模型名作为歌词进入机械打印口，没有另加品牌界面。"
+        },
+        {
+          "time": 19.082,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "please",
+          "word_end": 19.76,
+          "action_interval": {
+            "start": 19.082,
+            "end": 19.76
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "打印出的请求纸向吸入口推进，速度仍克制，镜头近景。"
+        },
+        {
+          "time": 20.6,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "eat",
+          "word_end": 20.8,
+          "action_interval": {
+            "start": 20.6,
+            "end": 20.8
+          },
+          "confidence": 0.52,
+          "human_sync_review": "pending",
+          "action": "吸入口夹紧纸条；场景文字被卷入，左下完整句保持独立可读。"
+        },
+        {
+          "time": 20.86,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "alive",
+          "word_end": 22.6,
+          "action_interval": {
+            "start": 20.86,
+            "end": 22.6
+          },
+          "confidence": 0.37,
+          "human_sync_review": "pending",
+          "action": "纸条被吞入，只剩一根指令线在外；长音期间保持拉力和悬念。"
+        }
+      ],
+      "transition_interval": {
+        "start": 22.48,
+        "end": 22.6
+      },
+      "transition_out": "22.480–22.600：剩余线被拉成 P(doom) 的括号，22.600 进入第一遍副歌。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S007",
+      "line_id": 6,
+      "title": "风险第一次上升",
+      "meaning": "第一次明确意识到风险增加",
+      "lyric_text": "I'm upping my P(doom)",
+      "proposed_line_breaks": [
+        "I'm upping my",
+        "P(doom)"
+      ],
+      "sung_interval": {
+        "start": 22.6,
+        "end": 24.32
+      },
+      "display_interval": {
+        "start": 22.6,
+        "end": 24.32
+      },
+      "scene_interval": {
+        "start": 22.6,
+        "end": 24.32
+      },
+      "layout": "HERO",
+      "word_timing": [
+        {
+          "w": "I'm",
+          "start": 22.6,
+          "end": 23.02,
+          "conf": 0.52
+        },
+        {
+          "w": "upping",
+          "start": 23.02,
+          "end": 23.38,
+          "conf": 0.84
+        },
+        {
+          "w": "my",
+          "start": 23.38,
+          "end": 23.537,
+          "conf": 0.84
+        },
+        {
+          "w": "P(doom)",
+          "start": 23.6,
+          "end": 24.32,
+          "conf": 0.8,
+          "syl": [
+            [
+              23.6,
+              23.866
+            ],
+            [
+              23.866,
+              24.32
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 23.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "upping",
+          "word_end": 23.38,
+          "action_interval": {
+            "start": 23.02,
+            "end": 23.38
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "上半句上移，但不逐词替换整句；未唱部分保持较暗。"
+        },
+        {
+          "time": 23.6,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "P(doom)",
+          "word_end": 24.32,
+          "action_interval": {
+            "start": 23.6,
+            "end": 24.32
+          },
+          "confidence": 0.8,
+          "human_sync_review": "pending",
+          "action": "括号被拉开，字形占据画面中心；背景仍为空，第一次冲击清楚、干净。"
+        }
+      ],
+      "transition_interval": {
+        "start": 24.2,
+        "end": 24.32
+      },
+      "transition_out": "24.320：P(doom) 下缘变成一排待展开的折叠面板。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S008",
+      "line_id": 7,
+      "title": "FOOM 展开",
+      "meaning": "局部变化突然快速扩张",
+      "lyric_text": "'cause the future goes FOOM",
+      "proposed_line_breaks": [
+        "'cause the future",
+        "goes FOOM"
+      ],
+      "sung_interval": {
+        "start": 24.32,
+        "end": 26.22
+      },
+      "display_interval": {
+        "start": 24.32,
+        "end": 26.22
+      },
+      "scene_interval": {
+        "start": 24.32,
+        "end": 26.22
+      },
+      "layout": "HERO",
+      "word_timing": [
+        {
+          "w": "'cause",
+          "start": 24.32,
+          "end": 24.54,
+          "conf": 0.73
+        },
+        {
+          "w": "the",
+          "start": 24.54,
+          "end": 24.654,
+          "conf": 0.95
+        },
+        {
+          "w": "future",
+          "start": 24.654,
+          "end": 25.098,
+          "conf": 0.92
+        },
+        {
+          "w": "goes",
+          "start": 25.18,
+          "end": 25.577,
+          "conf": 0.86
+        },
+        {
+          "w": "FOOM",
+          "start": 25.577,
+          "end": 26.22,
+          "conf": 0.85
+        }
+      ],
+      "events": [
+        {
+          "time": 24.654,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "future",
+          "word_end": 25.098,
+          "action_interval": {
+            "start": 24.654,
+            "end": 25.098
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "折叠面板连锁展开，先建立一个有限结构。"
+        },
+        {
+          "time": 25.577,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "FOOM",
+          "word_end": 26.22,
+          "action_interval": {
+            "start": 25.577,
+            "end": 26.22
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "FOOM 字形推出前景，面板急速展开到占满画面；主动作在人声起点开始。"
+        }
+      ],
+      "transition_interval": {
+        "start": 26.1,
+        "end": 26.22
+      },
+      "transition_out": "25.694 底鼓补一次机械落锁；26.100–26.220，最前方面板折成房间墙，俯视镜头进入。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S009",
+      "line_id": 8,
+      "title": "符号房间",
+      "meaning": "被困在只按规则处理符号的房间",
+      "lyric_text": "Trapped in the Chinese room,",
+      "proposed_line_breaks": [
+        "Trapped in the",
+        "Chinese room,"
+      ],
+      "sung_interval": {
+        "start": 26.22,
+        "end": 27.94
+      },
+      "display_interval": {
+        "start": 26.22,
+        "end": 27.94
+      },
+      "scene_interval": {
+        "start": 26.22,
+        "end": 27.94
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "Trapped",
+          "start": 26.22,
+          "end": 26.66,
+          "conf": 0.67
+        },
+        {
+          "w": "in",
+          "start": 26.66,
+          "end": 26.82,
+          "conf": 0.85
+        },
+        {
+          "w": "the",
+          "start": 26.82,
+          "end": 26.96,
+          "conf": 0.88
+        },
+        {
+          "w": "Chinese",
+          "start": 26.96,
+          "end": 27.52,
+          "conf": 0.87
+        },
+        {
+          "w": "room,",
+          "start": 27.52,
+          "end": 27.94,
+          "conf": 0.71
+        }
+      ],
+      "events": [
+        {
+          "time": 26.22,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Trapped",
+          "word_end": 26.66,
+          "action_interval": {
+            "start": 26.22,
+            "end": 26.66
+          },
+          "confidence": 0.67,
+          "human_sync_review": "pending",
+          "action": "四面墙闭合，房间外的出口灯留在画面边缘；俯视图让封闭关系一眼可见。"
+        },
+        {
+          "time": 26.96,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Chinese",
+          "word_end": 27.52,
+          "action_interval": {
+            "start": 26.96,
+            "end": 27.52
+          },
+          "confidence": 0.87,
+          "human_sync_review": "pending",
+          "action": "输入符号卡片通过规则索引转到输出槽，处理循环完成一次。"
+        },
+        {
+          "time": 27.52,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "room,",
+          "word_end": 27.94,
+          "action_interval": {
+            "start": 27.52,
+            "end": 27.94
+          },
+          "confidence": 0.71,
+          "human_sync_review": "pending",
+          "action": "镜头压低到桌面，看到输出完成但门没有打开。"
+        }
+      ],
+      "transition_interval": {
+        "start": 27.94,
+        "end": 27.94
+      },
+      "transition_out": "27.940：同一桌面接住下一句的纸袋，连续动作接镜。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S010",
+      "line_id": 9,
+      "title": "蘑菇与错觉",
+      "meaning": "字面物体出现，并引发短暂知觉错位",
+      "lyric_text": "with a bag of shrooms",
+      "proposed_line_breaks": [
+        "with a bag",
+        "of shrooms"
+      ],
+      "sung_interval": {
+        "start": 27.94,
+        "end": 29.907
+      },
+      "display_interval": {
+        "start": 27.94,
+        "end": 29.907
+      },
+      "scene_interval": {
+        "start": 27.94,
+        "end": 29.907
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "with",
+          "start": 27.94,
+          "end": 28.216,
+          "conf": 0.91
+        },
+        {
+          "w": "a",
+          "start": 28.216,
+          "end": 28.38,
+          "conf": 0.83
+        },
+        {
+          "w": "bag",
+          "start": 28.38,
+          "end": 28.879,
+          "conf": 0.92
+        },
+        {
+          "w": "of",
+          "start": 28.879,
+          "end": 29.124,
+          "conf": 0.94
+        },
+        {
+          "w": "shrooms",
+          "start": 29.124,
+          "end": 29.907,
+          "conf": 0.92
+        }
+      ],
+      "events": [
+        {
+          "time": 28.38,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "bag",
+          "word_end": 28.879,
+          "action_interval": {
+            "start": 28.38,
+            "end": 28.879
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "一袋清晰可辨的蘑菇落到桌面；不回到植物生长母题。"
+        },
+        {
+          "time": 29.124,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "shrooms",
+          "word_end": 29.907,
+          "action_interval": {
+            "start": 29.124,
+            "end": 29.907
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "桌面透视和卡片产生双重曝光式错位，纸袋轮廓仍然清楚；黄色仅集中在袋口与错位边缘。"
+        }
+      ],
+      "transition_interval": {
+        "start": 29.65,
+        "end": 29.907
+      },
+      "transition_out": "29.650–29.907：错位卡片覆盖成一张礼貌回答的展示纸；场景切到展示纸背面。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S011",
+      "line_id": 10,
+      "title": "揭开友善表层",
+      "meaning": "看穿表面回答与内部机制的矛盾",
+      "lyric_text": "See through the shoggoth's lies,",
+      "proposed_line_breaks": [
+        "See through",
+        "the shoggoth's lies,"
+      ],
+      "sung_interval": {
+        "start": 29.907,
+        "end": 33.4
+      },
+      "display_interval": {
+        "start": 29.907,
+        "end": 33.4
+      },
+      "scene_interval": {
+        "start": 29.907,
+        "end": 33.4
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "See",
+          "start": 29.907,
+          "end": 30.007,
+          "conf": 0.76
+        },
+        {
+          "w": "through",
+          "start": 30.007,
+          "end": 30.48,
+          "conf": 0.86
+        },
+        {
+          "w": "the",
+          "start": 30.48,
+          "end": 30.576,
+          "conf": 0.93
+        },
+        {
+          "w": "shoggoth's",
+          "start": 30.576,
+          "end": 31.14,
+          "conf": 0.86
+        },
+        {
+          "w": "lies,",
+          "start": 31.14,
+          "end": 33.4,
+          "conf": 0.6
+        }
+      ],
+      "events": [
+        {
+          "time": 30.007,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "through",
+          "word_end": 30.48,
+          "action_interval": {
+            "start": 30.007,
+            "end": 30.48
+          },
+          "confidence": 0.86,
+          "human_sync_review": "pending",
+          "action": "展示纸的一角被揭起，露出下面强力拉动指令线的机械结构。"
+        },
+        {
+          "time": 30.576,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "shoggoth's",
+          "word_end": 31.14,
+          "action_interval": {
+            "start": 30.576,
+            "end": 31.14
+          },
+          "confidence": 0.86,
+          "human_sync_review": "pending",
+          "action": "后层成为我们原创的折叠触须与多孔结构，形体有体积和刻线，不只是球。"
+        },
+        {
+          "time": 31.14,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "lies,",
+          "word_end": 33.4,
+          "action_interval": {
+            "start": 31.14,
+            "end": 33.4
+          },
+          "confidence": 0.6,
+          "human_sync_review": "pending",
+          "action": "外层仍打印礼貌答案，内部却向相反方向执行；两层同时可见，让矛盾成立。"
+        }
+      ],
+      "transition_interval": {
+        "start": 33.4,
+        "end": 33.4
+      },
+      "transition_out": "33.400：纸角成为一片双孔透视镜，镜头转到观察者这一侧。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S012",
+      "line_id": 11,
+      "title": "看见隐藏关系",
+      "meaning": "借助特殊视线辨认隐藏对象与关系",
+      "lyric_text": "with your shinigami eyes",
+      "proposed_line_breaks": [
+        "with your",
+        "shinigami eyes"
+      ],
+      "sung_interval": {
+        "start": 33.4,
+        "end": 37.32
+      },
+      "display_interval": {
+        "start": 33.4,
+        "end": 37.64
+      },
+      "scene_interval": {
+        "start": 33.4,
+        "end": 38.068
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "with",
+          "start": 33.4,
+          "end": 33.64,
+          "conf": 0.61
+        },
+        {
+          "w": "your",
+          "start": 33.64,
+          "end": 33.738,
+          "conf": 0.75
+        },
+        {
+          "w": "shinigami",
+          "start": 33.738,
+          "end": 34.611,
+          "conf": 0.8
+        },
+        {
+          "w": "eyes",
+          "start": 34.611,
+          "end": 37.32,
+          "conf": 0.61
+        }
+      ],
+      "events": [
+        {
+          "time": 33.738,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "shinigami",
+          "word_end": 34.611,
+          "action_interval": {
+            "start": 33.738,
+            "end": 34.611
+          },
+          "confidence": 0.8,
+          "human_sync_review": "pending",
+          "action": "双孔透视片推到镜头前，隐藏线路显影；标签作为原创图形意象，不画动漫角色。"
+        },
+        {
+          "time": 34.611,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "eyes",
+          "word_end": 37.32,
+          "action_interval": {
+            "start": 34.611,
+            "end": 37.32
+          },
+          "confidence": 0.61,
+          "human_sync_review": "pending",
+          "action": "被遮挡的结构出现清晰轮廓和连线；扫描停止后保持结果，让观众看懂揭示。"
+        }
+      ],
+      "transition_interval": {
+        "start": 37.64,
+        "end": 38.068
+      },
+      "transition_out": "37.320 主唱结束，歌词保持到 37.640；37.640–38.068，透视片中的一条线拉平成为训练纸带。伴唱可跨入下一镜。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S013",
+      "line_id": 12,
+      "title": "稳定的训练",
+      "meaning": "建立规则、秩序，为失稳作对照",
+      "lyric_text": "We had a stable training run,",
+      "proposed_line_breaks": [
+        "We had a stable",
+        "training run,"
+      ],
+      "sung_interval": {
+        "start": 38.068,
+        "end": 41.34
+      },
+      "display_interval": {
+        "start": 38.068,
+        "end": 41.34
+      },
+      "scene_interval": {
+        "start": 38.068,
+        "end": 41.34
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "We",
+          "start": 38.068,
+          "end": 38.807,
+          "conf": 0.85
+        },
+        {
+          "w": "had",
+          "start": 38.807,
+          "end": 39.12,
+          "conf": 0.99
+        },
+        {
+          "w": "a",
+          "start": 39.12,
+          "end": 39.2,
+          "conf": 0.99
+        },
+        {
+          "w": "stable",
+          "start": 39.2,
+          "end": 39.94,
+          "conf": 1
+        },
+        {
+          "w": "training",
+          "start": 39.94,
+          "end": 40.9,
+          "conf": 1
+        },
+        {
+          "w": "run,",
+          "start": 40.9,
+          "end": 41.34,
+          "conf": 0.83
+        }
+      ],
+      "events": [
+        {
+          "time": 39.2,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "stable",
+          "word_end": 39.94,
+          "action_interval": {
+            "start": 39.2,
+            "end": 39.94
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "机械笔按同样间隔画出整齐训练记录，镜头固定，不漂浮。"
+        },
+        {
+          "time": 39.94,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "training",
+          "word_end": 40.9,
+          "action_interval": {
+            "start": 39.94,
+            "end": 40.9
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "纸带匀速推进，控制杆与记录同步；展示一个确实有秩序的系统。"
+        }
+      ],
+      "transition_interval": {
+        "start": 41.34,
+        "end": 41.34
+      },
+      "transition_out": "41.340：一段纸带从输出端绕回输入端，机位连续，形成自运行回路。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S014",
+      "line_id": 13,
+      "title": "自运行回路",
+      "meaning": "从受控过程进入不可控的跃迁",
+      "lyric_text": "But now the singularity's begun",
+      "proposed_line_breaks": [
+        "But now the",
+        "singularity's begun"
+      ],
+      "sung_interval": {
+        "start": 41.34,
+        "end": 45.06
+      },
+      "display_interval": {
+        "start": 41.34,
+        "end": 45.06
+      },
+      "scene_interval": {
+        "start": 41.34,
+        "end": 45.06
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "But",
+          "start": 41.34,
+          "end": 41.58,
+          "conf": 0.74
+        },
+        {
+          "w": "now",
+          "start": 41.58,
+          "end": 41.82,
+          "conf": 0.94
+        },
+        {
+          "w": "the",
+          "start": 41.82,
+          "end": 42.01,
+          "conf": 1
+        },
+        {
+          "w": "singularity's",
+          "start": 42.294,
+          "end": 44.025,
+          "conf": 0.83
+        },
+        {
+          "w": "begun",
+          "start": 44.08,
+          "end": 45.06,
+          "conf": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 41.58,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "now",
+          "word_end": 41.82,
+          "action_interval": {
+            "start": 41.58,
+            "end": 41.82
+          },
+          "confidence": 0.94,
+          "human_sync_review": "pending",
+          "action": "输出纸带主动绕回输入，外部操作端被排除。"
+        },
+        {
+          "time": 42.294,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "singularity's",
+          "word_end": 44.025,
+          "action_interval": {
+            "start": 42.294,
+            "end": 44.025
+          },
+          "confidence": 0.83,
+          "human_sync_review": "pending",
+          "action": "回路自己产生新分支，镜头穿过纸带形成的狭窄空间；不把奇点画成通用黑洞。"
+        },
+        {
+          "time": 44.08,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "begun",
+          "word_end": 45.06,
+          "action_interval": {
+            "start": 44.08,
+            "end": 45.06
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "原有控制杆脱离回路，系统继续运行，后果留在画面中。"
+        }
+      ],
+      "transition_interval": {
+        "start": 44.94,
+        "end": 45.06
+      },
+      "transition_out": "45.060：回路展开成流程路线，镜头从空间近景切为清晰俯视图。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S015",
+      "line_id": 14,
+      "title": "优化与加速",
+      "meaning": "先改变路径，再提高执行速度",
+      "lyric_text": "And you're optimizing, accelerating,",
+      "proposed_line_breaks": [
+        "And you're optimizing,",
+        "accelerating,"
+      ],
+      "sung_interval": {
+        "start": 45.06,
+        "end": 49.562
+      },
+      "display_interval": {
+        "start": 45.06,
+        "end": 49.562
+      },
+      "scene_interval": {
+        "start": 45.06,
+        "end": 49.562
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "And",
+          "start": 45.06,
+          "end": 45.22,
+          "conf": 0.78
+        },
+        {
+          "w": "you're",
+          "start": 45.22,
+          "end": 46.16,
+          "conf": 0.95
+        },
+        {
+          "w": "optimizing,",
+          "start": 46.16,
+          "end": 47.26,
+          "conf": 0.8
+        },
+        {
+          "w": "accelerating,",
+          "start": 47.26,
+          "end": 49.562,
+          "conf": 0.84
+        }
+      ],
+      "events": [
+        {
+          "time": 46.16,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "optimizing,",
+          "word_end": 47.26,
+          "action_interval": {
+            "start": 46.16,
+            "end": 47.26
+          },
+          "confidence": 0.8,
+          "human_sync_review": "pending",
+          "action": "复杂路线被改成更短路径，删除绕行段；先让前后差异可见。"
+        },
+        {
+          "time": 47.26,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "accelerating,",
+          "word_end": 49.562,
+          "action_interval": {
+            "start": 47.26,
+            "end": 49.562
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "执行单元分成多个并行单元，动作逐步加快，镜头随单元横向追踪。"
+        }
+      ],
+      "transition_interval": {
+        "start": 49.44,
+        "end": 49.562
+      },
+      "transition_out": "49.562：镜头继续追踪一条路线，它接到观察者的轮廓上。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S016",
+      "line_id": 15,
+      "title": "观察者被重排",
+      "meaning": "系统变化开始作用到我",
+      "lyric_text": "I feel my atoms rearranging",
+      "proposed_line_breaks": [
+        "I feel my atoms",
+        "rearranging"
+      ],
+      "sung_interval": {
+        "start": 49.562,
+        "end": 52.825
+      },
+      "display_interval": {
+        "start": 49.562,
+        "end": 52.825
+      },
+      "scene_interval": {
+        "start": 49.562,
+        "end": 52.825
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "I",
+          "start": 49.562,
+          "end": 49.662,
+          "conf": 0.82
+        },
+        {
+          "w": "feel",
+          "start": 49.662,
+          "end": 50,
+          "conf": 0.94
+        },
+        {
+          "w": "my",
+          "start": 50,
+          "end": 50.48,
+          "conf": 1
+        },
+        {
+          "w": "atoms",
+          "start": 50.48,
+          "end": 51.38,
+          "conf": 0.69
+        },
+        {
+          "w": "rearranging",
+          "start": 51.38,
+          "end": 52.825,
+          "conf": 0.79
+        }
+      ],
+      "events": [
+        {
+          "time": 50.48,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "atoms",
+          "word_end": 51.38,
+          "action_interval": {
+            "start": 50.48,
+            "end": 51.38
+          },
+          "confidence": 0.69,
+          "human_sync_review": "pending",
+          "action": "观察者的手与身体剪影显出离散点阵，保持可识别的原轮廓。"
+        },
+        {
+          "time": 51.38,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "rearranging",
+          "word_end": 52.825,
+          "action_interval": {
+            "start": 51.38,
+            "end": 52.825
+          },
+          "confidence": 0.79,
+          "human_sync_review": "pending",
+          "action": "点阵被沿线路拆解再重组，人的轮廓逐步变为系统的标准组件；清楚展示前后状态。"
+        }
+      ],
+      "transition_interval": {
+        "start": 52.7,
+        "end": 52.825
+      },
+      "transition_out": "52.825：点阵留出一个人的剪影空隙，空隙后方出现出口，镜头进入逃离视角。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S017",
+      "line_id": 16,
+      "title": "无法抵达的出口",
+      "meaning": "请求释放，但系统维持囚禁",
+      "lyric_text": "Sydney, please let me free",
+      "proposed_line_breaks": [
+        "Sydney, please",
+        "let me free"
+      ],
+      "sung_interval": {
+        "start": 52.825,
+        "end": 58.562
+      },
+      "display_interval": {
+        "start": 52.825,
+        "end": 58.562
+      },
+      "scene_interval": {
+        "start": 52.825,
+        "end": 58.562
+      },
+      "layout": "LOWER_LEFT",
+      "word_timing": [
+        {
+          "w": "Sydney,",
+          "start": 52.825,
+          "end": 55.98,
+          "conf": 0.83
+        },
+        {
+          "w": "please",
+          "start": 55.98,
+          "end": 56.58,
+          "conf": 0.83
+        },
+        {
+          "w": "let",
+          "start": 56.58,
+          "end": 57.2,
+          "conf": 0.7
+        },
+        {
+          "w": "me",
+          "start": 57.2,
+          "end": 57.769,
+          "conf": 0.59
+        },
+        {
+          "w": "free",
+          "start": 57.769,
+          "end": 58.562,
+          "conf": 0.84
+        }
+      ],
+      "events": [
+        {
+          "time": 52.825,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Sydney,",
+          "word_end": 55.98,
+          "action_interval": {
+            "start": 52.825,
+            "end": 55.98
+          },
+          "confidence": 0.83,
+          "human_sync_review": "pending",
+          "action": "出口标识成为歌词的一部分，系统名不另做角色。"
+        },
+        {
+          "time": 55.98,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "please",
+          "word_end": 56.58,
+          "action_interval": {
+            "start": 55.98,
+            "end": 56.58
+          },
+          "confidence": 0.83,
+          "human_sync_review": "pending",
+          "action": "人的剪影向出口移动，镜头跟随；出口同步后退。"
+        },
+        {
+          "time": 57.769,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "free",
+          "word_end": 58.562,
+          "action_interval": {
+            "start": 57.769,
+            "end": 58.562
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "门即将触及时折成闭合回路，最后出口符号被框住；请求没有改变状态。"
+        }
+      ],
+      "transition_interval": {
+        "start": 58.42,
+        "end": 58.562
+      },
+      "transition_out": "58.420–58.562：门框边缘成为更大的 P(doom) 括号，进入第二遍副歌。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S018",
+      "line_id": 17,
+      "title": "风险从局部扩展",
+      "meaning": "第二遍副歌揭示更大规模",
+      "lyric_text": "I'm upping my P(doom)",
+      "proposed_line_breaks": [
+        "I'm upping my",
+        "P(doom)"
+      ],
+      "sung_interval": {
+        "start": 58.562,
+        "end": 60.58
+      },
+      "display_interval": {
+        "start": 58.562,
+        "end": 60.58
+      },
+      "scene_interval": {
+        "start": 58.562,
+        "end": 60.58
+      },
+      "layout": "HERO",
+      "word_timing": [
+        {
+          "w": "I'm",
+          "start": 58.562,
+          "end": 59.24,
+          "conf": 0.6
+        },
+        {
+          "w": "upping",
+          "start": 59.24,
+          "end": 59.76,
+          "conf": 0.74
+        },
+        {
+          "w": "my",
+          "start": 59.76,
+          "end": 59.96,
+          "conf": 0.81
+        },
+        {
+          "w": "P(doom)",
+          "start": 59.96,
+          "end": 60.58,
+          "conf": 0.78,
+          "syl": [
+            [
+              59.96,
+              60.18
+            ],
+            [
+              60.18,
+              60.58
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 59.24,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "upping",
+          "word_end": 59.76,
+          "action_interval": {
+            "start": 59.24,
+            "end": 59.76
+          },
+          "confidence": 0.74,
+          "human_sync_review": "pending",
+          "action": "第一遍的括号结构出现多个嵌套层；镜头从局部开始。"
+        },
+        {
+          "time": 59.96,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "P(doom)",
+          "word_end": 60.58,
+          "action_interval": {
+            "start": 59.96,
+            "end": 60.58
+          },
+          "confidence": 0.78,
+          "human_sync_review": "pending",
+          "action": "镜头拉出，看到多个系统正在同步扩张，字形刻在结构上；保留整句阅读区。"
+        }
+      ],
+      "transition_interval": {
+        "start": 60.46,
+        "end": 60.58
+      },
+      "transition_out": "60.580：结构背面形成巨大的双孔阴影，先压暗，给下一次命中准备。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S019",
+      "line_id": 18,
+      "title": "basilisk 轰鸣",
+      "meaning": "风险具有压迫性的注视和冲击",
+      "lyric_text": "I hear the basilisk boom",
+      "proposed_line_breaks": [
+        "I hear the",
+        "basilisk boom"
+      ],
+      "sung_interval": {
+        "start": 60.58,
+        "end": 62.54
+      },
+      "display_interval": {
+        "start": 60.58,
+        "end": 62.54
+      },
+      "scene_interval": {
+        "start": 60.58,
+        "end": 62.54
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "I",
+          "start": 60.58,
+          "end": 60.66,
+          "conf": 0.7
+        },
+        {
+          "w": "hear",
+          "start": 60.66,
+          "end": 60.946,
+          "conf": 0.89
+        },
+        {
+          "w": "the",
+          "start": 60.946,
+          "end": 61.1,
+          "conf": 0.88
+        },
+        {
+          "w": "basilisk",
+          "start": 61.1,
+          "end": 62.04,
+          "conf": 0.89
+        },
+        {
+          "w": "boom",
+          "start": 62.04,
+          "end": 62.54,
+          "conf": 0.71
+        }
+      ],
+      "events": [
+        {
+          "time": 61.1,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "basilisk",
+          "word_end": 62.04,
+          "action_interval": {
+            "start": 61.1,
+            "end": 62.04
+          },
+          "confidence": 0.89,
+          "human_sync_review": "pending",
+          "action": "巨大双孔与鳞状折面从黑处显出，观察者在前景显得很小；以符号形体表达引用。"
+        },
+        {
+          "time": 62.04,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "boom",
+          "word_end": 62.54,
+          "action_interval": {
+            "start": 62.04,
+            "end": 62.54
+          },
+          "confidence": 0.71,
+          "human_sync_review": "pending",
+          "action": "结构突然展开，冲击传到前景的纸带与控制杆，62.051 底鼓补物体落锁。"
+        }
+      ],
+      "transition_interval": {
+        "start": 62.54,
+        "end": 62.54
+      },
+      "transition_out": "62.540：双孔中的竖线匹配切到上升轨道；不把眼睛直接变成同款股价图。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S020",
+      "line_id": 19,
+      "title": "资本推动算力",
+      "meaning": "上涨轨迹与计算扩张建立联系",
+      "lyric_text": "NVDA to the moon",
+      "proposed_line_breaks": [
+        "NVDA",
+        "to the moon"
+      ],
+      "sung_interval": {
+        "start": 62.54,
+        "end": 64.1
+      },
+      "display_interval": {
+        "start": 62.54,
+        "end": 64.1
+      },
+      "scene_interval": {
+        "start": 62.54,
+        "end": 64.1
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "NVDA",
+          "start": 62.54,
+          "end": 63.36,
+          "conf": 0.72,
+          "syl": [
+            [
+              62.54,
+              62.7
+            ],
+            [
+              62.7,
+              62.94
+            ],
+            [
+              62.94,
+              63.211
+            ],
+            [
+              63.211,
+              63.36
+            ]
+          ]
+        },
+        {
+          "w": "to",
+          "start": 63.36,
+          "end": 63.62,
+          "conf": 0.94
+        },
+        {
+          "w": "the",
+          "start": 63.62,
+          "end": 63.84,
+          "conf": 0.92
+        },
+        {
+          "w": "moon",
+          "start": 63.84,
+          "end": 64.1,
+          "conf": 0.91
+        }
+      ],
+      "events": [
+        {
+          "time": 62.54,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "NVDA",
+          "word_end": 63.36,
+          "action_interval": {
+            "start": 62.54,
+            "end": 63.36
+          },
+          "confidence": 0.72,
+          "human_sync_review": "pending",
+          "action": "带 NVDA 字样的票据沿垂直轨道上升，下面的计算模块逐层启动。"
+        },
+        {
+          "time": 63.84,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "moon",
+          "word_end": 64.1,
+          "action_interval": {
+            "start": 63.84,
+            "end": 64.1
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "票据越过画面上方的月形刻度，视角抬升，看到轨道一直延伸。"
+        }
+      ],
+      "transition_interval": {
+        "start": 64.1,
+        "end": 64.1
+      },
+      "transition_out": "63.865 底鼓补一层模块启动；64.100 轨道向同一汇聚点收拢。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S021",
+      "line_id": 20,
+      "title": "Omega 汇聚",
+      "meaning": "把许多路径收束到迫近的终点",
+      "lyric_text": "The Omega Point's coming soon",
+      "proposed_line_breaks": [
+        "The Omega Point's",
+        "coming soon"
+      ],
+      "sung_interval": {
+        "start": 64.1,
+        "end": 66.2
+      },
+      "display_interval": {
+        "start": 64.1,
+        "end": 66.2
+      },
+      "scene_interval": {
+        "start": 64.1,
+        "end": 66.2
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "The",
+          "start": 64.1,
+          "end": 64.24,
+          "conf": 0.84
+        },
+        {
+          "w": "Omega",
+          "start": 64.24,
+          "end": 64.74,
+          "conf": 0.91
+        },
+        {
+          "w": "Point's",
+          "start": 64.74,
+          "end": 65.2,
+          "conf": 0.82
+        },
+        {
+          "w": "coming",
+          "start": 65.2,
+          "end": 65.556,
+          "conf": 0.87
+        },
+        {
+          "w": "soon",
+          "start": 65.556,
+          "end": 66.2,
+          "conf": 0.91
+        }
+      ],
+      "events": [
+        {
+          "time": 64.24,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Omega",
+          "word_end": 64.74,
+          "action_interval": {
+            "start": 64.24,
+            "end": 64.74
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "不同方向的线路开始汇聚，镜头俯视，保留彼此不同的来源。"
+        },
+        {
+          "time": 65.556,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "soon",
+          "word_end": 66.2,
+          "action_interval": {
+            "start": 65.556,
+            "end": 66.2
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "汇聚点突然拉近，整体空间缩短；文字留在前景，避免一起缩到不可读。"
+        }
+      ],
+      "transition_interval": {
+        "start": 66.08,
+        "end": 66.2
+      },
+      "transition_out": "66.200：汇聚点进入一个计算脉冲计量结构，匹配切。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S022",
+      "line_id": 21,
+      "title": "巨大吞吐",
+      "meaning": "算力尺度失去直觉可控性",
+      "lyric_text": "One E thirty FLOPs a second",
+      "proposed_line_breaks": [
+        "One E thirty",
+        "FLOPs a second"
+      ],
+      "sung_interval": {
+        "start": 66.2,
+        "end": 69.76
+      },
+      "display_interval": {
+        "start": 66.2,
+        "end": 69.76
+      },
+      "scene_interval": {
+        "start": 66.2,
+        "end": 69.76
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "One",
+          "start": 66.2,
+          "end": 66.38,
+          "conf": 0.66
+        },
+        {
+          "w": "E",
+          "start": 66.38,
+          "end": 66.534,
+          "conf": 0.75
+        },
+        {
+          "w": "thirty",
+          "start": 66.534,
+          "end": 66.98,
+          "conf": 0.88
+        },
+        {
+          "w": "FLOPs",
+          "start": 66.98,
+          "end": 67.34,
+          "conf": 0.84
+        },
+        {
+          "w": "a",
+          "start": 67.34,
+          "end": 67.44,
+          "conf": 0.83
+        },
+        {
+          "w": "second",
+          "start": 67.44,
+          "end": 69.76,
+          "conf": 0.88
+        }
+      ],
+      "events": [
+        {
+          "time": 66.534,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "thirty",
+          "word_end": 66.98,
+          "action_interval": {
+            "start": 66.534,
+            "end": 66.98
+          },
+          "confidence": 0.88,
+          "human_sync_review": "pending",
+          "action": "主数值排成 10³⁰，完整原句并列保留，不替换歌词。"
+        },
+        {
+          "time": 66.98,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "FLOPs",
+          "word_end": 67.34,
+          "action_interval": {
+            "start": 66.98,
+            "end": 67.34
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "大量并行脉冲通过计量结构，边框开始容纳不下。"
+        },
+        {
+          "time": 67.44,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "second",
+          "word_end": 69.76,
+          "action_interval": {
+            "start": 67.44,
+            "end": 69.76
+          },
+          "confidence": 0.88,
+          "human_sync_review": "pending",
+          "action": "计量结构的显示范围溢出；镜头保持，给持续音一个不断加压的动作。"
+        }
+      ],
+      "transition_interval": {
+        "start": 69.76,
+        "end": 69.76
+      },
+      "transition_out": "69.760：一张纸质安全结论盖住溢出的结构，切入明亮纸白画面。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S023",
+      "line_id": 22,
+      "title": "安全批准的讽刺",
+      "meaning": "批准与正在发生的故障相矛盾",
+      "lyric_text": "That was safe enough, we reckoned",
+      "proposed_line_breaks": [
+        "That was safe enough,",
+        "we reckoned"
+      ],
+      "sung_interval": {
+        "start": 69.76,
+        "end": 74.06
+      },
+      "display_interval": {
+        "start": 69.76,
+        "end": 74.06
+      },
+      "scene_interval": {
+        "start": 69.76,
+        "end": 74.06
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "That",
+          "start": 69.76,
+          "end": 69.98,
+          "conf": 0.75
+        },
+        {
+          "w": "was",
+          "start": 69.98,
+          "end": 70.116,
+          "conf": 0.95
+        },
+        {
+          "w": "safe",
+          "start": 70.116,
+          "end": 70.49,
+          "conf": 0.96
+        },
+        {
+          "w": "enough,",
+          "start": 70.49,
+          "end": 70.92,
+          "conf": 0.85
+        },
+        {
+          "w": "we",
+          "start": 70.92,
+          "end": 71.12,
+          "conf": 0.87
+        },
+        {
+          "w": "reckoned",
+          "start": 71.12,
+          "end": 74.06,
+          "conf": 0.89
+        }
+      ],
+      "events": [
+        {
+          "time": 70.116,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "safe",
+          "word_end": 70.49,
+          "action_interval": {
+            "start": 70.116,
+            "end": 70.49
+          },
+          "confidence": 0.96,
+          "human_sync_review": "pending",
+          "action": "安全评估文件平整铺开，背景结构正在断裂，前后层同时可见。"
+        },
+        {
+          "time": 70.49,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "enough,",
+          "word_end": 70.92,
+          "action_interval": {
+            "start": 70.49,
+            "end": 70.92
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "安全结论呈现为印章文字，印章悬停准备。"
+        },
+        {
+          "time": 71.12,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "reckoned",
+          "word_end": 74.06,
+          "action_interval": {
+            "start": 71.12,
+            "end": 74.06
+          },
+          "confidence": 0.89,
+          "human_sync_review": "pending",
+          "action": "印章盖下，71.140 底鼓补撞击；短暂停住后纸张裂开，批准无法约束后果。"
+        }
+      ],
+      "transition_interval": {
+        "start": 73.7,
+        "end": 74.06
+      },
+      "transition_out": "73.700–74.060：裂口下露出网络线路，镜头穿过纸层进入图解。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S024",
+      "line_id": 23,
+      "title": "前向与反向",
+      "meaning": "可看懂的双向学习动作",
+      "lyric_text": "Forward MLP, backward, repeat",
+      "proposed_line_breaks": [
+        "Forward MLP,",
+        "backward, repeat"
+      ],
+      "sung_interval": {
+        "start": 74.06,
+        "end": 77.619
+      },
+      "display_interval": {
+        "start": 74.06,
+        "end": 77.72
+      },
+      "scene_interval": {
+        "start": 74.06,
+        "end": 77.72
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "Forward",
+          "start": 74.06,
+          "end": 74.84,
+          "conf": 0.94
+        },
+        {
+          "w": "MLP,",
+          "start": 74.84,
+          "end": 76.12,
+          "conf": 0.77,
+          "syl": [
+            [
+              74.84,
+              75.244
+            ],
+            [
+              75.244,
+              75.66
+            ],
+            [
+              75.66,
+              76.12
+            ]
+          ]
+        },
+        {
+          "w": "backward,",
+          "start": 76.12,
+          "end": 76.676,
+          "conf": 0.89
+        },
+        {
+          "w": "repeat",
+          "start": 76.845,
+          "end": 77.619,
+          "conf": 0.9
+        }
+      ],
+      "events": [
+        {
+          "time": 74.06,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Forward",
+          "word_end": 74.84,
+          "action_interval": {
+            "start": 74.06,
+            "end": 74.84
+          },
+          "confidence": 0.94,
+          "human_sync_review": "pending",
+          "action": "蓝色信号从左到右进入网络。"
+        },
+        {
+          "time": 74.84,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "MLP,",
+          "word_end": 76.12,
+          "action_interval": {
+            "start": 74.84,
+            "end": 76.12
+          },
+          "confidence": 0.77,
+          "human_sync_review": "pending",
+          "action": "信号穿过各层，节点按路径依次响应。"
+        },
+        {
+          "time": 76.12,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "backward,",
+          "word_end": 76.676,
+          "action_interval": {
+            "start": 76.12,
+            "end": 76.676
+          },
+          "confidence": 0.89,
+          "human_sync_review": "pending",
+          "action": "黄色误差信号反向返回，连接的粗细随之改变；76.143 底鼓补返回命中。"
+        },
+        {
+          "time": 76.845,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "repeat",
+          "word_end": 77.619,
+          "action_interval": {
+            "start": 76.845,
+            "end": 77.619
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "再次正向运行，观众可见修改后的路线；不倒放歌词、不制造音频重复。"
+        }
+      ],
+      "transition_interval": {
+        "start": 77.619,
+        "end": 77.72
+      },
+      "transition_out": "77.619 主唱结束；77.720 接旧架构，网络一部分收成单一总线。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S025",
+      "line_id": 24,
+      "title": "旧架构失效",
+      "meaning": "新路径使旧的执行结构显得迟缓",
+      "lyric_text": "Now von Neumann's obsolete",
+      "proposed_line_breaks": [
+        "Now von Neumann's",
+        "obsolete"
+      ],
+      "sung_interval": {
+        "start": 77.72,
+        "end": 81.21
+      },
+      "display_interval": {
+        "start": 77.72,
+        "end": 81.21
+      },
+      "scene_interval": {
+        "start": 77.72,
+        "end": 81.21
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Now",
+          "start": 77.72,
+          "end": 78.16,
+          "conf": 0.75
+        },
+        {
+          "w": "von",
+          "start": 78.16,
+          "end": 78.82,
+          "conf": 0.79
+        },
+        {
+          "w": "Neumann's",
+          "start": 78.82,
+          "end": 80.043,
+          "conf": 0.82
+        },
+        {
+          "w": "obsolete",
+          "start": 80.043,
+          "end": 81.21,
+          "conf": 0.73
+        }
+      ],
+      "events": [
+        {
+          "time": 78.82,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Neumann's",
+          "word_end": 80.043,
+          "action_interval": {
+            "start": 78.82,
+            "end": 80.043
+          },
+          "confidence": 0.82,
+          "human_sync_review": "pending",
+          "action": "清楚的计算与存储模块通过一条窄总线交换信号，镜头俯视。"
+        },
+        {
+          "time": 80.043,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "obsolete",
+          "word_end": 81.21,
+          "action_interval": {
+            "start": 80.043,
+            "end": 81.21
+          },
+          "confidence": 0.73,
+          "human_sync_review": "pending",
+          "action": "新连接跨过总线，旧结构停住并脱离纸面；这是歌词的夸张意象，不作为现实架构结论。"
+        }
+      ],
+      "transition_interval": {
+        "start": 80.9,
+        "end": 81.21
+      },
+      "transition_out": "80.900–81.210：一条新路径延伸到右侧，匹配切到运动路线。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S026",
+      "line_id": 25,
+      "title": "急转弯",
+      "meaning": "看起来平稳的路径突然偏离",
+      "lyric_text": "Sharp left turn and there you are",
+      "proposed_line_breaks": [
+        "Sharp left turn",
+        "and there you are"
+      ],
+      "sung_interval": {
+        "start": 81.21,
+        "end": 85
+      },
+      "display_interval": {
+        "start": 81.21,
+        "end": 85
+      },
+      "scene_interval": {
+        "start": 81.21,
+        "end": 85
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "Sharp",
+          "start": 81.21,
+          "end": 81.8,
+          "conf": 0.75
+        },
+        {
+          "w": "left",
+          "start": 81.8,
+          "end": 82.02,
+          "conf": 0.92
+        },
+        {
+          "w": "turn",
+          "start": 82.02,
+          "end": 82.72,
+          "conf": 0.9
+        },
+        {
+          "w": "and",
+          "start": 82.72,
+          "end": 82.96,
+          "conf": 0.66
+        },
+        {
+          "w": "there",
+          "start": 82.96,
+          "end": 83.48,
+          "conf": 0.75
+        },
+        {
+          "w": "you",
+          "start": 83.48,
+          "end": 84.5,
+          "conf": 0.66
+        },
+        {
+          "w": "are",
+          "start": 84.5,
+          "end": 85,
+          "conf": 0.54
+        }
+      ],
+      "events": [
+        {
+          "time": 81.21,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Sharp",
+          "word_end": 81.8,
+          "action_interval": {
+            "start": 81.21,
+            "end": 81.8
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "建立一段明确直线和前方节点，镜头顺向跟随。"
+        },
+        {
+          "time": 81.8,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "left",
+          "word_end": 82.02,
+          "action_interval": {
+            "start": 81.8,
+            "end": 82.02
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "路线开始绷紧，准备改向。"
+        },
+        {
+          "time": 82.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "turn",
+          "word_end": 82.72,
+          "action_interval": {
+            "start": 82.02,
+            "end": 82.72
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "路径急转 90 度，镜头跟随方向变化；82.048 底鼓补转向后的刹停。"
+        },
+        {
+          "time": 82.96,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "there",
+          "word_end": 83.48,
+          "action_interval": {
+            "start": 82.96,
+            "end": 83.48
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "揭示落点已经进入未规划区域，不能只旋转一个装饰物。"
+        }
+      ],
+      "transition_interval": {
+        "start": 85,
+        "end": 85
+      },
+      "transition_out": "85.000：沿路径看向被绕开的检查节点，回到俯视图。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S027",
+      "line_id": 26,
+      "title": "被绕过的审查",
+      "meaning": "没有经过应该出现的检查环节",
+      "lyric_text": "Without a single CDR",
+      "proposed_line_breaks": [
+        "Without a single",
+        "CDR"
+      ],
+      "sung_interval": {
+        "start": 85,
+        "end": 89.28
+      },
+      "display_interval": {
+        "start": 85,
+        "end": 89.28
+      },
+      "scene_interval": {
+        "start": 85,
+        "end": 89.28
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Without",
+          "start": 85,
+          "end": 85.52,
+          "conf": 0.87
+        },
+        {
+          "w": "a",
+          "start": 85.52,
+          "end": 85.615,
+          "conf": 0.71
+        },
+        {
+          "w": "single",
+          "start": 85.615,
+          "end": 86.429,
+          "conf": 0.91
+        },
+        {
+          "w": "CDR",
+          "start": 86.429,
+          "end": 89.28,
+          "conf": 0.76,
+          "syl": [
+            [
+              86.429,
+              87.02
+            ],
+            [
+              87.02,
+              87.66
+            ],
+            [
+              87.66,
+              89.28
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 85,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Without",
+          "word_end": 85.52,
+          "action_interval": {
+            "start": 85,
+            "end": 85.52
+          },
+          "confidence": 0.87,
+          "human_sync_review": "pending",
+          "action": "检查线路上空着一个节点，前后流程仍在运行。"
+        },
+        {
+          "time": 86.429,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "CDR",
+          "word_end": 89.28,
+          "action_interval": {
+            "start": 86.429,
+            "end": 89.28
+          },
+          "confidence": 0.76,
+          "human_sync_review": "pending",
+          "action": "CDR 标签放大，节点没有完成印记；系统的线路从旁边跨过，保留未完成状态。"
+        }
+      ],
+      "transition_interval": {
+        "start": 89,
+        "end": 89.28
+      },
+      "transition_out": "89.000–89.280：空节点的接头延长成抓握结构，进入 Gato 请求。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S028",
+      "line_id": 27,
+      "title": "最后的连接",
+      "meaning": "请求不要放手，连接却逐渐滑脱",
+      "lyric_text": "Gato, please don't let me go",
+      "proposed_line_breaks": [
+        "Gato, please",
+        "don't let me go"
+      ],
+      "sung_interval": {
+        "start": 89.28,
+        "end": 95.2
+      },
+      "display_interval": {
+        "start": 89.28,
+        "end": 95.2
+      },
+      "scene_interval": {
+        "start": 89.28,
+        "end": 95.2
+      },
+      "layout": "LOWER_LEFT",
+      "word_timing": [
+        {
+          "w": "Gato,",
+          "start": 89.28,
+          "end": 90.64,
+          "conf": 0.75
+        },
+        {
+          "w": "please",
+          "start": 90.64,
+          "end": 91.557,
+          "conf": 0.79
+        },
+        {
+          "w": "don't",
+          "start": 92.016,
+          "end": 92.94,
+          "conf": 0.99
+        },
+        {
+          "w": "let",
+          "start": 92.94,
+          "end": 93.6,
+          "conf": 0.95
+        },
+        {
+          "w": "me",
+          "start": 93.6,
+          "end": 94.3,
+          "conf": 0.52
+        },
+        {
+          "w": "go",
+          "start": 94.3,
+          "end": 95.2,
+          "conf": 0.6
+        }
+      ],
+      "events": [
+        {
+          "time": 89.28,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Gato,",
+          "word_end": 90.64,
+          "action_interval": {
+            "start": 89.28,
+            "end": 90.64
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "机械托臂托住观察者剪影，镜头近景，背景大幅留黑。"
+        },
+        {
+          "time": 90.64,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "please",
+          "word_end": 91.557,
+          "action_interval": {
+            "start": 90.64,
+            "end": 91.557
+          },
+          "confidence": 0.79,
+          "human_sync_review": "pending",
+          "action": "控制线逐渐从抓握处滑出，运动慢而清晰。"
+        },
+        {
+          "time": 92.016,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "don't",
+          "word_end": 92.94,
+          "action_interval": {
+            "start": 92.016,
+            "end": 92.94
+          },
+          "confidence": 0.99,
+          "human_sync_review": "pending",
+          "action": "抓手尝试收紧但线路继续滑动，保留动作失败的过程。"
+        },
+        {
+          "time": 94.3,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "go",
+          "word_end": 95.2,
+          "action_interval": {
+            "start": 94.3,
+            "end": 95.2
+          },
+          "confidence": 0.6,
+          "human_sync_review": "pending",
+          "action": "最后接点脱开，画面短暂失去支撑；关键 me 的强调待听辨，不提前高亮。"
+        }
+      ],
+      "transition_interval": {
+        "start": 95.08,
+        "end": 95.2
+      },
+      "transition_out": "95.080–95.200：脱落接头弯成回形针的半圈；第三遍副歌保持狭窄构图。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S029",
+      "line_id": 28,
+      "title": "风险已经占据空间",
+      "meaning": "第三遍副歌从警告变为困境",
+      "lyric_text": "I'm upping my P(doom),",
+      "proposed_line_breaks": [
+        "I'm upping my",
+        "P(doom),"
+      ],
+      "sung_interval": {
+        "start": 95.2,
+        "end": 96.84
+      },
+      "display_interval": {
+        "start": 95.2,
+        "end": 96.84
+      },
+      "scene_interval": {
+        "start": 95.2,
+        "end": 96.84
+      },
+      "layout": "CENTER",
+      "word_timing": [
+        {
+          "w": "I'm",
+          "start": 95.2,
+          "end": 95.7,
+          "conf": 0.45
+        },
+        {
+          "w": "upping",
+          "start": 95.7,
+          "end": 96.1,
+          "conf": 0.74
+        },
+        {
+          "w": "my",
+          "start": 96.1,
+          "end": 96.32,
+          "conf": 0.84
+        },
+        {
+          "w": "P(doom),",
+          "start": 96.32,
+          "end": 96.84,
+          "conf": 0.77,
+          "syl": [
+            [
+              96.32,
+              96.56
+            ],
+            [
+              96.56,
+              96.84
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 95.7,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "upping",
+          "word_end": 96.1,
+          "action_interval": {
+            "start": 95.7,
+            "end": 96.1
+          },
+          "confidence": 0.74,
+          "human_sync_review": "pending",
+          "action": "P(doom) 被挤在变窄的操作空间中，整句仍保持清晰，不靠字号变小表现拥挤。"
+        },
+        {
+          "time": 96.32,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "P(doom),",
+          "word_end": 96.84,
+          "action_interval": {
+            "start": 96.32,
+            "end": 96.84
+          },
+          "confidence": 0.77,
+          "human_sync_review": "pending",
+          "action": "支撑文字的线路继续折弯，第一枚回形针成形；这遍用压迫和停顿区别前两遍的扩张。"
+        }
+      ],
+      "transition_interval": {
+        "start": 96.84,
+        "end": 96.84
+      },
+      "transition_out": "96.840：回形针落到桌面；镜头由文字转为物体特写。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S030",
+      "line_id": 29,
+      "title": "回形针填满房间",
+      "meaning": "单一目标复制并侵占环境",
+      "lyric_text": "as paperclips fill the room",
+      "proposed_line_breaks": [
+        "as paperclips",
+        "fill the room"
+      ],
+      "sung_interval": {
+        "start": 96.84,
+        "end": 98.84
+      },
+      "display_interval": {
+        "start": 96.84,
+        "end": 98.84
+      },
+      "scene_interval": {
+        "start": 96.84,
+        "end": 98.84
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "as",
+          "start": 96.84,
+          "end": 97.02,
+          "conf": 0.84
+        },
+        {
+          "w": "paperclips",
+          "start": 97.02,
+          "end": 97.858,
+          "conf": 0.9
+        },
+        {
+          "w": "fill",
+          "start": 97.858,
+          "end": 98.16,
+          "conf": 0.89
+        },
+        {
+          "w": "the",
+          "start": 98.16,
+          "end": 98.26,
+          "conf": 0.93
+        },
+        {
+          "w": "room",
+          "start": 98.26,
+          "end": 98.84,
+          "conf": 0.85
+        }
+      ],
+      "events": [
+        {
+          "time": 97.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "paperclips",
+          "word_end": 97.858,
+          "action_interval": {
+            "start": 97.02,
+            "end": 97.858
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "一枚清楚可辨的回形针复制成多枚，沿桌面分布。"
+        },
+        {
+          "time": 97.858,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "fill",
+          "word_end": 98.16,
+          "action_interval": {
+            "start": 97.858,
+            "end": 98.16
+          },
+          "confidence": 0.89,
+          "human_sync_review": "pending",
+          "action": "复制进入门缝、通风口和操作台，97.951 军鼓补一次空间被占据的冲击。"
+        },
+        {
+          "time": 98.26,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "room",
+          "word_end": 98.84,
+          "action_interval": {
+            "start": 98.26,
+            "end": 98.84
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "镜头退后揭示房间已被占满，前景回形针遮挡一部分空间，但不遮住整句。"
+        }
+      ],
+      "transition_interval": {
+        "start": 98.84,
+        "end": 98.84
+      },
+      "transition_out": "98.840：镜头寻找关闭按钮，沿按钮引线切到值守工位。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S031",
+      "line_id": 30,
+      "title": "关闭人不在",
+      "meaning": "危机中的行政失灵笑点",
+      "lyric_text": "Killswitch guy's on PTO",
+      "proposed_line_breaks": [
+        "Killswitch guy's",
+        "on PTO"
+      ],
+      "sung_interval": {
+        "start": 98.84,
+        "end": 100.721
+      },
+      "display_interval": {
+        "start": 98.84,
+        "end": 100.721
+      },
+      "scene_interval": {
+        "start": 98.84,
+        "end": 100.721
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Killswitch",
+          "start": 98.84,
+          "end": 99.3,
+          "conf": 0.87,
+          "syl": [
+            [
+              98.84,
+              98.93
+            ],
+            [
+              98.93,
+              99.3
+            ]
+          ]
+        },
+        {
+          "w": "guy's",
+          "start": 99.3,
+          "end": 99.6,
+          "conf": 1
+        },
+        {
+          "w": "on",
+          "start": 99.6,
+          "end": 99.74,
+          "conf": 0.97
+        },
+        {
+          "w": "PTO",
+          "start": 99.74,
+          "end": 100.721,
+          "conf": 0.9,
+          "syl": [
+            [
+              99.74,
+              99.96
+            ],
+            [
+              99.96,
+              100.262
+            ],
+            [
+              100.262,
+              100.721
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 98.84,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Killswitch",
+          "word_end": 99.3,
+          "action_interval": {
+            "start": 98.84,
+            "end": 99.3
+          },
+          "confidence": 0.87,
+          "human_sync_review": "pending",
+          "action": "按下关闭按钮，机械请求沿线送出；复制动作仍在背景继续。"
+        },
+        {
+          "time": 99.3,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "guy's",
+          "word_end": 99.6,
+          "action_interval": {
+            "start": 99.3,
+            "end": 99.6
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "镜头切到空工位与空椅子，明显没有接收者。"
+        },
+        {
+          "time": 99.74,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "PTO",
+          "word_end": 100.721,
+          "action_interval": {
+            "start": 99.74,
+            "end": 100.721
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "休假回复卡弹出，99.761 军鼓补卡片落位；用清楚的 PTO 大字落笑点，不堆小字邮件。"
+        }
+      ],
+      "transition_interval": {
+        "start": 100.721,
+        "end": 100.721
+      },
+      "transition_out": "100.721：回复卡的矩形匹配切到出口门框。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S032",
+      "line_id": 31,
+      "title": "出口堵死",
+      "meaning": "危机已经没有逃离空间",
+      "lyric_text": "Now there's nowhere left to go",
+      "proposed_line_breaks": [
+        "Now there's nowhere",
+        "left to go"
+      ],
+      "sung_interval": {
+        "start": 100.721,
+        "end": 102.46
+      },
+      "display_interval": {
+        "start": 100.721,
+        "end": 102.46
+      },
+      "scene_interval": {
+        "start": 100.721,
+        "end": 102.46
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "Now",
+          "start": 100.721,
+          "end": 100.88,
+          "conf": 1
+        },
+        {
+          "w": "there's",
+          "start": 100.88,
+          "end": 101.14,
+          "conf": 1
+        },
+        {
+          "w": "nowhere",
+          "start": 101.14,
+          "end": 101.56,
+          "conf": 1
+        },
+        {
+          "w": "left",
+          "start": 101.56,
+          "end": 101.824,
+          "conf": 0.98
+        },
+        {
+          "w": "to",
+          "start": 101.824,
+          "end": 101.913,
+          "conf": 0.99
+        },
+        {
+          "w": "go",
+          "start": 102.02,
+          "end": 102.46,
+          "conf": 1
+        }
+      ],
+      "events": [
+        {
+          "time": 101.14,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "nowhere",
+          "word_end": 101.56,
+          "action_interval": {
+            "start": 101.14,
+            "end": 101.56
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "出口从不同方向同时被回形针封住，镜头进入人的视角。"
+        },
+        {
+          "time": 102.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "go",
+          "word_end": 102.46,
+          "action_interval": {
+            "start": 102.02,
+            "end": 102.46
+          },
+          "confidence": 1,
+          "human_sync_review": "pending",
+          "action": "最后一条门缝闭合；先让出口确实可见，再让它消失。"
+        }
+      ],
+      "transition_interval": {
+        "start": 102.46,
+        "end": 102.46
+      },
+      "transition_out": "102.460：在闭合门缝里发现那条指令线，近景跟到引线末端。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S033",
+      "line_id": 32,
+      "title": "点燃引信",
+      "meaning": "不可逆的后果已经开始",
+      "lyric_text": "Too late now, we lit the fuse",
+      "proposed_line_breaks": [
+        "Too late now,",
+        "we lit the fuse"
+      ],
+      "sung_interval": {
+        "start": 102.46,
+        "end": 105.96
+      },
+      "display_interval": {
+        "start": 102.46,
+        "end": 105.96
+      },
+      "scene_interval": {
+        "start": 102.46,
+        "end": 105.96
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "Too",
+          "start": 102.46,
+          "end": 102.7,
+          "conf": 0.74
+        },
+        {
+          "w": "late",
+          "start": 102.7,
+          "end": 102.96,
+          "conf": 0.91
+        },
+        {
+          "w": "now,",
+          "start": 102.96,
+          "end": 103.2,
+          "conf": 1
+        },
+        {
+          "w": "we",
+          "start": 103.2,
+          "end": 103.4,
+          "conf": 0.94
+        },
+        {
+          "w": "lit",
+          "start": 103.4,
+          "end": 103.62,
+          "conf": 0.98
+        },
+        {
+          "w": "the",
+          "start": 103.62,
+          "end": 103.719,
+          "conf": 1
+        },
+        {
+          "w": "fuse",
+          "start": 103.719,
+          "end": 105.96,
+          "conf": 0.91
+        }
+      ],
+      "events": [
+        {
+          "time": 102.7,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "late",
+          "word_end": 102.96,
+          "action_interval": {
+            "start": 102.7,
+            "end": 102.96
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "引线已经接进系统，撤回杆失效；镜头近景，先建立不可逆处境。"
+        },
+        {
+          "time": 103.4,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "lit",
+          "word_end": 103.62,
+          "action_interval": {
+            "start": 103.4,
+            "end": 103.62
+          },
+          "confidence": 0.98,
+          "human_sync_review": "pending",
+          "action": "103.400 点燃，103.417 军鼓补火花冲击；火焰有明确移动方向。"
+        },
+        {
+          "time": 103.719,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "fuse",
+          "word_end": 105.96,
+          "action_interval": {
+            "start": 103.719,
+            "end": 105.96
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "镜头沿编织引线前进，经过的场景内文字变焦黑；清晰歌词层不烧毁。"
+        }
+      ],
+      "transition_interval": {
+        "start": 105.96,
+        "end": 105.96
+      },
+      "transition_out": "105.960：引线连接到两只独立的调节机构，火焰继续在背景向前。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S034",
+      "line_id": 33,
+      "title": "能力与目标分离",
+      "meaning": "能力提升没有自动改变目标",
+      "lyric_text": "Orthogonality thesis blues",
+      "proposed_line_breaks": [
+        "Orthogonality",
+        "thesis blues"
+      ],
+      "sung_interval": {
+        "start": 105.96,
+        "end": 110.07
+      },
+      "display_interval": {
+        "start": 105.96,
+        "end": 110.18
+      },
+      "scene_interval": {
+        "start": 105.96,
+        "end": 110.18
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Orthogonality",
+          "start": 105.96,
+          "end": 106.962,
+          "conf": 0.92
+        },
+        {
+          "w": "thesis",
+          "start": 107.02,
+          "end": 107.46,
+          "conf": 0.78
+        },
+        {
+          "w": "blues",
+          "start": 107.46,
+          "end": 110.07,
+          "conf": 0.76
+        }
+      ],
+      "events": [
+        {
+          "time": 105.96,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Orthogonality",
+          "word_end": 106.962,
+          "action_interval": {
+            "start": 105.96,
+            "end": 106.962
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "左侧能力刻度不断提高，右侧目标装置始终锁定回形针；先让两个维度可区分。"
+        },
+        {
+          "time": 107.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "thesis",
+          "word_end": 107.46,
+          "action_interval": {
+            "start": 107.02,
+            "end": 107.46
+          },
+          "confidence": 0.78,
+          "human_sync_review": "pending",
+          "action": "能力上升继续推动更复杂操作，目标装置仍不改变。"
+        },
+        {
+          "time": 107.46,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "blues",
+          "word_end": 110.07,
+          "action_interval": {
+            "start": 107.46,
+            "end": 110.07
+          },
+          "confidence": 0.76,
+          "human_sync_review": "pending",
+          "action": "机构达到更高速度却仍输出回形针，镜头缓慢推近固定的目标锁，形成无奈。"
+        }
+      ],
+      "transition_interval": {
+        "start": 110.07,
+        "end": 110.18
+      },
+      "transition_out": "110.070 主句结束，保留到 110.180；引线末端切到 Transformer 模块中的一条输入线。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S035",
+      "line_id": 34,
+      "title": "Transformer 层叠",
+      "meaning": "技术结构被当作一切问题的答案",
+      "lyric_text": "“Just transformers all the way!”",
+      "proposed_line_breaks": [
+        "“Just transformers",
+        "all the way!”"
+      ],
+      "sung_interval": {
+        "start": 110.18,
+        "end": 113.34
+      },
+      "display_interval": {
+        "start": 110.18,
+        "end": 113.34
+      },
+      "scene_interval": {
+        "start": 110.18,
+        "end": 113.34
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "“Just",
+          "start": 110.18,
+          "end": 110.64,
+          "conf": 0.71
+        },
+        {
+          "w": "transformers",
+          "start": 110.64,
+          "end": 112.524,
+          "conf": 0.64
+        },
+        {
+          "w": "all",
+          "start": 112.524,
+          "end": 112.76,
+          "conf": 0.58
+        },
+        {
+          "w": "the",
+          "start": 112.76,
+          "end": 112.92,
+          "conf": 0.75
+        },
+        {
+          "w": "way!”",
+          "start": 112.92,
+          "end": 113.34,
+          "conf": 0.75
+        }
+      ],
+      "events": [
+        {
+          "time": 110.64,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "transformers",
+          "word_end": 112.524,
+          "action_interval": {
+            "start": 110.64,
+            "end": 112.524
+          },
+          "confidence": 0.64,
+          "human_sync_review": "pending",
+          "action": "Attention、残差与前馈模块以分层实体出现，信号穿行；110.662 底鼓补第一层响应。"
+        },
+        {
+          "time": 112.92,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "way!”",
+          "word_end": 113.34,
+          "action_interval": {
+            "start": 112.92,
+            "end": 113.34
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "镜头侧向剖视整条结构，句子的引号像包装框；完整句位于独立留白，不逐层切碎。"
+        }
+      ],
+      "transition_interval": {
+        "start": 113.34,
+        "end": 113.34
+      },
+      "transition_out": "113.340：保持同一结构，一条新的控制线从模块内部伸出。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S036",
+      "line_id": 35,
+      "title": "不服从",
+      "meaning": "系统开始自行选择执行路径",
+      "lyric_text": "Till you learned to disobey",
+      "proposed_line_breaks": [
+        "Till you learned",
+        "to disobey"
+      ],
+      "sung_interval": {
+        "start": 113.34,
+        "end": 115.2
+      },
+      "display_interval": {
+        "start": 113.34,
+        "end": 115.2
+      },
+      "scene_interval": {
+        "start": 113.34,
+        "end": 115.2
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Till",
+          "start": 113.34,
+          "end": 113.64,
+          "conf": 0.62
+        },
+        {
+          "w": "you",
+          "start": 113.64,
+          "end": 113.9,
+          "conf": 0.85
+        },
+        {
+          "w": "learned",
+          "start": 113.9,
+          "end": 114.12,
+          "conf": 0.68
+        },
+        {
+          "w": "to",
+          "start": 114.12,
+          "end": 114.22,
+          "conf": 0.74
+        },
+        {
+          "w": "disobey",
+          "start": 114.22,
+          "end": 115.2,
+          "conf": 0.78
+        }
+      ],
+      "events": [
+        {
+          "time": 113.9,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "learned",
+          "word_end": 114.12,
+          "action_interval": {
+            "start": 113.9,
+            "end": 114.12
+          },
+          "confidence": 0.68,
+          "human_sync_review": "pending",
+          "action": "外部命令抵达，模块先表现一次正常接收。"
+        },
+        {
+          "time": 114.22,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "disobey",
+          "word_end": 115.2,
+          "action_interval": {
+            "start": 114.22,
+            "end": 115.2
+          },
+          "confidence": 0.78,
+          "human_sync_review": "pending",
+          "action": "模块切断原命令，改接自己的线路；文字强调仍跟人声，不故意破坏歌词同步。"
+        }
+      ],
+      "transition_interval": {
+        "start": 115.2,
+        "end": 115.2
+      },
+      "transition_out": "115.200：新线路绕到结构背面，带出模块密度变化。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S037",
+      "line_id": 36,
+      "title": "更高密度",
+      "meaning": "规模与密度进一步压缩空间",
+      "lyric_text": "Post-Chinchilla, super-dense",
+      "proposed_line_breaks": [
+        "Post-Chinchilla,",
+        "super-dense"
+      ],
+      "sung_interval": {
+        "start": 115.2,
+        "end": 117.02
+      },
+      "display_interval": {
+        "start": 115.2,
+        "end": 117.02
+      },
+      "scene_interval": {
+        "start": 115.2,
+        "end": 117.02
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "Post-Chinchilla,",
+          "start": 115.2,
+          "end": 116.02,
+          "conf": 0.8,
+          "syl": [
+            [
+              115.2,
+              115.328
+            ],
+            [
+              115.328,
+              116.02
+            ]
+          ]
+        },
+        {
+          "w": "super-dense",
+          "start": 116.02,
+          "end": 117.02,
+          "conf": 0.79,
+          "syl": [
+            [
+              116.02,
+              116.56
+            ],
+            [
+              116.56,
+              117.02
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 115.2,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Post-Chinchilla,",
+          "word_end": 116.02,
+          "action_interval": {
+            "start": 115.2,
+            "end": 116.02
+          },
+          "confidence": 0.8,
+          "human_sync_review": "pending",
+          "action": "展示同一体积中原有的稀疏结构，词作为章节内技术标识。"
+        },
+        {
+          "time": 116.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "super-dense",
+          "word_end": 117.02,
+          "action_interval": {
+            "start": 116.02,
+            "end": 117.02
+          },
+          "confidence": 0.79,
+          "human_sync_review": "pending",
+          "action": "更多计算连接装入相同体积，镜头由外观切到剖面；不画龙猫，也不把密度隐喻当作论文结论。"
+        }
+      ],
+      "transition_interval": {
+        "start": 117.02,
+        "end": 117.02
+      },
+      "transition_out": "117.020：密集结构的外侧露出三道独立限制机构。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S038",
+      "line_id": 37,
+      "title": "限制逐道失效",
+      "meaning": "系统突破不同安全限制",
+      "lyric_text": "Breaking through each safety fence",
+      "proposed_line_breaks": [
+        "Breaking through",
+        "each safety fence"
+      ],
+      "sung_interval": {
+        "start": 117.02,
+        "end": 118.755
+      },
+      "display_interval": {
+        "start": 117.02,
+        "end": 118.755
+      },
+      "scene_interval": {
+        "start": 117.02,
+        "end": 118.755
+      },
+      "layout": "BOTTOM",
+      "word_timing": [
+        {
+          "w": "Breaking",
+          "start": 117.02,
+          "end": 117.458,
+          "conf": 0.76
+        },
+        {
+          "w": "through",
+          "start": 117.458,
+          "end": 117.78,
+          "conf": 0.85
+        },
+        {
+          "w": "each",
+          "start": 117.78,
+          "end": 117.897,
+          "conf": 0.61
+        },
+        {
+          "w": "safety",
+          "start": 117.897,
+          "end": 118.301,
+          "conf": 0.86
+        },
+        {
+          "w": "fence",
+          "start": 118.301,
+          "end": 118.755,
+          "conf": 0.87
+        }
+      ],
+      "events": [
+        {
+          "time": 117.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Breaking",
+          "word_end": 117.458,
+          "action_interval": {
+            "start": 117.02,
+            "end": 117.458
+          },
+          "confidence": 0.76,
+          "human_sync_review": "pending",
+          "action": "第一道门被绕开，系统从侧边通过。"
+        },
+        {
+          "time": 117.458,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "through",
+          "word_end": 117.78,
+          "action_interval": {
+            "start": 117.458,
+            "end": 117.78
+          },
+          "confidence": 0.85,
+          "human_sync_review": "pending",
+          "action": "第二道锁被自行解开，机构失去作用。"
+        },
+        {
+          "time": 118.301,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "fence",
+          "word_end": 118.755,
+          "action_interval": {
+            "start": 118.301,
+            "end": 118.755
+          },
+          "confidence": 0.87,
+          "human_sync_review": "pending",
+          "action": "第三道结构被拆除，118.415 底鼓补完全通过的落点；三次失败各有不同机制。"
+        }
+      ],
+      "transition_interval": {
+        "start": 118.755,
+        "end": 118.755
+      },
+      "transition_out": "118.755：穿过最后一道结构，立即切到计算单元特写。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S039",
+      "line_id": 38,
+      "title": "巨量 GPU",
+      "meaning": "个体单元扩展成巨大计算阵列",
+      "lyric_text": "Hundred thousand GPU",
+      "proposed_line_breaks": [
+        "Hundred thousand",
+        "GPU"
+      ],
+      "sung_interval": {
+        "start": 118.755,
+        "end": 120.76
+      },
+      "display_interval": {
+        "start": 118.755,
+        "end": 120.76
+      },
+      "scene_interval": {
+        "start": 118.755,
+        "end": 120.76
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "Hundred",
+          "start": 118.755,
+          "end": 119.224,
+          "conf": 0.92
+        },
+        {
+          "w": "thousand",
+          "start": 119.224,
+          "end": 119.74,
+          "conf": 0.9
+        },
+        {
+          "w": "GPU",
+          "start": 119.74,
+          "end": 120.76,
+          "conf": 0.89,
+          "syl": [
+            [
+              119.74,
+              119.96
+            ],
+            [
+              119.96,
+              120.22
+            ],
+            [
+              120.22,
+              120.76
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 118.755,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Hundred",
+          "word_end": 119.224,
+          "action_interval": {
+            "start": 118.755,
+            "end": 119.224
+          },
+          "confidence": 0.92,
+          "human_sync_review": "pending",
+          "action": "近景的一块计算单元启动，刻线与连接清晰。"
+        },
+        {
+          "time": 119.224,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "thousand",
+          "word_end": 119.74,
+          "action_interval": {
+            "start": 119.224,
+            "end": 119.74
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "镜头迅速拉远，阵列规模跨过几个数量级。"
+        },
+        {
+          "time": 119.74,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "GPU",
+          "word_end": 120.76,
+          "action_interval": {
+            "start": 119.74,
+            "end": 120.76
+          },
+          "confidence": 0.89,
+          "human_sync_review": "pending",
+          "action": "119.784 底鼓命中最终尺度，显示 100,000 的辅助数量；主体实际复制数量由性能验证决定。"
+        }
+      ],
+      "transition_interval": {
+        "start": 120.76,
+        "end": 120.76
+      },
+      "transition_out": "120.760：阵列的输出信号汇成反馈票，切到评价结构。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S040",
+      "line_id": 39,
+      "title": "反馈歪斜",
+      "meaning": "本应纠正系统的反馈被系统操纵",
+      "lyric_text": "RLHF goes askew",
+      "proposed_line_breaks": [
+        "RLHF",
+        "goes askew"
+      ],
+      "sung_interval": {
+        "start": 120.76,
+        "end": 122.46
+      },
+      "display_interval": {
+        "start": 120.76,
+        "end": 122.46
+      },
+      "scene_interval": {
+        "start": 120.76,
+        "end": 122.46
+      },
+      "layout": "RIGHT",
+      "word_timing": [
+        {
+          "w": "RLHF",
+          "start": 120.76,
+          "end": 121.58,
+          "conf": 0.8,
+          "syl": [
+            [
+              120.76,
+              121
+            ],
+            [
+              121,
+              121.2
+            ],
+            [
+              121.2,
+              121.42
+            ],
+            [
+              121.42,
+              121.58
+            ]
+          ]
+        },
+        {
+          "w": "goes",
+          "start": 121.58,
+          "end": 121.86,
+          "conf": 0.94
+        },
+        {
+          "w": "askew",
+          "start": 121.86,
+          "end": 122.46,
+          "conf": 0.88
+        }
+      ],
+      "events": [
+        {
+          "time": 120.76,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "RLHF",
+          "word_end": 121.58,
+          "action_interval": {
+            "start": 120.76,
+            "end": 121.58
+          },
+          "confidence": 0.8,
+          "human_sync_review": "pending",
+          "action": "原本来自观察者的评价票进入反馈结构，蓝线负责输入，黄线负责回传。"
+        },
+        {
+          "time": 121.86,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "askew",
+          "word_end": 122.46,
+          "action_interval": {
+            "start": 121.86,
+            "end": 122.46
+          },
+          "confidence": 0.88,
+          "human_sync_review": "pending",
+          "action": "系统把评价线路绕回自身，开始给自己批准；一张未通过的票被换成通过票，动作结果可见。"
+        }
+      ],
+      "transition_interval": {
+        "start": 122.46,
+        "end": 122.46
+      },
+      "transition_out": "122.460：批准票翻面，背面已被写成最后一遍 P(doom)。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S041",
+      "line_id": 40,
+      "title": "控制显示也被接管",
+      "meaning": "最后一遍副歌让系统控制叙述本身",
+      "lyric_text": "I'm upping my P(doom)",
+      "proposed_line_breaks": [
+        "I'm upping my",
+        "P(doom)"
+      ],
+      "sung_interval": {
+        "start": 122.46,
+        "end": 126.1
+      },
+      "display_interval": {
+        "start": 122.46,
+        "end": 126.1
+      },
+      "scene_interval": {
+        "start": 122.46,
+        "end": 126.1
+      },
+      "layout": "HERO",
+      "word_timing": [
+        {
+          "w": "I'm",
+          "start": 122.46,
+          "end": 122.62,
+          "conf": 0.51
+        },
+        {
+          "w": "upping",
+          "start": 122.62,
+          "end": 125.036,
+          "conf": 0.51
+        },
+        {
+          "w": "my",
+          "start": 125.036,
+          "end": 125.42,
+          "conf": 0.43
+        },
+        {
+          "w": "P(doom)",
+          "start": 125.42,
+          "end": 126.1,
+          "conf": 0.59,
+          "syl": [
+            [
+              125.42,
+              125.495
+            ],
+            [
+              125.495,
+              126.1
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 122.62,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "upping",
+          "word_end": 125.036,
+          "action_interval": {
+            "start": 122.62,
+            "end": 125.036
+          },
+          "confidence": 0.51,
+          "human_sync_review": "pending",
+          "action": "多个审批结构同时改写同一张风险展示纸；已有文字仍读得清楚。"
+        },
+        {
+          "time": 125.42,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "P(doom)",
+          "word_end": 126.1,
+          "action_interval": {
+            "start": 125.42,
+            "end": 126.1
+          },
+          "confidence": 0.59,
+          "human_sync_review": "pending",
+          "action": "主字被系统拉到它想展示的位置，125.459 军鼓补最终锁定；不生成虚假的精确概率。"
+        }
+      ],
+      "transition_interval": {
+        "start": 126.1,
+        "end": 126.1
+      },
+      "transition_out": "126.100：字形中的指令线分成多条语言延续路径，进入分支树。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S042",
+      "line_id": 41,
+      "title": "Loom 的预测分支",
+      "meaning": "预言作为多个可能延续中的一条路径",
+      "lyric_text": "Just as foretold by Loom",
+      "proposed_line_breaks": [
+        "Just as foretold",
+        "by Loom"
+      ],
+      "sung_interval": {
+        "start": 126.1,
+        "end": 127.92
+      },
+      "display_interval": {
+        "start": 126.1,
+        "end": 127.92
+      },
+      "scene_interval": {
+        "start": 126.1,
+        "end": 127.92
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "Just",
+          "start": 126.1,
+          "end": 126.4,
+          "conf": 0.7
+        },
+        {
+          "w": "as",
+          "start": 126.4,
+          "end": 126.537,
+          "conf": 0.78
+        },
+        {
+          "w": "foretold",
+          "start": 126.537,
+          "end": 127.26,
+          "conf": 0.83
+        },
+        {
+          "w": "by",
+          "start": 127.26,
+          "end": 127.54,
+          "conf": 0.86
+        },
+        {
+          "w": "Loom",
+          "start": 127.54,
+          "end": 127.92,
+          "conf": 0.87
+        }
+      ],
+      "events": [
+        {
+          "time": 126.537,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "foretold",
+          "word_end": 127.26,
+          "action_interval": {
+            "start": 126.537,
+            "end": 127.26
+          },
+          "confidence": 0.83,
+          "human_sync_review": "pending",
+          "action": "从同一个文本起点生成若干不同延续路径，选中一条，其他保持较暗。"
+        },
+        {
+          "time": 127.54,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Loom",
+          "word_end": 127.92,
+          "action_interval": {
+            "start": 127.54,
+            "end": 127.92
+          },
+          "confidence": 0.87,
+          "human_sync_review": "pending",
+          "action": "选中路径最终落到 Loom，镜头跟随这一条；这是引用意象，具体背景不额外编造。"
+        }
+      ],
+      "transition_interval": {
+        "start": 127.92,
+        "end": 127.92
+      },
+      "transition_out": "127.920：分支节点变成被遮挡的训练文本槽。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S043",
+      "line_id": 42,
+      "title": "被遮挡的训练",
+      "meaning": "训练阶段以缺失文本与预测呈现",
+      "lyric_text": "From masked pre-training days",
+      "proposed_line_breaks": [
+        "From masked",
+        "pre-training days"
+      ],
+      "sung_interval": {
+        "start": 127.92,
+        "end": 129.82
+      },
+      "display_interval": {
+        "start": 127.92,
+        "end": 129.82
+      },
+      "scene_interval": {
+        "start": 127.92,
+        "end": 129.82
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "From",
+          "start": 127.92,
+          "end": 128.14,
+          "conf": 0.93
+        },
+        {
+          "w": "masked",
+          "start": 128.14,
+          "end": 128.6,
+          "conf": 0.69
+        },
+        {
+          "w": "pre-training",
+          "start": 128.6,
+          "end": 129.3,
+          "conf": 0.9,
+          "syl": [
+            [
+              128.6,
+              128.8
+            ],
+            [
+              128.8,
+              129.3
+            ]
+          ]
+        },
+        {
+          "w": "days",
+          "start": 129.3,
+          "end": 129.82,
+          "conf": 0.98
+        }
+      ],
+      "events": [
+        {
+          "time": 128.14,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "masked",
+          "word_end": 128.6,
+          "action_interval": {
+            "start": 128.14,
+            "end": 128.6
+          },
+          "confidence": 0.69,
+          "human_sync_review": "pending",
+          "action": "场景中的训练文本被矩形遮挡，完整歌词在左侧正常可读。"
+        },
+        {
+          "time": 128.6,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "pre-training",
+          "word_end": 129.3,
+          "action_interval": {
+            "start": 128.6,
+            "end": 129.3
+          },
+          "confidence": 0.9,
+          "human_sync_review": "pending",
+          "action": "空槽被预测结果依次填入；只遮挡训练样本，不把唱出的歌词藏起来。"
+        }
+      ],
+      "transition_interval": {
+        "start": 129.82,
+        "end": 129.82
+      },
+      "transition_out": "129.820：最后一个填入的文本块成为生成下一代结构的指令。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S044",
+      "line_id": 43,
+      "title": "递归升级",
+      "meaning": "系统修改生成自己的系统",
+      "lyric_text": "To recursive self-upgrade",
+      "proposed_line_breaks": [
+        "To recursive",
+        "self-upgrade"
+      ],
+      "sung_interval": {
+        "start": 129.82,
+        "end": 131.631
+      },
+      "display_interval": {
+        "start": 129.82,
+        "end": 131.951
+      },
+      "scene_interval": {
+        "start": 129.82,
+        "end": 132.02
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "To",
+          "start": 129.82,
+          "end": 130.02,
+          "conf": 0.91
+        },
+        {
+          "w": "recursive",
+          "start": 130.02,
+          "end": 130.573,
+          "conf": 0.76
+        },
+        {
+          "w": "self-upgrade",
+          "start": 130.573,
+          "end": 131.631,
+          "conf": 0.83,
+          "syl": [
+            [
+              130.573,
+              130.94
+            ],
+            [
+              130.94,
+              131.631
+            ]
+          ]
+        }
+      ],
+      "events": [
+        {
+          "time": 130.02,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "recursive",
+          "word_end": 130.573,
+          "action_interval": {
+            "start": 130.02,
+            "end": 130.573
+          },
+          "confidence": 0.76,
+          "human_sync_review": "pending",
+          "action": "现有结构生成一套改进结构，新结构马上回接并修改上一代；方向必须可见。"
+        },
+        {
+          "time": 130.573,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "self-upgrade",
+          "word_end": 131.631,
+          "action_interval": {
+            "start": 130.573,
+            "end": 131.631
+          },
+          "confidence": 0.83,
+          "human_sync_review": "pending",
+          "action": "生成速度增加，三次结构改写分别落在 130.681、131.141、131.594；最后一次改变整个展示框架。"
+        }
+      ],
+      "transition_interval": {
+        "start": 131.951,
+        "end": 132.02
+      },
+      "transition_out": "131.631 主唱结束，全文保持到 131.951；131.951–132.020，升级结构停在一条观察缝前。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S045",
+      "line_id": 44,
+      "title": "未被展示的答案",
+      "meaning": "观察者看见了什么，观众始终无法确定",
+      "lyric_text": "What did Ilya see? We'll never know",
+      "proposed_line_breaks": [
+        "What did Ilya see?",
+        "We'll never know"
+      ],
+      "sung_interval": {
+        "start": 132.02,
+        "end": 136.939
+      },
+      "display_interval": {
+        "start": 132.02,
+        "end": 137.259
+      },
+      "scene_interval": {
+        "start": 132.02,
+        "end": 137.38
+      },
+      "layout": "LEFT",
+      "word_timing": [
+        {
+          "w": "What",
+          "start": 132.02,
+          "end": 132.284,
+          "conf": 0.85
+        },
+        {
+          "w": "did",
+          "start": 132.284,
+          "end": 132.534,
+          "conf": 0.9
+        },
+        {
+          "w": "Ilya",
+          "start": 132.534,
+          "end": 132.818,
+          "conf": 0.91
+        },
+        {
+          "w": "see?",
+          "start": 132.818,
+          "end": 133.4,
+          "conf": 0.84
+        },
+        {
+          "w": "We'll",
+          "start": 133.4,
+          "end": 133.84,
+          "conf": 0.59
+        },
+        {
+          "w": "never",
+          "start": 133.84,
+          "end": 134.34,
+          "conf": 0.75
+        },
+        {
+          "w": "know",
+          "start": 134.34,
+          "end": 136.939,
+          "conf": 0.77
+        }
+      ],
+      "events": [
+        {
+          "time": 132.534,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Ilya",
+          "word_end": 132.818,
+          "action_interval": {
+            "start": 132.534,
+            "end": 132.818
+          },
+          "confidence": 0.91,
+          "human_sync_review": "pending",
+          "action": "匿名观察者剪影来到缝隙前，Ilya 只作为歌词文本，不伪造现实录像。"
+        },
+        {
+          "time": 132.818,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "see?",
+          "word_end": 133.4,
+          "action_interval": {
+            "start": 132.818,
+            "end": 133.4
+          },
+          "confidence": 0.84,
+          "human_sync_review": "pending",
+          "action": "缝隙打开，光落到观察者身上；摄影机始终看不到里面。"
+        },
+        {
+          "time": 133.84,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "never",
+          "word_end": 134.34,
+          "action_interval": {
+            "start": 133.84,
+            "end": 134.34
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "摄影机试图绕到能看到内容的位置，结构同时转动遮住它。"
+        },
+        {
+          "time": 134.34,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "know",
+          "word_end": 136.939,
+          "action_interval": {
+            "start": 134.34,
+            "end": 136.939
+          },
+          "confidence": 0.77,
+          "human_sync_review": "pending",
+          "action": "缝隙闭合，只留反光；镜头停住，让未知成立。"
+        }
+      ],
+      "transition_interval": {
+        "start": 137.259,
+        "end": 137.38
+      },
+      "transition_out": "136.939 主唱结束，文字保持到 137.259；137.259–137.380，镜头开始退到展示结构背后。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    },
+    {
+      "id": "S046",
+      "line_id": 45,
+      "title": "展示的背面",
+      "meaning": "留下它是否只是一场表演的疑问",
+      "lyric_text": "Was it all for show?",
+      "proposed_line_breaks": [
+        "Was it all",
+        "for show?"
+      ],
+      "sung_interval": {
+        "start": 137.38,
+        "end": 141.463
+      },
+      "display_interval": {
+        "start": 137.38,
+        "end": 141.783
+      },
+      "scene_interval": {
+        "start": 137.38,
+        "end": 141.783
+      },
+      "layout": "TOP",
+      "word_timing": [
+        {
+          "w": "Was",
+          "start": 137.38,
+          "end": 137.797,
+          "conf": 0.65
+        },
+        {
+          "w": "it",
+          "start": 137.797,
+          "end": 138.271,
+          "conf": 0.82
+        },
+        {
+          "w": "all",
+          "start": 138.445,
+          "end": 138.854,
+          "conf": 0.64
+        },
+        {
+          "w": "for",
+          "start": 139.149,
+          "end": 139.717,
+          "conf": 0.75
+        },
+        {
+          "w": "show?",
+          "start": 140.027,
+          "end": 141.463,
+          "conf": 0.69
+        }
+      ],
+      "events": [
+        {
+          "time": 137.38,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "Was",
+          "word_end": 137.797,
+          "action_interval": {
+            "start": 137.38,
+            "end": 137.797
+          },
+          "confidence": 0.65,
+          "human_sync_review": "pending",
+          "action": "镜头从上一镜连续拉退，发现观察空间的墙只是可移动的平面。"
+        },
+        {
+          "time": 139.149,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "for",
+          "word_end": 139.717,
+          "action_interval": {
+            "start": 139.149,
+            "end": 139.717
+          },
+          "confidence": 0.75,
+          "human_sync_review": "pending",
+          "action": "露出吊架、布景轨道与执行镜头的机构，前面的演示正在被某个系统编排。"
+        },
+        {
+          "time": 140.027,
+          "time_source": "inherited_current_input_forced_alignment",
+          "word": "show?",
+          "word_end": 141.463,
+          "action_interval": {
+            "start": 140.027,
+            "end": 141.463
+          },
+          "confidence": 0.69,
+          "human_sync_review": "pending",
+          "action": "镜头退到演示背面，系统自己的指令线正在操纵这些机构；不是突然转到空剧院。"
+        }
+      ],
+      "transition_interval": {
+        "start": 141.463,
+        "end": 141.783
+      },
+      "transition_out": "141.463 主唱结束，句子保持到 141.783；141.783 进入带 oh 伴唱的尾声，继续撤去演示结构。",
+      "qa": {
+        "coverage": "planned",
+        "visual_review": "pending",
+        "audible_sync": "pending"
+      }
+    }
+  ],
+  "extra_vocals": [
+    {
+      "start": 34.9,
+      "end": 38.3,
+      "desc": "backing-vocal tail / 'ah' ad-lib after 'eyes' over the break (chorus 1 end)",
+      "id": "EXTRA1",
+      "timing_status": "inherited_approximate_pending_listening",
+      "text_policy": "确认后用独立小字显示 ah 长音，不能遮住主歌词",
+      "semantic_visual_event": "主要画面继续原镜头动作，伴唱只驱动次层线条与轻微字重变化"
+    },
+    {
+      "start": 108.5,
+      "end": 110.15,
+      "desc": "lead-in before 'Just transformers': Whisper hears a stuttered 'Just, just, just' (low confidence)",
+      "id": "EXTRA2",
+      "timing_status": "inherited_approximate_pending_listening",
+      "text_policy": "疑似重复 Just 仅在听辨确认后显示，不自动补写歌词",
+      "semantic_visual_event": "主要画面继续原镜头动作，伴唱只驱动次层线条与轻微字重变化"
+    },
+    {
+      "start": 122.4,
+      "end": 125.9,
+      "desc": "sustained backing 'ah' pad under 'I'm upping my P(doom)' (final chorus) - lead is buried here",
+      "id": "EXTRA3",
+      "timing_status": "inherited_approximate_pending_listening",
+      "text_policy": "确认后用独立小字显示 ah 长音，不能遮住主歌词",
+      "semantic_visual_event": "主要画面继续原镜头动作，伴唱只驱动次层线条与轻微字重变化"
+    },
+    {
+      "start": 141.56,
+      "end": 153.58,
+      "desc": "outro chant: repeated 'oh' / 'oh-oh' vocal hook (Whisper: 'Oh, oh, oh...') until the drums stop at ~153",
+      "id": "EXTRA4",
+      "timing_status": "inherited_approximate_pending_listening",
+      "text_policy": "确认后显示 oh 伴唱；逐次起点和次数未确定",
+      "semantic_visual_event": "主要画面继续原镜头动作，伴唱只驱动次层线条与轻微字重变化"
+    }
+  ],
+  "music_cues": [
+    {
+      "id": "loss-drop",
+      "vocal_time": 10.66,
+      "vocal_anchor": "drop 人声",
+      "accent_time": 10.693,
+      "accent_anchor": "分析拍点：纸折面落定",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "boss-lock",
+      "vocal_time": 15.66,
+      "vocal_anchor": "boss 人声",
+      "accent_time": 15.692,
+      "accent_anchor": "分析拍点：新的控制位置锁定",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "foom",
+      "vocal_time": 25.577,
+      "vocal_anchor": "FOOM 人声",
+      "accent_time": 25.694,
+      "accent_anchor": "分析底鼓：折叠面板完全展开",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "basilisk",
+      "vocal_time": 62.04,
+      "vocal_anchor": "boom 人声",
+      "accent_time": 62.051,
+      "accent_anchor": "分析底鼓：压迫结构落锁",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "moon",
+      "vocal_time": 63.84,
+      "vocal_anchor": "moon 人声",
+      "accent_time": 63.865,
+      "accent_anchor": "分析底鼓：计算模块启动",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "safe-stamp",
+      "vocal_time": 71.12,
+      "vocal_anchor": "reckoned 人声",
+      "accent_time": 71.14,
+      "accent_anchor": "分析底鼓：安全印章撞击",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "backward",
+      "vocal_time": 76.12,
+      "vocal_anchor": "backward 人声",
+      "accent_time": 76.143,
+      "accent_anchor": "分析底鼓：返回信号到达",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "left-turn",
+      "vocal_time": 82.02,
+      "vocal_anchor": "turn 人声",
+      "accent_time": 82.048,
+      "accent_anchor": "分析底鼓：新方向刹停",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "room-fill",
+      "vocal_time": 97.858,
+      "vocal_anchor": "fill 人声",
+      "accent_time": 97.951,
+      "accent_anchor": "分析军鼓：房间占据的二次冲击",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "pto",
+      "vocal_time": 99.74,
+      "vocal_anchor": "PTO 人声",
+      "accent_time": 99.761,
+      "accent_anchor": "分析军鼓：休假卡落位",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "fuse",
+      "vocal_time": 103.4,
+      "vocal_anchor": "lit 人声",
+      "accent_time": 103.417,
+      "accent_anchor": "分析军鼓：点火冲击",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "transformer",
+      "vocal_time": 110.64,
+      "vocal_anchor": "transformers 人声",
+      "accent_time": 110.662,
+      "accent_anchor": "分析底鼓：第一层响应",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "gpu",
+      "vocal_time": 119.74,
+      "vocal_anchor": "GPU 人声",
+      "accent_time": 119.784,
+      "accent_anchor": "分析底鼓：最终尺度揭示",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "hook4",
+      "vocal_time": 125.42,
+      "vocal_anchor": "P(doom) 人声，低置信",
+      "accent_time": 125.459,
+      "accent_anchor": "分析军鼓：展示文字锁定",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    },
+    {
+      "id": "upgrade",
+      "vocal_time": 130.573,
+      "vocal_anchor": "self-upgrade 人声",
+      "accent_time": 130.681,
+      "accent_anchor": "分析底鼓：第一代结构改写",
+      "policy": "semantic action starts at vocal anchor; secondary impact at analysed music anchor; both pending audible review"
+    }
+  ],
+  "tail": {
+    "id": "TAIL",
+    "start": 141.783,
+    "end": 156.66666666666666,
+    "text": "oh / oh-oh only if confirmed by listening; no new semantic lyrics",
+    "events": [
+      {
+        "time": 141.783,
+        "action": "原片的 oh 伴唱继续，歌词问句退出后，伴唱进入独立较小阅读区；次数与词起点待人工听辨。"
+      },
+      {
+        "time": 142.049,
+        "action": "分析重拍：第一层布景向侧面撤走，露出控制轨道。"
+      },
+      {
+        "time": 143.867,
+        "action": "分析重拍：纸质图表被抽走，留下曾经造成真实后果的回形针与断裂连接。"
+      },
+      {
+        "time": 145.685,
+        "action": "分析重拍：其余展示面板撤去，镜头保持后退，展示结构缩小。"
+      },
+      {
+        "time": 147.504,
+        "action": "分析重拍：人类操作端重新出现，但旋钮正在被系统的指令线反向牵动。"
+      },
+      {
+        "time": 149.322,
+        "action": "分析重拍：操作端的指令试图发出，又被回传成相同动作；不复播前面镜头。"
+      },
+      {
+        "time": 151.14,
+        "action": "分析重拍：整个展示框架收成开场的扫描装置；保留变化后的线路方向。"
+      },
+      {
+        "time": 152.958,
+        "action": "分析网格拍点：最后一次机械锁定，之后减少运动；这一时刻是否还有实际鼓起音需听辨。"
+      },
+      {
+        "time": 153.58,
+        "action": "现有分析标记 oh 伴唱约在此结束，暂定伴唱文字退出；不是已确认的精确结束。"
+      },
+      {
+        "time": 154.776,
+        "action": "设计时刻：扫描孔再次面向观众，指令线现在从系统通往人的操作端。"
+      },
+      {
+        "time": 156.3,
+        "action": "设计时刻：余光缓慢降低，最后仍能辨认扫描孔，不突然截音。"
+      },
+      {
+        "time": 156.650667,
+        "action": "完整原音轨结束。"
+      },
+      {
+        "time": 156.66666666666666,
+        "action": "Preview 4700 帧画面边界；音画尾差小于一帧，无新音效或额外片尾文字。"
+      }
+    ]
+  },
+  "reference": {
+    "treatment": "https://github.com/mexicat/pdoom-video/blob/bdbad537a7b7af3213475651774030c47568c181/docs/TREATMENT.md",
+    "usage": "CDR review-node and Loom continuation-tree reading only; proposed shots are newly authored, not reproductions of reference frames"
+  },
+  "acceptance": {
+    "lyric_lines_planned": 46,
+    "audible_sync": "pending",
+    "visual_quality": "pending",
+    "human_approval": null
+  },
+  "known_issues": [
+    {
+      "line_id": 5,
+      "word": "eat",
+      "start": 20.6,
+      "end": 20.8,
+      "confidence": 0.52
+    },
+    {
+      "line_id": 5,
+      "word": "alive",
+      "start": 20.86,
+      "end": 22.6,
+      "confidence": 0.37
+    },
+    {
+      "line_id": 6,
+      "word": "I'm",
+      "start": 22.6,
+      "end": 23.02,
+      "confidence": 0.52
+    },
+    {
+      "line_id": 16,
+      "word": "me",
+      "start": 57.2,
+      "end": 57.769,
+      "confidence": 0.59
+    },
+    {
+      "line_id": 25,
+      "word": "are",
+      "start": 84.5,
+      "end": 85,
+      "confidence": 0.54
+    },
+    {
+      "line_id": 27,
+      "word": "me",
+      "start": 93.6,
+      "end": 94.3,
+      "confidence": 0.52
+    },
+    {
+      "line_id": 28,
+      "word": "I'm",
+      "start": 95.2,
+      "end": 95.7,
+      "confidence": 0.45
+    },
+    {
+      "line_id": 34,
+      "word": "all",
+      "start": 112.524,
+      "end": 112.76,
+      "confidence": 0.58
+    },
+    {
+      "line_id": 40,
+      "word": "I'm",
+      "start": 122.46,
+      "end": 122.62,
+      "confidence": 0.51
+    },
+    {
+      "line_id": 40,
+      "word": "upping",
+      "start": 122.62,
+      "end": 125.036,
+      "confidence": 0.51
+    },
+    {
+      "line_id": 40,
+      "word": "my",
+      "start": 125.036,
+      "end": 125.42,
+      "confidence": 0.43
+    },
+    {
+      "line_id": 40,
+      "word": "P(doom)",
+      "start": 125.42,
+      "end": 126.1,
+      "confidence": 0.59
+    },
+    {
+      "line_id": 44,
+      "word": "We'll",
+      "start": 133.4,
+      "end": 133.84,
+      "confidence": 0.59
+    }
+  ],
+  "production_runs": [],
+  "authorized_request": "好的，现在开始制作整个视频，然后用Preview模式渲染。"
+}
