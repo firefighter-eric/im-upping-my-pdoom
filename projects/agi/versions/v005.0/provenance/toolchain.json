@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-02T14:38:11.493Z",
+  "authoring_agent": "Codex (GPT-6)",
+  "node": "v25.8.2",
+  "packages": {
+    "three": "0.186.1",
+    "playwright": "1.63.0",
+    "vite": "8.3.2",
+    "typescript": "7.0.2",
+    "opentype.js": "2.0.0"
+  },
+  "new_ai_media_models": [],
+  "analysis_models": "Inherited same-input V2 analysis; see manifest audio_pipeline",
+  "prompt_language": "zh-CN"
+}

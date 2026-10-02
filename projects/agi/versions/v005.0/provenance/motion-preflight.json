@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-02T14:34:25.271Z",
+  "build": "60e221747024b2b839b51a19c47840574b6af9f78f04271c32cf90986ccea275",
+  "errors": [],
+  "ranges": [
+    {
+      "start": 9.95,
+      "duration": 1.5,
+      "path": ".cache/v005-authoring/motion-0.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    },
+    {
+      "start": 23.25,
+      "duration": 3.1,
+      "path": ".cache/v005-authoring/motion-1.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    },
+    {
+      "start": 50.8,
+      "duration": 1.5,
+      "path": ".cache/v005-authoring/motion-2.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    },
+    {
+      "start": 95.65,
+      "duration": 3.1,
+      "path": ".cache/v005-authoring/motion-3.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    },
+    {
+      "start": 122.7,
+      "duration": 3.4,
+      "path": ".cache/v005-authoring/motion-4.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    },
+    {
+      "start": 130.1,
+      "duration": 1.7,
+      "path": ".cache/v005-authoring/motion-5.mp4",
+      "purpose": "disposable authoring diagnostic, AAC reencoded only in this diagnostic"
+    }
+  ],
+  "perceptual_audio_sync": "pending"
+}
