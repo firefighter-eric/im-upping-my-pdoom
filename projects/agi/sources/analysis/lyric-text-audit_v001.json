@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_LYRICS_TEXT_AUDIT_001",
+  "project_id": "LLMV_001",
+  "audited_at": "2026-10-03T22:17:33+08:00",
+  "scope": "Registered main lyric text and available layout data; not an audible alignment review or frame-by-frame media acceptance.",
+  "sources": {
+    "canonical": {
+      "author": "osmarks",
+      "url": "https://docs.osmarks.net/hypha/p%28doom%29_song_objectively_correct_interpretation",
+      "document_sha256": "21241d04d2a756190afb47c9325150c38a4b4e5d07b0826bdd2dbd78b7ef0dc4",
+      "display_lines_sha256": "54dc6e6f607916ee112d0b1557a17f54a7980a6756368734333b1ba93122c64d",
+      "display_lines_serialization": "UTF-8 JSON array; ensure_ascii=false; compact separators; no trailing newline",
+      "extraction": "First preformatted block; remove one enclosing backtick pair and verse/chorus headings; remove inline code backticks for display; preserve apostrophes, punctuation and capitalization."
+    },
+    "upstream": {
+      "repository": "https://github.com/mexicat/pdoom-video",
+      "commit": "a048746d25fa0333ca884fb79fe4482b9c89250d",
+      "source_path": "lyrics/lyrics.src.js",
+      "source_url": "https://github.com/mexicat/pdoom-video/blob/a048746d25fa0333ca884fb79fe4482b9c89250d/lyrics/lyrics.src.js",
+      "source_sha256": "fbdb0d950277a6ea6c72d30843c17ce48b752757576700a1ca14188b7f3b1b77",
+      "timing_path": "data/lyrics.json",
+      "timing_sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d"
+    }
+  },
+  "summary": {
+    "versions_audited": 6,
+    "main_line_count": 46,
+    "word_count": 227,
+    "all_registered_main_text_matches_upstream_source": true,
+    "all_registered_versions_have_complete_main_lyric_text": true,
+    "exact_canonical_difference_line_count": 9,
+    "apostrophe_preserving_token_difference_line_numbers": [
+      31
+    ],
+    "no_whole_line_rewrite_or_missing_main_line_detected": true,
+    "note": "Removing all punctuation would hide the guys / guy's grammatical distinction. Exact matches and case/punctuation-normalized matches must not be conflated."
+  },
+  "differences": [
+    {
+      "line_number": 22,
+      "line_id": 21,
+      "classification": "capitalization",
+      "edits": [
+        {
+          "start_char": 13,
+          "end_char": 17,
+          "current": "FLOP",
+          "canonical": "flop"
+        }
+      ],
+      "canonical_display_line_sha256": "e477e8d8064bfcd956b4f822d1cbd58e5f27bc859ead0c6dbc7ff3058d65233e",
+      "upstream_line_sha256": "5adeadf293dd4a80030c7b4ba6f6d6ab8e9e88cedc925a9c35287b48de23906b",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 27,
+      "line_id": 26,
+      "classification": "capitalization_and_author_inline_code",
+      "edits": [
+        {
+          "start_char": 17,
+          "end_char": 20,
+          "current": "CDR",
+          "canonical": "cdr"
+        }
+      ],
+      "canonical_display_line_sha256": "b156435a659073733c8669d96a6472e6746994189fffc4802771e2784f4dc229",
+      "upstream_line_sha256": "68a3393e65857fff99af5b02c1b5ca2063453844c44ab24431582926e8b36b6b",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 30,
+      "line_id": 29,
+      "classification": "sentence_punctuation",
+      "edits": [
+        {
+          "start_char": 27,
+          "end_char": 27,
+          "current": "",
+          "canonical": "."
+        }
+      ],
+      "canonical_display_line_sha256": "99f56da68af00d23575589fbef346cb198087c41d4591401b19b276ca5ce1dd4",
+      "upstream_line_sha256": "7cc3f5c00a3e4efbb938db9d06d32177f0a562cd10ef804b8aa4d7b2a4c0e460",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 31,
+      "line_id": 30,
+      "classification": "apostrophe_plural_or_contraction_and_punctuation",
+      "edits": [
+        {
+          "start_char": 14,
+          "end_char": 15,
+          "current": "'",
+          "canonical": ""
+        },
+        {
+          "start_char": 23,
+          "end_char": 23,
+          "current": "",
+          "canonical": ","
+        }
+      ],
+      "canonical_display_line_sha256": "2b98b8110b26a3ed9c3d988ad5537885a8d4d99b517a49bc6099bc574b31b468",
+      "upstream_line_sha256": "08ae20a5d0bde51b311c723217292cb90d36e4217aa28dbd81babe9b437f38c1",
+      "apostrophe_preserving_token_match": false,
+      "changed_tokens": [
+        {
+          "current": "guy's",
+          "canonical": "guys"
+        }
+      ]
+    },
+    {
+      "line_number": 32,
+      "line_id": 31,
+      "classification": "sentence_punctuation",
+      "edits": [
+        {
+          "start_char": 30,
+          "end_char": 30,
+          "current": "",
+          "canonical": "."
+        }
+      ],
+      "canonical_display_line_sha256": "7b87e58d03f71a3e09c4e7884891759774f9040280e187d6f1a757c1e66a7c9e",
+      "upstream_line_sha256": "55015d3d6fa4b27a96cd65d50f3e5d0bbae174ec67f5ecaa6c7dd8601c6ff614",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 33,
+      "line_id": 32,
+      "classification": "sentence_punctuation",
+      "edits": [
+        {
+          "start_char": 29,
+          "end_char": 29,
+          "current": "",
+          "canonical": "."
+        }
+      ],
+      "canonical_display_line_sha256": "15719f2c46a931076493071db26d2d8dbc4b0b1e624e8f203a0c4b503fa6f0eb",
+      "upstream_line_sha256": "d2a5240d0a4b4a11f5564456b1b8be2f50e34f1136deae5effc2756e01ac618c",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 34,
+      "line_id": 33,
+      "classification": "sentence_punctuation",
+      "edits": [
+        {
+          "start_char": 26,
+          "end_char": 26,
+          "current": "",
+          "canonical": "."
+        }
+      ],
+      "canonical_display_line_sha256": "b5b83139f42bb540dc774ba450205fdd89f0fdc130c6b05be0e639914ff63002",
+      "upstream_line_sha256": "b77b8b3ec1bd2285ffd867351b3ae0b0b784d0d1afff896f8c5f3c6fde2a0b2f",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 35,
+      "line_id": 34,
+      "classification": "quotation_mark_style",
+      "edits": [
+        {
+          "start_char": 0,
+          "end_char": 1,
+          "current": "“",
+          "canonical": "\""
+        },
+        {
+          "start_char": 31,
+          "end_char": 32,
+          "current": "”",
+          "canonical": "\""
+        }
+      ],
+      "canonical_display_line_sha256": "825753ab08bf0183e3c25b8fa211412570f1800d201383e1621bfde5b88ccc7c",
+      "upstream_line_sha256": "7965a6225a2c2e0945198c63bbdfc4cc276c27b5cc96f65206c6905c1886bf80",
+      "apostrophe_preserving_token_match": true
+    },
+    {
+      "line_number": 45,
+      "line_id": 44,
+      "classification": "sentence_punctuation",
+      "edits": [
+        {
+          "start_char": 35,
+          "end_char": 35,
+          "current": "",
+          "canonical": "."
+        }
+      ],
+      "canonical_display_line_sha256": "a50c276c48d7254912ed60a41934feb1a6a2911d9bde03fa252079467326b8b3",
+      "upstream_line_sha256": "09d57b610b464f556c9e49d0a4fe0809027b227ed9d8e8446f3584597fd64f65",
+      "apostrophe_preserving_token_match": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "v001",
+      "status": "review",
+      "manifest_sha256": "77c4eebde9b21ee25110c1c1f2329b5314cd970b87fe9b02437aeaed1bffed8f",
+      "registered_lyrics": {
+        "path": "data/reference-lyric-timing-v001.json",
+        "sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 7,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": null
+    },
+    {
+      "version": "v002",
+      "status": "review",
+      "manifest_sha256": "e3a7ac23309054bb3eec361e8d99f47033217af36573fbd1c87d5139b1bd85c4",
+      "registered_lyrics": {
+        "path": "data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+        "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 13,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": null
+    },
+    {
+      "version": "v003.0",
+      "status": "superseded",
+      "manifest_sha256": "b671f44ec8a85f338595f5eeb40036e6b28f027fec893a62034dbd382b461361",
+      "registered_lyrics": {
+        "path": "data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+        "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 13,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": {
+        "path": "data/storyboard-v003.json",
+        "sha256": "76ff5935fb203980253c92ae0345e296e961d6ba38d16ea86fea6a7d5de644b1",
+        "all_46_layout_lines_match_registered_text": true
+      }
+    },
+    {
+      "version": "v003.1",
+      "status": "review",
+      "manifest_sha256": "656809a8683dee4e78eb13d30d029e79ffe82db5379be8678567720fecfda160",
+      "registered_lyrics": {
+        "path": "data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+        "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 13,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": {
+        "path": "data/storyboard-v003.json",
+        "sha256": "76ff5935fb203980253c92ae0345e296e961d6ba38d16ea86fea6a7d5de644b1",
+        "all_46_layout_lines_match_registered_text": true
+      }
+    },
+    {
+      "version": "v004.0",
+      "status": "review",
+      "manifest_sha256": "aa9db24b3e7443a27a183b525d921db9a8fc83db865e30ba3befbaa57797e97e",
+      "registered_lyrics": {
+        "path": "data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+        "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 13,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": {
+        "path": "data/storyboard-v004.0.json",
+        "sha256": "19b66444779ac2a8144801e3e9cf25e1869dd07f289cd351f300cb645870e40d",
+        "all_46_layout_lines_match_registered_text": true
+      }
+    },
+    {
+      "version": "v005.0",
+      "status": "review",
+      "manifest_sha256": "7856e9cc1e913bed009d8764f0b9c9f8804ba1cc8a7ff96e410f8034c08a9bce",
+      "registered_lyrics": {
+        "path": "data/lyrics-AUDIO_2026-10-01T16-45-09-187Z_5dc0e5a0.json",
+        "sha256": "c1d24f0116f53883bae3837356309cb7bc56dece9c1952d4d6fb2da39d4c800b"
+      },
+      "main_line_count": 46,
+      "word_count": 227,
+      "matches_upstream_source_text": true,
+      "canonical_difference_line_numbers": [
+        22,
+        27,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        45
+      ],
+      "low_alignment_confidence_word_count": 13,
+      "confidence_threshold": 0.6,
+      "extra_vocal_region_count": 4,
+      "layout": {
+        "path": "data/storyboard-v005.0.json",
+        "sha256": "fa4333d7fc7c8546ab5125a917a98848887bb243062d49f5b7b590bfa5f92a3f",
+        "all_46_layout_lines_match_registered_text": true
+      }
+    }
+  ],
+  "known_display_issue": {
+    "version": "v003.0",
+    "finding": "Decorative chapter heading overlaps chorus display text at the start of cultivation, extraction and replication.",
+    "evidence": "versions/v003.0/runs/QA_2026-10-02T12-29-43-241Z.json",
+    "revision": "v003.1",
+    "revision_evidence": "versions/v003.1/runs/QA_2026-10-02T12-35-45-391Z.json"
+  },
+  "review_boundaries": {
+    "historical_versions_modified": false,
+    "new_render_performed": false,
+    "current_alignment_low_confidence_words": 13,
+    "extra_vocal_regions_pending": 4,
+    "audible_alignment_review": "pending",
+    "human_media_approval": "not granted by this audit",
+    "music_and_lyrics_rights": "TBD"
+  }
+}

@@ -164,3 +164,5 @@ python3 -m venv .venv
 参考原片来自用户指定的 [B 站视频 BV18ta86EEHb](https://www.bilibili.com/video/BV18ta86EEHb/)，页面上传者为白雪仅当雪白；页面关联来源项目为 [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)。原始链接、规格和哈希均保留。v001 的逐词歌词辅助时间数据注明该来源；本地音轨转录和对齐检查也已保留。
 
 当前 review 候选尚待人工审核；自动对齐的 13 个低置信词、额外声部和有声同步需听辨。PR 合并只批准源码发布，不自动将视频标记为 approved。音乐、歌词与参考视频权利按源资产保持 **TBD**，不因放入 GitHub 而变为已授权素材。项目级代码许可证也暂为 TBD，详见 [`LICENSE.md`](LICENSE.md) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
+
+六个 AGI 制作版本的主歌词来源、与作者标准文本的九行差异及同步审核边界，见 [歌词文字校对记录](docs/AGI_LYRICS_AUDIT.md)。历史成片和已绑定数据保持可追溯。

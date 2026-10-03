@@ -6,6 +6,7 @@ type: music-video
 created_at: 2026-10-01
 source_url: https://www.bilibili.com/video/BV18ta86EEHb/
 source_project_url: https://github.com/mexicat/pdoom-video
+canonical_lyrics_url: https://docs.osmarks.net/hypha/p%28doom%29_song_objectively_correct_interpretation
 source_metadata: sources/asset-original-v001.yaml
 rights:
   status: TBD
@@ -23,3 +24,7 @@ sources:
     kind: editing-audio
     path: sources/audio/LLMV_001_audio_pcm_v001.wav
     sha256: a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197
+  - id: LLMV_001_LYRICS_TEXT_AUDIT_001
+    kind: lyric-text-audit
+    path: sources/analysis/lyric-text-audit_v001.json
+    sha256: 01c735a0b40e060d370aa1012f0bef9dd003cf11f5c4cc037f25ce24207863cd
