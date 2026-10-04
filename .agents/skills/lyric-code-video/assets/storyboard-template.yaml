@@ -21,6 +21,13 @@ preview_defaults:
   fps: 30
   sampling: {mode: fixed, samples: 4, shutter: 0.2}
   audio_policy: preserve_full_original
+timing:
+  unit: seconds
+  audio_zero_definition: TBD
+  analysis_to_audio_offset_seconds: null # t_audio = t_analysis + 此偏移；确认无偏移后填 0
+  audio_to_video_offset_seconds: null # t_video = t_audio + 此偏移
+  alignment_data: TBD
+  beat_downbeat_onset_data: TBD
 visual_bible:
   concept: TBD
   palette: []
@@ -42,6 +49,26 @@ scenes:
     typography_and_readability: TBD
     word_timing_data: TBD
     audio_features_used: []
+    sync_anchors:
+      - id: A001
+        kind: vocal_word # vocal_line / vocal_word / syllable / beat / downbeat / drum_onset / phrase
+        source_ref: TBD # 当前作品数据中的词／拍 ID；器乐段使用音乐锚点
+        audio_seconds: null
+        confidence: null
+        evidence: TBD
+    sync_events:
+      - id: E001
+        layer: TBD # lyric / semantic / camera / background 等
+        action: TBD
+        anchor_ref: A001
+        intentional_offset_ms: 0 # 正数表示晚于锚点，非零需说明理由
+        offset_reason: TBD
+        target_video_seconds: null # anchor + audio_to_video_offset + intentional_offset_ms / 1000
+        motion_interval_seconds: {start: null, impact: null, end: null}
+        impact_definition: TBD # 碰撞／落位／高亮／切镜；不要只记录动画起点
+        tolerance_ms: null # 根据事件与当前输出帧率记录
+        qa: {status: pending, measured_impact_video_seconds: null, error_ms: null, evidence: TBD}
+    vocal_music_anchor_tradeoff: TBD # 人声与音乐不重合时，各层如何处理
     camera_and_motion: TBD
     transition_in: TBD
     transition_out: TBD
@@ -50,6 +77,8 @@ scenes:
     reference_evidence: TBD
     qa:
       lyric_coverage: pending
+      lyric_time_sync: pending
+      music_rhythm_sync: pending
       audible_sync: pending
       visual_review: pending
       notes: TBD
@@ -61,6 +90,8 @@ production:
 acceptance:
   technical: pending
   full_lyric_coverage: pending
+  lyric_time_sync: pending
+  music_rhythm_sync: pending
   visual: pending
   playback_with_audio: pending
   evidence_paths: []

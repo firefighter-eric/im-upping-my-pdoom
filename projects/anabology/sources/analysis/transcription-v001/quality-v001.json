@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "analysis_version": "v001",
+  "date": "2026-10-03T15:37:23.137237+00:00",
+  "input": {
+    "path": "sources/analysis/transcription-v001/transcript-asr-v001.json",
+    "sha256": "fe0eca0751b07eec2b9f2c179d16eefa5f58603ab787a82088afca069dc53c56"
+  },
+  "status": "rejected",
+  "reason": "Pathological repetition in ASR output; it is not an accepted lyric transcript.",
+  "word_count": 1126,
+  "dominant_word": "walk",
+  "dominant_word_count": 1112,
+  "dominant_word_fraction": 0.9875666074600356,
+  "replacement_analysis": "v002",
+  "human_approval": null
+}

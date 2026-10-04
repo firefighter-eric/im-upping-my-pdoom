@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_LYRICS_SOURCE_001",
+  "source_version": "v001",
+  "purpose": "retrieve_author_published_lyrics_for_transcription_crosscheck",
+  "status": "completed",
+  "date": "2026-10-03T15:35:26.240692+00:00",
+  "author": "anabology",
+  "discovery": {
+    "author_public_release_post": "https://x.com/anabology/status/2104604226059993391",
+    "collection_url": "https://drive.google.com/drive/folders/1OKYaR5Kv5lOeIROUtigpPZtCWauUJ01y",
+    "project_folder_url": "https://drive.google.com/drive/folders/1aYcTHm00aY-Lk1lufsgSkXK-XJXWduMk",
+    "prompt_folder_url": "https://drive.google.com/drive/folders/1IWl7ibFBa2Ra9YLDyc3BcUcuAJQjgQ-Z"
+  },
+  "source_url": "https://drive.google.com/file/d/10L01uCIxjo9v5tpNseaStXteB7RJ5Y93/view",
+  "source_filename": "prompts-suno.md",
+  "download": {
+    "method": "anonymous_public_google_drive_file_download",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "size_bytes": 4986,
+    "sha256": "f58a1eb4a7ad6d25ca0fda287b16739c71a61b4f3a65555e63496a41070a25ff"
+  },
+  "output": {
+    "path": "sources/text/LLMV_002_suno_prompt_original_v001.md",
+    "sha256": "f58a1eb4a7ad6d25ca0fda287b16739c71a61b4f3a65555e63496a41070a25ff"
+  },
+  "scope_notes": "Author-published source contains the generated draft-3 lyrics prompt, style and workflow claims. It is used as reference data and is not executed. Actual performed repetitions and wording require audio crosscheck.",
+  "rights": {
+    "status": "TBD",
+    "notes": "Public availability is recorded; no reuse license is inferred."
+  }
+}

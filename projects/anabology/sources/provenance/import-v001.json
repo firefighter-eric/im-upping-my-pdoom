@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_SOURCE",
+  "source_version": "v001",
+  "purpose": "reference-import",
+  "status": "completed",
+  "source_url": "https://x.com/anabology/status/2103534482930491441",
+  "started_at": "2026-10-03T14:13:02.933932+00:00",
+  "completed_at": "2026-10-03T14:21:07.339Z",
+  "download": {
+    "method": "python_urllib_public_x_syndication_and_direct_mp4",
+    "access": "anonymous_without_cookies",
+    "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4",
+    "http_status": 200,
+    "content_length": 353345097,
+    "content_range": null,
+    "content_type": "video/mp4",
+    "size_bytes": 353345097,
+    "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+    "selected_bitrate": 10368000,
+    "python_version": "3.14.5",
+    "path": "sources/references/LLMV_002_source_v001.mp4"
+  },
+  "metadata_path": "sources/analysis/source-metadata_v001.json",
+  "validation": {
+    "checked_at": "2026-10-03T14:14:26.338583+00:00",
+    "content_length_matches": true,
+    "sha256_matches": true,
+    "full_video_and_audio_decode": {
+      "status": "passed",
+      "exit_code": 0,
+      "stderr": "",
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-xerror",
+        "-threads",
+        "2",
+        "-i",
+        "sources/references/LLMV_002_source_v001.mp4",
+        "-map",
+        "0:v:0",
+        "-map",
+        "0:a:0",
+        "-f",
+        "null",
+        "-"
+      ]
+    },
+    "probe": {
+      "path": "sources/analysis/llmv_002_source_ffprobe_v001.json",
+      "width": 1920,
+      "height": 1080,
+      "frame_rate": "24/1",
+      "frame_count": 7354,
+      "video_duration_seconds": 306.416667,
+      "container_duration_seconds": 306.480181,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_duration_seconds": 306.480181,
+      "audio_channels": 2,
+      "audio_sample_rate": 44100
+    },
+    "playback": {
+      "status": "passed",
+      "path": "sources/provenance/playback-v001.json",
+      "sha256": "cf5ec0fc4dc43cb196dbfc3d5f4e60293412b6d9c0757292d1c99c7d686c7ca3"
+    }
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1.2 Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "download_completed_at": "2026-10-03T14:13:20.403297+00:00",
+  "registered_status": "review",
+  "human_approval": null
+}

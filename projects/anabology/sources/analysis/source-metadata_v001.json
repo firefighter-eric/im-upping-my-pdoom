@@ -1,0 +1,56 @@
+{
+  "source_url": "https://x.com/anabology/status/2103534482930491441",
+  "source_platform": "X",
+  "source_platform_id": "2103534482930491441",
+  "source_title": null,
+  "title_notes": "X post has no separate video title; display label is descriptive.",
+  "description": "Gave Opus 5.5 donald's prompt, Midjourney, and a moodboard \n\n12 hours later, woke up to this: https://t.co/yKlgyEm5KW",
+  "author": {
+    "name": "anabology",
+    "screen_name": "anabology"
+  },
+  "source_published_at": "2026-09-25T17:17:57.000Z",
+  "metadata_source": "https://cdn.syndication.twimg.com/tweet-result?id=2103534482930491441&lang=en",
+  "retrieved_at": "2026-10-03T14:13:02.932971+00:00",
+  "video": {
+    "source_media_id": "2103533196721704960",
+    "duration_millis": 306416,
+    "width": 1920,
+    "height": 1080,
+    "selected_variant": {
+      "bitrate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4"
+    },
+    "available_mp4_variants": [
+      {
+        "bitrate": 256000,
+        "content_type": "video/mp4",
+        "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/480x270/Q5HrLPih067FgbgU.mp4"
+      },
+      {
+        "bitrate": 832000,
+        "content_type": "video/mp4",
+        "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/640x360/-UqyfEKky_nngi8C.mp4"
+      },
+      {
+        "bitrate": 2176000,
+        "content_type": "video/mp4",
+        "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1280x720/zWxaCweAccef32uj.mp4"
+      },
+      {
+        "bitrate": 10368000,
+        "content_type": "video/mp4",
+        "url": "https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4"
+      }
+    ]
+  },
+  "production_method_claim": {
+    "description": "Post mentions Opus 5.5, Donald's prompt, Midjourney and a moodboard. These are source claims; actual models, prompts and process remain TBD.",
+    "verified": false
+  },
+  "rights": {
+    "status": "TBD",
+    "scope": "User-provided reference for local study; no publication or reuse license asserted."
+  }
+}

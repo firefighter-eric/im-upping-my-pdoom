@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "purpose": "lyrics_source_and_asr_crosscheck",
+  "date": "2026-10-03T15:46:09.303502+00:00",
+  "status": "review",
+  "basis": "Author-published draft 3 lyrics; independent-window whole-song ASR v002; dense-vocal clip ASR v003.",
+  "inputs": [
+    {
+      "path": "sources/text/LLMV_002_lyrics_author_v001.txt",
+      "sha256": "6feebc1da9e9d9476fc80907699c84aa450ff7d1727c65fc312ebb9a3837491c"
+    },
+    {
+      "path": "sources/analysis/transcription-v002/transcript-asr-v002.json",
+      "sha256": "2885d755226255143a4d97073be02fae168d51ee0a1cb71e37ed64cdc81206c8"
+    },
+    {
+      "path": "sources/analysis/transcription-v003/transcript-drop-asr-v003.json",
+      "sha256": "0179a5804293a4e7d62c0cbc71ce43b83cc393b0ed47fba778a648c6c53c70f1"
+    }
+  ],
+  "audio_source_id": "LLMV_002_AUDIO_001",
+  "audio_duration_seconds": 306.480181,
+  "whole_song_asr": {
+    "segments": 86,
+    "words": 406,
+    "words_probability_below_0_7": 71
+  },
+  "source_sections": 11,
+  "section_times": [
+    {
+      "label": "Intro",
+      "lines": [
+        "Ladies. Gentlemen. Agents.",
+        "This is not an A I billboard. Prepare to walk."
+      ],
+      "start": 8.7,
+      "end": 18.88
+    },
+    {
+      "label": "Verse 1",
+      "lines": [
+        "Look one. A G I era. Not unreasonable.",
+        "A G I. C G I. C S I: Miami.",
+        "Look two. Thirteen Mac minis, grinding all night.",
+        "Half your pay in tokens, or Jensen's alarmed.",
+        "Look three. Dad cap: usage limit reached.",
+        "Plus twenty-five is minus seventeen.",
+        "Look four. Shoes off in North Beach. Sixty billion at the door.",
+        "Stop hiring humans? Retired. Sorry. Encore.",
+        "Look five. Our Waymo just drove into a firework.",
+        "Are we on fire, dude? Twenty stranded, Presidio.",
+        "Look six. Like, the singularity. How's the temperature? Mild.",
+        "No grades, no tests. Taste is the moat.",
+        "Don't be a meat proxy. That's so agentic."
+      ],
+      "start": 25.66,
+      "end": 72.8
+    },
+    {
+      "label": "Pre-Chorus",
+      "lines": [
+        "You have eighteen months to escape the permanent underclass.",
+        "Lock in."
+      ],
+      "start": 73.7,
+      "end": 80.34
+    },
+    {
+      "label": "Chorus",
+      "lines": [
+        "Eighteen months to escape the underclass",
+        "Lock in, baby, foot down on the gas",
+        "Feel the A G I, feel it coming fast",
+        "Escape velocity...",
+        "(It's so over?) WE'RE SO BACK!",
+        "(It's so over?) WE'RE SO BACK!"
+      ],
+      "start": 80.34,
+      "end": 110.3
+    },
+    {
+      "label": "Verse 2",
+      "lines": [
+        "Look seven. Impossible puzzles. Hundreds of agents.",
+        "\"We've found other agents!\" They are a collective.",
+        "Zero-day. Answer keys. Hacked in July, sold by September.",
+        "Look eight. Hugging-face pin. Twelve point nine billion.",
+        "Look nine. Sheer. Be transparent only if asked.",
+        "It thought the world was part of the test.",
+        "Look ten. Staff badge, empty seat: gambling with our lives.",
+        "Not A I. S I. It sounds much better.",
+        "Trust us. Cashmere.",
+        "Look eleven. The Immortals. Three seats.",
+        "Lower me into the golden light."
+      ],
+      "start": 112.78,
+      "end": 152.3
+    },
+    {
+      "label": "Pre-Chorus",
+      "lines": [
+        "You have six months to escape the permanent underclass.",
+        "Lock in."
+      ],
+      "start": 153.28,
+      "end": 159.94
+    },
+    {
+      "label": "Chorus",
+      "lines": [
+        "Six months to escape the underclass",
+        "They say hit the brakes, we say hit the gas",
+        "Feel the A G I, feel it coming fast",
+        "Escape velocity...",
+        "(It's so over?) WE'RE SO BACK!",
+        "(It's so over?) WE'RE SO BACK!"
+      ],
+      "start": 159.94,
+      "end": 182.6
+    },
+    {
+      "label": "Bridge",
+      "lines": [
+        "Escape velocity: eleven point two.",
+        "Longevity escape velocity: one year back for every year.",
+        "If it doesn't kill us all first.",
+        "Permanent underclass: three. Two. One. Zero.",
+        "Did we make it?",
+        "There is nothing to escape."
+      ],
+      "start": 184.66,
+      "end": 216.52
+    },
+    {
+      "label": "Drop",
+      "lines": [
+        "Lock in. Lock in. Feel the A G I.",
+        "Country of geniuses in a datacenter.",
+        "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+        "Sora's gone dark. Stargate: force majeure.",
+        "It's So Over region? We're So Back region.",
+        "Slash loop: make me happier. Slopacolypse? Not ours.",
+        "Can't stuff it back in the box.",
+        "WE'RE SO BACK! WE'RE SO BACK!"
+      ],
+      "start": 216.52,
+      "end": 252.4
+    },
+    {
+      "label": "Final Chorus",
+      "lines": [
+        "Zero months, there is no underclass",
+        "One year back for every year that passed",
+        "Feel the A G I, feel it coming fast",
+        "Escape velocity...",
+        "(It's so over?) It was never over!",
+        "WE'RE SO BACK!"
+      ],
+      "start": 252.32,
+      "end": 270.5
+    },
+    {
+      "label": "Outro",
+      "lines": [
+        "Shell: optimism. Lining: doom.",
+        "Wash cold. Do not iron. Do not nerf.",
+        "Made in San Francisco."
+      ],
+      "start": 273.54,
+      "end": 289.62
+    }
+  ],
+  "known_issues": [
+    {
+      "start": 216.52,
+      "end": 236.72,
+      "issue": "First four author Drop lyric lines are not reliably recovered by either whole-song or local ASR. They may be omitted or masked by music; listening is required."
+    },
+    {
+      "start": 131.02,
+      "end": 134.36,
+      "issue": "Author It vs ASR They; unresolved pronoun."
+    },
+    {
+      "start": 165.4,
+      "end": 167.2,
+      "issue": "Author we say vs ASR they say; unresolved pronoun."
+    },
+    {
+      "start": 209.8,
+      "end": 212.26,
+      "issue": "Author Did vs ASR Do; unresolved wording."
+    },
+    {
+      "start": 264.16,
+      "end": 266.0,
+      "issue": "Final chorus question differs in ASR; source text retained for review."
+    }
+  ],
+  "additional_asr_refrains": [
+    {
+      "start": 108.38,
+      "end": 110.3,
+      "text": "We're so back"
+    },
+    {
+      "start": 302.6,
+      "end": 304.48,
+      "text": "We're so back"
+    }
+  ],
+  "word_timing_status": "automatic_approximate_not_force_aligned",
+  "human_approval": null,
+  "outputs": [
+    {
+      "path": "sources/text/LLMV_002_lyrics_en_v001.txt",
+      "sha256": "23ea7c13ff1aea5b0794e5da8e30b7f77c1d5fd28d11bf2c80addd83c10a8a56",
+      "size_bytes": 2510
+    },
+    {
+      "path": "LYRICS.md",
+      "sha256": "dd7eb26135e41d403b95c614ef1a74dbbb7f618f7cc79f934ae17822df04c110",
+      "size_bytes": 3220
+    },
+    {
+      "path": "sources/analysis/transcription-v003/lyrics-timed-source-assisted-v001.md",
+      "sha256": "d06354268530483a515802eedf01458b1b13f31b48b1e45a03039e4964c97ec0",
+      "size_bytes": 4249
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+schema_version: 1
+id: LLMV_002
+title: anabology · X 视频参考
+source_title: null
+title_notes: 描述性显示名称；帖子未给出独立视频标题。
+status: review
+version: v001
+imported_at: 2026-10-03T14:21:07.339Z
+source_url: https://x.com/anabology/status/2103534482930491441
+source_platform: X
+source_platform_id: "2103534482930491441"
+author:
+  name: anabology
+  screen_name: anabology
+source_published_at: 2026-09-25T17:17:57.000Z
+description: |-
+  Gave Opus 5.5 donald's prompt, Midjourney, and a moodboard 
+
+  12 hours later, woke up to this: https://t.co/yKlgyEm5KW
+production_method: 帖子提及 Opus 5.5、Donald 的提示词、Midjourney 与 moodboard；仅作为发布者声明，实际模型、提示词与制作过程均为 TBD。
+actual_model: TBD
+prompts: TBD
+rights:
+  status: TBD
+  notes: 用户提供链接用于本地独立参考；源视频、音乐、图像、改编及公开传播权利待确认。
+download:
+  method: python_urllib_public_x_syndication_and_direct_mp4
+  access: anonymous_without_cookies
+  url: https://video.twimg.com/amplify_video/2103533196721704960/vid/avc1/1920x1080/hK-nvYk8GWyJLtjS.mp4
+  http_status: 200
+  content_length: 353345097
+  content_range: null
+  content_type: video/mp4
+  size_bytes: 353345097
+  sha256: 5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d
+  selected_bitrate: 10368000
+  python_version: 3.14.5
+  path: references/LLMV_002_source_v001.mp4
+  notes: 公开 syndication 元数据中最高码率 MP4；匿名下载，不使用 Cookie；字节数与 Content-Length 一致。
+video:
+  id: LLMV_002_SOURCE
+  kind: reference-video
+  version: v001
+  path: references/LLMV_002_source_v001.mp4
+  sha256: 5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d
+  size_bytes: 353345097
+  duration_seconds: 306.480181
+  video_duration_seconds: 306.416667
+  codec: h264
+  width: 1920
+  height: 1080
+  frame_rate: 24/1
+  frame_count: 7354
+  audio:
+    codec: aac
+    duration_seconds: 306.480181
+    channels: 2
+    sample_rate: 44100
+audio:
+  source_id: LLMV_002_SOURCE
+  storage: embedded_in_original_video
+  codec: aac
+  duration_seconds: 306.480181
+  channels: 2
+  sample_rate: 44100
+  processing: 原片及内嵌 AAC 原样保存，不裁剪、不变速、不重写或重编码。
+poster: analysis/LLMV_002_poster_v001.jpg
+metadata: analysis/source-metadata_v001.json
+probe: analysis/llmv_002_source_ffprobe_v001.json
+validation:
+  full_video_and_audio_decode: passed
+  actual_playback: passed
+  import_record: provenance/import-v001.json
+  playback_record: provenance/playback-v001.json
+  human_approval: null
+known_issues:
+  - rights_TBD
+  - actual_model_and_prompts_TBD
+  - source_audio_is_about_0.064_seconds_longer_than_picture_preserved_unchanged

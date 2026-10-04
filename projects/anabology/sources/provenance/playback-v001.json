@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_SOURCE",
+  "source_path": "sources/references/LLMV_002_source_v001.mp4",
+  "source_sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+  "checked_at": "2026-10-03T14:16:22.623Z",
+  "completed_at": "2026-10-03T14:17:46.092Z",
+  "browser": "Codex In-app Browser",
+  "method": "Native video controls and read-only HTMLMediaElement observations via cua_repl",
+  "status": "passed",
+  "initial_playback_time_seconds": 8.394553,
+  "observations": [
+    {
+      "stage": "playing_unmuted",
+      "duration": 306.480181,
+      "error": null,
+      "height": 1080,
+      "muted": false,
+      "paused": false,
+      "readyState": 4,
+      "time": 43.418977,
+      "width": 1920
+    },
+    {
+      "stage": "after_seek_30_percent",
+      "duration": 306.480181,
+      "error": null,
+      "height": 1080,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "time": 91.949317,
+      "width": 1920
+    },
+    {
+      "stage": "after_seek_64_percent",
+      "duration": 306.480181,
+      "error": null,
+      "height": 1080,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "time": 197.678743,
+      "width": 1920
+    },
+    {
+      "stage": "after_seek_93_percent",
+      "duration": 306.480181,
+      "error": null,
+      "height": 1080,
+      "muted": true,
+      "paused": false,
+      "readyState": 4,
+      "time": 287.51513,
+      "width": 1920
+    }
+  ],
+  "human_approval": null
+}

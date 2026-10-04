@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "run_id": "ASR_20261003T153728Z",
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_AUDIO_001",
+  "source_version": "v001",
+  "analysis_version": "v002",
+  "purpose": "independent_window_lyrics_transcription",
+  "status": "completed",
+  "started_at": "2026-10-03T15:37:28.511424+00:00",
+  "parent_analysis": "v001",
+  "change_reason": "Preserve rejected repeating v001 output and create a new analysis with independent-window decoding and the built-in quality fallback.",
+  "input": {
+    "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+    "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+  },
+  "model": {
+    "name": "mlx-community/whisper-large-v3-turbo-q4",
+    "revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef"
+  },
+  "tool": {
+    "path": "sources/analysis/transcription-v002/transcribe-independent-v002.py",
+    "sha256": "56cf4e359730546ec4cbf9340f92dcfdd76e8c0e37c03c9f8193b904763aebc3",
+    "packages": {
+      "mlx-whisper": "0.4.3",
+      "mlx": "0.32.3",
+      "numpy": "2.5.3",
+      "huggingface-hub": "2.1.1"
+    }
+  },
+  "parameters": {
+    "language": "en",
+    "temperature": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "compression_ratio_threshold": 2.4,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "initial_prompt": "AGI, CGI, CSI Miami, Jensen, Waymo, Presidio, Hugging Face, longevity escape velocity, Sora, Stargate, force majeure, Slopacolypse.",
+    "HF_HUB_OFFLINE": "1"
+  },
+  "output": {
+    "path": "sources/analysis/transcription-v002/transcript-asr-v002.json",
+    "sha256": "2885d755226255143a4d97073be02fae168d51ee0a1cb71e37ed64cdc81206c8",
+    "size_bytes": 97165
+  },
+  "review_status": "machine",
+  "human_approval": null,
+  "finished_at": "2026-10-03T15:37:38.045354+00:00",
+  "exit_code": 0,
+  "stdout": "/Users/eric/projects/im-upping-my-pdoom/projects/anabology/sources/analysis/transcription-v002/transcript-asr-v002.json\n",
+  "stderr": "\n  0%|          | 0/30648 [00:00<?, ?frames/s]\n  6%|▌         | 1888/30648 [00:00<00:12, 2389.54frames/s]\n 15%|█▌        | 4674/30648 [00:03<00:19, 1299.57frames/s]\n 25%|██▍       | 7606/30648 [00:04<00:11, 2052.41frames/s]\n 34%|███▎      | 10300/30648 [00:04<00:07, 2706.45frames/s]\n 43%|████▎     | 13102/30648 [00:05<00:05, 3320.33frames/s]\n 52%|█████▏    | 15994/30648 [00:05<00:03, 3828.68frames/s]\n 61%|██████    | 18610/30648 [00:06<00:02, 4154.80frames/s]\n 69%|██████▉   | 21226/30648 [00:06<00:02, 4484.52frames/s]\n 79%|███████▉  | 24226/30648 [00:06<00:01, 5305.18frames/s]\n 88%|████████▊ | 27050/30648 [00:07<00:00, 5214.37frames/s]\n 98%|█████████▊| 30050/30648 [00:07<00:00, 5751.18frames/s]\n100%|██████████| 30648/30648 [00:08<00:00, 3710.07frames/s]\n"
+}
