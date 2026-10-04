@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "CLEANUP_V006_d9ab4be5-312a-405b-8d15-75640d34329b",
+  "project_id": "LLMV_001",
+  "scope": "V006 temporary video files only",
+  "requested_by": "conversation-user",
+  "user_statement": "这个006里面多余的视频可以删掉吗？你先看一下哪些视频是临时文件，然后可以删了。",
+  "started_at": "2026-10-04T09:10:09.891274+00:00",
+  "timezone": "Asia/Shanghai",
+  "status": "completed",
+  "files": [
+    {
+      "path": "projects/agi/versions/v006.8/outputs/LLMV_001_V006_R008_001_companion_v006.8.partial.mp4",
+      "kind": "failed-render-partial",
+      "reason": "Unregistered failed output: 5265 of 9400 target video frames; not a complete deliverable.",
+      "evidence": "projects/agi/versions/v006.8/provenance/render-failure.json",
+      "sha256": "95bc1b714e976bc9dd98f6ed01bcabe4212f0b9485f8da71944d317c952937e7",
+      "size_bytes": 220377994,
+      "status": "deleted",
+      "deleted_at": "2026-10-04T09:10:09.896665+00:00"
+    },
+    {
+      "path": ".cache/v0068-pipeline-smoke/RUN_2026-10-04T06-09-57-754Z_7e66019c/outputs/LLMV_001_V006_R008_001_companion_v006.8.mp4",
+      "kind": "technical-smoke-video",
+      "reason": "Completed 30-frame / 0.5-second technical pipeline test, stored in ignored cache; not a registered deliverable.",
+      "evidence": ".cache/v0068-pipeline-smoke/RUN_2026-10-04T06-09-57-754Z_7e66019c/runs/RUN_2026-10-04T06-09-57-754Z_7e66019c.json",
+      "sha256": "11bdf0c09d116d65c7f7552804fccd5430b8aec163795d904df281782b6258e5",
+      "size_bytes": 1552923,
+      "status": "deleted",
+      "deleted_at": "2026-10-04T09:10:09.896847+00:00"
+    }
+  ],
+  "total_size_bytes": 221930917,
+  "retained_registered_outputs": [
+    {
+      "version": "v006.9",
+      "status": "review",
+      "path": "projects/agi/versions/v006.9/outputs/LLMV_001_V006_R009_001_companion_v006.9.mp4",
+      "sha256": "65aa5584c6d4e539b9da91f244a47b24dd6800369f48c29eaf5a9b8f1a1dd702",
+      "size_bytes": 319446804
+    },
+    {
+      "version": "v006.10",
+      "status": "review",
+      "path": "projects/agi/versions/v006.10/outputs/LLMV_001_V006_R010_001_companion_v006.10.mp4",
+      "sha256": "e65979df5781246b4b534e6b0d868c85940b0ded8b9e97f016ccf9cab8b7334d",
+      "size_bytes": 322015688
+    },
+    {
+      "version": "v006.13",
+      "status": "approved",
+      "path": "projects/agi/versions/v006.13/outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4",
+      "sha256": "417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7",
+      "size_bytes": 323023508
+    }
+  ],
+  "notes": [
+    "Original source video/audio, completed registered videos, still images, code, data and historical run records are retained.",
+    "The v006.9 parent-preservation receipt describes its historical creation-time snapshot; this later authorized cleanup removes the failed partial binary while retaining its original hash and failure evidence."
+  ],
+  "validation": {
+    "hashes_match_existing_evidence": true,
+    "registered_outputs_excluded": true,
+    "git_ignored_and_untracked": true,
+    "active_version_locks": [],
+    "open_file_handles": [],
+    "retained_v006_output_hashes": "passed"
+  },
+  "completed_at": "2026-10-04T09:10:10.210310+00:00"
+}

@@ -40,6 +40,10 @@ npm run version:new -- --project agi --from v003.1 --version v004.0
 
 `review.human_approval` 是转 approved 时的必要记录。AGI v006.13 已由用户于 2026-10-04 确认为正式稿；[批准记录](../projects/agi/versions/v006.13/provenance/USER_FINAL_APPROVAL.json)固定批准人、时间、范围和成片哈希。该状态变更保留原交付内容及审批前清单，不继承到未来版本。
 
+用户明确选择清理已登记的本地成片时，保留 output 的路径、原哈希、规格、执行 ID 和历史审核状态；用 `output.retention` 单列 `state: removed-by-user`、版本内清理记录路径及其 SHA-256。记录必须绑定作品、版本、变体、生成 ID、原输出身份、用户原话和实际删除时间。原始输入不适用此清理标记。
+
+`verify` 校验完整回执后，可明确报告并跳过这一项有记录的媒体缺失；无回执的缺失和任何现存文件的哈希错误仍失败。`verify:source` 也验证清理记录，`verify:media` 仍要求实际文件，不能将已移除媒体计为通过。若重新生成，应建立独立 draft、沿用原代码／数据／参数并重新登记，不能伪称恢复了字节完全相同的旧输出。示例见 [V002 重建说明](../projects/agi/versions/v002/RESTORE.md)。
+
 ## 新版本
 
 已有版本不覆盖；新版本严格大于所有现有版本。复制 renderer 和 data（模块化版本继承完整 renderer.source_directory），以及声明的 audio_pipeline.tool_directory 代码；保留输入映射。清空输出、执行验证、分析完成状态及人类批准，重新填写 Prompt／创意变更。同一版本的变体共用相同输入时可并存；输入、方案或渲染代码发生交付后变更时创建新版本。
