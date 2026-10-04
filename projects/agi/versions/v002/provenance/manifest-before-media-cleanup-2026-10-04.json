@@ -201,12 +201,7 @@
         "frame_count": 9400,
         "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
         "status": "review",
-        "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693",
-        "retention": {
-          "state": "removed-by-user",
-          "record": "provenance/media-cleanup-2026-10-04.json",
-          "record_sha256": "861e3af0ccec96383859742c63c4a55a48c725b0010b8fc4e0e52037f6f7583c"
-        }
+        "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693"
       },
       "poster": null
     }

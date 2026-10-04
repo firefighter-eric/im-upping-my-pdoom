@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "CLEANUP_C1_e0f5b4e8-db93-4e18-b545-6bd76336a8d3",
+  "action": "remove-local-output",
+  "status": "completed",
+  "authorized_by": "conversation-user",
+  "user_statement": "把C1删了好了，我是不是随时可以恢复这些呢？因为渲染的脚本应该还是有的吧？",
+  "selected_inventory_id": "C1",
+  "project_id": "LLMV_001",
+  "version": "v002",
+  "variant_id": "reference",
+  "generation_id": "LLMV_001_V002_001",
+  "started_at": "2026-10-04T09:20:34.819543+00:00",
+  "timezone": "Asia/Shanghai",
+  "output": {
+    "path": "outputs/LLMV_001_V002_001_reference_v002.mp4",
+    "sha256": "d769f89d7906c1460fdd897ac6f4ba9b97e8fc788a142e99373c4315b2880914",
+    "size_bytes": 2049460015,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "frame_count": 9400,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693"
+  },
+  "previous_manifest": {
+    "path": "provenance/manifest-before-media-cleanup-2026-10-04.json",
+    "sha256": "e3a7ac23309054bb3eec361e8d99f47033217af36573fbd1c87d5139b1bd85c4"
+  },
+  "rebuild_preflight": {
+    "checked_at": "2026-10-04T09:19:52.485318+00:00",
+    "renderer_files_checked": 124,
+    "data_files_checked": 3,
+    "inputs": {
+      "audio": {
+        "source_id": "LLMV_001_AUDIO_001",
+        "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+        "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+      },
+      "wav": {
+        "source_id": "LLMV_001_AUDIO_002",
+        "path": "sources/audio/LLMV_001_audio_pcm_v001.wav",
+        "sha256": "a50d218c61e073b9fa8d3b6350ecde28a9e079995dcf57865529d4e2d7078197"
+      }
+    },
+    "output": {
+      "path": "outputs/LLMV_001_V002_001_reference_v002.mp4",
+      "sha256": "d769f89d7906c1460fdd897ac6f4ba9b97e8fc788a142e99373c4315b2880914",
+      "size_bytes": 2049460015,
+      "duration_seconds": 156.666667,
+      "codec": "h264",
+      "width": 3840,
+      "height": 2160,
+      "frame_rate": "60/1",
+      "frame_count": 9400,
+      "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+      "status": "review",
+      "run_id": "RUN_2026-10-02T05-48-50-103Z_32c81693"
+    },
+    "package_lock_sha256": "a885147696f389789815a436cb9fb73b01700ef186061958f029fda6c9fd3b47",
+    "original_run_tools": {
+      "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+      "browser": "154.0.8037.92"
+    },
+    "historical_render_seconds": 13719.415,
+    "source_state": "all recorded hashes match; render inputs preserved",
+    "git_media_backup": false,
+    "restore_mode": "rerender in a new draft with v002 code and settings; no byte-identical guarantee",
+    "renderer_build": "passed; npm run build:renderer -- --project agi --version v002"
+  },
+  "scope": "Only the selected local V002 MP4; preserve all other videos, original inputs, code, fonts, analysis data and execution records.",
+  "exact_file_recovery": "No Git copy retained; regeneration is possible from preserved inputs and code but may differ byte-for-byte.",
+  "deleted_at": "2026-10-04T09:20:34.970668+00:00"
+}

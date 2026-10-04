@@ -4,9 +4,10 @@ import {execFileSync} from 'node:child_process';
 import path from 'node:path';
 import {ROOT,readJson,parseOptions,inside,listProjects,loadProject,versionNames,loadVersion} from './project.mjs';
 import {rendererFiles} from './renderer.mjs';
+import {verifyOutputFile} from './media-retention.mjs';
 const o=parseOptions(process.argv.slice(2)),digest=b=>createHash('sha256').update(b).digest('hex');let count=0,skipped=0;
 if(o.project){const p=await loadProject(o.project);if(o.version)await loadVersion(o.project,o.version);}
-let checkedVersions=0;
+let checkedVersions=0,removedOutputs=0;
 const migration=await readJson(path.join(ROOT,'docs/migration-manifest-v001.json'));
 for(const item of migration.files){if(o['source-only']&&/\.(mp4|m4a|wav)$/.test(item.path)){skipped++;continue;}const b=await readFile(inside(ROOT,item.path));if(b.subarray(0,100).toString().startsWith('version https://git-lfs.github.com/spec/v1'))throw Error(item.path+' is an LFS pointer: run git lfs pull');if(b.length!==item.size_bytes||digest(b)!==item.sha256)throw Error('Preserved input changed: '+item.path);count++;}
 const ids=new Set();for(const slug of await listProjects()){const p=await loadProject(slug);if(ids.has(p.metadata.id))throw Error('Duplicate project ID');ids.add(p.metadata.id);for(const source of p.metadata.sources??[]){const file=inside(p.directory,source.path);if(!o['source-only']||!/\.(mp4|m4a|wav)$/.test(source.path)){if(digest(await readFile(file))!==source.sha256)throw Error('Registered source changed '+source.id);}}if(o.project&&o.project!==slug)continue;
@@ -37,8 +38,9 @@ const ids=new Set();for(const slug of await listProjects()){const p=await loadPr
   const variantIds=new Set();for(const variant of m.variants){if(!/^[a-z0-9-]+$/.test(variant.id)||variantIds.has(variant.id))throw Error('Variant identity mismatch');variantIds.add(variant.id);if(variant.output)inside(v.directory,variant.output.path);}
   for(const input of Object.values(m.inputs??{})){if(input.path&&input.path!=='TBD'){const source=(v.metadata.sources??[]).find(x=>x.id===input.source_id);if(!source||source.path!==input.path||source.sha256!==input.sha256)throw Error('Input source identity mismatch');}}
   const audio=m.inputs?.audio;if(audio?.path&&audio.path!=='TBD'){const file=inside(v.projectDirectory,audio.path);if(!o['source-only']&&digest(await readFile(file))!==audio.sha256)throw Error('Source audio changed');}
-  for(const variant of m.variants){const output=variant.output;if(!output)continue;const file=inside(v.directory,output.path);
-   if(!o['source-only']){const b=await readFile(file);if(digest(b)!==output.sha256||b.length!==output.size_bytes)throw Error('Output hash mismatch '+variant.generation_id);}
+  for(const variant of m.variants){const output=variant.output;if(!output)continue;
+   const {file,state}=await verifyOutputFile(v,variant,{sourceOnly:!!o['source-only'],requireMedia:!!o.probe});
+   if(state==='removed-by-user'){removedOutputs++;continue;}
    if(o.probe){const p=JSON.parse(execFileSync('ffprobe',['-v','error','-count_frames','-show_streams','-show_format','-of','json',file],{maxBuffer:1e7}));const stream=p.streams.find(x=>x.codec_type==='video');if(!stream||stream.width!==m.settings.width||stream.height!==m.settings.height||stream.avg_frame_rate!==`${m.settings.fps}/1`||Number(stream.nb_read_frames)!==m.settings.target_frames)throw Error('Video specification mismatch '+variant.generation_id);
     const sourceAudio=inside(v.projectDirectory,audio.path),sp=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-of','json',sourceAudio],{maxBuffer:1e6})).streams.find(x=>x.codec_type==='audio');if(m.settings.target_frames!==Math.ceil(Number(sp.duration)*m.settings.fps)||Math.abs(Number(stream.duration)-Number(sp.duration))>=1/m.settings.fps)throw Error('Picture/source audio duration mismatch');
     const audioHash=f=>execFileSync('ffmpeg',['-v','error','-i',f,'-map','0:a:0','-c:a','copy','-f','hash','-hash','sha256','-'],{encoding:'utf8'}).trim();if(audioHash(file)!==audioHash(sourceAudio))throw Error('Audio changed '+variant.generation_id);
@@ -47,4 +49,4 @@ const ids=new Set();for(const slug of await listProjects()){const p=await loadPr
  }
 }
 if(!checkedVersions)throw Error('No versions matched the requested verification target');
-console.log(`Verified ${count} preserved migration files, ${skipped} media files skipped, ${checkedVersions} versions checked; project/version lineage valid${o.probe?', video specs and source AAC packets verified':''}.`);
+console.log(`Verified ${count} preserved migration files, ${skipped} media files skipped, ${checkedVersions} versions checked; project/version lineage valid${o.probe?', video specs and source AAC packets verified':''}${removedOutputs?`; ${removedOutputs} output(s) intentionally removed by user, receipts verified, media not verified`:''}.`);

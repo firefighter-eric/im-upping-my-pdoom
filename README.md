@@ -11,7 +11,7 @@
 | 作品 | 版本 | 变体 | 状态 |
 | --- | --- | --- | --- |
 | AGI / LLMV_001 | v001 | 科幻抽象、AGI 觉醒叙事、歌词视觉 | review |
-| AGI / LLMV_001 | v002 | 参考引擎、原生 4K60 技术迁移 | review |
+| AGI / LLMV_001 | [v002](projects/agi/versions/v002/RESTORE.md) | 参考引擎、原生 4K60 技术迁移 | review · MP4 已按用户选择清理，保留重建资料 |
 | AGI / LLMV_001 | v003.0 | 失控的计算温室 · 首轮 Preview | superseded |
 | AGI / LLMV_001 | v003.1 | 失控的计算温室 · 排版修订 | review |
 | AGI / LLMV_001 | v004.0 | 谁在控制谁 · 逐句控制剧场 | review |
@@ -39,6 +39,8 @@
 v001 的三种变体均为 **1920×1080、24fps、约 2 分 37 秒**，完整复用原 AAC 音轨。参考原片、M4A 原音频、WAV 编辑音频和三部 MP4 在本地完整保留；GitHub 上传画面静帧、源代码、歌词对齐数据、转录、媒体探测和原 Story Studio 验收记录。
 
 v002 已采用参考项目的 **TypeScript＋Three.js／WebGL、22 段场景、歌词／节拍时间线、HDR 后期、自适应运动模糊及有背压的 RGBA/WebSocket 导出**。实际出帧规格为 **3840×2160、60fps**，完整音轨对应 9400 帧；旧 v001 保留。v002 完整候选已登记为 review，规格、解码和原音轨一致性检查通过，人工审美和有声同步仍待审看。
+
+2026-10-04 用户选择清理 C1（V002 成片，约 2.05 GB）。原输出身份和历史记录保留，源码、字体／图片、分析数据和原音轨仍完整；当前 MP4 已移除，重建需重新渲染。原导出约耗时 3 小时 49 分钟，详见 [V002 重建说明](projects/agi/versions/v002/RESTORE.md)。常规 verify 会明确报告这项主动清理，媒体专项检查仍要求恢复实际文件。
 
 最新完整 Preview 为 **v004.0「谁在控制谁」**：1920×1080、CFR 30fps、固定 4 次时间采样、4700 帧，完整原 AAC 音轨；46 句全文字幕、逐句机械／图解语义事件与四遍不同副歌。单次整片渲染约 3 分 28 秒，完整解码、均匀帧时间戳和播放／跳转通过。方案见 [TREATMENT](projects/agi/versions/v004.0/TREATMENT.md)，交付说明见 [VERSION](projects/agi/versions/v004.0/VERSION.md)。
 
