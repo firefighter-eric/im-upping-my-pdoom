@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "ASR_20261003T153238Z",
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_AUDIO_001",
+  "source_version": "v001",
+  "analysis_version": "v001",
+  "purpose": "lyrics_transcription",
+  "request": "Extract music lyrics and spoken words from the user-provided local LLMV_002 reference video.",
+  "status": "completed",
+  "started_at": "2026-10-03T15:32:38.705270+00:00",
+  "environment_recovery_of": "ASR_20261003T153108Z",
+  "environment_recovery_reason": "The filesystem sandbox could not expose a macOS Metal device; this execution uses the local GPU. Input and model parameters are unchanged.",
+  "input": {
+    "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+    "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+  },
+  "model": {
+    "name": "mlx-community/whisper-large-v3-turbo-q4",
+    "revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+    "files": {
+      "config.json": "538e24557b8f9bc504700add5e7bbe32087c2353001ff563e64772ad4398671a",
+      "weights.npz": "862bbc832b05f3f4ec19dd632b701d61a6d3f5c7906360a10d72a79870642a80"
+    },
+    "selection": "Repository MLX Whisper-compatible cached model; pinned for reproducibility."
+  },
+  "tool": {
+    "path": "scripts/transcribe.py",
+    "sha256": "5ecd4923342cc9b7acfdc531d151679da9eb272a02d631a91630174fc14dee25",
+    "packages": {
+      "mlx-whisper": "0.4.3",
+      "mlx": "0.32.3",
+      "numpy": "2.5.3",
+      "huggingface-hub": "2.1.1"
+    }
+  },
+  "parameters": {
+    "language": "en",
+    "temperature": 0,
+    "word_timestamps": true,
+    "initial_prompt": "English song with spoken verses and sung choruses. AGI, San Francisco, Waymo, Hugging Face, eighteen months, permanent underclass.",
+    "HF_HUB_OFFLINE": "1"
+  },
+  "output": {
+    "path": "sources/analysis/transcription-v001/transcript-asr-v001.json",
+    "sha256": "fe0eca0751b07eec2b9f2c179d16eefa5f58603ab787a82088afca069dc53c56",
+    "size_bytes": 202326
+  },
+  "review_status": "machine",
+  "human_approval": null,
+  "finished_at": "2026-10-03T15:32:52.740830+00:00",
+  "exit_code": 0,
+  "stdout": "/Users/eric/projects/im-upping-my-pdoom/projects/anabology/sources/analysis/transcription-v001/transcript-asr-v001.json\n",
+  "stderr": "\n  0%|          | 0/30648 [00:00<?, ?frames/s]\n  6%|▌         | 1888/30648 [00:01<00:20, 1371.18frames/s]\n 16%|█▌        | 4886/30648 [00:02<00:11, 2189.24frames/s]\n 25%|██▌       | 7810/30648 [00:03<00:09, 2514.40frames/s]\n 33%|███▎      | 10036/30648 [00:04<00:08, 2423.30frames/s]\n 43%|████▎     | 13034/30648 [00:05<00:06, 2580.06frames/s]\n 52%|█████▏    | 16032/30648 [00:06<00:05, 2654.28frames/s]\n 61%|██████    | 18660/30648 [00:07<00:04, 2627.46frames/s]\n 71%|███████   | 21652/30648 [00:08<00:03, 2697.27frames/s]\n 79%|███████▉  | 24216/30648 [00:09<00:02, 2656.21frames/s]\n 89%|████████▊ | 27200/30648 [00:10<00:01, 2762.18frames/s]\n 99%|█████████▊| 30190/30648 [00:11<00:00, 2848.93frames/s]\n100%|██████████| 30648/30648 [00:11<00:00, 2623.65frames/s]\n100%|██████████| 30648/30648 [00:11<00:00, 2577.23frames/s]\n"
+}

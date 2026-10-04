@@ -1,0 +1,320 @@
+{
+  "text": " It's so over region, we're so back region, Slash loop, make me happier, Slopacolypse, not ours. Can't stuff it back Fox We're so bad We're so bad You",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 21600,
+      "start": 236.72,
+      "end": 245.36,
+      "text": " It's so over region, we're so back region, Slash loop, make me happier, Slopacolypse, not ours.",
+      "tokens": [
+        50365,
+        467,
+        311,
+        370,
+        670,
+        4458,
+        11,
+        321,
+        434,
+        370,
+        646,
+        4458,
+        11,
+        6187,
+        1299,
+        6367,
+        11,
+        652,
+        385,
+        20423,
+        11,
+        6187,
+        404,
+        11428,
+        356,
+        17738,
+        11,
+        406,
+        11896,
+        13,
+        51838
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38501471281051636,
+      "compression_ratio": 1.130952380952381,
+      "no_speech_prob": 2.2118758213895973e-10,
+      "words": [
+        {
+          "word": " It's",
+          "start": 236.72,
+          "end": 237.4,
+          "probability": 0.474609375
+        },
+        {
+          "word": " so",
+          "start": 237.4,
+          "end": 238.08,
+          "probability": 0.525390625
+        },
+        {
+          "word": " over",
+          "start": 238.08,
+          "end": 239.0,
+          "probability": 0.8818359375
+        },
+        {
+          "word": " region,",
+          "start": 239.0,
+          "end": 239.52,
+          "probability": 0.6328125
+        },
+        {
+          "word": " we're",
+          "start": 239.74,
+          "end": 240.02,
+          "probability": 0.93359375
+        },
+        {
+          "word": " so",
+          "start": 240.02,
+          "end": 240.32,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " back",
+          "start": 240.32,
+          "end": 240.76,
+          "probability": 0.84423828125
+        },
+        {
+          "word": " region,",
+          "start": 240.76,
+          "end": 241.24,
+          "probability": 0.71337890625
+        },
+        {
+          "word": " Slash",
+          "start": 241.44,
+          "end": 241.74,
+          "probability": 0.5361328125
+        },
+        {
+          "word": " loop,",
+          "start": 241.74,
+          "end": 242.1,
+          "probability": 0.30810546875
+        },
+        {
+          "word": " make",
+          "start": 242.62,
+          "end": 242.88,
+          "probability": 0.904296875
+        },
+        {
+          "word": " me",
+          "start": 242.88,
+          "end": 243.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " happier,",
+          "start": 243.06,
+          "end": 243.44,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " Slopacolypse,",
+          "start": 243.56,
+          "end": 244.44,
+          "probability": 0.2056884765625
+        },
+        {
+          "word": " not",
+          "start": 244.76,
+          "end": 244.94,
+          "probability": 0.7587890625
+        },
+        {
+          "word": " ours.",
+          "start": 244.94,
+          "end": 245.36,
+          "probability": 0.90673828125
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 24600,
+      "start": 246.62,
+      "end": 247.98,
+      "text": " Can't stuff it back",
+      "tokens": [
+        50365,
+        1664,
+        380,
+        1507,
+        309,
+        646,
+        50465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.407810064462515,
+      "compression_ratio": 1.127659574468085,
+      "no_speech_prob": 7.427138765114805e-11,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 246.62,
+          "end": 247.26,
+          "probability": 0.65234375
+        },
+        {
+          "word": " stuff",
+          "start": 247.26,
+          "end": 247.48,
+          "probability": 0.96484375
+        },
+        {
+          "word": " it",
+          "start": 247.48,
+          "end": 247.66,
+          "probability": 0.990234375
+        },
+        {
+          "word": " back",
+          "start": 247.66,
+          "end": 247.98,
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 24600,
+      "start": 247.98,
+      "end": 248.68,
+      "text": " Fox",
+      "tokens": [
+        50465,
+        11388,
+        50502
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.407810064462515,
+      "compression_ratio": 1.127659574468085,
+      "no_speech_prob": 7.427138765114805e-11,
+      "words": [
+        {
+          "word": " Fox",
+          "start": 247.98,
+          "end": 248.68,
+          "probability": 0.205078125
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 24600,
+      "start": 250.18,
+      "end": 251.44,
+      "text": " We're so bad",
+      "tokens": [
+        50502,
+        492,
+        434,
+        370,
+        1578,
+        50638
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.407810064462515,
+      "compression_ratio": 1.127659574468085,
+      "no_speech_prob": 7.427138765114805e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 250.18,
+          "end": 250.82,
+          "probability": 0.87060546875
+        },
+        {
+          "word": " so",
+          "start": 250.82,
+          "end": 251.12,
+          "probability": 0.984375
+        },
+        {
+          "word": " bad",
+          "start": 251.12,
+          "end": 251.44,
+          "probability": 0.93896484375
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 24600,
+      "start": 251.44,
+      "end": 252.4,
+      "text": " We're so bad",
+      "tokens": [
+        50638,
+        492,
+        434,
+        370,
+        1578,
+        50694
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.407810064462515,
+      "compression_ratio": 1.127659574468085,
+      "no_speech_prob": 7.427138765114805e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 251.44,
+          "end": 251.72,
+          "probability": 0.8076171875
+        },
+        {
+          "word": " so",
+          "start": 251.72,
+          "end": 252.02,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " bad",
+          "start": 252.02,
+          "end": 252.4,
+          "probability": 0.98828125
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 24600,
+      "start": 252.4,
+      "end": 252.8,
+      "text": " You",
+      "tokens": [
+        50694,
+        509,
+        50709
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.407810064462515,
+      "compression_ratio": 1.127659574468085,
+      "no_speech_prob": 7.427138765114805e-11,
+      "words": [
+        {
+          "word": " You",
+          "start": 252.4,
+          "end": 252.8,
+          "probability": 0.57421875
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

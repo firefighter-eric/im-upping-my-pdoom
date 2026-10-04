@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "run_id": "ASR_20261003T153108Z",
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_AUDIO_001",
+  "source_version": "v001",
+  "analysis_version": "v001",
+  "purpose": "lyrics_transcription",
+  "request": "用户要求获取 LLMV_002 视频的逐字稿，主要为音乐歌词文本。",
+  "status": "failed",
+  "started_at": "2026-10-03T15:31:08.567335+00:00",
+  "input": {
+    "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+    "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+  },
+  "model": {
+    "name": "mlx-community/whisper-large-v3-turbo-q4",
+    "revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef",
+    "files": {
+      "config.json": "538e24557b8f9bc504700add5e7bbe32087c2353001ff563e64772ad4398671a",
+      "weights.npz": "862bbc832b05f3f4ec19dd632b701d61a6d3f5c7906360a10d72a79870642a80"
+    },
+    "selection": "Repository MLX Whisper-compatible cached model; pinned revision for reproducibility."
+  },
+  "tool": {
+    "path": "scripts/transcribe.py",
+    "sha256": "5ecd4923342cc9b7acfdc531d151679da9eb272a02d631a91630174fc14dee25",
+    "runtime": ".venv/bin/python"
+  },
+  "parameters": {
+    "language": "en",
+    "temperature": 0,
+    "word_timestamps": true,
+    "initial_prompt": "English song with spoken verses and sung choruses. AGI, San Francisco, Waymo, Hugging Face, eighteen months, permanent underclass.",
+    "HF_HUB_OFFLINE": "1"
+  },
+  "output": {
+    "path": "sources/analysis/transcription-v001/transcript-asr-v001.json"
+  },
+  "review_status": "machine",
+  "human_approval": null,
+  "finished_at": "2026-10-03T15:31:08.810845+00:00",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Optional macOS Apple Silicon dependency: pip install mlx-whisper\n"
+}

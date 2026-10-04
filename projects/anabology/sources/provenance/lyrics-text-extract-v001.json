@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "analysis_version": "v001",
+  "purpose": "extract_author_lyrics_text",
+  "date": "2026-10-03T15:38:45.829532+00:00",
+  "status": "completed",
+  "source_id": "LLMV_002_LYRICS_SOURCE_001",
+  "input": {
+    "path": "sources/text/LLMV_002_suno_prompt_original_v001.md",
+    "sha256": "f58a1eb4a7ad6d25ca0fda287b16739c71a61b4f3a65555e63496a41070a25ff"
+  },
+  "method": "Extract the fenced Lyrics field (draft 3, as generated) block verbatim; exclude style and workflow prompts.",
+  "outputs": [
+    {
+      "path": "sources/text/LLMV_002_lyrics_author_v001.txt",
+      "sha256": "6feebc1da9e9d9476fc80907699c84aa450ff7d1727c65fc312ebb9a3837491c",
+      "size_bytes": 2957
+    },
+    {
+      "path": "sources/text/LLMV_002_lyrics_author_v001.md",
+      "sha256": "93d0c3cd2da654872dc060de04e8b993bf9c4ac6cf83d6b47d62bb49205b215e",
+      "size_bytes": 3448
+    }
+  ],
+  "performance_verification": "Separate audio transcription crosscheck; this file remains the original author draft.",
+  "review_status": "review",
+  "human_approval": null
+}

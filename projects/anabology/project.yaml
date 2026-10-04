@@ -1,0 +1,218 @@
+schema_version: 1
+id: LLMV_002
+slug: anabology
+title: anabology · X 视频参考
+type: reference-video
+created_at: 2026-10-03
+source_url: https://x.com/anabology/status/2103534482930491441
+source_platform_id: "2103534482930491441"
+source_metadata: sources/asset-v001.yaml
+poster: sources/analysis/LLMV_002_poster_v001.jpg
+rights:
+  status: TBD
+  notes: 用户提供链接用于本地独立参考；源视频、音乐、图像、改编及公开传播权利待确认。
+sources:
+  - id: LLMV_002_SOURCE
+    kind: reference-video
+    version: v001
+    path: sources/references/LLMV_002_source_v001.mp4
+    sha256: 5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d
+    size_bytes: 353345097
+    duration_seconds: 306.480181
+    video_duration_seconds: 306.416667
+    codec: h264
+    width: 1920
+    height: 1080
+    frame_rate: 24/1
+    frame_count: 7354
+    audio:
+      codec: aac
+      duration_seconds: 306.480181
+      channels: 2
+      sample_rate: 44100
+  - id: LLMV_002_METADATA_001
+    kind: source-metadata
+    version: v001
+    path: sources/analysis/source-metadata_v001.json
+    sha256: 612fb6764595e8ecb293cc91c4ed7d1527e66b3f26d6a61a5163c08e76452180
+    size_bytes: 2200
+  - id: LLMV_002_PROBE_001
+    kind: media-probe
+    version: v001
+    path: sources/analysis/llmv_002_source_ffprobe_v001.json
+    sha256: 0cb985d30abe626a1ed645eb5b0b5cbd3a3f502744e9cddd690494b0ee66bdeb
+    size_bytes: 3607
+  - id: LLMV_002_POSTER_001
+    kind: reference-poster
+    version: v001
+    path: sources/analysis/LLMV_002_poster_v001.jpg
+    sha256: 608558d02407cf6a4f139300d2889e4ddaec8d0777607fedee00e6cd12de5b5f
+    size_bytes: 689786
+  - id: LLMV_002_ASSET_001
+    kind: source-registration
+    version: v001
+    path: sources/asset-v001.yaml
+    sha256: f6266bc0d3c4260d607271261c1c62e7e036d253e2f2f33b675c849de970512f
+    size_bytes: 2749
+  - id: LLMV_002_IMPORT_001
+    kind: source-import-record
+    version: v001
+    path: sources/provenance/import-v001.json
+    sha256: 744797b7916ede14d5357bddecadcd81de2e3b4a4d100cabf15e83afe0ea78f5
+    size_bytes: 2498
+  - id: LLMV_002_PLAYBACK_001
+    kind: source-playback-record
+    version: v001
+    path: sources/provenance/playback-v001.json
+    sha256: cf5ec0fc4dc43cb196dbfc3d5f4e60293412b6d9c0757292d1c99c7d686c7ca3
+    size_bytes: 1525
+  - id: LLMV_002_AUDIO_001
+    kind: original-audio
+    version: v001
+    path: sources/audio/LLMV_002_audio_original_v001.m4a
+    sha256: 45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99
+    size_bytes: 4957662
+    parent_source_id: LLMV_002_SOURCE
+    processing: AAC stream-copy; full source audio packets unchanged.
+    audio_packet_hash: SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c
+    duration_seconds: 306.480181
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+  - id: LLMV_002_AUDIO_PROBE_001
+    kind: media-probe
+    version: v001
+    path: sources/analysis/llmv_002_audio_original_ffprobe_v001.json
+    sha256: 27aee2c10e8ca9361d882d599fdbde2c918a8d42c95bddad5769dd11b0a70b22
+    size_bytes: 1903
+  - id: LLMV_002_AUDIO_EXTRACT_001
+    kind: source-processing-record
+    version: v001
+    path: sources/provenance/audio-extract-v001.json
+    sha256: acadafabdee2c8a2949a4127dc9929d76a8576701ac7c45eb80eaf8731a87ddd
+    size_bytes: 1328
+  - id: LLMV_002_LYRICS_SOURCE_001
+    kind: lyrics-source
+    version: v001
+    path: sources/text/LLMV_002_suno_prompt_original_v001.md
+    sha256: f58a1eb4a7ad6d25ca0fda287b16739c71a61b4f3a65555e63496a41070a25ff
+    size_bytes: 4986
+    source_url: https://drive.google.com/file/d/10L01uCIxjo9v5tpNseaStXteB7RJ5Y93/view
+    source_filename: prompts-suno.md
+    notes: Author-published generated draft-3 song prompt; source claims and
+      reference data only.
+  - id: LLMV_002_LYRICS_AUTHOR_001
+    kind: author-lyrics
+    version: v001
+    path: sources/text/LLMV_002_lyrics_author_v001.txt
+    sha256: 6feebc1da9e9d9476fc80907699c84aa450ff7d1727c65fc312ebb9a3837491c
+    size_bytes: 2957
+  - id: LLMV_002_LYRICS_AUTHOR_DOC_001
+    kind: author-lyrics-document
+    version: v001
+    path: sources/text/LLMV_002_lyrics_author_v001.md
+    sha256: 93d0c3cd2da654872dc060de04e8b993bf9c4ac6cf83d6b47d62bb49205b215e
+    size_bytes: 3448
+  - id: LLMV_002_LYRICS_TEXT_001
+    kind: lyrics-text
+    version: v001
+    path: sources/text/LLMV_002_lyrics_en_v001.txt
+    sha256: 23ea7c13ff1aea5b0794e5da8e30b7f77c1d5fd28d11bf2c80addd83c10a8a56
+    size_bytes: 2510
+  - id: LLMV_002_LYRICS_IMPORT_001
+    kind: source-import-record
+    version: v001
+    path: sources/provenance/lyrics-source-import-v001.json
+    sha256: 9598a88d1910f4ba50d750c5e8f1ae0927a8fe5872f63354c1b9035add483c3f
+    size_bytes: 1618
+  - id: LLMV_002_LYRICS_EXTRACT_001
+    kind: text-extraction-record
+    version: v001
+    path: sources/provenance/lyrics-text-extract-v001.json
+    sha256: ba27cb83031198e669e35ce4255faa211f6ec78906e74488cc4997cfe863d464
+    size_bytes: 1091
+  - id: LLMV_002_ASR_RAW_001
+    kind: rejected-machine-transcript
+    version: v001
+    path: sources/analysis/transcription-v001/transcript-asr-v001.json
+    sha256: fe0eca0751b07eec2b9f2c179d16eefa5f58603ab787a82088afca069dc53c56
+    size_bytes: 202326
+  - id: LLMV_002_ASR_QUALITY_001
+    kind: transcript-quality
+    version: v001
+    path: sources/analysis/transcription-v001/quality-v001.json
+    sha256: d7ce871c81f77fc2eebac91e8503503bbcaeccf82d9b7a687c18565932eb2f52
+    size_bytes: 611
+  - id: LLMV_002_ASR_TOOL_002
+    kind: analysis-code
+    version: v002
+    path: sources/analysis/transcription-v002/transcribe-independent-v002.py
+    sha256: 56cf4e359730546ec4cbf9340f92dcfdd76e8c0e37c03c9f8193b904763aebc3
+    size_bytes: 940
+  - id: LLMV_002_ASR_RAW_002
+    kind: machine-transcript
+    version: v002
+    path: sources/analysis/transcription-v002/transcript-asr-v002.json
+    sha256: 2885d755226255143a4d97073be02fae168d51ee0a1cb71e37ed64cdc81206c8
+    size_bytes: 97165
+  - id: LLMV_002_ASR_TOOL_003
+    kind: analysis-code
+    version: v003
+    path: sources/analysis/transcription-v003/transcribe-drop-v003.py
+    sha256: b1494eac0616935dff2e7a4fe9b538ef36f619084717ce075b47d864109c1f3b
+    size_bytes: 2886
+  - id: LLMV_002_ASR_RAW_003
+    kind: machine-transcript
+    version: v003
+    path: sources/analysis/transcription-v003/transcript-drop-asr-v003.json
+    sha256: 0179a5804293a4e7d62c0cbc71ce43b83cc393b0ed47fba778a648c6c53c70f1
+    size_bytes: 6904
+  - id: LLMV_002_LYRICS_TIMED_001
+    kind: source-assisted-lyrics
+    version: v001
+    path: sources/analysis/transcription-v003/lyrics-timed-source-assisted-v001.md
+    sha256: d06354268530483a515802eedf01458b1b13f31b48b1e45a03039e4964c97ec0
+    size_bytes: 4249
+  - id: LLMV_002_LYRICS_QA_001
+    kind: lyrics-crosscheck-record
+    version: v001
+    path: sources/provenance/lyrics-crosscheck-v001.json
+    sha256: 9bfd1d9cf49cbcfe37ed59e6e850e7f234bc52a7fe7c9efd405794009ae3046f
+    size_bytes: 7046
+  - id: LLMV_002_ASR_20261003T153108Z
+    kind: transcription-run-record
+    version: v001
+    path: sources/provenance/ASR_20261003T153108Z.json
+    sha256: 4e3dbc4030e3bea6f28691855c5ec81b421ac4ade1afdf0909fa430cb2ec1ae0
+    size_bytes: 1756
+  - id: LLMV_002_ASR_20261003T153238Z
+    kind: transcription-run-record
+    version: v001
+    path: sources/provenance/ASR_20261003T153238Z.json
+    sha256: 48955cb6c91e0bde80d0f8db7b5ff493682468c58852eb96a41f94936f7fe33d
+    size_bytes: 3255
+  - id: LLMV_002_ASR_20261003T153728Z
+    kind: transcription-run-record
+    version: v002
+    path: sources/provenance/ASR_20261003T153728Z.json
+    sha256: 2eb8360b93fa655e627da267d244754dfed8e02a136bbc19f196962c6887fe6b
+    size_bytes: 2943
+  - id: LLMV_002_ASR_20261003T154027Z
+    kind: transcription-run-record
+    version: v003
+    path: sources/provenance/ASR_20261003T154027Z.json
+    sha256: 218e6ae47156b0988c4123d11a6328010fb68211c15c713f7c12bd3ae958c2e9
+    size_bytes: 1651
+lyrics:
+  status: review
+  source_id: LLMV_002_LYRICS_SOURCE_001
+  plain_text: sources/text/LLMV_002_lyrics_en_v001.txt
+  document: LYRICS.md
+  timed_crosscheck: sources/analysis/transcription-v003/lyrics-timed-source-assisted-v001.md
+  quality_record: sources/provenance/lyrics-crosscheck-v001.json
+  audio_source_id: LLMV_002_AUDIO_001
+  notes: Author lyrics draft 3 is the text source. ASR segment times are
+    approximate; several performed words and the first four Drop lines remain
+    unconfirmed. Analysis revisions in sources/ are independent of production
+    versions.
+  human_approval: null

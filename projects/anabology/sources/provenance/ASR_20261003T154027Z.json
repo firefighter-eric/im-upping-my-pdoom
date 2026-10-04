@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "run_id": "ASR_20261003T154027Z",
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_AUDIO_001",
+  "source_version": "v001",
+  "analysis_version": "v003",
+  "purpose": "supplement_missing_dense_vocals",
+  "status": "completed",
+  "started_at": "2026-10-03T15:40:27.823236+00:00",
+  "input": {
+    "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+    "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+  },
+  "parent_analysis": "v002",
+  "model": {
+    "name": "mlx-community/whisper-large-v3-turbo-q4",
+    "revision": "660c343bbf4e52ac257f0b7d952e5388e6f93bef"
+  },
+  "tool": {
+    "path": "sources/analysis/transcription-v003/transcribe-drop-v003.py",
+    "sha256": "b1494eac0616935dff2e7a4fe9b538ef36f619084717ce075b47d864109c1f3b",
+    "packages": {
+      "mlx-whisper": "0.4.3",
+      "mlx": "0.32.3",
+      "numpy": "2.5.3"
+    }
+  },
+  "parameters": {
+    "language": "en",
+    "temperature": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "compression_ratio_threshold": 2.4,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "clip_timestamps": [
+      216.0,
+      253.0
+    ],
+    "initial_prompt": "AGI, data center, Lean proofs, phages, enzymes, kidneys, Sora, Stargate, force majeure, Slopacolypse."
+  },
+  "output": {
+    "path": "sources/analysis/transcription-v003/transcript-drop-asr-v003.json",
+    "sha256": "0179a5804293a4e7d62c0cbc71ce43b83cc393b0ed47fba778a648c6c53c70f1",
+    "size_bytes": 6904
+  },
+  "review_status": "machine",
+  "human_approval": null,
+  "finished_at": "2026-10-03T15:40:29.938819+00:00"
+}

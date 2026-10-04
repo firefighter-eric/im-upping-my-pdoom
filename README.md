@@ -2,6 +2,8 @@
 
 以 **作品 → 制作版本 → 变体与交付记录** 为核心的代码视频创作仓库。首个作品是 **AGI**：保留参考视频提取的完整音轨，按独立制作版本探索不同的视觉处理。后续类似视频使用独立作品目录；没有固定的前端项目。
 
+目前有 **2 个独立参考**：`LLMV_001 / AGI`（B 站，约 2:37）与 `LLMV_002 / anabology`（X，1080p24，约 5:06）。新参考单独保存在 [projects/anabology/](projects/anabology/REFERENCE.md)，仅登记原片与来源，没有制作版本；原片和内嵌音轨完整保留在本地。两条参考的目录、输入 ID 和制作记录独立，目录见 [docs/REFERENCES.md](docs/REFERENCES.md)。
+
 ![AGI v001 三版画面对比](projects/agi/versions/v001/provenance/original/contact-sheet-v001.jpg)
 
 ## 现有内容

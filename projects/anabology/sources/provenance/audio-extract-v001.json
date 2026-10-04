@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "source_id": "LLMV_002_SOURCE",
+  "source_sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+  "output_id": "LLMV_002_AUDIO_001",
+  "source_version": "v001",
+  "date": "2026-10-03T15:30:24.650052+00:00",
+  "purpose": "extract_original_audio_for_requested_lyrics_transcription",
+  "status": "completed",
+  "model": null,
+  "tool": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "sources/references/LLMV_002_source_v001.mp4",
+    "-map",
+    "0:a:0",
+    "-vn",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "sources/audio/LLMV_002_audio_original_v001.m4a"
+  ],
+  "output": {
+    "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+    "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99",
+    "size_bytes": 4957662,
+    "audio_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c"
+  },
+  "validation": {
+    "source_audio_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+    "packets_identical": true,
+    "full_decode": "passed"
+  },
+  "processing": "AAC stream-copy. No trimming, speed change, mixing or audio re-encoding."
+}

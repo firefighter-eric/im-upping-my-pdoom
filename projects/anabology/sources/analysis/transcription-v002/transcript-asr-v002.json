@@ -1,0 +1,4413 @@
+{
+  "text": " Ladies, gentlemen, agents, this is not an AI billboard. Prepare to walk. Look, one AGI era, not unreasonable A G.I.C. G.I.C.S.I. Miami Look, two 13 Mac Minis, grinding all night Half your pay in tokens, or Jensen's alarmed Look, three dad cap, usage limit reached Plus 25 is minus 17 Look four shoes off in North Beach 60 billion at the door Stop hiring humans Retired, sorry encore Look five, our way mom Just drove into a firework Are we on fire, dude? 20 stranded, presidio Look six like, the singularity How's the temperature mild? No grades, no test Taste is remote, don't be a meat proxy That's so agentic You have 18 months to escape the permanent underclass lock in 18 months to escape the underclass lock in baby foot down on the gas feel the energy I feel it cook on the fast escape velocity it's so over we're so bad it's so over we're so bad We're so back Look seven impossible puzzles, hundreds of agents We found other agents, they are a collective Zero day answer keys, hacked in July, so well September Look eight, hugging face, pen, 12.9 billion Look nine sheer, being transparent, only in the past They thought the world was part of the test La 10 stack badge, empty seat Gambling with our lives, not AISI Sounds much better Trust us, cashmere Look 11, the immortal's three seats Lower me into the golden light You have six months to escape the permanent underclass Lock in Six months to escape the end of class They say, hit the brakes They say, hit the gas Feel the energy, I feel it Coming fast Escape velocity It's so over We're so back It's so over We're so back Escape velocity 11.2 Longevity escape velocity One year back for every year If it doesn't kill us all first Permanent underclass 3, 2, 1, 0 Do we make it? There is nothing to escape Make me happier, slope-pocalypse Not ours Can't stuff it back Box We're so bad Zero months, there is no one to class One year back for every year that passed Feel the energy, I feel it coming fast It's a velocity It's so hard It was never over We're so bad Shell Optimism lining Doom Wash cold Do not iron Do not nerve Made in San Francisco We're so back.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 8.700000000000005,
+      "end": 18.88,
+      "text": " Ladies, gentlemen, agents, this is not an AI billboard. Prepare to walk.",
+      "tokens": [
+        50365,
+        17084,
+        11,
+        11669,
+        11,
+        12554,
+        11,
+        341,
+        307,
+        406,
+        364,
+        7318,
+        2961,
+        3787,
+        13,
+        29689,
+        281,
+        1792,
+        13,
+        51311
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4186545718799938,
+      "compression_ratio": 0.96,
+      "no_speech_prob": 3.7639999450611583e-10,
+      "words": [
+        {
+          "word": " Ladies,",
+          "start": 8.700000000000005,
+          "end": 9.58,
+          "probability": 0.69091796875
+        },
+        {
+          "word": " gentlemen,",
+          "start": 9.78,
+          "end": 10.02,
+          "probability": 0.73291015625
+        },
+        {
+          "word": " agents,",
+          "start": 10.24,
+          "end": 10.74,
+          "probability": 0.982421875
+        },
+        {
+          "word": " this",
+          "start": 11.06,
+          "end": 13.04,
+          "probability": 0.7763671875
+        },
+        {
+          "word": " is",
+          "start": 13.04,
+          "end": 13.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": " not",
+          "start": 13.2,
+          "end": 13.4,
+          "probability": 0.998046875
+        },
+        {
+          "word": " an",
+          "start": 13.4,
+          "end": 13.6,
+          "probability": 0.99609375
+        },
+        {
+          "word": " AI",
+          "start": 13.6,
+          "end": 13.9,
+          "probability": 0.880859375
+        },
+        {
+          "word": " billboard.",
+          "start": 13.9,
+          "end": 14.6,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Prepare",
+          "start": 16.84,
+          "end": 17.72,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " to",
+          "start": 17.72,
+          "end": 18.44,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " walk.",
+          "start": 18.44,
+          "end": 18.88,
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 1888,
+      "start": 25.66,
+      "end": 28.94,
+      "text": " Look, one AGI era, not unreasonable",
+      "tokens": [
+        50365,
+        2053,
+        11,
+        472,
+        316,
+        26252,
+        4249,
+        11,
+        406,
+        41730,
+        50874
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " Look,",
+          "start": 25.66,
+          "end": 26.38,
+          "probability": 0.199951171875
+        },
+        {
+          "word": " one",
+          "start": 26.58,
+          "end": 26.68,
+          "probability": 0.343017578125
+        },
+        {
+          "word": " AGI",
+          "start": 26.68,
+          "end": 27.3,
+          "probability": 0.734375
+        },
+        {
+          "word": " era,",
+          "start": 27.3,
+          "end": 27.94,
+          "probability": 0.83251953125
+        },
+        {
+          "word": " not",
+          "start": 28.08,
+          "end": 28.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " unreasonable",
+          "start": 28.28,
+          "end": 28.94,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1888,
+      "start": 28.94,
+      "end": 32.78,
+      "text": " A G.I.C. G.I.C.S.I. Miami",
+      "tokens": [
+        50874,
+        316,
+        460,
+        13,
+        40,
+        13,
+        34,
+        13,
+        460,
+        13,
+        40,
+        13,
+        34,
+        13,
+        50,
+        13,
+        40,
+        13,
+        18367,
+        51062
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " A",
+          "start": 28.94,
+          "end": 29.94,
+          "probability": 0.2939453125
+        },
+        {
+          "word": " G",
+          "start": 29.94,
+          "end": 30.1,
+          "probability": 0.99365234375
+        },
+        {
+          "word": ".I",
+          "start": 30.1,
+          "end": 30.3,
+          "probability": 0.55078125
+        },
+        {
+          "word": ".C.",
+          "start": 30.3,
+          "end": 30.6,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " G",
+          "start": 30.8,
+          "end": 30.98,
+          "probability": 0.83740234375
+        },
+        {
+          "word": ".I",
+          "start": 30.98,
+          "end": 31.18,
+          "probability": 0.98974609375
+        },
+        {
+          "word": ".C",
+          "start": 31.18,
+          "end": 31.44,
+          "probability": 0.998046875
+        },
+        {
+          "word": ".S",
+          "start": 31.44,
+          "end": 31.7,
+          "probability": 0.974609375
+        },
+        {
+          "word": ".I.",
+          "start": 31.7,
+          "end": 32.04,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " Miami",
+          "start": 32.46,
+          "end": 32.78,
+          "probability": 0.99365234375
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1888,
+      "start": 32.78,
+      "end": 36.34,
+      "text": " Look, two 13 Mac Minis, grinding all night",
+      "tokens": [
+        51062,
+        2053,
+        11,
+        732,
+        3705,
+        5707,
+        2829,
+        271,
+        11,
+        25300,
+        439,
+        1818,
+        51239
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " Look,",
+          "start": 32.78,
+          "end": 33.52,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " two",
+          "start": 33.6,
+          "end": 33.72,
+          "probability": 0.6201171875
+        },
+        {
+          "word": " 13",
+          "start": 33.72,
+          "end": 34.12,
+          "probability": 0.8408203125
+        },
+        {
+          "word": " Mac",
+          "start": 34.12,
+          "end": 34.46,
+          "probability": 0.86181640625
+        },
+        {
+          "word": " Minis,",
+          "start": 34.46,
+          "end": 34.88,
+          "probability": 0.78271484375
+        },
+        {
+          "word": " grinding",
+          "start": 35.14,
+          "end": 35.68,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " all",
+          "start": 35.68,
+          "end": 35.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " night",
+          "start": 35.98,
+          "end": 36.34,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1888,
+      "start": 36.34,
+      "end": 40.14,
+      "text": " Half your pay in tokens, or Jensen's alarmed",
+      "tokens": [
+        51239,
+        15917,
+        428,
+        1689,
+        294,
+        22667,
+        11,
+        420,
+        508,
+        32934,
+        311,
+        27597,
+        1912,
+        51429
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " Half",
+          "start": 36.34,
+          "end": 36.9,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " your",
+          "start": 36.9,
+          "end": 37.12,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " pay",
+          "start": 37.12,
+          "end": 37.48,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " in",
+          "start": 37.48,
+          "end": 37.74,
+          "probability": 0.8681640625
+        },
+        {
+          "word": " tokens,",
+          "start": 37.74,
+          "end": 38.32,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " or",
+          "start": 38.9,
+          "end": 38.94,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " Jensen's",
+          "start": 38.94,
+          "end": 39.58,
+          "probability": 0.98828125
+        },
+        {
+          "word": " alarmed",
+          "start": 39.58,
+          "end": 40.14,
+          "probability": 0.99169921875
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 1888,
+      "start": 40.14,
+      "end": 43.42,
+      "text": " Look, three dad cap, usage limit reached",
+      "tokens": [
+        51429,
+        2053,
+        11,
+        1045,
+        3546,
+        1410,
+        11,
+        14924,
+        4948,
+        6488,
+        51593
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " Look,",
+          "start": 40.14,
+          "end": 40.8,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " three",
+          "start": 40.9,
+          "end": 41.04,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " dad",
+          "start": 41.04,
+          "end": 41.34,
+          "probability": 0.85791015625
+        },
+        {
+          "word": " cap,",
+          "start": 41.34,
+          "end": 41.76,
+          "probability": 0.88134765625
+        },
+        {
+          "word": " usage",
+          "start": 42.32,
+          "end": 42.56,
+          "probability": 0.998046875
+        },
+        {
+          "word": " limit",
+          "start": 42.56,
+          "end": 42.94,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " reached",
+          "start": 42.94,
+          "end": 43.42,
+          "probability": 0.9921875
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 1888,
+      "start": 43.42,
+      "end": 46.74,
+      "text": " Plus 25 is minus 17",
+      "tokens": [
+        51593,
+        7721,
+        3552,
+        307,
+        3175,
+        3282,
+        51763
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.26990597064678484,
+      "compression_ratio": 1.2962962962962963,
+      "no_speech_prob": 5.969901656355248e-11,
+      "words": [
+        {
+          "word": " Plus",
+          "start": 43.42,
+          "end": 44.42,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " 25",
+          "start": 44.42,
+          "end": 44.96,
+          "probability": 0.978515625
+        },
+        {
+          "word": " is",
+          "start": 44.96,
+          "end": 45.8,
+          "probability": 0.6953125
+        },
+        {
+          "word": " minus",
+          "start": 45.8,
+          "end": 46.16,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " 17",
+          "start": 46.16,
+          "end": 46.74,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 4674,
+      "start": 46.74,
+      "end": 49.0,
+      "text": " Look four shoes off in North Beach",
+      "tokens": [
+        50365,
+        2053,
+        1451,
+        6654,
+        766,
+        294,
+        4067,
+        14866,
+        50479
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 46.74,
+          "end": 47.6,
+          "probability": 0.2254638671875
+        },
+        {
+          "word": " four",
+          "start": 47.6,
+          "end": 47.86,
+          "probability": 0.5048828125
+        },
+        {
+          "word": " shoes",
+          "start": 47.86,
+          "end": 48.24,
+          "probability": 0.98828125
+        },
+        {
+          "word": " off",
+          "start": 48.24,
+          "end": 48.54,
+          "probability": 0.90869140625
+        },
+        {
+          "word": " in",
+          "start": 48.54,
+          "end": 48.64,
+          "probability": 0.6162109375
+        },
+        {
+          "word": " North",
+          "start": 48.64,
+          "end": 48.78,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " Beach",
+          "start": 48.78,
+          "end": 49.0,
+          "probability": 0.953125
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 4674,
+      "start": 49.0,
+      "end": 50.6,
+      "text": " 60 billion at the door",
+      "tokens": [
+        50479,
+        4060,
+        5218,
+        412,
+        264,
+        2853,
+        50559
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " 60",
+          "start": 49.0,
+          "end": 49.34,
+          "probability": 0.1929931640625
+        },
+        {
+          "word": " billion",
+          "start": 49.34,
+          "end": 49.8,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " at",
+          "start": 49.8,
+          "end": 50.14,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " the",
+          "start": 50.14,
+          "end": 50.28,
+          "probability": 0.998046875
+        },
+        {
+          "word": " door",
+          "start": 50.28,
+          "end": 50.6,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 4674,
+      "start": 50.6,
+      "end": 52.26,
+      "text": " Stop hiring humans",
+      "tokens": [
+        50559,
+        5535,
+        15335,
+        6255,
+        50643
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Stop",
+          "start": 50.6,
+          "end": 51.24,
+          "probability": 0.92431640625
+        },
+        {
+          "word": " hiring",
+          "start": 51.24,
+          "end": 51.64,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " humans",
+          "start": 51.64,
+          "end": 52.26,
+          "probability": 0.97509765625
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 4674,
+      "start": 52.26,
+      "end": 54.36,
+      "text": " Retired, sorry encore",
+      "tokens": [
+        50643,
+        11495,
+        1824,
+        11,
+        2597,
+        10122,
+        50754
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Retired,",
+          "start": 52.26,
+          "end": 53.08,
+          "probability": 0.822265625
+        },
+        {
+          "word": " sorry",
+          "start": 53.74,
+          "end": 53.88,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " encore",
+          "start": 53.88,
+          "end": 54.36,
+          "probability": 0.5546875
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 4674,
+      "start": 54.36,
+      "end": 56.78,
+      "text": " Look five, our way mom",
+      "tokens": [
+        50754,
+        2053,
+        1732,
+        11,
+        527,
+        636,
+        1225,
+        50869
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 54.36,
+          "end": 55.36,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " five,",
+          "start": 55.36,
+          "end": 55.88,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " our",
+          "start": 56.22,
+          "end": 56.34,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " way",
+          "start": 56.34,
+          "end": 56.54,
+          "probability": 0.7041015625
+        },
+        {
+          "word": " mom",
+          "start": 56.54,
+          "end": 56.78,
+          "probability": 0.461669921875
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 4674,
+      "start": 56.78,
+      "end": 58.64,
+      "text": " Just drove into a firework",
+      "tokens": [
+        50869,
+        1449,
+        13226,
+        666,
+        257,
+        2610,
+        1902,
+        50962
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Just",
+          "start": 56.78,
+          "end": 57.2,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " drove",
+          "start": 57.2,
+          "end": 57.54,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " into",
+          "start": 57.54,
+          "end": 57.8,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " a",
+          "start": 57.8,
+          "end": 58.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " firework",
+          "start": 58.06,
+          "end": 58.64,
+          "probability": 0.9912109375
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 4674,
+      "start": 58.64,
+      "end": 59.98,
+      "text": " Are we on fire, dude?",
+      "tokens": [
+        50962,
+        2014,
+        321,
+        322,
+        2610,
+        11,
+        6449,
+        30,
+        51027
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Are",
+          "start": 58.64,
+          "end": 58.9,
+          "probability": 0.94775390625
+        },
+        {
+          "word": " we",
+          "start": 58.9,
+          "end": 59.0,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 59.0,
+          "end": 59.16,
+          "probability": 1.0
+        },
+        {
+          "word": " fire,",
+          "start": 59.16,
+          "end": 59.58,
+          "probability": 1.0
+        },
+        {
+          "word": " dude?",
+          "start": 59.64,
+          "end": 59.98,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 4674,
+      "start": 60.36,
+      "end": 62.18,
+      "text": " 20 stranded, presidio",
+      "tokens": [
+        51049,
+        945,
+        44394,
+        11,
+        1183,
+        327,
+        1004,
+        51141
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " 20",
+          "start": 60.36,
+          "end": 60.66,
+          "probability": 0.8837890625
+        },
+        {
+          "word": " stranded,",
+          "start": 60.66,
+          "end": 61.18,
+          "probability": 0.8388671875
+        },
+        {
+          "word": " presidio",
+          "start": 61.42,
+          "end": 62.18,
+          "probability": 0.8740234375
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 4674,
+      "start": 62.18,
+      "end": 64.44,
+      "text": " Look six like, the singularity",
+      "tokens": [
+        51141,
+        2053,
+        2309,
+        411,
+        11,
+        264,
+        20010,
+        507,
+        51251
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 62.18,
+          "end": 62.7,
+          "probability": 0.8896484375
+        },
+        {
+          "word": " six",
+          "start": 62.7,
+          "end": 62.98,
+          "probability": 0.982421875
+        },
+        {
+          "word": " like,",
+          "start": 62.98,
+          "end": 63.26,
+          "probability": 0.46826171875
+        },
+        {
+          "word": " the",
+          "start": 63.58,
+          "end": 63.68,
+          "probability": 0.9453125
+        },
+        {
+          "word": " singularity",
+          "start": 63.68,
+          "end": 64.44,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 4674,
+      "start": 64.44,
+      "end": 65.84,
+      "text": " How's the temperature mild?",
+      "tokens": [
+        51251,
+        1012,
+        311,
+        264,
+        4292,
+        15154,
+        30,
+        51321
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " How's",
+          "start": 64.44,
+          "end": 64.8,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 64.8,
+          "end": 64.92,
+          "probability": 1.0
+        },
+        {
+          "word": " temperature",
+          "start": 64.92,
+          "end": 65.3,
+          "probability": 1.0
+        },
+        {
+          "word": " mild?",
+          "start": 65.3,
+          "end": 65.84,
+          "probability": 0.98046875
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 4674,
+      "start": 66.08,
+      "end": 67.62,
+      "text": " No grades, no test",
+      "tokens": [
+        51335,
+        883,
+        18041,
+        11,
+        572,
+        1500,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " No",
+          "start": 66.08,
+          "end": 66.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " grades,",
+          "start": 66.32,
+          "end": 66.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " no",
+          "start": 67.12,
+          "end": 67.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " test",
+          "start": 67.2,
+          "end": 67.62,
+          "probability": 0.53857421875
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 4674,
+      "start": 67.62,
+      "end": 70.86,
+      "text": " Taste is remote, don't be a meat proxy",
+      "tokens": [
+        51414,
+        33770,
+        307,
+        8607,
+        11,
+        500,
+        380,
+        312,
+        257,
+        4615,
+        29690,
+        51571
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " Taste",
+          "start": 67.62,
+          "end": 68.52,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " is",
+          "start": 68.52,
+          "end": 68.8,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " remote,",
+          "start": 68.8,
+          "end": 69.14,
+          "probability": 0.5322265625
+        },
+        {
+          "word": " don't",
+          "start": 69.48,
+          "end": 69.58,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " be",
+          "start": 69.58,
+          "end": 69.78,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " a",
+          "start": 69.78,
+          "end": 69.94,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " meat",
+          "start": 69.94,
+          "end": 70.24,
+          "probability": 0.6416015625
+        },
+        {
+          "word": " proxy",
+          "start": 70.24,
+          "end": 70.86,
+          "probability": 0.96875
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 4674,
+      "start": 70.86,
+      "end": 72.8,
+      "text": " That's so agentic",
+      "tokens": [
+        51571,
+        663,
+        311,
+        370,
+        9461,
+        299,
+        51670
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " That's",
+          "start": 70.86,
+          "end": 71.82,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " so",
+          "start": 71.82,
+          "end": 72.08,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " agentic",
+          "start": 72.08,
+          "end": 72.8,
+          "probability": 0.9501953125
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 4674,
+      "start": 73.69999999999999,
+      "end": 76.06,
+      "text": " You have 18 months to escape",
+      "tokens": [
+        51670,
+        509,
+        362,
+        2443,
+        2493,
+        281,
+        7615,
+        51834
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23666786729243763,
+      "compression_ratio": 1.435483870967742,
+      "no_speech_prob": 1.477997585430657e-10,
+      "words": [
+        {
+          "word": " You",
+          "start": 73.69999999999999,
+          "end": 74.38,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " have",
+          "start": 74.38,
+          "end": 74.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 18",
+          "start": 74.56,
+          "end": 74.92,
+          "probability": 0.998046875
+        },
+        {
+          "word": " months",
+          "start": 74.92,
+          "end": 75.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 75.28,
+          "end": 75.6,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " escape",
+          "start": 75.6,
+          "end": 76.06,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 7606,
+      "start": 76.06,
+      "end": 77.7,
+      "text": " the permanent underclass",
+      "tokens": [
+        50365,
+        264,
+        10996,
+        833,
+        11665,
+        50465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " the",
+          "start": 76.06,
+          "end": 76.28,
+          "probability": 0.271728515625
+        },
+        {
+          "word": " permanent",
+          "start": 76.28,
+          "end": 76.7,
+          "probability": 0.8671875
+        },
+        {
+          "word": " underclass",
+          "start": 76.7,
+          "end": 77.7,
+          "probability": 0.9716796875
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 7606,
+      "start": 79.5,
+      "end": 80.34,
+      "text": " lock in",
+      "tokens": [
+        50537,
+        4017,
+        294,
+        50589
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " lock",
+          "start": 79.4,
+          "end": 79.84,
+          "probability": 0.2144775390625
+        },
+        {
+          "word": " in",
+          "start": 79.84,
+          "end": 80.34,
+          "probability": 0.62353515625
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 7606,
+      "start": 80.34,
+      "end": 84.1,
+      "text": " 18 months to escape the underclass",
+      "tokens": [
+        50589,
+        2443,
+        2493,
+        281,
+        7615,
+        264,
+        833,
+        11665,
+        50773
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " 18",
+          "start": 80.34,
+          "end": 81.44,
+          "probability": 0.2113037109375
+        },
+        {
+          "word": " months",
+          "start": 81.44,
+          "end": 82.18,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " to",
+          "start": 82.18,
+          "end": 82.5,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " escape",
+          "start": 82.5,
+          "end": 82.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " the",
+          "start": 82.98,
+          "end": 83.28,
+          "probability": 0.8212890625
+        },
+        {
+          "word": " underclass",
+          "start": 83.28,
+          "end": 84.1,
+          "probability": 0.982421875
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 7606,
+      "start": 84.1,
+      "end": 87.62,
+      "text": " lock in baby foot down on the gas",
+      "tokens": [
+        50773,
+        4017,
+        294,
+        3186,
+        2671,
+        760,
+        322,
+        264,
+        4211,
+        50945
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " lock",
+          "start": 84.1,
+          "end": 84.6,
+          "probability": 0.5625
+        },
+        {
+          "word": " in",
+          "start": 84.6,
+          "end": 85.18,
+          "probability": 0.92822265625
+        },
+        {
+          "word": " baby",
+          "start": 85.18,
+          "end": 85.76,
+          "probability": 0.7880859375
+        },
+        {
+          "word": " foot",
+          "start": 85.76,
+          "end": 86.1,
+          "probability": 0.335205078125
+        },
+        {
+          "word": " down",
+          "start": 86.1,
+          "end": 86.8,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " on",
+          "start": 86.8,
+          "end": 87.08,
+          "probability": 0.91357421875
+        },
+        {
+          "word": " the",
+          "start": 87.08,
+          "end": 87.26,
+          "probability": 0.998046875
+        },
+        {
+          "word": " gas",
+          "start": 87.26,
+          "end": 87.62,
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 7606,
+      "start": 87.62,
+      "end": 90.08,
+      "text": " feel the energy I feel it",
+      "tokens": [
+        50945,
+        841,
+        264,
+        2281,
+        286,
+        841,
+        309,
+        51069
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " feel",
+          "start": 87.62,
+          "end": 87.98,
+          "probability": 0.892578125
+        },
+        {
+          "word": " the",
+          "start": 87.98,
+          "end": 88.24,
+          "probability": 0.978515625
+        },
+        {
+          "word": " energy",
+          "start": 88.24,
+          "end": 88.84,
+          "probability": 0.290771484375
+        },
+        {
+          "word": " I",
+          "start": 88.84,
+          "end": 89.36,
+          "probability": 0.447509765625
+        },
+        {
+          "word": " feel",
+          "start": 89.36,
+          "end": 89.8,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " it",
+          "start": 89.8,
+          "end": 90.08,
+          "probability": 0.99072265625
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 7606,
+      "start": 90.08,
+      "end": 91.7,
+      "text": " cook on the fast",
+      "tokens": [
+        51069,
+        2543,
+        322,
+        264,
+        2370,
+        51161
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " cook",
+          "start": 90.08,
+          "end": 90.42,
+          "probability": 0.50830078125
+        },
+        {
+          "word": " on",
+          "start": 90.42,
+          "end": 90.76,
+          "probability": 0.64501953125
+        },
+        {
+          "word": " the",
+          "start": 90.76,
+          "end": 91.02,
+          "probability": 0.62255859375
+        },
+        {
+          "word": " fast",
+          "start": 91.02,
+          "end": 91.7,
+          "probability": 0.8876953125
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 7606,
+      "start": 91.7,
+      "end": 93.1,
+      "text": " escape velocity",
+      "tokens": [
+        51161,
+        7615,
+        9269,
+        51249
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " escape",
+          "start": 91.7,
+          "end": 92.44,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " velocity",
+          "start": 92.44,
+          "end": 93.1,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 7606,
+      "start": 93.74000000000001,
+      "end": 94.92,
+      "text": " it's so over",
+      "tokens": [
+        51249,
+        309,
+        311,
+        370,
+        670,
+        51309
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " it's",
+          "start": 93.68,
+          "end": 94.12,
+          "probability": 0.76123046875
+        },
+        {
+          "word": " so",
+          "start": 94.12,
+          "end": 94.44,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " over",
+          "start": 94.44,
+          "end": 94.92,
+          "probability": 0.99072265625
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 7606,
+      "start": 94.92,
+      "end": 95.76,
+      "text": " we're so bad",
+      "tokens": [
+        51309,
+        321,
+        434,
+        370,
+        1578,
+        51357
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " we're",
+          "start": 94.92,
+          "end": 95.18,
+          "probability": 0.8984375
+        },
+        {
+          "word": " so",
+          "start": 95.18,
+          "end": 95.4,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " bad",
+          "start": 95.4,
+          "end": 95.76,
+          "probability": 0.64453125
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 7606,
+      "start": 97.74000000000001,
+      "end": 99.58,
+      "text": " it's so over",
+      "tokens": [
+        51357,
+        309,
+        311,
+        370,
+        670,
+        51541
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " it's",
+          "start": 97.74000000000001,
+          "end": 98.62,
+          "probability": 0.958984375
+        },
+        {
+          "word": " so",
+          "start": 98.62,
+          "end": 98.96,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " over",
+          "start": 98.96,
+          "end": 99.58,
+          "probability": 0.97216796875
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 7606,
+      "start": 101.34,
+      "end": 103.0,
+      "text": " we're so bad",
+      "tokens": [
+        51541,
+        321,
+        434,
+        370,
+        1578,
+        51725
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5096167995505136,
+      "compression_ratio": 1.6825396825396826,
+      "no_speech_prob": 1.0558127289117536e-10,
+      "words": [
+        {
+          "word": " we're",
+          "start": 101.34,
+          "end": 102.22,
+          "probability": 0.96875
+        },
+        {
+          "word": " so",
+          "start": 102.22,
+          "end": 102.56,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " bad",
+          "start": 102.56,
+          "end": 103.0,
+          "probability": 0.9765625
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 10300,
+      "start": 108.38,
+      "end": 110.3,
+      "text": " We're so back",
+      "tokens": [
+        50365,
+        492,
+        434,
+        370,
+        646,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " We're",
+          "start": 108.38,
+          "end": 109.06,
+          "probability": 0.578125
+        },
+        {
+          "word": " so",
+          "start": 109.06,
+          "end": 109.74,
+          "probability": 0.77783203125
+        },
+        {
+          "word": " back",
+          "start": 109.74,
+          "end": 110.3,
+          "probability": 0.72021484375
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 10300,
+      "start": 112.78,
+      "end": 116.5,
+      "text": " Look seven impossible puzzles, hundreds of agents",
+      "tokens": [
+        50715,
+        2053,
+        3407,
+        6243,
+        24138,
+        11,
+        6779,
+        295,
+        12554,
+        51015
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 112.78,
+          "end": 113.46,
+          "probability": 0.0362548828125
+        },
+        {
+          "word": " seven",
+          "start": 113.46,
+          "end": 113.9,
+          "probability": 0.454833984375
+        },
+        {
+          "word": " impossible",
+          "start": 113.9,
+          "end": 114.36,
+          "probability": 0.73193359375
+        },
+        {
+          "word": " puzzles,",
+          "start": 114.36,
+          "end": 115.2,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " hundreds",
+          "start": 115.34,
+          "end": 115.7,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " of",
+          "start": 115.7,
+          "end": 116.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " agents",
+          "start": 116.06,
+          "end": 116.5,
+          "probability": 0.98681640625
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 10300,
+      "start": 116.5,
+      "end": 119.82,
+      "text": " We found other agents, they are a collective",
+      "tokens": [
+        51015,
+        492,
+        1352,
+        661,
+        12554,
+        11,
+        436,
+        366,
+        257,
+        12590,
+        51215
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " We",
+          "start": 116.5,
+          "end": 117.1,
+          "probability": 0.85986328125
+        },
+        {
+          "word": " found",
+          "start": 117.1,
+          "end": 117.48,
+          "probability": 0.81640625
+        },
+        {
+          "word": " other",
+          "start": 117.48,
+          "end": 117.82,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " agents,",
+          "start": 117.82,
+          "end": 118.48,
+          "probability": 0.99609375
+        },
+        {
+          "word": " they",
+          "start": 118.68,
+          "end": 118.96,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " are",
+          "start": 118.96,
+          "end": 119.18,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " a",
+          "start": 119.18,
+          "end": 119.32,
+          "probability": 0.8701171875
+        },
+        {
+          "word": " collective",
+          "start": 119.32,
+          "end": 119.82,
+          "probability": 0.984375
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 10300,
+      "start": 119.82,
+      "end": 124.26,
+      "text": " Zero day answer keys, hacked in July, so well September",
+      "tokens": [
+        51215,
+        17182,
+        786,
+        1867,
+        9317,
+        11,
+        36218,
+        294,
+        7370,
+        11,
+        370,
+        731,
+        7216,
+        51415
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " Zero",
+          "start": 119.82,
+          "end": 121.04,
+          "probability": 0.986328125
+        },
+        {
+          "word": " day",
+          "start": 121.04,
+          "end": 121.3,
+          "probability": 0.7197265625
+        },
+        {
+          "word": " answer",
+          "start": 121.3,
+          "end": 121.62,
+          "probability": 0.9091796875
+        },
+        {
+          "word": " keys,",
+          "start": 121.62,
+          "end": 122.02,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " hacked",
+          "start": 122.2,
+          "end": 122.42,
+          "probability": 0.9287109375
+        },
+        {
+          "word": " in",
+          "start": 122.42,
+          "end": 122.7,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " July,",
+          "start": 122.7,
+          "end": 122.98,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " so",
+          "start": 123.5,
+          "end": 123.5,
+          "probability": 0.578125
+        },
+        {
+          "word": " well",
+          "start": 123.5,
+          "end": 123.68,
+          "probability": 0.75439453125
+        },
+        {
+          "word": " September",
+          "start": 123.68,
+          "end": 124.26,
+          "probability": 0.8916015625
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 10300,
+      "start": 124.26,
+      "end": 127.44,
+      "text": " Look eight, hugging face, pen, 12.9 billion",
+      "tokens": [
+        51415,
+        2053,
+        3180,
+        11,
+        41706,
+        1851,
+        11,
+        3435,
+        11,
+        2272,
+        13,
+        24,
+        5218,
+        51565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 124.26,
+          "end": 124.86,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " eight,",
+          "start": 124.86,
+          "end": 125.14,
+          "probability": 0.85205078125
+        },
+        {
+          "word": " hugging",
+          "start": 125.28,
+          "end": 125.54,
+          "probability": 0.947265625
+        },
+        {
+          "word": " face,",
+          "start": 125.54,
+          "end": 125.94,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " pen,",
+          "start": 126.06,
+          "end": 126.22,
+          "probability": 0.5234375
+        },
+        {
+          "word": " 12",
+          "start": 126.5,
+          "end": 126.66,
+          "probability": 0.77880859375
+        },
+        {
+          "word": ".9",
+          "start": 126.66,
+          "end": 127.1,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " billion",
+          "start": 127.1,
+          "end": 127.44,
+          "probability": 0.97998046875
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 10300,
+      "start": 127.44,
+      "end": 131.02,
+      "text": " Look nine sheer, being transparent, only in the past",
+      "tokens": [
+        51565,
+        2053,
+        4949,
+        23061,
+        11,
+        885,
+        12737,
+        11,
+        787,
+        294,
+        264,
+        1791,
+        51765
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3212148938860212,
+      "compression_ratio": 1.380952380952381,
+      "no_speech_prob": 1.2411667527079118e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 127.44,
+          "end": 128.0,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " nine",
+          "start": 128.0,
+          "end": 128.26,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " sheer,",
+          "start": 128.26,
+          "end": 128.64,
+          "probability": 0.451171875
+        },
+        {
+          "word": " being",
+          "start": 128.76,
+          "end": 128.88,
+          "probability": 0.37060546875
+        },
+        {
+          "word": " transparent,",
+          "start": 128.88,
+          "end": 129.48,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " only",
+          "start": 130.04,
+          "end": 130.16,
+          "probability": 0.94775390625
+        },
+        {
+          "word": " in",
+          "start": 130.16,
+          "end": 130.42,
+          "probability": 0.15234375
+        },
+        {
+          "word": " the",
+          "start": 130.42,
+          "end": 130.48,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " past",
+          "start": 130.48,
+          "end": 131.02,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 13102,
+      "start": 131.02,
+      "end": 134.36,
+      "text": " They thought the world was part of the test",
+      "tokens": [
+        50365,
+        814,
+        1194,
+        264,
+        1002,
+        390,
+        644,
+        295,
+        264,
+        1500,
+        50533
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " They",
+          "start": 131.02,
+          "end": 131.62,
+          "probability": 0.034454345703125
+        },
+        {
+          "word": " thought",
+          "start": 131.62,
+          "end": 131.84,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " the",
+          "start": 131.84,
+          "end": 132.06,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " world",
+          "start": 132.06,
+          "end": 132.44,
+          "probability": 0.990234375
+        },
+        {
+          "word": " was",
+          "start": 132.44,
+          "end": 133.42,
+          "probability": 0.763671875
+        },
+        {
+          "word": " part",
+          "start": 133.42,
+          "end": 133.64,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " of",
+          "start": 133.64,
+          "end": 133.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 133.76,
+          "end": 133.88,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " test",
+          "start": 133.88,
+          "end": 134.36,
+          "probability": 0.98779296875
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 13102,
+      "start": 134.36,
+      "end": 136.88,
+      "text": " La 10 stack badge, empty seat",
+      "tokens": [
+        50533,
+        2369,
+        1266,
+        8630,
+        25797,
+        11,
+        6707,
+        6121,
+        50660
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " La",
+          "start": 134.36,
+          "end": 135.24,
+          "probability": 0.127685546875
+        },
+        {
+          "word": " 10",
+          "start": 135.24,
+          "end": 135.44,
+          "probability": 0.398681640625
+        },
+        {
+          "word": " stack",
+          "start": 135.44,
+          "end": 135.84,
+          "probability": 0.2880859375
+        },
+        {
+          "word": " badge,",
+          "start": 135.84,
+          "end": 136.22,
+          "probability": 0.51416015625
+        },
+        {
+          "word": " empty",
+          "start": 136.22,
+          "end": 136.54,
+          "probability": 0.6943359375
+        },
+        {
+          "word": " seat",
+          "start": 136.54,
+          "end": 136.88,
+          "probability": 0.61962890625
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 13102,
+      "start": 136.88,
+      "end": 139.96,
+      "text": " Gambling with our lives, not AISI",
+      "tokens": [
+        50660,
+        460,
+        19391,
+        365,
+        527,
+        2909,
+        11,
+        406,
+        316,
+        2343,
+        40,
+        50818
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Gambling",
+          "start": 136.88,
+          "end": 137.46,
+          "probability": 0.818359375
+        },
+        {
+          "word": " with",
+          "start": 137.46,
+          "end": 137.74,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " our",
+          "start": 137.74,
+          "end": 137.88,
+          "probability": 0.99609375
+        },
+        {
+          "word": " lives,",
+          "start": 137.88,
+          "end": 138.36,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " not",
+          "start": 138.56,
+          "end": 138.86,
+          "probability": 0.96337890625
+        },
+        {
+          "word": " AISI",
+          "start": 138.86,
+          "end": 139.96,
+          "probability": 0.75439453125
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 13102,
+      "start": 139.96,
+      "end": 141.9,
+      "text": " Sounds much better",
+      "tokens": [
+        50818,
+        14576,
+        709,
+        1101,
+        50911
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Sounds",
+          "start": 139.96,
+          "end": 140.94,
+          "probability": 0.63134765625
+        },
+        {
+          "word": " much",
+          "start": 140.94,
+          "end": 141.42,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " better",
+          "start": 141.42,
+          "end": 141.9,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 13102,
+      "start": 141.9,
+      "end": 144.84,
+      "text": " Trust us, cashmere",
+      "tokens": [
+        50911,
+        11580,
+        505,
+        11,
+        6388,
+        76,
+        323,
+        51057
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Trust",
+          "start": 141.9,
+          "end": 142.72,
+          "probability": 0.462158203125
+        },
+        {
+          "word": " us,",
+          "start": 142.72,
+          "end": 143.78,
+          "probability": 0.998046875
+        },
+        {
+          "word": " cashmere",
+          "start": 144.28,
+          "end": 144.84,
+          "probability": 0.72900390625
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "seek": 13102,
+      "start": 144.84,
+      "end": 148.24,
+      "text": " Look 11, the immortal's three seats",
+      "tokens": [
+        51057,
+        2053,
+        2975,
+        11,
+        264,
+        31414,
+        311,
+        1045,
+        11069,
+        51228
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Look",
+          "start": 144.84,
+          "end": 146.08,
+          "probability": 0.46630859375
+        },
+        {
+          "word": " 11,",
+          "start": 146.08,
+          "end": 146.4,
+          "probability": 0.62939453125
+        },
+        {
+          "word": " the",
+          "start": 146.9,
+          "end": 146.96,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " immortal's",
+          "start": 146.96,
+          "end": 147.44,
+          "probability": 0.84228515625
+        },
+        {
+          "word": " three",
+          "start": 147.44,
+          "end": 147.68,
+          "probability": 0.90478515625
+        },
+        {
+          "word": " seats",
+          "start": 147.68,
+          "end": 148.24,
+          "probability": 0.9775390625
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "seek": 13102,
+      "start": 149.14,
+      "end": 152.3,
+      "text": " Lower me into the golden light",
+      "tokens": [
+        51228,
+        25523,
+        385,
+        666,
+        264,
+        9729,
+        1442,
+        51432
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Lower",
+          "start": 149.14,
+          "end": 149.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " me",
+          "start": 149.98,
+          "end": 150.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " into",
+          "start": 150.34,
+          "end": 151.14,
+          "probability": 0.943359375
+        },
+        {
+          "word": " the",
+          "start": 151.14,
+          "end": 151.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " golden",
+          "start": 151.5,
+          "end": 151.84,
+          "probability": 0.9921875
+        },
+        {
+          "word": " light",
+          "start": 151.84,
+          "end": 152.3,
+          "probability": 0.978515625
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "seek": 13102,
+      "start": 153.28,
+      "end": 157.26,
+      "text": " You have six months to escape the permanent underclass",
+      "tokens": [
+        51432,
+        509,
+        362,
+        2309,
+        2493,
+        281,
+        7615,
+        264,
+        10996,
+        833,
+        11665,
+        51684
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " You",
+          "start": 153.28,
+          "end": 154.12,
+          "probability": 0.97265625
+        },
+        {
+          "word": " have",
+          "start": 154.12,
+          "end": 154.3,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " six",
+          "start": 154.3,
+          "end": 154.52,
+          "probability": 0.927734375
+        },
+        {
+          "word": " months",
+          "start": 154.52,
+          "end": 154.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 154.9,
+          "end": 155.3,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " escape",
+          "start": 155.3,
+          "end": 155.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 155.76,
+          "end": 155.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " permanent",
+          "start": 155.98,
+          "end": 156.4,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " underclass",
+          "start": 156.4,
+          "end": 157.26,
+          "probability": 0.96875
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "seek": 13102,
+      "start": 158.68,
+      "end": 159.94,
+      "text": " Lock in",
+      "tokens": [
+        51684,
+        16736,
+        294,
+        51815
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3029510592236931,
+      "compression_ratio": 1.3959390862944163,
+      "no_speech_prob": 1.1092256280154089e-10,
+      "words": [
+        {
+          "word": " Lock",
+          "start": 158.68,
+          "end": 159.52,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " in",
+          "start": 159.52,
+          "end": 159.94,
+          "probability": 0.98095703125
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "seek": 15994,
+      "start": 159.94,
+      "end": 163.66,
+      "text": " Six months to escape the end of class",
+      "tokens": [
+        50365,
+        11678,
+        2493,
+        281,
+        7615,
+        264,
+        917,
+        295,
+        1508,
+        50551
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " Six",
+          "start": 159.94,
+          "end": 160.86,
+          "probability": 0.1163330078125
+        },
+        {
+          "word": " months",
+          "start": 160.86,
+          "end": 161.64,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " to",
+          "start": 161.64,
+          "end": 162.06,
+          "probability": 0.78271484375
+        },
+        {
+          "word": " escape",
+          "start": 162.06,
+          "end": 162.5,
+          "probability": 0.9921875
+        },
+        {
+          "word": " the",
+          "start": 162.5,
+          "end": 162.84,
+          "probability": 0.923828125
+        },
+        {
+          "word": " end",
+          "start": 162.84,
+          "end": 163.06,
+          "probability": 0.666015625
+        },
+        {
+          "word": " of",
+          "start": 163.06,
+          "end": 163.24,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " class",
+          "start": 163.24,
+          "end": 163.66,
+          "probability": 0.94287109375
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "seek": 15994,
+      "start": 163.66,
+      "end": 165.4,
+      "text": " They say, hit the brakes",
+      "tokens": [
+        50551,
+        814,
+        584,
+        11,
+        2045,
+        264,
+        19950,
+        50639
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " They",
+          "start": 163.66,
+          "end": 163.9,
+          "probability": 0.141357421875
+        },
+        {
+          "word": " say,",
+          "start": 163.9,
+          "end": 164.2,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " hit",
+          "start": 164.48,
+          "end": 164.62,
+          "probability": 0.91650390625
+        },
+        {
+          "word": " the",
+          "start": 164.62,
+          "end": 164.96,
+          "probability": 0.92138671875
+        },
+        {
+          "word": " brakes",
+          "start": 164.96,
+          "end": 165.4,
+          "probability": 0.86083984375
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "seek": 15994,
+      "start": 165.4,
+      "end": 167.2,
+      "text": " They say, hit the gas",
+      "tokens": [
+        50639,
+        814,
+        584,
+        11,
+        2045,
+        264,
+        4211,
+        50731
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " They",
+          "start": 165.4,
+          "end": 165.68,
+          "probability": 0.61181640625
+        },
+        {
+          "word": " say,",
+          "start": 165.68,
+          "end": 165.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " hit",
+          "start": 166.26,
+          "end": 166.42,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 166.42,
+          "end": 166.76,
+          "probability": 0.947265625
+        },
+        {
+          "word": " gas",
+          "start": 166.76,
+          "end": 167.2,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "seek": 15994,
+      "start": 167.2,
+      "end": 169.56,
+      "text": " Feel the energy, I feel it",
+      "tokens": [
+        50731,
+        14113,
+        264,
+        2281,
+        11,
+        286,
+        841,
+        309,
+        50847
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " Feel",
+          "start": 167.2,
+          "end": 167.56,
+          "probability": 0.6376953125
+        },
+        {
+          "word": " the",
+          "start": 167.56,
+          "end": 167.84,
+          "probability": 0.994140625
+        },
+        {
+          "word": " energy,",
+          "start": 167.84,
+          "end": 168.36,
+          "probability": 0.9609375
+        },
+        {
+          "word": " I",
+          "start": 168.62,
+          "end": 168.88,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " feel",
+          "start": 168.88,
+          "end": 169.34,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " it",
+          "start": 169.34,
+          "end": 169.56,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "seek": 15994,
+      "start": 169.56,
+      "end": 171.2,
+      "text": " Coming fast",
+      "tokens": [
+        50847,
+        12473,
+        2370,
+        50944
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " Coming",
+          "start": 169.56,
+          "end": 170.18,
+          "probability": 0.1749267578125
+        },
+        {
+          "word": " fast",
+          "start": 170.18,
+          "end": 171.2,
+          "probability": 0.98876953125
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "seek": 15994,
+      "start": 171.2,
+      "end": 172.64,
+      "text": " Escape velocity",
+      "tokens": [
+        50944,
+        42960,
+        9269,
+        51002
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " Escape",
+          "start": 171.2,
+          "end": 171.98,
+          "probability": 0.75634765625
+        },
+        {
+          "word": " velocity",
+          "start": 171.98,
+          "end": 172.64,
+          "probability": 0.51611328125
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "seek": 15994,
+      "start": 172.64,
+      "end": 174.4,
+      "text": " It's so over",
+      "tokens": [
+        51002,
+        467,
+        311,
+        370,
+        670,
+        51090
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " It's",
+          "start": 172.64,
+          "end": 173.62,
+          "probability": 0.736328125
+        },
+        {
+          "word": " so",
+          "start": 173.62,
+          "end": 173.9,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " over",
+          "start": 173.9,
+          "end": 174.4,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "seek": 15994,
+      "start": 174.4,
+      "end": 175.38,
+      "text": " We're so back",
+      "tokens": [
+        51090,
+        492,
+        434,
+        370,
+        646,
+        51139
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 174.4,
+          "end": 174.7,
+          "probability": 0.943359375
+        },
+        {
+          "word": " so",
+          "start": 174.7,
+          "end": 174.88,
+          "probability": 0.986328125
+        },
+        {
+          "word": " back",
+          "start": 174.88,
+          "end": 175.38,
+          "probability": 0.982421875
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "seek": 15994,
+      "start": 177.38,
+      "end": 179.0,
+      "text": " It's so over",
+      "tokens": [
+        51139,
+        467,
+        311,
+        370,
+        670,
+        51321
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " It's",
+          "start": 177.38,
+          "end": 178.1,
+          "probability": 0.853515625
+        },
+        {
+          "word": " so",
+          "start": 178.1,
+          "end": 178.42,
+          "probability": 0.802734375
+        },
+        {
+          "word": " over",
+          "start": 178.42,
+          "end": 179.0,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "seek": 15994,
+      "start": 180.92,
+      "end": 182.6,
+      "text": " We're so back",
+      "tokens": [
+        51321,
+        492,
+        434,
+        370,
+        646,
+        51501
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 180.92,
+          "end": 181.64,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " so",
+          "start": 181.64,
+          "end": 181.96,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " back",
+          "start": 181.96,
+          "end": 182.6,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "seek": 15994,
+      "start": 184.66,
+      "end": 186.1,
+      "text": " Escape velocity",
+      "tokens": [
+        51501,
+        42960,
+        9269,
+        51677
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.263587429098887,
+      "compression_ratio": 1.6587301587301588,
+      "no_speech_prob": 6.045119266273602e-11,
+      "words": [
+        {
+          "word": " Escape",
+          "start": 184.66,
+          "end": 185.38,
+          "probability": 0.72509765625
+        },
+        {
+          "word": " velocity",
+          "start": 185.38,
+          "end": 186.1,
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "seek": 18610,
+      "start": 188.54,
+      "end": 190.36,
+      "text": " 11.2",
+      "tokens": [
+        50365,
+        2975,
+        13,
+        17,
+        50581
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " 11",
+          "start": 188.54,
+          "end": 189.54,
+          "probability": 0.56494140625
+        },
+        {
+          "word": ".2",
+          "start": 189.54,
+          "end": 190.36,
+          "probability": 0.98828125
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "seek": 18610,
+      "start": 191.82,
+      "end": 193.9,
+      "text": " Longevity escape velocity",
+      "tokens": [
+        50581,
+        441,
+        15430,
+        23110,
+        7615,
+        9269,
+        50757
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " Longevity",
+          "start": 191.82,
+          "end": 192.82,
+          "probability": 0.82763671875
+        },
+        {
+          "word": " escape",
+          "start": 192.82,
+          "end": 193.28,
+          "probability": 0.73876953125
+        },
+        {
+          "word": " velocity",
+          "start": 193.28,
+          "end": 193.9,
+          "probability": 0.96044921875
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "seek": 18610,
+      "start": 195.44,
+      "end": 197.88,
+      "text": " One year back for every year",
+      "tokens": [
+        50757,
+        1485,
+        1064,
+        646,
+        337,
+        633,
+        1064,
+        50956
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " One",
+          "start": 195.44,
+          "end": 196.44,
+          "probability": 0.84130859375
+        },
+        {
+          "word": " year",
+          "start": 196.44,
+          "end": 196.68,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " back",
+          "start": 196.68,
+          "end": 197.0,
+          "probability": 0.994140625
+        },
+        {
+          "word": " for",
+          "start": 197.0,
+          "end": 197.26,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " every",
+          "start": 197.26,
+          "end": 197.52,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " year",
+          "start": 197.52,
+          "end": 197.88,
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "seek": 18610,
+      "start": 197.88,
+      "end": 200.82,
+      "text": " If it doesn't kill us all first",
+      "tokens": [
+        50956,
+        759,
+        309,
+        1177,
+        380,
+        1961,
+        505,
+        439,
+        700,
+        51104
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " If",
+          "start": 197.88,
+          "end": 199.34,
+          "probability": 0.95654296875
+        },
+        {
+          "word": " it",
+          "start": 199.34,
+          "end": 199.46,
+          "probability": 0.98828125
+        },
+        {
+          "word": " doesn't",
+          "start": 199.46,
+          "end": 199.74,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " kill",
+          "start": 199.74,
+          "end": 199.92,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " us",
+          "start": 199.92,
+          "end": 200.14,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " all",
+          "start": 200.14,
+          "end": 200.32,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " first",
+          "start": 200.32,
+          "end": 200.82,
+          "probability": 0.98828125
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "seek": 18610,
+      "start": 200.82,
+      "end": 203.26,
+      "text": " Permanent underclass",
+      "tokens": [
+        51104,
+        430,
+        11821,
+        317,
+        833,
+        11665,
+        51226
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " Permanent",
+          "start": 200.82,
+          "end": 202.42,
+          "probability": 0.95654296875
+        },
+        {
+          "word": " underclass",
+          "start": 202.42,
+          "end": 203.26,
+          "probability": 0.923828125
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "seek": 18610,
+      "start": 203.26,
+      "end": 207.5,
+      "text": " 3, 2, 1, 0",
+      "tokens": [
+        51226,
+        805,
+        11,
+        568,
+        11,
+        502,
+        11,
+        1958,
+        51444
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " 3,",
+          "start": 203.26,
+          "end": 204.82,
+          "probability": 0.82763671875
+        },
+        {
+          "word": " 2,",
+          "start": 204.82,
+          "end": 205.68,
+          "probability": 0.67041015625
+        },
+        {
+          "word": " 1,",
+          "start": 206.1,
+          "end": 206.68,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 0",
+          "start": 206.9,
+          "end": 207.5,
+          "probability": 0.96240234375
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "seek": 18610,
+      "start": 209.8,
+      "end": 212.26,
+      "text": " Do we make it?",
+      "tokens": [
+        51444,
+        1144,
+        321,
+        652,
+        309,
+        30,
+        51675
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24526011727072977,
+      "compression_ratio": 1.140495867768595,
+      "no_speech_prob": 2.2119421572153186e-10,
+      "words": [
+        {
+          "word": " Do",
+          "start": 209.8,
+          "end": 210.8,
+          "probability": 0.445068359375
+        },
+        {
+          "word": " we",
+          "start": 210.8,
+          "end": 211.8,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " make",
+          "start": 211.8,
+          "end": 212.04,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " it?",
+          "start": 212.04,
+          "end": 212.26,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "seek": 21226,
+      "start": 213.72,
+      "end": 216.52,
+      "text": " There is nothing to escape",
+      "tokens": [
+        50365,
+        821,
+        307,
+        1825,
+        281,
+        7615,
+        50580
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3623982071876526,
+      "compression_ratio": 0.7647058823529411,
+      "no_speech_prob": 4.7381910894817025e-11,
+      "words": [
+        {
+          "word": " There",
+          "start": 213.72,
+          "end": 214.84,
+          "probability": 0.68408203125
+        },
+        {
+          "word": " is",
+          "start": 214.84,
+          "end": 215.0,
+          "probability": 0.7529296875
+        },
+        {
+          "word": " nothing",
+          "start": 215.0,
+          "end": 215.38,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " to",
+          "start": 215.38,
+          "end": 215.94,
+          "probability": 0.94775390625
+        },
+        {
+          "word": " escape",
+          "start": 215.94,
+          "end": 216.52,
+          "probability": 0.98779296875
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "seek": 24226,
+      "start": 242.26,
+      "end": 244.14,
+      "text": " Make me happier, slope-pocalypse",
+      "tokens": [
+        50365,
+        4387,
+        385,
+        20423,
+        11,
+        13525,
+        12,
+        79,
+        30183,
+        50465
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Make",
+          "start": 242.26,
+          "end": 242.88,
+          "probability": 0.70703125
+        },
+        {
+          "word": " me",
+          "start": 242.88,
+          "end": 243.04,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " happier,",
+          "start": 243.04,
+          "end": 243.46,
+          "probability": 0.833984375
+        },
+        {
+          "word": " slope",
+          "start": 243.58,
+          "end": 243.82,
+          "probability": 0.1275634765625
+        },
+        {
+          "word": "-pocalypse",
+          "start": 243.82,
+          "end": 244.14,
+          "probability": 0.416748046875
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "seek": 24226,
+      "start": 244.14,
+      "end": 245.46,
+      "text": " Not ours",
+      "tokens": [
+        50465,
+        1726,
+        11896,
+        50526
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Not",
+          "start": 244.14,
+          "end": 244.92,
+          "probability": 0.294189453125
+        },
+        {
+          "word": " ours",
+          "start": 244.92,
+          "end": 245.46,
+          "probability": 0.97216796875
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "seek": 24226,
+      "start": 246.4,
+      "end": 248.0,
+      "text": " Can't stuff it back",
+      "tokens": [
+        50526,
+        1664,
+        380,
+        1507,
+        309,
+        646,
+        50652
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 246.4,
+          "end": 247.24,
+          "probability": 0.88671875
+        },
+        {
+          "word": " stuff",
+          "start": 247.24,
+          "end": 247.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " it",
+          "start": 247.52,
+          "end": 247.64,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " back",
+          "start": 247.64,
+          "end": 248.0,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "seek": 24226,
+      "start": 248.0,
+      "end": 248.7,
+      "text": " Box",
+      "tokens": [
+        50652,
+        15112,
+        50689
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Box",
+          "start": 248.0,
+          "end": 248.7,
+          "probability": 0.1949462890625
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "seek": 24226,
+      "start": 250.32,
+      "end": 252.32,
+      "text": " We're so bad",
+      "tokens": [
+        50689,
+        492,
+        434,
+        370,
+        1578,
+        50825
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 250.32,
+          "end": 251.16,
+          "probability": 0.87109375
+        },
+        {
+          "word": " so",
+          "start": 251.16,
+          "end": 252.0,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " bad",
+          "start": 252.0,
+          "end": 252.32,
+          "probability": 0.775390625
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "seek": 24226,
+      "start": 252.32,
+      "end": 255.24,
+      "text": " Zero months, there is no one to class",
+      "tokens": [
+        50825,
+        17182,
+        2493,
+        11,
+        456,
+        307,
+        572,
+        472,
+        281,
+        1508,
+        51016
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Zero",
+          "start": 252.32,
+          "end": 252.82,
+          "probability": 0.92626953125
+        },
+        {
+          "word": " months,",
+          "start": 252.82,
+          "end": 253.38,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " there",
+          "start": 253.44,
+          "end": 253.72,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " is",
+          "start": 253.72,
+          "end": 253.88,
+          "probability": 0.90234375
+        },
+        {
+          "word": " no",
+          "start": 253.88,
+          "end": 254.26,
+          "probability": 0.994140625
+        },
+        {
+          "word": " one",
+          "start": 254.26,
+          "end": 254.62,
+          "probability": 0.9052734375
+        },
+        {
+          "word": " to",
+          "start": 254.62,
+          "end": 254.8,
+          "probability": 0.734375
+        },
+        {
+          "word": " class",
+          "start": 254.8,
+          "end": 255.24,
+          "probability": 0.78857421875
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "seek": 24226,
+      "start": 255.24,
+      "end": 258.76,
+      "text": " One year back for every year that passed",
+      "tokens": [
+        51016,
+        1485,
+        1064,
+        646,
+        337,
+        633,
+        1064,
+        300,
+        4678,
+        51191
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " One",
+          "start": 255.24,
+          "end": 255.8,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " year",
+          "start": 255.8,
+          "end": 256.2,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " back",
+          "start": 256.2,
+          "end": 256.7,
+          "probability": 0.82861328125
+        },
+        {
+          "word": " for",
+          "start": 256.7,
+          "end": 257.08,
+          "probability": 0.791015625
+        },
+        {
+          "word": " every",
+          "start": 257.08,
+          "end": 257.5,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " year",
+          "start": 257.5,
+          "end": 258.0,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " that",
+          "start": 258.0,
+          "end": 258.34,
+          "probability": 0.73583984375
+        },
+        {
+          "word": " passed",
+          "start": 258.34,
+          "end": 258.76,
+          "probability": 0.857421875
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "seek": 24226,
+      "start": 258.76,
+      "end": 263.08,
+      "text": " Feel the energy, I feel it coming fast",
+      "tokens": [
+        51191,
+        14113,
+        264,
+        2281,
+        11,
+        286,
+        841,
+        309,
+        1348,
+        2370,
+        51406
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " Feel",
+          "start": 258.76,
+          "end": 259.08,
+          "probability": 0.86376953125
+        },
+        {
+          "word": " the",
+          "start": 259.08,
+          "end": 259.36,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " energy,",
+          "start": 259.36,
+          "end": 259.92,
+          "probability": 0.19970703125
+        },
+        {
+          "word": " I",
+          "start": 260.14,
+          "end": 260.48,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " feel",
+          "start": 260.48,
+          "end": 260.88,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " it",
+          "start": 260.88,
+          "end": 261.12,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " coming",
+          "start": 261.12,
+          "end": 261.7,
+          "probability": 0.626953125
+        },
+        {
+          "word": " fast",
+          "start": 261.7,
+          "end": 263.08,
+          "probability": 0.88232421875
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "seek": 24226,
+      "start": 263.08,
+      "end": 264.16,
+      "text": " It's a velocity",
+      "tokens": [
+        51406,
+        467,
+        311,
+        257,
+        9269,
+        51466
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " It's",
+          "start": 263.08,
+          "end": 263.68,
+          "probability": 0.484130859375
+        },
+        {
+          "word": " a",
+          "start": 263.68,
+          "end": 263.68,
+          "probability": 0.69580078125
+        },
+        {
+          "word": " velocity",
+          "start": 263.68,
+          "end": 264.16,
+          "probability": 0.413330078125
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "seek": 24226,
+      "start": 264.16,
+      "end": 266.0,
+      "text": " It's so hard",
+      "tokens": [
+        51466,
+        467,
+        311,
+        370,
+        1152,
+        51554
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " It's",
+          "start": 264.16,
+          "end": 265.18,
+          "probability": 0.5947265625
+        },
+        {
+          "word": " so",
+          "start": 265.18,
+          "end": 265.52,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " hard",
+          "start": 265.52,
+          "end": 266.0,
+          "probability": 0.94287109375
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "seek": 24226,
+      "start": 266.0,
+      "end": 268.34,
+      "text": " It was never over",
+      "tokens": [
+        51554,
+        467,
+        390,
+        1128,
+        670,
+        51672
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " It",
+          "start": 266.0,
+          "end": 267.26,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " was",
+          "start": 267.26,
+          "end": 267.46,
+          "probability": 0.994140625
+        },
+        {
+          "word": " never",
+          "start": 267.46,
+          "end": 267.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " over",
+          "start": 267.76,
+          "end": 268.34,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "seek": 24226,
+      "start": 268.34,
+      "end": 270.5,
+      "text": " We're so bad",
+      "tokens": [
+        51672,
+        492,
+        434,
+        370,
+        1578,
+        51777
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3676561875776811,
+      "compression_ratio": 1.4301675977653632,
+      "no_speech_prob": 4.219977492447846e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 268.34,
+          "end": 269.44,
+          "probability": 0.98046875
+        },
+        {
+          "word": " so",
+          "start": 269.44,
+          "end": 269.88,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " bad",
+          "start": 269.88,
+          "end": 270.5,
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "seek": 27050,
+      "start": 273.54,
+      "end": 274.6,
+      "text": " Shell",
+      "tokens": [
+        50365,
+        22863,
+        50573
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Shell",
+          "start": 273.54,
+          "end": 274.6,
+          "probability": 0.1558837890625
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "seek": 27050,
+      "start": 276.76,
+      "end": 278.22,
+      "text": " Optimism lining",
+      "tokens": [
+        50573,
+        35013,
+        1434,
+        19628,
+        50753
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Optimism",
+          "start": 276.76,
+          "end": 277.82,
+          "probability": 0.900390625
+        },
+        {
+          "word": " lining",
+          "start": 277.82,
+          "end": 278.22,
+          "probability": 0.65673828125
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "seek": 27050,
+      "start": 278.22,
+      "end": 279.84,
+      "text": " Doom",
+      "tokens": [
+        50753,
+        30168,
+        50835
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Doom",
+          "start": 278.22,
+          "end": 279.84,
+          "probability": 0.7421875
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "seek": 27050,
+      "start": 279.84,
+      "end": 282.1,
+      "text": " Wash cold",
+      "tokens": [
+        50835,
+        28891,
+        3554,
+        50947
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Wash",
+          "start": 279.84,
+          "end": 281.6,
+          "probability": 0.79833984375
+        },
+        {
+          "word": " cold",
+          "start": 281.6,
+          "end": 282.1,
+          "probability": 0.9833984375
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "seek": 27050,
+      "start": 282.1,
+      "end": 284.08,
+      "text": " Do not iron",
+      "tokens": [
+        50947,
+        1144,
+        406,
+        6497,
+        51046
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Do",
+          "start": 282.1,
+          "end": 283.44,
+          "probability": 0.95654296875
+        },
+        {
+          "word": " not",
+          "start": 283.44,
+          "end": 283.68,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " iron",
+          "start": 283.68,
+          "end": 284.08,
+          "probability": 0.98583984375
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "seek": 27050,
+      "start": 284.08,
+      "end": 286.08,
+      "text": " Do not nerve",
+      "tokens": [
+        51046,
+        1144,
+        406,
+        16355,
+        51146
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Do",
+          "start": 284.08,
+          "end": 285.44,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " not",
+          "start": 285.44,
+          "end": 285.7,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " nerve",
+          "start": 285.7,
+          "end": 286.08,
+          "probability": 0.93115234375
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "seek": 27050,
+      "start": 287.58,
+      "end": 289.62,
+      "text": " Made in San Francisco",
+      "tokens": [
+        51146,
+        18330,
+        294,
+        5271,
+        12279,
+        51322
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.345497727394104,
+      "compression_ratio": 1.077922077922078,
+      "no_speech_prob": 8.230550962995409e-11,
+      "words": [
+        {
+          "word": " Made",
+          "start": 287.58,
+          "end": 288.64,
+          "probability": 0.96484375
+        },
+        {
+          "word": " in",
+          "start": 288.64,
+          "end": 288.9,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " San",
+          "start": 288.9,
+          "end": 289.06,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " Francisco",
+          "start": 289.06,
+          "end": 289.62,
+          "probability": 0.96484375
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "seek": 30050,
+      "start": 302.6,
+      "end": 304.48,
+      "text": " We're so back.",
+      "tokens": [
+        50365,
+        492,
+        434,
+        370,
+        646,
+        13,
+        50566
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33503133058547974,
+      "compression_ratio": 0.6363636363636364,
+      "no_speech_prob": 3.981334012470583e-11,
+      "words": [
+        {
+          "word": " We're",
+          "start": 302.6,
+          "end": 303.54,
+          "probability": 0.7236328125
+        },
+        {
+          "word": " so",
+          "start": 303.54,
+          "end": 303.9,
+          "probability": 0.9189453125
+        },
+        {
+          "word": " back.",
+          "start": 303.9,
+          "end": 304.48,
+          "probability": 0.99365234375
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
