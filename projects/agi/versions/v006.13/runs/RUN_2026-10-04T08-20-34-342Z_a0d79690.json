@@ -1,0 +1,442 @@
+{
+  "id": "RUN_2026-10-04T08-20-34-342Z_a0d79690",
+  "project_id": "LLMV_001",
+  "version": "v006.13",
+  "status": "completed",
+  "started_at": "2026-10-04T08:20:34.342Z",
+  "purpose": "full-render",
+  "renderer_sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+  "renderer_files": {
+    "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "d5af330b2dd7e2fb608ac7e394f854d569e818bed6da3299a723616be41167bd",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "audio_sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+  "source_video_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "4145baa0346124155682fdf2b039f5f134a0f86f76820cc3954fec783e39eba0",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "content_adoption": "a16deaa50ffc937981eaa8811d4f738316b6a5168e35023bc8e72ff41edbb69b",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e",
+    "highlights": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d",
+    "exporter": "86f55a326c6cd0b2fa8c371d10ab1841007fb420a0f4195cbeba75162e4d8603",
+    "review_player": "485348a41b3aec13875a21b44eb818bb108574df2486d9b67f77e70c910804f9",
+    "layout_approval": "1e51690d121b5f5ddb5cdfed1c70d7e8d45c69095e0c15587e8c355d4ea2e675",
+    "qa_sampling_plan": "7dd7d63908e2341afb165e22b70764100545f8df1da8f1c21a10a630e9e11c28"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "full-companion-video",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Native 4K text/layout with accepted v006.12 placement. Original 720p30 picture is Lanczos-scaled without cropping or interpolated source motion. Copy complete original AAC."
+  },
+  "request": [
+    "没问题，就按照这个来渲染好了。",
+    "Render the complete video with the accepted v006.12 layout, identical captions, explanations, semantic highlights and original source media."
+  ],
+  "treatment_sha256": "b8f8e7ba73fc8f2e5375b6978865d94ebfbe9260b77354cd76f23f33cb4cadf2",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "node": "v25.8.2",
+    "exporter_sha256": "86f55a326c6cd0b2fa8c371d10ab1841007fb420a0f4195cbeba75162e4d8603",
+    "browser": "154.0.8037.93"
+  },
+  "variants": [
+    "companion"
+  ],
+  "outputs": [
+    {
+      "variant": "companion",
+      "generation_id": "LLMV_001_V006_R013_001",
+      "path": "outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4",
+      "sha256": "417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7"
+    }
+  ],
+  "compositing": {
+    "original_scene_rendering": false,
+    "source_video_direct_decode": true,
+    "source_pts": "preserved; rounded to 60fps grid; first frame padded to t=0",
+    "picture_upscale": "1280x720 -> 2464x1386 Lanczos",
+    "audio": "full registered AAC packet copy",
+    "native_text_canvas": [
+      3840,
+      2160
+    ]
+  },
+  "build_key": "3e476a2a9408f0341adee61a7218b22a2896699e188d0ac99fe8df5d504dbae0",
+  "layout_preflight": {
+    "all_pairs_fit": true,
+    "all_subtitles_fit": true,
+    "fonts_loaded": true,
+    "max_pair_height": 858,
+    "viewport_height": 944
+  },
+  "encoder_arguments": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-filter_complex_threads",
+    "2",
+    "-f",
+    "image2pipe",
+    "-vcodec",
+    "mjpeg",
+    "-framerate",
+    "60",
+    "-i",
+    "pipe:0",
+    "-i",
+    "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+    "-i",
+    "projects/agi/sources/audio/LLMV_001_audio_original_v001.m4a",
+    "-filter_complex",
+    "[0:v:0]scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p[base];[1:v:0]fps=fps=60:round=near:start_time=0,scale=2464:1386:flags=lanczos,setsar=1[src];[base][src]overlay=x=96:y=208:eof_action=repeat:shortest=1:format=yuv420,setsar=1[v]",
+    "-map",
+    "[v]",
+    "-map",
+    "2:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-r",
+    "60",
+    "-fps_mode",
+    "cfr",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "projects/agi/versions/v006.13/outputs/LLMV_001_V006_R013_001_companion_v006.13.partial.mp4"
+  ],
+  "segment": null,
+  "memory_samples": [
+    {
+      "frames": 1,
+      "heap_used_bytes": 70902136,
+      "heap_total_bytes": 87687168,
+      "rss_bytes": 287899648,
+      "external_bytes": 119372826
+    },
+    {
+      "frames": 241,
+      "heap_used_bytes": 57546784,
+      "heap_total_bytes": 94027776,
+      "rss_bytes": 310149120,
+      "external_bytes": 34027739
+    },
+    {
+      "frames": 481,
+      "heap_used_bytes": 60078472,
+      "heap_total_bytes": 96370688,
+      "rss_bytes": 330481664,
+      "external_bytes": 37296899
+    },
+    {
+      "frames": 721,
+      "heap_used_bytes": 57943168,
+      "heap_total_bytes": 94519296,
+      "rss_bytes": 329678848,
+      "external_bytes": 34161399
+    },
+    {
+      "frames": 961,
+      "heap_used_bytes": 52400808,
+      "heap_total_bytes": 89014272,
+      "rss_bytes": 349569024,
+      "external_bytes": 26725510
+    },
+    {
+      "frames": 1201,
+      "heap_used_bytes": 62784888,
+      "heap_total_bytes": 98697216,
+      "rss_bytes": 317194240,
+      "external_bytes": 40093759
+    },
+    {
+      "frames": 1441,
+      "heap_used_bytes": 64137272,
+      "heap_total_bytes": 100286464,
+      "rss_bytes": 318816256,
+      "external_bytes": 41099509
+    },
+    {
+      "frames": 1681,
+      "heap_used_bytes": 60773376,
+      "heap_total_bytes": 96911360,
+      "rss_bytes": 316440576,
+      "external_bytes": 37148987
+    },
+    {
+      "frames": 1921,
+      "heap_used_bytes": 57881296,
+      "heap_total_bytes": 94044160,
+      "rss_bytes": 314163200,
+      "external_bytes": 33236380
+    },
+    {
+      "frames": 2161,
+      "heap_used_bytes": 61381176,
+      "heap_total_bytes": 97320960,
+      "rss_bytes": 322502656,
+      "external_bytes": 37626308
+    },
+    {
+      "frames": 2401,
+      "heap_used_bytes": 60686912,
+      "heap_total_bytes": 96403456,
+      "rss_bytes": 321585152,
+      "external_bytes": 36552522
+    },
+    {
+      "frames": 2641,
+      "heap_used_bytes": 64255360,
+      "heap_total_bytes": 100220928,
+      "rss_bytes": 325664768,
+      "external_bytes": 40378918
+    },
+    {
+      "frames": 2881,
+      "heap_used_bytes": 103788272,
+      "heap_total_bytes": 138248192,
+      "rss_bytes": 364199936,
+      "external_bytes": 93471916
+    },
+    {
+      "frames": 3121,
+      "heap_used_bytes": 66767184,
+      "heap_total_bytes": 102137856,
+      "rss_bytes": 325271552,
+      "external_bytes": 45294329
+    },
+    {
+      "frames": 3361,
+      "heap_used_bytes": 61225760,
+      "heap_total_bytes": 97107968,
+      "rss_bytes": 320094208,
+      "external_bytes": 36587218
+    },
+    {
+      "frames": 3601,
+      "heap_used_bytes": 71673456,
+      "heap_total_bytes": 106856448,
+      "rss_bytes": 297025536,
+      "external_bytes": 50048935
+    },
+    {
+      "frames": 3841,
+      "heap_used_bytes": 86644992,
+      "heap_total_bytes": 121372672,
+      "rss_bytes": 311492608,
+      "external_bytes": 69944557
+    },
+    {
+      "frames": 4081,
+      "heap_used_bytes": 104164688,
+      "heap_total_bytes": 137920512,
+      "rss_bytes": 328253440,
+      "external_bytes": 92888201
+    },
+    {
+      "frames": 4321,
+      "heap_used_bytes": 60029960,
+      "heap_total_bytes": 95715328,
+      "rss_bytes": 286097408,
+      "external_bytes": 34475753
+    },
+    {
+      "frames": 4561,
+      "heap_used_bytes": 63051216,
+      "heap_total_bytes": 98729984,
+      "rss_bytes": 288964608,
+      "external_bytes": 38805390
+    },
+    {
+      "frames": 4801,
+      "heap_used_bytes": 68093808,
+      "heap_total_bytes": 103596032,
+      "rss_bytes": 293912576,
+      "external_bytes": 44663981
+    },
+    {
+      "frames": 5041,
+      "heap_used_bytes": 57759904,
+      "heap_total_bytes": 93454336,
+      "rss_bytes": 283836416,
+      "external_bytes": 31055380
+    },
+    {
+      "frames": 5281,
+      "heap_used_bytes": 69604384,
+      "heap_total_bytes": 104923136,
+      "rss_bytes": 297451520,
+      "external_bytes": 46690007
+    },
+    {
+      "frames": 5521,
+      "heap_used_bytes": 60036664,
+      "heap_total_bytes": 95420416,
+      "rss_bytes": 288325632,
+      "external_bytes": 34271281
+    },
+    {
+      "frames": 5761,
+      "heap_used_bytes": 61993000,
+      "heap_total_bytes": 97419264,
+      "rss_bytes": 293240832,
+      "external_bytes": 36658616
+    },
+    {
+      "frames": 6001,
+      "heap_used_bytes": 58874208,
+      "heap_total_bytes": 94289920,
+      "rss_bytes": 290570240,
+      "external_bytes": 31749752
+    },
+    {
+      "frames": 6241,
+      "heap_used_bytes": 64523960,
+      "heap_total_bytes": 99958784,
+      "rss_bytes": 296058880,
+      "external_bytes": 39017338
+    },
+    {
+      "frames": 6481,
+      "heap_used_bytes": 66553896,
+      "heap_total_bytes": 101613568,
+      "rss_bytes": 297828352,
+      "external_bytes": 41309751
+    },
+    {
+      "frames": 6721,
+      "heap_used_bytes": 54602272,
+      "heap_total_bytes": 90308608,
+      "rss_bytes": 286310400,
+      "external_bytes": 26222017
+    },
+    {
+      "frames": 6961,
+      "heap_used_bytes": 73339456,
+      "heap_total_bytes": 108118016,
+      "rss_bytes": 304218112,
+      "external_bytes": 50067889
+    },
+    {
+      "frames": 7201,
+      "heap_used_bytes": 62553296,
+      "heap_total_bytes": 97746944,
+      "rss_bytes": 294354944,
+      "external_bytes": 36264282
+    },
+    {
+      "frames": 7441,
+      "heap_used_bytes": 55566656,
+      "heap_total_bytes": 91176960,
+      "rss_bytes": 287539200,
+      "external_bytes": 26495863
+    },
+    {
+      "frames": 7681,
+      "heap_used_bytes": 59056864,
+      "heap_total_bytes": 94912512,
+      "rss_bytes": 291176448,
+      "external_bytes": 30867195
+    },
+    {
+      "frames": 7921,
+      "heap_used_bytes": 72816880,
+      "heap_total_bytes": 107708416,
+      "rss_bytes": 304365568,
+      "external_bytes": 49809582
+    },
+    {
+      "frames": 8161,
+      "heap_used_bytes": 91602024,
+      "heap_total_bytes": 125763584,
+      "rss_bytes": 322355200,
+      "external_bytes": 73314629
+    },
+    {
+      "frames": 8401,
+      "heap_used_bytes": 67730720,
+      "heap_total_bytes": 102940672,
+      "rss_bytes": 299646976,
+      "external_bytes": 41676975
+    },
+    {
+      "frames": 8641,
+      "heap_used_bytes": 63587600,
+      "heap_total_bytes": 98435072,
+      "rss_bytes": 295813120,
+      "external_bytes": 36514209
+    },
+    {
+      "frames": 8881,
+      "heap_used_bytes": 78532560,
+      "heap_total_bytes": 112803840,
+      "rss_bytes": 310329344,
+      "external_bytes": 55255789
+    },
+    {
+      "frames": 9121,
+      "heap_used_bytes": 89512328,
+      "heap_total_bytes": 123502592,
+      "rss_bytes": 320765952,
+      "external_bytes": 69901370
+    },
+    {
+      "frames": 9361,
+      "heap_used_bytes": 99881584,
+      "heap_total_bytes": 133480448,
+      "rss_bytes": 330678272,
+      "external_bytes": 82498512
+    },
+    {
+      "frames": 9400,
+      "heap_used_bytes": 70976560,
+      "heap_total_bytes": 105938944,
+      "rss_bytes": 303136768,
+      "external_bytes": 45583535
+    }
+  ],
+  "process_id": 96986,
+  "transport": {
+    "format": "jpeg-new-layout-plus-direct-source-composite",
+    "frames": 9400
+  },
+  "finished_at": "2026-10-04T08:25:11.102Z"
+}

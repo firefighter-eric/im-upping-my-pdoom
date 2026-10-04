@@ -1,0 +1,20 @@
+{
+  "parent_version": "v006.8",
+  "scope": "Layout, typography and content evidence reused only because the renderer, layout and screen-copy bytes are unchanged.",
+  "inherited_files": [
+    "preflight-layout-report.json",
+    "preflight-states.json",
+    "preflight-contact.jpg",
+    "source-probe.json",
+    "watermark-inspection.json",
+    "font-assets.json"
+  ],
+  "qa_sampling_plan": "Copied unchanged; will be applied to the new encoded v006.9 output.",
+  "screen_copy_version_field": "v006.8 identifies the editorial source revision; the unchanged bytes are adopted into v006.9 through its manifest mapping.",
+  "not_inherited": [
+    "failed or completed production run",
+    "output media registration",
+    "full media validation",
+    "human visual approval"
+  ]
+}

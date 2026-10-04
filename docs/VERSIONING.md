@@ -38,7 +38,7 @@ npm run version:new -- --project agi --from v003.1 --version v004.0
 
 输入 `path` 相对作品根目录；renderer、data、output 相对当前版本目录。禁止越出作品或版本目录。海报为作品根目录内路径；AGI v001 的旧海报保留在 sources/analysis。
 
-`review.human_approval` 是转 approved 时的必要记录。当前没有任何版本被批准。
+`review.human_approval` 是转 approved 时的必要记录。AGI v006.13 已由用户于 2026-10-04 确认为正式稿；[批准记录](../projects/agi/versions/v006.13/provenance/USER_FINAL_APPROVAL.json)固定批准人、时间、范围和成片哈希。该状态变更保留原交付内容及审批前清单，不继承到未来版本。
 
 ## 新版本
 

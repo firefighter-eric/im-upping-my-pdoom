@@ -1,0 +1,37 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.10",
+  "date": "2026-10-04T08:03:17.602Z",
+  "browser": "154.0.8037.93",
+  "status": "passed",
+  "results": [
+    {
+      "variant": "companion",
+      "generation_id": "LLMV_001_V006_R010_001",
+      "src": "http://127.0.0.1:62906/versions/v006.10/outputs/LLMV_001_V006_R010_001_companion_v006.10.mp4",
+      "time": 1.105455,
+      "readyState": 4,
+      "error": null,
+      "width": 3840,
+      "height": 2160,
+      "duration": 156.666667,
+      "seeks": [
+        {
+          "time": 47.212503,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 100.478918,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 145.912993,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Read-only analysis of the already completed v006.9 video",
+  "initial_analysis_setup_issue": "FFmpeg failed while parsing a linear expression of 205 equality checks, before extracting samples. The balanced form of the same terms succeeded.",
+  "correction": "Group the same selection terms into a balanced expression tree; preserve exactly the same 205 planned frame numbers.",
+  "production_render_repeated": false,
+  "production_code_or_parameters_changed": false,
+  "result": "Analysis completed: 205 samples, all presentation timestamps checked, full-duration source-picture SSIM 0.993829.",
+  "local_diagnostic_logs": [
+    ".cache/agi-v006.9-encoded-qa/extraction-and-ssim-setup-failure.log",
+    ".cache/agi-v006.9-encoded-qa/extraction-and-ssim.log"
+  ]
+}

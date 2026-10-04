@@ -1,0 +1,2180 @@
+[
+  {
+    "time": 0.9670000000000001,
+    "active_card": "01",
+    "current_event": 0,
+    "previous_card": null,
+    "incoming_event": -1,
+    "scroll_offset": 0,
+    "lyric_line": null,
+    "current_bounds": [
+      104,
+      450
+    ],
+    "previous_bounds": null
+  },
+  {
+    "time": 1.187,
+    "active_card": "01",
+    "current_event": 0,
+    "previous_card": null,
+    "incoming_event": -1,
+    "scroll_offset": 0,
+    "lyric_line": null,
+    "current_bounds": [
+      104,
+      450
+    ],
+    "previous_bounds": null
+  },
+  {
+    "time": 1.427,
+    "active_card": "01",
+    "current_event": 0,
+    "previous_card": null,
+    "incoming_event": -1,
+    "scroll_offset": 0,
+    "lyric_line": 1,
+    "current_bounds": [
+      104,
+      450
+    ],
+    "previous_bounds": null
+  },
+  {
+    "time": 5.4399999999999995,
+    "active_card": "01",
+    "current_event": 0,
+    "previous_card": null,
+    "incoming_event": 1,
+    "scroll_offset": 0,
+    "lyric_line": 1,
+    "current_bounds": [
+      104,
+      450
+    ],
+    "previous_bounds": null
+  },
+  {
+    "time": 5.66,
+    "active_card": "01",
+    "current_event": 0,
+    "previous_card": null,
+    "incoming_event": 1,
+    "scroll_offset": 0,
+    "lyric_line": 1,
+    "current_bounds": [
+      104,
+      450
+    ],
+    "previous_bounds": null
+  },
+  {
+    "time": 5.8999999999999995,
+    "active_card": "02",
+    "current_event": 1,
+    "previous_card": "01",
+    "incoming_event": -1,
+    "scroll_offset": 0,
+    "lyric_line": 2,
+    "current_bounds": [
+      484,
+      827
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 9.08,
+    "active_card": "02",
+    "current_event": 1,
+    "previous_card": "01",
+    "incoming_event": 2,
+    "scroll_offset": 0.5546227709190437,
+    "lyric_line": 3,
+    "current_bounds": [
+      483.445377229081,
+      826.445377229081
+    ],
+    "previous_bounds": [
+      103.44537722908096,
+      449.445377229081
+    ]
+  },
+  {
+    "time": 9.299999999999999,
+    "active_card": "02",
+    "current_event": 1,
+    "previous_card": "01",
+    "incoming_event": 2,
+    "scroll_offset": 196.3322908093261,
+    "lyric_line": 3,
+    "current_bounds": [
+      287.6677091906739,
+      630.6677091906739
+    ],
+    "previous_bounds": [
+      -92.33229080932611,
+      253.6677091906739
+    ]
+  },
+  {
+    "time": 9.54,
+    "active_card": "03",
+    "current_event": 2,
+    "previous_card": "02",
+    "incoming_event": -1,
+    "scroll_offset": 380,
+    "lyric_line": 4,
+    "current_bounds": [
+      481,
+      860
+    ],
+    "previous_bounds": [
+      104,
+      447
+    ]
+  },
+  {
+    "time": 12.72,
+    "active_card": "03",
+    "current_event": 2,
+    "previous_card": "02",
+    "incoming_event": 3,
+    "scroll_offset": 380.550244170096,
+    "lyric_line": 4,
+    "current_bounds": [
+      480.449755829904,
+      859.449755829904
+    ],
+    "previous_bounds": [
+      103.449755829904,
+      446.449755829904
+    ]
+  },
+  {
+    "time": 12.94,
+    "active_card": "03",
+    "current_event": 2,
+    "previous_card": "02",
+    "incoming_event": 3,
+    "scroll_offset": 574.7822990397788,
+    "lyric_line": 4,
+    "current_bounds": [
+      286.21770096022124,
+      665.2177009602212
+    ],
+    "previous_bounds": [
+      -90.78229903977876,
+      252.21770096022124
+    ]
+  },
+  {
+    "time": 13.18,
+    "active_card": "04",
+    "current_event": 3,
+    "previous_card": "03",
+    "incoming_event": -1,
+    "scroll_offset": 757,
+    "lyric_line": 5,
+    "current_bounds": [
+      517,
+      860
+    ],
+    "previous_bounds": [
+      104,
+      483
+    ]
+  },
+  {
+    "time": 16.16,
+    "active_card": "04",
+    "current_event": 3,
+    "previous_card": "03",
+    "incoming_event": 4,
+    "scroll_offset": 757.6027873799724,
+    "lyric_line": 5,
+    "current_bounds": [
+      516.3972126200276,
+      859.3972126200276
+    ],
+    "previous_bounds": [
+      103.39721262002763,
+      482.39721262002763
+    ]
+  },
+  {
+    "time": 16.380000000000003,
+    "active_card": "04",
+    "current_event": 3,
+    "previous_card": "03",
+    "incoming_event": 4,
+    "scroll_offset": 970.382200274349,
+    "lyric_line": 5,
+    "current_bounds": [
+      303.617799725651,
+      646.617799725651
+    ],
+    "previous_bounds": [
+      -109.38220027434897,
+      269.617799725651
+    ]
+  },
+  {
+    "time": 16.62,
+    "active_card": "05",
+    "current_event": 4,
+    "previous_card": "04",
+    "incoming_event": -1,
+    "scroll_offset": 1170,
+    "lyric_line": 6,
+    "current_bounds": [
+      481,
+      791
+    ],
+    "previous_bounds": [
+      104,
+      447
+    ]
+  },
+  {
+    "time": 22.32,
+    "active_card": "05",
+    "current_event": 4,
+    "previous_card": "04",
+    "incoming_event": 5,
+    "scroll_offset": 1170.5502441700958,
+    "lyric_line": 6,
+    "current_bounds": [
+      480.44975582990423,
+      790.4497558299042
+    ],
+    "previous_bounds": [
+      103.44975582990423,
+      446.44975582990423
+    ]
+  },
+  {
+    "time": 22.540000000000003,
+    "active_card": "05",
+    "current_event": 4,
+    "previous_card": "04",
+    "incoming_event": 5,
+    "scroll_offset": 1364.782299039781,
+    "lyric_line": 6,
+    "current_bounds": [
+      286.21770096021896,
+      596.217700960219
+    ],
+    "previous_bounds": [
+      -90.78229903978104,
+      252.21770096021896
+    ]
+  },
+  {
+    "time": 22.78,
+    "active_card": "06",
+    "current_event": 5,
+    "previous_card": "05",
+    "incoming_event": -1,
+    "scroll_offset": 1547,
+    "lyric_line": 7,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 23.88,
+    "active_card": "06",
+    "current_event": 5,
+    "previous_card": "05",
+    "incoming_event": 6,
+    "scroll_offset": 1547.5020795610424,
+    "lyric_line": 7,
+    "current_bounds": [
+      447.49792043895764,
+      793.4979204389576
+    ],
+    "previous_bounds": [
+      103.49792043895764,
+      413.49792043895764
+    ]
+  },
+  {
+    "time": 24.1,
+    "active_card": "06",
+    "current_event": 5,
+    "previous_card": "05",
+    "incoming_event": 6,
+    "scroll_offset": 1724.7323895747604,
+    "lyric_line": 7,
+    "current_bounds": [
+      270.2676104252396,
+      616.2676104252396
+    ],
+    "previous_bounds": [
+      -73.73238957476042,
+      236.26761042523958
+    ]
+  },
+  {
+    "time": 24.34,
+    "active_card": "07",
+    "current_event": 6,
+    "previous_card": "06",
+    "incoming_event": -1,
+    "scroll_offset": 1891,
+    "lyric_line": 8,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 25.88,
+    "active_card": "07",
+    "current_event": 6,
+    "previous_card": "06",
+    "incoming_event": 7,
+    "scroll_offset": 1891.5546227709187,
+    "lyric_line": 8,
+    "current_bounds": [
+      483.44537722908126,
+      829.4453772290813
+    ],
+    "previous_bounds": [
+      103.44537722908126,
+      449.44537722908126
+    ]
+  },
+  {
+    "time": 26.1,
+    "active_card": "07",
+    "current_event": 6,
+    "previous_card": "06",
+    "incoming_event": 7,
+    "scroll_offset": 2087.3322908093282,
+    "lyric_line": 8,
+    "current_bounds": [
+      287.66770919067176,
+      633.6677091906718
+    ],
+    "previous_bounds": [
+      -92.33229080932824,
+      253.66770919067176
+    ]
+  },
+  {
+    "time": 26.34,
+    "active_card": "08",
+    "current_event": 7,
+    "previous_card": "07",
+    "incoming_event": -1,
+    "scroll_offset": 2271,
+    "lyric_line": 9,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 27.5,
+    "active_card": "08",
+    "current_event": 7,
+    "previous_card": "07",
+    "incoming_event": 8,
+    "scroll_offset": 2271.5546227709187,
+    "lyric_line": 9,
+    "current_bounds": [
+      483.44537722908126,
+      829.4453772290813
+    ],
+    "previous_bounds": [
+      103.44537722908126,
+      449.44537722908126
+    ]
+  },
+  {
+    "time": 27.720000000000002,
+    "active_card": "08",
+    "current_event": 7,
+    "previous_card": "07",
+    "incoming_event": 8,
+    "scroll_offset": 2467.3322908093282,
+    "lyric_line": 9,
+    "current_bounds": [
+      287.66770919067176,
+      633.6677091906718
+    ],
+    "previous_bounds": [
+      -92.33229080932824,
+      253.66770919067176
+    ]
+  },
+  {
+    "time": 27.96,
+    "active_card": "09",
+    "current_event": 8,
+    "previous_card": "08",
+    "incoming_event": -1,
+    "scroll_offset": 2651,
+    "lyric_line": 10,
+    "current_bounds": [
+      484,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 29.467,
+    "active_card": "09",
+    "current_event": 8,
+    "previous_card": "08",
+    "incoming_event": 9,
+    "scroll_offset": 2651.5546227709187,
+    "lyric_line": 10,
+    "current_bounds": [
+      483.44537722908126,
+      793.4453772290813
+    ],
+    "previous_bounds": [
+      103.44537722908126,
+      449.44537722908126
+    ]
+  },
+  {
+    "time": 29.687,
+    "active_card": "09",
+    "current_event": 8,
+    "previous_card": "08",
+    "incoming_event": 9,
+    "scroll_offset": 2847.3322908093282,
+    "lyric_line": 10,
+    "current_bounds": [
+      287.66770919067176,
+      597.6677091906718
+    ],
+    "previous_bounds": [
+      -92.33229080932824,
+      253.66770919067176
+    ]
+  },
+  {
+    "time": 29.927,
+    "active_card": "10",
+    "current_event": 9,
+    "previous_card": "09",
+    "incoming_event": -1,
+    "scroll_offset": 3031,
+    "lyric_line": 11,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 32.96,
+    "active_card": "10",
+    "current_event": 9,
+    "previous_card": "09",
+    "incoming_event": 10,
+    "scroll_offset": 3031.502079561043,
+    "lyric_line": 11,
+    "current_bounds": [
+      447.49792043895695,
+      793.497920438957
+    ],
+    "previous_bounds": [
+      103.49792043895695,
+      413.49792043895695
+    ]
+  },
+  {
+    "time": 33.18,
+    "active_card": "10",
+    "current_event": 9,
+    "previous_card": "09",
+    "incoming_event": 10,
+    "scroll_offset": 3208.7323895747645,
+    "lyric_line": 11,
+    "current_bounds": [
+      270.2676104252355,
+      616.2676104252355
+    ],
+    "previous_bounds": [
+      -73.73238957476451,
+      236.2676104252355
+    ]
+  },
+  {
+    "time": 33.42,
+    "active_card": "11",
+    "current_event": 10,
+    "previous_card": "10",
+    "incoming_event": -1,
+    "scroll_offset": 3375,
+    "lyric_line": 12,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 38.18,
+    "active_card": "11",
+    "current_event": 10,
+    "previous_card": "10",
+    "incoming_event": 11,
+    "scroll_offset": 3375.5546227709197,
+    "lyric_line": 12,
+    "current_bounds": [
+      483.44537722908035,
+      829.4453772290803
+    ],
+    "previous_bounds": [
+      103.44537722908035,
+      449.44537722908035
+    ]
+  },
+  {
+    "time": 38.4,
+    "active_card": "11",
+    "current_event": 10,
+    "previous_card": "10",
+    "incoming_event": 11,
+    "scroll_offset": 3571.332290809333,
+    "lyric_line": 12,
+    "current_bounds": [
+      287.6677091906672,
+      633.6677091906672
+    ],
+    "previous_bounds": [
+      -92.33229080933279,
+      253.6677091906672
+    ]
+  },
+  {
+    "time": 38.64,
+    "active_card": "12",
+    "current_event": 11,
+    "previous_card": "11",
+    "incoming_event": -1,
+    "scroll_offset": 3755,
+    "lyric_line": 13,
+    "current_bounds": [
+      484,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 44.620000000000005,
+    "active_card": "12",
+    "current_event": 11,
+    "previous_card": "11",
+    "incoming_event": 12,
+    "scroll_offset": 3755.5546227709197,
+    "lyric_line": 14,
+    "current_bounds": [
+      483.44537722908035,
+      895.4453772290803
+    ],
+    "previous_bounds": [
+      103.44537722908035,
+      449.44537722908035
+    ]
+  },
+  {
+    "time": 44.84,
+    "active_card": "12",
+    "current_event": 11,
+    "previous_card": "11",
+    "incoming_event": 12,
+    "scroll_offset": 3951.332290809333,
+    "lyric_line": 14,
+    "current_bounds": [
+      287.6677091906672,
+      699.6677091906672
+    ],
+    "previous_bounds": [
+      -92.33229080933279,
+      253.6677091906672
+    ]
+  },
+  {
+    "time": 45.080000000000005,
+    "active_card": "13",
+    "current_event": 12,
+    "previous_card": "12",
+    "incoming_event": -1,
+    "scroll_offset": 4135,
+    "lyric_line": 15,
+    "current_bounds": [
+      550,
+      962
+    ],
+    "previous_bounds": [
+      104,
+      516
+    ]
+  },
+  {
+    "time": 52.385000000000005,
+    "active_card": "13",
+    "current_event": 12,
+    "previous_card": "12",
+    "incoming_event": 13,
+    "scroll_offset": 4135.650951989027,
+    "lyric_line": 16,
+    "current_bounds": [
+      549.3490480109731,
+      961.3490480109731
+    ],
+    "previous_bounds": [
+      103.34904801097309,
+      515.3490480109731
+    ]
+  },
+  {
+    "time": 52.605000000000004,
+    "active_card": "13",
+    "current_event": 12,
+    "previous_card": "12",
+    "incoming_event": 13,
+    "scroll_offset": 4365.432109739375,
+    "lyric_line": 16,
+    "current_bounds": [
+      319.56789026062506,
+      731.5678902606251
+    ],
+    "previous_bounds": [
+      -126.43210973937494,
+      285.56789026062506
+    ]
+  },
+  {
+    "time": 52.845000000000006,
+    "active_card": "14",
+    "current_event": 13,
+    "previous_card": "13",
+    "incoming_event": -1,
+    "scroll_offset": 4581,
+    "lyric_line": 17,
+    "current_bounds": [
+      550,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      516
+    ]
+  },
+  {
+    "time": 58.690000000000005,
+    "active_card": "14",
+    "current_event": 13,
+    "previous_card": "13",
+    "incoming_event": 14,
+    "scroll_offset": 4581.650951989027,
+    "lyric_line": 17,
+    "current_bounds": [
+      549.3490480109731,
+      895.3490480109731
+    ],
+    "previous_bounds": [
+      103.34904801097309,
+      515.3490480109731
+    ]
+  },
+  {
+    "time": 58.910000000000004,
+    "active_card": "14",
+    "current_event": 13,
+    "previous_card": "13",
+    "incoming_event": 14,
+    "scroll_offset": 4811.432109739375,
+    "lyric_line": 17,
+    "current_bounds": [
+      319.56789026062506,
+      665.5678902606251
+    ],
+    "previous_bounds": [
+      -126.43210973937494,
+      285.56789026062506
+    ]
+  },
+  {
+    "time": 59.150000000000006,
+    "active_card": "06",
+    "current_event": 14,
+    "previous_card": "14",
+    "incoming_event": -1,
+    "scroll_offset": 5027,
+    "lyric_line": 18,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 60.14,
+    "active_card": "06",
+    "current_event": 14,
+    "previous_card": "14",
+    "incoming_event": 15,
+    "scroll_offset": 5027.554622770919,
+    "lyric_line": 18,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 60.36,
+    "active_card": "06",
+    "current_event": 14,
+    "previous_card": "14",
+    "incoming_event": 15,
+    "scroll_offset": 5223.332290809333,
+    "lyric_line": 18,
+    "current_bounds": [
+      287.66770919066676,
+      633.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 60.6,
+    "active_card": "15",
+    "current_event": 15,
+    "previous_card": "06",
+    "incoming_event": -1,
+    "scroll_offset": 5407,
+    "lyric_line": 19,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 62.1,
+    "active_card": "15",
+    "current_event": 15,
+    "previous_card": "06",
+    "incoming_event": 16,
+    "scroll_offset": 5407.554622770919,
+    "lyric_line": 19,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 62.32,
+    "active_card": "15",
+    "current_event": 15,
+    "previous_card": "06",
+    "incoming_event": 16,
+    "scroll_offset": 5603.332290809333,
+    "lyric_line": 19,
+    "current_bounds": [
+      287.66770919066676,
+      633.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 62.56,
+    "active_card": "16",
+    "current_event": 16,
+    "previous_card": "15",
+    "incoming_event": -1,
+    "scroll_offset": 5787,
+    "lyric_line": 20,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 63.66,
+    "active_card": "16",
+    "current_event": 16,
+    "previous_card": "15",
+    "incoming_event": 17,
+    "scroll_offset": 5787.554622770919,
+    "lyric_line": 20,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 63.879999999999995,
+    "active_card": "16",
+    "current_event": 16,
+    "previous_card": "15",
+    "incoming_event": 17,
+    "scroll_offset": 5983.332290809333,
+    "lyric_line": 20,
+    "current_bounds": [
+      287.66770919066676,
+      633.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 64.11999999999999,
+    "active_card": "17",
+    "current_event": 17,
+    "previous_card": "16",
+    "incoming_event": -1,
+    "scroll_offset": 6167,
+    "lyric_line": 21,
+    "current_bounds": [
+      484,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 65.78,
+    "active_card": "17",
+    "current_event": 17,
+    "previous_card": "16",
+    "incoming_event": 18,
+    "scroll_offset": 6167.554622770919,
+    "lyric_line": 21,
+    "current_bounds": [
+      483.4453772290808,
+      793.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 66,
+    "active_card": "17",
+    "current_event": 17,
+    "previous_card": "16",
+    "incoming_event": 18,
+    "scroll_offset": 6363.332290809333,
+    "lyric_line": 21,
+    "current_bounds": [
+      287.66770919066676,
+      597.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 66.24,
+    "active_card": "18",
+    "current_event": 18,
+    "previous_card": "17",
+    "incoming_event": -1,
+    "scroll_offset": 6547,
+    "lyric_line": 22,
+    "current_bounds": [
+      448,
+      860
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 73.62,
+    "active_card": "18",
+    "current_event": 18,
+    "previous_card": "17",
+    "incoming_event": 19,
+    "scroll_offset": 6547.502079561043,
+    "lyric_line": 23,
+    "current_bounds": [
+      447.4979204389574,
+      859.4979204389574
+    ],
+    "previous_bounds": [
+      103.49792043895741,
+      413.4979204389574
+    ]
+  },
+  {
+    "time": 73.84,
+    "active_card": "18",
+    "current_event": 18,
+    "previous_card": "17",
+    "incoming_event": 19,
+    "scroll_offset": 6724.732389574764,
+    "lyric_line": 23,
+    "current_bounds": [
+      270.26761042523594,
+      682.267610425236
+    ],
+    "previous_bounds": [
+      -73.73238957476406,
+      236.26761042523594
+    ]
+  },
+  {
+    "time": 74.08,
+    "active_card": "19",
+    "current_event": 19,
+    "previous_card": "18",
+    "incoming_event": -1,
+    "scroll_offset": 6891,
+    "lyric_line": 24,
+    "current_bounds": [
+      550,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      516
+    ]
+  },
+  {
+    "time": 77.28,
+    "active_card": "19",
+    "current_event": 19,
+    "previous_card": "18",
+    "incoming_event": 20,
+    "scroll_offset": 6891.650951989027,
+    "lyric_line": 24,
+    "current_bounds": [
+      549.3490480109731,
+      895.3490480109731
+    ],
+    "previous_bounds": [
+      103.34904801097309,
+      515.3490480109731
+    ]
+  },
+  {
+    "time": 77.5,
+    "active_card": "19",
+    "current_event": 19,
+    "previous_card": "18",
+    "incoming_event": 20,
+    "scroll_offset": 7121.432109739375,
+    "lyric_line": 24,
+    "current_bounds": [
+      319.56789026062506,
+      665.5678902606251
+    ],
+    "previous_bounds": [
+      -126.43210973937494,
+      285.56789026062506
+    ]
+  },
+  {
+    "time": 77.74,
+    "active_card": "20",
+    "current_event": 20,
+    "previous_card": "19",
+    "incoming_event": -1,
+    "scroll_offset": 7337,
+    "lyric_line": 25,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 80.77,
+    "active_card": "20",
+    "current_event": 20,
+    "previous_card": "19",
+    "incoming_event": 21,
+    "scroll_offset": 7337.554622770919,
+    "lyric_line": 25,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 80.99,
+    "active_card": "20",
+    "current_event": 20,
+    "previous_card": "19",
+    "incoming_event": 21,
+    "scroll_offset": 7533.332290809333,
+    "lyric_line": 25,
+    "current_bounds": [
+      287.66770919066676,
+      633.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 81.22999999999999,
+    "active_card": "21",
+    "current_event": 21,
+    "previous_card": "20",
+    "incoming_event": -1,
+    "scroll_offset": 7717,
+    "lyric_line": 26,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 84.56,
+    "active_card": "21",
+    "current_event": 21,
+    "previous_card": "20",
+    "incoming_event": 22,
+    "scroll_offset": 7717.554622770919,
+    "lyric_line": 26,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 84.78,
+    "active_card": "21",
+    "current_event": 21,
+    "previous_card": "20",
+    "incoming_event": 22,
+    "scroll_offset": 7913.332290809333,
+    "lyric_line": 26,
+    "current_bounds": [
+      287.66770919066676,
+      633.6677091906668
+    ],
+    "previous_bounds": [
+      -92.33229080933324,
+      253.66770919066676
+    ]
+  },
+  {
+    "time": 85.02,
+    "active_card": "22",
+    "current_event": 22,
+    "previous_card": "21",
+    "incoming_event": -1,
+    "scroll_offset": 8097,
+    "lyric_line": 27,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 88.84,
+    "active_card": "22",
+    "current_event": 22,
+    "previous_card": "21",
+    "incoming_event": 23,
+    "scroll_offset": 8097.554622770919,
+    "lyric_line": 27,
+    "current_bounds": [
+      483.4453772290808,
+      829.4453772290808
+    ],
+    "previous_bounds": [
+      103.4453772290808,
+      449.4453772290808
+    ]
+  },
+  {
+    "time": 89.06,
+    "active_card": "22",
+    "current_event": 22,
+    "previous_card": "21",
+    "incoming_event": 23,
+    "scroll_offset": 8293.332290809332,
+    "lyric_line": 27,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 89.3,
+    "active_card": "23",
+    "current_event": 23,
+    "previous_card": "22",
+    "incoming_event": -1,
+    "scroll_offset": 8477,
+    "lyric_line": 28,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 95.03,
+    "active_card": "23",
+    "current_event": 23,
+    "previous_card": "22",
+    "incoming_event": 24,
+    "scroll_offset": 8477.55462277092,
+    "lyric_line": 28,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 95.25,
+    "active_card": "23",
+    "current_event": 23,
+    "previous_card": "22",
+    "incoming_event": 24,
+    "scroll_offset": 8673.332290809332,
+    "lyric_line": 28,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 95.49,
+    "active_card": "06",
+    "current_event": 24,
+    "previous_card": "23",
+    "incoming_event": -1,
+    "scroll_offset": 8857,
+    "lyric_line": 29,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 96.4,
+    "active_card": "06",
+    "current_event": 24,
+    "previous_card": "23",
+    "incoming_event": 25,
+    "scroll_offset": 8857.55462277092,
+    "lyric_line": 29,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 96.62,
+    "active_card": "06",
+    "current_event": 24,
+    "previous_card": "23",
+    "incoming_event": 25,
+    "scroll_offset": 9053.332290809332,
+    "lyric_line": 29,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 96.86,
+    "active_card": "24",
+    "current_event": 25,
+    "previous_card": "06",
+    "incoming_event": -1,
+    "scroll_offset": 9237,
+    "lyric_line": 30,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 98.38,
+    "active_card": "24",
+    "current_event": 25,
+    "previous_card": "06",
+    "incoming_event": 26,
+    "scroll_offset": 9237.55462277092,
+    "lyric_line": 30,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 98.6,
+    "active_card": "24",
+    "current_event": 25,
+    "previous_card": "06",
+    "incoming_event": 26,
+    "scroll_offset": 9433.332290809332,
+    "lyric_line": 30,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 98.83999999999999,
+    "active_card": "25",
+    "current_event": 26,
+    "previous_card": "24",
+    "incoming_event": -1,
+    "scroll_offset": 9617,
+    "lyric_line": 31,
+    "current_bounds": [
+      484,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 102.02,
+    "active_card": "25",
+    "current_event": 26,
+    "previous_card": "24",
+    "incoming_event": 27,
+    "scroll_offset": 9617.55462277092,
+    "lyric_line": 32,
+    "current_bounds": [
+      483.4453772290799,
+      895.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 102.24,
+    "active_card": "25",
+    "current_event": 26,
+    "previous_card": "24",
+    "incoming_event": 27,
+    "scroll_offset": 9813.332290809332,
+    "lyric_line": 32,
+    "current_bounds": [
+      287.66770919066767,
+      699.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 102.47999999999999,
+    "active_card": "26",
+    "current_event": 27,
+    "previous_card": "25",
+    "incoming_event": -1,
+    "scroll_offset": 9997,
+    "lyric_line": 33,
+    "current_bounds": [
+      550,
+      860
+    ],
+    "previous_bounds": [
+      104,
+      516
+    ]
+  },
+  {
+    "time": 105.52,
+    "active_card": "26",
+    "current_event": 27,
+    "previous_card": "25",
+    "incoming_event": 28,
+    "scroll_offset": 9997.650951989026,
+    "lyric_line": 33,
+    "current_bounds": [
+      549.349048010974,
+      859.349048010974
+    ],
+    "previous_bounds": [
+      103.349048010974,
+      515.349048010974
+    ]
+  },
+  {
+    "time": 105.74,
+    "active_card": "26",
+    "current_event": 27,
+    "previous_card": "25",
+    "incoming_event": 28,
+    "scroll_offset": 10227.432109739375,
+    "lyric_line": 33,
+    "current_bounds": [
+      319.56789026062506,
+      629.5678902606251
+    ],
+    "previous_bounds": [
+      -126.43210973937494,
+      285.56789026062506
+    ]
+  },
+  {
+    "time": 105.97999999999999,
+    "active_card": "27",
+    "current_event": 28,
+    "previous_card": "26",
+    "incoming_event": -1,
+    "scroll_offset": 10443,
+    "lyric_line": 34,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 109.74000000000001,
+    "active_card": "27",
+    "current_event": 28,
+    "previous_card": "26",
+    "incoming_event": 29,
+    "scroll_offset": 10443.502079561044,
+    "lyric_line": 34,
+    "current_bounds": [
+      447.4979204389565,
+      793.4979204389565
+    ],
+    "previous_bounds": [
+      103.4979204389565,
+      413.4979204389565
+    ]
+  },
+  {
+    "time": 109.96000000000001,
+    "active_card": "27",
+    "current_event": 28,
+    "previous_card": "26",
+    "incoming_event": 29,
+    "scroll_offset": 10620.732389574765,
+    "lyric_line": 34,
+    "current_bounds": [
+      270.26761042523503,
+      616.267610425235
+    ],
+    "previous_bounds": [
+      -73.73238957476497,
+      236.26761042523503
+    ]
+  },
+  {
+    "time": 110.2,
+    "active_card": "28",
+    "current_event": 29,
+    "previous_card": "27",
+    "incoming_event": -1,
+    "scroll_offset": 10787,
+    "lyric_line": 35,
+    "current_bounds": [
+      484,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 114.76,
+    "active_card": "28",
+    "current_event": 29,
+    "previous_card": "27",
+    "incoming_event": 30,
+    "scroll_offset": 10787.55462277092,
+    "lyric_line": 36,
+    "current_bounds": [
+      483.4453772290799,
+      895.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 114.98,
+    "active_card": "28",
+    "current_event": 29,
+    "previous_card": "27",
+    "incoming_event": 30,
+    "scroll_offset": 10983.332290809332,
+    "lyric_line": 36,
+    "current_bounds": [
+      287.66770919066767,
+      699.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 115.22,
+    "active_card": "29",
+    "current_event": 30,
+    "previous_card": "28",
+    "incoming_event": -1,
+    "scroll_offset": 11167,
+    "lyric_line": 37,
+    "current_bounds": [
+      550,
+      896
+    ],
+    "previous_bounds": [
+      104,
+      516
+    ]
+  },
+  {
+    "time": 116.58,
+    "active_card": "29",
+    "current_event": 30,
+    "previous_card": "28",
+    "incoming_event": 31,
+    "scroll_offset": 11167.650951989026,
+    "lyric_line": 37,
+    "current_bounds": [
+      549.349048010974,
+      895.349048010974
+    ],
+    "previous_bounds": [
+      103.349048010974,
+      515.349048010974
+    ]
+  },
+  {
+    "time": 116.8,
+    "active_card": "29",
+    "current_event": 30,
+    "previous_card": "28",
+    "incoming_event": 31,
+    "scroll_offset": 11397.432109739375,
+    "lyric_line": 37,
+    "current_bounds": [
+      319.56789026062506,
+      665.5678902606251
+    ],
+    "previous_bounds": [
+      -126.43210973937494,
+      285.56789026062506
+    ]
+  },
+  {
+    "time": 117.03999999999999,
+    "active_card": "30",
+    "current_event": 31,
+    "previous_card": "29",
+    "incoming_event": -1,
+    "scroll_offset": 11613,
+    "lyric_line": 38,
+    "current_bounds": [
+      484,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 118.315,
+    "active_card": "30",
+    "current_event": 31,
+    "previous_card": "29",
+    "incoming_event": 32,
+    "scroll_offset": 11613.55462277092,
+    "lyric_line": 38,
+    "current_bounds": [
+      483.4453772290799,
+      793.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 118.535,
+    "active_card": "30",
+    "current_event": 31,
+    "previous_card": "29",
+    "incoming_event": 32,
+    "scroll_offset": 11809.332290809332,
+    "lyric_line": 38,
+    "current_bounds": [
+      287.66770919066767,
+      597.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 118.77499999999999,
+    "active_card": "31",
+    "current_event": 32,
+    "previous_card": "30",
+    "incoming_event": -1,
+    "scroll_offset": 11993,
+    "lyric_line": 39,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 120.32000000000001,
+    "active_card": "31",
+    "current_event": 32,
+    "previous_card": "30",
+    "incoming_event": 33,
+    "scroll_offset": 11993.502079561044,
+    "lyric_line": 39,
+    "current_bounds": [
+      447.4979204389565,
+      793.4979204389565
+    ],
+    "previous_bounds": [
+      103.4979204389565,
+      413.4979204389565
+    ]
+  },
+  {
+    "time": 120.54,
+    "active_card": "31",
+    "current_event": 32,
+    "previous_card": "30",
+    "incoming_event": 33,
+    "scroll_offset": 12170.732389574765,
+    "lyric_line": 39,
+    "current_bounds": [
+      270.26761042523503,
+      616.267610425235
+    ],
+    "previous_bounds": [
+      -73.73238957476497,
+      236.26761042523503
+    ]
+  },
+  {
+    "time": 120.78,
+    "active_card": "32",
+    "current_event": 33,
+    "previous_card": "31",
+    "incoming_event": -1,
+    "scroll_offset": 12337,
+    "lyric_line": 40,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 124.08,
+    "active_card": "32",
+    "current_event": 33,
+    "previous_card": "31",
+    "incoming_event": 34,
+    "scroll_offset": 12337.55462277092,
+    "lyric_line": 40,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 124.3,
+    "active_card": "32",
+    "current_event": 33,
+    "previous_card": "31",
+    "incoming_event": 34,
+    "scroll_offset": 12533.332290809332,
+    "lyric_line": 40,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 124.53999999999999,
+    "active_card": "06",
+    "current_event": 34,
+    "previous_card": "32",
+    "incoming_event": -1,
+    "scroll_offset": 12717,
+    "lyric_line": 41,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 125.68,
+    "active_card": "06",
+    "current_event": 34,
+    "previous_card": "32",
+    "incoming_event": 35,
+    "scroll_offset": 12717.55462277092,
+    "lyric_line": 41,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 125.9,
+    "active_card": "06",
+    "current_event": 34,
+    "previous_card": "32",
+    "incoming_event": 35,
+    "scroll_offset": 12913.332290809332,
+    "lyric_line": 41,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 126.14,
+    "active_card": "33",
+    "current_event": 35,
+    "previous_card": "06",
+    "incoming_event": -1,
+    "scroll_offset": 13097,
+    "lyric_line": 42,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 127.48,
+    "active_card": "33",
+    "current_event": 35,
+    "previous_card": "06",
+    "incoming_event": 36,
+    "scroll_offset": 13097.55462277092,
+    "lyric_line": 42,
+    "current_bounds": [
+      483.4453772290799,
+      829.4453772290799
+    ],
+    "previous_bounds": [
+      103.4453772290799,
+      449.4453772290799
+    ]
+  },
+  {
+    "time": 127.7,
+    "active_card": "33",
+    "current_event": 35,
+    "previous_card": "06",
+    "incoming_event": 36,
+    "scroll_offset": 13293.332290809332,
+    "lyric_line": 42,
+    "current_bounds": [
+      287.66770919066767,
+      633.6677091906677
+    ],
+    "previous_bounds": [
+      -92.33229080933233,
+      253.66770919066767
+    ]
+  },
+  {
+    "time": 127.94,
+    "active_card": "34",
+    "current_event": 36,
+    "previous_card": "33",
+    "incoming_event": -1,
+    "scroll_offset": 13477,
+    "lyric_line": 43,
+    "current_bounds": [
+      484,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 129.38,
+    "active_card": "34",
+    "current_event": 36,
+    "previous_card": "33",
+    "incoming_event": 37,
+    "scroll_offset": 13477.554622770918,
+    "lyric_line": 43,
+    "current_bounds": [
+      483.4453772290817,
+      793.4453772290817
+    ],
+    "previous_bounds": [
+      103.44537722908171,
+      449.4453772290817
+    ]
+  },
+  {
+    "time": 129.6,
+    "active_card": "34",
+    "current_event": 36,
+    "previous_card": "33",
+    "incoming_event": 37,
+    "scroll_offset": 13673.332290809314,
+    "lyric_line": 43,
+    "current_bounds": [
+      287.66770919068585,
+      597.6677091906859
+    ],
+    "previous_bounds": [
+      -92.33229080931415,
+      253.66770919068585
+    ]
+  },
+  {
+    "time": 129.84,
+    "active_card": "35",
+    "current_event": 37,
+    "previous_card": "34",
+    "incoming_event": -1,
+    "scroll_offset": 13857,
+    "lyric_line": 44,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 131.58,
+    "active_card": "35",
+    "current_event": 37,
+    "previous_card": "34",
+    "incoming_event": 38,
+    "scroll_offset": 13857.502079561042,
+    "lyric_line": 44,
+    "current_bounds": [
+      447.4979204389583,
+      793.4979204389583
+    ],
+    "previous_bounds": [
+      103.49792043895832,
+      413.4979204389583
+    ]
+  },
+  {
+    "time": 131.8,
+    "active_card": "35",
+    "current_event": 37,
+    "previous_card": "34",
+    "incoming_event": 38,
+    "scroll_offset": 14034.732389574749,
+    "lyric_line": 44,
+    "current_bounds": [
+      270.2676104252514,
+      616.2676104252514
+    ],
+    "previous_bounds": [
+      -73.7323895747486,
+      236.2676104252514
+    ]
+  },
+  {
+    "time": 132.04000000000002,
+    "active_card": "36",
+    "current_event": 38,
+    "previous_card": "35",
+    "incoming_event": -1,
+    "scroll_offset": 14201,
+    "lyric_line": 45,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 136.94,
+    "active_card": "36",
+    "current_event": 38,
+    "previous_card": "35",
+    "incoming_event": 39,
+    "scroll_offset": 14201.554622770918,
+    "lyric_line": 45,
+    "current_bounds": [
+      483.4453772290817,
+      829.4453772290817
+    ],
+    "previous_bounds": [
+      103.44537722908171,
+      449.4453772290817
+    ]
+  },
+  {
+    "time": 137.16,
+    "active_card": "36",
+    "current_event": 38,
+    "previous_card": "35",
+    "incoming_event": 39,
+    "scroll_offset": 14397.332290809314,
+    "lyric_line": 45,
+    "current_bounds": [
+      287.66770919068585,
+      633.6677091906859
+    ],
+    "previous_bounds": [
+      -92.33229080931415,
+      253.66770919068585
+    ]
+  },
+  {
+    "time": 137.4,
+    "active_card": "37",
+    "current_event": 39,
+    "previous_card": "36",
+    "incoming_event": -1,
+    "scroll_offset": 14581,
+    "lyric_line": 46,
+    "current_bounds": [
+      484,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  {
+    "time": 141.56,
+    "active_card": "37",
+    "current_event": 39,
+    "previous_card": "36",
+    "incoming_event": 40,
+    "scroll_offset": 14581.554622770918,
+    "lyric_line": 46,
+    "current_bounds": [
+      483.4453772290817,
+      793.4453772290817
+    ],
+    "previous_bounds": [
+      103.44537722908171,
+      449.4453772290817
+    ]
+  },
+  {
+    "time": 141.78,
+    "active_card": "37",
+    "current_event": 39,
+    "previous_card": "36",
+    "incoming_event": 40,
+    "scroll_offset": 14777.332290809314,
+    "lyric_line": 46,
+    "current_bounds": [
+      287.66770919068585,
+      597.6677091906859
+    ],
+    "previous_bounds": [
+      -92.33229080931415,
+      253.66770919068585
+    ]
+  },
+  {
+    "time": 142.02,
+    "active_card": "38",
+    "current_event": 40,
+    "previous_card": "37",
+    "incoming_event": -1,
+    "scroll_offset": 14961,
+    "lyric_line": 46,
+    "current_bounds": [
+      448,
+      758
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 151.66,
+    "active_card": "38",
+    "current_event": 40,
+    "previous_card": "37",
+    "incoming_event": 41,
+    "scroll_offset": 14961.502079561042,
+    "lyric_line": 46,
+    "current_bounds": [
+      447.4979204389583,
+      757.4979204389583
+    ],
+    "previous_bounds": [
+      103.49792043895832,
+      413.4979204389583
+    ]
+  },
+  {
+    "time": 151.88,
+    "active_card": "38",
+    "current_event": 40,
+    "previous_card": "37",
+    "incoming_event": 41,
+    "scroll_offset": 15138.732389574749,
+    "lyric_line": 46,
+    "current_bounds": [
+      270.2676104252514,
+      580.2676104252514
+    ],
+    "previous_bounds": [
+      -73.7323895747486,
+      236.2676104252514
+    ]
+  },
+  {
+    "time": 152.12,
+    "active_card": "39",
+    "current_event": 41,
+    "previous_card": "38",
+    "incoming_event": -1,
+    "scroll_offset": 15305,
+    "lyric_line": 46,
+    "current_bounds": [
+      448,
+      794
+    ],
+    "previous_bounds": [
+      104,
+      414
+    ]
+  },
+  {
+    "time": 153.66,
+    "active_card": "39",
+    "current_event": 41,
+    "previous_card": "38",
+    "incoming_event": 42,
+    "scroll_offset": 15305.502079561042,
+    "lyric_line": 46,
+    "current_bounds": [
+      447.4979204389583,
+      793.4979204389583
+    ],
+    "previous_bounds": [
+      103.49792043895832,
+      413.4979204389583
+    ]
+  },
+  {
+    "time": 153.88,
+    "active_card": "39",
+    "current_event": 41,
+    "previous_card": "38",
+    "incoming_event": 42,
+    "scroll_offset": 15482.732389574749,
+    "lyric_line": 46,
+    "current_bounds": [
+      270.2676104252514,
+      616.2676104252514
+    ],
+    "previous_bounds": [
+      -73.7323895747486,
+      236.2676104252514
+    ]
+  },
+  {
+    "time": 154.12,
+    "active_card": "40",
+    "current_event": 42,
+    "previous_card": "39",
+    "incoming_event": -1,
+    "scroll_offset": 15649,
+    "lyric_line": 46,
+    "current_bounds": [
+      484,
+      830
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  }
+]

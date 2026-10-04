@@ -1,0 +1,40 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.10",
+  "status": "review",
+  "date": "2026-10-04T08:05:02.783881+00:00",
+  "output": {
+    "path": "outputs/LLMV_001_V006_R010_001_companion_v006.10.mp4",
+    "sha256": "e65979df5781246b4b534e6b0d868c85940b0ded8b9e97f016ccf9cab8b7334d",
+    "size_bytes": 322015688,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "frame_count": 9400,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-04T07-57-05-402Z_8d20ebd1"
+  },
+  "commands": {
+    "npm run check": "passed",
+    "npm test": "9 passed, 0 failed",
+    "npm run verify": "passed",
+    "npm run verify:media -- --project agi --version v006.10": "passed",
+    "npm run verify:playback -- --project agi --version v006.10": "passed"
+  },
+  "memory": {
+    "scope": "Node exporter process, sampled every 240 frames and on the last frame; Chromium/FFmpeg and post-render file hashing excluded.",
+    "samples": 41,
+    "maximum_heap_bytes": 101963616,
+    "final_heap_bytes": 70097360,
+    "maximum_rss_bytes": 350863360,
+    "frames_completed": 9400
+  },
+  "progress_endpoint_error_px": 0.9872340425533821,
+  "source_picture_ssim": 0.993828,
+  "human_approval": null,
+  "review_player": "watch.html",
+  "parent_files_preserved": 45
+}

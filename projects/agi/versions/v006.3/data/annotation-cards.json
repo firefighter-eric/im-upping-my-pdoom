@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.3",
+  "status": "sample-editorial-copy-review",
+  "lyric_source": {
+    "repository_relative_path": "projects/agi/versions/v005.0/data/reference-lyric-timing-v001.json",
+    "sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "timing_status": "Inherited line intervals; not revalidated for this static layout"
+  },
+  "cards": [
+    {
+      "id": "chatgpt-plea",
+      "display_role": "previous",
+      "lyric": {
+        "line_id": 5,
+        "en": "ChatGPT, please don't eat me alive",
+        "zh": "ChatGPT，求你别把我生吞活剥。",
+        "start": 16.6,
+        "end": 22.76
+      },
+      "meme_kind": "black-humor-interpretation",
+      "explanation": "平常向 AI 求助，这里却向它求饶。从“帮帮我”变成“别吃我”，玩的是 AI 失控的黑色幽默。",
+      "claim_type": "editorial reading of supplied lyric; no specific external meme origin asserted"
+    },
+    {
+      "id": "pdoom",
+      "display_role": "current",
+      "lyric": {
+        "line_id": 6,
+        "en": "I'm upping my P(doom)",
+        "zh": "我又调高了末日概率。",
+        "start": 22.76,
+        "end": 24.32
+      },
+      "meme_kind": "AI-risk-community-shorthand",
+      "definition": "P 指概率，doom 指灾难。AI 圈用它表达对生存级灾难的风险估计，具体定义因人而异。",
+      "lyric_connection": "upping 就是上调自己的风险预估。AI 越强，歌里的人越慌；把末日焦虑唱成轻快副歌，形成反差。",
+      "definition_status": "source-backed terminology summary",
+      "lyric_connection_status": "editorial interpretation, not a claim of confirmed author intent",
+      "definition_source": "https://www.lesswrong.com/posts/omDu7vNy3YyKXsvCd/taboo-p-doom"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.lesswrong.com/posts/omDu7vNy3YyKXsvCd/taboo-p-doom",
+      "title": "Taboo P(doom)",
+      "date": "2023-02-03",
+      "accessed_local_date": "2026-10-04",
+      "supports": "Community use of P(doom), individual beliefs and differing definitions of doom; not the song author's intent"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.14870",
+      "title": "Why do Experts Disagree on Existential Risk and P(doom)? A Survey of AI Experts",
+      "date": "2025-01-25",
+      "accessed_local_date": "2026-10-04",
+      "role": "Additional research context; no survey statistic used in sample"
+    }
+  ],
+  "all_memes_researched": false
+}

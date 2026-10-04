@@ -1,0 +1,8 @@
+{
+  "scope": "Node exporter, sampled every 240 frames and on last frame; Chromium/FFmpeg and post-render file hashing excluded.",
+  "samples": 41,
+  "maximum_heap_bytes": 104164688,
+  "final_heap_bytes": 70976560,
+  "maximum_rss_bytes": 364199936,
+  "frames_completed": 9400
+}

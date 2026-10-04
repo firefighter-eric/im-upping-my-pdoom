@@ -1,0 +1,15 @@
+{
+  "scope": "Node exporter process only; Chromium and FFmpeg are separate processes. Samples taken every 240 frames and on the last frame, before final file hashing.",
+  "sample_count": 41,
+  "frames_completed": 9400,
+  "minimum_heap_bytes": 54113808,
+  "maximum_heap_bytes": 91242792,
+  "final_heap_bytes": 67999480,
+  "minimum_rss_bytes": 284983296,
+  "maximum_rss_bytes": 335331328,
+  "final_rss_bytes": 297631744,
+  "parent_failure": "v006.8 accumulated about 4 GiB of JavaScript heap and aborted.",
+  "settings_unchanged": true,
+  "heap_limit_increased": false,
+  "conclusion": "No accumulating image payloads observed through the complete render."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.1",
+  "status": "proposed-not-motion-tested",
+  "base_canvas": {"width": 1920, "height": 1080},
+  "typography": {
+    "body_px": 26,
+    "body_line_height_px": 39,
+    "current_title_px": 48,
+    "previous_title_px": 38,
+    "previous_body_px": 26,
+    "previous_body_color": "#C3C3C7",
+    "current_body_color": "#F1EEE7",
+    "accent_color": "#FF6A21"
+  },
+  "visibility": {
+    "complete_previous_items_minimum": 1,
+    "complete_current_item": true,
+    "next_item": "title-only-optional",
+    "previous_body_ellipsis": false,
+    "previous_body_gradient_mask": false,
+    "previous_body_clipping": false,
+    "overflow_policy": "shorten-or-split-copy-before-layout; do not reduce body below baseline to force-fit"
+  },
+  "transition": {
+    "duration_seconds": 0.45,
+    "direction": "up",
+    "easing": "ease-out",
+    "continuous_autoscroll": false,
+    "invariant": "At transition i -> i+1, item i stays fully visible throughout and after the transition as the previous item; only item i-1 may leave.",
+    "retention": "Item i may leave only when item i+2 arrives.",
+    "hold_duration": "TBD: validate against lyric density and reading time"
+  },
+  "first_item": "no fabricated previous content",
+  "last_item": "no fabricated next content",
+  "validation": "Static post-transition concept inspected; temporal behavior not implemented or verified."
+}

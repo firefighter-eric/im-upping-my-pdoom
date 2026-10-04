@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.6",
+  "title": "I'm Upping My P(doom) · 顶部仅保留歌名",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看视频静态修订：删除顶部两处辅助标签与标题短竖线，顶部仅保留歌名；不是原片重渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T05:20:22.441Z",
+  "parent_version": "v006.5",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "clean-video-window",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+    "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。",
+    "标题改为是不是改为 I'm up in my p-doom 比较好呢？还是保留 AGI 比较好呢？这个歌其实就是 I'm up in my p-doom。",
+    "可以把视频放得大一点，然后左下的字幕稍微小一号吗？",
+    "原片包括时间的，在左上方那个东西是不是可以去掉呢？然后这样的话视频又可以变大一点。",
+    "右上方的原片x注释去掉。",
+    "上方的逐句解梗，原片半看去掉。"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Built-in image_gen.imagegen: one static edit removing two auxiliary top labels and title divider; no video rendering.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "c0ec32990e886e6ea53ae910bdc6d47105d94971e2e14fe813b6389653335ccf",
+    "files": {
+      "renderer/index.html": "c0ec32990e886e6ea53ae910bdc6d47105d94971e2e14fe813b6389653335ccf"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "annotation_cards": "data/annotation-cards.json",
+    "prompt": "provenance/prompt.txt",
+    "reference": "design/references/base-v006.5.png",
+    "generation": "provenance/GENERATION.json",
+    "concept": "design/mockups/A-song-title-only.png"
+  },
+  "data_hashes": {
+    "layout": "86c26032eda333e6cefde0da4115b7ed06841e41d3f3edcfb149b773ab1b126d",
+    "annotation_cards": "3e79124d49be11b3813d3da99959e52e5b098726d141dc2713b84ba72a654b3e",
+    "prompt": "faaab85435996fd2d15c60eb3d831ae67ec2edbc5f72a61f8e72263903542adb",
+    "reference": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547",
+    "generation": "ae51f14fc8198f38166b4d371cd94eca5e39882ea58d8d87cb7c7754c39c6e8d",
+    "concept": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa"
+  },
+  "variants": [
+    {
+      "id": "song-title-only",
+      "label": "A · 顶部仅保留歌名",
+      "generation_id": "LLMV_001_V006_R006_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.6/design/mockups/A-song-title-only.png",
+      "known_issues": [
+        "仅静态样图；全片双语同步、滚动动画和阅读时长未制作验收。",
+        "AI 样图不保证原片逐像素一致；正式合成须直接嵌入原片。",
+        "40 条解梗审稿独立保存，尚未用于替换样图示例文案。"
+      ],
+      "design_output": {
+        "path": "design/mockups/A-song-title-only.png",
+        "sha256": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa",
+        "size_bytes": 1462267,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      }
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "content_review_draft": "docs/plans/agi-v006-annotation-review-v001/REVIEW.md",
+    "content_review_scope": "46 main lyric lines; 40 editorial draft entries, pending human review; no exhaustive visual Easter-egg claim",
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Both auxiliary top labels and short title divider removed; top header contains song title only.",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.5/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R005_001",
+    "parent_design_sha256": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547"
+  }
+}

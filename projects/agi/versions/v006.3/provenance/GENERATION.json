@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.3",
+  "generation_id": "LLMV_001_V006_R003_001",
+  "variant": "lyric-meme-notes",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T05:00:40.335Z",
+  "request": "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。",
+  "scope": "One static concept edit showing lyric-linked meme explanations",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "9c05bf1b589f94606f2c56f49e96f36dd6e25ae115fcaf656f815a3afe261bfc"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-v006.2.png"
+    ],
+    "transparent_background": false,
+    "calls": 1
+  },
+  "reference": {
+    "parent_version": "v006.2",
+    "parent_generation_id": "LLMV_001_V006_R002_001",
+    "parent_path": "design/mockups/A-bilingual-lyrics.png",
+    "path": "design/references/base-v006.2.png",
+    "sha256": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc"
+  },
+  "output": {
+    "path": "design/mockups/A-lyric-meme-notes.png",
+    "sha256": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2",
+    "size_bytes": 1457696,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-aca33a1d-5819-48a0-9f4a-f4691a25b179.png",
+  "visual_review": {
+    "viewed": true,
+    "previous": "Complete ChatGPT lyric in English and Chinese plus help-to-mercy joke explanation",
+    "current": "Complete P(doom) lyric in English and Chinese plus term definition and upping/chorus contrast explanation",
+    "left": "Bilingual lyric treatment retained; exact pixel identity not claimed",
+    "next": "Compact FOOM title only",
+    "motion": "Not produced or validated",
+    "reading_time": "Not validated for fast original lyric intervals"
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

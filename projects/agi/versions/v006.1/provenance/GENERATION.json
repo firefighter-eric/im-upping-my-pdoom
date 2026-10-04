@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.1",
+  "generation_id": "LLMV_001_V006_R001_001",
+  "variant": "continuous-reading",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T04:54:04.385Z",
+  "request": "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+  "scope": "Single static edit; no video or motion produced",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "e77430e0f6306311b001bf062ee82e7e5135dbf1d716582415ea08f0fe4038d0"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-A-dark-pdoom.png"
+    ],
+    "transparent_background": false,
+    "calls": 1
+  },
+  "reference": {
+    "parent_version": "v006.0",
+    "parent_generation_id": "LLMV_001_V006_R000_001",
+    "parent_path": "design/mockups/A-dark-pdoom.png",
+    "path": "design/references/base-A-dark-pdoom.png",
+    "sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091"
+  },
+  "output": {
+    "path": "design/mockups/A-continuous-reading.png",
+    "sha256": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0",
+    "size_bytes": 1364263,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-be71243b-4782-4343-801e-b173f7044116.png",
+  "visual_review": {
+    "viewed": true,
+    "previous_item": "ChatGPT title and full explanation visible; no ellipsis or clipping",
+    "current_item": "P(doom) title and full explanation visible",
+    "next_item": "FOOM title and short preview visible",
+    "typography": "Visibly reduced right-column body/title size; exact pixel typography not measured",
+    "previous_item_contrast": "Light grey text remains readable in the viewed still",
+    "left_panel": "Broad composition retained; pixel identity not claimed",
+    "motion_retention": "Proposed in reading-layout.json, not animated or tested"
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

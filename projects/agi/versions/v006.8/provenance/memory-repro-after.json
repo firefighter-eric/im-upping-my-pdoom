@@ -1,0 +1,8 @@
+{
+  "mode": "after",
+  "iterations": 700,
+  "characters_per_frame": 131072,
+  "initial_heap_bytes": 3699208,
+  "final_heap_bytes": 3877208,
+  "retained_heap_growth_bytes": 178000
+}

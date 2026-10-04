@@ -1,0 +1,69 @@
+{
+  "run_id": "RUN_2026-10-04T06-10-28-057Z_5707170a",
+  "observed_at": "2026-10-04T06:17:55.043079+00:00",
+  "exact_process_end_time": null,
+  "exit_code": 134,
+  "status": "failed",
+  "error": "Node.js V8 reached the approximately 4 GiB JavaScript heap limit during full rendering.",
+  "observation_source": "exec session 56209 final tool result; ffprobe of the resulting partial file; isolated non-media memory reproduction",
+  "last_reported_progress": {
+    "frames": 5040,
+    "target_frames": 9400,
+    "percent": 54,
+    "elapsed_seconds": 151
+  },
+  "partial_media": {
+    "path": "outputs/LLMV_001_V006_R008_001_companion_v006.8.partial.mp4",
+    "sha256": "95bc1b714e976bc9dd98f6ed01bcabe4212f0b9485f8da71944d317c952937e7",
+    "size_bytes": 220377994,
+    "video_frames": 5265,
+    "target_frames": 9400,
+    "video_duration_seconds": 87.75,
+    "audio_duration_seconds": 156.650667,
+    "container_duration_seconds": 156.650667,
+    "registered": false,
+    "full_media_validation": false,
+    "note": "The long container duration comes from the copied full audio; video ends at 87.75 s. This is not a complete deliverable."
+  },
+  "root_cause": {
+    "file": "production/render.mjs",
+    "line": 59,
+    "description": "Repeated Promise.race calls against the same pending encoder.failed promise retain resolved race results, including base64 frame strings.",
+    "isolated_reproduction": {
+      "frames": 700,
+      "characters_per_frame": 131072,
+      "retained_heap_before_bytes": 92026912,
+      "retained_heap_after_bytes": 178000
+    },
+    "proposed_fix": "Await each page evaluation directly and check encoder.error before and after. Keep the encoder write error handling. Apply only in a new version after retry authorization.",
+    "patch": "provenance/proposed-v0069-exporter-fix.patch",
+    "applied": false
+  },
+  "original_receipt_snapshot": {
+    "path": "provenance/failed-run-original-receipt.json",
+    "sha256": "c8fbdc1713b17038df05567348f5e6566b2f978f0f399f28ffefaaed2cdd7660"
+  },
+  "input_integrity": {
+    "video": {
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+      "unchanged": true
+    },
+    "audio": {
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "unchanged": true
+    }
+  },
+  "process_inspection": {
+    "renderer_pid": 92365,
+    "renderer_alive": false,
+    "partial_file_writers": [],
+    "note": "Read-only ps and lsof confirmed renderer absent and no file writer. A ffprobe read-only descriptor belonged to the concurrent verification command."
+  },
+  "retry_performed": false,
+  "render_parameters_changed": false,
+  "next_action": "Await explicit authorization before applying the prepared correction in a new version and attempting one new full render.",
+  "stale_lock": {
+    "owner": "RUN_2026-10-04T06-10-28-057Z_5707170a",
+    "action": "removed after renderer exit and no active writer were verified"
+  }
+}

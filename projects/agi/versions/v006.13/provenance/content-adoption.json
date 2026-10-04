@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-04T08:19:44.645085+00:00",
+  "request": "没问题，就按照这个来渲染好了。",
+  "parent_version": "v006.12",
+  "scope": "full-companion-video",
+  "interpretation": "Use the accepted v006.12 renderer, layout, typography, highlights and text without visual changes. Copy the original source picture/audio, export once at native 4K60, and align the local review player seeking surface with the bottom progress line.",
+  "visual_approval": "USER_LAYOUT_APPROVAL.json",
+  "full_video_approval": null
+}

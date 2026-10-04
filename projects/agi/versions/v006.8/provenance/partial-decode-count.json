@@ -1,0 +1,25 @@
+{
+  "scope": "Failure artifact only; not full deliverable validation",
+  "command": "ffprobe -v error -count_frames -show_entries format=duration,size:stream=index,codec_type,codec_name,width,height,r_frame_rate,avg_frame_rate,duration,nb_frames,nb_read_frames -of json projects/agi/versions/v006.8/outputs/LLMV_001_V006_R008_001_companion_v006.8.partial.mp4",
+  "exit_code": 0,
+  "reported_errors": [],
+  "video": {
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "duration_seconds": 87.75,
+    "nb_frames": 5265,
+    "nb_read_frames": 5265,
+    "target_frames": 9400
+  },
+  "audio": {
+    "codec": "aac",
+    "duration_seconds": 156.650667,
+    "nb_frames": 7343,
+    "nb_read_frames": 7343
+  },
+  "size_bytes": 220377994,
+  "complete": false,
+  "registered": false
+}

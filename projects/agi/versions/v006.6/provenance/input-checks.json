@@ -1,0 +1,12 @@
+{
+  "video": {
+    "path": "sources/references/LLMV_001_source_v001.mp4",
+    "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+    "status": "matched-before-and-after-generation"
+  },
+  "audio": {
+    "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+    "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+    "status": "matched-before-and-after-generation"
+  }
+}

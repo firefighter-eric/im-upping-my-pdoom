@@ -1,0 +1,14 @@
+{
+  "TREATMENT.md": "3696527d0ca87af3192414fa1a1b3f2476c7c41ef42d775dc6ec96d095ff2400",
+  "manifest.json": "aa263b3fe3801abb16b09a5af6ae7edacdda00fe497b3dd85b00708bbc919517",
+  "renderer/index.html": "b14b0ee8ff43dfee381a6711b3f5638f08f8220349ec1a6c12697ec938927675",
+  "provenance/prompt.txt": "8a7f6def5ba761b0dff357377ff5ee102532edae7ecdb8467caa9b68fe53d236",
+  "provenance/parent-file-hashes.json": "dd68b97fa2370821441f63c2222f960089ee0758806f16dd2433506b07499ef5",
+  "provenance/VALIDATION.json": "d723d6e240e8294321bbbb362fd3f9d0fd9e87952b88f785bcfdb470a43105db",
+  "provenance/GENERATION.json": "301524e064dea1fc7567b8c10f7e9c034185fcdd6d39564eaac7d162166c10ae",
+  "provenance/input-checks.json": "2d56822c10489578018f46fb528fb3f16114d292cf51e23889cde5c7ec9b455b",
+  "data/reading-layout.json": "7cc82af3eee24a16be2e97f47e58b68be33cb9b658b9a589961fd06f2c6f4434",
+  "data/annotation-cards.json": "7c2f7af22dd997b3a1de777a2894a8ba5fcddc2f706a1a0ed3eb22890fc12e28",
+  "design/references/base-v006.6.png": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa",
+  "design/mockups/A-slightly-smaller-annotations.png": "5c9a93cce097d8378bb08ce4bdfaf5331685a1db36d533bfae939dcee0272cc4"
+}

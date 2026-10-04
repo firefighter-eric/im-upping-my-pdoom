@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.0",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T04:01:30.641Z",
+  "event": "adopt-existing-design-as-special-video-version",
+  "user_instruction": "这个是不是可以作为V006，然后注释一下，这个是一个特殊的视频，而不是原视频重新渲染。",
+  "classification": {
+    "type": "annotated-companion-video",
+    "label": "特殊衍生视频 · 原片解梗伴看",
+    "source_video_rerender": false
+  },
+  "from_design_version": "agi-explainer-v001",
+  "from_directory": "docs/plans/agi-explainer-v001",
+  "to_directory": "projects/agi/versions/v006.0/design",
+  "preserved_files": [
+    {
+      "from_path": "docs/plans/agi-explainer-v001/mockups/A-dark-pdoom.png",
+      "to_path": "projects/agi/versions/v006.0/design/mockups/A-dark-pdoom.png",
+      "sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+      "size_bytes": 1251159
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/mockups/B-paper-pdoom.png",
+      "to_path": "projects/agi/versions/v006.0/design/mockups/B-paper-pdoom.png",
+      "sha256": "c6ca4850cbd02d227681b70e1e4973757ef24681b7a7b0017417ba46872917b9",
+      "size_bytes": 1289895
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/mockups/C-dark-paperclips.png",
+      "to_path": "projects/agi/versions/v006.0/design/mockups/C-dark-paperclips.png",
+      "sha256": "4341584280ec7f37eba339d2ac149fab52a36181d043e26ad35b018d3cb57c5c",
+      "size_bytes": 1557534
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/provenance/GENERATION.json",
+      "to_path": "projects/agi/versions/v006.0/design/provenance/GENERATION.json",
+      "sha256": "f4757925a4d9d04a7cfbeaddaf15ecbc48728145d3648cdce862930a69280e23",
+      "size_bytes": 4856
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/provenance/prompts.json",
+      "to_path": "projects/agi/versions/v006.0/design/provenance/prompts.json",
+      "sha256": "db969ebb92586e06dbfdf2280f81cf10d3194a535bdf055920f744767ab285b7",
+      "size_bytes": 8614
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/README.md",
+      "to_path": "projects/agi/versions/v006.0/design/README.md",
+      "sha256": "3995c16eff0280d5cc6ee1886511376f151b6c56da80ddfe7e359c9cc545ff80",
+      "size_bytes": 6090
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/references/source-003900.png",
+      "to_path": "projects/agi/versions/v006.0/design/references/source-003900.png",
+      "sha256": "3448e5cc260e7264507f20180a4f966ce5b895b213656811cf767a926e38b8d2",
+      "size_bytes": 600783
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/references/source-023800.png",
+      "to_path": "projects/agi/versions/v006.0/design/references/source-023800.png",
+      "sha256": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+      "size_bytes": 107524
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/references/source-024800.png",
+      "to_path": "projects/agi/versions/v006.0/design/references/source-024800.png",
+      "sha256": "9e77af255582141c6f4dabe62a1fc63079664c5a86c73cde86576a8fdb3c98a5",
+      "size_bytes": 256091
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/references/source-098000.png",
+      "to_path": "projects/agi/versions/v006.0/design/references/source-098000.png",
+      "sha256": "8bc83b9a24574576a0f892b5a5cc5daa212232df7a3e3999c5bd5b8cb4416189",
+      "size_bytes": 503232
+    },
+    {
+      "from_path": "docs/plans/agi-explainer-v001/references/source-099200.png",
+      "to_path": "projects/agi/versions/v006.0/design/references/source-099200.png",
+      "sha256": "efd4b76cc24f572e9f6966b77e3f35d62039142c07fd3bcaf6c14ef326fcc178",
+      "size_bytes": 1100192
+    }
+  ],
+  "generation_mapping": [
+    {
+      "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_A",
+      "current_generation_id": "LLMV_001_V006_R000_001",
+      "variant_id": "dark-pdoom",
+      "output_path": "design/mockups/A-dark-pdoom.png",
+      "sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+      "kind": "static-concept-image",
+      "status": "review"
+    },
+    {
+      "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_B",
+      "current_generation_id": "LLMV_001_V006_R000_002",
+      "variant_id": "paper-pdoom",
+      "output_path": "design/mockups/B-paper-pdoom.png",
+      "sha256": "c6ca4850cbd02d227681b70e1e4973757ef24681b7a7b0017417ba46872917b9",
+      "kind": "static-concept-image",
+      "status": "review"
+    },
+    {
+      "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_C",
+      "current_generation_id": "LLMV_001_V006_R000_003",
+      "variant_id": "dark-paperclips",
+      "output_path": "design/mockups/C-dark-paperclips.png",
+      "sha256": "4341584280ec7f37eba339d2ac149fab52a36181d043e26ad35b018d3cb57c5c",
+      "kind": "static-concept-image",
+      "status": "review"
+    }
+  ],
+  "historical_record_policy": "Original design README, prompts, run record, IDs and paths retained byte-for-byte as historical evidence. Current scope and version identity are in ../manifest.json and ../TREATMENT.md.",
+  "production_status": "draft",
+  "full_video_produced": false,
+  "render_executed": false,
+  "human_approval": null
+}

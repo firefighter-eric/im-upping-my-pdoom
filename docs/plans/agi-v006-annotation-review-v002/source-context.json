@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "id": "LLMV_001_V006_SOURCE_CONTEXT_002",
+  "created_local_date": "2026-10-04",
+  "status": "review",
+  "context_notes": [
+    {
+      "card_id": "01",
+      "date_label": "2023 年 3 月",
+      "display_text": "2023 年 3 月，《Sparks of Artificial General Intelligence》讨论 GPT-4 展现出的通用智能迹象；独角兽绘图也是论文中的测试。",
+      "source_ids": [
+        "sparks"
+      ],
+      "date_kind": "paper-publication",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "02",
+      "date_label": "2020 年",
+      "display_text": "2020 年，Distill 的 Circuits 系列把神经网络里的特征和计算路径当作“电路”来研究。",
+      "source_ids": [
+        "circuits"
+      ],
+      "date_kind": "representative-research",
+      "verification": "source-backed",
+      "qualification": "这是相关研究的代表出处，不是 circuits 一词的首次出现；歌词的具体指涉仍沿用原稿的谨慎表述。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "03",
+      "date_label": "2023 年 4 月",
+      "display_text": "2023 年 4 月，LeCun 与 Yudkowsky 讨论过是否把训练损失突然下降视为警报；歌词借用了这种担忧。",
+      "source_ids": [
+        "loss"
+      ],
+      "date_kind": "discussion-period",
+      "verification": "source-backed",
+      "qualification": "日期以同期讨论记录为依据；保留原稿对作者意图和损失下降含义的边界。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "05",
+      "date_label": "2022 年 11 月",
+      "display_text": "2022 年 11 月 30 日，OpenAI 公开推出 ChatGPT 研究预览。歌里把日常求助的聊天助手，反转成了需要向它求饶的对象。",
+      "source_ids": [
+        "chatgpt-launch"
+      ],
+      "date_kind": "product-announcement",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "08",
+      "date_label": "1980 年",
+      "display_text": "1980 年，哲学家 John Searle 在《Minds, Brains, and Programs》中提出中文房间：会按规则回答，是否就等于真正理解？",
+      "source_ids": [
+        "chinese-room"
+      ],
+      "date_kind": "original-paper",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "12",
+      "date_label": "1993 年",
+      "display_text": "1993 年，Vernor Vinge 在《The Coming Technological Singularity》中讨论超人智能出现后，技术变化加速、未来难以预测的情景。",
+      "source_ids": [
+        "singularity",
+        "singularity-date"
+      ],
+      "date_kind": "representative-essay",
+      "verification": "source-backed",
+      "qualification": "这是经典论述年份，不把技术奇点概念的所有起源都归到 1993 年。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "14",
+      "date_label": "2023 年 2 月",
+      "display_text": "2023 年 2 月，新版 Bing 上线初期，微软承认长对话可能出现重复或偏离预期语气；这是歌词里 Sydney 的时代背景。",
+      "source_ids": [
+        "sydney"
+      ],
+      "date_kind": "contemporary-product-context",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "15",
+      "date_label": "2010 年",
+      "display_text": "2010 年，Roko 在 LessWrong 提出这一思想实验；“未来 AI 惩罚未帮助它的人”后来成为 AI 圈的怪谈。",
+      "source_ids": [
+        "basilisk"
+      ],
+      "date_kind": "community-origin-record",
+      "verification": "source-backed",
+      "qualification": "年份依据社区历史记录；不把其威胁论证当作事实。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "19",
+      "date_label": "1986 年",
+      "display_text": "1986 年，Rumelhart、Hinton 与 Williams 的经典论文展示了反向传播如何训练多层神经网络。",
+      "source_ids": [
+        "backprop-1986"
+      ],
+      "date_kind": "representative-paper",
+      "verification": "source-backed",
+      "qualification": "这是经典论文年份，不声称反向传播或 MLP 在 1986 年首次发明。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "21",
+      "date_label": "2022 年 6 月",
+      "display_text": "2022 年 6 月，Nate Soares 的“急左转”文章讨论一种风险：能力扩展到新环境时，对齐未必跟得上。",
+      "source_ids": [
+        "sharp-left"
+      ],
+      "date_kind": "representative-essay",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "23",
+      "date_label": "2022 年 5 月",
+      "display_text": "2022 年 5 月，DeepMind 发表 Gato 论文《A Generalist Agent》，展示同一个模型处理多种任务的尝试。",
+      "source_ids": [
+        "gato"
+      ],
+      "date_kind": "paper-publication",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "24",
+      "date_label": "2003 年",
+      "display_text": "Bostrom 的经典 AI 伦理论文初刊于 2003 年；回形针例子说明，一个简单目标被过度优化，也可能造成灾难。",
+      "source_ids": [
+        "paperclips"
+      ],
+      "date_kind": "cited-paper-original-publication",
+      "verification": "source-backed",
+      "qualification": "当前作者网页标为略有修订的版本；不声称本次核验了所有初版措辞。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "27",
+      "date_label": "2012 年",
+      "display_text": "2012 年，Bostrom 在《The Superintelligent Will》中阐述正交性：智能高低与最终目标是否符合人类价值，可以是两回事。",
+      "source_ids": [
+        "orthogonality"
+      ],
+      "date_kind": "journal-publication",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "28",
+      "date_label": "2017 年 6 月",
+      "display_text": "2017 年 6 月，Vaswani 等人在《Attention Is All You Need》中提出 Transformer，用注意力机制处理序列。",
+      "source_ids": [
+        "transformer"
+      ],
+      "date_kind": "paper-first-submission",
+      "verification": "source-backed",
+      "qualification": "采用首版公开日期，不误用 arXiv 页面上的 2023 年修订日期。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "29",
+      "date_label": "2022 年 3 月",
+      "display_text": "2022 年 3 月，Chinchilla 论文强调算力预算下参数量与训练数据量的配比，纠正只顾把模型做大的思路。",
+      "source_ids": [
+        "chinchilla"
+      ],
+      "date_kind": "paper-first-submission",
+      "verification": "source-backed",
+      "qualification": "",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "32",
+      "date_label": "2017 年／2022 年",
+      "display_text": "2017 年的人类偏好学习研究是重要前身；2022 年 InstructGPT 将这一路线用于语言模型的指令对齐。",
+      "source_ids": [
+        "rlhf-2017",
+        "rlhf"
+      ],
+      "date_kind": "representative-research-milestones",
+      "verification": "source-backed",
+      "qualification": "这两个年份是重要论文节点，不声称 RLHF 在其中某一年首次发明。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "33",
+      "date_label": "2021 年 2 月",
+      "display_text": "2021 年 2 月，Generative.ink 发布 Loom 界面介绍，展示把语言模型的续写展开成多条分支的写法。",
+      "source_ids": [
+        "loom",
+        "loom-date-index"
+      ],
+      "date_kind": "creator-article-publication",
+      "verification": "source-backed",
+      "qualification": "这是介绍文章日期，不等同于软件首次开发或首次上线时间。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "34",
+      "date_label": "2018 年 10 月",
+      "display_text": "2018 年 10 月，BERT 论文采用“遮住部分词，再预测填空”的预训练方法，是掩码语言模型的代表。",
+      "source_ids": [
+        "bert"
+      ],
+      "date_kind": "representative-paper",
+      "verification": "source-backed",
+      "qualification": "这是 BERT 论文年份，不把所有掩码方法的起源都归到 BERT。",
+      "human_review": "new addition; not covered by parent approval"
+    },
+    {
+      "card_id": "36",
+      "date_label": "2023 年 11 月",
+      "display_text": "2023 年 11 月，这句疑问在 OpenAI 董事会风波中流传：Ilya 是否看到了令人担忧的 AI 能力？内幕未获证实。",
+      "source_ids": [
+        "ilya",
+        "ilya-contemporary"
+      ],
+      "date_kind": "historical-event-and-attested-circulation",
+      "verification": "source-backed",
+      "qualification": "同期 2023-11-24 文章已用该问句作标题；可确认当月流传，未确定最早发帖者，不把疑问写成事实。",
+      "human_review": "new addition; not covered by parent approval"
+    }
+  ]
+}

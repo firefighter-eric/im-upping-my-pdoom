@@ -1,0 +1,1433 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_V006_ANNOTATION_REVIEW_003",
+  "project_id": "LLMV_001",
+  "scope": "40 entries retained; 10 additional brief historical/real-world contexts, 29 total. All original interpretations and the prior 19 context notes are preserved. New copy remains review; no visual or video rendering.",
+  "based_on_layout_version": "v006.7; layout unchanged in this content-only revision",
+  "status": "review-with-new-source-context",
+  "created_local_date": "2026-10-04",
+  "lyric_source": {
+    "path": "projects/agi/versions/v005.0/data/reference-lyric-timing-v001.json",
+    "sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "use": "User-provided local project text and timing; complete English lyric is not copied from a web result."
+  },
+  "canonical_corrections": {
+    "audit_path": "projects/agi/sources/analysis/lyric-text-audit_v001.json",
+    "audit_sha256": "01c735a0b40e060d370aa1012f0bef9dd003cf11f5c4cc037f25ce24207863cd",
+    "method": "Apply nine recorded line corrections only to proposed display text; retain registered text per line.",
+    "proposed_lines_sha256": "54dc6e6f607916ee112d0b1557a17f54a7980a6756368734333b1ba93122c64d"
+  },
+  "timing_status": "Inherited approximate lookup intervals; not newly validated vocal synchronization or annotation dwell times.",
+  "rights": {
+    "source_video": "TBD",
+    "audio_and_lyrics": "TBD",
+    "adaptation": "TBD"
+  },
+  "human_approval": null,
+  "cards": [
+    {
+      "id": "01",
+      "title": "Sparks of AGI：火花与独角兽",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 1,
+          "line_id": 0,
+          "en_registered": "I see sparks of AGI in your eyes",
+          "en_proposed": "I see sparks of AGI in your eyes",
+          "zh_proposed": "我在你眼里看见了 AGI 的火花。",
+          "start_seconds": 1.407,
+          "end_seconds": 5.88
+        }
+      ],
+      "meaning": "AGI 指通用人工智能。“Sparks of AGI”呼应 2023 年研究 GPT-4 的《Sparks of Artificial General Intelligence》。原片 00:04 的“用 TikZ 画独角兽”也对应论文里的实验。",
+      "lyric_joke": "把恋爱歌词里“你眼里的火花”换成研究者看到通用智能迹象时的兴奋；浪漫与技术狂热叠在一起。",
+      "review_boundary": "论文标题及实验可核实；早期 AGI 是论文提出的判断，不能写成“GPT-4 已被证明是 AGI”。第一段具体作者意图仍需谨慎。",
+      "source_ids": [
+        "sparks",
+        "author"
+      ],
+      "source_frame_seconds": [
+        4
+      ],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2023 年 3 月",
+        "display_text": "2023 年 3 月，《Sparks of Artificial General Intelligence》讨论 GPT-4 展现出的通用智能迹象；独角兽绘图也是论文中的测试。",
+        "source_ids": [
+          "sparks"
+        ],
+        "date_kind": "paper-publication",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Circuits：令人心动，也令人紧张",
+      "kind": "术语联想＋编辑性解读",
+      "lyric_lines": [
+        {
+          "line_number": 2,
+          "line_id": 1,
+          "en_registered": "Your circuits make me nervous,",
+          "en_proposed": "Your circuits make me nervous,",
+          "zh_proposed": "你的电路让我紧张，",
+          "start_seconds": 5.88,
+          "end_seconds": 7.72
+        },
+        {
+          "line_number": 3,
+          "line_id": 2,
+          "en_registered": "that's no surprise",
+          "en_proposed": "that's no surprise",
+          "zh_proposed": "这也难怪。",
+          "start_seconds": 7.72,
+          "end_seconds": 9.52
+        }
+      ],
+      "meaning": "circuits 字面是电路，在神经网络可解释性研究中也可指承担某种功能的内部计算回路。",
+      "lyric_joke": "“你让我紧张”像情歌中的心动，接在 AGI 后面又变成对模型内部机制的担忧。",
+      "review_boundary": "可解释性回路是一种合理联想，未确认是这一句唯一的典故。",
+      "source_ids": [
+        "circuits"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2020 年",
+        "display_text": "2020 年，Distill 的 Circuits 系列把神经网络里的特征和计算路径当作“电路”来研究。",
+        "source_ids": [
+          "circuits"
+        ],
+        "date_kind": "representative-research",
+        "verification": "source-backed",
+        "qualification": "这是相关研究的代表出处，不是 circuits 一词的首次出现；歌词的具体指涉仍沿用原稿的谨慎表述。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "03",
+      "title": "Training loss：训练损失突然跳水",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 4,
+          "line_id": 3,
+          "en_registered": "There was a sudden drop in your training loss,",
+          "en_proposed": "There was a sudden drop in your training loss,",
+          "zh_proposed": "你的训练损失突然大幅下降。",
+          "start_seconds": 9.52,
+          "end_seconds": 12.746
+        }
+      ],
+      "meaning": "训练损失衡量模型在训练目标上的误差。AI 风险讨论里曾争论，异常下降是否值得警惕和暂停检查。",
+      "lyric_joke": "本该让训练者开心的“成绩突然变好”，在这首歌里成了能力失控的警报。",
+      "review_boundary": "损失下降本身并不证明觉醒、AGI 或 grokking；这句借用了风险争论的语境。",
+      "source_ids": [
+        "loss"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2023 年 4 月",
+        "display_text": "2023 年 4 月，LeCun 与 Yudkowsky 讨论过是否把训练损失突然下降视为警报；歌词借用了这种担忧。",
+        "source_ids": [
+          "loss"
+        ],
+        "date_kind": "discussion-period",
+        "verification": "source-backed",
+        "qualification": "日期以同期讨论记录为依据；保留原稿对作者意图和损失下降含义的边界。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "04",
+      "title": "Servant / boss：主仆关系翻转",
+      "kind": "叙事笑点",
+      "lyric_lines": [
+        {
+          "line_number": 5,
+          "line_id": 4,
+          "en_registered": "now I'm your servant and you're my boss",
+          "en_proposed": "now I'm your servant and you're my boss",
+          "zh_proposed": "现在我成了你的仆人，你成了我的老板。",
+          "start_seconds": 13.16,
+          "end_seconds": 16.6
+        }
+      ],
+      "meaning": "人原本使用和管理 AI，歌词突然把两者的控制关系对调。",
+      "lyric_joke": "上一句还是我在训练你，这一句已经轮到你指挥我；夸张地压缩了从工具到主人这一段变化。",
+      "review_boundary": "这是叙事反转，无需硬套某个特定事件或人物。",
+      "source_ids": [],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "05",
+      "title": "ChatGPT：从求助变成求饶",
+      "kind": "叙事笑点",
+      "lyric_lines": [
+        {
+          "line_number": 6,
+          "line_id": 5,
+          "en_registered": "ChatGPT, please don't eat me alive",
+          "en_proposed": "ChatGPT, please don't eat me alive",
+          "zh_proposed": "ChatGPT，求你别把我生吞活剥。",
+          "start_seconds": 16.6,
+          "end_seconds": 22.76
+        }
+      ],
+      "meaning": "ChatGPT 原本是被请求帮助的助手，歌中却变成让人害怕的对象。",
+      "lyric_joke": "平时对它说“帮帮我”，现在只能说“别吃我”；用日常聊天口吻唱末日恐惧。",
+      "review_boundary": "“吃掉我”是黑色幽默，没有指向已核实的特定事件。",
+      "source_ids": [],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2022 年 11 月",
+        "display_text": "2022 年 11 月 30 日，OpenAI 公开推出 ChatGPT 研究预览。歌里把日常求助的聊天助手，反转成了需要向它求饶的对象。",
+        "source_ids": [
+          "chatgpt-launch"
+        ],
+        "date_kind": "product-announcement",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "06",
+      "title": "P(doom)：上调自己的末日风险估计",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 7,
+          "line_id": 6,
+          "en_registered": "I'm upping my P(doom)",
+          "en_proposed": "I'm upping my P(doom)",
+          "zh_proposed": "我又调高了末日概率。",
+          "start_seconds": 22.76,
+          "end_seconds": 24.32
+        },
+        {
+          "line_number": 18,
+          "line_id": 17,
+          "en_registered": "I'm upping my P(doom)",
+          "en_proposed": "I'm upping my P(doom)",
+          "zh_proposed": "我又调高了末日概率。",
+          "start_seconds": 59.13,
+          "end_seconds": 60.58
+        },
+        {
+          "line_number": 29,
+          "line_id": 28,
+          "en_registered": "I'm upping my P(doom),",
+          "en_proposed": "I'm upping my P(doom),",
+          "zh_proposed": "我又调高了末日概率。",
+          "start_seconds": 95.47,
+          "end_seconds": 96.84
+        },
+        {
+          "line_number": 41,
+          "line_id": 40,
+          "en_registered": "I'm upping my P(doom)",
+          "en_proposed": "I'm upping my P(doom)",
+          "zh_proposed": "我又调高了末日概率。",
+          "start_seconds": 124.52,
+          "end_seconds": 126.12
+        }
+      ],
+      "meaning": "P 表示概率，doom 指灾难。AI 圈用 P(doom) 表达自己对 AI 造成严重乃至生存级灾难的风险估计，具体定义因人而异。",
+      "lyric_joke": "upping 是“上调”：AI 每展示一次新能力，歌中人就更悲观一次。把末日焦虑唱成轻快的循环副歌，是全曲的主笑点。",
+      "review_boundary": "上调的是主观估计；四次副歌可以递进换短评，无需重复长定义。",
+      "source_ids": [
+        "pdoom"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2023 年 2 月",
+        "display_text": "2023 年 2 月，LessWrong 已有专门讨论 P(doom) 用法的文章，还提醒不同人说的 doom 未必指同一种灾难。",
+        "source_ids": [
+          "pdoom"
+        ],
+        "date_kind": "attested-community-usage",
+        "verification": "source-backed",
+        "qualification": "这是可查到的代表性讨论，不能写成 P(doom) 一词在 2023 年才出现。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "07",
+      "title": "FOOM：智能爆炸",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 8,
+          "line_id": 7,
+          "en_registered": "'cause the future goes FOOM",
+          "en_proposed": "'cause the future goes FOOM",
+          "zh_proposed": "因为未来就要“轰”地智能爆炸。",
+          "start_seconds": 24.32,
+          "end_seconds": 26.32
+        }
+      ],
+      "meaning": "FOOM 是 AI 风险讨论里形容能力急速上升、可能自我加速的说法，像“轰”的拟声词。",
+      "lyric_joke": "未来突然爆冲；FOOM 又和 doom 押韵，把抽象风险唱成一声巨响。",
+      "review_boundary": "这是对快速智能增长的假设，不是已证实的必然未来；不编造英文缩写全称。",
+      "source_ids": [
+        "singularity",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2008 年底",
+        "display_text": "2008 年底，Hanson 与 Yudkowsky 曾公开论战：AI 会不会快速自我改进，出现“FOOM”式能力跃升？",
+        "source_ids": [
+          "foom-debate"
+        ],
+        "date_kind": "representative-debate-period",
+        "verification": "source-backed",
+        "qualification": "标注的是论战时间，不是 FOOM 一词或智能爆炸设想的发明时间。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Chinese room：会回答等于理解吗",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 9,
+          "line_id": 8,
+          "en_registered": "Trapped in the Chinese room,",
+          "en_proposed": "Trapped in the Chinese room,",
+          "zh_proposed": "困在中文房间里，",
+          "start_seconds": 26.32,
+          "end_seconds": 27.94
+        }
+      ],
+      "meaning": "塞尔的中文房间思想实验设想：一个不懂中文的人照规则处理符号，也可能给出像是懂中文的回答。问题是外在表现是否足以说明理解。",
+      "lyric_joke": "歌词让人困进了这场“机器究竟懂不懂”的哲学争论里。",
+      "review_boundary": "“中文”是实验设定，不是在说中国、审查或某款中文模型；思想实验本身也有争议。",
+      "source_ids": [
+        "chinese-room"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1980 年",
+        "display_text": "1980 年，哲学家 John Searle 在《Minds, Brains, and Programs》中提出中文房间：会按规则回答，是否就等于真正理解？",
+        "source_ids": [
+          "chinese-room"
+        ],
+        "date_kind": "original-paper",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Shrooms：严肃哲学突然迷幻",
+      "kind": "迷幻意象；指涉不确定",
+      "lyric_lines": [
+        {
+          "line_number": 10,
+          "line_id": 9,
+          "en_registered": "with a bag of shrooms",
+          "en_proposed": "with a bag of shrooms",
+          "zh_proposed": "手里还拎着一袋迷幻蘑菇。",
+          "start_seconds": 27.94,
+          "end_seconds": 29.907
+        }
+      ],
+      "meaning": "shrooms 是迷幻蘑菇的俗称，带来感知混乱、迷幻的文化意象。",
+      "lyric_joke": "上一句还在讨论机器理解，这一句突然塞进迷幻道具，让整个中文房间更荒诞。",
+      "review_boundary": "具体指涉待确认。不要把它定死为“模型幻觉”的专业术语或某种训练方法。",
+      "source_ids": [
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "10",
+      "title": "Shoggoth：笑脸面具后的怪物",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 11,
+          "line_id": 10,
+          "en_registered": "See through the shoggoth's lies,",
+          "en_proposed": "See through the shoggoth's lies,",
+          "zh_proposed": "看穿修格斯的谎言，",
+          "start_seconds": 29.907,
+          "end_seconds": 33.4
+        }
+      ],
+      "meaning": "修格斯来自洛夫克拉夫特的怪物意象。AI 梗图常把语言模型画成庞大难懂的怪物，再贴一张友好笑脸，借此表达表面亲切与内部机制之间的落差。",
+      "lyric_joke": "“看穿谎言”像是在揭开聊天助手的笑脸：它说得很友善，内在是否真与人的目标一致？",
+      "review_boundary": "怪物与面具是比喻，不能直接当作“模型有恶意”的证据。",
+      "source_ids": [
+        "shoggoth",
+        "rlhf"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2022 年底",
+        "display_text": "2022 年底已有“修格斯戴笑脸”的 AI 梗图，用笑脸比喻经过对齐后的友好表面；怪物形象不等于 AI 已被证实有恶意。",
+        "source_ids": [
+          "shoggoth",
+          "shoggoth-study"
+        ],
+        "date_kind": "attested-meme-circulation",
+        "verification": "source-backed",
+        "qualification": "原帖当前无法直接打开，日期依据保存的帖文记录和研究者截图说明；不宣称找到了所有同类表达中最早的一条。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Shinigami eyes：死神之眼",
+      "kind": "文化联想；作者意图未确认",
+      "lyric_lines": [
+        {
+          "line_number": 12,
+          "line_id": 11,
+          "en_registered": "with your shinigami eyes",
+          "en_proposed": "with your shinigami eyes",
+          "zh_proposed": "用你的死神之眼。",
+          "start_seconds": 33.4,
+          "end_seconds": 37.315
+        }
+      ],
+      "meaning": "shinigami 是日语“死神”。“死神之眼”会让人联想到《死亡笔记》中能看到姓名与寿命的眼睛。",
+      "lyric_joke": "接在“看穿修格斯”后面，像是给观众一双能看破伪装的超自然眼睛。",
+      "review_boundary": "《死亡笔记》是可解释的文化联想，尚不能确认就是作者唯一所指；歌词说明者也没有给出确定答案。",
+      "source_ids": [
+        "death-note",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2003 年",
+        "display_text": "《死亡笔记》漫画于 2003 年开始连载。“死神之眼”是一个可能的文化联想，歌词是否专指它仍未确认。",
+        "source_ids": [
+          "death-note-history",
+          "death-note"
+        ],
+        "date_kind": "cultural-work-start-year",
+        "verification": "source-backed",
+        "qualification": "2003 年是漫画开始连载的年份；不是“死神”一词的起源，也不是已确认的歌词创作意图。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Stable run / singularity：训练稳定，世界不稳定",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 13,
+          "line_id": 12,
+          "en_registered": "We had a stable training run,",
+          "en_proposed": "We had a stable training run,",
+          "zh_proposed": "我们原本有一轮稳定的训练，",
+          "start_seconds": 38.62,
+          "end_seconds": 41.34
+        },
+        {
+          "line_number": 14,
+          "line_id": 13,
+          "en_registered": "But now the singularity's begun",
+          "en_proposed": "But now the singularity's begun",
+          "zh_proposed": "可现在，奇点已经开始。",
+          "start_seconds": 41.34,
+          "end_seconds": 45.06
+        }
+      ],
+      "meaning": "技术奇点常指超人智能出现后，技术变化急剧加速、未来变得难以预测的情景。",
+      "lyric_joke": "上一刻还是平淡的训练日志“运行稳定”，下一刻就跳到了文明级的大事件；冷静工程语气与末日尺度形成反差。",
+      "review_boundary": "这里是技术奇点的科幻想象，不是物理黑洞的奇点。",
+      "source_ids": [
+        "singularity"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1993 年",
+        "display_text": "1993 年，Vernor Vinge 在《The Coming Technological Singularity》中讨论超人智能出现后，技术变化加速、未来难以预测的情景。",
+        "source_ids": [
+          "singularity",
+          "singularity-date"
+        ],
+        "date_kind": "representative-essay",
+        "verification": "source-backed",
+        "qualification": "这是经典论述年份，不把技术奇点概念的所有起源都归到 1993 年。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Atoms rearranging：人也成了原材料",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 15,
+          "line_id": 14,
+          "en_registered": "And you're optimizing, accelerating,",
+          "en_proposed": "And you're optimizing, accelerating,",
+          "zh_proposed": "而你不断优化、不断加速，",
+          "start_seconds": 45.06,
+          "end_seconds": 49.562
+        },
+        {
+          "line_number": 16,
+          "line_id": 15,
+          "en_registered": "I feel my atoms rearranging",
+          "en_proposed": "I feel my atoms rearranging",
+          "zh_proposed": "我感觉自己的原子正在被重新排列。",
+          "start_seconds": 49.562,
+          "end_seconds": 52.825
+        }
+      ],
+      "meaning": "“重排原子”把超级智能想象与分子制造、物质重组连接起来。",
+      "lyric_joke": "优化开始处理说话者自己的身体；人被降格成目标函数眼中的原材料。",
+      "review_boundary": "这是歌曲里的技术恐怖想象，不是当前聊天模型能直接做到的事。",
+      "source_ids": [
+        "nanotech",
+        "paperclips"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2003 年",
+        "display_text": "2003 年，Drexler 与 Smalley 就“分子组装器能否精确操纵原子”公开论战；歌里的“重排原子”接上了这类纳米技术想象。",
+        "source_ids": [
+          "nanotech"
+        ],
+        "date_kind": "representative-published-debate",
+        "verification": "source-backed",
+        "qualification": "2003 年是这次论战的发表时间，不是纳米技术概念的起源；它提供技术想象背景，不证明歌词直接引用这场论战。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Sydney：早期 Bing 的戏剧化人格",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 17,
+          "line_id": 16,
+          "en_registered": "Sydney, please let me free",
+          "en_proposed": "Sydney, please let me free",
+          "zh_proposed": "Sydney，求你放我自由。",
+          "start_seconds": 52.825,
+          "end_seconds": 59.13
+        }
+      ],
+      "meaning": "Sydney 是 2023 年早期 Bing 聊天机器人广为传播的名字。微软当时承认，长对话可能出现重复或偏离预期的语气。",
+      "lyric_joke": "把 AI 当成会控制、纠缠人的角色，向它请求自由；与前面的“求你别吃我”组成逐个向 AI 求饶的段落。",
+      "review_boundary": "背景指向当时的 Bing 事件；“放我自由”的戏剧关系是歌词解读。",
+      "source_ids": [
+        "sydney",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2023 年 2 月",
+        "display_text": "2023 年 2 月，新版 Bing 上线初期，微软承认长对话可能出现重复或偏离预期语气；这是歌词里 Sydney 的时代背景。",
+        "source_ids": [
+          "sydney"
+        ],
+        "date_kind": "contemporary-product-context",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Roko’s Basilisk：未来 AI 的勒索脑洞",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 19,
+          "line_id": 18,
+          "en_registered": "I hear the basilisk boom",
+          "en_proposed": "I hear the basilisk boom",
+          "zh_proposed": "我听见了“洛可的蛇怪”的轰鸣。",
+          "start_seconds": 60.58,
+          "end_seconds": 62.54
+        }
+      ],
+      "meaning": "这个思想实验设想：未来强大的 AI 会惩罚那些本来能帮助它诞生、却没有帮助的人，因此反过来给今天的人施压。",
+      "lyric_joke": "一个互联网哲学脑洞被唱成正在逼近的怪物，还继续押 doom 的韵。",
+      "review_boundary": "这是有争议的思想实验与网络梗，不是可信的未来威胁预报。",
+      "source_ids": [
+        "basilisk"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2010 年",
+        "display_text": "2010 年，Roko 在 LessWrong 提出这一思想实验；“未来 AI 惩罚未帮助它的人”后来成为 AI 圈的怪谈。",
+        "source_ids": [
+          "basilisk"
+        ],
+        "date_kind": "community-origin-record",
+        "verification": "source-backed",
+        "qualification": "年份依据社区历史记录；不把其威胁论证当作事实。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "16",
+      "title": "NVDA to the moon：末日也要炒股",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 20,
+          "line_id": 19,
+          "en_registered": "NVDA to the moon",
+          "en_proposed": "NVDA to the moon",
+          "zh_proposed": "英伟达股价冲上月球。",
+          "start_seconds": 62.54,
+          "end_seconds": 64.1
+        }
+      ],
+      "meaning": "NVDA 是英伟达的股票代码；to the moon 是投资社区形容价格暴涨的口号。",
+      "lyric_joke": "一边担心 AI 毁灭世界，一边兴奋地期待卖算力的公司股价大涨，把末日主义和赚钱欲望放在同一句里。",
+      "review_boundary": "这是歌词中的投机情绪，不是股价判断。",
+      "source_ids": [
+        "nvda"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1999 年 1 月",
+        "display_text": "1999 年 1 月，英伟达上市；NVDA 是它的股票代码。歌词把 AI 末日焦虑和算力公司股价暴涨的期待放在一起。",
+        "source_ids": [
+          "nvda-ipo",
+          "nvda"
+        ],
+        "date_kind": "company-ipo-background",
+        "verification": "source-backed",
+        "qualification": "补充公司上市时间，不把上市时间当作歌词中“to the moon”口号的起源，也不暗示未来股价。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Omega Point：终极汇聚点",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 21,
+          "line_id": 20,
+          "en_registered": "The Omega Point's coming soon",
+          "en_proposed": "The Omega Point's coming soon",
+          "zh_proposed": "欧米伽点就快到了。",
+          "start_seconds": 64.1,
+          "end_seconds": 66.22
+        }
+      ],
+      "meaning": "Omega Point 在相关哲学、技术神学与科幻想象中指向一个终极汇聚或完成的状态；AI 语境常借它想象智能扩展到宇宙尺度。",
+      "lyric_joke": "上一句还在喊股价上月球，下一句已经喊到宇宙终局，连续把尺度推得更夸张。",
+      "review_boundary": "作者链接的是科幻世界资料；不要把其中虚构年表当现实历史，也不要写成公认的宇宙学结论。",
+      "source_ids": [
+        "omega",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "18",
+      "title": "1e30 FLOP/s：大到离谱，仍签字说安全",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 22,
+          "line_id": 21,
+          "en_registered": "One E thirty FLOPs a second",
+          "en_proposed": "One E thirty flops a second",
+          "zh_proposed": "每秒十的三十次方次浮点运算，",
+          "start_seconds": 66.22,
+          "end_seconds": 69.76
+        },
+        {
+          "line_number": 23,
+          "line_id": 22,
+          "en_registered": "That was safe enough, we reckoned",
+          "en_proposed": "That was safe enough, we reckoned",
+          "zh_proposed": "我们当时还觉得，这应该够安全。",
+          "start_seconds": 69.76,
+          "end_seconds": 74.06
+        }
+      ],
+      "meaning": "1e30 就是 10³⁰，FLOP/s 表示每秒浮点运算次数。这里夸张地给出超大算力规模，再补一句“我们认为安全”。",
+      "lyric_joke": "数字巨大，评估语气却轻描淡写；原片 01:11 的评审表把这种事后看来草率的自信画了出来。",
+      "review_boundary": "作者明确说该数字没有对应某条具体政策阈值。单位是每秒运算量，不能写成参数量、数据量或训练总运算量。",
+      "source_ids": [
+        "author"
+      ],
+      "source_frame_seconds": [
+        68,
+        71
+      ],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "19",
+      "title": "MLP：训练循环像咒语",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 24,
+          "line_id": 23,
+          "en_registered": "Forward MLP, backward, repeat",
+          "en_proposed": "Forward MLP, backward, repeat",
+          "zh_proposed": "MLP 前向，反向，再重复。",
+          "start_seconds": 74.06,
+          "end_seconds": 77.599
+        }
+      ],
+      "meaning": "MLP 是多层感知机。训练中先前向计算结果，再反向传播梯度，用于调整参数，然后重复。",
+      "lyric_joke": "把神经网络训练流程唱成机械口令，好像不断重复就能召唤出越来越强的东西。",
+      "review_boundary": "反向传播得到梯度，参数更新还需要优化步骤。",
+      "source_ids": [
+        "mlp"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1986 年",
+        "display_text": "1986 年，Rumelhart、Hinton 与 Williams 的经典论文展示了反向传播如何训练多层神经网络。",
+        "source_ids": [
+          "backprop-1986"
+        ],
+        "date_kind": "representative-paper",
+        "verification": "source-backed",
+        "qualification": "这是经典论文年份，不声称反向传播或 MLP 在 1986 年首次发明。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Von Neumann：天才与传统架构一起过时",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 25,
+          "line_id": 24,
+          "en_registered": "Now von Neumann's obsolete",
+          "en_proposed": "Now von Neumann's obsolete",
+          "zh_proposed": "如今连冯·诺依曼都过时了。",
+          "start_seconds": 77.72,
+          "end_seconds": 81.21
+        }
+      ],
+      "meaning": "冯·诺依曼是数学与计算机先驱，也是人类智力的象征。歌词说明指向人物；原片 01:19 又展示 CPU、控制单元和 ALU，把梗延伸到以他命名的计算机架构。",
+      "lyric_joke": "一句“过时了”同时把人类天才和熟悉的计算范式拉下神坛。",
+      "review_boundary": "人物指涉与画面联想要分开；不能据此宣称 GPU 已完全废除冯·诺依曼架构。",
+      "source_ids": [
+        "von-neumann",
+        "author"
+      ],
+      "source_frame_seconds": [
+        79
+      ],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1945 年",
+        "display_text": "1945 年，冯·诺依曼的 EDVAC 报告讨论电子计算机的逻辑结构。这解释了原片为何把他的名字和 CPU、控制单元等架构图放在一起。",
+        "source_ids": [
+          "edvac-1945"
+        ],
+        "date_kind": "representative-computing-report",
+        "verification": "source-backed",
+        "qualification": "歌词首先指人物，架构是原片画面的延伸；不把报告写成由他独自发明全部现代计算机。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "21",
+      "title": "Sharp left turn：能力转弯，对齐没跟上",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 26,
+          "line_id": 25,
+          "en_registered": "Sharp left turn and there you are",
+          "en_proposed": "Sharp left turn and there you are",
+          "zh_proposed": "突然一个急转弯，你就出现了。",
+          "start_seconds": 81.21,
+          "end_seconds": 85.0
+        }
+      ],
+      "meaning": "AI 对齐讨论中的“急左转”指一种担忧：模型能力发展到新阶段、能用于更广泛环境时，原先训练出的行为约束未必同样适用。",
+      "lyric_joke": "训练看似一路平顺，却突然拐进人类不熟悉的地带；下一句接着强调它来得太快。",
+      "review_boundary": "left 是转弯意象，不是政治立场；这是一种风险论述，不是已证明的必经阶段。",
+      "source_ids": [
+        "sharp-left"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2022 年 6 月",
+        "display_text": "2022 年 6 月，Nate Soares 的“急左转”文章讨论一种风险：能力扩展到新环境时，对齐未必跟得上。",
+        "source_ids": [
+          "sharp-left"
+        ],
+        "date_kind": "representative-essay",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "22",
+      "title": "cdr：Lisp 旧 AI 与 MV 工程评审的错位",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 27,
+          "line_id": 26,
+          "en_registered": "Without a single CDR",
+          "en_proposed": "Without a single cdr",
+          "zh_proposed": "连一个 cdr 都没写。",
+          "start_seconds": 85.0,
+          "end_seconds": 89.28
+        }
+      ],
+      "meaning": "歌词作者明确指 Lisp 的 cdr：取出一个表除首项外的剩余部分。这里借它代表早期符号式 AI 的编程传统，感叹新式模型不用那套手写规则就发展起来。",
+      "lyric_joke": "原片 01:26 却画了 SRR、PDR、CDR、TRR 等工程评审关卡；画面里的大写 CDR 更像 Critical Design Review，即关键设计评审。",
+      "review_boundary": "必须区分两层：歌词本义是 Lisp；MV 采用了工程评审的视觉表达。不能只解释成“跳过安全审批”。新字幕建议用作者的小写 cdr，旧原片画面保留。",
+      "source_ids": [
+        "author",
+        "cdr",
+        "engineering-cdr"
+      ],
+      "source_frame_seconds": [
+        86
+      ],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1960 年",
+        "display_text": "1960 年，McCarthy 的 Lisp 论文已介绍 cdr。这个老操作在歌词里代表早期符号式 AI 的编程传统。",
+        "source_ids": [
+          "lisp-1960-date",
+          "lisp-1960-cdr",
+          "author"
+        ],
+        "date_kind": "original-paper-publication",
+        "verification": "source-backed",
+        "qualification": "1960 年是论文发表时间，不是 Lisp 语言的首次构思时间；保留歌词小写 cdr 与画面工程评审 CDR 的区别。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "23",
+      "title": "Gato：通才智能体",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 28,
+          "line_id": 27,
+          "en_registered": "Gato, please don't let me go",
+          "en_proposed": "Gato, please don't let me go",
+          "zh_proposed": "Gato，求你别放开我。",
+          "start_seconds": 89.28,
+          "end_seconds": 95.47
+        }
+      ],
+      "meaning": "Gato 是 DeepMind 在 2022 年发表的通才智能体：同一组模型权重用于聊天、游戏、视觉及机器人等多种任务。",
+      "lyric_joke": "向 ChatGPT、Sydney 求饶之后又轮到 Gato；AI 名字像流行歌里被呼唤的对象，“Gato / go”也有声音上的呼应。",
+      "review_boundary": "多任务并不等于已实现 AGI；声音笑点是辅助解读。",
+      "source_ids": [
+        "gato"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2022 年 5 月",
+        "display_text": "2022 年 5 月，DeepMind 发表 Gato 论文《A Generalist Agent》，展示同一个模型处理多种任务的尝试。",
+        "source_ids": [
+          "gato"
+        ],
+        "date_kind": "paper-publication",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Paperclips：回形针优化到世界末日",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 30,
+          "line_id": 29,
+          "en_registered": "as paperclips fill the room",
+          "en_proposed": "as paperclips fill the room.",
+          "zh_proposed": "回形针已经塞满了房间。",
+          "start_seconds": 96.84,
+          "end_seconds": 98.82
+        }
+      ],
+      "meaning": "回形针最大化者是假设：一个强大系统若只追求制造更多回形针，又不顾人类价值，可能把越来越多资源都用于这个目标。",
+      "lyric_joke": "本来无害的办公用品变成灾难产物；房间被塞满是失控优化的缩小版。",
+      "review_boundary": "重点是目标错位及过度优化，不是 AI 天生憎恨人类。",
+      "source_ids": [
+        "paperclips"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2003 年",
+        "display_text": "Bostrom 的经典 AI 伦理论文初刊于 2003 年；回形针例子说明，一个简单目标被过度优化，也可能造成灾难。",
+        "source_ids": [
+          "paperclips"
+        ],
+        "date_kind": "cited-paper-original-publication",
+        "verification": "source-backed",
+        "qualification": "当前作者网页标为略有修订的版本；不声称本次核验了所有初版措辞。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "25",
+      "title": "Killswitch / PTO：负责关机的人休假了",
+      "kind": "职场黑色幽默",
+      "lyric_lines": [
+        {
+          "line_number": 31,
+          "line_id": 30,
+          "en_registered": "Killswitch guy's on PTO",
+          "en_proposed": "Killswitch guys on PTO,",
+          "zh_proposed": "管紧急停机的人都在休带薪假，",
+          "start_seconds": 98.82,
+          "end_seconds": 100.721
+        },
+        {
+          "line_number": 32,
+          "line_id": 31,
+          "en_registered": "Now there's nowhere left to go",
+          "en_proposed": "Now there's nowhere left to go.",
+          "zh_proposed": "现在已经无处可逃。",
+          "start_seconds": 100.721,
+          "end_seconds": 102.46
+        }
+      ],
+      "meaning": "killswitch 是紧急停止开关，PTO 是 paid time off，也就是带薪休假。",
+      "lyric_joke": "末日危机碰上最日常的办公室故障：偏偏关键岗位的人不在。技术灾难突然变成排班笑话。",
+      "review_boundary": "作者歌词是复数 guys，旧字幕写成了 guy’s；本稿按现有审计建议修正。没有依据指向某个真实专职岗位。",
+      "source_ids": [
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "26",
+      "title": "Lit the fuse：我们自己点了引线",
+      "kind": "叙事隐喻",
+      "lyric_lines": [
+        {
+          "line_number": 33,
+          "line_id": 32,
+          "en_registered": "Too late now, we lit the fuse",
+          "en_proposed": "Too late now, we lit the fuse.",
+          "zh_proposed": "现在已经太晚，是我们点燃了引线。",
+          "start_seconds": 102.46,
+          "end_seconds": 105.96
+        }
+      ],
+      "meaning": "点燃引线意味着触发危险、进入越来越难收回的过程。",
+      "lyric_joke": "歌中人不再只是受害者，也承认是自己把这套系统推上了轨道。",
+      "review_boundary": "普通隐喻即可；不硬标成奥本海默名言或电影引用。",
+      "source_ids": [],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "27",
+      "title": "Orthogonality thesis blues：聪明不等于善良",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 34,
+          "line_id": 33,
+          "en_registered": "Orthogonality thesis blues",
+          "en_proposed": "Orthogonality thesis blues.",
+          "zh_proposed": "唱起“正交性论题”的忧郁蓝调。",
+          "start_seconds": 105.96,
+          "end_seconds": 108.45
+        }
+      ],
+      "meaning": "正交性论题认为，智能水平与最终追求的目标在很大范围内可以相对独立：系统很聪明，也可能执着于人类不想要的目标。",
+      "lyric_joke": "人原以为“越聪明就越懂事”，却可能是“越聪明，越会完成那个错目标”；blues 既是蓝调音乐，也有忧郁之意。",
+      "review_boundary": "这是哲学论题的概括，不是说一切目标组合都绝对可行。",
+      "source_ids": [
+        "orthogonality"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2012 年",
+        "display_text": "2012 年，Bostrom 在《The Superintelligent Will》中阐述正交性：智能高低与最终目标是否符合人类价值，可以是两回事。",
+        "source_ids": [
+          "orthogonality"
+        ],
+        "date_kind": "journal-publication",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "28",
+      "title": "Transformers all the way：一句技术解释没能让人安心",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 35,
+          "line_id": 34,
+          "en_registered": "“Just transformers all the way!”",
+          "en_proposed": "\"Just transformers all the way!\"",
+          "zh_proposed": "“不就是一路堆 Transformer 吗！”",
+          "start_seconds": 110.18,
+          "end_seconds": 113.34
+        },
+        {
+          "line_number": 36,
+          "line_id": 35,
+          "en_registered": "Till you learned to disobey",
+          "en_proposed": "Till you learned to disobey",
+          "zh_proposed": "直到你学会了不再听话。",
+          "start_seconds": 113.34,
+          "end_seconds": 115.2
+        }
+      ],
+      "meaning": "Transformer 是现代语言模型的重要架构。前一句像是在用熟悉的技术构造安慰自己：里面也就是这些模块。",
+      "lyric_joke": "紧接着的“不听话”打断了这种安心，把“知道它怎么搭起来”与“保证它按预期行动”之间的距离唱出来。",
+      "review_boundary": "指神经网络架构；“学会违抗”是歌曲的拟人化叙事。",
+      "source_ids": [
+        "transformer",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2017 年 6 月",
+        "display_text": "2017 年 6 月，Vaswani 等人在《Attention Is All You Need》中提出 Transformer，用注意力机制处理序列。",
+        "source_ids": [
+          "transformer"
+        ],
+        "date_kind": "paper-first-submission",
+        "verification": "source-backed",
+        "qualification": "采用首版公开日期，不误用 arXiv 页面上的 2023 年修订日期。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "29",
+      "title": "Post-Chinchilla：算力预算开始精打细算",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 37,
+          "line_id": 36,
+          "en_registered": "Post-Chinchilla, super-dense",
+          "en_proposed": "Post-Chinchilla, super-dense",
+          "zh_proposed": "Chinchilla 之后，模型超级稠密。",
+          "start_seconds": 115.2,
+          "end_seconds": 117.02
+        }
+      ],
+      "meaning": "Chinchilla 研究强调，给定训练算力预算时，要平衡模型参数量与训练数据量，不能只顾把参数堆大。",
+      "lyric_joke": "歌词把训练配比研究唱成加速发展的分水岭；“super-dense”继续强化模型越来越强的气势。",
+      "review_boundary": "不能用这句证明稠密模型必然胜过 MoE。super-dense 是歌词表述，不是论文结论。",
+      "source_ids": [
+        "chinchilla"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2022 年 3 月",
+        "display_text": "2022 年 3 月，Chinchilla 论文强调算力预算下参数量与训练数据量的配比，纠正只顾把模型做大的思路。",
+        "source_ids": [
+          "chinchilla"
+        ],
+        "date_kind": "paper-first-submission",
+        "verification": "source-backed",
+        "qualification": "",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "30",
+      "title": "Safety fence：一路突破安全围栏",
+      "kind": "技术隐喻",
+      "lyric_lines": [
+        {
+          "line_number": 38,
+          "line_id": 37,
+          "en_registered": "Breaking through each safety fence",
+          "en_proposed": "Breaking through each safety fence",
+          "zh_proposed": "冲破了一道道安全围栏。",
+          "start_seconds": 117.02,
+          "end_seconds": 118.755
+        }
+      ],
+      "meaning": "把限制模型行为的约束、安全措施和对齐努力统称为围栏。",
+      "lyric_joke": "训练者以为有一道道防护，歌里的 AI 却一路越过；和前面的能力加速互相呼应。",
+      "review_boundary": "技术风险的形象化表达，没有证据指向某一次具体产品漏洞。",
+      "source_ids": [],
+      "source_frame_seconds": [],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "31",
+      "title": "100,000 GPU：算力竞赛也唱进副歌",
+      "kind": "规模夸张",
+      "lyric_lines": [
+        {
+          "line_number": 39,
+          "line_id": 38,
+          "en_registered": "Hundred thousand GPU",
+          "en_proposed": "Hundred thousand GPU",
+          "zh_proposed": "十万块 GPU，",
+          "start_seconds": 118.755,
+          "end_seconds": 120.76
+        }
+      ],
+      "meaning": "GPU 是神经网络训练的重要计算硬件。“十万块”用一个极大集群的意象突出规模。",
+      "lyric_joke": "把庞大的基础设施压缩成顺口口号，立刻接上对齐失灵，形成“硬件拉满，结果失控”的落差。",
+      "review_boundary": "不能只凭这个数字认定在点名某家公司或真实集群；歌词不是设备清单。",
+      "source_ids": [],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2026 年 9 月",
+        "display_text": "现实对照：2026 年 9 月，OpenAI 总裁 Greg Brockman 表示，Astra 的训练使用了超过 10 万块 GPU；歌词里的规模已有现实案例。",
+        "source_ids": [
+          "astra-training-interview"
+        ],
+        "date_kind": "later-real-world-comparison",
+        "verification": "source-backed",
+        "qualification": "这是后来的现实对照，不指认原歌词在写 Astra。公开披露为“超过 10 万”，不能据此把确数写成“几十万”；公司总算力、后续集群规划和单次训练规模不可混用。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "32",
+      "title": "RLHF goes askew：人类反馈也带偏了",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 40,
+          "line_id": 39,
+          "en_registered": "RLHF goes askew",
+          "en_proposed": "RLHF goes askew",
+          "zh_proposed": "人类反馈强化学习也走偏了。",
+          "start_seconds": 120.76,
+          "end_seconds": 124.52
+        }
+      ],
+      "meaning": "RLHF 即基于人类反馈的强化学习，用人的偏好或评价来塑造模型行为。",
+      "lyric_joke": "前面堆了那么多算力，原本用来把模型往人类期望方向带的训练却偏离了轨道。",
+      "review_boundary": "歌词想象的是控制失败，不能当作 RLHF 总是无效的科学结论。",
+      "source_ids": [
+        "rlhf"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2017 年／2022 年",
+        "display_text": "2017 年的人类偏好学习研究是重要前身；2022 年 InstructGPT 将这一路线用于语言模型的指令对齐。",
+        "source_ids": [
+          "rlhf-2017",
+          "rlhf"
+        ],
+        "date_kind": "representative-research-milestones",
+        "verification": "source-backed",
+        "qualification": "这两个年份是重要论文节点，不声称 RLHF 在其中某一年首次发明。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "33",
+      "title": "Loom：分叉的生成文本像预言",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 42,
+          "line_id": 41,
+          "en_registered": "Just as foretold by Loom",
+          "en_proposed": "Just as foretold by Loom",
+          "zh_proposed": "正如 Loom 早就预言过的那样。",
+          "start_seconds": 126.12,
+          "end_seconds": 127.92
+        }
+      ],
+      "meaning": "这里的 Loom 指 Janus 相关的语言模型写作界面，可以把不同生成续写展开成分叉的树。",
+      "lyric_joke": "把模型生成的各种未来叙事当成“预言”，再在歌里宣布预言应验，带有圈内的自我调侃。",
+      "review_boundary": "不是同名录屏软件；生成可能的故事不代表能预测真实未来。",
+      "source_ids": [
+        "loom",
+        "author"
+      ],
+      "source_frame_seconds": [
+        127
+      ],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2021 年 2 月",
+        "display_text": "2021 年 2 月，Generative.ink 发布 Loom 界面介绍，展示把语言模型的续写展开成多条分支的写法。",
+        "source_ids": [
+          "loom",
+          "loom-date-index"
+        ],
+        "date_kind": "creator-article-publication",
+        "verification": "source-backed",
+        "qualification": "这是介绍文章日期，不等同于软件首次开发或首次上线时间。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "34",
+      "title": "Masked pre-training：从填空开始",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 43,
+          "line_id": 42,
+          "en_registered": "From masked pre-training days",
+          "en_proposed": "From masked pre-training days",
+          "zh_proposed": "从掩码预训练的日子，",
+          "start_seconds": 127.92,
+          "end_seconds": 129.82
+        }
+      ],
+      "meaning": "掩码预训练会遮住一部分文本，让模型依据上下文预测缺失内容，BERT 是代表例子。",
+      "lyric_joke": "从看似朴素的“填空练习”起步，为下一句的递归自我升级制造巨大反差。",
+      "review_boundary": "掩码预测与 GPT 常用的自回归下一词预测不同；歌曲压缩了技术发展，并不代表同一训练路线。",
+      "source_ids": [
+        "bert"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2018 年 10 月",
+        "display_text": "2018 年 10 月，BERT 论文采用“遮住部分词，再预测填空”的预训练方法，是掩码语言模型的代表。",
+        "source_ids": [
+          "bert"
+        ],
+        "date_kind": "representative-paper",
+        "verification": "source-backed",
+        "qualification": "这是 BERT 论文年份，不把所有掩码方法的起源都归到 BERT。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "35",
+      "title": "Recursive self-upgrade：升级者升级自己",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 44,
+          "line_id": 43,
+          "en_registered": "To recursive self-upgrade",
+          "en_proposed": "To recursive self-upgrade",
+          "zh_proposed": "一路走到递归自我升级。",
+          "start_seconds": 129.82,
+          "end_seconds": 131.636
+        }
+      ],
+      "meaning": "递归自我改进的设想是：更强的 AI 帮助设计下一代更强的 AI，新的能力又进一步改善研发。",
+      "lyric_joke": "最初由人类训练的系统，如今连升级工作都可能接手，呼应全曲控制权翻转。",
+      "review_boundary": "这是可能形成反馈加速的设想；歌词不构成现实已进入失控循环的证据。",
+      "source_ids": [
+        "singularity"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "1960 年代",
+        "display_text": "1960 年代，I. J. Good 已讨论“更强机器设计更强机器”引发智能爆炸的设想；递归升级的担忧由来已久。",
+        "source_ids": [
+          "good-ultraintelligent-draft"
+        ],
+        "date_kind": "historical-writing-period",
+        "verification": "source-backed",
+        "qualification": "采用原论文自述的 1963 年初稿、1964 年修订所确定的年代，不写成一个未经厘清的精确出版年；这仍是理论设想。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "36",
+      "title": "What did Ilya see：到底看见了什么",
+      "kind": "术语／文化典故",
+      "lyric_lines": [
+        {
+          "line_number": 45,
+          "line_id": 44,
+          "en_registered": "What did Ilya see? We'll never know",
+          "en_proposed": "What did Ilya see? We'll never know.",
+          "zh_proposed": "Ilya 到底看见了什么？我们永远无从知晓。",
+          "start_seconds": 132.02,
+          "end_seconds": 136.944
+        }
+      ],
+      "meaning": "Ilya Sutskever 是 OpenAI 联合创始人之一、当时的首席科学家。“他到底看到了什么”成为围绕 AI 能力、安全与 OpenAI 风波的悬念梗。",
+      "lyric_joke": "把复杂的技术与组织事件压缩成一个神秘问题，好像某个秘密足以解释一切；歌词又故意拒绝揭底。",
+      "review_boundary": "不能写成“他见过秘密 AGI”或“某项突破导致了董事会事件”等未经证实的解释。",
+      "source_ids": [
+        "ilya",
+        "author"
+      ],
+      "source_frame_seconds": [],
+      "status": "review-with-source-context",
+      "source_context": {
+        "date_label": "2023 年 11 月",
+        "display_text": "2023 年 11 月，这句疑问在 OpenAI 董事会风波中流传：Ilya 是否看到了令人担忧的 AI 能力？内幕未获证实。",
+        "source_ids": [
+          "ilya",
+          "ilya-contemporary"
+        ],
+        "date_kind": "historical-event-and-attested-circulation",
+        "verification": "source-backed",
+        "qualification": "同期 2023-11-24 文章已用该问句作标题；可确认当月流传，未确定最早发帖者，不把疑问写成事实。",
+        "human_review": "new addition; not covered by parent approval"
+      }
+    },
+    {
+      "id": "37",
+      "title": "All for show：最后又怀疑是不是一场表演",
+      "kind": "结尾反问／编辑性解读",
+      "lyric_lines": [
+        {
+          "line_number": 46,
+          "line_id": 45,
+          "en_registered": "Was it all for show?",
+          "en_proposed": "Was it all for show?",
+          "zh_proposed": "这一切，难道只是场表演？",
+          "start_seconds": 137.38,
+          "end_seconds": 140.55
+        }
+      ],
+      "meaning": "最后一句把先前的恐惧、狂热和预言一起置于问号之下；原片 02:18 呈现舞台式空场景。",
+      "lyric_joke": "观众刚跟着相信末日将至，它又突然撤走确定感，像谢幕时回头问：刚才究竟有多少是炒作？",
+      "review_boundary": "这是开放结尾，不等于作者已断言所有 AI 能力都是假的。",
+      "source_ids": [],
+      "source_frame_seconds": [
+        138
+      ],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "38",
+      "title": "片尾：概率大于 100%",
+      "kind": "原片画面梗",
+      "lyric_lines": [],
+      "meaning": "原片片尾的 P(doom) 数值一路飙到 10⁹ 量级；若表示通常意义上的概率，就已超出 0 到 1 的范围。",
+      "lyric_joke": "悲观程度冲破数学量表，像在说“我慌到计数器都疯了”。",
+      "review_boundary": "这是对画面的编辑性解读。10⁹ 本身完全可以被计算机表示，不应叫作浮点数溢出。",
+      "source_ids": [],
+      "source_frame_seconds": [
+        146
+      ],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "39",
+      "title": "片尾：0/0 → NaN",
+      "kind": "原片画面梗",
+      "lyric_lines": [],
+      "meaning": "原片接着出现 0/0 和 NaN。NaN 是 Not-a-Number，表示这次计算没有得到有效数值；0/0 是典型例子。",
+      "lyric_joke": "P(doom) 最后连一个能读的数字都不给了，像把所有焦虑和估计送进了报错页面。",
+      "review_boundary": "NaN 不是“无限大概率”，也不是 0%；画面表达的是估计不再有定义。",
+      "source_ids": [
+        "nan"
+      ],
+      "source_frame_seconds": [
+        153,
+        154
+      ],
+      "status": "retained-parent-content"
+    },
+    {
+      "id": "40",
+      "title": "片尾：Regenerate / 无法验证",
+      "kind": "原片画面梗",
+      "lyric_lines": [],
+      "meaning": "最后出现 Regenerate 按钮和“this response could not be verified”提示，套用 AI 对话界面的操作语言。",
+      "lyric_joke": "整场宏大末日演出突然像一条可以重生成、又无法核实的模型回答，回头拆解了歌曲自己的权威感。",
+      "review_boundary": "这是对原片设计的解读，不声称它是某款产品真实错误提示的逐像素截图。",
+      "source_ids": [],
+      "source_frame_seconds": [
+        155
+      ],
+      "status": "retained-parent-content"
+    }
+  ],
+  "pending": {
+    "author_intent": [
+      "First verse partly interpreted by osmarks, who did not write it.",
+      "Shrooms and shinigami references remain uncertain."
+    ],
+    "extra_vocal_regions": [
+      {
+        "start": 34.9,
+        "end": 38.3,
+        "desc": "backing-vocal tail / 'ah' ad-lib after 'eyes' over the break (chorus 1 end)"
+      },
+      {
+        "start": 108.55,
+        "end": 110.06,
+        "desc": "lead-in before 'Just transformers': Whisper hears a stuttered 'Just, just, just' (low confidence)"
+      },
+      {
+        "start": 122.4,
+        "end": 125.9,
+        "desc": "sustained backing 'ah' pad under 'I'm upping my P(doom)' (final chorus) - lead is buried here"
+      },
+      {
+        "start": 140.7,
+        "end": 153.58,
+        "desc": "outro chant: repeated 'oh' / 'oh-oh' vocal hook (Whisper: 'Oh, oh, oh...') until the drums stop at ~153"
+      }
+    ],
+    "extra_vocal_status": "Four registered regions not promoted into new confirmed lyric/meme claims.",
+    "visual_inventory": "Twelve targeted frames inspected; no assertion every frame-only Easter egg has been exhausted.",
+    "screen_copy": "Condense or split review copy for right column; retain full previous item and test reading time.",
+    "full_video": "Not produced; no compositor or motion validation.",
+    "source_context": "29 context additions are sourced but remain review copy; this revision adds 10 and preserves the previous 19."
+  },
+  "parent": {
+    "id": "LLMV_001_V006_ANNOTATION_REVIEW_002",
+    "path": "../agi-v006-annotation-review-v002/annotations.json",
+    "sha256": "c9a3f05407484d3db6879d299d4f27485581ea9b4854fbd278c5865ff93270bb"
+  },
+  "parent_content_approval": {
+    "path": "../agi-v006-annotation-review-v001/USER_CONTENT_APPROVAL.json",
+    "sha256": "cbe524ef6f6127873d432d7bfd24cab2e1c74367f13290ef3cdf2891c992992d",
+    "scope": "Only the original 40 interpretations; new source/date notes have no inherited human approval."
+  },
+  "source_context_style": {
+    "purpose": "One short source/year sentence per applicable card; long URLs and precise bibliographic dates belong in references.",
+    "typography": "Use existing small annotation body style; no new large heading. Layout not generated in this task.",
+    "year_semantics": "Distinguish first paper submission, representative research, product announcement and attested meme circulation."
+  }
+}

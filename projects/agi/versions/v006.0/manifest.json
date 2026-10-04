@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.0",
+  "title": "AGI · 原片解梗伴看（特殊衍生视频）",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "以已登记 AGI 原视频为主体，新增中文梗解释、字幕、图解与滑动注释排版；这是特殊伴看解说视频，不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T04:03:10.555Z",
+  "parent_version": null,
+  "lineage": {
+    "kind": "new-direction-from-original-source",
+    "source_id": "LLMV_001_SOURCE",
+    "adopted_design": "agi-explainer-v001",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。"
+  ],
+  "model": "Existing mockups: built-in image_gen.imagegen; exact model identifier TBD (not exposed)",
+  "method": "Adopt existing static mockups and provenance without regenerating. Future production composes the original video with explanatory overlays; the video compositor is not implemented.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "5ac4d4990409c55d575644de245c7f31fa669ffe54ce87fe547f7d23092d4986",
+    "files": {
+      "renderer/index.html": "5ac4d4990409c55d575644de245c7f31fa669ffe54ce87fe547f7d23092d4986"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "concept_a": "design/mockups/A-dark-pdoom.png",
+    "concept_b": "design/mockups/B-paper-pdoom.png",
+    "concept_c": "design/mockups/C-dark-paperclips.png",
+    "design_notes": "design/README.md",
+    "design_prompts": "design/provenance/prompts.json",
+    "design_generation": "design/provenance/GENERATION.json",
+    "design_adoption": "provenance/design-adoption.json"
+  },
+  "data_hashes": {
+    "concept_a": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+    "concept_b": "c6ca4850cbd02d227681b70e1e4973757ef24681b7a7b0017417ba46872917b9",
+    "concept_c": "4341584280ec7f37eba339d2ac149fab52a36181d043e26ad35b018d3cb57c5c",
+    "design_notes": "3995c16eff0280d5cc6ee1886511376f151b6c56da80ddfe7e359c9cc545ff80",
+    "design_prompts": "db969ebb92586e06dbfdf2280f81cf10d3194a535bdf055920f744767ab285b7",
+    "design_generation": "f4757925a4d9d04a7cfbeaddaf15ecbc48728145d3648cdce862930a69280e23",
+    "design_adoption": "c9b7445b6b9323efa370950a4357493f335efafe35281dfcc231ea2a12707ce5"
+  },
+  "variants": [
+    {
+      "id": "dark-pdoom",
+      "label": "A · 深色注释影院 · 设计样图",
+      "generation_id": "LLMV_001_V006_R000_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.0/design/mockups/A-dark-pdoom.png",
+      "design_output": {
+        "path": "design/mockups/A-dark-pdoom.png",
+        "sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review",
+        "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_A"
+      },
+      "known_issues": [
+        "AI 概念样图不保证原片窗口比例与像素忠实度；正式合成需直接嵌入原视频。",
+        "未完成动画、阅读时长和全片梗考证。"
+      ]
+    },
+    {
+      "id": "paper-pdoom",
+      "label": "B · 浅色动态杂志 · 设计样图",
+      "generation_id": "LLMV_001_V006_R000_002",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.0/design/mockups/B-paper-pdoom.png",
+      "design_output": {
+        "path": "design/mockups/B-paper-pdoom.png",
+        "sha256": "c6ca4850cbd02d227681b70e1e4973757ef24681b7a7b0017417ba46872917b9",
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review",
+        "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_B"
+      },
+      "known_issues": [
+        "AI 概念样图不保证原片窗口比例与像素忠实度；正式合成需直接嵌入原视频。",
+        "未完成动画、阅读时长和全片梗考证。"
+      ]
+    },
+    {
+      "id": "dark-paperclips",
+      "label": "C · 深色回形针段落 · 设计样图",
+      "generation_id": "LLMV_001_V006_R000_003",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.0/design/mockups/C-dark-paperclips.png",
+      "design_output": {
+        "path": "design/mockups/C-dark-paperclips.png",
+        "sha256": "4341584280ec7f37eba339d2ac149fab52a36181d043e26ad35b018d3cb57c5c",
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review",
+        "original_generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_C"
+      },
+      "known_issues": [
+        "AI 概念样图不保证原片窗口比例与像素忠实度；正式合成需直接嵌入原视频。",
+        "未完成动画、阅读时长和全片梗考证。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "design_file_hashes": "preserved during adoption",
+    "full_video_produced": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "adoption_record": "provenance/design-adoption.json"
+  },
+  "historical_provenance": {
+    "design_directory": "design",
+    "original_generation_record": "design/provenance/GENERATION.json",
+    "original_prompt_record": "design/provenance/prompts.json",
+    "notes": "Original IDs, recorded paths and planning statements are historical evidence; this manifest and TREATMENT.md define current version identity and scope."
+  }
+}

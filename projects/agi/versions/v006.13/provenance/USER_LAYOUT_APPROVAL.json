@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04T08:19:44.645085+00:00",
+  "approved_by": "conversation-user",
+  "user_statement": "没问题，就按照这个来渲染好了。",
+  "scope": "Approve the v006.12 sample layout and authorize a complete video using that layout. This is not approval of a future unseen final video.",
+  "source_version": "v006.12",
+  "source_still": {
+    "path": "stills/LLMV_001_V006_R012_001_balanced-bottom_008.500.jpg",
+    "sha256": "e5d886645acd69bf4b818dd8c6c3c05056f14949d77759f5f6e3c9e777e79456",
+    "size_bytes": 1054124,
+    "width": 3840,
+    "height": 2160,
+    "time_seconds": 8.5,
+    "kind": "single-rendered-frame",
+    "status": "review",
+    "run_id": "RUN_2026-10-04T08-16-10-288Z_efc2d116"
+  },
+  "renderer_files": {
+    "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "d5af330b2dd7e2fb608ac7e394f854d569e818bed6da3299a723616be41167bd",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "layout_sha256": "4145baa0346124155682fdf2b039f5f134a0f86f76820cc3954fec783e39eba0",
+  "full_render_authorized": true
+}

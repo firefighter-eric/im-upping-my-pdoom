@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_V006_ANNOTATION_REVIEW_003",
+  "project_id": "LLMV_001",
+  "created_at_utc": "2026-10-04T05:55:52.537219+00:00",
+  "status": "review-with-new-source-context",
+  "tools": [
+    "web.run: live source/date and GPU disclosure verification",
+    "Python standard library: editorial revision and SHA-256 preservation checks"
+  ],
+  "model": "Codex; exact model identifier not exposed",
+  "request_path": "request.json",
+  "request_sha256": "9cdcd93ffae18dfcec267b11d93e44b8191ce1fb3156a9f5d1c25c7f9b9728a1",
+  "parent_artifact": {
+    "id": "LLMV_001_V006_ANNOTATION_REVIEW_002",
+    "path": "../agi-v006-annotation-review-v002/annotations.json",
+    "sha256": "c9a3f05407484d3db6879d299d4f27485581ea9b4854fbd278c5865ff93270bb"
+  },
+  "parent_approval": {
+    "path": "../agi-v006-annotation-review-v001/USER_CONTENT_APPROVAL.json",
+    "sha256": "cbe524ef6f6127873d432d7bfd24cab2e1c74367f13290ef3cdf2891c992992d",
+    "scope": "Only the original 40 interpretations; new source/date notes have no inherited human approval."
+  },
+  "semantic_preservation": {
+    "fields": [
+      "title",
+      "kind",
+      "lyric_lines",
+      "meaning",
+      "lyric_joke",
+      "review_boundary",
+      "source_ids",
+      "source_frame_seconds"
+    ],
+    "parent_interpretations_sha256": "0d9e196e30995070f36e702a40f00492847e45b3b053bd990bbd6713c9884990",
+    "all_40_preserved": true,
+    "previous_19_contexts_unchanged": true
+  },
+  "new_context_card_ids": [
+    "06",
+    "07",
+    "10",
+    "11",
+    "13",
+    "16",
+    "20",
+    "22",
+    "31",
+    "35"
+  ],
+  "total_context_entries": 29,
+  "input_hashes": {
+    "registered_lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "registered_text_audit": "01c735a0b40e060d370aa1012f0bef9dd003cf11f5c4cc037f25ce24207863cd",
+    "source_video": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+  },
+  "prior_artifact_hashes": {
+    "docs/plans/agi-v006-annotation-review-v001/sources.json": "ed9ff47c0fed6e87be3af764992c435068c7490c1237d98ef1d079e3e86ba55a",
+    "docs/plans/agi-v006-annotation-review-v001/provenance.json": "e7ac588eae0d5a736b38c4c8868d562a12537a33bfa7a281bb0476dc3331d500",
+    "docs/plans/agi-v006-annotation-review-v001/VALIDATION.json": "4927e3c96715c5a1afc235fe796797232a7351dfd255e691ab5e6127fe12eba1",
+    "docs/plans/agi-v006-annotation-review-v001/USER_CONTENT_APPROVAL.json": "cbe524ef6f6127873d432d7bfd24cab2e1c74367f13290ef3cdf2891c992992d",
+    "docs/plans/agi-v006-annotation-review-v001/REVIEW.md": "4222ccdcd3875fe52cf8320e6cf153ada1fcc3b0395d4e8f52e4bf92713070f0",
+    "docs/plans/agi-v006-annotation-review-v001/annotations.json": "cb0b735d278f81a6933330b35dd531d1b4d09c4ddb5392cd46251bce920c2fe1",
+    "docs/plans/agi-v006-annotation-review-v001/frame-evidence.json": "1219357f1c60b939be50e0177b67a8637e5e913a814442bf509635007dc8e939",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-138.jpg": "2ca193708b27e29638142af6c902fcd15eaae77f1142d695c321d9ec1c7e7fc7",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-071.jpg": "60a44f2c8e6fe9883c29c005107cd39b9cf5c5c7ef8857338af8f3a297878d11",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-004.jpg": "1fef042b8afb99585b59303676d11823e0384f8b05827970c2af73fd267b2a0a",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-146.jpg": "44d2d9a553cd22a7d85aea5a72595d2ff8e03ac8662f8635e005452f6c026f73",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-153.jpg": "ca9676f1a963fea77e105130c30265fa13f1a451f76a19ef2aefb82b19d019bf",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-151.jpg": "81011cc6880521f4f4c9c7347fd508ee7670726ea6adb74441fff6fe6ae3a7ae",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-154.jpg": "732357dc3e83d578253f959c61cebb9b7b25ef56310e0ba18ee096618ec917f7",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-155.jpg": "44b25f12d10d54968a16d7dd7c6acf18018c0ddccf3f01a16cb19b0dec703d84",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-086.jpg": "e19b8827e1dbf24a0b1f9764418a4bbaeddcce8e9f9769c7c968f925cf14e68b",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-079.jpg": "a06b6c681a09a63b66078bf7a20ba5ca927b09aeb7e8fbcf2f35d875019dd611",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-127.jpg": "3b7e4046e71591b6374513055cb2412e6613625232dc9ae0b1ee4169da97cef4",
+    "docs/plans/agi-v006-annotation-review-v001/references/source-068.jpg": "a7ce276428f94732b4fb2ceb968ee711952419f399890fa14db2f432210e425d",
+    "docs/plans/agi-v006-annotation-review-v002/request.json": "4621b872ec23118c890053565f15f3fc2a80b435504d2d7ed7b4b3944a74c14a",
+    "docs/plans/agi-v006-annotation-review-v002/sources.json": "5b673bec6c7ac2b894fc5b36cad4643b4c7a88564272c450de1c29e2fd7965a9",
+    "docs/plans/agi-v006-annotation-review-v002/provenance.json": "b8d890f173ed37421552b398bb581d2d9024c45c51fd02a3cb7a71017377981d",
+    "docs/plans/agi-v006-annotation-review-v002/SOURCE_NOTES.md": "83c4d75254984ff933659564312aaaad205bd4d9c96a9348a26307bb82491afb",
+    "docs/plans/agi-v006-annotation-review-v002/source-context.json": "ff26b7c2ea38c0a98890adc5011d5f89ef9f41447e2df572f0d5330e75496e87",
+    "docs/plans/agi-v006-annotation-review-v002/VALIDATION.json": "fc501bd3784671140a9cefca6638f5e682827b6caaf6a0a2e978211aa7ad08fb",
+    "docs/plans/agi-v006-annotation-review-v002/REVIEW.md": "47dbe83ee816e5d4029b111c2a65abb10496c73e974bfa98ae23ecb1d22b570a",
+    "docs/plans/agi-v006-annotation-review-v002/annotations.json": "c9a3f05407484d3db6879d299d4f27485581ea9b4854fbd278c5865ff93270bb",
+    "docs/plans/agi-v006-annotation-review-v002/frame-evidence.json": "e92e927bbc42aa732780abc78066328b1e60c2b2493ababbbdcd3346781e518e"
+  },
+  "work_product_hashes": {
+    "annotations.json": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources.json": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "source-context.json": "150e3fc4971b75b04cd32f64bc5bd1c4b5364e9e8856fadb5aa8c5b34018f39d",
+    "frame-evidence.json": "e92e927bbc42aa732780abc78066328b1e60c2b2493ababbbdcd3346781e518e",
+    "REVIEW.md": "d60b2707a6b7b9ddb225072406a562c1e1361fec21af33dea107518828998021",
+    "SOURCE_NOTES.md": "d9efaf1abf542fd60216cf1196d779bf9b830258fb30636ae3c095e204ee5a65",
+    "ALL_CONTEXT.md": "7baa1f963955c1b7da893fb898eea504f7567c67f905714a4bec5bbe1f6d1fc5",
+    "request.json": "9cdcd93ffae18dfcec267b11d93e44b8191ce1fb3156a9f5d1c25c7f9b9728a1"
+  },
+  "rights": {
+    "source_video": "TBD",
+    "audio_and_lyrics": "TBD",
+    "adaptation": "TBD"
+  },
+  "human_approval": null,
+  "visual_design_changed": false,
+  "full_video_produced": false
+}

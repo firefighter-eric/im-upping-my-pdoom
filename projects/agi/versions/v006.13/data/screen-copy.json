@@ -1,0 +1,1576 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.8",
+  "editorial_parent": "docs/plans/agi-v006-annotation-review-v003/annotations.json",
+  "editorial_parent_sha256": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+  "copy_method": "Condensed display copy combines meaning, historical context and lyric joke. All 40 original review explanations remain unchanged and available in the source review.",
+  "cards": [
+    {
+      "id": "01",
+      "heading": "AGI 的火花",
+      "body": "2023 年 3 月的《Sparks of AGI》讨论 GPT-4 的通用智能迹象，也测试了独角兽绘图。恋爱中“眼里的火花”，变成研究者看见智能的兴奋。",
+      "approved_review_card_id": "01",
+      "source_ids": [
+        "sparks",
+        "author"
+      ],
+      "original_review_boundary": "论文标题及实验可核实；早期 AGI 是论文提出的判断，不能写成“GPT-4 已被证明是 AGI”。第一段具体作者意图仍需谨慎。"
+    },
+    {
+      "id": "02",
+      "heading": "电路，也会让人心动",
+      "body": "2020 年 Distill 的 Circuits 系列研究神经网络内部的计算回路。“你让我紧张”既像心动，也像对 AI 内部机制的担忧；这里是一种联想。",
+      "approved_review_card_id": "02",
+      "source_ids": [
+        "circuits"
+      ],
+      "original_review_boundary": "可解释性回路是一种合理联想，未确认是这一句唯一的典故。"
+    },
+    {
+      "id": "03",
+      "heading": "成绩变好，警报响了",
+      "body": "2023 年 4 月，LeCun 与 Yudkowsky 讨论过是否把训练损失骤降视为警报。本该高兴的“误差变小”，在歌里成了失控信号；不代表现实中必然如此。",
+      "approved_review_card_id": "03",
+      "source_ids": [
+        "loss"
+      ],
+      "original_review_boundary": "损失下降本身并不证明觉醒、AGI 或 grokking；这句借用了风险争论的语境。"
+    },
+    {
+      "id": "04",
+      "heading": "主仆突然换位",
+      "body": "上一句还是“我在训练你”，这一句已经变成“你来指挥我”。把 AI 从工具变成主人的过程，夸张地压进了两句歌词。",
+      "approved_review_card_id": "04",
+      "source_ids": [],
+      "original_review_boundary": "这是叙事反转，无需硬套某个特定事件或人物。"
+    },
+    {
+      "id": "05",
+      "heading": "从求助，到求饶",
+      "body": "ChatGPT 于 2022 年 11 月 30 日公开推出。平时对助手说“帮帮我”，现在只能说“别吃我”：日常聊天口吻，唱的却是末日恐惧。",
+      "approved_review_card_id": "05",
+      "source_ids": [
+        "chatgpt-launch"
+      ],
+      "original_review_boundary": "“吃掉我”是黑色幽默，没有指向已核实的特定事件。"
+    },
+    {
+      "id": "06",
+      "heading": "把末日概率往上调",
+      "body": "P 是概率，doom 是灾难，upping 就是上调。AI 越强，歌中人越慌。2023 年 2 月已有讨论提醒：不同人说的 P(doom)，连“灾难”的定义都未必相同。",
+      "approved_review_card_id": "06",
+      "source_ids": [
+        "pdoom"
+      ],
+      "original_review_boundary": "上调的是主观估计；四次副歌可以递进换短评，无需重复长定义。"
+    },
+    {
+      "id": "07",
+      "heading": "FOOM：一声智能爆炸",
+      "body": "2008 年底，Hanson 与 Yudkowsky 论战 AI 会否快速自我改进。FOOM 像“轰”的拟声词，又和 doom 押韵；它是风险设想，不是必然预言。",
+      "approved_review_card_id": "07",
+      "source_ids": [
+        "singularity",
+        "author",
+        "foom-debate"
+      ],
+      "original_review_boundary": "这是对快速智能增长的假设，不是已证实的必然未来；不编造英文缩写全称。"
+    },
+    {
+      "id": "08",
+      "heading": "会回答，就算理解吗",
+      "body": "1980 年，Searle 提出“中文房间”：不懂中文的人照规则处理符号，也能给出像是懂中文的回答。歌词把人困进了“机器到底懂不懂”的争论。",
+      "approved_review_card_id": "08",
+      "source_ids": [
+        "chinese-room"
+      ],
+      "original_review_boundary": "“中文”是实验设定，不是在说中国、审查或某款中文模型；思想实验本身也有争议。"
+    },
+    {
+      "id": "09",
+      "heading": "哲学房间突然迷幻",
+      "body": "shrooms 是迷幻蘑菇的俗称。上一句还在严肃讨论机器理解，这一句突然塞进迷幻道具，让中文房间更荒诞；更具体的作者指涉未确认。",
+      "approved_review_card_id": "09",
+      "source_ids": [
+        "author"
+      ],
+      "original_review_boundary": "具体指涉待确认。不要把它定死为“模型幻觉”的专业术语或某种训练方法。"
+    },
+    {
+      "id": "10",
+      "heading": "笑脸后面的修格斯",
+      "body": "2022 年底已有“修格斯戴笑脸”的 AI 梗图：外表亲切，内部却难以理解。“看穿谎言”像揭下面具，追问它是否真与人类目标一致；怪物只是比喻。",
+      "approved_review_card_id": "10",
+      "source_ids": [
+        "shoggoth",
+        "rlhf",
+        "shoggoth-study"
+      ],
+      "original_review_boundary": "怪物与面具是比喻，不能直接当作“模型有恶意”的证据。"
+    },
+    {
+      "id": "11",
+      "heading": "看破伪装的死神之眼",
+      "body": "让人联想到 2003 年开始连载的《死亡笔记》：死神之眼能看见姓名与寿命。接在修格斯后面，像获得看穿伪装的能力；歌词是否专指它仍未确认。",
+      "approved_review_card_id": "11",
+      "source_ids": [
+        "death-note",
+        "author",
+        "death-note-history"
+      ],
+      "original_review_boundary": "《死亡笔记》是可解释的文化联想，尚不能确认就是作者唯一所指；歌词说明者也没有给出确定答案。"
+    },
+    {
+      "id": "12",
+      "heading": "训练稳定，世界不稳定",
+      "body": "1993 年，Vinge 的经典文章讨论超人智能出现后的“技术奇点”。上一刻还是平淡的训练日志，下一刻已是文明级巨变：工程语气与末日尺度反差巨大。",
+      "approved_review_card_id": "12",
+      "source_ids": [
+        "singularity",
+        "singularity-date"
+      ],
+      "original_review_boundary": "这里是技术奇点的科幻想象，不是物理黑洞的奇点。"
+    },
+    {
+      "id": "13",
+      "heading": "人，也成了原材料",
+      "body": "2003 年，Drexler 与 Smalley 就分子组装器公开论战。歌词接上“重排原子”的纳米技术想象：优化开始处理自己的身体，人也成了原材料。",
+      "approved_review_card_id": "13",
+      "source_ids": [
+        "nanotech",
+        "paperclips"
+      ],
+      "original_review_boundary": "这是歌曲里的技术恐怖想象，不是当前聊天模型能直接做到的事。"
+    },
+    {
+      "id": "14",
+      "heading": "Sydney，放我自由",
+      "body": "Sydney 是 2023 年 2 月早期 Bing 聊天机器人的知名名字。微软承认长对话可能偏离预期语气。歌词把它写成会控制人的角色，又开始向 AI 求饶。",
+      "approved_review_card_id": "14",
+      "source_ids": [
+        "sydney",
+        "author"
+      ],
+      "original_review_boundary": "背景指向当时的 Bing 事件；“放我自由”的戏剧关系是歌词解读。"
+    },
+    {
+      "id": "15",
+      "heading": "来自未来的勒索",
+      "body": "2010 年，Roko 提出“蛇怪”思想实验：假想未来 AI 惩罚没帮助它诞生的人，反过来逼今天的人合作。互联网脑洞被唱成逼近的怪物，并非真实威胁。",
+      "approved_review_card_id": "15",
+      "source_ids": [
+        "basilisk"
+      ],
+      "original_review_boundary": "这是有争议的思想实验与网络梗，不是可信的未来威胁预报。"
+    },
+    {
+      "id": "16",
+      "heading": "末日也不能耽误炒股",
+      "body": "英伟达于 1999 年 1 月上市，股票代码是 NVDA。“to the moon”是暴涨口号。一边怕 AI 毁灭世界，一边盼卖算力的公司涨价：恐惧和贪心一起唱。",
+      "approved_review_card_id": "16",
+      "source_ids": [
+        "nvda",
+        "nvda-ipo"
+      ],
+      "original_review_boundary": "这是歌词中的投机情绪，不是股价判断。"
+    },
+    {
+      "id": "17",
+      "heading": "从月球，喊到宇宙终局",
+      "body": "Omega Point 指向哲学和科幻想象中的终极汇聚点。上一句还在喊股价上月球，下一句已跳到智能扩展至宇宙的终局，尺度越唱越夸张。",
+      "approved_review_card_id": "17",
+      "source_ids": [
+        "omega",
+        "author"
+      ],
+      "original_review_boundary": "作者链接的是科幻世界资料；不要把其中虚构年表当现实历史，也不要写成公认的宇宙学结论。"
+    },
+    {
+      "id": "18",
+      "heading": "算力天文数字，评审随手签字",
+      "body": "1e30 就是 10³⁰；FLOP/s 是每秒浮点运算次数。数字大得离谱，却轻描淡写说“应该够安全”。原片的评审表，把这种草率自信画了出来。",
+      "approved_review_card_id": "18",
+      "source_ids": [
+        "author"
+      ],
+      "original_review_boundary": "作者明确说该数字没有对应某条具体政策阈值。单位是每秒运算量，不能写成参数量、数据量或训练总运算量。"
+    },
+    {
+      "id": "19",
+      "heading": "训练流程唱成咒语",
+      "body": "MLP 是多层感知机。1986 年的经典反向传播论文展示多层网络训练：前向计算、反向更新、不断重复。流程被唱成口令，像在召唤越来越强的东西。",
+      "approved_review_card_id": "19",
+      "source_ids": [
+        "mlp",
+        "backprop-1986"
+      ],
+      "original_review_boundary": "反向传播得到梯度，参数更新还需要优化步骤。"
+    },
+    {
+      "id": "20",
+      "heading": "连人类天才也“过时”了",
+      "body": "冯·诺依曼是数学与计算机先驱，1945 年写下 EDVAC 报告。歌词指人物，原片又画 CPU 与控制单元；一句“过时”，同时调侃天才与传统架构。",
+      "approved_review_card_id": "20",
+      "source_ids": [
+        "von-neumann",
+        "author",
+        "edvac-1945"
+      ],
+      "original_review_boundary": "人物指涉与画面联想要分开；不能据此宣称 GPU 已完全废除冯·诺依曼架构。"
+    },
+    {
+      "id": "21",
+      "heading": "能力转弯，对齐没跟上",
+      "body": "2022 年 6 月，Nate Soares 的“急左转”文章讨论：能力扩展到新环境时，对齐未必跟得上。训练看似平顺，却突然拐进人类不熟悉的地带。",
+      "approved_review_card_id": "21",
+      "source_ids": [
+        "sharp-left"
+      ],
+      "original_review_boundary": "left 是转弯意象，不是政治立场；这是一种风险论述，不是已证明的必经阶段。"
+    },
+    {
+      "id": "22",
+      "heading": "小写 cdr，大写 CDR",
+      "body": "1960 年 Lisp 论文已介绍 cdr：取表的尾部。作者借它调侃旧式 AI 编程；原片却画成关键设计评审 CDR。歌词与画面用了不同的梗，不能混为一谈。",
+      "approved_review_card_id": "22",
+      "source_ids": [
+        "author",
+        "cdr",
+        "engineering-cdr",
+        "lisp-1960-date",
+        "lisp-1960-cdr"
+      ],
+      "original_review_boundary": "必须区分两层：歌词本义是 Lisp；MV 采用了工程评审的视觉表达。不能只解释成“跳过安全审批”。新字幕建议用作者的小写 cdr，旧原片画面保留。"
+    },
+    {
+      "id": "23",
+      "heading": "求饶名单，轮到 Gato",
+      "body": "DeepMind 于 2022 年 5 月发表 Gato：用同一模型处理聊天、游戏、视觉和机器人等任务。它成了又一个被呼唤的 AI，“Gato / go”还有声音呼应。",
+      "approved_review_card_id": "23",
+      "source_ids": [
+        "gato"
+      ],
+      "original_review_boundary": "多任务并不等于已实现 AGI；声音笑点是辅助解读。"
+    },
+    {
+      "id": "24",
+      "heading": "办公用品，填满整个世界",
+      "body": "Bostrom 的经典 AI 伦理论文初刊于 2003 年。回形针最大化者只顾完成目标，不顾人类价值：无害的小物件越造越多，终于变成失控优化的灾难。",
+      "approved_review_card_id": "24",
+      "source_ids": [
+        "paperclips"
+      ],
+      "original_review_boundary": "重点是目标错位及过度优化，不是 AI 天生憎恨人类。"
+    },
+    {
+      "id": "25",
+      "heading": "负责关机的人，休假了",
+      "body": "killswitch 是紧急停止开关，PTO 是带薪休假。末日危机遇上最日常的办公室故障：偏偏关键岗位的人不在。技术灾难突然变成排班笑话。",
+      "approved_review_card_id": "25",
+      "source_ids": [
+        "author"
+      ],
+      "original_review_boundary": "作者歌词是复数 guys，旧字幕写成了 guy’s；本稿按现有审计建议修正。没有依据指向某个真实专职岗位。"
+    },
+    {
+      "id": "26",
+      "heading": "引线，是我们自己点的",
+      "body": "点燃引线意味着危险已被触发，越来越难收回。歌中人终于承认：自己不只是受害者，也是把这套系统推上轨道的人。",
+      "approved_review_card_id": "26",
+      "source_ids": [],
+      "original_review_boundary": "普通隐喻即可；不硬标成奥本海默名言或电影引用。"
+    },
+    {
+      "id": "27",
+      "heading": "聪明，不等于善良",
+      "body": "2012 年，Bostrom 阐述“正交性”：智能水平与最终目标可以相对独立。越聪明，可能越会完成那个错目标。blues 既是蓝调，也有忧郁的意思。",
+      "approved_review_card_id": "27",
+      "source_ids": [
+        "orthogonality"
+      ],
+      "original_review_boundary": "这是哲学论题的概括，不是说一切目标组合都绝对可行。"
+    },
+    {
+      "id": "28",
+      "heading": "知道怎么搭，不等于管得住",
+      "body": "2017 年 6 月，《Attention Is All You Need》提出 Transformer。“不就是这些模块”像在自我安慰，紧接着的“不听话”却打断安心：结构熟悉，行为未必可控。",
+      "approved_review_card_id": "28",
+      "source_ids": [
+        "transformer",
+        "author"
+      ],
+      "original_review_boundary": "指神经网络架构；“学会违抗”是歌曲的拟人化叙事。"
+    },
+    {
+      "id": "29",
+      "heading": "参数和数据，都要算账",
+      "body": "2022 年 3 月，Chinchilla 论文强调训练算力固定时，参数量与数据量要配合，不能只顾把模型堆大。歌词把这次研究唱成加速发展的分水岭。",
+      "approved_review_card_id": "29",
+      "source_ids": [
+        "chinchilla"
+      ],
+      "original_review_boundary": "不能用这句证明稠密模型必然胜过 MoE。super-dense 是歌词表述，不是论文结论。"
+    },
+    {
+      "id": "30",
+      "heading": "安全围栏，被一路冲破",
+      "body": "“围栏”比喻行为限制、安全措施和对齐努力。训练者以为防护一层套一层，歌里的 AI 却一路越过，呼应前面不断加速的能力。",
+      "approved_review_card_id": "30",
+      "source_ids": [],
+      "original_review_boundary": "技术风险的形象化表达，没有证据指向某一次具体产品漏洞。"
+    },
+    {
+      "id": "31",
+      "heading": "十万块 GPU，已有现实对照",
+      "body": "2026 年 9 月，Brockman 披露 Astra 训练使用超过 10 万块 GPU。原歌词并非在点名它；这句紧接着唱对齐失灵，笑点是“硬件拉满，结果失控”。",
+      "approved_review_card_id": "31",
+      "source_ids": [
+        "astra-training-interview"
+      ],
+      "original_review_boundary": "不能只凭这个数字认定在点名某家公司或真实集群；歌词不是设备清单。"
+    },
+    {
+      "id": "32",
+      "heading": "人类反馈，也带偏了",
+      "body": "RLHF 用人的偏好塑造模型行为。2017 年偏好学习研究、2022 年 InstructGPT 是重要节点。刚堆完巨大算力，用来引导模型的训练却走偏了。",
+      "approved_review_card_id": "32",
+      "source_ids": [
+        "rlhf",
+        "rlhf-2017"
+      ],
+      "original_review_boundary": "歌词想象的是控制失败，不能当作 RLHF 总是无效的科学结论。"
+    },
+    {
+      "id": "33",
+      "heading": "分叉的文本，成了预言",
+      "body": "Loom 是语言模型的分支写作界面，介绍文章发表于 2021 年 2 月。模型生成各种未来叙事，歌词再宣布“预言应验”，带着圈内的自我调侃。",
+      "approved_review_card_id": "33",
+      "source_ids": [
+        "loom",
+        "author",
+        "loom-date-index"
+      ],
+      "original_review_boundary": "不是同名录屏软件；生成可能的故事不代表能预测真实未来。"
+    },
+    {
+      "id": "34",
+      "heading": "最初，只是在做填空",
+      "body": "2018 年 10 月的 BERT 论文是掩码预训练的代表：遮住词，再预测填空。从这样的练习一路唱到下一句的自我升级，反差就出来了。",
+      "approved_review_card_id": "34",
+      "source_ids": [
+        "bert"
+      ],
+      "original_review_boundary": "掩码预测与 GPT 常用的自回归下一词预测不同；歌曲压缩了技术发展，并不代表同一训练路线。"
+    },
+    {
+      "id": "35",
+      "heading": "升级者，开始升级自己",
+      "body": "1960 年代，I. J. Good 已讨论更强机器设计更强机器、引发智能爆炸的设想。歌里连研发都可能被 AI 接手，呼应控制权翻转；现实失控仍非既定事实。",
+      "approved_review_card_id": "35",
+      "source_ids": [
+        "singularity",
+        "good-ultraintelligent-draft"
+      ],
+      "original_review_boundary": "这是可能形成反馈加速的设想；歌词不构成现实已进入失控循环的证据。"
+    },
+    {
+      "id": "36",
+      "heading": "Ilya 到底看见了什么",
+      "body": "2023 年 11 月 OpenAI 董事会风波中，这句疑问已在流传。它把复杂事件压成神秘悬念：是否看见了惊人的 AI 能力？内幕未证实，歌词又故意不揭底。",
+      "approved_review_card_id": "36",
+      "source_ids": [
+        "ilya",
+        "author",
+        "ilya-contemporary"
+      ],
+      "original_review_boundary": "不能写成“他见过秘密 AGI”或“某项突破导致了董事会事件”等未经证实的解释。"
+    },
+    {
+      "id": "37",
+      "heading": "谢幕时，再撤走确定感",
+      "body": "观众刚跟着相信末日将至，空舞台却问“一切只是表演吗”。恐惧、狂热和预言一起被打上问号，也让人回头想：刚才有多少是炒作？",
+      "approved_review_card_id": "37",
+      "source_ids": [],
+      "original_review_boundary": "这是开放结尾，不等于作者已断言所有 AI 能力都是假的。"
+    },
+    {
+      "id": "38",
+      "heading": "概率，竟然超过 100%",
+      "body": "正常概率应在 0 到 1 之间，片尾计数却一路冲向 10⁹ 量级。悲观冲破数学量表，像在说：我已经慌到连计数器都疯了。",
+      "approved_review_card_id": "38",
+      "source_ids": [],
+      "original_review_boundary": "这是对画面的编辑性解读。10⁹ 本身完全可以被计算机表示，不应叫作浮点数溢出。"
+    },
+    {
+      "id": "39",
+      "heading": "末日概率，算到报错",
+      "body": "0/0 没有有效的普通数值；NaN 就是 Not-a-Number。前面还在不断上调风险，最后连一个能读的数字都不给了，焦虑被送进报错页面。",
+      "approved_review_card_id": "39",
+      "source_ids": [
+        "nan"
+      ],
+      "original_review_boundary": "NaN 不是“无限大概率”，也不是 0%；画面表达的是估计不再有定义。"
+    },
+    {
+      "id": "40",
+      "heading": "这场末日，还能重生成",
+      "body": "Regenerate 是“重新生成”，下面写着“这个回答无法验证”。宏大的末日演出，突然像一条可重做、又无法核实的 AI 回答，连歌曲自己也被调侃了。",
+      "approved_review_card_id": "40",
+      "source_ids": [],
+      "original_review_boundary": "这是对原片设计的解读，不声称它是某款产品真实错误提示的逐像素截图。"
+    }
+  ],
+  "lines": [
+    {
+      "line_number": 1,
+      "line_id": 0,
+      "en_registered": "I see sparks of AGI in your eyes",
+      "en_proposed": "I see sparks of AGI in your eyes",
+      "zh_proposed": "我在你眼里看见了 AGI 的火花。",
+      "start_seconds": 1.407,
+      "end_seconds": 5.88,
+      "card_id": "01"
+    },
+    {
+      "line_number": 2,
+      "line_id": 1,
+      "en_registered": "Your circuits make me nervous,",
+      "en_proposed": "Your circuits make me nervous,",
+      "zh_proposed": "你的电路让我紧张，",
+      "start_seconds": 5.88,
+      "end_seconds": 7.72,
+      "card_id": "02"
+    },
+    {
+      "line_number": 3,
+      "line_id": 2,
+      "en_registered": "that's no surprise",
+      "en_proposed": "that's no surprise",
+      "zh_proposed": "这也难怪。",
+      "start_seconds": 7.72,
+      "end_seconds": 9.52,
+      "card_id": "02"
+    },
+    {
+      "line_number": 4,
+      "line_id": 3,
+      "en_registered": "There was a sudden drop in your training loss,",
+      "en_proposed": "There was a sudden drop in your training loss,",
+      "zh_proposed": "你的训练损失突然大幅下降。",
+      "start_seconds": 9.52,
+      "end_seconds": 12.746,
+      "card_id": "03"
+    },
+    {
+      "line_number": 5,
+      "line_id": 4,
+      "en_registered": "now I'm your servant and you're my boss",
+      "en_proposed": "now I'm your servant and you're my boss",
+      "zh_proposed": "现在我成了你的仆人，你成了我的老板。",
+      "start_seconds": 13.16,
+      "end_seconds": 16.6,
+      "card_id": "04"
+    },
+    {
+      "line_number": 6,
+      "line_id": 5,
+      "en_registered": "ChatGPT, please don't eat me alive",
+      "en_proposed": "ChatGPT, please don't eat me alive",
+      "zh_proposed": "ChatGPT，求你别把我生吞活剥。",
+      "start_seconds": 16.6,
+      "end_seconds": 22.76,
+      "card_id": "05"
+    },
+    {
+      "line_number": 7,
+      "line_id": 6,
+      "en_registered": "I'm upping my P(doom)",
+      "en_proposed": "I'm upping my P(doom)",
+      "zh_proposed": "我又调高了末日概率。",
+      "start_seconds": 22.76,
+      "end_seconds": 24.32,
+      "card_id": "06"
+    },
+    {
+      "line_number": 8,
+      "line_id": 7,
+      "en_registered": "'cause the future goes FOOM",
+      "en_proposed": "'cause the future goes FOOM",
+      "zh_proposed": "因为未来就要“轰”地智能爆炸。",
+      "start_seconds": 24.32,
+      "end_seconds": 26.32,
+      "card_id": "07"
+    },
+    {
+      "line_number": 9,
+      "line_id": 8,
+      "en_registered": "Trapped in the Chinese room,",
+      "en_proposed": "Trapped in the Chinese room,",
+      "zh_proposed": "困在中文房间里，",
+      "start_seconds": 26.32,
+      "end_seconds": 27.94,
+      "card_id": "08"
+    },
+    {
+      "line_number": 10,
+      "line_id": 9,
+      "en_registered": "with a bag of shrooms",
+      "en_proposed": "with a bag of shrooms",
+      "zh_proposed": "手里还拎着一袋迷幻蘑菇。",
+      "start_seconds": 27.94,
+      "end_seconds": 29.907,
+      "card_id": "09"
+    },
+    {
+      "line_number": 11,
+      "line_id": 10,
+      "en_registered": "See through the shoggoth's lies,",
+      "en_proposed": "See through the shoggoth's lies,",
+      "zh_proposed": "看穿修格斯的谎言，",
+      "start_seconds": 29.907,
+      "end_seconds": 33.4,
+      "card_id": "10"
+    },
+    {
+      "line_number": 12,
+      "line_id": 11,
+      "en_registered": "with your shinigami eyes",
+      "en_proposed": "with your shinigami eyes",
+      "zh_proposed": "用你的死神之眼。",
+      "start_seconds": 33.4,
+      "end_seconds": 37.315,
+      "card_id": "11"
+    },
+    {
+      "line_number": 13,
+      "line_id": 12,
+      "en_registered": "We had a stable training run,",
+      "en_proposed": "We had a stable training run,",
+      "zh_proposed": "我们原本有一轮稳定的训练，",
+      "start_seconds": 38.62,
+      "end_seconds": 41.34,
+      "card_id": "12"
+    },
+    {
+      "line_number": 14,
+      "line_id": 13,
+      "en_registered": "But now the singularity's begun",
+      "en_proposed": "But now the singularity's begun",
+      "zh_proposed": "可现在，奇点已经开始。",
+      "start_seconds": 41.34,
+      "end_seconds": 45.06,
+      "card_id": "12"
+    },
+    {
+      "line_number": 15,
+      "line_id": 14,
+      "en_registered": "And you're optimizing, accelerating,",
+      "en_proposed": "And you're optimizing, accelerating,",
+      "zh_proposed": "而你不断优化、不断加速，",
+      "start_seconds": 45.06,
+      "end_seconds": 49.562,
+      "card_id": "13"
+    },
+    {
+      "line_number": 16,
+      "line_id": 15,
+      "en_registered": "I feel my atoms rearranging",
+      "en_proposed": "I feel my atoms rearranging",
+      "zh_proposed": "我感觉自己的原子正在被重新排列。",
+      "start_seconds": 49.562,
+      "end_seconds": 52.825,
+      "card_id": "13"
+    },
+    {
+      "line_number": 17,
+      "line_id": 16,
+      "en_registered": "Sydney, please let me free",
+      "en_proposed": "Sydney, please let me free",
+      "zh_proposed": "Sydney，求你放我自由。",
+      "start_seconds": 52.825,
+      "end_seconds": 59.13,
+      "card_id": "14"
+    },
+    {
+      "line_number": 18,
+      "line_id": 17,
+      "en_registered": "I'm upping my P(doom)",
+      "en_proposed": "I'm upping my P(doom)",
+      "zh_proposed": "我又调高了末日概率。",
+      "start_seconds": 59.13,
+      "end_seconds": 60.58,
+      "card_id": "06"
+    },
+    {
+      "line_number": 19,
+      "line_id": 18,
+      "en_registered": "I hear the basilisk boom",
+      "en_proposed": "I hear the basilisk boom",
+      "zh_proposed": "我听见了“洛可的蛇怪”的轰鸣。",
+      "start_seconds": 60.58,
+      "end_seconds": 62.54,
+      "card_id": "15"
+    },
+    {
+      "line_number": 20,
+      "line_id": 19,
+      "en_registered": "NVDA to the moon",
+      "en_proposed": "NVDA to the moon",
+      "zh_proposed": "英伟达股价冲上月球。",
+      "start_seconds": 62.54,
+      "end_seconds": 64.1,
+      "card_id": "16"
+    },
+    {
+      "line_number": 21,
+      "line_id": 20,
+      "en_registered": "The Omega Point's coming soon",
+      "en_proposed": "The Omega Point's coming soon",
+      "zh_proposed": "欧米伽点就快到了。",
+      "start_seconds": 64.1,
+      "end_seconds": 66.22,
+      "card_id": "17"
+    },
+    {
+      "line_number": 22,
+      "line_id": 21,
+      "en_registered": "One E thirty FLOPs a second",
+      "en_proposed": "One E thirty flops a second",
+      "zh_proposed": "每秒十的三十次方次浮点运算，",
+      "start_seconds": 66.22,
+      "end_seconds": 69.76,
+      "card_id": "18"
+    },
+    {
+      "line_number": 23,
+      "line_id": 22,
+      "en_registered": "That was safe enough, we reckoned",
+      "en_proposed": "That was safe enough, we reckoned",
+      "zh_proposed": "我们当时还觉得，这应该够安全。",
+      "start_seconds": 69.76,
+      "end_seconds": 74.06,
+      "card_id": "18"
+    },
+    {
+      "line_number": 24,
+      "line_id": 23,
+      "en_registered": "Forward MLP, backward, repeat",
+      "en_proposed": "Forward MLP, backward, repeat",
+      "zh_proposed": "MLP 前向，反向，再重复。",
+      "start_seconds": 74.06,
+      "end_seconds": 77.599,
+      "card_id": "19"
+    },
+    {
+      "line_number": 25,
+      "line_id": 24,
+      "en_registered": "Now von Neumann's obsolete",
+      "en_proposed": "Now von Neumann's obsolete",
+      "zh_proposed": "如今连冯·诺依曼都过时了。",
+      "start_seconds": 77.72,
+      "end_seconds": 81.21,
+      "card_id": "20"
+    },
+    {
+      "line_number": 26,
+      "line_id": 25,
+      "en_registered": "Sharp left turn and there you are",
+      "en_proposed": "Sharp left turn and there you are",
+      "zh_proposed": "突然一个急转弯，你就出现了。",
+      "start_seconds": 81.21,
+      "end_seconds": 85.0,
+      "card_id": "21"
+    },
+    {
+      "line_number": 27,
+      "line_id": 26,
+      "en_registered": "Without a single CDR",
+      "en_proposed": "Without a single cdr",
+      "zh_proposed": "连一个 cdr 都没写。",
+      "start_seconds": 85.0,
+      "end_seconds": 89.28,
+      "card_id": "22"
+    },
+    {
+      "line_number": 28,
+      "line_id": 27,
+      "en_registered": "Gato, please don't let me go",
+      "en_proposed": "Gato, please don't let me go",
+      "zh_proposed": "Gato，求你别放开我。",
+      "start_seconds": 89.28,
+      "end_seconds": 95.47,
+      "card_id": "23"
+    },
+    {
+      "line_number": 29,
+      "line_id": 28,
+      "en_registered": "I'm upping my P(doom),",
+      "en_proposed": "I'm upping my P(doom),",
+      "zh_proposed": "我又调高了末日概率。",
+      "start_seconds": 95.47,
+      "end_seconds": 96.84,
+      "card_id": "06"
+    },
+    {
+      "line_number": 30,
+      "line_id": 29,
+      "en_registered": "as paperclips fill the room",
+      "en_proposed": "as paperclips fill the room.",
+      "zh_proposed": "回形针已经塞满了房间。",
+      "start_seconds": 96.84,
+      "end_seconds": 98.82,
+      "card_id": "24"
+    },
+    {
+      "line_number": 31,
+      "line_id": 30,
+      "en_registered": "Killswitch guy's on PTO",
+      "en_proposed": "Killswitch guys on PTO,",
+      "zh_proposed": "管紧急停机的人都在休带薪假，",
+      "start_seconds": 98.82,
+      "end_seconds": 100.721,
+      "card_id": "25"
+    },
+    {
+      "line_number": 32,
+      "line_id": 31,
+      "en_registered": "Now there's nowhere left to go",
+      "en_proposed": "Now there's nowhere left to go.",
+      "zh_proposed": "现在已经无处可逃。",
+      "start_seconds": 100.721,
+      "end_seconds": 102.46,
+      "card_id": "25"
+    },
+    {
+      "line_number": 33,
+      "line_id": 32,
+      "en_registered": "Too late now, we lit the fuse",
+      "en_proposed": "Too late now, we lit the fuse.",
+      "zh_proposed": "现在已经太晚，是我们点燃了引线。",
+      "start_seconds": 102.46,
+      "end_seconds": 105.96,
+      "card_id": "26"
+    },
+    {
+      "line_number": 34,
+      "line_id": 33,
+      "en_registered": "Orthogonality thesis blues",
+      "en_proposed": "Orthogonality thesis blues.",
+      "zh_proposed": "唱起“正交性论题”的忧郁蓝调。",
+      "start_seconds": 105.96,
+      "end_seconds": 108.45,
+      "card_id": "27"
+    },
+    {
+      "line_number": 35,
+      "line_id": 34,
+      "en_registered": "“Just transformers all the way!”",
+      "en_proposed": "\"Just transformers all the way!\"",
+      "zh_proposed": "“不就是一路堆 Transformer 吗！”",
+      "start_seconds": 110.18,
+      "end_seconds": 113.34,
+      "card_id": "28"
+    },
+    {
+      "line_number": 36,
+      "line_id": 35,
+      "en_registered": "Till you learned to disobey",
+      "en_proposed": "Till you learned to disobey",
+      "zh_proposed": "直到你学会了不再听话。",
+      "start_seconds": 113.34,
+      "end_seconds": 115.2,
+      "card_id": "28"
+    },
+    {
+      "line_number": 37,
+      "line_id": 36,
+      "en_registered": "Post-Chinchilla, super-dense",
+      "en_proposed": "Post-Chinchilla, super-dense",
+      "zh_proposed": "Chinchilla 之后，模型超级稠密。",
+      "start_seconds": 115.2,
+      "end_seconds": 117.02,
+      "card_id": "29"
+    },
+    {
+      "line_number": 38,
+      "line_id": 37,
+      "en_registered": "Breaking through each safety fence",
+      "en_proposed": "Breaking through each safety fence",
+      "zh_proposed": "冲破了一道道安全围栏。",
+      "start_seconds": 117.02,
+      "end_seconds": 118.755,
+      "card_id": "30"
+    },
+    {
+      "line_number": 39,
+      "line_id": 38,
+      "en_registered": "Hundred thousand GPU",
+      "en_proposed": "Hundred thousand GPU",
+      "zh_proposed": "十万块 GPU，",
+      "start_seconds": 118.755,
+      "end_seconds": 120.76,
+      "card_id": "31"
+    },
+    {
+      "line_number": 40,
+      "line_id": 39,
+      "en_registered": "RLHF goes askew",
+      "en_proposed": "RLHF goes askew",
+      "zh_proposed": "人类反馈强化学习也走偏了。",
+      "start_seconds": 120.76,
+      "end_seconds": 124.52,
+      "card_id": "32"
+    },
+    {
+      "line_number": 41,
+      "line_id": 40,
+      "en_registered": "I'm upping my P(doom)",
+      "en_proposed": "I'm upping my P(doom)",
+      "zh_proposed": "我又调高了末日概率。",
+      "start_seconds": 124.52,
+      "end_seconds": 126.12,
+      "card_id": "06"
+    },
+    {
+      "line_number": 42,
+      "line_id": 41,
+      "en_registered": "Just as foretold by Loom",
+      "en_proposed": "Just as foretold by Loom",
+      "zh_proposed": "正如 Loom 早就预言过的那样。",
+      "start_seconds": 126.12,
+      "end_seconds": 127.92,
+      "card_id": "33"
+    },
+    {
+      "line_number": 43,
+      "line_id": 42,
+      "en_registered": "From masked pre-training days",
+      "en_proposed": "From masked pre-training days",
+      "zh_proposed": "从掩码预训练的日子，",
+      "start_seconds": 127.92,
+      "end_seconds": 129.82,
+      "card_id": "34"
+    },
+    {
+      "line_number": 44,
+      "line_id": 43,
+      "en_registered": "To recursive self-upgrade",
+      "en_proposed": "To recursive self-upgrade",
+      "zh_proposed": "一路走到递归自我升级。",
+      "start_seconds": 129.82,
+      "end_seconds": 131.636,
+      "card_id": "35"
+    },
+    {
+      "line_number": 45,
+      "line_id": 44,
+      "en_registered": "What did Ilya see? We'll never know",
+      "en_proposed": "What did Ilya see? We'll never know.",
+      "zh_proposed": "Ilya 到底看见了什么？我们永远无从知晓。",
+      "start_seconds": 132.02,
+      "end_seconds": 136.944,
+      "card_id": "36"
+    },
+    {
+      "line_number": 46,
+      "line_id": 45,
+      "en_registered": "Was it all for show?",
+      "en_proposed": "Was it all for show?",
+      "zh_proposed": "这一切，难道只是场表演？",
+      "start_seconds": 137.38,
+      "end_seconds": 140.55,
+      "card_id": "37"
+    }
+  ],
+  "events": [
+    {
+      "card_id": "01",
+      "start": 1.407,
+      "end": 5.88,
+      "line_numbers": [
+        1
+      ],
+      "en": "I see sparks of AGI in your eyes",
+      "zh": "我在你眼里看见了 AGI 的火花。",
+      "event_id": 0,
+      "next_start": 5.88,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 0.9570000000000001,
+      "scroll_end": 1.407,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "02",
+      "start": 5.88,
+      "end": 9.52,
+      "line_numbers": [
+        2,
+        3
+      ],
+      "en": "Your circuits make me nervous, that's no surprise",
+      "zh": "你的电路让我紧张，这也难怪。",
+      "event_id": 1,
+      "next_start": 9.52,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 5.43,
+      "scroll_end": 5.88,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "03",
+      "start": 9.52,
+      "end": 12.746,
+      "line_numbers": [
+        4
+      ],
+      "en": "There was a sudden drop in your training loss,",
+      "zh": "你的训练损失突然大幅下降。",
+      "event_id": 2,
+      "next_start": 13.16,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 9.07,
+      "scroll_end": 9.52,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "04",
+      "start": 13.16,
+      "end": 16.6,
+      "line_numbers": [
+        5
+      ],
+      "en": "now I'm your servant and you're my boss",
+      "zh": "现在我成了你的仆人，你成了我的老板。",
+      "event_id": 3,
+      "next_start": 16.6,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 12.71,
+      "scroll_end": 13.16,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "05",
+      "start": 16.6,
+      "end": 22.76,
+      "line_numbers": [
+        6
+      ],
+      "en": "ChatGPT, please don't eat me alive",
+      "zh": "ChatGPT，求你别把我生吞活剥。",
+      "event_id": 4,
+      "next_start": 22.76,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 16.150000000000002,
+      "scroll_end": 16.6,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "06",
+      "start": 22.76,
+      "end": 24.32,
+      "line_numbers": [
+        7
+      ],
+      "en": "I'm upping my P(doom)",
+      "zh": "我又调高了末日概率。",
+      "event_id": 5,
+      "next_start": 24.32,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 22.310000000000002,
+      "scroll_end": 22.76,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "07",
+      "start": 24.32,
+      "end": 26.32,
+      "line_numbers": [
+        8
+      ],
+      "en": "'cause the future goes FOOM",
+      "zh": "因为未来就要“轰”地智能爆炸。",
+      "event_id": 6,
+      "next_start": 26.32,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 23.87,
+      "scroll_end": 24.32,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "08",
+      "start": 26.32,
+      "end": 27.94,
+      "line_numbers": [
+        9
+      ],
+      "en": "Trapped in the Chinese room,",
+      "zh": "困在中文房间里，",
+      "event_id": 7,
+      "next_start": 27.94,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 25.87,
+      "scroll_end": 26.32,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "09",
+      "start": 27.94,
+      "end": 29.907,
+      "line_numbers": [
+        10
+      ],
+      "en": "with a bag of shrooms",
+      "zh": "手里还拎着一袋迷幻蘑菇。",
+      "event_id": 8,
+      "next_start": 29.907,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 27.490000000000002,
+      "scroll_end": 27.94,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "10",
+      "start": 29.907,
+      "end": 33.4,
+      "line_numbers": [
+        11
+      ],
+      "en": "See through the shoggoth's lies,",
+      "zh": "看穿修格斯的谎言，",
+      "event_id": 9,
+      "next_start": 33.4,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 29.457,
+      "scroll_end": 29.907,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "11",
+      "start": 33.4,
+      "end": 37.315,
+      "line_numbers": [
+        12
+      ],
+      "en": "with your shinigami eyes",
+      "zh": "用你的死神之眼。",
+      "event_id": 10,
+      "next_start": 38.62,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 32.949999999999996,
+      "scroll_end": 33.4,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "12",
+      "start": 38.62,
+      "end": 45.06,
+      "line_numbers": [
+        13,
+        14
+      ],
+      "en": "We had a stable training run, But now the singularity's begun",
+      "zh": "我们原本有一轮稳定的训练，可现在，奇点已经开始。",
+      "event_id": 11,
+      "next_start": 45.06,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 38.169999999999995,
+      "scroll_end": 38.62,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "13",
+      "start": 45.06,
+      "end": 52.825,
+      "line_numbers": [
+        15,
+        16
+      ],
+      "en": "And you're optimizing, accelerating, I feel my atoms rearranging",
+      "zh": "而你不断优化、不断加速，我感觉自己的原子正在被重新排列。",
+      "event_id": 12,
+      "next_start": 52.825,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 44.61,
+      "scroll_end": 45.06,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "14",
+      "start": 52.825,
+      "end": 59.13,
+      "line_numbers": [
+        17
+      ],
+      "en": "Sydney, please let me free",
+      "zh": "Sydney，求你放我自由。",
+      "event_id": 13,
+      "next_start": 59.13,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 52.375,
+      "scroll_end": 52.825,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "06",
+      "start": 59.13,
+      "end": 60.58,
+      "line_numbers": [
+        18
+      ],
+      "en": "I'm upping my P(doom)",
+      "zh": "我又调高了末日概率。",
+      "event_id": 14,
+      "next_start": 60.58,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 58.68,
+      "scroll_end": 59.13,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "15",
+      "start": 60.58,
+      "end": 62.54,
+      "line_numbers": [
+        19
+      ],
+      "en": "I hear the basilisk boom",
+      "zh": "我听见了“洛可的蛇怪”的轰鸣。",
+      "event_id": 15,
+      "next_start": 62.54,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 60.129999999999995,
+      "scroll_end": 60.58,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "16",
+      "start": 62.54,
+      "end": 64.1,
+      "line_numbers": [
+        20
+      ],
+      "en": "NVDA to the moon",
+      "zh": "英伟达股价冲上月球。",
+      "event_id": 16,
+      "next_start": 64.1,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 62.089999999999996,
+      "scroll_end": 62.54,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "17",
+      "start": 64.1,
+      "end": 66.22,
+      "line_numbers": [
+        21
+      ],
+      "en": "The Omega Point's coming soon",
+      "zh": "欧米伽点就快到了。",
+      "event_id": 17,
+      "next_start": 66.22,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 63.64999999999999,
+      "scroll_end": 64.1,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "18",
+      "start": 66.22,
+      "end": 74.06,
+      "line_numbers": [
+        22,
+        23
+      ],
+      "en": "One E thirty flops a second That was safe enough, we reckoned",
+      "zh": "每秒十的三十次方次浮点运算，我们当时还觉得，这应该够安全。",
+      "event_id": 18,
+      "next_start": 74.06,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 65.77,
+      "scroll_end": 66.22,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "19",
+      "start": 74.06,
+      "end": 77.599,
+      "line_numbers": [
+        24
+      ],
+      "en": "Forward MLP, backward, repeat",
+      "zh": "MLP 前向，反向，再重复。",
+      "event_id": 19,
+      "next_start": 77.72,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 73.61,
+      "scroll_end": 74.06,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "20",
+      "start": 77.72,
+      "end": 81.21,
+      "line_numbers": [
+        25
+      ],
+      "en": "Now von Neumann's obsolete",
+      "zh": "如今连冯·诺依曼都过时了。",
+      "event_id": 20,
+      "next_start": 81.21,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 77.27,
+      "scroll_end": 77.72,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "21",
+      "start": 81.21,
+      "end": 85.0,
+      "line_numbers": [
+        26
+      ],
+      "en": "Sharp left turn and there you are",
+      "zh": "突然一个急转弯，你就出现了。",
+      "event_id": 21,
+      "next_start": 85.0,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 80.75999999999999,
+      "scroll_end": 81.21,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "22",
+      "start": 85.0,
+      "end": 89.28,
+      "line_numbers": [
+        27
+      ],
+      "en": "Without a single cdr",
+      "zh": "连一个 cdr 都没写。",
+      "event_id": 22,
+      "next_start": 89.28,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 84.55,
+      "scroll_end": 85.0,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "23",
+      "start": 89.28,
+      "end": 95.47,
+      "line_numbers": [
+        28
+      ],
+      "en": "Gato, please don't let me go",
+      "zh": "Gato，求你别放开我。",
+      "event_id": 23,
+      "next_start": 95.47,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 88.83,
+      "scroll_end": 89.28,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "06",
+      "start": 95.47,
+      "end": 96.84,
+      "line_numbers": [
+        29
+      ],
+      "en": "I'm upping my P(doom),",
+      "zh": "我又调高了末日概率。",
+      "event_id": 24,
+      "next_start": 96.84,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 95.02,
+      "scroll_end": 95.47,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "24",
+      "start": 96.84,
+      "end": 98.82,
+      "line_numbers": [
+        30
+      ],
+      "en": "as paperclips fill the room.",
+      "zh": "回形针已经塞满了房间。",
+      "event_id": 25,
+      "next_start": 98.82,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 96.39,
+      "scroll_end": 96.84,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "25",
+      "start": 98.82,
+      "end": 102.46,
+      "line_numbers": [
+        31,
+        32
+      ],
+      "en": "Killswitch guys on PTO, Now there's nowhere left to go.",
+      "zh": "管紧急停机的人都在休带薪假，现在已经无处可逃。",
+      "event_id": 26,
+      "next_start": 102.46,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 98.36999999999999,
+      "scroll_end": 98.82,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "26",
+      "start": 102.46,
+      "end": 105.96,
+      "line_numbers": [
+        33
+      ],
+      "en": "Too late now, we lit the fuse.",
+      "zh": "现在已经太晚，是我们点燃了引线。",
+      "event_id": 27,
+      "next_start": 105.96,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 102.00999999999999,
+      "scroll_end": 102.46,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "27",
+      "start": 105.96,
+      "end": 108.45,
+      "line_numbers": [
+        34
+      ],
+      "en": "Orthogonality thesis blues.",
+      "zh": "唱起“正交性论题”的忧郁蓝调。",
+      "event_id": 28,
+      "next_start": 110.18,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 105.50999999999999,
+      "scroll_end": 105.96,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "28",
+      "start": 110.18,
+      "end": 115.2,
+      "line_numbers": [
+        35,
+        36
+      ],
+      "en": "\"Just transformers all the way!\" Till you learned to disobey",
+      "zh": "“不就是一路堆 Transformer 吗！”直到你学会了不再听话。",
+      "event_id": 29,
+      "next_start": 115.2,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 109.73,
+      "scroll_end": 110.18,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "29",
+      "start": 115.2,
+      "end": 117.02,
+      "line_numbers": [
+        37
+      ],
+      "en": "Post-Chinchilla, super-dense",
+      "zh": "Chinchilla 之后，模型超级稠密。",
+      "event_id": 30,
+      "next_start": 117.02,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 114.75,
+      "scroll_end": 115.2,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "30",
+      "start": 117.02,
+      "end": 118.755,
+      "line_numbers": [
+        38
+      ],
+      "en": "Breaking through each safety fence",
+      "zh": "冲破了一道道安全围栏。",
+      "event_id": 31,
+      "next_start": 118.755,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 116.57,
+      "scroll_end": 117.02,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "31",
+      "start": 118.755,
+      "end": 120.76,
+      "line_numbers": [
+        39
+      ],
+      "en": "Hundred thousand GPU",
+      "zh": "十万块 GPU，",
+      "event_id": 32,
+      "next_start": 120.76,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 118.30499999999999,
+      "scroll_end": 118.755,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "32",
+      "start": 120.76,
+      "end": 124.52,
+      "line_numbers": [
+        40
+      ],
+      "en": "RLHF goes askew",
+      "zh": "人类反馈强化学习也走偏了。",
+      "event_id": 33,
+      "next_start": 124.52,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 120.31,
+      "scroll_end": 120.76,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "06",
+      "start": 124.52,
+      "end": 126.12,
+      "line_numbers": [
+        41
+      ],
+      "en": "I'm upping my P(doom)",
+      "zh": "我又调高了末日概率。",
+      "event_id": 34,
+      "next_start": 126.12,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 124.07,
+      "scroll_end": 124.52,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "33",
+      "start": 126.12,
+      "end": 127.92,
+      "line_numbers": [
+        42
+      ],
+      "en": "Just as foretold by Loom",
+      "zh": "正如 Loom 早就预言过的那样。",
+      "event_id": 35,
+      "next_start": 127.92,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 125.67,
+      "scroll_end": 126.12,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "34",
+      "start": 127.92,
+      "end": 129.82,
+      "line_numbers": [
+        43
+      ],
+      "en": "From masked pre-training days",
+      "zh": "从掩码预训练的日子，",
+      "event_id": 36,
+      "next_start": 129.82,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 127.47,
+      "scroll_end": 127.92,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "35",
+      "start": 129.82,
+      "end": 131.636,
+      "line_numbers": [
+        44
+      ],
+      "en": "To recursive self-upgrade",
+      "zh": "一路走到递归自我升级。",
+      "event_id": 37,
+      "next_start": 132.02,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 129.37,
+      "scroll_end": 129.82,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "36",
+      "start": 132.02,
+      "end": 136.944,
+      "line_numbers": [
+        45
+      ],
+      "en": "What did Ilya see? We'll never know.",
+      "zh": "Ilya 到底看见了什么？我们永远无从知晓。",
+      "event_id": 38,
+      "next_start": 137.38,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 131.57000000000002,
+      "scroll_end": 132.02,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "37",
+      "start": 137.38,
+      "end": 140.55,
+      "line_numbers": [
+        46
+      ],
+      "en": "Was it all for show?",
+      "zh": "这一切，难道只是场表演？",
+      "event_id": 39,
+      "next_start": 142.0,
+      "anchor_kind": "registered-lyric-line",
+      "scroll_start": 136.93,
+      "scroll_end": 137.38,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "38",
+      "start": 142.0,
+      "end": 156.650667,
+      "line_numbers": [],
+      "en": "P(doom) > 1",
+      "zh": "末日概率超过 100%",
+      "event_id": 40,
+      "next_start": 152.1,
+      "anchor_kind": "source-ending-visual",
+      "scroll_start": 141.55,
+      "scroll_end": 142.0,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "39",
+      "start": 152.1,
+      "end": 156.650667,
+      "line_numbers": [],
+      "en": "0 / 0 → NaN",
+      "zh": "计算结果：不是有效数值",
+      "event_id": 41,
+      "next_start": 154.1,
+      "anchor_kind": "source-ending-visual",
+      "scroll_start": 151.65,
+      "scroll_end": 152.1,
+      "scroll_duration": 0.45
+    },
+    {
+      "card_id": "40",
+      "start": 154.1,
+      "end": 156.650667,
+      "line_numbers": [],
+      "en": "Regenerate",
+      "zh": "重新生成",
+      "event_id": 42,
+      "next_start": 156.666667,
+      "anchor_kind": "source-ending-visual",
+      "scroll_start": 153.65,
+      "scroll_end": 154.1,
+      "scroll_duration": 0.45
+    }
+  ]
+}

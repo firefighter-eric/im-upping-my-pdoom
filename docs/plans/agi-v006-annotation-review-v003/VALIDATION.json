@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_V006_ANNOTATION_REVIEW_003",
+  "checked_at_utc": "2026-10-04T05:56:53.173124+00:00",
+  "entries": 40,
+  "main_lyric_lines_covered_once": 46,
+  "new_context_entries": 10,
+  "total_context_entries": 29,
+  "prior_40_interpretations_unchanged": true,
+  "prior_19_context_notes_unchanged": true,
+  "prior_bound_files_unchanged": true,
+  "prior_user_approval_reference_matches": true,
+  "new_context_human_approval": null,
+  "source_ids_resolve": true,
+  "date_evidence_recorded": true,
+  "maximum_new_context_characters": 81,
+  "frame_reference_hashes_match": true,
+  "all_document_hashes_match": true,
+  "local_document_links_resolve": true,
+  "registered_lyric_input_hashes_match": true,
+  "astra_numeric_scope": "Attributed disclosure of more than 100,000 GPUs for the training run; not an exact several-hundred-thousand count or a total/planned company cluster.",
+  "source_access_limitations": [
+    "Shoggoth original X post inaccessible; late-2022 circulation supported by archived records and a researcher screenshot caption.",
+    "Good writing-period dates are primary; 1965/1966 publication metadata conflict avoided by using the 1960s."
+  ],
+  "repository_checks": {
+    "check": "passed",
+    "test": "9 passed; 0 failed",
+    "verify": "55 preserved migration files; 14 versions; 0 media skipped",
+    "diff_check": "passed"
+  },
+  "visual_design_changed": false,
+  "full_video_created": false,
+  "reading_duration_and_layout_fit": "not evaluated in this text revision"
+}

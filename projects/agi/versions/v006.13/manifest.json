@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.13",
+  "title": "I'm Upping My P(doom) · 原片解梗伴看",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "采用用户确认的 v006.12 底部布局，制作完整 4K60 原片解梗伴看视频。",
+  "status": "approved",
+  "production_stage": "completed-composite",
+  "created_at": "2026-10-04T08:18:46.082Z",
+  "parent_version": "v006.12",
+  "lineage": {
+    "kind": "full-production-of-approved-v006.12-layout",
+    "parent_version": "v006.12",
+    "editorial_parent": "docs/plans/agi-v006-annotation-review-v003",
+    "inherited_mv_renderer": false,
+    "source_id": "LLMV_001_SOURCE"
+  },
+  "request": [
+    "没问题，就按照这个来渲染好了。",
+    "Render the complete video with the accepted v006.12 layout, identical captions, explanations, semantic highlights and original source media."
+  ],
+  "model": "Codex; deterministic TypeScript Canvas 2D typography and FFmpeg composition; no generative video model",
+  "method": "Browser renders the accepted companion layout; FFmpeg directly decodes and embeds the original source picture and copies the full original AAC.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "canvas2d-companion-composite",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "files": {
+      "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "renderer/src/main.ts": "d5af330b2dd7e2fb608ac7e394f854d569e818bed6da3299a723616be41167bd",
+      "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "full-companion-video",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Native 4K text/layout with accepted v006.12 placement. Original 720p30 picture is Lanczos-scaled without cropping or interpolated source motion. Copy complete original AAC."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Decode original video directly and embed without cropping. Its existing graphics remain untouched.",
+    "audio": "Copy complete registered original AAC; no trimming, speed change, narration or re-encoding.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "screen_copy": "data/screen-copy.json",
+    "editorial_review": "data/approved-review-v003.json",
+    "sources": "data/sources.json",
+    "layout": "data/layout.json",
+    "beat_analysis": "data/beat-analysis.json",
+    "lyric_timing": "data/lyric-timing.json",
+    "content_adoption": "provenance/content-adoption.json",
+    "watermark_inspection": "provenance/watermark-inspection.json",
+    "highlights": "data/highlight-map.json",
+    "exporter": "production/render.mjs",
+    "review_player": "watch.html",
+    "layout_approval": "provenance/USER_LAYOUT_APPROVAL.json",
+    "qa_sampling_plan": "provenance/qa-sampling-plan.json"
+  },
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "4145baa0346124155682fdf2b039f5f134a0f86f76820cc3954fec783e39eba0",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "content_adoption": "a16deaa50ffc937981eaa8811d4f738316b6a5168e35023bc8e72ff41edbb69b",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e",
+    "highlights": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d",
+    "exporter": "86f55a326c6cd0b2fa8c371d10ab1841007fb420a0f4195cbeba75162e4d8603",
+    "review_player": "485348a41b3aec13875a21b44eb818bb108574df2486d9b67f77e70c910804f9",
+    "layout_approval": "1e51690d121b5f5ddb5cdfed1c70d7e8d45c69095e0c15587e8c355d4ea2e675",
+    "qa_sampling_plan": "7dd7d63908e2341afb165e22b70764100545f8df1da8f1c21a10a630e9e11c28"
+  },
+  "variants": [
+    {
+      "id": "companion",
+      "label": "原片解梗伴看 · 4K60 · 已确认布局",
+      "generation_id": "LLMV_001_V006_R013_001",
+      "output": {
+        "path": "outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4",
+        "sha256": "417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7",
+        "size_bytes": 323023508,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 3840,
+        "height": 2160,
+        "frame_rate": "60/1",
+        "frame_count": 9400,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "approved",
+        "run_id": "RUN_2026-10-04T08-20-34-342Z_a0d79690"
+      },
+      "poster": "poster.jpg",
+      "known_issues": [
+        "Source picture remains 1280×720 at 30fps, scaled into the native 4K layout.",
+        "Existing 13 uncertain word alignments remain documented; this overall approval does not assert a separate word-level synchronization audit."
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "Noto Sans CJK and Archivo: SIL Open Font License; font files and license included."
+  },
+  "validation": {
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-04T08:26:21.252Z",
+    "human_review": "approved by user as formal edition",
+    "full_video_produced": true,
+    "all_frame_timestamps": "passed",
+    "source_picture_ssim": 0.993829,
+    "actual_playback": "passed",
+    "complete_media_verification": "passed",
+    "highlighted_bilingual_lines": 46,
+    "highlighted_note_occurrences": 43,
+    "full_width_bottom_progress": "passed in preflight and encoded samples",
+    "review_player": "see provenance/player-interaction.json",
+    "encoded_frame_samples": 206,
+    "layout_approval": "User accepted v006.12 still; renderer, data and 8.5-second preflight image identical",
+    "full_video_human_approval": "approved; see provenance/USER_FINAL_APPROVAL.json",
+    "perceptual_sync_review": "Overall video accepted by user; no additional separate word-level audit recorded.",
+    "parent_integrity": "30 parent files unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.12/manifest.json",
+    "accepted_still": {
+      "path": "stills/LLMV_001_V006_R012_001_balanced-bottom_008.500.jpg",
+      "sha256": "e5d886645acd69bf4b818dd8c6c3c05056f14949d77759f5f6e3c9e777e79456",
+      "size_bytes": 1054124,
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 8.5,
+      "kind": "single-rendered-frame",
+      "status": "review",
+      "run_id": "RUN_2026-10-04T08-16-10-288Z_efc2d116"
+    },
+    "exporter_parent": "projects/agi/versions/v006.10/production/render.mjs"
+  },
+  "production_authorization": {
+    "scope": "full-video",
+    "user_statement": "没问题，就按照这个来渲染好了。",
+    "full_render_attempts_authorized": 1,
+    "record": "provenance/USER_LAYOUT_APPROVAL.json"
+  },
+  "designation": "正式稿",
+  "review": {
+    "human_approval": {
+      "approved_by": "conversation-user",
+      "recorded_at": "2026-10-04T08:38:30Z",
+      "timezone": "Asia/Shanghai",
+      "user_statement": "这一份定位正式稿。",
+      "scope": "The exact delivered V006.13 companion video is accepted as the formal edition.",
+      "designation": "正式稿",
+      "generation_id": "LLMV_001_V006_R013_001",
+      "output_sha256": "417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7",
+      "record": "provenance/USER_FINAL_APPROVAL.json",
+      "record_sha256": "05923fa3c843dffaa4bb1f6d8f9b8e3500fb4c6752c527abb89f8bc6bbe4eb6a"
+    }
+  }
+}

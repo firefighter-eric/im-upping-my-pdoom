@@ -1,0 +1,804 @@
+{
+  "status": "passed",
+  "scope": "one still plus layout measurements; no full-video playback or motion validation",
+  "layout": {
+    "canvas": [
+      3840,
+      2160
+    ],
+    "viewport_height": 944,
+    "pairHeights": [
+      {
+        "event": 0,
+        "card_id": "01",
+        "height": 346,
+        "previous_and_current": 346
+      },
+      {
+        "event": 1,
+        "card_id": "02",
+        "height": 343,
+        "previous_and_current": 723
+      },
+      {
+        "event": 2,
+        "card_id": "03",
+        "height": 379,
+        "previous_and_current": 756
+      },
+      {
+        "event": 3,
+        "card_id": "04",
+        "height": 343,
+        "previous_and_current": 756
+      },
+      {
+        "event": 4,
+        "card_id": "05",
+        "height": 310,
+        "previous_and_current": 687
+      },
+      {
+        "event": 5,
+        "card_id": "06",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 6,
+        "card_id": "07",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 7,
+        "card_id": "08",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 8,
+        "card_id": "09",
+        "height": 310,
+        "previous_and_current": 690
+      },
+      {
+        "event": 9,
+        "card_id": "10",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 10,
+        "card_id": "11",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 11,
+        "card_id": "12",
+        "height": 412,
+        "previous_and_current": 792
+      },
+      {
+        "event": 12,
+        "card_id": "13",
+        "height": 412,
+        "previous_and_current": 858
+      },
+      {
+        "event": 13,
+        "card_id": "14",
+        "height": 346,
+        "previous_and_current": 792
+      },
+      {
+        "event": 14,
+        "card_id": "06",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 15,
+        "card_id": "15",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 16,
+        "card_id": "16",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 17,
+        "card_id": "17",
+        "height": 310,
+        "previous_and_current": 690
+      },
+      {
+        "event": 18,
+        "card_id": "18",
+        "height": 412,
+        "previous_and_current": 756
+      },
+      {
+        "event": 19,
+        "card_id": "19",
+        "height": 346,
+        "previous_and_current": 792
+      },
+      {
+        "event": 20,
+        "card_id": "20",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 21,
+        "card_id": "21",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 22,
+        "card_id": "22",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 23,
+        "card_id": "23",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 24,
+        "card_id": "06",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 25,
+        "card_id": "24",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 26,
+        "card_id": "25",
+        "height": 412,
+        "previous_and_current": 792
+      },
+      {
+        "event": 27,
+        "card_id": "26",
+        "height": 310,
+        "previous_and_current": 756
+      },
+      {
+        "event": 28,
+        "card_id": "27",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 29,
+        "card_id": "28",
+        "height": 412,
+        "previous_and_current": 792
+      },
+      {
+        "event": 30,
+        "card_id": "29",
+        "height": 346,
+        "previous_and_current": 792
+      },
+      {
+        "event": 31,
+        "card_id": "30",
+        "height": 310,
+        "previous_and_current": 690
+      },
+      {
+        "event": 32,
+        "card_id": "31",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 33,
+        "card_id": "32",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 34,
+        "card_id": "06",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 35,
+        "card_id": "33",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 36,
+        "card_id": "34",
+        "height": 310,
+        "previous_and_current": 690
+      },
+      {
+        "event": 37,
+        "card_id": "35",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 38,
+        "card_id": "36",
+        "height": 346,
+        "previous_and_current": 726
+      },
+      {
+        "event": 39,
+        "card_id": "37",
+        "height": 310,
+        "previous_and_current": 690
+      },
+      {
+        "event": 40,
+        "card_id": "38",
+        "height": 310,
+        "previous_and_current": 654
+      },
+      {
+        "event": 41,
+        "card_id": "39",
+        "height": 346,
+        "previous_and_current": 690
+      },
+      {
+        "event": 42,
+        "card_id": "40",
+        "height": 346,
+        "previous_and_current": 726
+      }
+    ],
+    "subtitleHeights": [
+      {
+        "line": 1,
+        "height": 107
+      },
+      {
+        "line": 2,
+        "height": 107
+      },
+      {
+        "line": 3,
+        "height": 107
+      },
+      {
+        "line": 4,
+        "height": 107
+      },
+      {
+        "line": 5,
+        "height": 107
+      },
+      {
+        "line": 6,
+        "height": 107
+      },
+      {
+        "line": 7,
+        "height": 107
+      },
+      {
+        "line": 8,
+        "height": 107
+      },
+      {
+        "line": 9,
+        "height": 107
+      },
+      {
+        "line": 10,
+        "height": 107
+      },
+      {
+        "line": 11,
+        "height": 107
+      },
+      {
+        "line": 12,
+        "height": 107
+      },
+      {
+        "line": 13,
+        "height": 107
+      },
+      {
+        "line": 14,
+        "height": 107
+      },
+      {
+        "line": 15,
+        "height": 107
+      },
+      {
+        "line": 16,
+        "height": 107
+      },
+      {
+        "line": 17,
+        "height": 107
+      },
+      {
+        "line": 18,
+        "height": 107
+      },
+      {
+        "line": 19,
+        "height": 107
+      },
+      {
+        "line": 20,
+        "height": 107
+      },
+      {
+        "line": 21,
+        "height": 107
+      },
+      {
+        "line": 22,
+        "height": 107
+      },
+      {
+        "line": 23,
+        "height": 107
+      },
+      {
+        "line": 24,
+        "height": 107
+      },
+      {
+        "line": 25,
+        "height": 107
+      },
+      {
+        "line": 26,
+        "height": 107
+      },
+      {
+        "line": 27,
+        "height": 107
+      },
+      {
+        "line": 28,
+        "height": 107
+      },
+      {
+        "line": 29,
+        "height": 107
+      },
+      {
+        "line": 30,
+        "height": 107
+      },
+      {
+        "line": 31,
+        "height": 107
+      },
+      {
+        "line": 32,
+        "height": 107
+      },
+      {
+        "line": 33,
+        "height": 107
+      },
+      {
+        "line": 34,
+        "height": 107
+      },
+      {
+        "line": 35,
+        "height": 107
+      },
+      {
+        "line": 36,
+        "height": 107
+      },
+      {
+        "line": 37,
+        "height": 107
+      },
+      {
+        "line": 38,
+        "height": 107
+      },
+      {
+        "line": 39,
+        "height": 107
+      },
+      {
+        "line": 40,
+        "height": 107
+      },
+      {
+        "line": 41,
+        "height": 107
+      },
+      {
+        "line": 42,
+        "height": 107
+      },
+      {
+        "line": 43,
+        "height": 107
+      },
+      {
+        "line": 44,
+        "height": 107
+      },
+      {
+        "line": 45,
+        "height": 107
+      },
+      {
+        "line": 46,
+        "height": 107
+      }
+    ],
+    "reading": [
+      {
+        "event": 0,
+        "card_id": "01",
+        "visible_until": 9.52,
+        "full_visible_seconds": 7.662999999999999,
+        "body_characters": 77
+      },
+      {
+        "event": 1,
+        "card_id": "02",
+        "visible_until": 13.16,
+        "full_visible_seconds": 6.83,
+        "body_characters": 77
+      },
+      {
+        "event": 2,
+        "card_id": "03",
+        "visible_until": 16.6,
+        "full_visible_seconds": 6.630000000000002,
+        "body_characters": 79
+      },
+      {
+        "event": 3,
+        "card_id": "04",
+        "visible_until": 22.76,
+        "full_visible_seconds": 9.150000000000002,
+        "body_characters": 55
+      },
+      {
+        "event": 4,
+        "card_id": "05",
+        "visible_until": 24.32,
+        "full_visible_seconds": 7.269999999999999,
+        "body_characters": 70
+      },
+      {
+        "event": 5,
+        "card_id": "06",
+        "visible_until": 26.32,
+        "full_visible_seconds": 3.1099999999999985,
+        "body_characters": 84
+      },
+      {
+        "event": 6,
+        "card_id": "07",
+        "visible_until": 27.94,
+        "full_visible_seconds": 3.170000000000001,
+        "body_characters": 81
+      },
+      {
+        "event": 7,
+        "card_id": "08",
+        "visible_until": 29.907,
+        "full_visible_seconds": 3.1369999999999996,
+        "body_characters": 70
+      },
+      {
+        "event": 8,
+        "card_id": "09",
+        "visible_until": 33.4,
+        "full_visible_seconds": 5.009999999999997,
+        "body_characters": 64
+      },
+      {
+        "event": 9,
+        "card_id": "10",
+        "visible_until": 38.62,
+        "full_visible_seconds": 8.262999999999998,
+        "body_characters": 71
+      },
+      {
+        "event": 10,
+        "card_id": "11",
+        "visible_until": 45.06,
+        "full_visible_seconds": 11.210000000000004,
+        "body_characters": 68
+      },
+      {
+        "event": 11,
+        "card_id": "12",
+        "visible_until": 52.825,
+        "full_visible_seconds": 13.755000000000006,
+        "body_characters": 73
+      },
+      {
+        "event": 12,
+        "card_id": "13",
+        "visible_until": 59.13,
+        "full_visible_seconds": 13.620000000000001,
+        "body_characters": 74
+      },
+      {
+        "event": 13,
+        "card_id": "14",
+        "visible_until": 60.58,
+        "full_visible_seconds": 7.304999999999995,
+        "body_characters": 79
+      },
+      {
+        "event": 14,
+        "card_id": "06",
+        "visible_until": 62.54,
+        "full_visible_seconds": 2.9599999999999964,
+        "body_characters": 84
+      },
+      {
+        "event": 15,
+        "card_id": "15",
+        "visible_until": 64.1,
+        "full_visible_seconds": 3.069999999999996,
+        "body_characters": 74
+      },
+      {
+        "event": 16,
+        "card_id": "16",
+        "visible_until": 66.22,
+        "full_visible_seconds": 3.2299999999999995,
+        "body_characters": 81
+      },
+      {
+        "event": 17,
+        "card_id": "17",
+        "visible_until": 74.06,
+        "full_visible_seconds": 9.510000000000009,
+        "body_characters": 66
+      },
+      {
+        "event": 18,
+        "card_id": "18",
+        "visible_until": 77.72,
+        "full_visible_seconds": 11.05,
+        "body_characters": 70
+      },
+      {
+        "event": 19,
+        "card_id": "19",
+        "visible_until": 81.21,
+        "full_visible_seconds": 6.699999999999991,
+        "body_characters": 70
+      },
+      {
+        "event": 20,
+        "card_id": "20",
+        "visible_until": 85,
+        "full_visible_seconds": 6.830000000000001,
+        "body_characters": 73
+      },
+      {
+        "event": 21,
+        "card_id": "21",
+        "visible_until": 89.28,
+        "full_visible_seconds": 7.620000000000007,
+        "body_characters": 73
+      },
+      {
+        "event": 22,
+        "card_id": "22",
+        "visible_until": 95.47,
+        "full_visible_seconds": 10.02,
+        "body_characters": 78
+      },
+      {
+        "event": 23,
+        "card_id": "23",
+        "visible_until": 96.84,
+        "full_visible_seconds": 7.110000000000002,
+        "body_characters": 84
+      },
+      {
+        "event": 24,
+        "card_id": "06",
+        "visible_until": 98.82,
+        "full_visible_seconds": 2.899999999999994,
+        "body_characters": 84
+      },
+      {
+        "event": 25,
+        "card_id": "24",
+        "visible_until": 102.46,
+        "full_visible_seconds": 5.16999999999999,
+        "body_characters": 74
+      },
+      {
+        "event": 26,
+        "card_id": "25",
+        "visible_until": 105.96,
+        "full_visible_seconds": 6.69,
+        "body_characters": 69
+      },
+      {
+        "event": 27,
+        "card_id": "26",
+        "visible_until": 110.18,
+        "full_visible_seconds": 7.270000000000013,
+        "body_characters": 52
+      },
+      {
+        "event": 28,
+        "card_id": "27",
+        "visible_until": 115.2,
+        "full_visible_seconds": 8.79000000000001,
+        "body_characters": 74
+      },
+      {
+        "event": 29,
+        "card_id": "28",
+        "visible_until": 117.02,
+        "full_visible_seconds": 6.389999999999989,
+        "body_characters": 96
+      },
+      {
+        "event": 30,
+        "card_id": "29",
+        "visible_until": 118.755,
+        "full_visible_seconds": 3.1049999999999924,
+        "body_characters": 73
+      },
+      {
+        "event": 31,
+        "card_id": "30",
+        "visible_until": 120.76,
+        "full_visible_seconds": 3.290000000000009,
+        "body_characters": 59
+      },
+      {
+        "event": 32,
+        "card_id": "31",
+        "visible_until": 124.52,
+        "full_visible_seconds": 5.315,
+        "body_characters": 82
+      },
+      {
+        "event": 33,
+        "card_id": "32",
+        "visible_until": 126.12,
+        "full_visible_seconds": 4.909999999999999,
+        "body_characters": 77
+      },
+      {
+        "event": 34,
+        "card_id": "06",
+        "visible_until": 127.92,
+        "full_visible_seconds": 2.9500000000000055,
+        "body_characters": 84
+      },
+      {
+        "event": 35,
+        "card_id": "33",
+        "visible_until": 129.82,
+        "full_visible_seconds": 3.2499999999999885,
+        "body_characters": 70
+      },
+      {
+        "event": 36,
+        "card_id": "34",
+        "visible_until": 132.02,
+        "full_visible_seconds": 3.6500000000000083,
+        "body_characters": 66
+      },
+      {
+        "event": 37,
+        "card_id": "35",
+        "visible_until": 137.38,
+        "full_visible_seconds": 7.110000000000002,
+        "body_characters": 78
+      },
+      {
+        "event": 38,
+        "card_id": "36",
+        "visible_until": 142,
+        "full_visible_seconds": 9.52999999999999,
+        "body_characters": 78
+      },
+      {
+        "event": 39,
+        "card_id": "37",
+        "visible_until": 152.1,
+        "full_visible_seconds": 14.27,
+        "body_characters": 59
+      },
+      {
+        "event": 40,
+        "card_id": "38",
+        "visible_until": 154.1,
+        "full_visible_seconds": 11.649999999999995,
+        "body_characters": 59
+      },
+      {
+        "event": 41,
+        "card_id": "39",
+        "visible_until": 156.650667,
+        "full_visible_seconds": 4.100667000000004,
+        "body_characters": 70
+      },
+      {
+        "event": 42,
+        "card_id": "40",
+        "visible_until": 156.650667,
+        "full_visible_seconds": 2.100667000000004,
+        "body_characters": 75
+      }
+    ],
+    "all_pairs_fit": true,
+    "all_subtitles_fit": true,
+    "body_size_at_1080p": 24,
+    "card_count": 40,
+    "cue_count": 43,
+    "lyric_line_count": 46,
+    "progress": {
+      "x": 0,
+      "y": 1076,
+      "w": 1920,
+      "h": 4,
+      "duration": 156.66666666666666,
+      "full_width": true,
+      "bottom_flush": true
+    },
+    "footer": {
+      "x": 48,
+      "y": 1032,
+      "timePx": 21,
+      "chapterX": 244,
+      "chapterPx": 20,
+      "standalone_strip": false
+    },
+    "fonts_loaded": true
+  },
+  "sampled_time_seconds": 8.5,
+  "state": {
+    "time": 8.5,
+    "active_card": "02",
+    "current_event": 1,
+    "previous_card": "01",
+    "incoming_event": -1,
+    "scroll_offset": 0,
+    "lyric_line": 3,
+    "current_bounds": [
+      484,
+      827
+    ],
+    "previous_bounds": [
+      104,
+      450
+    ]
+  },
+  "parent_files_preserved": 47,
+  "errors": []
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "design_version": "agi-explainer-v001",
+  "local_date": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "recorded_at_utc": "2026-10-04T03:59:43.153Z",
+  "status": "review",
+  "scope": "Static concept mockups only",
+  "full_video_produced": false,
+  "all_memes_researched": false,
+  "human_approval": null,
+  "tools": {
+    "generation": "image_gen.imagegen built-in",
+    "model": "TBD: model identifier not exposed",
+    "extraction": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "settings": {
+    "transparent_background": false,
+    "requested_dimensions": [
+      3840,
+      2160
+    ],
+    "actual_dimensions": [
+      1672,
+      941
+    ],
+    "inputs_mode": "referenced_image_paths",
+    "runs_per_variant": 1
+  },
+  "source": {
+    "id": "LLMV_001_SOURCE",
+    "repository_relative_path": "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+    "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+    "rights": "TBD",
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "prompt_file": {
+    "path": "provenance/prompts.json",
+    "sha256": "db969ebb92586e06dbfdf2280f81cf10d3194a535bdf055920f744767ab285b7"
+  },
+  "artifacts": [
+    {
+      "id": "A-dark-pdoom",
+      "generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_A",
+      "status": "review",
+      "reference": {
+        "path": "references/source-023800.png",
+        "source_seconds": 23.8,
+        "sha256": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+        "extraction": "ffmpeg -v error -ss <time> -i <registered_source> -frames:v 1 -update 1 <new_reference.png>"
+      },
+      "output": {
+        "path": "mockups/A-dark-pdoom.png",
+        "sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+        "size_bytes": 1251159,
+        "width": 1672,
+        "height": 941
+      },
+      "tool_output_filename": "exec-f6d2f22a-cb60-4dc7-82ca-fd52465b18dc.png",
+      "visual_inspection": "Viewed returned generated image",
+      "approval": "pending"
+    },
+    {
+      "id": "B-paper-pdoom",
+      "generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_B",
+      "status": "review",
+      "reference": {
+        "path": "references/source-023800.png",
+        "source_seconds": 23.8,
+        "sha256": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+        "extraction": "ffmpeg -v error -ss <time> -i <registered_source> -frames:v 1 -update 1 <new_reference.png>"
+      },
+      "output": {
+        "path": "mockups/B-paper-pdoom.png",
+        "sha256": "c6ca4850cbd02d227681b70e1e4973757ef24681b7a7b0017417ba46872917b9",
+        "size_bytes": 1289895,
+        "width": 1672,
+        "height": 941
+      },
+      "tool_output_filename": "exec-2f056928-f348-43bd-bcdd-c37d09224802.png",
+      "visual_inspection": "Viewed returned generated image",
+      "approval": "pending"
+    },
+    {
+      "id": "C-dark-paperclips",
+      "generation_id": "LLMV_001_EXPLAINER_DESIGN_V001_C",
+      "status": "review",
+      "reference": {
+        "path": "references/source-098000.png",
+        "source_seconds": 98,
+        "sha256": "8bc83b9a24574576a0f892b5a5cc5daa212232df7a3e3999c5bd5b8cb4416189",
+        "extraction": "ffmpeg -v error -ss <time> -i <registered_source> -frames:v 1 -update 1 <new_reference.png>"
+      },
+      "output": {
+        "path": "mockups/C-dark-paperclips.png",
+        "sha256": "4341584280ec7f37eba339d2ac149fab52a36181d043e26ad35b018d3cb57c5c",
+        "size_bytes": 1557534,
+        "width": 1672,
+        "height": 941
+      },
+      "tool_output_filename": "exec-1871faf6-d7e6-427d-9cea-5c86b46b59cb.png",
+      "visual_inspection": "Viewed returned generated image",
+      "approval": "pending"
+    }
+  ],
+  "qa": {
+    "concept_legibility": "Chinese main headlines and body reviewed in the three returned images",
+    "window_aspect_ratio": "Concept generation deviates; production must compose unchanged source into exact 2560x1440 rectangle",
+    "source_pixel_fidelity": "Not guaranteed by AI generation; not an accepted source composite",
+    "motion_and_timing": "not produced or tested",
+    "reading_duration": "not validated; C is too dense for the original approximately two-second lyric",
+    "copy_notes": "B adds an unrequested speculative previous-item tagline; do not treat it as fact. All humor readings are editorial interpretations.",
+    "repository_validation": {
+      "check": "passed",
+      "tests": {
+        "passed": 9,
+        "failed": 0
+      },
+      "verify": "passed: 55 preserved migration files and 6 existing versions",
+      "video_media_verification": "not applicable: static mockups only; no new production video"
+    }
+  },
+  "preservation": "No original source, delivered version, or pre-existing tracked edit modified"
+}

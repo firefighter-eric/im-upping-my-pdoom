@@ -1,0 +1,14 @@
+{
+  "version": "v006.11",
+  "commands": {
+    "npm run check": "passed",
+    "npm test": "9 passed",
+    "npm run verify": "passed, 18 versions",
+    "git diff --check": "passed",
+    "npm run verify:media -- --project agi --version v006.11": "passed for source/lineage; no video output in this draft"
+  },
+  "still_files": 1,
+  "full_video_produced": false,
+  "human_visual_review": "pending",
+  "full_video_execution": "Wait for the user to review and confirm, as explicitly requested."
+}

@@ -1,0 +1,66 @@
+{
+  "source_video_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+  "method": "ffmpeg single-frame extraction at twelve targeted times; no source modification; sampled observations, not exhaustive frame-by-frame acceptance",
+  "frames": [
+    {
+      "time_seconds": 4,
+      "path": "references/source-004.jpg",
+      "sha256": "1fef042b8afb99585b59303676d11823e0384f8b05827970c2af73fd267b2a0a"
+    },
+    {
+      "time_seconds": 68,
+      "path": "references/source-068.jpg",
+      "sha256": "a7ce276428f94732b4fb2ceb968ee711952419f399890fa14db2f432210e425d"
+    },
+    {
+      "time_seconds": 71,
+      "path": "references/source-071.jpg",
+      "sha256": "60a44f2c8e6fe9883c29c005107cd39b9cf5c5c7ef8857338af8f3a297878d11"
+    },
+    {
+      "time_seconds": 79,
+      "path": "references/source-079.jpg",
+      "sha256": "a06b6c681a09a63b66078bf7a20ba5ca927b09aeb7e8fbcf2f35d875019dd611"
+    },
+    {
+      "time_seconds": 86,
+      "path": "references/source-086.jpg",
+      "sha256": "e19b8827e1dbf24a0b1f9764418a4bbaeddcce8e9f9769c7c968f925cf14e68b"
+    },
+    {
+      "time_seconds": 127,
+      "path": "references/source-127.jpg",
+      "sha256": "3b7e4046e71591b6374513055cb2412e6613625232dc9ae0b1ee4169da97cef4"
+    },
+    {
+      "time_seconds": 138,
+      "path": "references/source-138.jpg",
+      "sha256": "2ca193708b27e29638142af6c902fcd15eaae77f1142d695c321d9ec1c7e7fc7"
+    },
+    {
+      "time_seconds": 146,
+      "path": "references/source-146.jpg",
+      "sha256": "44d2d9a553cd22a7d85aea5a72595d2ff8e03ac8662f8635e005452f6c026f73"
+    },
+    {
+      "time_seconds": 151,
+      "path": "references/source-151.jpg",
+      "sha256": "81011cc6880521f4f4c9c7347fd508ee7670726ea6adb74441fff6fe6ae3a7ae"
+    },
+    {
+      "time_seconds": 153,
+      "path": "references/source-153.jpg",
+      "sha256": "ca9676f1a963fea77e105130c30265fa13f1a451f76a19ef2aefb82b19d019bf"
+    },
+    {
+      "time_seconds": 154,
+      "path": "references/source-154.jpg",
+      "sha256": "732357dc3e83d578253f959c61cebb9b7b25ef56310e0ba18ee096618ec917f7"
+    },
+    {
+      "time_seconds": 155,
+      "path": "references/source-155.jpg",
+      "sha256": "44b25f12d10d54968a16d7dd7c6acf18018c0ddccf3f01a16cb19b0dec703d84"
+    }
+  ]
+}

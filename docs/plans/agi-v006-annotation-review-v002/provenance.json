@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_V006_ANNOTATION_REVIEW_002",
+  "project_id": "LLMV_001",
+  "created_at_utc": "2026-10-04T05:48:04.399766+00:00",
+  "status": "review-with-new-source-context",
+  "tools": [
+    "web.run: live source/date verification",
+    "Python standard library: structured editorial revision and SHA-256 preservation checks"
+  ],
+  "model": "Codex; exact model identifier not exposed",
+  "request_path": "request.json",
+  "request_sha256": "4621b872ec23118c890053565f15f3fc2a80b435504d2d7ed7b4b3944a74c14a",
+  "parent_artifact": {
+    "id": "LLMV_001_V006_ANNOTATION_REVIEW_001",
+    "path": "../agi-v006-annotation-review-v001/annotations.json",
+    "sha256": "cb0b735d278f81a6933330b35dd531d1b4d09c4ddb5392cd46251bce920c2fe1"
+  },
+  "parent_approval": {
+    "path": "../agi-v006-annotation-review-v001/USER_CONTENT_APPROVAL.json",
+    "sha256": "cbe524ef6f6127873d432d7bfd24cab2e1c74367f13290ef3cdf2891c992992d",
+    "scope": "Only the original 40 interpretations; new source/date notes have no inherited human approval."
+  },
+  "semantic_preservation": {
+    "fields": [
+      "title",
+      "kind",
+      "lyric_lines",
+      "meaning",
+      "lyric_joke",
+      "review_boundary",
+      "source_ids",
+      "source_frame_seconds"
+    ],
+    "parent_interpretations_sha256": "0d9e196e30995070f36e702a40f00492847e45b3b053bd990bbd6713c9884990",
+    "all_40_preserved": true
+  },
+  "input_hashes": {
+    "registered_lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "registered_text_audit": "01c735a0b40e060d370aa1012f0bef9dd003cf11f5c4cc037f25ce24207863cd",
+    "source_video": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+  },
+  "work_product_hashes": {
+    "annotations.json": "c9a3f05407484d3db6879d299d4f27485581ea9b4854fbd278c5865ff93270bb",
+    "sources.json": "5b673bec6c7ac2b894fc5b36cad4643b4c7a88564272c450de1c29e2fd7965a9",
+    "source-context.json": "ff26b7c2ea38c0a98890adc5011d5f89ef9f41447e2df572f0d5330e75496e87",
+    "frame-evidence.json": "e92e927bbc42aa732780abc78066328b1e60c2b2493ababbbdcd3346781e518e",
+    "REVIEW.md": "47dbe83ee816e5d4029b111c2a65abb10496c73e974bfa98ae23ecb1d22b570a",
+    "SOURCE_NOTES.md": "83c4d75254984ff933659564312aaaad205bd4d9c96a9348a26307bb82491afb",
+    "request.json": "4621b872ec23118c890053565f15f3fc2a80b435504d2d7ed7b4b3944a74c14a"
+  },
+  "rights": {
+    "source_video": "TBD",
+    "audio_and_lyrics": "TBD",
+    "adaptation": "TBD"
+  },
+  "human_approval": null,
+  "visual_design_changed": false,
+  "full_video_produced": false
+}

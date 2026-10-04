@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-04",
+  "fonts": [
+    {
+      "path": "renderer/public/fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "bytes": 16437364
+    },
+    {
+      "path": "renderer/public/fonts/OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-500.ttf",
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "bytes": 121588
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-OFL.txt",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "bytes": 4388
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-700.ttf",
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "bytes": 121440
+    }
+  ],
+  "noto_source": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+  "noto_license_source": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE",
+  "archivo_source": "Inherited fixed local Archivo 500/700 assets and OFL from v005.0; no edits.",
+  "license": "SIL OFL 1.1"
+}

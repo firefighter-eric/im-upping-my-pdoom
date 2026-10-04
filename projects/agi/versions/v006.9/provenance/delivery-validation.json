@@ -1,0 +1,67 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.9",
+  "status": "review",
+  "recorded_at": "2026-10-04T07:20:01.479672+00:00",
+  "output": {
+    "path": "outputs/LLMV_001_V006_R009_001_companion_v006.9.mp4",
+    "sha256": "65aa5584c6d4e539b9da91f244a47b24dd6800369f48c29eaf5a9b8f1a1dd702",
+    "size_bytes": 319446804,
+    "duration_seconds": 156.666667,
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "frame_count": 9400,
+    "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+    "status": "review",
+    "run_id": "RUN_2026-10-04T07-11-55-115Z_95f86bd7"
+  },
+  "memory": {
+    "scope": "Node exporter process only; Chromium and FFmpeg are separate processes. Samples taken every 240 frames and on the last frame, before final file hashing.",
+    "sample_count": 41,
+    "frames_completed": 9400,
+    "minimum_heap_bytes": 54113808,
+    "maximum_heap_bytes": 91242792,
+    "final_heap_bytes": 67999480,
+    "minimum_rss_bytes": 284983296,
+    "maximum_rss_bytes": 335331328,
+    "final_rss_bytes": 297631744,
+    "parent_failure": "v006.8 accumulated about 4 GiB of JavaScript heap and aborted.",
+    "settings_unchanged": true,
+    "heap_limit_increased": false,
+    "conclusion": "No accumulating image payloads observed through the complete render."
+  },
+  "commands": {
+    "npm run check": "passed",
+    "npm test": "9 passed, 0 failed",
+    "npm run verify": "passed",
+    "npm run verify:media -- --project agi --version v006.9": "passed",
+    "npm run verify:playback -- --project agi --version v006.9": "passed"
+  },
+  "cfr": {
+    "method": "Check the presentation timestamps of all encoded video packets, sorted into presentation order; frame decode count independently checked during registration.",
+    "frames": 9400,
+    "first_pts": 0.0,
+    "last_pts": 156.65,
+    "maximum_grid_error_seconds": 3.333333467026023e-07,
+    "all_frames_on_60fps_grid": true,
+    "output_sha256": "65aa5584c6d4e539b9da91f244a47b24dd6800369f48c29eaf5a9b8f1a1dd702"
+  },
+  "source_picture": {
+    "method": "Full-duration SSIM between encoded source rectangle and original source decoded, rounded to the 60fps grid and Lanczos-scaled identically. Original source PTS preserved.",
+    "ssim_all": 0.993829,
+    "ffmpeg_summary": "SSIM Y:0.993023 (21.563423) U:0.995614 (23.579082) V:0.995267 (23.248632) All:0.993829 (22.096383)",
+    "threshold": 0.95,
+    "status": "passed",
+    "source_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+    "output_sha256": "65aa5584c6d4e539b9da91f244a47b24dd6800369f48c29eaf5a9b8f1a1dd702",
+    "not_a_lossless_claim": true
+  },
+  "human_approval": null,
+  "limits": [
+    "Human perceptual audio/lyric timing and visual approval remain pending.",
+    "The existing 13 low-confidence word alignments are retained.",
+    "Dense notes and the short ending may require pausing."
+  ]
+}

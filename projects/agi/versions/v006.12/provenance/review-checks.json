@@ -1,0 +1,18 @@
+{
+  "version": "v006.12",
+  "commands": {
+    "check": "passed",
+    "test": "9 passed",
+    "verify": "passed; 19 versions",
+    "diff_check": "passed",
+    "verify_media": "passed source/lineage checks only; no video output in this draft"
+  },
+  "actual_image_dimensions": [
+    3840,
+    2160
+  ],
+  "still_count": 1,
+  "visual_inspection": "reviewed actual rendered image; no clipping or overlap; subtitle/time gap reduced",
+  "full_video_rendered": false,
+  "human_review": "pending"
+}

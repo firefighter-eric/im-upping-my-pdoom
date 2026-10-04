@@ -1,0 +1,13 @@
+{
+  "TREATMENT.md": "120d4705789c365baed94055872a4dc0477176a6ad02ef9c48e1c6efd5b1124d",
+  "data/annotation-cards.json": "3e79124d49be11b3813d3da99959e52e5b098726d141dc2713b84ba72a654b3e",
+  "data/reading-layout.json": "86c26032eda333e6cefde0da4115b7ed06841e41d3f3edcfb149b773ab1b126d",
+  "design/mockups/A-song-title-only.png": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa",
+  "design/references/base-v006.5.png": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547",
+  "manifest.json": "aae4f444a2d6e024b9f8b2fc495601e6510241c7acd4507f33b06c0b30c1cd98",
+  "provenance/GENERATION.json": "ae51f14fc8198f38166b4d371cd94eca5e39882ea58d8d87cb7c7754c39c6e8d",
+  "provenance/VALIDATION.json": "3221f281379265f8b914b5e53f19d7f6dbc989e4dbeead33e02182c4a92cd31b",
+  "provenance/input-checks.json": "2d56822c10489578018f46fb528fb3f16114d292cf51e23889cde5c7ec9b455b",
+  "provenance/prompt.txt": "faaab85435996fd2d15c60eb3d831ae67ec2edbc5f72a61f8e72263903542adb",
+  "renderer/index.html": "c0ec32990e886e6ea53ae910bdc6d47105d94971e2e14fe813b6389653335ccf"
+}

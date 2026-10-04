@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.5",
+  "title": "I'm Upping My P(doom) · 原片解梗伴看 · 移除原片时间标签",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看视频静态修订：移除视频框内的原片与时间标签栏，由原片填满窗口，保留双语字幕及完整的上一条解释；不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T05:10:02.549Z",
+  "parent_version": "v006.4",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "larger-video-smaller-lyrics",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+    "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。",
+    "标题改为是不是改为 I'm up in my p-doom 比较好呢？还是保留 AGI 比较好呢？这个歌其实就是 I'm up in my p-doom。",
+    "可以把视频放得大一点，然后左下的字幕稍微小一号吗？",
+    "原片包括时间的，在左上方那个东西是不是可以去掉呢？然后这样的话视频又可以变大一点。"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Built-in image_gen.imagegen single static edit: remove added source/time strip and expand source picture into full window; other typography and annotation copy retained. No motion or full video.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "64a38ac1a984f0c322510dc68c801d9e53940538d8a4a398c14c242c74686669",
+    "files": {
+      "renderer/index.html": "64a38ac1a984f0c322510dc68c801d9e53940538d8a4a398c14c242c74686669"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "annotation_cards": "data/annotation-cards.json",
+    "prompt": "provenance/prompt.txt",
+    "generation": "provenance/GENERATION.json",
+    "reference": "design/references/base-v006.4.png",
+    "source_frame_reference": "design/references/source-023800.png",
+    "concept": "design/mockups/A-clean-video-window.png"
+  },
+  "data_hashes": {
+    "layout": "cf82c5707b4f9ffa1f89b9e9ce0c7042388eba7fd7682992687ba4db0496a310",
+    "annotation_cards": "70d238603c48ded499d96ff502cea5c1fc882f14a069fb936a961bf2c3d5cce1",
+    "prompt": "b8c8f5bd11910ef95cea11a588a24bf24636fd7ef6e3286791ecbe7acce9ea34",
+    "generation": "93ecba9cacc7ae2680e6f82d4109ca34e2863b8898380495be4e6678c59dc45c",
+    "reference": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9",
+    "source_frame_reference": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+    "concept": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547"
+  },
+  "variants": [
+    {
+      "id": "clean-video-window",
+      "label": "A · 移除原片时间标签",
+      "generation_id": "LLMV_001_V006_R005_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.5/design/mockups/A-clean-video-window.png",
+      "design_output": {
+        "path": "design/mockups/A-clean-video-window.png",
+        "sha256": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547",
+        "size_bytes": 1364664,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      },
+      "known_issues": [
+        "仅静态样图；滚动动画、全片解梗、双语同步与阅读时长尚未制作验收。",
+        "AI 概念图不保证原片逐像素一致；正式合成须直接按完整 16:9 嵌入原视频，不再设置标签栏。",
+        "右侧文案继承前版；事实与编辑性笑点解读的区分不变。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Source/time strip and separator removed; video fills rectangle; both subtitle lines and complete previous/current notes retained.",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.4/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R004_001",
+    "parent_design_sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9"
+  }
+}

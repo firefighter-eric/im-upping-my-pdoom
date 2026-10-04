@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04T08:15:58.139487+00:00",
+  "request": "这边红色的是不是有点空",
+  "previous_scope": "先渲染一页，看过以后再渲染全部画面。",
+  "scope": "single-frame-only",
+  "interpretation": "The marked space is between subtitles and bottom metadata, not below the progress line. Move the bilingual caption block down by 40 logical px, increase its language gap from 9 to 14 px, move metadata up by 26 px, and dock the next-note hint below the right reading content only when it fits.",
+  "parent_version": "v006.11",
+  "user_markup_sha256": "4c3e95d64c53affb99958fef9a990c341d103f310ab468d3e1b33cd9401061d3",
+  "explanation_text_changed": false,
+  "font_sizes_changed": false,
+  "original_video_rect_changed": false,
+  "full_video_render_authorized_for_this_revision": false,
+  "human_visual_approval": null
+}

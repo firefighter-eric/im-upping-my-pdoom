@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.3",
+  "title": "AGI · 原片解梗伴看 · 歌词与梗点解释修订",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看视频设计：右侧每条注释含对应中英歌词、梗的含义与本句用梗方式，并完整保留上一条；左下继续双语字幕。不是原片重渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T05:00:40.346Z",
+  "parent_version": "v006.2",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "bilingual-lyrics",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+    "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Built-in image_gen.imagegen static edit: lyric quote, Chinese translation, source-backed term definition and clearly separated editorial joke explanation for each note. No full video or motion produced.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "23627a1c82f1736a182c04b6166fc745e9d1232560425e1e3288f24684a269ef",
+    "files": {
+      "renderer/index.html": "23627a1c82f1736a182c04b6166fc745e9d1232560425e1e3288f24684a269ef"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "annotation_cards": "data/annotation-cards.json",
+    "prompt": "provenance/prompt.txt",
+    "generation": "provenance/GENERATION.json",
+    "reference": "design/references/base-v006.2.png",
+    "concept": "design/mockups/A-lyric-meme-notes.png"
+  },
+  "data_hashes": {
+    "layout": "ef082731eb076bfa94b6a52f342eaf875d9926cc6010f7ecf4a4d38971fbf523",
+    "annotation_cards": "ac800419dc47cccf1d95645cb02cc2dc36e2aecadac3905271c76395ea0edebc",
+    "prompt": "9c05bf1b589f94606f2c56f49e96f36dd6e25ae115fcaf656f815a3afe261bfc",
+    "generation": "f600fbae5d85f5695b33d3f7188b9fda8d0f6d4a9d4bb2fdeae1d44f2c8d23f8",
+    "reference": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc",
+    "concept": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2"
+  },
+  "variants": [
+    {
+      "id": "lyric-meme-notes",
+      "label": "A · 对应歌词与具体梗解释",
+      "generation_id": "LLMV_001_V006_R003_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.3/design/mockups/A-lyric-meme-notes.png",
+      "design_output": {
+        "path": "design/mockups/A-lyric-meme-notes.png",
+        "sha256": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2",
+        "size_bytes": 1457696,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      },
+      "known_issues": [
+        "仅两条示例注释；全片梗考证、中文翻译、阅读时长与滚动动画均未完成。",
+        "歌词笑点属于编辑性解读，不作为作者确认意图。",
+        "AI 概念稿不保证精确字号或原片像素，正式视频需直接合成原视频。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Previous and current notes each contain full bilingual lyric quotes and complete concrete joke explanations",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.2/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R002_001",
+    "parent_design_sha256": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc"
+  }
+}

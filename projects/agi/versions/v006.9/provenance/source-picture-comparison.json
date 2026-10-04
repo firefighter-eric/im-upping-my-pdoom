@@ -1,0 +1,10 @@
+{
+  "method": "Full-duration SSIM between encoded source rectangle and original source decoded, rounded to the 60fps grid and Lanczos-scaled identically. Original source PTS preserved.",
+  "ssim_all": 0.993829,
+  "ffmpeg_summary": "SSIM Y:0.993023 (21.563423) U:0.995614 (23.579082) V:0.995267 (23.248632) All:0.993829 (22.096383)",
+  "threshold": 0.95,
+  "status": "passed",
+  "source_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+  "output_sha256": "65aa5584c6d4e539b9da91f244a47b24dd6800369f48c29eaf5a9b8f1a1dd702",
+  "not_a_lossless_claim": true
+}
