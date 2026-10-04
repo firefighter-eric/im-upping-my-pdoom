@@ -1,0 +1,38 @@
+{
+  "version": "v006.0",
+  "local_date": "2026-10-04",
+  "classification": "special annotated companion video; not an original-source re-render",
+  "preserved_files": 11,
+  "preserved_hashes": "identical",
+  "checks": {
+    "check": "passed",
+    "tests": "9 passed",
+    "verify": "7 versions and 55 preserved migration files passed",
+    "catalog": "classification and draft/design-only status visible"
+  },
+  "design_review": {
+    "images": [
+      {
+        "src": "../design/mockups/A-dark-pdoom.png",
+        "complete": true,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "../design/mockups/B-paper-pdoom.png",
+        "complete": true,
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "src": "../design/mockups/C-dark-paperclips.png",
+        "complete": true,
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "console_page_errors": [],
+    "export_guard": "v006.0 仅完成静态设计样图；视频合成器尚未实现，不能导出视频。"
+  },
+  "full_video_created": false
+}

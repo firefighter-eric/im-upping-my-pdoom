@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.5",
+  "generation_id": "LLMV_001_V006_R005_001",
+  "variant": "clean-video-window",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T05:10:02.549Z",
+  "request": "原片包括时间的，在左上方那个东西是不是可以去掉呢？然后这样的话视频又可以变大一点。",
+  "scope": "One static edit removing added source/time header strip and expanding source picture into the freed area",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "b8c8f5bd11910ef95cea11a588a24bf24636fd7ef6e3286791ecbe7acce9ea34"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-v006.4.png",
+      "design/references/source-023800.png"
+    ],
+    "transparent_background": false,
+    "calls": 1
+  },
+  "references": [
+    {
+      "role": "edit-target",
+      "parent_version": "v006.4",
+      "parent_generation_id": "LLMV_001_V006_R004_001",
+      "parent_path": "design/mockups/A-larger-video-smaller-lyrics.png",
+      "path": "design/references/base-v006.4.png",
+      "sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9"
+    },
+    {
+      "role": "supporting-original-frame",
+      "time_seconds": 23.8,
+      "parent_path": "projects/agi/versions/v006.0/design/references/source-023800.png",
+      "path": "design/references/source-023800.png",
+      "sha256": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+      "source_id": "LLMV_001_SOURCE"
+    }
+  ],
+  "registered_source_checks": [
+    {
+      "role": "video",
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+      "status": "matched-before-and-after-generation"
+    },
+    {
+      "role": "audio",
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "status": "matched-before-and-after-generation"
+    }
+  ],
+  "code": {
+    "path": "renderer/index.html",
+    "sha256": "64a38ac1a984f0c322510dc68c801d9e53940538d8a4a398c14c242c74686669",
+    "purpose": "Static review page only, no video compositor"
+  },
+  "output": {
+    "path": "design/mockups/A-clean-video-window.png",
+    "sha256": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547",
+    "size_bytes": 1364664,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-18d4f0c3-07d6-49cc-aeef-7a1f8799b476.png",
+  "visual_review": {
+    "viewed": true,
+    "change": "Added source/time strip and its bottom separator are absent; source picture starts at the outer top border",
+    "left": "Smaller bilingual subtitles retained and fully readable, matching orange keywords retained",
+    "right": "Complete previous and current bilingual lyric quotes and explanations retained",
+    "geometry": "Source picture uses the full approximately 16:9 rectangle. Generated geometry remains approximate; production requires true 16:9 original-video embed.",
+    "footer": "Bottom progress and time remain",
+    "motion": "Not produced or validated",
+    "reading_time": "Not validated",
+    "exact_source_pixel_identity": false
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

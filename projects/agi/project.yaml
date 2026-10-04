@@ -10,7 +10,16 @@ canonical_lyrics_url: https://docs.osmarks.net/hypha/p%28doom%29_song_objectivel
 source_metadata: sources/asset-original-v001.yaml
 rights:
   status: TBD
-  notes: 原始视频、音乐、歌词与改编权利沿用来源登记；生成候选未获人工批准。
+  notes: 原始视频、音乐、歌词与改编权利沿用来源登记；v006.13 的正式稿确认属于制作验收，不改变权利状态。
+formal_edition:
+  version: v006.13
+  variant: companion
+  generation_id: LLMV_001_V006_R013_001
+  designation: 正式稿
+  status: approved
+  output: versions/v006.13/outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4
+  sha256: 417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7
+  approval_record: versions/v006.13/provenance/USER_FINAL_APPROVAL.json
 sources:
   - id: LLMV_001_SOURCE
     kind: reference-video

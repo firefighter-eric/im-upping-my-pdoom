@@ -1,0 +1,19 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.5",
+  "local_date": "2026-10-04",
+  "check": "passed",
+  "tests": {"passed": 9, "failed": 0},
+  "verify": "passed: 55 preserved migration files and 12 versions",
+  "diff_check": "passed",
+  "image": {"width": 1672, "height": 941, "sha256": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547"},
+  "image_inspection": "Viewed generated still: added source/time label strip and its horizontal separator removed; picture fills the former full outer rectangle, no empty label strip. Lower bilingual lyrics, footer time and complete previous/current right-side explanations retained.",
+  "geometry_limit": "Static generative approximation; production compositor must preserve exact 16:9 original video and omit the removed label strip.",
+  "parent_design_sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9",
+  "parent_preserved": true,
+  "source_video_and_audio_hashes": "matched registered sources before and after generation",
+  "reading_duration_validation": "pending; static sample only",
+  "motion_created": false,
+  "full_video_created": false,
+  "human_approval": null
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.13",
+  "variant_id": "companion",
+  "generation_id": "LLMV_001_V006_R013_001",
+  "designation": "正式稿",
+  "previous_status": "review",
+  "status": "approved",
+  "approved_by": "conversation-user",
+  "approval_date": "2026-10-04",
+  "recorded_at": "2026-10-04T08:38:30Z",
+  "timezone": "Asia/Shanghai",
+  "user_statement": "这一份定位正式稿。",
+  "scope": "The exact delivered V006.13 companion video is accepted as the formal edition.",
+  "output": {
+    "path": "outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4",
+    "sha256": "417402889efc0418340b53b1a4dc64893be73505801c6db1f55bfc50a07be0f7",
+    "size_bytes": 323023508,
+    "run_id": "RUN_2026-10-04T08-20-34-342Z_a0d79690"
+  },
+  "previous_manifest": {
+    "path": "provenance/manifest-before-final-approval.json",
+    "sha256": "6e63cde757bcb77372c386b9af3e1e61231fb39c0cd4d771645de30cbb5040c7"
+  },
+  "existing_verification": [
+    "provenance/delivery-validation.json",
+    "provenance/playback.json",
+    "provenance/player-interaction.json"
+  ],
+  "notes": [
+    "The existing video, renderer, input mappings, data, parameters and historical run records are unchanged.",
+    "Overall user acceptance does not claim a new separate word-level synchronization audit; the 13 uncertain alignments remain documented.",
+    "This records production acceptance only; existing rights remain TBD and no external publication is performed."
+  ]
+}

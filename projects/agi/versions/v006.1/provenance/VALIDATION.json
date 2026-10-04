@@ -1,0 +1,15 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.1",
+  "local_date": "2026-10-04",
+  "check": "passed",
+  "tests": {"passed": 9, "failed": 0},
+  "verify": "passed: 55 preserved migration files and 8 versions",
+  "diff_check": "passed",
+  "image_inspection": "Viewed the generated static image: complete previous ChatGPT explanation and complete current P(doom) explanation are both visible; right-side type is smaller than the parent sample.",
+  "parent_design_sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+  "parent_preserved": true,
+  "motion_validation": "not applicable: motion was not produced",
+  "full_video_created": false,
+  "human_approval": null
+}

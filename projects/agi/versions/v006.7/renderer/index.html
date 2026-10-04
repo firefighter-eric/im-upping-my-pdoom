@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V006.7 · 右侧文字微缩</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui,sans-serif;background:#101012;color:#f1eee7}body{max-width:1280px;margin:0 auto;padding:36px 24px 64px}h1{font-size:clamp(24px,4vw,40px);line-height:1.25;margin:12px 0}.label,a{color:#ff9966}.muted{color:#b0b0b5}figure{margin:32px 0 0}img{display:block;width:100%;height:auto;border:1px solid #414146;box-sizing:border-box}figcaption{margin-bottom:12px;font-weight:600}
+</style>
+<header>
+<p class="label">V006.7 · 特殊衍生视频 · draft</p>
+<h1>I'm Upping My P(doom)</h1>
+<p>右侧歌词、标题和解释文字再微缩一档，保留完整上一条和当前条；左侧视频与双语字幕保持原样。</p>
+<p class="muted">静态样图，原片伴看。双语同步、滚动动画和完整视频尚未制作。</p>
+<p><a href="../TREATMENT.md">修订说明</a> · <a href="../manifest.json">版本清单</a> · <a href="../../v006.6/renderer/index.html">对比 v006.6</a> · <a href="../../../../../docs/plans/agi-v006-annotation-review-v001/REVIEW.md">40 条解梗审稿</a></p>
+</header>
+<main><figure><figcaption>A · 右侧文字微缩 · review</figcaption><img src="../design/mockups/A-slightly-smaller-annotations.png" width="1672" height="941" alt="右侧文字微缩，原片窗口、双语字幕和右侧前后两条解释保持完整"></figure></main>
+<script>
+const unavailable=()=>new Error('v006.7 仅完成静态样图；滚动动画与视频合成器尚未实现，不能导出视频。');
+window.ready=new URLSearchParams(location.search).has('export')?Promise.reject(unavailable()):Promise.resolve();
+window.ready.catch(()=>{});
+window.renderFrame=()=>{throw unavailable();};
+</script>
+</html>

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.4",
+  "generation_id": "LLMV_001_V006_R004_001",
+  "variant": "larger-video-smaller-lyrics",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T05:07:08.129Z",
+  "request": "可以把视频放得大一点，然后左下的字幕稍微小一号吗？",
+  "scope": "One static concept edit: larger source video region and smaller bilingual subtitles",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "738e08d944d471f2430b1b8fe37a054489d96826a7c7ef9b695c43258db8e895"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-v006.3.png",
+      "design/references/source-023800.png"
+    ],
+    "transparent_background": false,
+    "calls": 1
+  },
+  "references": [
+    {
+      "role": "edit-target",
+      "parent_version": "v006.3",
+      "parent_generation_id": "LLMV_001_V006_R003_001",
+      "parent_path": "design/mockups/A-lyric-meme-notes.png",
+      "path": "design/references/base-v006.3.png",
+      "sha256": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2"
+    },
+    {
+      "role": "supporting-original-frame",
+      "time_seconds": 23.8,
+      "parent_path": "projects/agi/versions/v006.0/design/references/source-023800.png",
+      "path": "design/references/source-023800.png",
+      "sha256": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+      "source_id": "LLMV_001_SOURCE"
+    }
+  ],
+  "registered_source_checks": [
+    {
+      "role": "video",
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+      "status": "matched-before-and-after-generation"
+    },
+    {
+      "role": "audio",
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "status": "matched-before-and-after-generation"
+    }
+  ],
+  "code": {
+    "path": "renderer/index.html",
+    "sha256": "879f5b291b4a52e667c19136bd4b10340e02ba6a74dafa0894112b20043dea1a",
+    "purpose": "Static review page only, no video compositor"
+  },
+  "output": {
+    "path": "design/mockups/A-larger-video-smaller-lyrics.png",
+    "sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9",
+    "size_bytes": 1319602,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-ca53b490-9b23-4bab-a943-e04cccca9668.png",
+  "visual_review": {
+    "viewed": true,
+    "left": "Source window taller; Chinese and English subtitles smaller, both complete, matching orange keywords preserved",
+    "right": "Previous and current bilingual lyrics and complete explanations visible; optional FOOM title retained",
+    "title": "Prior proposed song title used in compact header; approval pending",
+    "geometry": "Generated screenshot approximate: border including label is near 16:9; source content below label is not exact 16:9. Production must use separate label plus full 16:9 contain.",
+    "motion": "Not produced or validated",
+    "reading_time": "Not validated",
+    "exact_source_pixel_identity": false
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

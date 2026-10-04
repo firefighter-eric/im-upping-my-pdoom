@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.1",
+  "title": "AGI · 原片解梗伴看 · 连续阅读修订",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看解说视频的设计修订：右侧文字缩小一档，上一条完整解释与当前条同时可读；不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T04:54:04.387Z",
+  "parent_version": "v006.0",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "dark-pdoom",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Edit prior concept image with built-in image_gen.imagegen; preserve a complete previous explanation beside the current explanation. No full video or scroll animation produced.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "9b2199d3ab0392ce68b99e9a28ac5cae840868896c42d13659f5b988978fcf84",
+    "files": {
+      "renderer/index.html": "9b2199d3ab0392ce68b99e9a28ac5cae840868896c42d13659f5b988978fcf84"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "prompt": "provenance/prompt.txt",
+    "generation": "provenance/GENERATION.json",
+    "reference": "design/references/base-A-dark-pdoom.png",
+    "concept": "design/mockups/A-continuous-reading.png"
+  },
+  "data_hashes": {
+    "layout": "a352dfa9d0546545f548fd608b5780dc47fdd44c6f2a5b591dd458d63b3c26b7",
+    "prompt": "e77430e0f6306311b001bf062ee82e7e5135dbf1d716582415ea08f0fe4038d0",
+    "generation": "fc3ab15a3553a1367561a4fc4b9862a0fa72b2cc7cf2ad0739dbef1656162ee6",
+    "reference": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091",
+    "concept": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0"
+  },
+  "variants": [
+    {
+      "id": "continuous-reading",
+      "label": "A · 连续阅读 · 上一条全文保留",
+      "generation_id": "LLMV_001_V006_R001_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.1/design/mockups/A-continuous-reading.png",
+      "design_output": {
+        "path": "design/mockups/A-continuous-reading.png",
+        "sha256": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0",
+        "size_bytes": 1364263,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      },
+      "known_issues": [
+        "静态样图只展示切换后的阅读状态；滚动过程和阅读时长尚未实现或验证。",
+        "AI 概念稿不保证精确字号、原片像素或 16:9 窗口几何；正式视频需直接合成原视频。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Previous and current explanations both complete and readable",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.0/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R000_001",
+    "parent_design_sha256": "f3aefeb66aa1ffc70ad9e07408985d4b7f26d73020a369a931d8233a5629b091"
+  }
+}

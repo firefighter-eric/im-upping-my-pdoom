@@ -1,0 +1,10 @@
+{
+  "parent_version": "v006.8",
+  "parent_exporter_sha256": "fcdada5c2def3563d364035279dfef17502cdf7c80f709e2e314a9a7bf485600",
+  "exporter_sha256": "b13212fe6cd0f418658904f4030908b0051acab83a7b06e724bd29774b56fb93",
+  "reason": "Fix image payload retention by repeated race against a never-settling shared promise. Add small per-240-frame memory samples for observation.",
+  "input_and_render_settings_unchanged": true,
+  "renderer_unchanged": true,
+  "new_full_attempt_authorized": true,
+  "human_visual_approval": null
+}

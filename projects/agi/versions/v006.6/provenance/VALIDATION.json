@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.6",
+  "checked_at_utc": "2026-10-04T05:28:48.764672+00:00",
+  "check": "passed",
+  "tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "verify": "passed: 55 preserved migration files, 13 versions, 0 media files skipped",
+  "diff_check": "passed",
+  "image": {
+    "path": "design/mockups/A-song-title-only.png",
+    "sha256": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa",
+    "size_bytes": 1462267,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image",
+    "status": "review"
+  },
+  "static_visual_inspection": "Both auxiliary top labels and short title divider removed; main title and all other visual sections retained.",
+  "parent_design_sha256": "877830a3e6e4571ca991acd130a0d5388944171f780bb6403af16a5222ef9547",
+  "parent_preserved": true,
+  "source_video_and_audio_hashes": "matched before and after image edit",
+  "reading_duration_validation": "pending",
+  "motion_created": false,
+  "full_video_created": false,
+  "human_approval": null
+}

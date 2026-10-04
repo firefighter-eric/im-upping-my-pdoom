@@ -1,0 +1,5 @@
+Selected excerpt transcribed from the completed exec session 56209, not a full terminal log.
+Last reported progress: frames=5040, total=9400, percent=54, elapsed_seconds=151.
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+Tool-reported process exit code: 134.
+The process ended before its JavaScript catch/finally handlers reconciled the receipt or lock.

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V006.5 · 移除原片时间标签样图</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui,sans-serif;background:#101012;color:#f1eee7}body{max-width:1280px;margin:0 auto;padding:36px 24px 64px}h1{font-size:clamp(24px,4vw,40px);line-height:1.25;margin:12px 0}.label,a{color:#ff9966}.muted{color:#b0b0b5}figure{margin:32px 0 0}img{display:block;width:100%;height:auto;border:1px solid #414146;box-sizing:border-box}figcaption{margin-bottom:12px;font-weight:600}
+</style>
+<header>
+<p class="label">V006.5 · 特殊衍生视频 · draft</p>
+<h1>I'm Upping My P(doom) · 逐句解梗</h1>
+<p>移除视频框内的“原片｜00:23”标签栏，原片直接填满窗口；保留较小的双语字幕和右侧完整解释。</p>
+<p class="muted">这是原片解梗伴看的静态样图，滚动动画与完整视频尚未制作。正式视频将直接嵌入原片，保持 16:9。</p>
+<p><a href="../TREATMENT.md">修订说明</a> · <a href="../manifest.json">版本清单</a> · <a href="../../v006.4/renderer/index.html">对比 v006.4</a></p>
+</header>
+<main><figure><figcaption>A · 移除原片时间标签 · review</figcaption><img src="../design/mockups/A-clean-video-window.png" width="1672" height="941" alt="视频框内的原片与时间标签已移除，原片占满窗口；下方双语字幕和右侧前后两条解释完整可见"></figure></main>
+<script>
+const unavailable=()=>new Error('v006.5 仅完成静态设计样图；滚动动画与视频合成器尚未实现，不能导出视频。');
+window.ready=new URLSearchParams(location.search).has('export')?Promise.reject(unavailable()):Promise.resolve();
+window.ready.catch(()=>{});
+window.renderFrame=()=>{throw unavailable();};
+</script>
+</html>

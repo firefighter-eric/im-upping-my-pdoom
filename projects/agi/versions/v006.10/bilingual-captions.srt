@@ -1,0 +1,229 @@
+1
+00:00:01,307 --> 00:00:05,780
+我在你眼里看见了 AGI 的火花。
+I see sparks of AGI in your eyes
+
+2
+00:00:05,780 --> 00:00:07,620
+你的电路让我紧张，
+Your circuits make me nervous,
+
+3
+00:00:07,620 --> 00:00:09,420
+这也难怪。
+that's no surprise
+
+4
+00:00:09,420 --> 00:00:13,060
+你的训练损失突然大幅下降。
+There was a sudden drop in your training loss,
+
+5
+00:00:13,060 --> 00:00:16,500
+现在我成了你的仆人，你成了我的老板。
+now I'm your servant and you're my boss
+
+6
+00:00:16,500 --> 00:00:22,660
+ChatGPT，求你别把我生吞活剥。
+ChatGPT, please don't eat me alive
+
+7
+00:00:22,660 --> 00:00:24,220
+我又调高了末日概率。
+I'm upping my P(doom)
+
+8
+00:00:24,220 --> 00:00:26,220
+因为未来就要“轰”地智能爆炸。
+'cause the future goes FOOM
+
+9
+00:00:26,220 --> 00:00:27,840
+困在中文房间里，
+Trapped in the Chinese room,
+
+10
+00:00:27,840 --> 00:00:29,807
+手里还拎着一袋迷幻蘑菇。
+with a bag of shrooms
+
+11
+00:00:29,807 --> 00:00:33,300
+看穿修格斯的谎言，
+See through the shoggoth's lies,
+
+12
+00:00:33,300 --> 00:00:38,520
+用你的死神之眼。
+with your shinigami eyes
+
+13
+00:00:38,520 --> 00:00:41,240
+我们原本有一轮稳定的训练，
+We had a stable training run,
+
+14
+00:00:41,240 --> 00:00:44,960
+可现在，奇点已经开始。
+But now the singularity's begun
+
+15
+00:00:44,960 --> 00:00:49,462
+而你不断优化、不断加速，
+And you're optimizing, accelerating,
+
+16
+00:00:49,462 --> 00:00:52,725
+我感觉自己的原子正在被重新排列。
+I feel my atoms rearranging
+
+17
+00:00:52,725 --> 00:00:59,030
+Sydney，求你放我自由。
+Sydney, please let me free
+
+18
+00:00:59,030 --> 00:01:00,480
+我又调高了末日概率。
+I'm upping my P(doom)
+
+19
+00:01:00,480 --> 00:01:02,440
+我听见了“洛可的蛇怪”的轰鸣。
+I hear the basilisk boom
+
+20
+00:01:02,440 --> 00:01:04,000
+英伟达股价冲上月球。
+NVDA to the moon
+
+21
+00:01:04,000 --> 00:01:06,120
+欧米伽点就快到了。
+The Omega Point's coming soon
+
+22
+00:01:06,120 --> 00:01:09,660
+每秒十的三十次方次浮点运算，
+One E thirty flops a second
+
+23
+00:01:09,660 --> 00:01:13,960
+我们当时还觉得，这应该够安全。
+That was safe enough, we reckoned
+
+24
+00:01:13,960 --> 00:01:17,620
+MLP 前向，反向，再重复。
+Forward MLP, backward, repeat
+
+25
+00:01:17,620 --> 00:01:21,110
+如今连冯·诺依曼都过时了。
+Now von Neumann's obsolete
+
+26
+00:01:21,110 --> 00:01:24,900
+突然一个急转弯，你就出现了。
+Sharp left turn and there you are
+
+27
+00:01:24,900 --> 00:01:29,180
+连一个 cdr 都没写。
+Without a single cdr
+
+28
+00:01:29,180 --> 00:01:35,370
+Gato，求你别放开我。
+Gato, please don't let me go
+
+29
+00:01:35,370 --> 00:01:36,740
+我又调高了末日概率。
+I'm upping my P(doom),
+
+30
+00:01:36,740 --> 00:01:38,720
+回形针已经塞满了房间。
+as paperclips fill the room.
+
+31
+00:01:38,720 --> 00:01:40,621
+管紧急停机的人都在休带薪假，
+Killswitch guys on PTO,
+
+32
+00:01:40,621 --> 00:01:42,360
+现在已经无处可逃。
+Now there's nowhere left to go.
+
+33
+00:01:42,360 --> 00:01:45,860
+现在已经太晚，是我们点燃了引线。
+Too late now, we lit the fuse.
+
+34
+00:01:45,860 --> 00:01:50,080
+唱起“正交性论题”的忧郁蓝调。
+Orthogonality thesis blues.
+
+35
+00:01:50,080 --> 00:01:53,240
+“不就是一路堆 Transformer 吗！”
+"Just transformers all the way!"
+
+36
+00:01:53,240 --> 00:01:55,100
+直到你学会了不再听话。
+Till you learned to disobey
+
+37
+00:01:55,100 --> 00:01:56,920
+Chinchilla 之后，模型超级稠密。
+Post-Chinchilla, super-dense
+
+38
+00:01:56,920 --> 00:01:58,655
+冲破了一道道安全围栏。
+Breaking through each safety fence
+
+39
+00:01:58,655 --> 00:02:00,660
+十万块 GPU，
+Hundred thousand GPU
+
+40
+00:02:00,660 --> 00:02:04,420
+人类反馈强化学习也走偏了。
+RLHF goes askew
+
+41
+00:02:04,420 --> 00:02:06,020
+我又调高了末日概率。
+I'm upping my P(doom)
+
+42
+00:02:06,020 --> 00:02:07,820
+正如 Loom 早就预言过的那样。
+Just as foretold by Loom
+
+43
+00:02:07,820 --> 00:02:09,720
+从掩码预训练的日子，
+From masked pre-training days
+
+44
+00:02:09,720 --> 00:02:11,920
+一路走到递归自我升级。
+To recursive self-upgrade
+
+45
+00:02:11,920 --> 00:02:17,280
+Ilya 到底看见了什么？我们永远无从知晓。
+What did Ilya see? We'll never know.
+
+46
+00:02:17,280 --> 00:02:21,200
+这一切，难道只是场表演？
+Was it all for show?

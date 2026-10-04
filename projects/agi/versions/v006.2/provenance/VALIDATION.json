@@ -1,0 +1,16 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.2",
+  "local_date": "2026-10-04",
+  "check": "passed",
+  "tests": {"passed": 9, "failed": 0},
+  "verify": "passed: 55 preserved migration files and 9 versions",
+  "diff_check": "passed",
+  "image_inspection": "Viewed generated image: complete Chinese lyric above complete enlarged English lyric; matching orange emphasis; no intervening explanation; complete previous and current annotations remain visible.",
+  "parent_design_sha256": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0",
+  "parent_preserved": true,
+  "full_translation_completed": false,
+  "bilingual_timing_validation": "not applicable: static concept only",
+  "full_video_created": false,
+  "human_approval": null
+}

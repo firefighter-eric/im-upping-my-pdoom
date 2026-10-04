@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.4",
+  "status": "proposed-not-motion-tested",
+  "base_canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "typography": {
+    "body_px": 26,
+    "body_line_height_px": 39,
+    "current_title_px": 48,
+    "previous_title_px": 38,
+    "previous_body_px": 26,
+    "previous_body_color": "#C3C3C7",
+    "current_body_color": "#F1EEE7",
+    "accent_color": "#FF6A21"
+  },
+  "visibility": {
+    "complete_previous_items_minimum": 1,
+    "complete_current_item": true,
+    "next_item": "title-only-optional",
+    "previous_body_ellipsis": false,
+    "previous_body_gradient_mask": false,
+    "previous_body_clipping": false,
+    "overflow_policy": "shorten-or-split-copy-before-layout; do not reduce body below baseline to force-fit"
+  },
+  "transition": {
+    "duration_seconds": 0.45,
+    "direction": "up",
+    "easing": "ease-out",
+    "continuous_autoscroll": false,
+    "invariant": "At transition i -> i+1, item i stays fully visible throughout and after the transition as the previous item; only item i-1 may leave.",
+    "retention": "Item i may leave only when item i+2 arrives.",
+    "hold_duration": "TBD: validate against lyric density and reading time"
+  },
+  "first_item": "no fabricated previous content",
+  "last_item": "no fabricated next content",
+  "validation": "Static image inspected: source region taller, both subtitle lines smaller, previous and current right notes complete. Motion, exact production metrics and reading duration not verified.",
+  "bilingual_lyrics": {
+    "position": "below-original-video-left",
+    "order": [
+      "zh-CN",
+      "en"
+    ],
+    "alignment": "left-shared-start",
+    "pairing": "same lyric line together",
+    "english_visibility": "Smaller high-contrast subtitle, paired with Chinese; still fully readable",
+    "highlight_pairs": [
+      {
+        "zh": "末日概率",
+        "en": "P(doom)",
+        "color": "#FF6A21"
+      }
+    ],
+    "example": {
+      "zh": "我又调高了末日概率。",
+      "en": "I'm upping my P(doom)"
+    },
+    "between_languages": "no explanatory sentence",
+    "explanation_location": "right annotation column",
+    "display_rule": "Keep each complete English lyric and its corresponding Chinese translation together; long lines may wrap without dropping either language.",
+    "timing": "TBD: bilingual synchronization not implemented; this is a static sample",
+    "size_revision": {
+      "request": "Both languages one size smaller",
+      "prompt_scale_compared_to_parent": "approximately 0.75 to 0.8",
+      "prompt_is_target_not_measured_font_size": true,
+      "production_target_at_1920x1080": {
+        "zh_px": 64,
+        "en_px": 52
+      },
+      "final_typography": "TBD: verify exact metrics and long lines in compositor"
+    }
+  },
+  "annotation_card": {
+    "required_order": [
+      "complete English lyric",
+      "matching Chinese translation",
+      "referenced meme / term / source context when applicable",
+      "how the lyric uses it: reference, pun, contrast or joke"
+    ],
+    "quote_role": "Each note is self-contained after the corresponding left-side subtitle changes.",
+    "previous_retention": "Keep both the previous lyric quote and its complete explanation, not only its heading.",
+    "definition_only_is_insufficient": true,
+    "large_keyword_headline": false,
+    "priority_when_space_is_tight": [
+      "previous quote and full explanation",
+      "current quote and full explanation",
+      "optional next title"
+    ],
+    "claim_policy": "Separate source-backed facts from editorial interpretation; mark uncertain origins TBD instead of inventing references.",
+    "readability": "Keep prior body-size baseline; shorten or split notes instead of shrinking text further. Motion and reading duration remain unverified."
+  },
+  "display_title": {
+    "main": "I'm Upping My P(doom)",
+    "subtitle": "逐句解梗 · 原片伴看",
+    "status": "proposal-following-title-discussion",
+    "stable_project_title": "AGI"
+  },
+  "source_window": {
+    "change": "Taller source window; compact header and smaller subtitles recover vertical space",
+    "width_share_approx": 0.6666666666666666,
+    "production_fit": "contain",
+    "production_aspect_ratio": "16:9",
+    "timestamp_label": "separate row outside the source frame",
+    "target_rect_at_1920x1080": {
+      "x": 44,
+      "y": 126,
+      "width": 1264,
+      "height": 711
+    },
+    "target_only": true,
+    "generated_mockup_geometry": "Approximate; generated frame includes its label in the near-16:9 border. Production must keep the video itself at 16:9."
+  }
+}

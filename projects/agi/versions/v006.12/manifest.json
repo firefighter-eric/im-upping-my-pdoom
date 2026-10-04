@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.12",
+  "title": "I'm Upping My P(doom) · 底部留白修订",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "按用户红框反馈调整字幕与时间之间的空带，只交付一张同一时刻的 4K 样图。",
+  "status": "draft",
+  "production_stage": "single-frame-review",
+  "created_at": "2026-10-04T08:14:55.312Z",
+  "parent_version": "v006.11",
+  "lineage": {
+    "kind": "balanced-subtitle-and-footer-spacing",
+    "parent_version": "v006.11",
+    "editorial_parent": "docs/plans/agi-v006-annotation-review-v003",
+    "inherited_mv_renderer": false,
+    "source_id": "LLMV_001_SOURCE"
+  },
+  "request": [
+    "这边红色的是不是有点空",
+    "延续先渲染一页、用户看过以后再渲染全部画面的范围。"
+  ],
+  "model": "Codex; deterministic TypeScript Canvas 2D layout, Chrome source-video decoding; no generative image or video model",
+  "method": "Render one native 4K composite frame from the version renderer and registered source video; no full video export.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "canvas2d-companion-composite",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "files": {
+      "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "renderer/src/main.ts": "d5af330b2dd7e2fb608ac7e394f854d569e818bed6da3299a723616be41167bd",
+      "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "single-frame-layout-review",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Inherited 4K60 full-video target settings are retained for future production; this request authorizes one still at 8.5 seconds only."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Decode original video directly and embed without cropping. Its existing graphics remain untouched.",
+    "audio": "Copy complete registered original AAC; no trimming, speed change, narration or re-encoding.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "screen_copy": "data/screen-copy.json",
+    "editorial_review": "data/approved-review-v003.json",
+    "sources": "data/sources.json",
+    "layout": "data/layout.json",
+    "beat_analysis": "data/beat-analysis.json",
+    "lyric_timing": "data/lyric-timing.json",
+    "content_adoption": "provenance/content-adoption.json",
+    "watermark_inspection": "provenance/watermark-inspection.json",
+    "highlights": "data/highlight-map.json",
+    "preview_page": "preview.html",
+    "still_exporter": "production/render-still.mjs",
+    "user_markup": "provenance/user-markup.png"
+  },
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "4145baa0346124155682fdf2b039f5f134a0f86f76820cc3954fec783e39eba0",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "content_adoption": "e1e933dc8eb4533b9784b569fe6c2aea92f485daac4d86a1dcd5d07ac9c358c7",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e",
+    "highlights": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d",
+    "preview_page": "5230f41ab0ba42f5f78b98fda09ae9aae5d59ec82309caf2494580dd87c819be",
+    "still_exporter": "b662f674a7178b616bc9dc22bcecc77b3b5bdefad900ce72827128ef19c2389c",
+    "user_markup": "4c3e95d64c53affb99958fef9a990c341d103f310ab468d3e1b33cd9401061d3"
+  },
+  "variants": [
+    {
+      "id": "companion",
+      "label": "底部留白修订 · 4K 静帧",
+      "generation_id": "LLMV_001_V006_R012_001",
+      "output": null,
+      "poster": "stills/LLMV_001_V006_R012_001_balanced-bottom_008.500.jpg",
+      "known_issues": [],
+      "purpose": "single-frame-only",
+      "design_output": {
+        "path": "stills/LLMV_001_V006_R012_001_balanced-bottom_008.500.jpg",
+        "sha256": "e5d886645acd69bf4b818dd8c6c3c05056f14949d77759f5f6e3c9e777e79456",
+        "size_bytes": 1054124,
+        "width": 3840,
+        "height": 2160,
+        "time_seconds": 8.5,
+        "kind": "single-rendered-frame",
+        "status": "review",
+        "run_id": "RUN_2026-10-04T08-16-10-288Z_efc2d116"
+      }
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "Noto Sans CJK and Archivo: SIL Open Font License; font files and license included."
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "single_frame_time_seconds": 8.5,
+    "human_visual_review": "pending",
+    "full_render_gate": "User review required before full video",
+    "single_frame_rendered": true,
+    "layout_measurements": "passed",
+    "parent_files_preserved": 29
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.11/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R011_001",
+    "parent_still_sha256": "51d141d2c461bfd2f232bf628e9b0f576c10cbd822b7b0e5e23ea114d6afae25"
+  },
+  "production_authorization": {
+    "scope": "one-still",
+    "full_video": "awaiting-user-review"
+  }
+}

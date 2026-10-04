@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGI V006 · 原片解梗伴看 · 设计样图</title>
+<style>
+  :root { color-scheme: dark; font: 16px/1.65 system-ui, sans-serif; background: #101012; color: #f1eee7; }
+  body { max-width: 1280px; margin: 0 auto; padding: 36px 24px 64px; }
+  h1 { font-size: clamp(24px, 4vw, 40px); line-height: 1.25; margin: 12px 0; }
+  .label { color: #ff6a21; margin: 0; }
+  .muted { color: #b0b0b5; }
+  a { color: #ff9966; }
+  figure { margin: 40px 0 0; }
+  img { display: block; width: 100%; height: auto; border: 1px solid #414146; box-sizing: border-box; }
+  figcaption { margin-bottom: 12px; font-weight: 600; }
+</style>
+<header>
+  <p class="label">V006.0 · 特殊衍生视频 · draft</p>
+  <h1>AGI · 原片解梗伴看</h1>
+  <p>在原片旁增加中文梗解释、字幕和注释排版。这个版本不是原视频重新渲染。</p>
+  <p class="muted">当前仅有三张静态概念样图，均待审看；完整视频尚未制作，视觉方向尚未选定。</p>
+  <p><a href="../TREATMENT.md">版本说明</a> · <a href="../manifest.json">版本清单</a></p>
+</header>
+<main>
+  <figure><figcaption>A · 深色注释影院</figcaption><img src="../design/mockups/A-dark-pdoom.png" width="1672" height="941" alt="深色版 P(doom) 解梗样图"></figure>
+  <figure><figcaption>B · 浅色动态杂志</figcaption><img src="../design/mockups/B-paper-pdoom.png" width="1672" height="941" alt="浅色版 P(doom) 解梗样图"></figure>
+  <figure><figcaption>C · 深色回形针段落</figcaption><img src="../design/mockups/C-dark-paperclips.png" width="1672" height="941" alt="回形针最大化解梗样图"></figure>
+</main>
+<script>
+const unavailable = () => new Error('v006.0 仅完成静态设计样图；视频合成器尚未实现，不能导出视频。');
+window.ready = new URLSearchParams(location.search).has('export') ? Promise.reject(unavailable()) : Promise.resolve();
+window.ready.catch(() => {});
+window.renderFrame = () => { throw unavailable(); };
+</script>
+</html>

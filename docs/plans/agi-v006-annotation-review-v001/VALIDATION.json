@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_001_V006_ANNOTATION_REVIEW_001",
+  "checked_at_utc": "2026-10-04T05:28:48.765254+00:00",
+  "entries": 40,
+  "lyric_entries": 37,
+  "main_lyric_lines_covered_once": 46,
+  "additional_visual_entries": 3,
+  "sampled_source_frames": 12,
+  "canonical_corrections_match_existing_audit": true,
+  "input_hashes_verified": true,
+  "document_hashes_verified": true,
+  "all_main_lyric_translations_present": true,
+  "source_ids_resolve": true,
+  "repository_checks": {
+    "check": "passed",
+    "test": "9 passed; 0 failed",
+    "verify": "55 preserved migration files; 13 versions; 0 skipped"
+  },
+  "author_intent_uncertainty_retained": true,
+  "all_visual_easter_eggs_verified": false,
+  "new_vocal_alignment_verified": false,
+  "final_screen_copy_fits_verified": false,
+  "human_approval": null
+}

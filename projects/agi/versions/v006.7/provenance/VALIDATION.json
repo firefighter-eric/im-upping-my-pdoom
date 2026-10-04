@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.7",
+  "checked_at_utc": "2026-10-04T05:33:37.665567+00:00",
+  "check": "passed",
+  "tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "verify": "passed: 55 preserved migration files, 14 versions, 0 media files skipped",
+  "diff_check": "passed",
+  "image": {
+    "path": "design/mockups/A-slightly-smaller-annotations.png",
+    "sha256": "5c9a93cce097d8378bb08ce4bdfaf5331685a1db36d533bfae939dcee0272cc4",
+    "size_bytes": 1405434,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image",
+    "status": "review"
+  },
+  "image_inspection": "Viewed output: right-column text is slightly smaller; both bilingual lyric quotes and full explanations remain present, with comfortable whitespace. Song title, video window and left bilingual subtitles remain visually consistent.",
+  "right_font_scale_target": 0.92,
+  "right_font_scale_measured": false,
+  "parent_tree_preserved": true,
+  "parent_hash_record": "provenance/parent-file-hashes.json",
+  "source_video_and_audio_hashes": "matched before and after generation",
+  "reading_duration_validation": "pending",
+  "motion_created": false,
+  "full_video_created": false,
+  "human_approval": null
+}

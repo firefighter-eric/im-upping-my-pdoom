@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.7",
+  "title": "I'm Upping My P(doom) · 右侧文字微缩",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看视频静态修订：右侧文字再微缩一档，完整保留前后两条歌词和解释，左侧保持原样；不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T05:32:02.276Z",
+  "parent_version": "v006.6",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "song-title-only",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+    "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。",
+    "标题改为是不是改为 I'm up in my p-doom 比较好呢？还是保留 AGI 比较好呢？这个歌其实就是 I'm up in my p-doom。",
+    "可以把视频放得大一点，然后左下的字幕稍微小一号吗？",
+    "原片包括时间的，在左上方那个东西是不是可以去掉呢？然后这样的话视频又可以变大一点。",
+    "右上方的原片x注释去掉。",
+    "上方的逐句解梗，原片半看去掉。",
+    "右边的字是不是可以稍微再小一点点呢？"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Built-in image_gen.imagegen single static edit: right-column text target approximately 8% smaller.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "b14b0ee8ff43dfee381a6711b3f5638f08f8220349ec1a6c12697ec938927675",
+    "files": {
+      "renderer/index.html": "b14b0ee8ff43dfee381a6711b3f5638f08f8220349ec1a6c12697ec938927675"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "annotation_cards": "data/annotation-cards.json",
+    "prompt": "provenance/prompt.txt",
+    "reference": "design/references/base-v006.6.png",
+    "generation": "provenance/GENERATION.json",
+    "concept": "design/mockups/A-slightly-smaller-annotations.png"
+  },
+  "data_hashes": {
+    "layout": "7cc82af3eee24a16be2e97f47e58b68be33cb9b658b9a589961fd06f2c6f4434",
+    "annotation_cards": "7c2f7af22dd997b3a1de777a2894a8ba5fcddc2f706a1a0ed3eb22890fc12e28",
+    "prompt": "8a7f6def5ba761b0dff357377ff5ee102532edae7ecdb8467caa9b68fe53d236",
+    "reference": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa",
+    "generation": "301524e064dea1fc7567b8c10f7e9c034185fcdd6d39564eaac7d162166c10ae",
+    "concept": "5c9a93cce097d8378bb08ce4bdfaf5331685a1db36d533bfae939dcee0272cc4"
+  },
+  "variants": [
+    {
+      "id": "slightly-smaller-annotations",
+      "label": "A · 右侧文字微缩",
+      "generation_id": "LLMV_001_V006_R007_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.7/design/mockups/A-slightly-smaller-annotations.png",
+      "known_issues": [
+        "仅静态样图；阅读时长、滚动动画和全片双语同步未验收。",
+        "提示词约缩小 8% 是设计目标，生成图字体没有精确测量。",
+        "全曲 40 条审稿独立保留，本样图仍显示原有两条示例。"
+      ],
+      "design_output": {
+        "path": "design/mockups/A-slightly-smaller-annotations.png",
+        "sha256": "5c9a93cce097d8378bb08ce4bdfaf5331685a1db36d533bfae939dcee0272cc4",
+        "size_bytes": 1405434,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      }
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "content_review_draft": "docs/plans/agi-v006-annotation-review-v001/REVIEW.md",
+    "content_review_scope": "46 main lyric lines; 40 editorial draft entries, pending human review; no exhaustive visual Easter-egg claim",
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Right-column text slightly smaller, with more whitespace; complete previous and current quotes and explanations remain readable.",
+    "parent_design_hash": "unchanged",
+    "right_font_scale_target": 0.92,
+    "right_font_scale_measured": false
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.6/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R006_001",
+    "parent_design_sha256": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa"
+  }
+}

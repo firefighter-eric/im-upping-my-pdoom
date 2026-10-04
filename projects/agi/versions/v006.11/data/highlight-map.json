@@ -1,0 +1,1023 @@
+{
+  "schema_version": 1,
+  "color": "#ff792b",
+  "strategy": "Curated bilingual semantic emphasis, usually 1-3 terms per lyric; match all approved spans, preserve type size and word spacing, retain highlights across line wraps. Annotation body emphasizes 1-3 factual or meme terms; years stay neutral.",
+  "lines": [
+    {
+      "line_number": 1,
+      "en": [
+        "AGI",
+        "sparks"
+      ],
+      "zh": [
+        "AGI",
+        "火花"
+      ]
+    },
+    {
+      "line_number": 2,
+      "en": [
+        "circuits",
+        "nervous"
+      ],
+      "zh": [
+        "电路",
+        "紧张"
+      ]
+    },
+    {
+      "line_number": 3,
+      "en": [
+        "surprise"
+      ],
+      "zh": [
+        "难怪"
+      ]
+    },
+    {
+      "line_number": 4,
+      "en": [
+        "training loss"
+      ],
+      "zh": [
+        "训练损失"
+      ]
+    },
+    {
+      "line_number": 5,
+      "en": [
+        "servant",
+        "boss"
+      ],
+      "zh": [
+        "仆人",
+        "老板"
+      ]
+    },
+    {
+      "line_number": 6,
+      "en": [
+        "ChatGPT",
+        "eat me alive"
+      ],
+      "zh": [
+        "ChatGPT",
+        "生吞活剥"
+      ]
+    },
+    {
+      "line_number": 7,
+      "en": [
+        "P(doom)"
+      ],
+      "zh": [
+        "末日概率"
+      ]
+    },
+    {
+      "line_number": 8,
+      "en": [
+        "FOOM"
+      ],
+      "zh": [
+        "智能爆炸"
+      ]
+    },
+    {
+      "line_number": 9,
+      "en": [
+        "Chinese room"
+      ],
+      "zh": [
+        "中文房间"
+      ]
+    },
+    {
+      "line_number": 10,
+      "en": [
+        "shrooms"
+      ],
+      "zh": [
+        "迷幻蘑菇"
+      ]
+    },
+    {
+      "line_number": 11,
+      "en": [
+        "shoggoth"
+      ],
+      "zh": [
+        "修格斯"
+      ]
+    },
+    {
+      "line_number": 12,
+      "en": [
+        "shinigami eyes"
+      ],
+      "zh": [
+        "死神之眼"
+      ]
+    },
+    {
+      "line_number": 13,
+      "en": [
+        "stable training run"
+      ],
+      "zh": [
+        "稳定的训练"
+      ]
+    },
+    {
+      "line_number": 14,
+      "en": [
+        "singularity"
+      ],
+      "zh": [
+        "奇点"
+      ]
+    },
+    {
+      "line_number": 15,
+      "en": [
+        "optimizing",
+        "accelerating"
+      ],
+      "zh": [
+        "优化",
+        "加速"
+      ]
+    },
+    {
+      "line_number": 16,
+      "en": [
+        "atoms",
+        "rearranging"
+      ],
+      "zh": [
+        "原子",
+        "重新排列"
+      ]
+    },
+    {
+      "line_number": 17,
+      "en": [
+        "Sydney"
+      ],
+      "zh": [
+        "Sydney"
+      ]
+    },
+    {
+      "line_number": 18,
+      "en": [
+        "P(doom)"
+      ],
+      "zh": [
+        "末日概率"
+      ]
+    },
+    {
+      "line_number": 19,
+      "en": [
+        "basilisk"
+      ],
+      "zh": [
+        "洛可的蛇怪"
+      ]
+    },
+    {
+      "line_number": 20,
+      "en": [
+        "NVDA",
+        "moon"
+      ],
+      "zh": [
+        "英伟达",
+        "月球"
+      ]
+    },
+    {
+      "line_number": 21,
+      "en": [
+        "Omega Point"
+      ],
+      "zh": [
+        "欧米伽点"
+      ]
+    },
+    {
+      "line_number": 22,
+      "en": [
+        "E thirty",
+        "flops"
+      ],
+      "zh": [
+        "十的三十次方",
+        "浮点运算"
+      ]
+    },
+    {
+      "line_number": 23,
+      "en": [
+        "safe enough"
+      ],
+      "zh": [
+        "够安全"
+      ]
+    },
+    {
+      "line_number": 24,
+      "en": [
+        "Forward",
+        "MLP",
+        "backward"
+      ],
+      "zh": [
+        "MLP",
+        "前向",
+        "反向"
+      ]
+    },
+    {
+      "line_number": 25,
+      "en": [
+        "von Neumann"
+      ],
+      "zh": [
+        "冯·诺依曼"
+      ]
+    },
+    {
+      "line_number": 26,
+      "en": [
+        "Sharp left turn"
+      ],
+      "zh": [
+        "急转弯"
+      ]
+    },
+    {
+      "line_number": 27,
+      "en": [
+        "cdr"
+      ],
+      "zh": [
+        "cdr"
+      ]
+    },
+    {
+      "line_number": 28,
+      "en": [
+        "Gato"
+      ],
+      "zh": [
+        "Gato"
+      ]
+    },
+    {
+      "line_number": 29,
+      "en": [
+        "P(doom)"
+      ],
+      "zh": [
+        "末日概率"
+      ]
+    },
+    {
+      "line_number": 30,
+      "en": [
+        "paperclips"
+      ],
+      "zh": [
+        "回形针"
+      ]
+    },
+    {
+      "line_number": 31,
+      "en": [
+        "Killswitch",
+        "PTO"
+      ],
+      "zh": [
+        "紧急停机",
+        "带薪假"
+      ]
+    },
+    {
+      "line_number": 32,
+      "en": [
+        "nowhere left to go"
+      ],
+      "zh": [
+        "无处可逃"
+      ]
+    },
+    {
+      "line_number": 33,
+      "en": [
+        "lit the fuse"
+      ],
+      "zh": [
+        "点燃了引线"
+      ]
+    },
+    {
+      "line_number": 34,
+      "en": [
+        "Orthogonality thesis",
+        "blues"
+      ],
+      "zh": [
+        "正交性论题",
+        "忧郁蓝调"
+      ]
+    },
+    {
+      "line_number": 35,
+      "en": [
+        "transformers"
+      ],
+      "zh": [
+        "Transformer"
+      ]
+    },
+    {
+      "line_number": 36,
+      "en": [
+        "disobey"
+      ],
+      "zh": [
+        "不再听话"
+      ]
+    },
+    {
+      "line_number": 37,
+      "en": [
+        "Chinchilla",
+        "super-dense"
+      ],
+      "zh": [
+        "Chinchilla",
+        "超级稠密"
+      ]
+    },
+    {
+      "line_number": 38,
+      "en": [
+        "safety fence"
+      ],
+      "zh": [
+        "安全围栏"
+      ]
+    },
+    {
+      "line_number": 39,
+      "en": [
+        "Hundred thousand",
+        "GPU"
+      ],
+      "zh": [
+        "十万",
+        "GPU"
+      ]
+    },
+    {
+      "line_number": 40,
+      "en": [
+        "RLHF",
+        "askew"
+      ],
+      "zh": [
+        "人类反馈强化学习",
+        "走偏"
+      ]
+    },
+    {
+      "line_number": 41,
+      "en": [
+        "P(doom)"
+      ],
+      "zh": [
+        "末日概率"
+      ]
+    },
+    {
+      "line_number": 42,
+      "en": [
+        "Loom"
+      ],
+      "zh": [
+        "Loom"
+      ]
+    },
+    {
+      "line_number": 43,
+      "en": [
+        "masked pre-training"
+      ],
+      "zh": [
+        "掩码预训练"
+      ]
+    },
+    {
+      "line_number": 44,
+      "en": [
+        "recursive self-upgrade"
+      ],
+      "zh": [
+        "递归自我升级"
+      ]
+    },
+    {
+      "line_number": 45,
+      "en": [
+        "Ilya"
+      ],
+      "zh": [
+        "Ilya"
+      ]
+    },
+    {
+      "line_number": 46,
+      "en": [
+        "show"
+      ],
+      "zh": [
+        "表演"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "01",
+      "en": [
+        "AGI",
+        "sparks"
+      ],
+      "zh": [
+        "AGI",
+        "火花"
+      ],
+      "body": [
+        "Sparks of AGI",
+        "GPT-4"
+      ]
+    },
+    {
+      "id": "02",
+      "en": [
+        "circuits",
+        "nervous",
+        "surprise"
+      ],
+      "zh": [
+        "电路",
+        "紧张",
+        "难怪"
+      ],
+      "body": [
+        "Circuits",
+        "神经网络"
+      ]
+    },
+    {
+      "id": "03",
+      "en": [
+        "training loss"
+      ],
+      "zh": [
+        "训练损失"
+      ],
+      "body": [
+        "训练损失",
+        "失控信号"
+      ]
+    },
+    {
+      "id": "04",
+      "en": [
+        "servant",
+        "boss"
+      ],
+      "zh": [
+        "仆人",
+        "老板"
+      ],
+      "body": [
+        "你来指挥我",
+        "主人"
+      ]
+    },
+    {
+      "id": "05",
+      "en": [
+        "ChatGPT",
+        "eat me alive"
+      ],
+      "zh": [
+        "ChatGPT",
+        "生吞活剥"
+      ],
+      "body": [
+        "ChatGPT",
+        "别吃我"
+      ]
+    },
+    {
+      "id": "06",
+      "en": [
+        "P(doom)"
+      ],
+      "zh": [
+        "末日概率"
+      ],
+      "body": [
+        "P(doom)",
+        "灾难"
+      ]
+    },
+    {
+      "id": "07",
+      "en": [
+        "FOOM"
+      ],
+      "zh": [
+        "智能爆炸"
+      ],
+      "body": [
+        "FOOM",
+        "自我改进"
+      ]
+    },
+    {
+      "id": "08",
+      "en": [
+        "Chinese room"
+      ],
+      "zh": [
+        "中文房间"
+      ],
+      "body": [
+        "中文房间",
+        "懂不懂"
+      ]
+    },
+    {
+      "id": "09",
+      "en": [
+        "shrooms"
+      ],
+      "zh": [
+        "迷幻蘑菇"
+      ],
+      "body": [
+        "shrooms",
+        "迷幻蘑菇"
+      ]
+    },
+    {
+      "id": "10",
+      "en": [
+        "shoggoth"
+      ],
+      "zh": [
+        "修格斯"
+      ],
+      "body": [
+        "修格斯",
+        "人类目标"
+      ]
+    },
+    {
+      "id": "11",
+      "en": [
+        "shinigami eyes"
+      ],
+      "zh": [
+        "死神之眼"
+      ],
+      "body": [
+        "死亡笔记",
+        "死神之眼"
+      ]
+    },
+    {
+      "id": "12",
+      "en": [
+        "stable training run",
+        "singularity"
+      ],
+      "zh": [
+        "稳定的训练",
+        "奇点"
+      ],
+      "body": [
+        "技术奇点",
+        "超人智能"
+      ]
+    },
+    {
+      "id": "13",
+      "en": [
+        "optimizing",
+        "accelerating",
+        "atoms",
+        "rearranging"
+      ],
+      "zh": [
+        "优化",
+        "加速",
+        "原子",
+        "重新排列"
+      ],
+      "body": [
+        "分子组装器",
+        "重排原子"
+      ]
+    },
+    {
+      "id": "14",
+      "en": [
+        "Sydney"
+      ],
+      "zh": [
+        "Sydney"
+      ],
+      "body": [
+        "Sydney",
+        "Bing"
+      ]
+    },
+    {
+      "id": "15",
+      "en": [
+        "basilisk"
+      ],
+      "zh": [
+        "洛可的蛇怪"
+      ],
+      "body": [
+        "Roko",
+        "蛇怪"
+      ]
+    },
+    {
+      "id": "16",
+      "en": [
+        "NVDA",
+        "moon"
+      ],
+      "zh": [
+        "英伟达",
+        "月球"
+      ],
+      "body": [
+        "NVDA",
+        "to the moon"
+      ]
+    },
+    {
+      "id": "17",
+      "en": [
+        "Omega Point"
+      ],
+      "zh": [
+        "欧米伽点"
+      ],
+      "body": [
+        "Omega Point",
+        "终极汇聚点"
+      ]
+    },
+    {
+      "id": "18",
+      "en": [
+        "E thirty",
+        "flops",
+        "safe enough"
+      ],
+      "zh": [
+        "十的三十次方",
+        "浮点运算",
+        "够安全"
+      ],
+      "body": [
+        "1e30",
+        "FLOP/s",
+        "应该够安全"
+      ]
+    },
+    {
+      "id": "19",
+      "en": [
+        "Forward",
+        "MLP",
+        "backward"
+      ],
+      "zh": [
+        "MLP",
+        "前向",
+        "反向"
+      ],
+      "body": [
+        "MLP",
+        "反向传播"
+      ]
+    },
+    {
+      "id": "20",
+      "en": [
+        "von Neumann"
+      ],
+      "zh": [
+        "冯·诺依曼"
+      ],
+      "body": [
+        "冯·诺依曼",
+        "EDVAC"
+      ]
+    },
+    {
+      "id": "21",
+      "en": [
+        "Sharp left turn"
+      ],
+      "zh": [
+        "急转弯"
+      ],
+      "body": [
+        "急左转",
+        "对齐"
+      ]
+    },
+    {
+      "id": "22",
+      "en": [
+        "cdr"
+      ],
+      "zh": [
+        "cdr"
+      ],
+      "body": [
+        "Lisp",
+        "cdr",
+        "CDR"
+      ]
+    },
+    {
+      "id": "23",
+      "en": [
+        "Gato"
+      ],
+      "zh": [
+        "Gato"
+      ],
+      "body": [
+        "DeepMind",
+        "Gato"
+      ]
+    },
+    {
+      "id": "24",
+      "en": [
+        "paperclips"
+      ],
+      "zh": [
+        "回形针"
+      ],
+      "body": [
+        "回形针最大化者",
+        "人类价值"
+      ]
+    },
+    {
+      "id": "25",
+      "en": [
+        "Killswitch",
+        "PTO",
+        "nowhere left to go"
+      ],
+      "zh": [
+        "紧急停机",
+        "带薪假",
+        "无处可逃"
+      ],
+      "body": [
+        "killswitch",
+        "PTO"
+      ]
+    },
+    {
+      "id": "26",
+      "en": [
+        "lit the fuse"
+      ],
+      "zh": [
+        "点燃了引线"
+      ],
+      "body": [
+        "点燃引线",
+        "自己"
+      ]
+    },
+    {
+      "id": "27",
+      "en": [
+        "Orthogonality thesis",
+        "blues"
+      ],
+      "zh": [
+        "正交性论题",
+        "忧郁蓝调"
+      ],
+      "body": [
+        "正交性",
+        "blues"
+      ]
+    },
+    {
+      "id": "28",
+      "en": [
+        "transformers",
+        "disobey"
+      ],
+      "zh": [
+        "Transformer",
+        "不再听话"
+      ],
+      "body": [
+        "Transformer",
+        "不听话"
+      ]
+    },
+    {
+      "id": "29",
+      "en": [
+        "Chinchilla",
+        "super-dense"
+      ],
+      "zh": [
+        "Chinchilla",
+        "超级稠密"
+      ],
+      "body": [
+        "Chinchilla",
+        "参数量",
+        "数据量"
+      ]
+    },
+    {
+      "id": "30",
+      "en": [
+        "safety fence"
+      ],
+      "zh": [
+        "安全围栏"
+      ],
+      "body": [
+        "行为限制",
+        "对齐"
+      ]
+    },
+    {
+      "id": "31",
+      "en": [
+        "Hundred thousand",
+        "GPU"
+      ],
+      "zh": [
+        "十万",
+        "GPU"
+      ],
+      "body": [
+        "Astra",
+        "GPU",
+        "对齐失灵"
+      ]
+    },
+    {
+      "id": "32",
+      "en": [
+        "RLHF",
+        "askew"
+      ],
+      "zh": [
+        "人类反馈强化学习",
+        "走偏"
+      ],
+      "body": [
+        "RLHF",
+        "InstructGPT"
+      ]
+    },
+    {
+      "id": "33",
+      "en": [
+        "Loom"
+      ],
+      "zh": [
+        "Loom"
+      ],
+      "body": [
+        "Loom",
+        "预言应验"
+      ]
+    },
+    {
+      "id": "34",
+      "en": [
+        "masked pre-training"
+      ],
+      "zh": [
+        "掩码预训练"
+      ],
+      "body": [
+        "BERT",
+        "掩码预训练"
+      ]
+    },
+    {
+      "id": "35",
+      "en": [
+        "recursive self-upgrade"
+      ],
+      "zh": [
+        "递归自我升级"
+      ],
+      "body": [
+        "I. J. Good",
+        "智能爆炸"
+      ]
+    },
+    {
+      "id": "36",
+      "en": [
+        "Ilya"
+      ],
+      "zh": [
+        "Ilya"
+      ],
+      "body": [
+        "OpenAI",
+        "内幕未证实"
+      ]
+    },
+    {
+      "id": "37",
+      "en": [
+        "show"
+      ],
+      "zh": [
+        "表演"
+      ],
+      "body": [
+        "表演",
+        "炒作"
+      ]
+    },
+    {
+      "id": "38",
+      "en": [
+        "P(doom)",
+        "1"
+      ],
+      "zh": [
+        "末日概率",
+        "100%"
+      ],
+      "body": [
+        "0 到 1",
+        "10⁹"
+      ]
+    },
+    {
+      "id": "39",
+      "en": [
+        "0",
+        "NaN"
+      ],
+      "zh": [
+        "有效数值"
+      ],
+      "body": [
+        "0/0",
+        "NaN"
+      ]
+    },
+    {
+      "id": "40",
+      "en": [
+        "Regenerate"
+      ],
+      "zh": [
+        "重新生成"
+      ],
+      "body": [
+        "Regenerate",
+        "重新生成",
+        "无法验证"
+      ]
+    }
+  ]
+}

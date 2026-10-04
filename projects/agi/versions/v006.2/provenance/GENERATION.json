@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.2",
+  "generation_id": "LLMV_001_V006_R002_001",
+  "variant": "bilingual-lyrics",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T04:56:44.299Z",
+  "request": "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+  "scope": "Single static bilingual-lyric layout edit; no video or motion produced",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "c73d16bc1d1267a99401551afa215e1e6775f0e1b1107cf3573e9ae2048290f8"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-v006.1.png"
+    ],
+    "transparent_background": false,
+    "calls": 1
+  },
+  "reference": {
+    "parent_version": "v006.1",
+    "parent_generation_id": "LLMV_001_V006_R001_001",
+    "parent_path": "design/mockups/A-continuous-reading.png",
+    "path": "design/references/base-v006.1.png",
+    "sha256": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0"
+  },
+  "output": {
+    "path": "design/mockups/A-bilingual-lyrics.png",
+    "sha256": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc",
+    "size_bytes": 1386489,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-cbcfac86-2ed7-4426-b9d6-f0aff10d0c3f.png",
+  "visual_review": {
+    "viewed": true,
+    "bilingual_copy": {
+      "zh": "我又调高了末日概率。",
+      "en": "I'm upping my P(doom)"
+    },
+    "english": "Clearly enlarged and directly below Chinese; both lyrics complete",
+    "highlights": "末日概率 and P(doom) both orange",
+    "removed": "Intervening explanatory sentence and tiny duplicate English",
+    "previous_annotation": "Complete ChatGPT explanation remains visible",
+    "current_annotation": "Complete P(doom) explanation remains visible",
+    "geometry": "Broad original-video and sidebar composition preserved; pixel identity and exact font size not claimed",
+    "motion": "Not produced or validated"
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

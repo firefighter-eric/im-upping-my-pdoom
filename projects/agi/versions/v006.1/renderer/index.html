@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AGI V006.1 · 连续阅读样图</title>
+<style>
+:root{color-scheme:dark;font:16px/1.65 system-ui,sans-serif;background:#101012;color:#f1eee7}body{max-width:1280px;margin:0 auto;padding:36px 24px 64px}h1{font-size:clamp(24px,4vw,40px);line-height:1.25;margin:12px 0}.label,a{color:#ff9966}.muted{color:#b0b0b5}figure{margin:32px 0 0}img{display:block;width:100%;height:auto;border:1px solid #414146;box-sizing:border-box}figcaption{margin-bottom:12px;font-weight:600}
+</style>
+<header>
+<p class="label">V006.1 · 特殊衍生视频 · draft</p>
+<h1>右侧注释 · 连续阅读修订</h1>
+<p>正文缩小一档，上一条完整解释与当前条同时可读。新条目进入后，上一条继续保留。</p>
+<p class="muted">这是原片解梗伴看，非原视频重新渲染。当前是静态样图，滚动动画与完整视频尚未制作。</p>
+<p><a href="../TREATMENT.md">修订说明</a> · <a href="../manifest.json">版本清单</a> · <a href="../../v006.0/renderer/index.html">对比 v006.0</a></p>
+</header>
+<main><figure><figcaption>A · 上一条全文保留 · review</figcaption><img src="../design/mockups/A-continuous-reading.png" width="1672" height="941" alt="右侧完整保留上一条 ChatGPT 解释，同时显示当前 P(doom) 解释的修订样图"></figure></main>
+<script>
+const unavailable=()=>new Error('v006.1 仅完成静态设计样图；滚动动画与视频合成器尚未实现，不能导出视频。');
+window.ready=new URLSearchParams(location.search).has('export')?Promise.reject(unavailable()):Promise.resolve();
+window.ready.catch(()=>{});
+window.renderFrame=()=>{throw unavailable();};
+</script>
+</html>

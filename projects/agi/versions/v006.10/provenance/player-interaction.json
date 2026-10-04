@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "purpose": "actual new output interaction validation",
+  "browser": "154.0.8037.93",
+  "results": [
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "track_width": 1806.21875,
+      "picture_width": 1806.21875,
+      "seeks": [
+        {
+          "fraction": 0,
+          "time": 0,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.1034040383166952
+        },
+        {
+          "fraction": 0.25,
+          "time": 39.166666,
+          "paused": true,
+          "error": null,
+          "error_seconds": 7.49999998106432e-7,
+          "one_pixel_tolerance_seconds": 0.1034040383166952
+        },
+        {
+          "fraction": 0.5,
+          "time": 78.333333,
+          "paused": true,
+          "error": null,
+          "error_seconds": 4.999999987376214e-7,
+          "one_pixel_tolerance_seconds": 0.1034040383166952
+        },
+        {
+          "fraction": 0.75,
+          "time": 117.5,
+          "paused": true,
+          "error": null,
+          "error_seconds": 2.499999993688107e-7,
+          "one_pixel_tolerance_seconds": 0.1034040383166952
+        },
+        {
+          "fraction": 1,
+          "time": 156.666667,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.1034040383166952
+        }
+      ],
+      "keyboard_right_seconds": 5
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "track_width": 1440,
+      "picture_width": 1440,
+      "seeks": [
+        {
+          "fraction": 0,
+          "time": 0,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.12546296319444444
+        },
+        {
+          "fraction": 0.25,
+          "time": 39.166666,
+          "paused": true,
+          "error": null,
+          "error_seconds": 7.49999998106432e-7,
+          "one_pixel_tolerance_seconds": 0.12546296319444444
+        },
+        {
+          "fraction": 0.5,
+          "time": 78.333333,
+          "paused": true,
+          "error": null,
+          "error_seconds": 4.999999987376214e-7,
+          "one_pixel_tolerance_seconds": 0.12546296319444444
+        },
+        {
+          "fraction": 0.75,
+          "time": 117.5,
+          "paused": true,
+          "error": null,
+          "error_seconds": 2.499999993688107e-7,
+          "one_pixel_tolerance_seconds": 0.12546296319444444
+        },
+        {
+          "fraction": 1,
+          "time": 156.666667,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.12546296319444444
+        }
+      ],
+      "keyboard_right_seconds": 5
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "track_width": 390,
+      "picture_width": 390,
+      "seeks": [
+        {
+          "fraction": 0,
+          "time": 0,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.4183760692307692
+        },
+        {
+          "fraction": 0.25,
+          "time": 39.166666,
+          "paused": true,
+          "error": null,
+          "error_seconds": 7.49999998106432e-7,
+          "one_pixel_tolerance_seconds": 0.4183760692307692
+        },
+        {
+          "fraction": 0.5,
+          "time": 78.333333,
+          "paused": true,
+          "error": null,
+          "error_seconds": 4.999999987376214e-7,
+          "one_pixel_tolerance_seconds": 0.4183760692307692
+        },
+        {
+          "fraction": 0.75,
+          "time": 117.5,
+          "paused": true,
+          "error": null,
+          "error_seconds": 2.499999993688107e-7,
+          "one_pixel_tolerance_seconds": 0.4183760692307692
+        },
+        {
+          "fraction": 1,
+          "time": 156.666667,
+          "paused": true,
+          "error": null,
+          "error_seconds": 0,
+          "one_pixel_tolerance_seconds": 0.4183760692307692
+        }
+      ],
+      "keyboard_right_seconds": 5
+    }
+  ],
+  "resumed": {
+    "time": 100.578442,
+    "duration": 156.666667,
+    "paused": false,
+    "readyState": 4,
+    "error": null
+  },
+  "fullscreen_alignment": true,
+  "muted_technical_test": true,
+  "errors": []
+}

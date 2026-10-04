@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.4",
+  "title": "I'm Upping My P(doom) · 原片解梗伴看 · 原片放大与字幕缩小",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看视频的静态设计修订：放大左侧原片窗口，缩小左下中英字幕，右侧完整保留上一条与当前条解释；不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T05:07:08.129Z",
+  "parent_version": "v006.3",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "lyric-meme-notes",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。",
+    "右边的解释里面也加上歌词是不是会好一点？有一个歌词，然后有具体的解释，要解释到梗。",
+    "标题改为是不是改为 I'm up in my p-doom 比较好呢？还是保留 AGI 比较好呢？这个歌其实就是 I'm up in my p-doom。",
+    "可以把视频放得大一点，然后左下的字幕稍微小一号吗？"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Built-in image_gen.imagegen single static edit: taller source window, smaller bilingual subtitles and compact proposed song-title header; annotation copy inherited. No motion or full video.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "879f5b291b4a52e667c19136bd4b10340e02ba6a74dafa0894112b20043dea1a",
+    "files": {
+      "renderer/index.html": "879f5b291b4a52e667c19136bd4b10340e02ba6a74dafa0894112b20043dea1a"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "annotation_cards": "data/annotation-cards.json",
+    "prompt": "provenance/prompt.txt",
+    "generation": "provenance/GENERATION.json",
+    "reference": "design/references/base-v006.3.png",
+    "source_frame_reference": "design/references/source-023800.png",
+    "concept": "design/mockups/A-larger-video-smaller-lyrics.png"
+  },
+  "data_hashes": {
+    "layout": "7b8b9680195c8a7cb492b3ccb45468175e195718d3a0f95a71438c70b66c2800",
+    "annotation_cards": "91c196ab31830c164a6c1f2182fd4fba928771f2dcb6456184958cba128f06ff",
+    "prompt": "738e08d944d471f2430b1b8fe37a054489d96826a7c7ef9b695c43258db8e895",
+    "generation": "01dabb425fa26ca037594b78981309c3c542abfe64ae9242a9a9b54929029b86",
+    "reference": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2",
+    "source_frame_reference": "a2176f16497cb6c0e6eb8112821af750f265164544574a938d5ac78eeee86ee4",
+    "concept": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9"
+  },
+  "variants": [
+    {
+      "id": "larger-video-smaller-lyrics",
+      "label": "A · 原片放大与字幕缩小",
+      "generation_id": "LLMV_001_V006_R004_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.4/design/mockups/A-larger-video-smaller-lyrics.png",
+      "design_output": {
+        "path": "design/mockups/A-larger-video-smaller-lyrics.png",
+        "sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9",
+        "size_bytes": 1319602,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      },
+      "known_issues": [
+        "仅静态样图；滚动动画、全片解梗、双语同步与阅读时长尚未制作验收。",
+        "AI 样图比例与字号近似；正式合成须把时间标签放在原片外，按 16:9 完整嵌入原视频。",
+        "右侧文案继承 v006.3，笑点属于编辑性解读，不作为作者确认意图。",
+        "歌名标题作为前轮建议的展示提案，尚未人工批准。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Taller source window and smaller complete bilingual lyrics; both right-side notes remain complete.",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.3/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R003_001",
+    "parent_design_sha256": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2"
+  }
+}

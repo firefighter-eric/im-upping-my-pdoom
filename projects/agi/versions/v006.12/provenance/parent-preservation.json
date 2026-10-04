@@ -1,0 +1,121 @@
+{
+  "parent_version": "v006.11",
+  "files": [
+    {
+      "path": "QA.md",
+      "sha256": "154fb5bbb2e1dec0e828f7be4ff2d69aed2e365ea0e122a66dcfb20411ad5ec9"
+    },
+    {
+      "path": "TREATMENT.md",
+      "sha256": "12140e619709b5bd7e04c2f68e81619192b0fe29a5a71e5d0affb0161c70a3d5"
+    },
+    {
+      "path": "data/annotation-cards.json",
+      "sha256": "7c2f7af22dd997b3a1de777a2894a8ba5fcddc2f706a1a0ed3eb22890fc12e28"
+    },
+    {
+      "path": "data/approved-review-v003.json",
+      "sha256": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138"
+    },
+    {
+      "path": "data/beat-analysis.json",
+      "sha256": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b"
+    },
+    {
+      "path": "data/highlight-map.json",
+      "sha256": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d"
+    },
+    {
+      "path": "data/layout.json",
+      "sha256": "47e5d28b37de72b4d69f04109d2a773fe5f88567ca9b5bbbd755e2ac52fc70a8"
+    },
+    {
+      "path": "data/lyric-timing.json",
+      "sha256": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d"
+    },
+    {
+      "path": "data/reading-layout.json",
+      "sha256": "7cc82af3eee24a16be2e97f47e58b68be33cb9b658b9a589961fd06f2c6f4434"
+    },
+    {
+      "path": "data/screen-copy.json",
+      "sha256": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "2f1512e1365d2af8415f455f25c5678d975e7d7124a64c5bbdbfb508817c622c"
+    },
+    {
+      "path": "preview.html",
+      "sha256": "767b64b1d2e5fd40ee2269faccd222303d2f3524cd94f0c6bff95470865ed777"
+    },
+    {
+      "path": "production/render-still.mjs",
+      "sha256": "b6bfb47cdf5adaeb057cc892a634f487434b35a190e104fe9f5e7df362a388b8"
+    },
+    {
+      "path": "provenance/content-adoption.json",
+      "sha256": "d578a467e361edbbfed8a14f32fd1792a203e442f0717a702cc4221f7334c035"
+    },
+    {
+      "path": "provenance/parent-preservation.json",
+      "sha256": "5af30dd1389ea6a1fcf5f3ed146c3f40f8f06750fd1231740eb6739c71313342"
+    },
+    {
+      "path": "provenance/review-checks.json",
+      "sha256": "f0ecbd212c9413b83bad5cd75c5e13a91eeac3511ddc36a40a47454fbdc8fd01"
+    },
+    {
+      "path": "provenance/still-validation.json",
+      "sha256": "5bbe2f61436371d0662a6f818abdc2abbeabeaf7916d256e51c61b739019570c"
+    },
+    {
+      "path": "provenance/watermark-inspection.json",
+      "sha256": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e"
+    },
+    {
+      "path": "renderer/index.html",
+      "sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-500.ttf",
+      "sha256": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-700.ttf",
+      "sha256": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847"
+    },
+    {
+      "path": "renderer/public/fonts/Archivo-OFL.txt",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "path": "renderer/public/fonts/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "renderer/public/fonts/OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "renderer/src/main.ts",
+      "sha256": "3e13b05d91207dc4c824b6e5aade0cd0ed81d6d866bfeca87866954e76e36c66"
+    },
+    {
+      "path": "renderer/tsconfig.json",
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    },
+    {
+      "path": "runs/RUN_2026-10-04T08-11-12-820Z_8a869495.json",
+      "sha256": "7035528de9a539505a407b5fa4ec0272d1f51b4b4cdf92ca492b03f979d2a8c3"
+    },
+    {
+      "path": "stills/LLMV_001_V006_R011_001_bottom-flush_008.500.jpg",
+      "sha256": "51d141d2c461bfd2f232bf628e9b0f576c10cbd822b7b0e5e23ea114d6afae25"
+    }
+  ]
+}

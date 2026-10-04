@@ -1,0 +1,50 @@
+{
+  "canvas": [
+    3840,
+    2160
+  ],
+  "logical_canvas": [
+    1920,
+    1080
+  ],
+  "video_rect": {
+    "x": 48,
+    "y": 104,
+    "width": 1232,
+    "height": 693
+  },
+  "right": {
+    "rail_x": 1342,
+    "x": 1378,
+    "width": 494,
+    "top": 104,
+    "bottom": 1030,
+    "body_px": 24,
+    "body_line_height": 36,
+    "english_px": 26,
+    "english_line_height": 33,
+    "chinese_px": 24,
+    "chinese_line_height": 33,
+    "heading_px": 25,
+    "heading_line_height": 34,
+    "gap": 34
+  },
+  "subtitles": {
+    "x": 48,
+    "y": 826,
+    "width": 1232,
+    "zh_px": 42,
+    "zh_line_height": 54,
+    "en_px": 34,
+    "en_line_height": 44
+  },
+  "transition_seconds": 0.45,
+  "previous_item_fully_visible": true,
+  "source_fit": "contain; exact 16:9, no cropping or watermark removal",
+  "header": "song title only",
+  "source_picture_pts_offset": 0.021,
+  "source_picture_fps": 30,
+  "output_fps": 60,
+  "audio_to_video_offset_seconds": 0,
+  "beat_layer": "small active rail-dot pulse; no flashing text; lyric anchors never snapped to beats"
+}

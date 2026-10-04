@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-04",
+  "source_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+  "method": "Visual inspection of a 5-second-spaced whole-source contact sheet plus native ending frame and previously reviewed representative source frames. Sampled inspection, not an automated proof over every pixel of all frames.",
+  "observed_watermark": false,
+  "scope": "No visible platform, uploader-account or editing-software watermark found in sampled sections and ending.",
+  "preserved_in_frame_content": "All original technical labels, corner marks, text and the Regenerate ending are part of the MV and remain intact.",
+  "action": "Use original source picture directly; no crop, inpainting, logo removal or original-scene rendering."
+}

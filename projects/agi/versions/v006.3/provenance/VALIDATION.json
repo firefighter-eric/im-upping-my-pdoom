@@ -1,0 +1,17 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.3",
+  "local_date": "2026-10-04",
+  "check": "passed",
+  "tests": {"passed": 9, "failed": 0},
+  "verify": "passed: 55 preserved migration files and 10 versions",
+  "diff_check": "passed",
+  "image_inspection": "Viewed generated still: previous and current notes each show complete English lyric, Chinese translation and concrete joke explanation; left-side bilingual subtitles retained.",
+  "source_check": "Both English lyric lines matched local registered lyric data; P(doom) terminology checked against primary community discussion; joke readings explicitly editorial.",
+  "parent_design_sha256": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc",
+  "parent_preserved": true,
+  "all_memes_researched": false,
+  "reading_duration_validation": "pending; static sample only",
+  "full_video_created": false,
+  "human_approval": null
+}

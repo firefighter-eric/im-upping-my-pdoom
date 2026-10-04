@@ -1,0 +1,87 @@
+{
+  "id": "RUN_2026-10-04T08-11-12-820Z_8a869495",
+  "project_id": "LLMV_001",
+  "version": "v006.11",
+  "status": "completed",
+  "purpose": "single-frame-review",
+  "started_at": "2026-10-04T08:11:12.820Z",
+  "time_seconds": 8.5,
+  "frame_count": 1,
+  "full_video_rendered": false,
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "single-frame-layout-review",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Inherited 4K60 full-video target settings are retained for future production; this request authorizes one still at 8.5 seconds only."
+  },
+  "request": [
+    "在下面有一条，稍微有一点点空，你可以先渲染一页给我看看吗？然后我看过以后再渲染成全部的画面。"
+  ],
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "renderer_files": {
+    "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "3e13b05d91207dc4c824b6e5aade0cd0ed81d6d866bfeca87866954e76e36c66",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "47e5d28b37de72b4d69f04109d2a773fe5f88567ca9b5bbbd755e2ac52fc70a8",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "content_adoption": "d578a467e361edbbfed8a14f32fd1792a203e442f0717a702cc4221f7334c035",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e",
+    "highlights": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d",
+    "preview_page": "767b64b1d2e5fd40ee2269faccd222303d2f3524cd94f0c6bff95470865ed777",
+    "still_exporter": "b6bfb47cdf5adaeb057cc892a634f487434b35a190e104fe9f5e7df362a388b8"
+  },
+  "treatment_sha256": "12140e619709b5bd7e04c2f68e81619192b0fe29a5a71e5d0affb0161c70a3d5",
+  "tools": {
+    "node": "v25.8.2",
+    "browser": "154.0.8037.93"
+  },
+  "outputs": [
+    {
+      "path": "stills/LLMV_001_V006_R011_001_bottom-flush_008.500.jpg",
+      "sha256": "51d141d2c461bfd2f232bf628e9b0f576c10cbd822b7b0e5e23ea114d6afae25",
+      "size_bytes": 1055036,
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 8.5,
+      "kind": "single-rendered-frame",
+      "status": "review",
+      "run_id": "RUN_2026-10-04T08-11-12-820Z_8a869495"
+    }
+  ],
+  "build_key": "fc1ebf6464e4b07f818448b0b2feaa328f16be0ff2e3f8e66b587e14a9410ba2",
+  "finished_at": "2026-10-04T08:11:13.883Z"
+}

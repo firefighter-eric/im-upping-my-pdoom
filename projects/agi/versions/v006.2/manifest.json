@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.2",
+  "title": "AGI · 原片解梗伴看 · 中英歌词对照修订",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "特殊伴看解说视频的设计修订：左下中文与英文歌词双行对照，右侧继续同时保留上一条和当前条完整解释；不是原视频重新渲染。",
+  "status": "draft",
+  "production_stage": "design-only",
+  "created_at": "2026-10-04T04:56:44.302Z",
+  "parent_version": "v006.1",
+  "lineage": {
+    "kind": "design-revision",
+    "parent_variant": "continuous-reading",
+    "source_id": "LLMV_001_SOURCE",
+    "inherited_mv_renderer": false
+  },
+  "request": [
+    "原视频放在左边或左上角，占宽度约 2/3，右侧滑动解释所有的梗；先做样图，不制作完整视频。",
+    "这个可以作为 V006，注释为特殊的视频，而不是原视频重新渲染。",
+    "右侧文字稍微小一点，滚动的时候可以看到是至少上一次的内容，这样防止有的用户没看完就滚动到下一个里面了。",
+    "然后左下方的歌词可以加上中文和英文，这样的话方便中英对照。"
+  ],
+  "model": "TBD: exact model not exposed",
+  "method": "Edit prior concept with built-in image_gen.imagegen: pair complete Chinese and English lyrics below the original video. Preserve previous/current annotation readability. No full video or animation produced.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "design-review-only",
+    "sha256": "ab7aec0c72f2184c33ad653b0e603df7b67ebc84bc6a91a7d62af7f24a6960ef",
+    "files": {
+      "renderer/index.html": "ab7aec0c72f2184c33ad653b0e603df7b67ebc84bc6a91a7d62af7f24a6960ef"
+    },
+    "status": "review-page-only",
+    "production_implementation": "TBD"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": null,
+    "target_frames": null,
+    "purpose": "design-only",
+    "notes": "Dimensions/FPS are future production defaults, not delivered specs; duration and target frames remain unset until compositor timing is planned."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Embed the registered original video at its full 16:9 aspect ratio; do not re-render original MV scenes.",
+    "audio": "Preserve full original audio without changing speed or cutting; narration/extension TBD.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "layout": "data/reading-layout.json",
+    "prompt": "provenance/prompt.txt",
+    "generation": "provenance/GENERATION.json",
+    "reference": "design/references/base-v006.1.png",
+    "concept": "design/mockups/A-bilingual-lyrics.png"
+  },
+  "data_hashes": {
+    "layout": "8a6f678fe128726460f84662ccfe495ef0269e4f1174cbb6b3bbd38b81ce9036",
+    "prompt": "c73d16bc1d1267a99401551afa215e1e6775f0e1b1107cf3573e9ae2048290f8",
+    "generation": "d9c836bb58d8bdc3b97eab1d64baf85772a3df3072f666380b96d37467b0f7b6",
+    "reference": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0",
+    "concept": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc"
+  },
+  "variants": [
+    {
+      "id": "bilingual-lyrics",
+      "label": "A · 中英歌词对照 · 上一条解释保留",
+      "generation_id": "LLMV_001_V006_R002_001",
+      "purpose": "static-concept-only",
+      "output": null,
+      "poster": "versions/v006.2/design/mockups/A-bilingual-lyrics.png",
+      "design_output": {
+        "path": "design/mockups/A-bilingual-lyrics.png",
+        "sha256": "e681de5749e64703bdaead33ef3083494a809f1983883030454ba213a68844fc",
+        "size_bytes": 1386489,
+        "width": 1672,
+        "height": 941,
+        "kind": "static-concept-image",
+        "status": "review"
+      },
+      "known_issues": [
+        "静态样图仅展示一句中英配对；全片翻译、字幕同步和滚动动画尚未实现或验证。",
+        "AI 概念稿不保证精确字号或原片像素，正式视频需直接合成原视频。"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  },
+  "validation": {
+    "full_video_produced": false,
+    "motion_produced": false,
+    "full_lyric_translation_completed": false,
+    "all_memes_researched": false,
+    "visual_direction_selected": false,
+    "human_review": "pending",
+    "static_visual_inspection": "Chinese and English complete and paired; previous/current explanations remain fully visible",
+    "parent_design_hash": "unchanged"
+  },
+  "historical_provenance": {
+    "parent_manifest": "projects/agi/versions/v006.1/manifest.json",
+    "parent_generation_id": "LLMV_001_V006_R001_001",
+    "parent_design_sha256": "670f937281fa4992ab5297bfcb5221ee250b13556e624edb577a838b5610bec0"
+  }
+}

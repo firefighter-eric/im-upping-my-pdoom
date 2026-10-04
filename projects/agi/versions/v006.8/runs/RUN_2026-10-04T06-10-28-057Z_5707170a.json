@@ -1,0 +1,159 @@
+{
+  "id": "RUN_2026-10-04T06-10-28-057Z_5707170a",
+  "project_id": "LLMV_001",
+  "version": "v006.8",
+  "status": "failed",
+  "started_at": "2026-10-04T06:10:28.058Z",
+  "purpose": "full-render",
+  "renderer_sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+  "renderer_files": {
+    "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "abfa043a0c8bbfea25d994a6ea40317ba2b7d5575dc428b4c077878ea4e24438",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "audio_sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+  "source_video_sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "a63d52b327974e194121e28c7ce08b6b5c31050ab57bf2cd166d709201c4a77e",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "exporter": "fcdada5c2def3563d364035279dfef17502cdf7c80f709e2e314a9a7bf485600",
+    "content_adoption": "4e0e33ff80bb838db464b0781ada331ac0f8ef16202dfa732de57f60c48a4ec7",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e"
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "full-companion-video",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Native 4K text/layout. Original 720p30 picture is scaled with Lanczos; no claim of additional source detail or interpolated source motion. Preserve original picture PTS rounded to the 60fps output grid."
+  },
+  "request": [
+    "Render the complete V006 companion video using the existing original MV plus new annotations and bilingual captions.",
+    "Use current v006.7 visual direction and v003 editorial review; retain the complete previous note.",
+    "Inspect source for watermarks and use it directly if none are found."
+  ],
+  "treatment_sha256": "7d9bbb01fc797b3d22c3224e3c5b2ab6e6c09cf0f4252e234b108ab9b5d598fe",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "node": "v25.8.2",
+    "exporter_sha256": "fcdada5c2def3563d364035279dfef17502cdf7c80f709e2e314a9a7bf485600",
+    "browser": "154.0.8037.93"
+  },
+  "variants": [
+    "companion"
+  ],
+  "outputs": [],
+  "compositing": {
+    "original_scene_rendering": false,
+    "source_video_direct_decode": true,
+    "source_pts": "preserved; rounded to 60fps grid; first frame padded to t=0",
+    "picture_upscale": "1280x720 -> 2464x1386 Lanczos",
+    "audio": "full registered AAC packet copy",
+    "native_text_canvas": [
+      3840,
+      2160
+    ]
+  },
+  "build_key": "1715422dfc3691bf5bd25207fd06f1a92fbeb5221d277b7e4f15e59c3925054c",
+  "layout_preflight": {
+    "all_pairs_fit": true,
+    "all_subtitles_fit": true,
+    "fonts_loaded": true,
+    "max_pair_height": 858,
+    "viewport_height": 926
+  },
+  "encoder_arguments": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-n",
+    "-filter_complex_threads",
+    "2",
+    "-f",
+    "image2pipe",
+    "-vcodec",
+    "mjpeg",
+    "-framerate",
+    "60",
+    "-i",
+    "pipe:0",
+    "-i",
+    "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+    "-i",
+    "projects/agi/sources/audio/LLMV_001_audio_original_v001.m4a",
+    "-filter_complex",
+    "[0:v:0]scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p[base];[1:v:0]fps=fps=60:round=near:start_time=0,scale=2464:1386:flags=lanczos,setsar=1[src];[base][src]overlay=x=96:y=208:eof_action=repeat:shortest=1:format=yuv420,setsar=1[v]",
+    "-map",
+    "[v]",
+    "-map",
+    "2:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-r",
+    "60",
+    "-fps_mode",
+    "cfr",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "projects/agi/versions/v006.8/outputs/LLMV_001_V006_R008_001_companion_v006.8.partial.mp4"
+  ],
+  "segment": null,
+  "error": "Node.js V8 reached the approximately 4 GiB JavaScript heap limit during full rendering.",
+  "reconciled_at": "2026-10-04T06:17:55.043079+00:00",
+  "reconciliation": {
+    "reason": "Native OOM bypassed JavaScript cleanup; externally observed failed exit.",
+    "evidence": "provenance/render-failure.json",
+    "original_receipt_snapshot": "provenance/failed-run-original-receipt.json"
+  },
+  "failure_artifacts": [
+    {
+      "path": "outputs/LLMV_001_V006_R008_001_companion_v006.8.partial.mp4",
+      "sha256": "95bc1b714e976bc9dd98f6ed01bcabe4212f0b9485f8da71944d317c952937e7",
+      "size_bytes": 220377994,
+      "video_frames": 5265,
+      "target_frames": 9400,
+      "video_duration_seconds": 87.75,
+      "audio_duration_seconds": 156.650667,
+      "container_duration_seconds": 156.650667,
+      "registered": false,
+      "full_media_validation": false,
+      "note": "The long container duration comes from the copied full audio; video ends at 87.75 s. This is not a complete deliverable."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "project_id": "LLMV_001",
+  "version": "v006.4",
+  "local_date": "2026-10-04",
+  "check": "passed",
+  "tests": {"passed": 9, "failed": 0},
+  "verify": "passed: 55 preserved migration files and 11 versions",
+  "diff_check": "passed",
+  "image": {"width": 1672, "height": 941, "sha256": "e5e265e20c542d75d4cb9597f1bb2c30f45a53b651ba573ce544ba57ba4cadb9"},
+  "image_inspection": "Viewed generated still: video window is taller, both lower-left subtitle lines are smaller and complete, orange matched terms retained, both right-side lyric quotes and explanations fully visible.",
+  "geometry_limit": "Static generative approximation. Exact source aspect ratio, safe areas and subtitle metrics require compositor validation; separate timestamp label from a 16:9 source frame in production.",
+  "parent_design_sha256": "fe554faef3864d1b66af7cca144d60932fd48bde25559f52e3fd67d915d233d2",
+  "parent_preserved": true,
+  "source_video_and_audio_hashes": "matched registered sources before and after generation",
+  "reading_duration_validation": "pending; static sample only",
+  "motion_created": false,
+  "full_video_created": false,
+  "human_approval": null
+}

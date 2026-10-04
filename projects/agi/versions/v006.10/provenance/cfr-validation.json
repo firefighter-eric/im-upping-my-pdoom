@@ -1,0 +1,9 @@
+{
+  "method": "Check the presentation timestamps of all encoded video packets, sorted into presentation order; frame decode count independently checked during registration.",
+  "frames": 9400,
+  "first_pts": 0.0,
+  "last_pts": 156.65,
+  "maximum_grid_error_seconds": 3.333333467026023e-07,
+  "all_frames_on_60fps_grid": true,
+  "output_sha256": "e65979df5781246b4b534e6b0d868c85940b0ded8b9e97f016ccf9cab8b7334d"
+}

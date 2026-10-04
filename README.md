@@ -15,6 +15,26 @@
 | AGI / LLMV_001 | v003.0 | 失控的计算温室 · 首轮 Preview | superseded |
 | AGI / LLMV_001 | v003.1 | 失控的计算温室 · 排版修订 | review |
 | AGI / LLMV_001 | v004.0 | 谁在控制谁 · 逐句控制剧场 | review |
+| AGI / LLMV_001 | [v006.0](projects/agi/versions/v006.0/TREATMENT.md) | **特殊衍生视频：原片解梗伴看，非原片重渲染** | draft · 仅三张 review 样图 |
+| AGI / LLMV_001 | [v006.1](projects/agi/versions/v006.1/TREATMENT.md) | 原片解梗伴看 · 右侧缩字，保留上一条完整解释 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.2](projects/agi/versions/v006.2/TREATMENT.md) | 原片解梗伴看 · 左下中英歌词对照，延续右侧连续阅读 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.3](projects/agi/versions/v006.3/TREATMENT.md) | 原片解梗伴看 · 右侧对应歌词＋具体梗解释 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.4](projects/agi/versions/v006.4/TREATMENT.md) | 原片解梗伴看 · 放大原片、缩小左下双语字幕 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.5](projects/agi/versions/v006.5/TREATMENT.md) | 原片解梗伴看 · 移除视频框内标签栏，原片填满窗口 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.6](projects/agi/versions/v006.6/TREATMENT.md) | 原片解梗伴看 · 删除顶部辅助标签，仅保留歌名 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.7](projects/agi/versions/v006.7/TREATMENT.md) | 原片解梗伴看 · 右侧文字再微缩一档，保留完整前后解释 | draft · 静态修订样图 review |
+| AGI / LLMV_001 | [v006.8](projects/agi/versions/v006.8/TREATMENT.md) | 原片解梗伴看 · 原生 4K60 字幕与滚动注释合成 | draft · 首次完整导出失败，未重试 |
+| AGI / LLMV_001 | [v006.9](projects/agi/versions/v006.9/QA.md) | 原片解梗伴看 · 修正内存保留，完整 4K60 成片 | review · 媒体与播放检查通过 |
+| AGI / LLMV_001 | [v006.10](projects/agi/versions/v006.10/QA.md) | 原片解梗伴看 · 中英关键词高亮与全宽进度条 | review · 完整视频与交互审看片页 |
+| AGI / LLMV_001 | [v006.11](projects/agi/versions/v006.11/TREATMENT.md) | 原片解梗伴看 · 进度条贴底，取消单独底栏 | draft · 仅一张 4K 样图，等待用户审看后再制作全片 |
+| AGI / LLMV_001 | [v006.12](projects/agi/versions/v006.12/TREATMENT.md) | 原片解梗伴看 · 根据红框收紧字幕与时间间距 | draft · 单帧 review，完整视频等待确认 |
+| AGI / LLMV_001 | [v006.13](projects/agi/versions/v006.13/QA.md) | 原片解梗伴看 · 正式稿 · 完整 4K60 成片 | approved · 用户于 2026-10-04 确认 |
+
+**V006「原片解梗伴看」**以原视频为主体，新增中文梗解释、双语字幕和滑动注释，不重新制作原 MV 的场景。原片抽查未发现外部水印，直接解码嵌入新画布。[v006.13 正式稿](projects/agi/versions/v006.13/outputs/LLMV_001_V006_R013_001_companion_v006.13.mp4) 为 3840×2160、60fps、约 2 分 37 秒，完整复制原 AAC，已由用户确认并登记为 approved；采用用户确认的 v006.12 紧凑底部布局，保留中英关键词橙色高亮与贴底全宽进度条。
+
+最新成片覆盖 46 句中英歌词和 43 次注释出现，保留完整上一条与当前条。v006.13 的渲染代码与获批样图一致，字幕、时间和右下提示的间距按确认版执行。另附 [watch.html 审看片页](projects/agi/versions/v006.13/watch.html)，在临时预览服务中可直接点击、拖动贴底进度条。详见 [最新交付与验收](projects/agi/versions/v006.13/QA.md)和[正式稿确认记录](projects/agi/versions/v006.13/provenance/USER_FINAL_APPROVAL.json)；确认绑定已交付 MP4 的 SHA-256，成片内容保持不变。
+
+[40 条解梗稿 v003](docs/plans/agi-v006-annotation-review-v003/REVIEW.md)覆盖 46 句主歌词，另含 3 条片尾画面解释。原 40 条梗解释已由用户于 2026-10-04 确认；现有 [29 条简短年份与具体来源](docs/plans/agi-v006-annotation-review-v003/ALL_CONTEXT.md)，其中[新增 10 条](docs/plans/agi-v006-annotation-review-v003/SOURCE_NOTES.md)，包括 Astra 使用超过 10 万块 GPU 训练的现实对照。背景已纳入 v006.8 的简短屏幕文案，原审稿完整保留；不将旧稿确认扩展为新画面或同步批准。
 
 v001 的三种变体均为 **1920×1080、24fps、约 2 分 37 秒**，完整复用原 AAC 音轨。参考原片、M4A 原音频、WAV 编辑音频和三部 MP4 在本地完整保留；GitHub 上传画面静帧、源代码、歌词对齐数据、转录、媒体探测和原 Story Studio 验收记录。
 
@@ -165,6 +185,6 @@ python3 -m venv .venv
 
 参考原片来自用户指定的 [B 站视频 BV18ta86EEHb](https://www.bilibili.com/video/BV18ta86EEHb/)，页面上传者为白雪仅当雪白；页面关联来源项目为 [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)。原始链接、规格和哈希均保留。v001 的逐词歌词辅助时间数据注明该来源；本地音轨转录和对齐检查也已保留。
 
-当前 review 候选尚待人工审核；自动对齐的 13 个低置信词、额外声部和有声同步需听辨。PR 合并只批准源码发布，不自动将视频标记为 approved。音乐、歌词与参考视频权利按源资产保持 **TBD**，不因放入 GitHub 而变为已授权素材。项目级代码许可证也暂为 TBD，详见 [`LICENSE.md`](LICENSE.md) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
+v006.13 已由用户确认作为正式稿；其他 review 候选仍保留各自审核状态。自动对齐的 13 个低置信词和额外声部的历史不确定项继续保留，本次整体确认不新增逐词听辨证据。PR 合并只批准源码发布，不自动将视频标记为 approved。音乐、歌词与参考视频权利按源资产保持 **TBD**，不因放入 GitHub 而变为已授权素材。项目级代码许可证也暂为 TBD，详见 [`LICENSE.md`](LICENSE.md) 和 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
 六个 AGI 制作版本的主歌词来源、与作者标准文本的九行差异及同步审核边界，见 [歌词文字校对记录](docs/AGI_LYRICS_AUDIT.md)。历史成片和已绑定数据保持可追溯。

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.10",
+  "title": "I'm Upping My P(doom) · 原片解梗伴看",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "description": "Full companion-video composite: reuse original picture and AAC; render bilingual captions, concise sourced annotations and a scrolling reading rail.",
+  "status": "review",
+  "production_stage": "completed-composite",
+  "created_at": "2026-10-04T07:51:04.025Z",
+  "parent_version": "v006.9",
+  "lineage": {
+    "kind": "semantic-highlights-and-full-width-progress",
+    "parent_version": "v006.9",
+    "editorial_parent": "docs/plans/agi-v006-annotation-review-v003",
+    "inherited_mv_renderer": false,
+    "source_id": "LLMV_001_SOURCE"
+  },
+  "request": [
+    "Continue V006 companion production from v006.9 in a new version.",
+    "Add more orange highlights for meaningful words in bilingual lyrics and related annotations.",
+    "Make progress span the full video width and map it to the actual encoded duration so seeking positions are easy to follow.",
+    "Retain original picture, full original AAC, typography sizes, explanations and 4K60 delivery settings."
+  ],
+  "model": "Codex; deterministic TypeScript Canvas 2D typography and FFmpeg composition; no generative video model",
+  "method": "Browser renders new text/layout only; FFmpeg decodes and embeds registered source picture and copies original AAC.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "canvas2d-companion-composite",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+    "files": {
+      "renderer/index.html": "b762c1502fa5150fc004eec162f5bc465880bcc591566e7be37c0744336845e9",
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "renderer/src/main.ts": "effe15b6d5af751b98ecbc5ff931e5c8d7416b5aabed75316988e29538a12767",
+      "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 156.650667,
+    "target_frames": 9400,
+    "purpose": "full-companion-video",
+    "frame_transport": "jpeg-overlay-pipe",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    },
+    "notes": "Native 4K text/layout. Original 720p30 picture is scaled with Lanczos; no claim of additional source detail or interpolated source motion. Preserve original picture PTS rounded to the 60fps output grid."
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_001_SOURCE",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+    },
+    "audio": {
+      "source_id": "LLMV_001_AUDIO_001",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274"
+    }
+  },
+  "source_usage": {
+    "picture": "Decode original video directly and embed without cropping. Its existing graphics remain untouched.",
+    "audio": "Copy complete registered original AAC; no trimming, speed change, narration or re-encoding.",
+    "new_content": [
+      "Chinese meme explanations",
+      "Chinese lyric translation",
+      "Annotation motion and diagrams",
+      "Companion-video layout"
+    ],
+    "source_resolution": [
+      1280,
+      720
+    ],
+    "source_fps": 30,
+    "source_detail_upscale_claim": false
+  },
+  "data": {
+    "screen_copy": "data/screen-copy.json",
+    "editorial_review": "data/approved-review-v003.json",
+    "sources": "data/sources.json",
+    "layout": "data/layout.json",
+    "beat_analysis": "data/beat-analysis.json",
+    "lyric_timing": "data/lyric-timing.json",
+    "exporter": "production/render.mjs",
+    "content_adoption": "provenance/content-adoption.json",
+    "watermark_inspection": "provenance/watermark-inspection.json",
+    "highlights": "data/highlight-map.json",
+    "review_player": "watch.html"
+  },
+  "data_hashes": {
+    "screen_copy": "45237756cce66523ab644cc3aedd4a73a598c1def556afe52e30eb6598a43579",
+    "editorial_review": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138",
+    "sources": "b17bf0ae20ec4566cd4bdfdf9a8562a4a3c5fc78690abf4793672d5a1722a8c8",
+    "layout": "3925e7d77a68e51dee4797b695b71329d7e2cda5210f43e6c8db21ae02b914e3",
+    "beat_analysis": "5de50eff1a4c4344269c6e5fac70dad4b31f71dd2eb67d7e828d55d8890df63b",
+    "lyric_timing": "0016ae2be44131efd68d0d4c1411651c3ca9937bc404a5d25e064514a536d70d",
+    "exporter": "45a0eaf51aa7d9b5bd5983687e643b10ac224adbcdd50cadcbe4a68a0fb4efaa",
+    "content_adoption": "0f136673af3f09b5a70153450af53c29e74754e12b785a0f655180b85171484a",
+    "watermark_inspection": "08eb27e7bedf18e27559f6033708c31bd9e3a5e20cb94edfcb142d61f4547a3e",
+    "highlights": "1124ba82325a369a66a7bbb3568fc5f25f25f9186b40bec5571a93f82e0e2e8d",
+    "review_player": "8809a8864b0a7e8d79df0d4378bf878ef36c10e80faac8fb46ca7f13dc1f4a51"
+  },
+  "variants": [
+    {
+      "id": "companion",
+      "label": "原片解梗伴看 · 4K60",
+      "generation_id": "LLMV_001_V006_R010_001",
+      "output": {
+        "path": "outputs/LLMV_001_V006_R010_001_companion_v006.10.mp4",
+        "sha256": "e65979df5781246b4b534e6b0d868c85940b0ded8b9e97f016ccf9cab8b7334d",
+        "size_bytes": 322015688,
+        "duration_seconds": 156.666667,
+        "codec": "h264",
+        "width": 3840,
+        "height": 2160,
+        "frame_rate": "60/1",
+        "frame_count": 9400,
+        "audio_packet_hash": "SHA256=80613c12ac602d1ff19d6ba61a2b26a34e4a23b6c1efa22a2a3d6df82bb4572d",
+        "status": "review",
+        "run_id": "RUN_2026-10-04T07-57-05-402Z_8d20ebd1"
+      },
+      "poster": "poster.jpg",
+      "known_issues": [
+        "Source picture is 1280×720 at 30fps, scaled into the native 4K layout.",
+        "Fast lyric passages have dense annotations; pause/reading comfort and perceptual synchronization require human review.",
+        "Existing 13 uncertain lyric word alignments are not promoted to new word-level guarantees."
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "Noto Sans CJK and Archivo: SIL Open Font License; font files and license included."
+  },
+  "validation": {
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-04T08:02:49.985Z",
+    "human_review": "pending",
+    "full_video_produced": true,
+    "all_frame_timestamps": "passed",
+    "source_picture_ssim": 0.993828,
+    "actual_playback": "passed",
+    "complete_media_verification": "passed",
+    "highlighted_bilingual_lines": 46,
+    "highlighted_note_occurrences": 43,
+    "full_width_progress": "passed in preflight and encoded samples",
+    "review_player": "15 pointer positions across 3 viewport sizes; keyboard, drag-resume and fullscreen passed",
+    "encoded_frame_samples": 205,
+    "visual_review": "see QA.md; human approval pending",
+    "perceptual_sync_review": "pending human review",
+    "parent_integrity": "45 parent files unchanged"
+  },
+  "historical_provenance": {
+    "parent_version": "v006.9",
+    "editorial_review_sha256": "3c4bf5bcb21eeb0b9a013f04500c32bc56410035e2421fb98600a732534e6138"
+  }
+}

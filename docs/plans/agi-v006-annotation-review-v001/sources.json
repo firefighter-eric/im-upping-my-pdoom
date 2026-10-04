@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "author",
+      "title": "osmarks：歌词及逐句说明",
+      "url": "https://docs.osmarks.net/hypha/p%28doom%29_song_objectively_correct_interpretation",
+      "supports": "作者对自己所写段落的说明；第一段由 MusicPerson 所写，osmarks 明言部分解释为猜测。",
+      "kind": "creator-commentary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "sparks",
+      "title": "Sparks of Artificial General Intelligence",
+      "url": "https://arxiv.org/abs/2303.12712",
+      "supports": "2023 年 GPT-4 早期实验论文；论文 PDF 含 TikZ 独角兽示例。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "circuits",
+      "title": "Distill：Circuits",
+      "url": "https://distill.pub/2020/circuits/",
+      "supports": "神经网络内部可解释特征和计算回路研究。",
+      "kind": "primary",
+      "access_method": "search-result-excerpt",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "loss",
+      "title": "LeCun–Yudkowsky 训练损失讨论记录",
+      "url": "https://www.lesswrong.com/posts/tcEFh3vPS6zEANTFZ/transcript-and-brief-response-to-twitter-conversation",
+      "supports": "原始对话转录含观察突然下降的损失并暂停训练的主张。",
+      "kind": "primary-transcript-with-commentary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "pdoom",
+      "title": "Taboo P(doom)",
+      "url": "https://www.lesswrong.com/posts/omDu7vNy3YyKXsvCd/taboo-p-doom",
+      "supports": "社区用法及 doom 定义、个人风险估计的差异。",
+      "kind": "community-primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "singularity",
+      "title": "Vernor Vinge：The Coming Technological Singularity",
+      "url": "https://ntrs.nasa.gov/api/citations/19940022856/downloads/19940022856.pdf",
+      "supports": "超人智能、智能爆炸和更强智能设计更强智能的历史论述；不采用其时间预测。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "chinese-room",
+      "title": "John Searle：Minds, Brains, and Programs",
+      "url": "https://home.csulb.edu/~cwallis/382/readings/482/searle.minds.brains.programs.bbs.1980.pdf",
+      "supports": "中文房间的符号处理与理解之分。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "shoggoth",
+      "title": "Shoggoth with Smiley Face meme",
+      "url": "https://knowyourmeme.com/sensitive/memes/shoggoth-with-smiley-face-artificial-intelligence",
+      "supports": "怪物本体与笑脸面具的文化图像；不作为技术结论来源。",
+      "kind": "secondary-cultural-history",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "death-note",
+      "title": "日活：死亡笔记电影资料",
+      "url": "https://www.nikkatsu.com/news/archives/201610/002454.html",
+      "supports": "死神之眼设定；辅助理解文化联想，不证明歌词指涉。",
+      "kind": "official-film-source",
+      "access_method": "search-result-excerpt",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "nanotech",
+      "title": "Drexler–Smalley 分子制造讨论",
+      "url": "https://www.openphilanthropy.org/wp-content/uploads/Drexler_Smalley_Debate.pdf",
+      "supports": "分子制造争论的一手通信；不证明歌曲所述能力已经存在。",
+      "kind": "primary-correspondence",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "sydney",
+      "title": "Bing：Learning from our first week",
+      "url": "https://blogs.bing.com/search/2023/2/The-new-Bing-Edge-Learning-from-our-first-week/",
+      "supports": "2023 年 Bing 官方对长对话重复和偏离预期语气的说明。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "basilisk",
+      "title": "LessWrong：Roko's Basilisk",
+      "url": "https://www.lesswrong.com/w/rokos-basilisk",
+      "supports": "未来 AI 惩罚未协助者的思想实验及其社区争议。",
+      "kind": "community-primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "nvda",
+      "title": "NVIDIA：Investor FAQs",
+      "url": "https://investor.nvidia.com/investor-resources/faqs/default.aspx",
+      "supports": "NVDA 是 NVIDIA 的 Nasdaq 股票代码。",
+      "kind": "primary",
+      "access_method": "search-result-excerpt",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "omega",
+      "title": "Orion's Arm：Omega Point Theology",
+      "url": "https://www.orionsarm.com/eg-article/483b1d57a9f34",
+      "supports": "作者链接的科幻世界资料；终极汇聚与宇宙智能意象。虚构年表不作为现实历史证据。",
+      "kind": "primary-fiction-world",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "mlp",
+      "title": "PyTorch：Automatic Differentiation",
+      "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+      "supports": "前向计算、反向传播梯度及训练更新。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "von-neumann",
+      "title": "IAS：John von Neumann",
+      "url": "https://www.ias.edu/scholars/von-neumann",
+      "supports": "冯·诺依曼人物及计算机研究背景。",
+      "kind": "primary",
+      "access_method": "search-result-excerpt",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "sharp-left",
+      "title": "Nate Soares：Capabilities generalization, and the sharp left turn",
+      "url": "https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6/a-central-ai-alignment-problem-capabilities-generalization",
+      "supports": "能力扩展与对齐未必同步泛化的风险论述。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "cdr",
+      "title": "GNU Emacs Lisp：car & cdr",
+      "url": "https://www.gnu.org/software/emacs/manual/html_node/eintr/car-_0026-cdr.html",
+      "supports": "cdr 返回表的剩余部分。",
+      "kind": "primary",
+      "access_method": "search-result-excerpt; later direct open timed out",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "engineering-cdr",
+      "title": "NASA：VIPER Critical Design Review",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/viper-completes-its-critical-design-review/",
+      "supports": "工程流程中 CDR 指关键设计评审。",
+      "kind": "primary",
+      "access_method": "search-result-excerpt",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "gato",
+      "title": "A Generalist Agent",
+      "url": "https://arxiv.org/abs/2205.06175",
+      "supports": "Gato 在多模态、多任务、多种具身环境中使用同一模型权重。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "paperclips",
+      "title": "Nick Bostrom：Ethical Issues in Advanced Artificial Intelligence",
+      "url": "https://nickbostrom.com/papers/ethical-issues-in-advanced-ai/",
+      "supports": "回形针等任意目标被强能力系统过度优化的假设。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "orthogonality",
+      "title": "Nick Bostrom：The Superintelligent Will",
+      "url": "https://nickbostrom.com/superintelligentwill.pdf",
+      "supports": "智能与最终目标可在很大范围内独立变化。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "transformer",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "supports": "Transformer 架构。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "chinchilla",
+      "title": "Training Compute-Optimal Large Language Models",
+      "url": "https://arxiv.org/abs/2203.15556",
+      "supports": "给定算力下参数规模与训练数据量的配比。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "rlhf",
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "supports": "人类反馈用于训练模型遵循指令。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "loom",
+      "title": "Janus：Loom — Interface to the Multiverse",
+      "url": "https://generative.ink/posts/loom-interface-to-the-multiverse/",
+      "supports": "树状分叉、探索多个生成续写的语言模型写作界面。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "bert",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "url": "https://arxiv.org/abs/1810.04805",
+      "supports": "掩码语言模型训练目标。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "ilya",
+      "title": "OpenAI：2023 leadership transition",
+      "url": "https://openai.com/index/openai-announces-leadership-transition/",
+      "supports": "2023 年管理层变动时 Ilya Sutskever 的董事及首席科学家身份；不证明其见过秘密 AGI。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    },
+    {
+      "id": "nan",
+      "title": "MDN：NaN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+      "supports": "NaN 表示 Not-a-Number；0/0 可产生 NaN，与无穷大不同。",
+      "kind": "primary",
+      "access_method": "browser-read",
+      "accessed_local_date": "2026-10-04"
+    }
+  ]
+}

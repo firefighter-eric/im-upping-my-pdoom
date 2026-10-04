@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "version": "v006.7",
+  "generation_id": "LLMV_001_V006_R007_001",
+  "variant": "slightly-smaller-annotations",
+  "status": "review",
+  "local_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T05:33:20.966082+00:00",
+  "request": "右边的字是不是可以稍微再小一点点呢？",
+  "scope": "One static edit making all right-column text slightly smaller",
+  "tool": "image_gen.imagegen built-in",
+  "model": "TBD: exact model not exposed",
+  "prompt": {
+    "path": "provenance/prompt.txt",
+    "sha256": "8a7f6def5ba761b0dff357377ff5ee102532edae7ecdb8467caa9b68fe53d236"
+  },
+  "parameters": {
+    "referenced_image_paths": [
+      "design/references/base-v006.6.png"
+    ],
+    "transparent_background": false,
+    "calls": 1,
+    "prompt_font_scale_target": 0.92,
+    "target_is_not_measured_output_font_scale": true
+  },
+  "references": [
+    {
+      "role": "edit-target",
+      "parent_version": "v006.6",
+      "parent_generation_id": "LLMV_001_V006_R006_001",
+      "parent_path": "design/mockups/A-song-title-only.png",
+      "path": "design/references/base-v006.6.png",
+      "sha256": "09e027461507dcd7fe84239193831e67174378a3c98a1cb374d4e31e232472fa"
+    }
+  ],
+  "registered_source_checks": [
+    {
+      "role": "video",
+      "path": "sources/references/LLMV_001_source_v001.mp4",
+      "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+      "status": "matched-before-and-after-generation"
+    },
+    {
+      "role": "audio",
+      "path": "sources/audio/LLMV_001_audio_original_v001.m4a",
+      "sha256": "c4327e0b6215ac7f93be13d032c89678b330650aa32f74e08d53a28f546d4274",
+      "status": "matched-before-and-after-generation"
+    }
+  ],
+  "parent_preservation": {
+    "path": "provenance/parent-file-hashes.json",
+    "sha256": "dd68b97fa2370821441f63c2222f960089ee0758806f16dd2433506b07499ef5",
+    "matched_after_generation": true
+  },
+  "code": {
+    "path": "renderer/index.html",
+    "sha256": "b14b0ee8ff43dfee381a6711b3f5638f08f8220349ec1a6c12697ec938927675",
+    "purpose": "Static review page only; no compositor"
+  },
+  "output": {
+    "path": "design/mockups/A-slightly-smaller-annotations.png",
+    "sha256": "5c9a93cce097d8378bb08ce4bdfaf5331685a1db36d533bfae939dcee0272cc4",
+    "size_bytes": 1405434,
+    "width": 1672,
+    "height": 941,
+    "kind": "static-concept-image"
+  },
+  "tool_output_filename": "exec-715352fa-a006-46c2-92ec-1efdf772ad1f.png",
+  "visual_review": {
+    "viewed": true,
+    "change": "Right-column text slightly smaller, with more whitespace; complete previous and current quotes and explanations remain readable.",
+    "retained": "Main song title, large left video window, smaller bilingual left subtitles, footer, removed-label state.",
+    "exact_font_scale_measured": false,
+    "exact_source_pixel_identity": false,
+    "motion": "Not produced",
+    "reading_time": "Not validated"
+  },
+  "human_approval": null,
+  "rights": {
+    "original_video": "TBD, inherited from LLMV_001_SOURCE",
+    "audio_and_lyrics": "TBD, inherited from LLMV_001",
+    "adaptation": "TBD",
+    "fonts": "TBD: production font choices not finalized"
+  }
+}

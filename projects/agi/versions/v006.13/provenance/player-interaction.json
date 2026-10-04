@@ -1,0 +1,78 @@
+{
+  "version": "v006.13",
+  "date": "2026-10-04T08:30:23.489435+00:00",
+  "status": "passed",
+  "method": "Actual Codex in-app browser UI via cua_repl: native pointer clicks and drag, keyboard Home/Right/End, play/pause and fullscreen button; inspect DOM-owned media and layout state.",
+  "url": "http://127.0.0.1:62902/versions/v006.13/watch.html",
+  "video": {
+    "width": 3840,
+    "height": 2160,
+    "duration_seconds": 156.666667,
+    "readyState": 4,
+    "error": null
+  },
+  "pointer_positions": [
+    {
+      "ratio": 0,
+      "observed_seconds": 0.192229,
+      "expected_seconds": 0.1922290392638037
+    },
+    {
+      "ratio": 0.25,
+      "observed_seconds": 39.214724,
+      "expected_seconds": 39.16666675
+    },
+    {
+      "ratio": 0.5,
+      "observed_seconds": 78.429448,
+      "expected_seconds": 78.3333335
+    },
+    {
+      "ratio": 0.75,
+      "observed_seconds": 117.451942,
+      "expected_seconds": 117.50000025
+    },
+    {
+      "ratio": 1,
+      "observed_seconds": 156.474437,
+      "expected_seconds": 156.4744379607362
+    }
+  ],
+  "maximum_pointer_time_error_seconds": 0.09611449999999877,
+  "pointer_resolution_seconds_per_css_pixel": 0.19222903926380366,
+  "pointer_notes": "Endpoint clicks are inset one CSS pixel; native fractional pointer coordinates round to device pixels. Midpoint briefly showed readyState=1 while seeking, with no media error; settled playback reaches readyState=4.",
+  "keyboard": {
+    "Home": 0,
+    "ArrowRight_after_Home": 5,
+    "End": 156.666667
+  },
+  "drag_resume": {
+    "immediately_after_drag": {
+      "time": 103.419223,
+      "paused": false
+    },
+    "later_time": 106.532447,
+    "later_readyState": 4,
+    "error": null
+  },
+  "alignment": {
+    "normal_stage_width": 815,
+    "normal_track_width": 815,
+    "normal_stage_bottom": 587.71875,
+    "normal_track_bottom": 587.71875,
+    "expanded_stage_width": 1512,
+    "expanded_track_width": 1512,
+    "expanded_stage_bottom": 867.75,
+    "expanded_track_bottom": 867.75,
+    "returned_width": 815,
+    "note": "Fullscreen button visually expanded the player; clicking again returned to normal. Read-only DOM fullscreenElement was null, so acceptance here uses observed viewport, screenshot and geometry rather than an API fullscreen flag."
+  },
+  "console_errors": [],
+  "final_state": {
+    "time": 0,
+    "paused": true,
+    "readyState": 4,
+    "error": null
+  },
+  "human_perceptual_audio_sync": "not claimed by technical UI playback"
+}

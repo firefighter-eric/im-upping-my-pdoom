@@ -1,0 +1,8 @@
+{
+  "status": "identical",
+  "sample_seconds": 8.5,
+  "approved_still_sha256": "e5d886645acd69bf4b818dd8c6c3c05056f14949d77759f5f6e3c9e777e79456",
+  "new_preflight_sha256": "e5d886645acd69bf4b818dd8c6c3c05056f14949d77759f5f6e3c9e777e79456",
+  "renderer_files_identical": true,
+  "layout_identical": true
+}
