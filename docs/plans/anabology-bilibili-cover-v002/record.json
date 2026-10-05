@@ -1,0 +1,303 @@
+{
+  "project_id": "LLMV_002",
+  "video_version": "v001.1",
+  "variant": "bilibili-cover-original-frame",
+  "generation_id": "LLMV_002_V001_R001_COVER_ORIGINAL_001",
+  "created_at": "2026-10-05T13:13:55.323Z",
+  "status": "review",
+  "user_request": "直接用原视频截图，不用加字幕和解说的版本，优先画面中的美女。",
+  "source": {
+    "id": "LLMV_002_SOURCE",
+    "path": "projects/anabology/sources/references/LLMV_002_source_v001.mp4",
+    "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d"
+  },
+  "tools": {
+    "method": "FFmpeg original-frame extraction",
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "imagegen_calls": 0
+  },
+  "frames": [
+    {
+      "index": 1,
+      "requested_source_seconds": 2,
+      "path": "candidates/shot_01.jpg",
+      "sha256": "608558d02407cf6a4f139300d2889e4ddaec8d0777607fedee00e6cd12de5b5f",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 2,
+      "requested_source_seconds": 9,
+      "path": "candidates/shot_02.jpg",
+      "sha256": "403d640d00d9f77c70839fd07647b248258e702c1b787f089b0cd963a9bc3e32",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 3,
+      "requested_source_seconds": 18,
+      "path": "candidates/shot_03.jpg",
+      "sha256": "371994f6163ccca080608f5e06325c4dfad70be3d5e5ab38d04c13451b38244d",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 4,
+      "requested_source_seconds": 27,
+      "path": "candidates/shot_04.jpg",
+      "sha256": "1625ff7221c4c1ec1ae4389a2ceb6ebfb78eb5a1120f08a7a628ff07eae96a5c",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 5,
+      "requested_source_seconds": 36,
+      "path": "candidates/shot_05.jpg",
+      "sha256": "631027b72f98ff7a2981f22ee126579bac96d1b1d761f8709b529a8dfa65ab78",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 6,
+      "requested_source_seconds": 45,
+      "path": "candidates/shot_06.jpg",
+      "sha256": "6db414060bfa9c5a69e6728c8630d88f3f6e03ce692ac7ad3577b1f4453ec368",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 7,
+      "requested_source_seconds": 54,
+      "path": "candidates/shot_07.jpg",
+      "sha256": "e5848fc9244858df1007566751ae11b3ab7f5ccad929310a70d750ee775fb777",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 8,
+      "requested_source_seconds": 63,
+      "path": "candidates/shot_08.jpg",
+      "sha256": "79483e55be05b64d0184355365e3b09f36d153667aa8cb649d4a652869902e8d",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 9,
+      "requested_source_seconds": 70.7,
+      "path": "candidates/shot_09.jpg",
+      "sha256": "3a55aec9bda252c7438341aaa342ad25ddc1d5dd808618c018f71f039b8d2565",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 10,
+      "requested_source_seconds": 82,
+      "path": "candidates/shot_10.jpg",
+      "sha256": "34367997c98cfb202f963a5588607ad48fc954a9fc9a5667e4520b57b32f76bc",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 11,
+      "requested_source_seconds": 95,
+      "path": "candidates/shot_11.jpg",
+      "sha256": "dd92d20938ba339d66f42520b799d57a760f2ad3727ee3913d471ac1f6a94bb2",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 12,
+      "requested_source_seconds": 112,
+      "path": "candidates/shot_12.jpg",
+      "sha256": "acbabc9b9913819264dd74f8b9fd17e1a35287a6da39cb815aa7af65c3034fa5",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 13,
+      "requested_source_seconds": 124,
+      "path": "candidates/shot_13.jpg",
+      "sha256": "17d5010b4960a7555d28ebd970e30ddf9888039c753e0ec06979fd247da0b74c",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 14,
+      "requested_source_seconds": 138,
+      "path": "candidates/shot_14.jpg",
+      "sha256": "581284d9962bd87ad928a5c31417a5c1205d0a2594d81913d51dabbdfa6eaf5b",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 15,
+      "requested_source_seconds": 151,
+      "path": "candidates/shot_15.jpg",
+      "sha256": "7f47f8dfa244d7c1055559b7debd00cb55d3905a5877019148c8a53bdecbd137",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 16,
+      "requested_source_seconds": 168,
+      "path": "candidates/shot_16.jpg",
+      "sha256": "d6653e01a3454f831174ef5c2388426c29223fa85939fa9c6375cfb6e95368a4",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 17,
+      "requested_source_seconds": 184,
+      "path": "candidates/shot_17.jpg",
+      "sha256": "c062b930c8426dfdb0ebc390d73a9ed287e5914e17b395060ceec2bbb514a0bf",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 18,
+      "requested_source_seconds": 205,
+      "path": "candidates/shot_18.jpg",
+      "sha256": "d0e93ae52c17b68ff8c04a538aadb5c59c9e55a4520239296c9fa5449e240882",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 19,
+      "requested_source_seconds": 223,
+      "path": "candidates/shot_19.jpg",
+      "sha256": "67c38585cc042d402af608db77e45dae332689f9fbc0d56ffb0ad5357e851444",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 20,
+      "requested_source_seconds": 238,
+      "path": "candidates/shot_20.jpg",
+      "sha256": "3ebedca62bb6a75d959db7752908615b3df156a6055a34c6bbacd4c898d18be2",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 21,
+      "requested_source_seconds": 251.5,
+      "path": "candidates/shot_21.jpg",
+      "sha256": "7b1bf92b6fc75299408d74b84406d165f2bc875c461897cbfe7770212f2733c6",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 22,
+      "requested_source_seconds": 272,
+      "path": "candidates/shot_22.jpg",
+      "sha256": "9cb88ab9ac30e8bf484b954be2ae9a59dfe578843d406c8a19e116a25d595894",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 23,
+      "requested_source_seconds": 287.9,
+      "path": "candidates/shot_23.jpg",
+      "sha256": "6a5f69de923e605de73df493b5c8facd2a8449e1f8b5b3166f4eed85b405cc75",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "index": 24,
+      "requested_source_seconds": 294,
+      "path": "candidates/shot_24.jpg",
+      "sha256": "91487c9151f85d73630a35bc53715a22d1c6f8623a6936b67a82ca44e607ab1f",
+      "width": 1920,
+      "height": 1080,
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    }
+  ],
+  "selected": {
+    "primary": {
+      "role": "primary",
+      "generation_id": "LLMV_002_V001_R001_COVER_ORIGINAL_001",
+      "candidate_index": 23,
+      "requested_source_seconds": 287.9,
+      "path": "LLMV_002_V001_R001_COVER_ORIGINAL_001_287900ms.jpg",
+      "sha256": "6a5f69de923e605de73df493b5c8facd2a8449e1f8b5b3166f4eed85b405cc75",
+      "size_bytes": 1167111,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "reason": "人物脸部占比大，背景明亮，眼神朝向镜头，表情生动，适合突出人物的封面。",
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    "backup": {
+      "role": "backup",
+      "generation_id": "LLMV_002_V001_R001_COVER_ORIGINAL_002",
+      "candidate_index": 8,
+      "requested_source_seconds": 63,
+      "path": "LLMV_002_V001_R001_COVER_ORIGINAL_002_63000ms.jpg",
+      "sha256": "79483e55be05b64d0184355365e3b09f36d153667aa8cb649d4a652869902e8d",
+      "size_bytes": 695039,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "reason": "正面人物近景，五官清楚，深色背景突出脸部，适合作为另一种封面选择。",
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    "selected_at": "2026-10-05T13:16:44.801Z",
+    "selected_by": "assistant recommendation",
+    "human_approval": null
+  },
+  "rights": "TBD",
+  "human_approval": null,
+  "outputs": [
+    {
+      "role": "primary",
+      "generation_id": "LLMV_002_V001_R001_COVER_ORIGINAL_001",
+      "candidate_index": 23,
+      "requested_source_seconds": 287.9,
+      "path": "LLMV_002_V001_R001_COVER_ORIGINAL_001_287900ms.jpg",
+      "sha256": "6a5f69de923e605de73df493b5c8facd2a8449e1f8b5b3166f4eed85b405cc75",
+      "size_bytes": 1167111,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "reason": "人物脸部占比大，背景明亮，眼神朝向镜头，表情生动，适合突出人物的封面。",
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    },
+    {
+      "role": "backup",
+      "generation_id": "LLMV_002_V001_R001_COVER_ORIGINAL_002",
+      "candidate_index": 8,
+      "requested_source_seconds": 63,
+      "path": "LLMV_002_V001_R001_COVER_ORIGINAL_002_63000ms.jpg",
+      "sha256": "79483e55be05b64d0184355365e3b09f36d153667aa8cb649d4a652869902e8d",
+      "size_bytes": 695039,
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "reason": "正面人物近景，五官清楚，深色背景突出脸部，适合作为另一种封面选择。",
+      "processing": "direct source decode to JPEG; no crop, retouching, added text, explainer composite or upscale"
+    }
+  ],
+  "selection_basis": "Original-video character close-ups, inspected at native resolution; preference for a prominent face, natural expression and thumbnail readability. No click-through performance claim."
+}

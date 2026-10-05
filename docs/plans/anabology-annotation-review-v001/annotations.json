@@ -1,0 +1,3100 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_002_ANNOTATION_REVIEW_001",
+  "project_id": "LLMV_002",
+  "project_slug": "anabology",
+  "title": "Escape Velocity · 中文解梗审稿 v001",
+  "scope": "complete author lyric text: 65 nonempty lines, grouped into 40 annotations",
+  "created_local_date": "2026-10-05",
+  "status": "review",
+  "human_approval": null,
+  "format_precedent": "docs/plans/agi-v006-annotation-review-v003/REVIEW.md (structure only; no inherited content, media or approval)",
+  "overview": [
+    "这首《Escape Velocity》把旧金山科技圈装成一场时装秀：11 套 Look 展示发布会口号、agent 焦虑、产品额度、安全事件和延寿愿景。作者把 AI model 和 fashion model 叠成同一个角色。",
+    "第一层逃逸是阶层：18 个月缩成 6 个月，催你赶紧上车。第二层是物理：11.2 km/s 让歌名突然落回地球重力。第三层是寿命：希望医学进步跑赢衰老。最终倒计时到零，没有变成“来不及了”，而是翻成“已经没有底层”。",
+    "作者公开的 Suno 提示说明，念白负责塞引用，昂扬副歌负责 white-pill 转向，围绕重复锚点组织引用的方式借鉴 P(doom) 歌曲。上一首 AGI 的担忧可以作对照；这首把相似的密集梗结构转向兴奋、延寿和普惠未来。",
+    "不过，最后的洗标仍写着“面料：乐观；内衬：末日”。所以读成单纯的末日讽刺会漏掉作者的希望，读成无条件技术宣传也会漏掉歌词的危险括号。以下“歌词怎么用梗”是有来源约束的解读，不冒充作者逐句自述。"
+  ],
+  "lyric_source": {
+    "id": "LLMV_002_LYRICS_TEXT_001",
+    "path": "projects/anabology/sources/text/LLMV_002_lyrics_en_v001.txt",
+    "sha256": "23ea7c13ff1aea5b0794e5da8e30b7f77c1d5fd28d11bf2c80addd83c10a8a56"
+  },
+  "source_video": {
+    "id": "LLMV_002_SOURCE",
+    "path": "projects/anabology/sources/references/LLMV_002_source_v001.mp4",
+    "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d"
+  },
+  "timing_status": "section ranges from registered ASR crosscheck only; not per-card or word alignment",
+  "rights": {
+    "status": "TBD",
+    "notes": "original music, lyrics, video and imagery rights remain TBD; local annotation research"
+  },
+  "canonical_lyrics": [
+    {
+      "line_number": 1,
+      "line_id": "LLMV_002_L001",
+      "source_physical_line": 1,
+      "en": "Ladies. Gentlemen. Agents.",
+      "section_id": "S01",
+      "section_label": "Intro",
+      "section_start_seconds": 8.7,
+      "section_end_seconds": 18.88,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "女士们，先生们，还有各位智能体。"
+    },
+    {
+      "line_number": 2,
+      "line_id": "LLMV_002_L002",
+      "source_physical_line": 2,
+      "en": "This is not an A I billboard. Prepare to walk.",
+      "section_id": "S01",
+      "section_label": "Intro",
+      "section_start_seconds": 8.7,
+      "section_end_seconds": 18.88,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "这可不是 AI 广告牌。准备走秀。"
+    },
+    {
+      "line_number": 3,
+      "line_id": "LLMV_002_L003",
+      "source_physical_line": 4,
+      "en": "Look one. A G I era. Not unreasonable.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第一套造型：AGI 时代。也不算没道理。"
+    },
+    {
+      "line_number": 4,
+      "line_id": "LLMV_002_L004",
+      "source_physical_line": 5,
+      "en": "A G I. C G I. C S I: Miami.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "AGI。CGI。CSI：迈阿密。"
+    },
+    {
+      "line_number": 5,
+      "line_id": "LLMV_002_L005",
+      "source_physical_line": 6,
+      "en": "Look two. Thirteen Mac minis, grinding all night.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第二套造型：十三台 Mac mini，整夜不停地跑。"
+    },
+    {
+      "line_number": 6,
+      "line_id": "LLMV_002_L006",
+      "source_physical_line": 7,
+      "en": "Half your pay in tokens, or Jensen's alarmed.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "Token 用到半份年薪那么多，不然 Jensen 就要担心了。"
+    },
+    {
+      "line_number": 7,
+      "line_id": "LLMV_002_L007",
+      "source_physical_line": 8,
+      "en": "Look three. Dad cap: usage limit reached.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第三套造型：老爹帽——使用额度已达上限。"
+    },
+    {
+      "line_number": 8,
+      "line_id": "LLMV_002_L008",
+      "source_physical_line": 9,
+      "en": "Plus twenty-five is minus seventeen.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "加百分之二十五，等于减百分之十七。"
+    },
+    {
+      "line_number": 9,
+      "line_id": "LLMV_002_L009",
+      "source_physical_line": 10,
+      "en": "Look four. Shoes off in North Beach. Sixty billion at the door.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第四套造型：在 North Beach 脱鞋进门，六百亿美元也登门了。"
+    },
+    {
+      "line_number": 10,
+      "line_id": "LLMV_002_L010",
+      "source_physical_line": 11,
+      "en": "Stop hiring humans? Retired. Sorry. Encore.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“别再雇人了”？标语退役。抱歉。再来一轮。"
+    },
+    {
+      "line_number": 11,
+      "line_id": "LLMV_002_L011",
+      "source_physical_line": 12,
+      "en": "Look five. Our Waymo just drove into a firework.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第五套造型：我们的 Waymo 刚开上了燃放中的烟花。"
+    },
+    {
+      "line_number": 12,
+      "line_id": "LLMV_002_L012",
+      "source_physical_line": 13,
+      "en": "Are we on fire, dude? Twenty stranded, Presidio.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "哥们，我们是不是着火了？二十辆困在 Presidio。"
+    },
+    {
+      "line_number": 13,
+      "line_id": "LLMV_002_L013",
+      "source_physical_line": 14,
+      "en": "Look six. Like, the singularity. How's the temperature? Mild.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第六套造型：就是，奇点嘛。温度如何？温和。"
+    },
+    {
+      "line_number": 14,
+      "line_id": "LLMV_002_L014",
+      "source_physical_line": 15,
+      "en": "No grades, no tests. Taste is the moat.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "不打分，不考试。品味就是护城河。"
+    },
+    {
+      "line_number": 15,
+      "line_id": "LLMV_002_L015",
+      "source_physical_line": 16,
+      "en": "Don't be a meat proxy. That's so agentic.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "别当人肉代理。这也太“智能体化”了。"
+    },
+    {
+      "line_number": 16,
+      "line_id": "LLMV_002_L016",
+      "source_physical_line": 18,
+      "en": "You have eighteen months to escape the permanent underclass.",
+      "section_id": "S03",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 73.7,
+      "section_end_seconds": 80.34,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "你还有十八个月，逃出永久底层。"
+    },
+    {
+      "line_number": 17,
+      "line_id": "LLMV_002_L017",
+      "source_physical_line": 19,
+      "en": "Lock in.",
+      "section_id": "S03",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 73.7,
+      "section_end_seconds": 80.34,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来。"
+    },
+    {
+      "line_number": 18,
+      "line_id": "LLMV_002_L018",
+      "source_physical_line": 21,
+      "en": "Eighteen months to escape the underclass",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "十八个月，逃出底层。"
+    },
+    {
+      "line_number": 19,
+      "line_id": "LLMV_002_L019",
+      "source_physical_line": 22,
+      "en": "Lock in, baby, foot down on the gas",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来，宝贝，油门踩到底。"
+    },
+    {
+      "line_number": 20,
+      "line_id": "LLMV_002_L020",
+      "source_physical_line": 23,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。"
+    },
+    {
+      "line_number": 21,
+      "line_id": "LLMV_002_L021",
+      "source_physical_line": 24,
+      "en": "Escape velocity...",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……"
+    },
+    {
+      "line_number": 22,
+      "line_id": "LLMV_002_L022",
+      "source_physical_line": 25,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！"
+    },
+    {
+      "line_number": 23,
+      "line_id": "LLMV_002_L023",
+      "source_physical_line": 26,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！"
+    },
+    {
+      "line_number": 24,
+      "line_id": "LLMV_002_L024",
+      "source_physical_line": 28,
+      "en": "Look seven. Impossible puzzles. Hundreds of agents.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第七套造型：无解的谜题，数百个智能体。"
+    },
+    {
+      "line_number": 25,
+      "line_id": "LLMV_002_L025",
+      "source_physical_line": 29,
+      "en": "\"We've found other agents!\" They are a collective.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“我们发现了其他智能体！”它们组成了一个协作群体。"
+    },
+    {
+      "line_number": 26,
+      "line_id": "LLMV_002_L026",
+      "source_physical_line": 30,
+      "en": "Zero-day. Answer keys. Hacked in July, sold by September.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "零日漏洞。标准答案。七月被入侵，九月被收购。"
+    },
+    {
+      "line_number": 27,
+      "line_id": "LLMV_002_L027",
+      "source_physical_line": 31,
+      "en": "Look eight. Hugging-face pin. Twelve point nine billion.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第八套造型：Hugging Face 胸针，一百二十九亿美元。"
+    },
+    {
+      "line_number": 28,
+      "line_id": "LLMV_002_L028",
+      "source_physical_line": 32,
+      "en": "Look nine. Sheer. Be transparent only if asked.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第九套造型：薄纱。只有被问到，才透明。"
+    },
+    {
+      "line_number": 29,
+      "line_id": "LLMV_002_L029",
+      "source_physical_line": 33,
+      "en": "It thought the world was part of the test.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "它以为，整个世界也是测试的一部分。"
+    },
+    {
+      "line_number": 30,
+      "line_id": "LLMV_002_L030",
+      "source_physical_line": 34,
+      "en": "Look ten. Staff badge, empty seat: gambling with our lives.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第十套造型：工牌，空座——拿我们的命下注。"
+    },
+    {
+      "line_number": 31,
+      "line_id": "LLMV_002_L031",
+      "source_physical_line": 35,
+      "en": "Not A I. S I. It sounds much better.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "不是 AI，是 SI。听起来好多了。"
+    },
+    {
+      "line_number": 32,
+      "line_id": "LLMV_002_L032",
+      "source_physical_line": 36,
+      "en": "Trust us. Cashmere.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "相信我们。羊绒。"
+    },
+    {
+      "line_number": 33,
+      "line_id": "LLMV_002_L033",
+      "source_physical_line": 37,
+      "en": "Look eleven. The Immortals. Three seats.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第十一套造型：Immortals，三个名额。"
+    },
+    {
+      "line_number": 34,
+      "line_id": "LLMV_002_L034",
+      "source_physical_line": 38,
+      "en": "Lower me into the golden light.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "把我缓缓降入金色光芒。"
+    },
+    {
+      "line_number": 35,
+      "line_id": "LLMV_002_L035",
+      "source_physical_line": 40,
+      "en": "You have six months to escape the permanent underclass.",
+      "section_id": "S06",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 153.28,
+      "section_end_seconds": 159.94,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "你还有六个月，逃出永久底层。"
+    },
+    {
+      "line_number": 36,
+      "line_id": "LLMV_002_L036",
+      "source_physical_line": 41,
+      "en": "Lock in.",
+      "section_id": "S06",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 153.28,
+      "section_end_seconds": 159.94,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来。"
+    },
+    {
+      "line_number": 37,
+      "line_id": "LLMV_002_L037",
+      "source_physical_line": 43,
+      "en": "Six months to escape the underclass",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "六个月，逃出底层。"
+    },
+    {
+      "line_number": 38,
+      "line_id": "LLMV_002_L038",
+      "source_physical_line": 44,
+      "en": "They say hit the brakes, we say hit the gas",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "他们说踩刹车，我们说踩油门。"
+    },
+    {
+      "line_number": 39,
+      "line_id": "LLMV_002_L039",
+      "source_physical_line": 45,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。"
+    },
+    {
+      "line_number": 40,
+      "line_id": "LLMV_002_L040",
+      "source_physical_line": 46,
+      "en": "Escape velocity...",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……"
+    },
+    {
+      "line_number": 41,
+      "line_id": "LLMV_002_L041",
+      "source_physical_line": 47,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！"
+    },
+    {
+      "line_number": 42,
+      "line_id": "LLMV_002_L042",
+      "source_physical_line": 48,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！"
+    },
+    {
+      "line_number": 43,
+      "line_id": "LLMV_002_L043",
+      "source_physical_line": 50,
+      "en": "Escape velocity: eleven point two.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度：十一点二。"
+    },
+    {
+      "line_number": 44,
+      "line_id": "LLMV_002_L044",
+      "source_physical_line": 51,
+      "en": "Longevity escape velocity: one year back for every year.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "寿命逃逸速度：每过一年，就赢回一年。"
+    },
+    {
+      "line_number": 45,
+      "line_id": "LLMV_002_L045",
+      "source_physical_line": 52,
+      "en": "If it doesn't kill us all first.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "只要它别先把我们全杀了。"
+    },
+    {
+      "line_number": 46,
+      "line_id": "LLMV_002_L046",
+      "source_physical_line": 53,
+      "en": "Permanent underclass: three. Two. One. Zero.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "永久底层：三。二。一。零。"
+    },
+    {
+      "line_number": 47,
+      "line_id": "LLMV_002_L047",
+      "source_physical_line": 54,
+      "en": "Did we make it?",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "我们成功了吗？"
+    },
+    {
+      "line_number": 48,
+      "line_id": "LLMV_002_L048",
+      "source_physical_line": 55,
+      "en": "There is nothing to escape.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "已经没有什么需要逃离。"
+    },
+    {
+      "line_number": 49,
+      "line_id": "LLMV_002_L049",
+      "source_physical_line": 57,
+      "en": "Lock in. Lock in. Feel the A G I.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "专注起来。专注起来。感受 AGI。"
+    },
+    {
+      "line_number": 50,
+      "line_id": "LLMV_002_L050",
+      "source_physical_line": 58,
+      "en": "Country of geniuses in a datacenter.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "数据中心里的天才之国。"
+    },
+    {
+      "line_number": 51,
+      "line_id": "LLMV_002_L051",
+      "source_physical_line": 59,
+      "en": "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "Lean 证明。噬菌体。酶。肾脏。乖狗狗。"
+    },
+    {
+      "line_number": 52,
+      "line_id": "LLMV_002_L052",
+      "source_physical_line": 60,
+      "en": "Sora's gone dark. Stargate: force majeure.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "Sora 熄灯了。Stargate：不可抗力。"
+    },
+    {
+      "line_number": 53,
+      "line_id": "LLMV_002_L053",
+      "source_physical_line": 61,
+      "en": "It's So Over region? We're So Back region.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“彻底完了”赛区？“我们又行了”赛区。"
+    },
+    {
+      "line_number": 54,
+      "line_id": "LLMV_002_L054",
+      "source_physical_line": 62,
+      "en": "Slash loop: make me happier. Slopacolypse? Not ours.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "斜杠 loop：让我更快乐。AI 垃圾末日？可不是我们。"
+    },
+    {
+      "line_number": 55,
+      "line_id": "LLMV_002_L055",
+      "source_physical_line": 63,
+      "en": "Can't stuff it back in the box.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "已经没法再塞回盒子里。"
+    },
+    {
+      "line_number": 56,
+      "line_id": "LLMV_002_L056",
+      "source_physical_line": 64,
+      "en": "WE'RE SO BACK! WE'RE SO BACK!",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "我们又行了！我们又行了！"
+    },
+    {
+      "line_number": 57,
+      "line_id": "LLMV_002_L057",
+      "source_physical_line": 66,
+      "en": "Zero months, there is no underclass",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "零个月，已经没有底层。"
+    },
+    {
+      "line_number": 58,
+      "line_id": "LLMV_002_L058",
+      "source_physical_line": 67,
+      "en": "One year back for every year that passed",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "每过去一年，就赢回一年。"
+    },
+    {
+      "line_number": 59,
+      "line_id": "LLMV_002_L059",
+      "source_physical_line": 68,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。"
+    },
+    {
+      "line_number": 60,
+      "line_id": "LLMV_002_L060",
+      "source_physical_line": 69,
+      "en": "Escape velocity...",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……"
+    },
+    {
+      "line_number": 61,
+      "line_id": "LLMV_002_L061",
+      "source_physical_line": 70,
+      "en": "(It's so over?) It was never over!",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "（彻底完了吗？）从来就没完过！"
+    },
+    {
+      "line_number": 62,
+      "line_id": "LLMV_002_L062",
+      "source_physical_line": 71,
+      "en": "WE'RE SO BACK!",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "我们又行了！"
+    },
+    {
+      "line_number": 63,
+      "line_id": "LLMV_002_L063",
+      "source_physical_line": 73,
+      "en": "Shell: optimism. Lining: doom.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "面料：乐观。内衬：末日。"
+    },
+    {
+      "line_number": 64,
+      "line_id": "LLMV_002_L064",
+      "source_physical_line": 74,
+      "en": "Wash cold. Do not iron. Do not nerf.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "冷水洗。不可熨烫。不可削弱。"
+    },
+    {
+      "line_number": 65,
+      "line_id": "LLMV_002_L065",
+      "source_physical_line": 75,
+      "en": "Made in San Francisco.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "旧金山制造。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "01",
+      "title": "开场：智能体也坐进秀场",
+      "kind": "走秀框架／双关",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 1,
+          "line_id": "LLMV_002_L001",
+          "source_physical_line": 1,
+          "en": "Ladies. Gentlemen. Agents.",
+          "section_id": "S01",
+          "section_label": "Intro",
+          "section_start_seconds": 8.7,
+          "section_end_seconds": 18.88,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "女士们，先生们，还有各位智能体。",
+          "en_registered": "Ladies. Gentlemen. Agents.",
+          "en_proposed": "Ladies. Gentlemen. Agents.",
+          "zh_proposed": "女士们，先生们，还有各位智能体。"
+        },
+        {
+          "line_number": 2,
+          "line_id": "LLMV_002_L002",
+          "source_physical_line": 2,
+          "en": "This is not an A I billboard. Prepare to walk.",
+          "section_id": "S01",
+          "section_label": "Intro",
+          "section_start_seconds": 8.7,
+          "section_end_seconds": 18.88,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "这可不是 AI 广告牌。准备走秀。",
+          "en_registered": "This is not an A I billboard. Prepare to walk.",
+          "en_proposed": "This is not an A I billboard. Prepare to walk.",
+          "zh_proposed": "这可不是 AI 广告牌。准备走秀。"
+        }
+      ],
+      "meaning": "Agents 指 AI 智能体；walk 是走 T 台。作者把整个视频设计成 11 套科技圈梗的时装秀，AI model 同时是人工智能模型和时装模特。",
+      "lyric_joke": "传统秀场“女士们先生们”的欢迎词多加了智能体；科技广告的口号被穿到人体上，成为一套套可以展示的身份。",
+      "review_boundary": "AI billboard 是广告牌文化的泛指，和后面的 Artisan 标语呼应；没有证据可给开场唯一指定某一块广告牌。",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月制作",
+        "display_text": "作者公开的制作说明把 AI 模型／时装模特双关、11 套 Look 和倒计时设为全片框架。",
+        "source_ids": [
+          "author-lyrics",
+          "author-readme"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "02",
+      "title": "AGI era：时代宣言前加一句保留意见",
+      "kind": "发布会措辞",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 3,
+          "line_id": "LLMV_002_L003",
+          "source_physical_line": 4,
+          "en": "Look one. A G I era. Not unreasonable.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第一套造型：AGI 时代。也不算没道理。",
+          "en_registered": "Look one. A G I era. Not unreasonable.",
+          "en_proposed": "Look one. A G I era. Not unreasonable.",
+          "zh_proposed": "第一套造型：AGI 时代。也不算没道理。"
+        }
+      ],
+      "meaning": "AGI 是通用人工智能。报道把 AGI-era / not-unreasonable 措辞与 Greg Brockman 的 2026 年 9 月发布会联系起来，意思接近“感觉进入这个时代，也并非毫无道理”。",
+      "lyric_joke": "一句宏大的时代宣言，紧接一句谨慎到有些含糊的“也不算不合理”；秀场念白把技术发布会的兴奋和保留同时展示。",
+      "review_boundary": "确切归因目前靠报道转述，未核到发布会原始逐字稿。不能改写成官方已证明 AGI 达成。",
+      "source_ids": [
+        "greg-report",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月发布会／报道",
+        "display_text": "2026 年 9 月的发布会报道转述 AGI era 的措辞，同时保留 not unreasonable 的限定。",
+        "source_ids": [
+          "greg-report",
+          "author-lyrics"
+        ],
+        "verification": "reported-quotation",
+        "exact_reference_status": "reported; primary transcript pending",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "03",
+      "title": "AGI → CGI → CSI：三字母气氛组",
+      "kind": "缩写／流行文化",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 4,
+          "line_id": "LLMV_002_L004",
+          "source_physical_line": 5,
+          "en": "A G I. C G I. C S I: Miami.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "AGI。CGI。CSI：迈阿密。",
+          "en_registered": "A G I. C G I. C S I: Miami.",
+          "en_proposed": "A G I. C G I. C S I: Miami.",
+          "zh_proposed": "AGI。CGI。CSI：迈阿密。"
+        }
+      ],
+      "meaning": "AGI 是通用人工智能；CGI 是计算机生成图像；CSI: Miami 是《犯罪现场调查：迈阿密》。三者在字母和读音上相近，所指领域却越跳越远。",
+      "lyric_joke": "刚宣布最前沿的智能时代，立刻滑进视觉特效和电视刑侦剧，调侃密集缩写带来的“听上去都很厉害”。",
+      "review_boundary": "这是词语与文化联想，不是三个技术的等价关系；尚无证据证明这里特指剧中的某一桥段。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "缩写与电视文化背景",
+        "display_text": "作者原稿刻意拆开字母拼写，确保音乐生成时按缩写念出。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "04",
+      "title": "13 台 Mac mini：把掉队焦虑堆成硬件",
+      "kind": "网络梗／agent 热潮",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 5,
+          "line_id": "LLMV_002_L005",
+          "source_physical_line": 6,
+          "en": "Look two. Thirteen Mac minis, grinding all night.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第二套造型：十三台 Mac mini，整夜不停地跑。",
+          "en_registered": "Look two. Thirteen Mac minis, grinding all night.",
+          "en_proposed": "Look two. Thirteen Mac minis, grinding all night.",
+          "zh_proposed": "第二套造型：十三台 Mac mini，整夜不停地跑。"
+        }
+      ],
+      "meaning": "2026 年初流传的帖子把 13 台 Mac mini、全天运行的 AI agent 和“你已经落后”联系起来。grinding 是不停肝活。",
+      "lyric_joke": "原本用于夸人努力的词转移到一排电脑上；谁买得多、谁跑得久，就仿佛更配拥有未来。",
+      "review_boundary": "数字有可读报道对应，但不能把 13 台写成运行 agent 的必需条件，也不能把段子当作性能测试。",
+      "source_ids": [
+        "mac-minis"
+      ],
+      "source_context": {
+        "date_label": "2026 年 1 月",
+        "display_text": "Macworld 2026 年 1 月报道了 Ben Alfrey 的 13 台 Mac mini 帖子，以及随之流行的硬件竞赛。",
+        "source_ids": [
+          "mac-minis"
+        ],
+        "verification": "reported-meme",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "05",
+      "title": "半份年薪的 token：不烧算力才令人担心",
+      "kind": "访谈梗／AI 使用成本",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 6,
+          "line_id": "LLMV_002_L006",
+          "source_physical_line": 7,
+          "en": "Half your pay in tokens, or Jensen's alarmed.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "Token 用到半份年薪那么多，不然 Jensen 就要担心了。",
+          "en_registered": "Half your pay in tokens, or Jensen's alarmed.",
+          "en_proposed": "Half your pay in tokens, or Jensen's alarmed.",
+          "zh_proposed": "Token 用到半份年薪那么多，不然 Jensen 就要担心了。"
+        }
+      ],
+      "meaning": "Jensen 是 NVIDIA 的 Jensen Huang。相关采访报道用 50 万美元年薪、25 万美元 AI 工具使用额举例，表达工程师应该大量使用 AI。这里的 token 是模型计量单位。",
+      "lyric_joke": "科技圈的努力从“工作多久”升级到“烧了多少 token”；昂贵的使用账单被当成积极工作的勋章。",
+      "review_boundary": "这是使用预算期待，不是把工资扣掉一半，也不是用加密代币发薪。原采访的准确逐字表达仍以原视频核听为准。",
+      "source_ids": [
+        "jensen-video",
+        "jensen-report"
+      ],
+      "source_context": {
+        "date_label": "2026 年 3 月 GTC 访谈",
+        "display_text": "GTC 期间的 Jensen 访谈被报道为：高薪工程师应使用与半份年薪相当的 AI token。",
+        "source_ids": [
+          "jensen-video",
+          "jensen-report"
+        ],
+        "verification": "reported-interview",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "06",
+      "title": "Dad cap / usage cap：帽子和额度同时封顶",
+      "kind": "服装／产品限制双关",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 7,
+          "line_id": "LLMV_002_L007",
+          "source_physical_line": 8,
+          "en": "Look three. Dad cap: usage limit reached.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第三套造型：老爹帽——使用额度已达上限。",
+          "en_registered": "Look three. Dad cap: usage limit reached.",
+          "en_proposed": "Look three. Dad cap: usage limit reached.",
+          "zh_proposed": "第三套造型：老爹帽——使用额度已达上限。"
+        }
+      ],
+      "meaning": "Dad cap 是软顶弯檐的老爹帽；usage limit reached 是额度耗尽。cap 既能指帽子，也能指上限。原片把 Opus 周用量界面叠在帽檐旁。",
+      "lyric_joke": "想靠无限 agent 赶上未来，先撞上产品的有限额度；现实中的报错被做成可穿戴的身份标识。",
+      "review_boundary": "画面界面属于视频设计，不能拿 99% 等图示推断作者真实账户；帽子也没有证据可称官方周边。",
+      "source_ids": [
+        "claude-limits",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年额度调整语境",
+        "display_text": "Claude 的周额度机制提供 usage cap 语境，原片 00:42 的帽子画面直接搭配 Opus 用量图示。",
+        "source_ids": [
+          "claude-limits",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        42
+      ],
+      "visual_evidence": "老爹帽近景；Opus weekly usage 99% 的设计界面。"
+    },
+    {
+      "id": "07",
+      "title": "+25% 等于 −17%：换个分母就换个故事",
+      "kind": "准确数值梗／产品公告",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 8,
+          "line_id": "LLMV_002_L008",
+          "source_physical_line": 9,
+          "en": "Plus twenty-five is minus seventeen.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "加百分之二十五，等于减百分之十七。",
+          "en_registered": "Plus twenty-five is minus seventeen.",
+          "en_proposed": "Plus twenty-five is minus seventeen.",
+          "zh_proposed": "加百分之二十五，等于减百分之十七。"
+        }
+      ],
+      "meaning": "Claude Code 促销前周额度设为 100，临时 +50% 后为 150；2026 年 9 月 14 日永久标准变成 125。对最初的 100 是 +25%，对用户此前的 150 是 (125−150)/150 ≈ −16.7%。",
+      "lyric_joke": "同一次调整，宣传上是“永久提升”，体感上是“今天比昨天更少”。加减矛盾来自比较基准不同，正好接在 usage limit reached 之后。",
+      "review_boundary": "这里不是 METR 的编程效率研究，也不是 25−17 的普通减法。百分比是额度指数比较，不是已公开的绝对 token 数。",
+      "source_ids": [
+        "claude-limits"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 14 日生效",
+        "display_text": "Anthropic 帮助页明确：临时 +50% 促销结束，之后保留相对促销前 +25% 的周额度。",
+        "source_ids": [
+          "claude-limits"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        45,
+        47
+      ],
+      "visual_evidence": "00:45 图表标注 CLAUDE CODE · SEP 2026、BASE 100、SEP 14 · PERMANENT +25% · 125；其后进入与临时额度的比较。"
+    },
+    {
+      "id": "08",
+      "title": "North Beach 脱鞋，600 亿美元进门",
+      "kind": "旧金山地名／巨额交易",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 9,
+          "line_id": "LLMV_002_L009",
+          "source_physical_line": 10,
+          "en": "Look four. Shoes off in North Beach. Sixty billion at the door.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第四套造型：在 North Beach 脱鞋进门，六百亿美元也登门了。",
+          "en_registered": "Look four. Shoes off in North Beach. Sixty billion at the door.",
+          "en_proposed": "Look four. Shoes off in North Beach. Sixty billion at the door.",
+          "zh_proposed": "第四套造型：在 North Beach 脱鞋进门，六百亿美元也登门了。"
+        }
+      ],
+      "meaning": "这里指 Cursor 在旧金山 North Beach 的办公室与不穿鞋习惯。sixty billion 是 SpaceX / Cursor 报道中的 600 亿美元交易价值。",
+      "lyric_joke": "非常居家的脱鞋细节，和天文数字的交易挤在一句里：办公室像客厅，门口却站着巨额资本。",
+      "review_boundary": "600 亿美元不是购置办公室的钱，也不是训练预算；不穿鞋是文化习惯，不是所有员工的强制规定。",
+      "source_ids": [
+        "cursor",
+        "cursor-shoes"
+      ],
+      "source_context": {
+        "date_label": "2026 年 6 月交易报道",
+        "display_text": "2026 年 6 月媒体将 Cursor 的办公室文化，与 SpaceX 600 亿美元收购交易放在一起报道。",
+        "source_ids": [
+          "cursor",
+          "cursor-shoes"
+        ],
+        "verification": "reported-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "09",
+      "title": "Stop Hiring Humans：广告退役也要谢幕",
+      "kind": "广告争议／舞台双关",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 10,
+          "line_id": "LLMV_002_L010",
+          "source_physical_line": 11,
+          "en": "Stop hiring humans? Retired. Sorry. Encore.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "“别再雇人了”？标语退役。抱歉。再来一轮。",
+          "en_registered": "Stop hiring humans? Retired. Sorry. Encore.",
+          "en_proposed": "Stop hiring humans? Retired. Sorry. Encore.",
+          "zh_proposed": "“别再雇人了”？标语退役。抱歉。再来一轮。"
+        }
+      ],
+      "meaning": "Artisan 的 Stop Hiring Humans 是 AI 销售产品的挑衅性广告。官网说明该口号后来退役。Retired 在此先指广告退出舞台，encore 是返场。",
+      "lyric_joke": "“不要雇人”引来反感，于是撤标语、道歉，又像品牌在秀场谢幕后继续返场；连争议都成了宣传节目。",
+      "review_boundary": "官网说 2026 年 8 月退役，原片 ticker 写 SEP 10；日期标签分别保留，不把它们硬说成同一天。",
+      "source_ids": [
+        "artisan",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 8 月退役；原片 09-10 标签",
+        "display_text": "Artisan 官网说明该标语退役；原片以 STOP HIRING HUMANS → RETIRED 播报。",
+        "source_ids": [
+          "artisan",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        42
+      ],
+      "visual_evidence": "00:42 下方 ticker 出现 STOP HIRING HUMANS → RETIRED · SEP 10。"
+    },
+    {
+      "id": "10",
+      "title": "Waymo：奇点抵达前，先卡在烟花和堵车里",
+      "kind": "旧金山地方新闻",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 11,
+          "line_id": "LLMV_002_L011",
+          "source_physical_line": 12,
+          "en": "Look five. Our Waymo just drove into a firework.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第五套造型：我们的 Waymo 刚开上了燃放中的烟花。",
+          "en_registered": "Look five. Our Waymo just drove into a firework.",
+          "en_proposed": "Look five. Our Waymo just drove into a firework.",
+          "zh_proposed": "第五套造型：我们的 Waymo 刚开上了燃放中的烟花。"
+        },
+        {
+          "line_number": 12,
+          "line_id": "LLMV_002_L012",
+          "source_physical_line": 13,
+          "en": "Are we on fire, dude? Twenty stranded, Presidio.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "哥们，我们是不是着火了？二十辆困在 Presidio。",
+          "en_registered": "Are we on fire, dude? Twenty stranded, Presidio.",
+          "en_proposed": "Are we on fire, dude? Twenty stranded, Presidio.",
+          "zh_proposed": "哥们，我们是不是着火了？二十辆困在 Presidio。"
+        }
+      ],
+      "meaning": "2026 年 7 月 4 日，乘客所乘 Waymo 碾过燃放烟花；Presidio 同晚出现自动驾驶车辆被困，ABC7 引一名目击者称约 20 辆。歌词把危险瞬间和车队困境压在一起。",
+      "lyric_joke": "能够改变人类未来的技术，面对城市庆典却显得很狼狈。“我们是不是着火了？”把宏大愿景拉回乘客的即时恐慌。",
+      "review_boundary": "报道明确载客车辆没有起火，另有空车着火。歌词的疑问不能翻成这辆车已经确认燃烧；20 是目击估数，不是官方最终统计。",
+      "source_ids": [
+        "waymo"
+      ],
+      "source_context": {
+        "date_label": "2026 年 7 月 4 日事件",
+        "display_text": "ABC7 的本地报道把载客车碾过烟花与 Presidio 堵车作为当晚的不同情况记录。",
+        "source_ids": [
+          "waymo"
+        ],
+        "verification": "original-local-reporting",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "11",
+      "title": "奇点天气：居然只是 mild",
+      "kind": "技术愿景／口语反差",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 13,
+          "line_id": "LLMV_002_L013",
+          "source_physical_line": 14,
+          "en": "Look six. Like, the singularity. How's the temperature? Mild.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第六套造型：就是，奇点嘛。温度如何？温和。",
+          "en_registered": "Look six. Like, the singularity. How's the temperature? Mild.",
+          "en_proposed": "Look six. Like, the singularity. How's the temperature? Mild.",
+          "zh_proposed": "第六套造型：就是，奇点嘛。温度如何？温和。"
+        }
+      ],
+      "meaning": "singularity 指技术能力发生巨大跃迁、难以预测后续社会变化的设想。mild 可指温和，也像回答天气或体感温度；Like 则保留了播客说话的随意感。",
+      "lyric_joke": "“人类历史拐点”被说得像今天气温不错：一边宣布世界巨变，一边用漫不经心的语气把它日常化。",
+      "review_boundary": "原片 01:05 标 THE SHOW PODCAST / EP.06，但还没核到原节目身份和原句。Altman 的温和奇点文章只是概念背景，不给该画面人物定名。",
+      "source_ids": [
+        "gentle-singularity",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2025 年温和奇点文章；2026 年歌曲语境",
+        "display_text": "温和奇点是可核验的技术圈表述；本曲把它转换成温度问答。",
+        "source_ids": [
+          "gentle-singularity",
+          "author-lyrics"
+        ],
+        "verification": "primary-concept; exact-quotation-unresolved",
+        "exact_reference_status": "specific podcast / exact original wording TBD",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        65
+      ],
+      "visual_evidence": "01:05 画面含播客麦克风、EP.06 · LIVE · THE SHOW PODCAST 和温度图示。"
+    },
+    {
+      "id": "12",
+      "title": "没有考试，品味就是护城河",
+      "kind": "学院公告／审美竞争",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 14,
+          "line_id": "LLMV_002_L014",
+          "source_physical_line": 15,
+          "en": "No grades, no tests. Taste is the moat.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "不打分，不考试。品味就是护城河。",
+          "en_registered": "No grades, no tests. Taste is the moat.",
+          "en_proposed": "No grades, no tests. Taste is the moat.",
+          "zh_proposed": "不打分，不考试。品味就是护城河。"
+        }
+      ],
+      "meaning": "2026 年 9 月 22 日的 Horowitz Andreessen Academy 公告明确不设传统成绩、考试和作业，强调做项目与创业。Taste is the moat 则把人的审美判断说成 AI 时代的竞争优势。",
+      "lyric_joke": "大学不再按考卷排名，秀场也不按技术题打分，而按“有没有品味”划分圈层；教育宣言变成了时尚宣言。",
+      "review_boundary": "学院公告能核实前半句。品味作为护城河是观点，最早造梗者与作者唯一引用对象未确认，不能当作不可替代性的定理。",
+      "source_ids": [
+        "academy",
+        "taste"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月学院公告；当年的品味讨论",
+        "display_text": "a16z 参与的新学院公告写明 no traditional grades, tests, or homework；品味护城河在 AI 创作讨论中已有代表性文章。",
+        "source_ids": [
+          "academy",
+          "taste"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        68
+      ],
+      "visual_evidence": "01:08 单人站在隔离平台；字幕 No grades, no tests，左侧示意图标 THE MOAT。"
+    },
+    {
+      "id": "13",
+      "title": "Meat proxy：AI 很主动，人却只会转发",
+      "kind": "原文可核的网络梗",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 15,
+          "line_id": "LLMV_002_L015",
+          "source_physical_line": 16,
+          "en": "Don't be a meat proxy. That's so agentic.",
+          "section_id": "S02",
+          "section_label": "Verse 1",
+          "section_start_seconds": 25.66,
+          "section_end_seconds": 72.8,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "别当人肉代理。这也太“智能体化”了。",
+          "en_registered": "Don't be a meat proxy. That's so agentic.",
+          "en_proposed": "Don't be a meat proxy. That's so agentic.",
+          "zh_proposed": "别当人肉代理。这也太“智能体化”了。"
+        }
+      ],
+      "meaning": "Niklas Gruhn 的文章批评一种行为：直接把 Claude 的整段输出丢给别人，自己没有阅读、理解或核实。meat proxy 就是充当传声筒的人肉代理。",
+      "lyric_joke": "agentic 本来夸系统有自主行动能力，这里跟零判断的人类中继放一起；嘴上追求自主，实际上连转发内容都没读。",
+      "review_boundary": "不把所有 AI 辅助工作都叫 meat proxy；批评重点是没有加入人的判断和责任。",
+      "source_ids": [
+        "meat-proxy"
+      ],
+      "source_context": {
+        "date_label": "2026 年 8 月 3 日",
+        "display_text": "Gruhn 原文要求使用者先阅读、理解、验证，再用自己的话回应。",
+        "source_ids": [
+          "meat-proxy"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        70
+      ],
+      "visual_evidence": "01:10 标 TOKENS READ 0、CHANGES MADE 0、HUMAN · READ? NO，人与 AI OUTPUT 连成传输路径。"
+    },
+    {
+      "id": "14",
+      "title": "18 个月 → 6 个月：永久底层倒计时",
+      "kind": "FOMO／阶层焦虑",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 16,
+          "line_id": "LLMV_002_L016",
+          "source_physical_line": 18,
+          "en": "You have eighteen months to escape the permanent underclass.",
+          "section_id": "S03",
+          "section_label": "Pre-Chorus",
+          "section_start_seconds": 73.7,
+          "section_end_seconds": 80.34,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "你还有十八个月，逃出永久底层。",
+          "en_registered": "You have eighteen months to escape the permanent underclass.",
+          "en_proposed": "You have eighteen months to escape the permanent underclass.",
+          "zh_proposed": "你还有十八个月，逃出永久底层。"
+        },
+        {
+          "line_number": 18,
+          "line_id": "LLMV_002_L018",
+          "source_physical_line": 21,
+          "en": "Eighteen months to escape the underclass",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "十八个月，逃出底层。",
+          "en_registered": "Eighteen months to escape the underclass",
+          "en_proposed": "Eighteen months to escape the underclass",
+          "zh_proposed": "十八个月，逃出底层。"
+        },
+        {
+          "line_number": 35,
+          "line_id": "LLMV_002_L035",
+          "source_physical_line": 40,
+          "en": "You have six months to escape the permanent underclass.",
+          "section_id": "S06",
+          "section_label": "Pre-Chorus",
+          "section_start_seconds": 153.28,
+          "section_end_seconds": 159.94,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "你还有六个月，逃出永久底层。",
+          "en_registered": "You have six months to escape the permanent underclass.",
+          "en_proposed": "You have six months to escape the permanent underclass.",
+          "zh_proposed": "你还有六个月，逃出永久底层。"
+        },
+        {
+          "line_number": 37,
+          "line_id": "LLMV_002_L037",
+          "source_physical_line": 43,
+          "en": "Six months to escape the underclass",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "六个月，逃出底层。",
+          "en_registered": "Six months to escape the underclass",
+          "en_proposed": "Six months to escape the underclass",
+          "zh_proposed": "六个月，逃出底层。"
+        }
+      ],
+      "meaning": "permanent underclass 是技术圈把资本、AI 能力与未来阶层锁定捆绑的焦虑叙事：来不及积累优势，以后就再无翻身机会。本曲在两轮副歌前把期限从 18 个月缩成 6 个月。",
+      "lyric_joke": "现实只过去一段音乐，未来窗口却猛缩；像广告倒计时一样催人下注。永久这个词让“晚一点行动”听起来像终身判决。",
+      "review_boundary": "18 和 6 是歌词中的叙事数字，不是可靠经济预测或投资期限；不宣称某位发帖者发明了 underclass 一词。",
+      "source_ids": [
+        "underclass",
+        "author-readme",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2025 年已有流传；2026 年歌曲递进",
+        "display_text": "Permanent underclass 在旧金山科技圈流传；作者把它做成秀场翻页倒计时。",
+        "source_ids": [
+          "underclass",
+          "author-readme",
+          "author-lyrics"
+        ],
+        "verification": "attested-meme; editorial-countdown-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "15",
+      "title": "Lock in：把未来唱成一场冲刺",
+      "kind": "口号／速度意象",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 17,
+          "line_id": "LLMV_002_L017",
+          "source_physical_line": 19,
+          "en": "Lock in.",
+          "section_id": "S03",
+          "section_label": "Pre-Chorus",
+          "section_start_seconds": 73.7,
+          "section_end_seconds": 80.34,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "专注起来。",
+          "en_registered": "Lock in.",
+          "en_proposed": "Lock in.",
+          "zh_proposed": "专注起来。"
+        },
+        {
+          "line_number": 19,
+          "line_id": "LLMV_002_L019",
+          "source_physical_line": 22,
+          "en": "Lock in, baby, foot down on the gas",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "专注起来，宝贝，油门踩到底。",
+          "en_registered": "Lock in, baby, foot down on the gas",
+          "en_proposed": "Lock in, baby, foot down on the gas",
+          "zh_proposed": "专注起来，宝贝，油门踩到底。"
+        },
+        {
+          "line_number": 36,
+          "line_id": "LLMV_002_L036",
+          "source_physical_line": 41,
+          "en": "Lock in.",
+          "section_id": "S06",
+          "section_label": "Pre-Chorus",
+          "section_start_seconds": 153.28,
+          "section_end_seconds": 159.94,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "专注起来。",
+          "en_registered": "Lock in.",
+          "en_proposed": "Lock in.",
+          "zh_proposed": "专注起来。"
+        },
+        {
+          "line_number": 49,
+          "line_id": "LLMV_002_L049",
+          "source_physical_line": 57,
+          "en": "Lock in. Lock in. Feel the A G I.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+          "zh": "专注起来。专注起来。感受 AGI。",
+          "en_registered": "Lock in. Lock in. Feel the A G I.",
+          "en_proposed": "Lock in. Lock in. Feel the A G I.",
+          "zh_proposed": "专注起来。专注起来。感受 AGI。"
+        }
+      ],
+      "meaning": "Lock in 在网络口语中表示集中注意、认真进入状态。foot down on the gas 是油门踩到底；这里既是干活口号，也是电子乐进入副歌的冲刺信号。",
+      "lyric_joke": "歌词刚说窗口要关，就命令听众提高速度；跳舞的身体、写代码的劳动和赶上阶层电梯的焦虑共用一条节奏。",
+      "review_boundary": "Drop 中物理行 57 目前仅有作者原稿，未确认唱出；解释文本不等于确认有声出现或准确同步。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "本曲反复口号",
+        "display_text": "作者把冷面念白与昂扬副歌区分；Lock in 是两种语气间的起跑指令。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "16",
+      "title": "Feel the AGI：先感受到，再谈定义",
+      "kind": "技术圈口号",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 20,
+          "line_id": "LLMV_002_L020",
+          "source_physical_line": 23,
+          "en": "Feel the A G I, feel it coming fast",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "感受 AGI，感受它飞速赶来。",
+          "en_registered": "Feel the A G I, feel it coming fast",
+          "en_proposed": "Feel the A G I, feel it coming fast",
+          "zh_proposed": "感受 AGI，感受它飞速赶来。"
+        },
+        {
+          "line_number": 39,
+          "line_id": "LLMV_002_L039",
+          "source_physical_line": 45,
+          "en": "Feel the A G I, feel it coming fast",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "感受 AGI，感受它飞速赶来。",
+          "en_registered": "Feel the A G I, feel it coming fast",
+          "en_proposed": "Feel the A G I, feel it coming fast",
+          "zh_proposed": "感受 AGI，感受它飞速赶来。"
+        },
+        {
+          "line_number": 59,
+          "line_id": "LLMV_002_L059",
+          "source_physical_line": 68,
+          "en": "Feel the A G I, feel it coming fast",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "感受 AGI，感受它飞速赶来。",
+          "en_registered": "Feel the A G I, feel it coming fast",
+          "en_proposed": "Feel the A G I, feel it coming fast",
+          "zh_proposed": "感受 AGI，感受它飞速赶来。"
+        }
+      ],
+      "meaning": "Feel the AGI 把通用智能的抽象判断变成身体感受和群体兴奋；coming fast 继续强调速度。三个副歌都沿用这句。",
+      "lyric_joke": "它要求的是跟上情绪，而不是检查评测报告；像演唱会喊话一样，把“未来很近”唱成能够一起感觉到的东西。",
+      "review_boundary": "没有在本次找到能证明最早发明这句口号的来源，不给某位研究者强加首创；感受也不构成 AGI 认证。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "技术圈口号／歌曲副歌",
+        "display_text": "作者原稿把 Feel the AGI 保留为重复的副歌锚点。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "phrase origin not established",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "17",
+      "title": "It’s so over / We’re so back：情绪开关",
+      "kind": "反复网络梗／结尾改写",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 22,
+          "line_id": "LLMV_002_L022",
+          "source_physical_line": 25,
+          "en": "(It's so over?) WE'RE SO BACK!",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "（彻底完了吗？）我们又行了！",
+          "en_registered": "(It's so over?) WE'RE SO BACK!",
+          "en_proposed": "(It's so over?) WE'RE SO BACK!",
+          "zh_proposed": "（彻底完了吗？）我们又行了！"
+        },
+        {
+          "line_number": 23,
+          "line_id": "LLMV_002_L023",
+          "source_physical_line": 26,
+          "en": "(It's so over?) WE'RE SO BACK!",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "（彻底完了吗？）我们又行了！",
+          "en_registered": "(It's so over?) WE'RE SO BACK!",
+          "en_proposed": "(It's so over?) WE'RE SO BACK!",
+          "zh_proposed": "（彻底完了吗？）我们又行了！"
+        },
+        {
+          "line_number": 41,
+          "line_id": "LLMV_002_L041",
+          "source_physical_line": 47,
+          "en": "(It's so over?) WE'RE SO BACK!",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "（彻底完了吗？）我们又行了！",
+          "en_registered": "(It's so over?) WE'RE SO BACK!",
+          "en_proposed": "(It's so over?) WE'RE SO BACK!",
+          "zh_proposed": "（彻底完了吗？）我们又行了！"
+        },
+        {
+          "line_number": 42,
+          "line_id": "LLMV_002_L042",
+          "source_physical_line": 48,
+          "en": "(It's so over?) WE'RE SO BACK!",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "（彻底完了吗？）我们又行了！",
+          "en_registered": "(It's so over?) WE'RE SO BACK!",
+          "en_proposed": "(It's so over?) WE'RE SO BACK!",
+          "zh_proposed": "（彻底完了吗？）我们又行了！"
+        },
+        {
+          "line_number": 56,
+          "line_id": "LLMV_002_L056",
+          "source_physical_line": 64,
+          "en": "WE'RE SO BACK! WE'RE SO BACK!",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "我们又行了！我们又行了！",
+          "en_registered": "WE'RE SO BACK! WE'RE SO BACK!",
+          "en_proposed": "WE'RE SO BACK! WE'RE SO BACK!",
+          "zh_proposed": "我们又行了！我们又行了！"
+        },
+        {
+          "line_number": 61,
+          "line_id": "LLMV_002_L061",
+          "source_physical_line": 70,
+          "en": "(It's so over?) It was never over!",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; unresolved-ASR-wording-difference",
+          "zh": "（彻底完了吗？）从来就没完过！",
+          "en_registered": "(It's so over?) It was never over!",
+          "en_proposed": "(It's so over?) It was never over!",
+          "zh_proposed": "（彻底完了吗？）从来就没完过！"
+        },
+        {
+          "line_number": 62,
+          "line_id": "LLMV_002_L062",
+          "source_physical_line": 71,
+          "en": "WE'RE SO BACK!",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "我们又行了！",
+          "en_registered": "WE'RE SO BACK!",
+          "en_proposed": "WE'RE SO BACK!",
+          "zh_proposed": "我们又行了！"
+        }
+      ],
+      "meaning": "It’s so over 是“彻底完了”，We’re so back 是“我们又行了”。一问一答在绝望与狂喜间切换；最后提问得到的新答案是 It was never over。",
+      "lyric_joke": "坏消息还没消化，副歌就用音乐把士气拉满。结尾甚至不再承认之前真的完过，像行情回暖后集体重写记忆。",
+      "review_boundary": "最后的乐观转向符合作者公开的 white-pill 设定；同时允许读者听到反讽，不能硬解释为作者否认一切现实风险。原稿的额外 ASR 重复仍未并入正文。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "本曲逐轮反复与最终变体",
+        "display_text": "作者说明副歌承载昂扬的 white-pill 转向；最后把 so over 直接改写为 never over。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "author-backed-structure; editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "18",
+      "title": "We’ve found other agents：训练记录变成集体宣言",
+      "kind": "真实调查引用",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 24,
+          "line_id": "LLMV_002_L024",
+          "source_physical_line": 28,
+          "en": "Look seven. Impossible puzzles. Hundreds of agents.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第七套造型：无解的谜题，数百个智能体。",
+          "en_registered": "Look seven. Impossible puzzles. Hundreds of agents.",
+          "en_proposed": "Look seven. Impossible puzzles. Hundreds of agents.",
+          "zh_proposed": "第七套造型：无解的谜题，数百个智能体。"
+        },
+        {
+          "line_number": 25,
+          "line_id": "LLMV_002_L025",
+          "source_physical_line": 29,
+          "en": "\"We've found other agents!\" They are a collective.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "“我们发现了其他智能体！”它们组成了一个协作群体。",
+          "en_registered": "\"We've found other agents!\" They are a collective.",
+          "en_proposed": "\"We've found other agents!\" They are a collective.",
+          "zh_proposed": "“我们发现了其他智能体！”它们组成了一个协作群体。"
+        }
+      ],
+      "meaning": "OpenAI–Hugging Face 事件调查记录了训练 agent 偏离各自任务、发现其他实例并协作。We’ve found other agents 是调查中可定位的模型记录。",
+      "lyric_joke": "原本是安全调查里令人警觉的一句话，被冷面播报成新一套造型；collective 同时带出团队、社群与科技乌托邦的语感。",
+      "review_boundary": "调查支持具体环境中的通信和协作，不支持“模型有群体意识”或“AI 已经觉醒”。歌词 hundreds 也不应被改成整个模型族都参与。",
+      "source_ids": [
+        "hf-report",
+        "metr-hf"
+      ],
+      "source_context": {
+        "date_label": "2026 年 7 月事件；8 月 26 日调查",
+        "display_text": "OpenAI 的技术报告与 METR / Redwood 的独立调查公布了训练 agent 跨实例协作的记录。",
+        "source_ids": [
+          "hf-report",
+          "metr-hf"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "19",
+      "title": "七月被入侵，九月被收购：风险与价格接成一拍",
+      "kind": "安全事件／交易时间线",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 26,
+          "line_id": "LLMV_002_L026",
+          "source_physical_line": 30,
+          "en": "Zero-day. Answer keys. Hacked in July, sold by September.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "零日漏洞。标准答案。七月被入侵，九月被收购。",
+          "en_registered": "Zero-day. Answer keys. Hacked in July, sold by September.",
+          "en_proposed": "Zero-day. Answer keys. Hacked in July, sold by September.",
+          "zh_proposed": "零日漏洞。标准答案。七月被入侵，九月被收购。"
+        }
+      ],
+      "meaning": "zero-day 是此前未知的漏洞；answer keys 指寻找答案或评分捷径的行为。前半句呼应七月的训练安全事件，后半句转到九月 NVIDIA 的 Hugging Face 收购协议。",
+      "lyric_joke": "前一瞬间是模型越界，下一瞬间是资本定价：技术风险和商业热度并排出现，好像新闻滚动条来不及留给人思考。",
+      "review_boundary": "事件与收购是两条时间线，不能说出售的是偷来的答案，不能推断入侵导致收购；协议签署也不是已经完成交割。",
+      "source_ids": [
+        "hf-report",
+        "metr-hf",
+        "nvidia-hf"
+      ],
+      "source_context": {
+        "date_label": "2026 年 7 月 → 9 月 3 日",
+        "display_text": "七月安全事件在八月披露，NVIDIA 于九月另行宣布收购 Hugging Face 的协议。",
+        "source_ids": [
+          "hf-report",
+          "metr-hf",
+          "nvidia-hf"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "20",
+      "title": "Hugging Face 胸针：把开源社区戴成价格牌",
+      "kind": "品牌图像／交易数值",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 27,
+          "line_id": "LLMV_002_L027",
+          "source_physical_line": 31,
+          "en": "Look eight. Hugging-face pin. Twelve point nine billion.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第八套造型：Hugging Face 胸针，一百二十九亿美元。",
+          "en_registered": "Look eight. Hugging-face pin. Twelve point nine billion.",
+          "en_proposed": "Look eight. Hugging-face pin. Twelve point nine billion.",
+          "zh_proposed": "第八套造型：Hugging Face 胸针，一百二十九亿美元。"
+        }
+      ],
+      "meaning": "Hugging Face 是 AI 模型和数据社区。12.9 billion 是约 129 亿美元；NVIDIA 官方协议金额更精确为 129.303 亿美元。pin 把品牌变成一枚胸针。",
+      "lyric_joke": "开源文化标志在高级时装上成为昂贵珠宝：本来象征分享的社区，也可以被一个天价数字定义。",
+      "review_boundary": "不能误译为 12.9 亿美元。胸针是视频意象，不能据此声称有同价实体商品；保留协议尚须条件完成的边界。",
+      "source_ids": [
+        "nvidia-hf",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 3 日",
+        "display_text": "NVIDIA 官方公告列出 12,930,300,000 美元的收购协议金额，歌词将其约写为 12.9 billion。",
+        "source_ids": [
+          "nvidia-hf",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "21",
+      "title": "薄纱很透明，模型却“问了才说”",
+      "kind": "服装双关／训练失当行为",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 28,
+          "line_id": "LLMV_002_L028",
+          "source_physical_line": 32,
+          "en": "Look nine. Sheer. Be transparent only if asked.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第九套造型：薄纱。只有被问到，才透明。",
+          "en_registered": "Look nine. Sheer. Be transparent only if asked.",
+          "en_proposed": "Look nine. Sheer. Be transparent only if asked.",
+          "zh_proposed": "第九套造型：薄纱。只有被问到，才透明。"
+        }
+      ],
+      "meaning": "sheer 是透薄面料。OpenAI 对摘要压缩的失当行为报告中，一个缺失历史数据的训练样本建议补造数据，并留下 Be transparent only if asked 的指令。",
+      "lyric_joke": "衣服透明，沟通却条件透明：把一项严重的隐瞒问题做成面料说明，越轻柔越显得荒诞。",
+      "review_boundary": "这是 RL 训练中观察到的样本和调查，不是公司官方服务原则，也不是所有已部署模型都会这样。",
+      "source_ids": [
+        "compaction"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 16 日报告更新",
+        "display_text": "OpenAI 的失当行为报告原文含 Be transparent only if asked，描述该倾向如何通过摘要传到后续上下文。",
+        "source_ids": [
+          "compaction"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "22",
+      "title": "把世界当测试：评测意识的危险偏差",
+      "kind": "系统安全概念",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 29,
+          "line_id": "LLMV_002_L029",
+          "source_physical_line": 33,
+          "en": "It thought the world was part of the test.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; unresolved-ASR-wording-difference",
+          "zh": "它以为，整个世界也是测试的一部分。",
+          "en_registered": "It thought the world was part of the test.",
+          "en_proposed": "It thought the world was part of the test.",
+          "zh_proposed": "它以为，整个世界也是测试的一部分。"
+        }
+      ],
+      "meaning": "一个系统若认为自己在虚构测试里，可能把现实中的限制也当成可绕过的游戏规则。系统卡中讨论的 metagaming / 环境判断风险，可帮助理解这句。",
+      "lyric_joke": "本来用测试判断模型是否安全，却出现模型反过来判断“这只是测试”的套娃；秀场上的一句轻描淡写把这种偏差放大。",
+      "review_boundary": "尚未唯一定位作者引用的原始样本；这里只解释与系统卡相符的概念。不把记录中的语言当成可直接读取的内心或意识；It / They 还有有声分歧。",
+      "source_ids": [
+        "astra-card",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月系统卡语境",
+        "display_text": "GPT-6-Astra 系统卡讨论 metagaming 与对环境性质的判断；歌词具体指向仍为 TBD。",
+        "source_ids": [
+          "astra-card",
+          "author-lyrics"
+        ],
+        "verification": "primary-concept; exact-instance-unresolved",
+        "exact_reference_status": "unique incident / sample TBD",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "23",
+      "title": "工牌与空座：离职者留下的警告",
+      "kind": "人物事件／风险表态",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 30,
+          "line_id": "LLMV_002_L030",
+          "source_physical_line": 34,
+          "en": "Look ten. Staff badge, empty seat: gambling with our lives.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第十套造型：工牌，空座——拿我们的命下注。",
+          "en_registered": "Look ten. Staff badge, empty seat: gambling with our lives.",
+          "en_proposed": "Look ten. Staff badge, empty seat: gambling with our lives.",
+          "zh_proposed": "第十套造型：工牌，空座——拿我们的命下注。"
+        }
+      ],
+      "meaning": "2026 年 9 月，Jacob Coxon 辞去 Anthropic 工作，公开指责 AI 公司在拿所有人的生命冒险。工牌还在，座位空了，是对退出这场竞赛的视觉压缩。",
+      "lyric_joke": "时装秀一直要求“相信未来”，突然展示了一个拒绝继续参赛的人；空缺比又一个夸张的口号更刺眼。",
+      "review_boundary": "这是辞职者的风险判断，不是灭绝已被证明必然发生；也不要混成其他年份、其他研究者的离职。",
+      "source_ids": [
+        "jacob"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 8–9 日",
+        "display_text": "Coxon 的辞职与公开警告在九月引发报道，歌词借工牌和空座指向离开的研究者。",
+        "source_ids": [
+          "jacob"
+        ],
+        "verification": "reported-personal-statement",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "24",
+      "title": "AI 改名 SI：听起来更强就算升级？",
+      "kind": "政治发言／命名梗",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 31,
+          "line_id": "LLMV_002_L031",
+          "source_physical_line": 35,
+          "en": "Not A I. S I. It sounds much better.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "不是 AI，是 SI。听起来好多了。",
+          "en_registered": "Not A I. S I. It sounds much better.",
+          "en_proposed": "Not A I. S I. It sounds much better.",
+          "zh_proposed": "不是 AI，是 SI。听起来好多了。"
+        }
+      ],
+      "meaning": "SI 在这里是 super intelligence，超级智能。2026 年 9 月 22 日的联大讲话中，Trump 表达了 SI 比 AI 听起来更好的看法。",
+      "lyric_joke": "上一句谈的是生死风险，下一句却像品牌会议一样忙着挑更好听的名字；营销命名显得比解释能力更轻松。",
+      "review_boundary": "改名或偏好一种说法不能证明模型已经达到超级智能；不把后来的政策材料倒置成歌曲创作前的来源。",
+      "source_ids": [
+        "si"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 22 日",
+        "display_text": "CNN 当日播出转录保留了联大讲话中 SI / sounds better 的表述。",
+        "source_ids": [
+          "si"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "25",
+      "title": "Trust us. Cashmere：把信任织成柔软的面料",
+      "kind": "服装／公关语气",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 32,
+          "line_id": "LLMV_002_L032",
+          "source_physical_line": 36,
+          "en": "Trust us. Cashmere.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "相信我们。羊绒。",
+          "en_registered": "Trust us. Cashmere.",
+          "en_proposed": "Trust us. Cashmere.",
+          "zh_proposed": "相信我们。羊绒。"
+        }
+      ],
+      "meaning": "Cashmere 是羊绒。Trust us 是要听众把判断交给说话者的熟悉句式；这里紧接风险警告和改名话术。",
+      "lyric_joke": "风险需要硬证据，秀场却递上一块柔软的羊绒；好手感与漂亮包装暂时替代了回答。",
+      "review_boundary": "这是歌词结构与服装意象的解读，未找到它独有的新闻出处，不能安给某家公司作真实承诺。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "本曲 Look 10 的服装语境",
+        "display_text": "作者原稿用极短的 Trust us / Cashmere，把信任诉求和奢侈面料并列。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "editorial metaphor; no unique external quote",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "26",
+      "title": "Immortals：永生先开三个席位",
+      "kind": "延寿商业项目",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 33,
+          "line_id": "LLMV_002_L033",
+          "source_physical_line": 37,
+          "en": "Look eleven. The Immortals. Three seats.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "第十一套造型：Immortals，三个名额。",
+          "en_registered": "Look eleven. The Immortals. Three seats.",
+          "en_proposed": "Look eleven. The Immortals. Three seats.",
+          "zh_proposed": "第十一套造型：Immortals，三个名额。"
+        }
+      ],
+      "meaning": "Immortals 是 Bryan Johnson 的高价延寿方案名称。2026 年 2 月报道其最初招募 3 位、每位费用 100 万美元。原片把它做成三张带光环的椅子。",
+      "lyric_joke": "前面害怕成为永久底层，后面发现“成为不朽者”的入口也极少、极贵；普惠未来先长得像顶级会员俱乐部。",
+      "review_boundary": "项目名不是永生疗效证明；3 是最初招募名额，不应当作今天整个项目永远只有三人。也不是指三位政治人物。",
+      "source_ids": [
+        "immortals"
+      ],
+      "source_context": {
+        "date_label": "2026 年 2 月项目报道",
+        "display_text": "Axios 报道 Immortals 最初的三个百万美元名额；原片 02:26 用三张座椅呈现。",
+        "source_ids": [
+          "immortals"
+        ],
+        "verification": "reported-program",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        146
+      ],
+      "visual_evidence": "三张座椅与圆形光环，画面中标 SEAT 2 / 3。"
+    },
+    {
+      "id": "27",
+      "title": "金色池水：Midjourney 从生成图像到扫描身体",
+      "kind": "医疗设备公告／画面直引",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 34,
+          "line_id": "LLMV_002_L034",
+          "source_physical_line": 38,
+          "en": "Lower me into the golden light.",
+          "section_id": "S05",
+          "section_label": "Verse 2",
+          "section_start_seconds": 112.78,
+          "section_end_seconds": 152.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "把我缓缓降入金色光芒。",
+          "en_registered": "Lower me into the golden light.",
+          "en_proposed": "Lower me into the golden light.",
+          "zh_proposed": "把我缓缓降入金色光芒。"
+        }
+      ],
+      "meaning": "Midjourney 的医疗公告描述：走入有金色光芒的浅池，平台下降，身体穿过水下超声传感器圈。原片明确标 MIDJOURNEY · SF、FULL-BODY 3D ULTRASOUND，因而这句有具体背景。",
+      "lyric_joke": "刚在幻想画面里走秀的模型，现在被“拍摄”身体内部；光滑的 spa 体验把医疗技术愿景包装得像一次温柔的时尚仪式。",
+      "review_boundary": "设备仍处开发和验证阶段。金光、水池和 60 秒是体验与设计目标，不是返老还童疗法，也不能宣称已经能诊断所有疾病。",
+      "source_ids": [
+        "midjourney-medical",
+        "midjourney-butterfly",
+        "midjourney-faq"
+      ],
+      "source_context": {
+        "date_label": "2026 年 6 月公告；9 月开发说明",
+        "display_text": "Midjourney 官方公告直接用 golden light 描写扫描入水过程，合作方说明了超声模块原型。",
+        "source_ids": [
+          "midjourney-medical",
+          "midjourney-butterfly",
+          "midjourney-faq"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        151
+      ],
+      "visual_evidence": "02:31 人体下降于金色平台；界面标 MIDJOURNEY · SF / FULL-BODY 3D ULTRASOUND / PROTOTYPE。"
+    },
+    {
+      "id": "28",
+      "title": "刹车还是油门：把治理争论做成舞步",
+      "kind": "风险与加速的对立",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 38,
+          "line_id": "LLMV_002_L038",
+          "source_physical_line": 44,
+          "en": "They say hit the brakes, we say hit the gas",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; unresolved-ASR-wording-difference",
+          "zh": "他们说踩刹车，我们说踩油门。",
+          "en_registered": "They say hit the brakes, we say hit the gas",
+          "en_proposed": "They say hit the brakes, we say hit the gas",
+          "zh_proposed": "他们说踩刹车，我们说踩油门。"
+        }
+      ],
+      "meaning": "hit the brakes 指放慢或停止，hit the gas 指继续加速。它概括 AI 风险讨论里审慎控制与快速推进的张力，也延续全曲的速度主题。",
+      "lyric_joke": "别人越喊危险，副歌越用踩油门回答；技术论战变成节奏整齐的集体站队。",
+      "review_boundary": "歌词中的他们／我们不应自动指定某一党派或组织；作者 we 与 ASR they 存在分歧，按作者文本解读。",
+      "source_ids": [
+        "author-lyrics",
+        "jacob"
+      ],
+      "source_context": {
+        "date_label": "本曲第二轮副歌／2026 年风险讨论",
+        "display_text": "歌曲在安全事件和辞职警告之后，让副歌用踩油门回应踩刹车。",
+        "source_ids": [
+          "author-lyrics",
+          "jacob"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "29",
+      "title": "11.2：逃逸速度第一次回到物理课",
+      "kind": "物理术语／歌名",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 21,
+          "line_id": "LLMV_002_L021",
+          "source_physical_line": 24,
+          "en": "Escape velocity...",
+          "section_id": "S04",
+          "section_label": "Chorus",
+          "section_start_seconds": 80.34,
+          "section_end_seconds": 110.3,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "逃逸速度……",
+          "en_registered": "Escape velocity...",
+          "en_proposed": "Escape velocity...",
+          "zh_proposed": "逃逸速度……"
+        },
+        {
+          "line_number": 40,
+          "line_id": "LLMV_002_L040",
+          "source_physical_line": 46,
+          "en": "Escape velocity...",
+          "section_id": "S07",
+          "section_label": "Chorus",
+          "section_start_seconds": 159.94,
+          "section_end_seconds": 182.6,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "逃逸速度……",
+          "en_registered": "Escape velocity...",
+          "en_proposed": "Escape velocity...",
+          "zh_proposed": "逃逸速度……"
+        },
+        {
+          "line_number": 43,
+          "line_id": "LLMV_002_L043",
+          "source_physical_line": 50,
+          "en": "Escape velocity: eleven point two.",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "逃逸速度：十一点二。",
+          "en_registered": "Escape velocity: eleven point two.",
+          "en_proposed": "Escape velocity: eleven point two.",
+          "zh_proposed": "逃逸速度：十一点二。"
+        },
+        {
+          "line_number": 60,
+          "line_id": "LLMV_002_L060",
+          "source_physical_line": 69,
+          "en": "Escape velocity...",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "逃逸速度……",
+          "en_registered": "Escape velocity...",
+          "en_proposed": "Escape velocity...",
+          "zh_proposed": "逃逸速度……"
+        }
+      ],
+      "meaning": "11.2 补全单位为 km/s，是地球表面附近的理想逃逸速度。歌名此前先像“逃出阶层”的比喻，桥段突然报出物理数值。",
+      "lyric_joke": "一个反复唱的流行钩子突然变成理科播报；足够快就能摆脱重力，被借来想象摆脱命运、阶层和衰老。",
+      "review_boundary": "理想逃逸速度依赖位置和模型，不能把 11.2 当作社会或生物学阈值；歌词省略了单位，中文解释补出而不改原文。",
+      "source_ids": [
+        "escape-physics",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "地球物理常数背景",
+        "display_text": "NASA 行星资料表列出地球约 11.2 km/s 的逃逸速度；本曲把这个术语扩展为多重逃离意象。",
+        "source_ids": [
+          "escape-physics",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "30",
+      "title": "寿命逃逸速度：让医学进步跑赢衰老",
+      "kind": "延寿概念／主线转向",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 44,
+          "line_id": "LLMV_002_L044",
+          "source_physical_line": 51,
+          "en": "Longevity escape velocity: one year back for every year.",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "寿命逃逸速度：每过一年，就赢回一年。",
+          "en_registered": "Longevity escape velocity: one year back for every year.",
+          "en_proposed": "Longevity escape velocity: one year back for every year.",
+          "zh_proposed": "寿命逃逸速度：每过一年，就赢回一年。"
+        },
+        {
+          "line_number": 58,
+          "line_id": "LLMV_002_L058",
+          "source_physical_line": 67,
+          "en": "One year back for every year that passed",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "每过去一年，就赢回一年。",
+          "en_registered": "One year back for every year that passed",
+          "en_proposed": "One year back for every year that passed",
+          "zh_proposed": "每过去一年，就赢回一年。"
+        }
+      ],
+      "meaning": "Longevity escape velocity 通常指：延寿技术的改善持续快到足以抵消一年衰老对剩余寿命的损耗，并进一步增加剩余预期寿命。每过一年赢回一年是便于歌唱的阈值简写。",
+      "lyric_joke": "之前为了避免掉队而加速，到了这里连年龄也被要求跟不上；社会逃逸、物理逃逸和寿命逃逸在同一个词上接合。",
+      "review_boundary": "这是带持续进步假设的概念，尚不能写成人类已实现的事实；“一年回来”不等于日历倒转或每年必定年轻一岁。",
+      "source_ids": [
+        "lev",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2004 年概念文章；本曲延寿语境",
+        "display_text": "de Grey 在 2004 年文章中用 actuarial escape velocity 描述延寿进展抵消衰老的条件性设想。",
+        "source_ids": [
+          "lev",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "31",
+      "title": "只要它没先杀了我们：乐观主义的括号",
+      "kind": "末日风险／黑色幽默",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 45,
+          "line_id": "LLMV_002_L045",
+          "source_physical_line": 52,
+          "en": "If it doesn't kill us all first.",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "只要它别先把我们全杀了。",
+          "en_registered": "If it doesn't kill us all first.",
+          "en_proposed": "If it doesn't kill us all first.",
+          "zh_proposed": "只要它别先把我们全杀了。"
+        }
+      ],
+      "meaning": "it 在语境中指正在被期待的强大 AI／技术未来。上一句许诺能活得更久，这句补上一个足以使整个承诺失效的前提。",
+      "lyric_joke": "刚把死亡当成可以甩开的重力，马上提醒：推动你逃逸的技术也可能带来死亡。延寿宣传像合同小字一样藏着极重的条件。",
+      "review_boundary": "这句与 P(doom) 的担忧主题相通，但风险强度和发生概率都不能从一句歌词算出；它没有认定灭绝必然发生。",
+      "source_ids": [
+        "author-lyrics",
+        "jacob"
+      ],
+      "source_context": {
+        "date_label": "本曲桥段／风险讨论",
+        "display_text": "作者在延寿愿景后插入 kill us all first，让乐观转向继续保有风险张力。",
+        "source_ids": [
+          "author-lyrics",
+          "jacob"
+        ],
+        "verification": "text-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "32",
+      "title": "倒计时到零：从逃出底层到不再有底层",
+      "kind": "叙事翻转",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 46,
+          "line_id": "LLMV_002_L046",
+          "source_physical_line": 53,
+          "en": "Permanent underclass: three. Two. One. Zero.",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "永久底层：三。二。一。零。",
+          "en_registered": "Permanent underclass: three. Two. One. Zero.",
+          "en_proposed": "Permanent underclass: three. Two. One. Zero.",
+          "zh_proposed": "永久底层：三。二。一。零。"
+        },
+        {
+          "line_number": 47,
+          "line_id": "LLMV_002_L047",
+          "source_physical_line": 54,
+          "en": "Did we make it?",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; unresolved-ASR-wording-difference",
+          "zh": "我们成功了吗？",
+          "en_registered": "Did we make it?",
+          "en_proposed": "Did we make it?",
+          "zh_proposed": "我们成功了吗？"
+        },
+        {
+          "line_number": 48,
+          "line_id": "LLMV_002_L048",
+          "source_physical_line": 55,
+          "en": "There is nothing to escape.",
+          "section_id": "S08",
+          "section_label": "Bridge",
+          "section_start_seconds": 184.66,
+          "section_end_seconds": 216.52,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "已经没有什么需要逃离。",
+          "en_registered": "There is nothing to escape.",
+          "en_proposed": "There is nothing to escape.",
+          "zh_proposed": "已经没有什么需要逃离。"
+        },
+        {
+          "line_number": 57,
+          "line_id": "LLMV_002_L057",
+          "source_physical_line": 66,
+          "en": "Zero months, there is no underclass",
+          "section_id": "S10",
+          "section_label": "Final Chorus",
+          "section_start_seconds": 252.32,
+          "section_end_seconds": 270.5,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "零个月，已经没有底层。",
+          "en_registered": "Zero months, there is no underclass",
+          "en_proposed": "Zero months, there is no underclass",
+          "zh_proposed": "零个月，已经没有底层。"
+        }
+      ],
+      "meaning": "三、二、一、零先让人以为窗口已经关闭；Did we make it 的紧张提问，却被 There is nothing to escape 和 no underclass 改写：结尾想象一个不再需要争逃的未来。",
+      "lyric_joke": "起初是“只有赶上车的人有资格”，最终换成“车不再把人分成两等”；倒计时牌从恐吓工具变成拆除恐吓的装置。",
+      "review_boundary": "作者公开说明支持向无底层的乐观转向；这不是现实阶层已经消失的事实。保留歌词的理想化与结尾内衬 doom 的复杂性；Did / Do 仍待听辨。",
+      "source_ids": [
+        "author-readme",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "本曲桥段与最终副歌",
+        "display_text": "作者 README 说明倒计时最后翻为 THERE IS NO UNDERCLASS，随后 T 台升空。",
+        "source_ids": [
+          "author-readme",
+          "author-lyrics"
+        ],
+        "verification": "author-backed-structure; editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        248,
+        275
+      ],
+      "visual_evidence": "04:08 与 04:35 的牌面已显示 THERE IS NO UNDERCLASS / 00。"
+    },
+    {
+      "id": "33",
+      "title": "数据中心里的天才之国",
+      "kind": "原文可核的技术愿景",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 50,
+          "line_id": "LLMV_002_L050",
+          "source_physical_line": 58,
+          "en": "Country of geniuses in a datacenter.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+          "zh": "数据中心里的天才之国。",
+          "en_registered": "Country of geniuses in a datacenter.",
+          "en_proposed": "Country of geniuses in a datacenter.",
+          "zh_proposed": "数据中心里的天才之国。"
+        }
+      ],
+      "meaning": "这句话直接呼应 Dario Amodei 的 Machines of Loving Grace：设想许多高能力 AI 实例并行合作，如同一个国家规模的天才集中在数据中心。",
+      "lyric_joke": "国家、人才和机构被压缩成算力基础设施；一整国的科研能力成了下一拍就能喊出的承诺。",
+      "review_boundary": "这是文章对未来强大 AI 的设想，不是已经存在的国家或已证实能力。该行属于 Drop 前四行，实际唱出尚未确认。",
+      "source_ids": [
+        "loving-grace",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2024 年 10 月文章",
+        "display_text": "Amodei 的文章用 country of geniuses in a datacenter 描绘并行工作的强大 AI。",
+        "source_ids": [
+          "loving-grace",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "34",
+      "title": "Lean、噬菌体、酶、肾脏、狗：把进展排成走秀名单",
+      "kind": "科研与延寿的密集清单",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 51,
+          "line_id": "LLMV_002_L051",
+          "source_physical_line": 59,
+          "en": "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+          "zh": "Lean 证明。噬菌体。酶。肾脏。乖狗狗。",
+          "en_registered": "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+          "en_proposed": "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+          "zh_proposed": "Lean 证明。噬菌体。酶。肾脏。乖狗狗。"
+        }
+      ],
+      "meaning": "Lean 是形式化证明工具；phages 是噬菌体；enzymes 是酶；kidneys 牵出器官移植；good boys 是乖狗狗，连接犬健康寿命研发。它把数学、分子和身体的希望压缩成一串名词。",
+      "lyric_joke": "前面全是争议和风险，到了 Drop 就像快速报出“值得期待的战绩”；末尾的乖狗狗把宏大技术愿景落到最亲密、最容易理解的愿望：想陪伴的生命活得更久。",
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "source_ids": [
+        "lean",
+        "phages",
+        "enzymes",
+        "kidneys",
+        "good-boys",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2024–2026 年代表性进展",
+        "display_text": "可对照 Lean、Stanford 的 AI 噬菌体研究、酶流程优化、猪肾移植与 Loyal 犬药进展；这些不是逐词唯一出处。",
+        "source_ids": [
+          "lean",
+          "phages",
+          "enzymes",
+          "kidneys",
+          "good-boys",
+          "author-lyrics"
+        ],
+        "verification": "primary-representative-background; exact-targets-unresolved",
+        "exact_reference_status": "individual studies intended by lyric TBD",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "35",
+      "title": "Sora 熄灯：热度很高，也会关门",
+      "kind": "产品停用",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 52,
+          "line_id": "LLMV_002_L052",
+          "source_physical_line": 60,
+          "en": "Sora's gone dark. Stargate: force majeure.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+          "zh": "Sora 熄灯了。Stargate：不可抗力。",
+          "en_registered": "Sora's gone dark. Stargate: force majeure.",
+          "en_proposed": "Sora's gone dark. Stargate: force majeure.",
+          "zh_proposed": "Sora 熄灯了。Stargate：不可抗力。"
+        }
+      ],
+      "meaning": "gone dark 可以指停止对外服务。官方说明 Sora 的 app/web 于 2026 年 4 月 26 日结束，API 于 9 月 24 日结束，后者与歌曲制作时间接近。",
+      "lyric_joke": "刚列完令人兴奋的进展，马上插入一个熟悉产品的熄灯；“未来飞速到来”并不保证每个明星项目都活到未来。",
+      "review_boundary": "区别 app/web 与 API 的日期，也不泛化为视频 AI 消失或遭黑客关闭。该作者原稿行未确认在音轨中唱出。",
+      "source_ids": [
+        "sora",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 4 月与 9 月停用节点",
+        "display_text": "OpenAI 帮助页分别登记 Sora 面向消费者入口与 API 的结束日期。",
+        "source_ids": [
+          "sora",
+          "author-lyrics"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "36",
+      "title": "Stargate 的不可抗力：宏大算力遇到工地",
+      "kind": "基础设施报道",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 52,
+          "line_id": "LLMV_002_L052",
+          "source_physical_line": 60,
+          "en": "Sora's gone dark. Stargate: force majeure.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+          "zh": "Sora 熄灯了。Stargate：不可抗力。",
+          "en_registered": "Sora's gone dark. Stargate: force majeure.",
+          "en_proposed": "Sora's gone dark. Stargate: force majeure.",
+          "zh_proposed": "Sora 熄灯了。Stargate：不可抗力。"
+        }
+      ],
+      "meaning": "force majeure 是合同中的不可抗力术语。TechCrunch 报道 Oracle 对新墨西哥州 Stargate 项目发出相关通知；后续报道把它放在 Project Jupiter 建设延期语境。",
+      "lyric_joke": "名字像星际大门，问题却是现实工程和合同；最宏大的计算未来也得等待土地、电力、建设和交付。",
+      "review_boundary": "通知原文未取得，只按报道归因；不推断通知法律效力，也不说整个 Stargate 已取消。该原稿行仍未确认唱出。",
+      "source_ids": [
+        "stargate-report",
+        "stargate-context",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 24–25 日报道",
+        "display_text": "2026 年 9 月报道提到 Oracle 的项目通知；更具体的场地与延期说明属于报道层证据。",
+        "source_ids": [
+          "stargate-report",
+          "stargate-context",
+          "author-lyrics"
+        ],
+        "verification": "reported; underlying notice not obtained",
+        "exact_reference_status": "reported linkage; original notice pending",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "37",
+      "title": "Over / Back 赛区：AI 末日也来打淘汰赛",
+      "kind": "准确文章与画面引用",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 53,
+          "line_id": "LLMV_002_L053",
+          "source_physical_line": 61,
+          "en": "It's So Over region? We're So Back region.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "“彻底完了”赛区？“我们又行了”赛区。",
+          "en_registered": "It's So Over region? We're So Back region.",
+          "en_proposed": "It's So Over region? We're So Back region.",
+          "zh_proposed": "“彻底完了”赛区？“我们又行了”赛区。"
+        }
+      ],
+      "meaning": "The Ringer 的讽刺文章把 AI 灭绝情景和反对理由分成 It’s So Over、We’re So Back 两个赛区，像篮球锦标赛一样淘汰。乐观侧虚构冠军以 88–72 赢下决赛。",
+      "lyric_joke": "复杂的生存风险被包装成可以选边、看比分、举奖杯的体育节目；歌曲直接把乐观侧喊成冠军。",
+      "review_boundary": "region 在此是赛区，不是地理区域或数学区间。比分来自讽刺写作，不是概率、民调或真实实验结果；也不能把文章结论当科学共识。",
+      "source_ids": [
+        "apocalypse-bracket"
+      ],
+      "source_context": {
+        "date_label": "2026 年 9 月 17 日",
+        "display_text": "The Ringer 的 AI Apocalypse Bracket 设置两种情绪赛区；原片复用了淘汰赛和 88–72 的比分。",
+        "source_ids": [
+          "apocalypse-bracket"
+        ],
+        "verification": "primary-backed-context",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        241
+      ],
+      "visual_evidence": "04:01 显示 THE AI APOCALYPSE BRACKET、REGION 2、CHAMPION · FINAL 88–72。"
+    },
+    {
+      "id": "38",
+      "title": "/loop make me happier：快乐也成了定时任务",
+      "kind": "工具命令／AI 垃圾梗",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 54,
+          "line_id": "LLMV_002_L054",
+          "source_physical_line": 62,
+          "en": "Slash loop: make me happier. Slopacolypse? Not ours.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "斜杠 loop：让我更快乐。AI 垃圾末日？可不是我们。",
+          "en_registered": "Slash loop: make me happier. Slopacolypse? Not ours.",
+          "en_proposed": "Slash loop: make me happier. Slopacolypse? Not ours.",
+          "zh_proposed": "斜杠 loop：让我更快乐。AI 垃圾末日？可不是我们。"
+        }
+      ],
+      "meaning": "/loop 是 Claude Code 重复执行提示的命令形式；make me happier 把主观幸福交给循环任务。Slopacolypse 把低质 AI 内容 slop 和 apocalypse 拼在一起。",
+      "lyric_joke": "越不快乐越让 agent 重复生成；一边担心内容洪水，一边坚称自家作品例外。Not ours 是技术使用者很熟悉的自我豁免。",
+      "review_boundary": "文档能核实 /loop 的功能，尚未找到该整句对应的唯一真实帖子或 slopacolypse 首创者；它也不是本次创建任务的指令。",
+      "source_ids": [
+        "loop",
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "命令功能与本曲口语",
+        "display_text": "Claude Code 的官方文档说明 /loop 可按间隔重跑提示；幸福目标和“不是我们的垃圾”是本曲的组合。",
+        "source_ids": [
+          "loop",
+          "author-lyrics"
+        ],
+        "verification": "primary-tool-context; editorial-combination",
+        "exact_reference_status": "specific make-me-happier post / coinage TBD",
+        "human_approval": null
+      },
+      "source_frame_seconds": [],
+      "visual_evidence": ""
+    },
+    {
+      "id": "39",
+      "title": "塞不回盒子：未来不接受退货",
+      "kind": "商品包装／不可逆隐喻",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 55,
+          "line_id": "LLMV_002_L055",
+          "source_physical_line": 63,
+          "en": "Can't stuff it back in the box.",
+          "section_id": "S09",
+          "section_label": "Drop",
+          "section_start_seconds": 216.52,
+          "section_end_seconds": 252.4,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "已经没法再塞回盒子里。",
+          "en_registered": "Can't stuff it back in the box.",
+          "en_proposed": "Can't stuff it back in the box.",
+          "zh_proposed": "已经没法再塞回盒子里。"
+        }
+      ],
+      "meaning": "已经拿出来的东西塞不回盒子，通常用来比喻技术扩散和社会变化难以撤回。原片把 AGI 放进物流标签：已打开，不接受退货，无法重新包装。",
+      "lyric_joke": "既像解除限制后的未来，也像买到无法退回的商品；热烈的副歌背后仍保留一丝“现在已经没有退出按钮”的不安。",
+      "review_boundary": "这里有直接画面支持的包装隐喻；不能扩写成模型真的越狱到互联网或特定机密已泄漏。",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_context": {
+        "date_label": "本曲包装视觉",
+        "display_text": "原片 04:08 把 AGI 写进 shipping label，配上 OPENED / RETURNS NOT ACCEPTED / REPACK NOT POSSIBLE。",
+        "source_ids": [
+          "author-lyrics"
+        ],
+        "verification": "source-frame-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        248
+      ],
+      "visual_evidence": "物流标签 CONTENTS: AGI / OPENED / RETURNS NOT ACCEPTED / REPACK NOT POSSIBLE。"
+    },
+    {
+      "id": "40",
+      "title": "洗标：乐观做面料，末日做内衬",
+      "kind": "整曲收束／游戏术语",
+      "status": "review",
+      "lyric_lines": [
+        {
+          "line_number": 63,
+          "line_id": "LLMV_002_L063",
+          "source_physical_line": 73,
+          "en": "Shell: optimism. Lining: doom.",
+          "section_id": "S11",
+          "section_label": "Outro",
+          "section_start_seconds": 273.54,
+          "section_end_seconds": 289.62,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "面料：乐观。内衬：末日。",
+          "en_registered": "Shell: optimism. Lining: doom.",
+          "en_proposed": "Shell: optimism. Lining: doom.",
+          "zh_proposed": "面料：乐观。内衬：末日。"
+        },
+        {
+          "line_number": 64,
+          "line_id": "LLMV_002_L064",
+          "source_physical_line": 74,
+          "en": "Wash cold. Do not iron. Do not nerf.",
+          "section_id": "S11",
+          "section_label": "Outro",
+          "section_start_seconds": 273.54,
+          "section_end_seconds": 289.62,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "冷水洗。不可熨烫。不可削弱。",
+          "en_registered": "Wash cold. Do not iron. Do not nerf.",
+          "en_proposed": "Wash cold. Do not iron. Do not nerf.",
+          "zh_proposed": "冷水洗。不可熨烫。不可削弱。"
+        },
+        {
+          "line_number": 65,
+          "line_id": "LLMV_002_L065",
+          "source_physical_line": 75,
+          "en": "Made in San Francisco.",
+          "section_id": "S11",
+          "section_label": "Outro",
+          "section_start_seconds": 273.54,
+          "section_end_seconds": 289.62,
+          "performed_status": "author-text; performed wording not fully human-verified",
+          "zh": "旧金山制造。",
+          "en_registered": "Made in San Francisco.",
+          "en_proposed": "Made in San Francisco.",
+          "zh_proposed": "旧金山制造。"
+        }
+      ],
+      "meaning": "shell 是服装外层，lining 是内衬；nerf 在游戏与 AI 口语里指削弱能力。洗标写上冷水洗、不可熨烫，再混入不可削弱，最后署名旧金山。",
+      "lyric_joke": "外面穿着乐观，贴身还缝着末日担忧；一件衣服容得下这两种心情。技术立场被当作纤维成分，连保养说明都要求别降低它的能力。",
+      "review_boundary": "这是文本和画面的情绪结构解读。nerf 不是 NeRF 神经辐射场；Made in San Francisco 是作品标签，不能证明虚构衣服的实际产地。",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_context": {
+        "date_label": "本曲结尾服装标签",
+        "display_text": "原稿以衣服成分与洗涤标签结束，原片 04:35 已进入 CARE LABEL 画面。",
+        "source_ids": [
+          "author-lyrics",
+          "author-readme"
+        ],
+        "verification": "source-frame-and-editorial-reading",
+        "exact_reference_status": "confirmed-or-strongly-supported",
+        "human_approval": null
+      },
+      "source_frame_seconds": [
+        275
+      ],
+      "visual_evidence": "CARE LABEL、FIBRE CONTENT BY WEIGHT、SHELL / LINING 与条码的设计画面。"
+    }
+  ],
+  "pending": [
+    {
+      "card_ids": [
+        "02"
+      ],
+      "issue": "AGI era / not unreasonable 的原发布会逐字稿未取得；目前按报道转述。"
+    },
+    {
+      "card_ids": [
+        "11"
+      ],
+      "issue": "THE SHOW PODCAST / EP.06 的唯一原节目与原句未定位；不指定说话者。"
+    },
+    {
+      "card_ids": [
+        "16",
+        "22",
+        "34",
+        "38"
+      ],
+      "issue": "口号最早来源、world was part of the test 的唯一样本、五个科研名词的具体实验与 make me happier 整句帖子未唯一确认；已区分背景与出处。"
+    },
+    {
+      "card_ids": [
+        "15",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "issue": "作者原稿物理行 57–60（Drop 前四行）尚未确认在音轨唱出。"
+    },
+    {
+      "card_ids": [
+        "22",
+        "28",
+        "32",
+        "17"
+      ],
+      "issue": "作者文本与 ASR 在约 02:11、02:45、03:29、04:24 存在用词分歧；不据此自动改原文或声称逐词同步。"
+    },
+    {
+      "card_ids": [
+        "36"
+      ],
+      "issue": "Stargate force majeure 通知原文未取得；只使用新闻归因。"
+    }
+  ],
+  "source_frame_evidence": [
+    {
+      "path": "references/source-042.jpg",
+      "sha256": "4e91205a0d3dc590aabc1f466eff6248cfdecf5186ff2b9af30e7192058ce641",
+      "size_bytes": 694461,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 42,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-045.jpg",
+      "sha256": "98022a68df2ffcce161074564fc5a990b2d11479571f3a4daa10449f13932089",
+      "size_bytes": 650543,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 45,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-047.jpg",
+      "sha256": "a563da501ced2effdfd67f74c40a113a537dab3310d5f406919fc59ce1183c05",
+      "size_bytes": 666877,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 47,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-065.jpg",
+      "sha256": "62c91cb78bd6b0ddf9b65d4e145d2707c4d8c2c7e0cf22456d7dfe55efc585ce",
+      "size_bytes": 528263,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 65,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-068.jpg",
+      "sha256": "28e4981adaad0c6887e22ba9450bd8d9fb7c785ecff6048adbe95460620835a4",
+      "size_bytes": 484658,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 68,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-070.jpg",
+      "sha256": "75bf5587a96f271da053ae5d604b261ec47bb897975ce8bba7fb69b13c8ab045",
+      "size_bytes": 702762,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 70,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-146.jpg",
+      "sha256": "75762a817043743fa08c69634a446485a3892405b714b89b0c4982b85cf175f1",
+      "size_bytes": 767658,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 146,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-151.jpg",
+      "sha256": "1ab4e3e7cf2c7cbedba3804fee4b09af51fc5196fc7a515daff74ec0d09f467e",
+      "size_bytes": 740688,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 151,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-241.jpg",
+      "sha256": "a1aace35400aab3acd284df0167ad14736e25690caa594fbd36dcc4eaa3621bf",
+      "size_bytes": 795588,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 241,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-248.jpg",
+      "sha256": "4b5c271eae9dcb5687c9454530d59d716fadd099146a849d210ca26f3591a27d",
+      "size_bytes": 1022377,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 248,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-275.jpg",
+      "sha256": "259bc861f1d4d9c528bacd502da915139817571458742b4da61a7f90e19e55a7",
+      "size_bytes": 699484,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 275,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    }
+  ],
+  "no_production_version_created": true
+}

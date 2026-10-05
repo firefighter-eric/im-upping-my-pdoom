@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "title": "Escape Velocity · 原片解梗伴看",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "status": "draft",
+  "created_at": "2026-10-05T12:00:41.123258+00:00",
+  "parent_version": null,
+  "request": [
+    "还是把它分开吧，不要恰好40个梗。我不是要恰好40梗，我只是要做一个梗解读的视频。"
+  ],
+  "model": "Codex current session; deterministic TypeScript + Three.js typography and FFmpeg direct source composition; exact model variant TBD",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl-companion-composite",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "2f1e2959737cb9adc0bc18c506f52ab359b9ea273723b813c0543df0cc46c409",
+    "files": {
+      "renderer/index.html": "2f1e2959737cb9adc0bc18c506f52ab359b9ea273723b813c0543df0cc46c409",
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "renderer/src/main.ts": "974c387bb64c0056ef8dea9c2dcdd9412962e55add607b37eca7f78158dc88ab",
+      "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 306.480181,
+    "target_frames": 18389,
+    "purpose": "full-companion-video",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    }
+  },
+  "preview_profile": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 306.480181,
+    "target_frames": 9195,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "generation_id": "LLMV_002_V001_R000_PREVIEW_001",
+    "path": "previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+    "purpose": "complete creative preview"
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_002_SOURCE",
+      "path": "sources/references/LLMV_002_source_v001.mp4",
+      "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d"
+    },
+    "audio": {
+      "source_id": "LLMV_002_AUDIO_001",
+      "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+      "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+    }
+  },
+  "data": {
+    "screen_copy": "data/screen-copy.json",
+    "editorial_review": "data/editorial-review.json",
+    "sources": "data/sources.json",
+    "layout": "data/layout.json",
+    "beat_analysis": "data/beat-analysis.json",
+    "lyric_timing": "data/lyric-timing.json",
+    "content_adoption": "provenance/content-adoption.json",
+    "exporter": "production/render.mjs",
+    "review_player": "watch.html",
+    "analysis_tool": "production/analyze.py",
+    "time_script": "SCRIPT.md"
+  },
+  "variants": [
+    {
+      "id": "companion",
+      "label": "原片解梗伴看 · 4K60",
+      "generation_id": "LLMV_002_V001_R000_001",
+      "output": null,
+      "poster": null,
+      "known_issues": [
+        "Drop first four author lines unconfirmed sung; marked author-text background",
+        "ASR word candidates and some exact references remain pending human review"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD",
+    "audio_and_lyrics": "TBD",
+    "adaptation": "TBD",
+    "fonts": "Archivo / Noto Sans CJK: SIL OFL"
+  },
+  "validation": {
+    "layout_preflight": "provenance/layout-preflight.json",
+    "preview_media": "failed-target-frame-count",
+    "preview_failure_record": "provenance/preview-media-failure.json",
+    "human_review": "pending",
+    "native_render": "not-submitted"
+  },
+  "production_authorization": {
+    "scope": "full-video",
+    "user_statement": "还是把它分开吧，不要恰好40个梗。我不是要恰好40梗，我只是要做一个梗解读的视频。",
+    "full_render_attempts_authorized": 1,
+    "preview_render_attempts_authorized": 1
+  },
+  "source_usage": {
+    "picture": "registered original 1080p24 directly decoded and composited, uncropped",
+    "audio": "full registered AAC copy",
+    "new_content": "natural reference annotations, bilingual subtitles, deterministic typography",
+    "source_detail_upscale_claim": false
+  },
+  "data_hashes": {
+    "screen_copy": "01f9cdaedb61812bccaf173fcd2322578dcae7cb6b86546798fcbd50e688d4f4",
+    "editorial_review": "ec4bbc70c836c34c5092b50ab222806c61f7fee2af82aa9d4cb9f41e5c801085",
+    "sources": "d8053dc8e9fa3fb229db900b7e5f95ea3b842bfc69a993c9861daaed94933685",
+    "layout": "4830c584360e1e00d456734a6115712235f869b15390bb83ad5f3f9ec604ec03",
+    "beat_analysis": "24c0c8ceb4648141a3c0f066c845502a2cff1ff755153652c664072d685013bd",
+    "lyric_timing": "5fa244267c386653c1be967590433c5e2e4bf80d6379b0b5bf8508aabaf45dca",
+    "content_adoption": "0909e8c310a3662210bb4a028ce6c3235f19def51dbdb013943d4b6f3c4a1354",
+    "exporter": "c31a975780e7fbeea3706324bfe039bdc086949cc48f105c9cc7561703c39532",
+    "review_player": "e8d85857f274c19daa0b4d88bebf3b4b5e510fdb9942e527396ca78d2fcadcee",
+    "analysis_tool": "3675d5aac85d5fcaf0375bbf9193af8d958ed3a44bcb7ca8dbf44a5ef37408ef",
+    "time_script": "cd6d4910a9eeaec1d2139d047d0a741ea1839cbc03d128025752230ffacb6a06"
+  },
+  "pending_repair": "docs/plans/anabology-companion-export-repair-v001/README.md",
+  "preview_record": {
+    "generation_id": "LLMV_002_V001_R000_PREVIEW_001",
+    "status": "failed-media-specification",
+    "file": {
+      "path": "previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+      "sha256": "51ab5a508db153bafc29e6603ff9f355d5ddd450c2e5d616fbe7b8ecaa24b42b",
+      "size_bytes": 434300449,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frame_count": 9193,
+      "target_frames": 9195,
+      "video_duration": 306.433333,
+      "audio_duration": 306.480181
+    },
+    "run_id": "RUN_2026-10-05T12-11-56-505Z_d397759b",
+    "qa": "provenance/preview-media-qa.json",
+    "poster": {
+      "path": "previews/LLMV_002_V001_R000_PREVIEW_001_poster.jpg",
+      "sha256": "80f1f3b67a7ceafe00304ce5823b69f909055954484b3650c1fe523f617f92ab"
+    },
+    "human_approval": null
+  }
+}

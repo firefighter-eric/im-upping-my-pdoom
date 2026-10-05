@@ -1,0 +1,23 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "date": "2026-10-05T12:15:16.498Z",
+  "issue": "screen-copy.category_counts is a stale inherited summary; actual per-unit category fields and derived_counts are correct",
+  "recorded_legacy_summary": {
+    "narrative": 10,
+    "reference": 33,
+    "term": 5,
+    "wordplay": 3
+  },
+  "actual_category_counts": {
+    "term": 5,
+    "wordplay": 4,
+    "reference": 32,
+    "narrative": 10
+  },
+  "authoritative_fields": "units[].category; derived_counts; editorial-review.derived_counts",
+  "target_count": null,
+  "impact": "metadata summary only; no count is displayed and renderer uses each unit category directly",
+  "bound_input_unchanged": true,
+  "human_approval": null
+}

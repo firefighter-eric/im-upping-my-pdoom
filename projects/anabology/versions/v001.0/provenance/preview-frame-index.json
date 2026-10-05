@@ -1,0 +1,45 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "purpose": "encoded preview frame inspection",
+  "frames": [
+    {
+      "path": "provenance/preview-frames/frame-151.jpg",
+      "sha256": "77cea4dcf741e7a5b056000c7916fe609a01c5121f371206a849dbc454f42460"
+    },
+    {
+      "path": "provenance/preview-frames/frame-194.jpg",
+      "sha256": "663cbc4bbc67307e29bffe19253700c7fd5964728e8ece0eabf0585676852649"
+    },
+    {
+      "path": "provenance/preview-frames/frame-225.jpg",
+      "sha256": "d5fb605388a75952ffa2eeeebfb5e6bf10513b784648ade046abdd22f6776097"
+    },
+    {
+      "path": "provenance/preview-frames/frame-241.8.jpg",
+      "sha256": "dcc6d74a79b6cac54459cdc7bafb3c263916fa3d00764824e873d3abdad5946a"
+    },
+    {
+      "path": "provenance/preview-frames/frame-275.jpg",
+      "sha256": "a6292f96e6532807681454dfef700a7da5b58e1651a652faa53d6e89cc635da8"
+    },
+    {
+      "path": "provenance/preview-frames/frame-287.9.jpg",
+      "sha256": "badfb8e61486fb1936e5cd4f51e7607c4048e02b560ffa971fa4cc82c03e3ba2"
+    },
+    {
+      "path": "provenance/preview-frames/frame-45.jpg",
+      "sha256": "80f1f3b67a7ceafe00304ce5823b69f909055954484b3650c1fe523f617f92ab"
+    },
+    {
+      "path": "provenance/preview-frames/frame-70.7.jpg",
+      "sha256": "cd2e518e493598438002603abfd310dcedf8532888d74d8fcf7c0da730f1de29"
+    }
+  ],
+  "model_inspected_seconds": [
+    45,
+    70.7,
+    225
+  ],
+  "claim": "model inspected three representative encoded samples; all note pair and subtitle bounds checked separately; human listening pending"
+}

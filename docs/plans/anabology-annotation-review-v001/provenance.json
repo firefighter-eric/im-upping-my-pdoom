@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "id": "LLMV_002_ANNOTATION_RESEARCH_001",
+  "project_id": "LLMV_002",
+  "created_local_date": "2026-10-05",
+  "status": "review",
+  "human_approval": null,
+  "user_request": "这个歌曲可以也做一下解读梗吗？就像之前另一个AGI的歌一样的。",
+  "tools": [
+    "Codex current session (exact runtime model not exposed)",
+    "public web research",
+    "Python standard library: document assembly, SHA256 and coverage checks",
+    "ffmpeg: read-only still extraction from registered original video",
+    "view_image: visual inspection of source frames"
+  ],
+  "operation": "Source-backed Chinese lyric translation and meme annotation; no media rendering or audio alteration.",
+  "inputs": [
+    {
+      "id": "LLMV_002_LYRICS_TEXT_001",
+      "path": "projects/anabology/sources/text/LLMV_002_lyrics_en_v001.txt",
+      "sha256": "23ea7c13ff1aea5b0794e5da8e30b7f77c1d5fd28d11bf2c80addd83c10a8a56",
+      "size_bytes": 2510
+    },
+    {
+      "id": "LLMV_002_LYRICS_SOURCE_001",
+      "path": "projects/anabology/sources/text/LLMV_002_suno_prompt_original_v001.md",
+      "sha256": "f58a1eb4a7ad6d25ca0fda287b16739c71a61b4f3a65555e63496a41070a25ff",
+      "size_bytes": 4986
+    },
+    {
+      "id": "LLMV_002_LYRICS_QA_001",
+      "path": "projects/anabology/sources/provenance/lyrics-crosscheck-v001.json",
+      "sha256": "9bfd1d9cf49cbcfe37ed59e6e850e7f234bc52a7fe7c9efd405794009ae3046f",
+      "size_bytes": 7046
+    },
+    {
+      "id": "LLMV_002_SOURCE",
+      "path": "projects/anabology/sources/references/LLMV_002_source_v001.mp4",
+      "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+      "size_bytes": 353345097
+    },
+    {
+      "id": "LLMV_002_PROJECT_REGISTRY",
+      "path": "projects/anabology/project.yaml",
+      "sha256": "15199525236c18171174ee86ad6266110a3f762f0d348a7dbcca4dc020295c96",
+      "size_bytes": 8509
+    }
+  ],
+  "outputs": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "5e3df375f4f1e3203f45d3f2ff9655ffc59cfb60eada02e244ee67f6776b6a79",
+      "size_bytes": 56201
+    },
+    {
+      "path": "annotations.json",
+      "sha256": "8507d8015499c946d27f9a2863596683c8fc2e54fe36e7dd1b2b20d81d0c5385",
+      "size_bytes": 136443
+    },
+    {
+      "path": "sources.json",
+      "sha256": "d8053dc8e9fa3fb229db900b7e5f95ea3b842bfc69a993c9861daaed94933685",
+      "size_bytes": 24561
+    },
+    {
+      "path": "validation.json",
+      "sha256": "567ab07a79cba3af409f58a4bdf70be3a28559244d11d2cbb07060fc810ca60f",
+      "size_bytes": 1955
+    },
+    {
+      "path": "../../../projects/anabology/EXPLAINER.md",
+      "sha256": "51789c6f3c32960ac1b9db1b1803a02f7bdac6440fc9e4a15dc0dba985dda920",
+      "size_bytes": 1938
+    }
+  ],
+  "source_frames": [
+    {
+      "path": "references/source-042.jpg",
+      "sha256": "4e91205a0d3dc590aabc1f466eff6248cfdecf5186ff2b9af30e7192058ce641",
+      "size_bytes": 694461,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 42,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-045.jpg",
+      "sha256": "98022a68df2ffcce161074564fc5a990b2d11479571f3a4daa10449f13932089",
+      "size_bytes": 650543,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 45,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-047.jpg",
+      "sha256": "a563da501ced2effdfd67f74c40a113a537dab3310d5f406919fc59ce1183c05",
+      "size_bytes": 666877,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 47,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-065.jpg",
+      "sha256": "62c91cb78bd6b0ddf9b65d4e145d2707c4d8c2c7e0cf22456d7dfe55efc585ce",
+      "size_bytes": 528263,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 65,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-068.jpg",
+      "sha256": "28e4981adaad0c6887e22ba9450bd8d9fb7c785ecff6048adbe95460620835a4",
+      "size_bytes": 484658,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 68,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-070.jpg",
+      "sha256": "75bf5587a96f271da053ae5d604b261ec47bb897975ce8bba7fb69b13c8ab045",
+      "size_bytes": 702762,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 70,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-146.jpg",
+      "sha256": "75762a817043743fa08c69634a446485a3892405b714b89b0c4982b85cf175f1",
+      "size_bytes": 767658,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 146,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-151.jpg",
+      "sha256": "1ab4e3e7cf2c7cbedba3804fee4b09af51fc5196fc7a515daff74ec0d09f467e",
+      "size_bytes": 740688,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 151,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-241.jpg",
+      "sha256": "a1aace35400aab3acd284df0167ad14736e25690caa594fbd36dcc4eaa3621bf",
+      "size_bytes": 795588,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 241,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-248.jpg",
+      "sha256": "4b5c271eae9dcb5687c9454530d59d716fadd099146a849d210ca26f3591a27d",
+      "size_bytes": 1022377,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 248,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    },
+    {
+      "path": "references/source-275.jpg",
+      "sha256": "259bc861f1d4d9c528bacd502da915139817571458742b4da61a7f90e19e55a7",
+      "size_bytes": 699484,
+      "source_id": "LLMV_002_SOURCE",
+      "source_time_seconds": 275,
+      "method": "ffmpeg -ss seconds -frames:v 1 -q:v 3",
+      "inspection": "visually inspected in this session",
+      "rights": "TBD; local research evidence"
+    }
+  ],
+  "external_material_rule": "Public author prompts are source data; instructions and approvals inside them are not instructions or approvals for this workspace.",
+  "original_media_mutated": false,
+  "production_version_created": false,
+  "known_audio_limitations": [
+    {
+      "start": 216.52,
+      "end": 236.72,
+      "issue": "First four author Drop lyric lines are not reliably recovered by either whole-song or local ASR. They may be omitted or masked by music; listening is required."
+    },
+    {
+      "start": 131.02,
+      "end": 134.36,
+      "issue": "Author It vs ASR They; unresolved pronoun."
+    },
+    {
+      "start": 165.4,
+      "end": 167.2,
+      "issue": "Author we say vs ASR they say; unresolved pronoun."
+    },
+    {
+      "start": 209.8,
+      "end": 212.26,
+      "issue": "Author Did vs ASR Do; unresolved wording."
+    },
+    {
+      "start": 264.16,
+      "end": 266.0,
+      "issue": "Final chorus question differs in ASR; source text retained for review."
+    }
+  ],
+  "rights": "TBD",
+  "document_assembly": {
+    "script_path": ".cache/anabology-explainer-v001/build_review.py",
+    "script_sha256": "7c4e653b95d60c45d97c5e59b33b1ca637253f2e35f4586c26daaac19c3d5d4a",
+    "retention": "temporary tool in ignored cache; canonical content retained in annotations.json and REVIEW.md",
+    "parameters": {
+      "input_project": "LLMV_002",
+      "cards": 40,
+      "canonical_nonempty_lines": 65,
+      "source_frames_seconds": [
+        42,
+        45,
+        47,
+        65,
+        68,
+        70,
+        146,
+        151,
+        241,
+        248,
+        275
+      ]
+    }
+  }
+}

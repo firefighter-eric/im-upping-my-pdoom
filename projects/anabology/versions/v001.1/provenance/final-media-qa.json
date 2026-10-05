@@ -1,0 +1,514 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "generation_id": "LLMV_002_V001_R001_001",
+  "run_id": "RUN_2026-10-05T12-45-57-413Z_e2997305",
+  "date": "2026-10-05T13:01:38.404Z",
+  "status": "passed",
+  "output": {
+    "path": "outputs/LLMV_002_V001_R001_001_companion_v001.1.mp4",
+    "sha256": "a572712619e7f3e59aee1c109d9752972827e798ec2214b7ff41331e4e82a219",
+    "size_bytes": 1308252584,
+    "duration_seconds": 306.483333,
+    "codec": "h264",
+    "width": 3840,
+    "height": 2160,
+    "frame_rate": "60/1",
+    "frame_count": 18389,
+    "audio_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+    "status": "review",
+    "run_id": "RUN_2026-10-05T12-45-57-413Z_e2997305"
+  },
+  "profile": [
+    3840,
+    2160,
+    60
+  ],
+  "frame_count": 18389,
+  "video_duration_seconds": 306.483333,
+  "original_audio_duration_seconds": 306.480181,
+  "end_gap_seconds": 0.0031520000000000437,
+  "full_decode": "passed during register",
+  "aac_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+  "cfr_timestamps": {
+    "count": 18389,
+    "first": 0,
+    "last": 306.466667,
+    "maximum_grid_error_seconds": 3.333333467026023e-7
+  },
+  "canonical_lyric_lines": 65,
+  "natural_unit_count": 51,
+  "target_count": null,
+  "encoded_focus": {
+    "count": 51,
+    "variation_at_1080p": 1,
+    "range_at_1080p": [
+      430,
+      431
+    ],
+    "samples": [
+      {
+        "unit": "agents",
+        "requested_time": 9.1,
+        "encoded_frame_time": 9.1,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "model-runway",
+        "requested_time": 14,
+        "encoded_frame_time": 14,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "agi-era",
+        "requested_time": 26.06,
+        "encoded_frame_time": 26.066666666666666,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "acronym-chain",
+        "requested_time": 29.34,
+        "encoded_frame_time": 29.35,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "mac-minis",
+        "requested_time": 33.18,
+        "encoded_frame_time": 33.18333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "jensen-tokens",
+        "requested_time": 36.74,
+        "encoded_frame_time": 36.75,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "usage-cap",
+        "requested_time": 40.54,
+        "encoded_frame_time": 40.55,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "quota-denominator",
+        "requested_time": 43.82,
+        "encoded_frame_time": 43.833333333333336,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "cursor-no-shoes",
+        "requested_time": 47.14,
+        "encoded_frame_time": 47.15,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "cursor-deal",
+        "requested_time": 49.4,
+        "encoded_frame_time": 49.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "artisan-billboard",
+        "requested_time": 51,
+        "encoded_frame_time": 51,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "waymo-firework",
+        "requested_time": 54.76,
+        "encoded_frame_time": 54.766666666666666,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "waymo-presidio",
+        "requested_time": 60.76,
+        "encoded_frame_time": 60.766666666666666,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "mild-singularity",
+        "requested_time": 62.58,
+        "encoded_frame_time": 62.583333333333336,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "academy-no-tests",
+        "requested_time": 66.48,
+        "encoded_frame_time": 66.48333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "taste-moat",
+        "requested_time": 68.02000000000001,
+        "encoded_frame_time": 68.03333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "meat-proxy",
+        "requested_time": 69.60000000000001,
+        "encoded_frame_time": 69.6,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "underclass",
+        "requested_time": 74.10000000000001,
+        "encoded_frame_time": 74.1,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "lock-in",
+        "requested_time": 79.9,
+        "encoded_frame_time": 79.9,
+        "green_label_top": 431,
+        "green_label_bottom": 444.5,
+        "rows": 28
+      },
+      {
+        "unit": "feel-agi",
+        "requested_time": 88.02000000000001,
+        "encoded_frame_time": 88.03333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "over-back",
+        "requested_time": 94.14,
+        "encoded_frame_time": 94.15,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "agents-collective",
+        "requested_time": 113.18,
+        "encoded_frame_time": 113.18333333333334,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "july-september",
+        "requested_time": 120.22,
+        "encoded_frame_time": 120.23333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "huggingface-price",
+        "requested_time": 124.66000000000001,
+        "encoded_frame_time": 124.66666666666667,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "conditional-transparency",
+        "requested_time": 127.84,
+        "encoded_frame_time": 127.85,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "world-as-test",
+        "requested_time": 131.42000000000002,
+        "encoded_frame_time": 131.43333333333334,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "empty-seat",
+        "requested_time": 134.76000000000002,
+        "encoded_frame_time": 134.76666666666668,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "ai-to-si",
+        "requested_time": 138.6,
+        "encoded_frame_time": 138.6,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "cashmere-trust",
+        "requested_time": 142.3,
+        "encoded_frame_time": 142.3,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "immortals-three",
+        "requested_time": 145.24,
+        "encoded_frame_time": 145.25,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "midjourney-scanner",
+        "requested_time": 149.54,
+        "encoded_frame_time": 149.55,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "brake-gas",
+        "requested_time": 164.06,
+        "encoded_frame_time": 164.06666666666666,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "escape-physics",
+        "requested_time": 185.06,
+        "encoded_frame_time": 185.06666666666666,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "longevity-escape",
+        "requested_time": 192.22,
+        "encoded_frame_time": 192.23333333333332,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "doom-condition",
+        "requested_time": 198.28,
+        "encoded_frame_time": 198.28333333333333,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "no-underclass",
+        "requested_time": 201.22,
+        "encoded_frame_time": 201.23333333333332,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "genius-country",
+        "requested_time": 216.92000000000002,
+        "encoded_frame_time": 216.93333333333334,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "lean-proofs",
+        "requested_time": 220.4,
+        "encoded_frame_time": 220.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "phages",
+        "requested_time": 223.4,
+        "encoded_frame_time": 223.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "enzymes",
+        "requested_time": 226.4,
+        "encoded_frame_time": 226.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "kidneys",
+        "requested_time": 229.4,
+        "encoded_frame_time": 229.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "good-boys",
+        "requested_time": 232.4,
+        "encoded_frame_time": 232.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "sora-dark",
+        "requested_time": 235.4,
+        "encoded_frame_time": 235.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "stargate-delay",
+        "requested_time": 238.4,
+        "encoded_frame_time": 238.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "apocalypse-bracket",
+        "requested_time": 241.5,
+        "encoded_frame_time": 241.5,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "loop-happiness",
+        "requested_time": 244.70000000000002,
+        "encoded_frame_time": 244.7,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "slopacolypse",
+        "requested_time": 247.9,
+        "encoded_frame_time": 247.9,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "back-in-box",
+        "requested_time": 251.4,
+        "encoded_frame_time": 251.4,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "shell-lining",
+        "requested_time": 273.94,
+        "encoded_frame_time": 273.95,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "do-not-nerf",
+        "requested_time": 282.5,
+        "encoded_frame_time": 282.5,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      },
+      {
+        "unit": "made-in-sf",
+        "requested_time": 287.97999999999996,
+        "encoded_frame_time": 287.98333333333335,
+        "green_label_top": 430,
+        "green_label_bottom": 444.5,
+        "rows": 30
+      }
+    ]
+  },
+  "sampled_frames": [
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_45000ms.jpg",
+      "requested_time": 45,
+      "sha256": "2c928b91efc31bf9fd8e2fd81602524c7815f1b3393453918555ad09eb5b8f48",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_70700ms.jpg",
+      "requested_time": 70.7,
+      "sha256": "b1676cda5c63efd8fbfa14f861ec2657799d7612eb1fb519e83c8a80ffc19613",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_119000ms.jpg",
+      "requested_time": 119,
+      "sha256": "75681f8a341cf3305ed99b2abad152126677e8b96235da9811bf4b8a92199066",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_225000ms.jpg",
+      "requested_time": 225,
+      "sha256": "a58b3e72febe4127d2fbaeb28da7dcf0de86c66cc037091fa704fccad33efb19",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_251500ms.jpg",
+      "requested_time": 251.5,
+      "sha256": "e3ee77ece45096ec9a48ef927fa3a1b0bdeff8c5701ab421ac7a603480b3bf84",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_287900ms.jpg",
+      "requested_time": 287.9,
+      "sha256": "f6a9bbfbd3aa3aea2b7fb126a66ff814978a68de19dd4b02b7a1118193f2d1e6",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "path": "provenance/final-frames/LLMV_002_V001_R001_001_306450ms.jpg",
+      "requested_time": 306.45,
+      "sha256": "d779c3c496435ecb294c0da656d49f537193eaf162e303e56e36b374a3180b49",
+      "width": 3840,
+      "height": 2160
+    }
+  ],
+  "qa_tool_sha256": "f616738ca72dd4563327c8e7d3d8fc37d8b5541428677d363e3c415ea2af4fc8",
+  "human_video_approval": null,
+  "perceptual_sync": "pending human listening"
+}

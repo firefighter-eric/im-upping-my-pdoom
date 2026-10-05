@@ -1,0 +1,41 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "date": "2026-10-05T13:04:46.687Z",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exit_code": 0
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "tests": 12,
+      "passed": 12
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "versions": 22,
+      "preserved_migration_files": 55,
+      "note": "Previously user-removed AGI output retains its receipt; that removed media was not verified."
+    },
+    {
+      "command": "npm run verify:media -- --project anabology --version v001.1",
+      "exit_code": 0,
+      "versions": 1
+    },
+    {
+      "command": "npm run verify:playback -- --project anabology --version v001.1 --browser chrome",
+      "exit_code": 0
+    }
+  ],
+  "final_media_qa": "provenance/final-media-qa.json",
+  "final_watch_qa": "provenance/final-watch-qa.json",
+  "unchanged_renderer": true,
+  "unchanged_data": true,
+  "parent_files_unchanged": 42,
+  "render_elapsed_seconds": 711.743,
+  "human_video_approval": null
+}

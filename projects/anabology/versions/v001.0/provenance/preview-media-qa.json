@@ -1,0 +1,170 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "profile": "preview",
+  "status": "failed-target-frame-count",
+  "run_id": "RUN_2026-10-05T12-11-56-505Z_d397759b",
+  "date": "2026-10-05T12:19:04.224Z",
+  "file": {
+    "path": "previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+    "sha256": "51ab5a508db153bafc29e6603ff9f355d5ddd450c2e5d616fbe7b8ecaa24b42b",
+    "size_bytes": 434300449,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frame_count": 9193,
+    "target_frames": 9195,
+    "video_duration": 306.433333,
+    "audio_duration": 306.480181
+  },
+  "complete_decode": "passed",
+  "aac_packets": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+  "cfr_timestamps": {
+    "count": 9193,
+    "first": 0,
+    "last": 306.4,
+    "maximum_grid_error_seconds": 3.333333467026023e-7
+  },
+  "canonical_lyric_lines": 65,
+  "target_count": null,
+  "playback": [
+    {
+      "time": 1.487438,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 45.265075,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 70.978747,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 151.266833,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 225.265093,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 242.067249,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 288.167251,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    {
+      "time": 303.267125,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    }
+  ],
+  "unmuted_playback": {
+    "before": {
+      "time": 303.271302,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    "after": {
+      "time": 304.278197,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 306.480181,
+      "paused": false
+    },
+    "claim": "technical advancing playback only; perceptual listening not approved"
+  },
+  "watch_responsive": [
+    {
+      "viewport": [
+        1600,
+        1000
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:59213/versions/v001.0/previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+      "full_enabled": false,
+      "preview_enabled": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:59213/versions/v001.0/previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+      "full_enabled": false,
+      "preview_enabled": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:59213/versions/v001.0/previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+      "full_enabled": false,
+      "preview_enabled": true
+    }
+  ],
+  "sampled_frames": [
+    45,
+    70.7,
+    151,
+    194,
+    225,
+    241.8,
+    275,
+    287.9
+  ],
+  "browser": "154.0.8037.93",
+  "qa_tool_sha256": "ed0a0e813c4350aa48d494bd1e24064ee1db20685c229b90a4b5fd6174bdd286",
+  "human_approval": null
+}

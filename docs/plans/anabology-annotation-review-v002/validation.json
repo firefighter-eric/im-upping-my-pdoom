@@ -1,0 +1,30 @@
+{
+  "project_id": "LLMV_002",
+  "text_status": "review",
+  "human_approval": null,
+  "target_count": null,
+  "canonical_lines": 65,
+  "all_canonical_lines_mapped": true,
+  "unique_semantic_ids": true,
+  "category_counts": {
+    "narrative": 10,
+    "reference": 32,
+    "term": 5,
+    "wordplay": 4
+  },
+  "claim": "annotation units are not a count of independently verified memes",
+  "parent_unchanged": true,
+  "canonical_lyric_sha256": "23ea7c13ff1aea5b0794e5da8e30b7f77c1d5fd28d11bf2c80addd83c10a8a56",
+  "repository_checks": {
+    "check": "passed",
+    "test": "12 passed",
+    "verify": "21 versions checked"
+  },
+  "production": {
+    "version": "v001.0",
+    "video_preview": "generated; full original audio preserved; two video frames short",
+    "native_render": "not submitted",
+    "media_qa": "failed-target-frame-count",
+    "repair": "prepared, not applied, explicit rerender authorization required"
+  }
+}

@@ -19,6 +19,10 @@ output/qa/
 # Batch diagnostic stills stay local; their run records and hashes remain tracked.
 projects/*/versions/*/stills/RUN_*/
 
+# Cover selection diagnostics stay local; selected covers and hashes are tracked.
+docs/plans/anabology-bilibili-cover-v002/candidates/
+docs/plans/anabology-bilibili-cover-v002/contact-*.jpg
+
 # Video/audio stay local; publish code, assets and production records only.
 *.mp4
 *.mov

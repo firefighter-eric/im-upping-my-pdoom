@@ -1,0 +1,29 @@
+--- a/production/render.mjs
++++ b/production/render.mjs
+@@ -48,11 +48,12 @@
+  if(!layout.all_pairs_fit||!layout.all_subtitles_fit||!layout.fonts_loaded||layout.canvas[0]!==effective.width||layout.canvas[1]!==effective.height)throw Error('Layout preflight failed.');
+  receipt.layout_preflight={all_pairs_fit:true,all_subtitles_fit:true,fonts_loaded:true,max_pair_height:Math.max(...layout.pairHeights.map(p=>p.previous_and_current)),viewport_height:layout.viewport_height};
+  const fps=effective.fps,frames=smoke?30:effective.target_frames,start=smoke?43.42:0;const scale=effective.width/1920;
+- const filter=`[0:v:0]scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p[base];[1:v:0]fps=fps=${fps}:round=near:start_time=0,scale=${1248*scale}:${702*scale}:flags=lanczos,setsar=1[src];[base][src]overlay=x=${40*scale}:y=${110*scale}:eof_action=repeat:shortest=1:format=yuv420,setsar=1[v]`;
++ const filter=`[0:v:0]scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p[base];[1:v:0]fps=fps=${fps}:round=near:start_time=0,scale=${1248*scale}:${702*scale}:flags=lanczos,setsar=1[src];[base][src]overlay=x=${40*scale}:y=${110*scale}:eof_action=repeat:shortest=0:format=yuv420,setsar=1[v]`;
+  const args=['-hide_banner','-loglevel','error','-n','-filter_complex_threads','2','-f','image2pipe','-vcodec','mjpeg','-framerate',String(fps),'-i','pipe:0'];
+  if(smoke)args.push('-ss',String(start));args.push('-i',source);
+  if(!smoke)args.push('-i',audio);
+  args.push('-filter_complex',filter,'-map','[v]');if(!smoke)args.push('-map','2:a:0');
++ args.push('-frames:v',String(frames));
+  args.push('-c:v','libx264','-preset',effective.preset,'-crf',String(effective.crf),'-pix_fmt','yuv420p','-r',String(fps),'-fps_mode','cfr','-color_range','tv','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709');
+  args.push(...(smoke?['-an']:['-c:a','copy']),'-movflags','+faststart',partial);
+  receipt.encoder_arguments=args.map(s=>s.startsWith(ROOT)?path.relative(ROOT,s):s);receipt.segment=smoke?{start,frames,purpose:'technical pipeline smoke only'}:null;
+@@ -73,6 +74,12 @@
+  }
+  if(errors.length)throw Error(errors.join('\n'));
+  await encoder.finish();encoder=null;
++ const outputProbe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-of','json',partial]));
++ const picture=outputProbe.streams.find(s=>s.codec_type==='video');
++ if(!picture||picture.width!==effective.width||picture.height!==effective.height||picture.avg_frame_rate!==`${fps}/1`||Number(picture.nb_frames)!==frames)throw Error('Encoded frame count or profile mismatch.');
++ const audioPackets=f=>execFileSync('ffmpeg',['-v','error','-i',f,'-map','0:a:0','-c:a','copy','-f','hash','-hash','sha256','-'],{encoding:'utf8'}).trim();
++ if(!smoke&&(Math.abs(Number(picture.duration)-effective.duration_seconds)>=1/fps||audioPackets(partial)!==audioPackets(audio)))throw Error('Full-audio duration or AAC packet mismatch.');
++ receipt.encoded_media_preflight={frames:Number(picture.nb_frames),duration:Number(picture.duration),profile:[picture.width,picture.height,fps],audio:smoke?'not-used':'packet-identical'};
+  if(await hash(source)!==m.inputs.video.sha256||await hash(audio)!==m.inputs.audio.sha256)throw Error('An input changed during render.');
+  await link(partial,file);await unlink(partial);
+  receipt.outputs.push({variant:m.variants[0].id,generation_id:target.id,path:target.path,sha256:await hash(file)});

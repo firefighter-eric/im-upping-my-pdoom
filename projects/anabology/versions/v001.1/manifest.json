@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "title": "Escape Velocity · 当前解释居中修订",
+  "type": "annotated-companion-video",
+  "special_video": true,
+  "source_video_rerender": false,
+  "status": "review",
+  "created_at": "2026-10-05T12:29:55.624Z",
+  "parent_version": "v001.0",
+  "request": [
+    "有一个问题就是经常正在解释的并不处于中间。而是处于第三个位置，这样比较难看到。",
+    "好了，渲染成4K"
+  ],
+  "model": "Codex current session; TypeScript + Three.js deterministic layout revision; exact model variant TBD",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl-companion-composite",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "28b283ee3034becdba29326aca7e730ae8b8525ae4d81a95f906117ad9a67354",
+    "files": {
+      "renderer/index.html": "28b283ee3034becdba29326aca7e730ae8b8525ae4d81a95f906117ad9a67354",
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "renderer/src/main.ts": "27c576c4cdce470feaea93bc85c0cbbcbefba6a8805140442a9246655e319201",
+      "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    }
+  },
+  "settings": {
+    "width": 3840,
+    "height": 2160,
+    "fps": 60,
+    "duration_seconds": 306.480181,
+    "target_frames": 18389,
+    "purpose": "full-companion-video",
+    "preset": "veryfast",
+    "crf": 18,
+    "jpeg_quality": 0.96,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 1,
+      "shutter": 0
+    }
+  },
+  "preview_profile": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 306.480181,
+    "target_frames": 9195,
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "generation_id": "LLMV_002_V001_R001_PREVIEW_001",
+    "path": "previews/LLMV_002_V001_R001_PREVIEW_001_companion.mp4",
+    "purpose": "complete creative preview"
+  },
+  "inputs": {
+    "video": {
+      "source_id": "LLMV_002_SOURCE",
+      "path": "sources/references/LLMV_002_source_v001.mp4",
+      "sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d"
+    },
+    "audio": {
+      "source_id": "LLMV_002_AUDIO_001",
+      "path": "sources/audio/LLMV_002_audio_original_v001.m4a",
+      "sha256": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+    }
+  },
+  "data": {
+    "screen_copy": "data/screen-copy.json",
+    "editorial_review": "data/editorial-review.json",
+    "sources": "data/sources.json",
+    "layout": "data/layout.json",
+    "beat_analysis": "data/beat-analysis.json",
+    "lyric_timing": "data/lyric-timing.json",
+    "content_adoption": "provenance/content-adoption.json",
+    "exporter": "production/render.mjs",
+    "review_player": "watch.html",
+    "analysis_tool": "production/analyze.py",
+    "time_script": "SCRIPT.md"
+  },
+  "variants": [
+    {
+      "id": "companion",
+      "label": "原片解梗伴看 · 4K60",
+      "generation_id": "LLMV_002_V001_R001_001",
+      "output": {
+        "path": "outputs/LLMV_002_V001_R001_001_companion_v001.1.mp4",
+        "sha256": "a572712619e7f3e59aee1c109d9752972827e798ec2214b7ff41331e4e82a219",
+        "size_bytes": 1308252584,
+        "duration_seconds": 306.483333,
+        "codec": "h264",
+        "width": 3840,
+        "height": 2160,
+        "frame_rate": "60/1",
+        "frame_count": 18389,
+        "audio_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+        "status": "review",
+        "run_id": "RUN_2026-10-05T12-45-57-413Z_e2997305"
+      },
+      "poster": "provenance/final-frames/LLMV_002_V001_R001_001_70700ms.jpg",
+      "known_issues": [
+        "Drop first four author lines unconfirmed sung; marked author-text background",
+        "ASR word candidates and some exact references remain pending human review"
+      ]
+    }
+  ],
+  "rights": {
+    "original_video": "TBD",
+    "audio_and_lyrics": "TBD",
+    "adaptation": "TBD",
+    "fonts": "Archivo / Noto Sans CJK: SIL OFL"
+  },
+  "validation": {
+    "full_video_produced": true,
+    "offline_preview_produced": false,
+    "layout_all_units_checked": 51,
+    "layout_bounds": "passed",
+    "actual_current_label_pixel_variation": 0,
+    "deterministic_frame": "passed",
+    "realtime_playback": "passed",
+    "responsive_controls": "passed",
+    "human_visual_review": "Centered layout confirmed by user for 4K rendering; full video pending",
+    "human_reading_pace_review": "pending",
+    "parent_files_preserved": 42,
+    "layout_qa": "provenance/layout-qa.json",
+    "visual_inspection": "provenance/layout-visual-review.json",
+    "parent_preservation": "provenance/parent-preservation.json",
+    "full_render_gate": "authorized",
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-05T13:00:45.701Z",
+    "human_review": "pending",
+    "cfr_timestamp_count": 18389,
+    "encoded_focus_units": 51,
+    "encoded_focus_pixel_variation": 1,
+    "encoded_focus_status": "fixed middle; passed",
+    "actual_output_playback": "passed",
+    "watch_player_and_tail": "passed",
+    "final_media_qa": "provenance/final-media-qa.json",
+    "final_watch_qa": "provenance/final-watch-qa.json",
+    "human_video_review": "pending",
+    "repository_checks": "passed",
+    "media_verification": "passed",
+    "final_checks": "provenance/final-checks.json"
+  },
+  "production_authorization": {
+    "scope": "full-video",
+    "user_statement": "好了，渲染成4K",
+    "date": "2026-10-05T12:45:46.909Z",
+    "full_video_rerender": "explicitly authorized after v001.0 media failure",
+    "full_render_attempts_authorized": 1,
+    "preview_render_attempts_authorized": 0,
+    "record": "provenance/user-render-authorization.json"
+  },
+  "source_usage": {
+    "picture": "registered original 1080p24 directly decoded and composited, uncropped",
+    "audio": "full registered AAC copy",
+    "new_content": "natural reference annotations, bilingual subtitles, deterministic typography",
+    "source_detail_upscale_claim": false
+  },
+  "data_hashes": {
+    "screen_copy": "af566d4445c2b79c835abf979d0a5ebd927a59390fe8c289d795ee686f129d2d",
+    "editorial_review": "ec4bbc70c836c34c5092b50ab222806c61f7fee2af82aa9d4cb9f41e5c801085",
+    "sources": "d8053dc8e9fa3fb229db900b7e5f95ea3b842bfc69a993c9861daaed94933685",
+    "layout": "7528288a43c2a0a55b549a580201bf32bc0893154bac785e51f00b937ac46e6e",
+    "beat_analysis": "24c0c8ceb4648141a3c0f066c845502a2cff1ff755153652c664072d685013bd",
+    "lyric_timing": "5fa244267c386653c1be967590433c5e2e4bf80d6379b0b5bf8508aabaf45dca",
+    "content_adoption": "f63576a6364a93e009d197e3f705aa02eea289ac313c784e6ad4553917eec08b",
+    "exporter": "e1e6daec0545f4a144b8342f9771f1f84c66da3994ab2b95525b3e6444109ccc",
+    "review_player": "d77b8fc6dc52771e6e4a53d5e55f7a862ba794827bd6fed105bca9ac8864336d",
+    "analysis_tool": "3675d5aac85d5fcaf0375bbf9193af8d958ed3a44bcb7ca8dbf44a5ef37408ef",
+    "time_script": "d1102d5c29ea74739c3691366d5dfb70099d7d4f0a17ff18b611474ec207d9d9"
+  },
+  "interactive_preview": {
+    "purpose": "current-annotation centered layout review",
+    "path": "renderer/index.html?preview=1&t=70.7",
+    "sampling": 1,
+    "source": "registered original MP4 picture and original AAC; realtime clock",
+    "status": "review",
+    "not_an_offline_export": true
+  },
+  "design_previews": [
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_1",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_1_45000ms.jpg",
+      "sha256": "c7d5e06acfd4261c5d15d36be947fae5aae54b7bec3c2181b11510740960605b",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 45,
+      "size_bytes": 2149511
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_2",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_2_70700ms.jpg",
+      "sha256": "8391d4586f9a2c11e60299ee30911261d68a25df23ebfa059ffeba43931b718b",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 70.7,
+      "size_bytes": 2257248
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_3",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_3_119000ms.jpg",
+      "sha256": "b0d2a7c527a8b6bc08d2a8b37aa300fc8bc9c261a26bf80fbc4da0f4d661785b",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 119,
+      "size_bytes": 2322767
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_4",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_4_225000ms.jpg",
+      "sha256": "e673f618c38f8d7c32ec5b128c0a42cfe769649d54361d16e855606ef6d9614a",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 225,
+      "size_bytes": 2251818
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_5",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_5_251500ms.jpg",
+      "sha256": "246cbbbfea32ced43941dc6da49ce3663c9499be3314503a4fe174c5c0b819cf",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 251.5,
+      "size_bytes": 2084038
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_6",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_6_287900ms.jpg",
+      "sha256": "731a9d4dadce09c7d51d0c7e3819d7042df4f3b55066df70cce5cbe5682859af",
+      "width": 3840,
+      "height": 2160,
+      "time_seconds": 287.9,
+      "size_bytes": 2454270
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_HD",
+      "variant": "companion",
+      "status": "review",
+      "path": "designs/LLMV_002_V001_R001_001_layout_preview_70700ms.jpg",
+      "sha256": "01ed0bfd3a2e3d555f9609d497779b45b6e16b2f6cc0541135a226a403bcf24b",
+      "width": 1920,
+      "height": 1080,
+      "time_seconds": 70.7,
+      "size_bytes": 710525
+    }
+  ],
+  "delivery": {
+    "document": "DELIVERY.md",
+    "watch_page": "watch.html",
+    "purpose": "complete centered-layout 4K60 companion video"
+  }
+}

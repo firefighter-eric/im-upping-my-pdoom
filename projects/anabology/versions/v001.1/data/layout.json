@@ -1,0 +1,42 @@
+{
+  "logical": [
+    1920,
+    1080
+  ],
+  "video": {
+    "x": 40,
+    "y": 110,
+    "w": 1248,
+    "h": 702
+  },
+  "notes": {
+    "x": 1380,
+    "w": 500,
+    "top": 110,
+    "bottom": 1036,
+    "body_px": 21,
+    "focus_top": 428,
+    "previous_scale": 0.88,
+    "previous_gap": 16,
+    "next_preview_top": 830
+  },
+  "subtitle": {
+    "x": 40,
+    "y": 834,
+    "w": 1248,
+    "zh_px": 34,
+    "en_px": 28
+  },
+  "native_target": [
+    3840,
+    2160
+  ],
+  "preview": [
+    1920,
+    1080,
+    30,
+    4
+  ],
+  "previous_note_retention": "exactly one complete previous note above fixed current focus; one upcoming title preview below",
+  "focus_policy": "current note always occupies the middle slot; no older notes push it downward"
+}

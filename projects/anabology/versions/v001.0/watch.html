@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="data:,"><title>Escape Velocity · 解梗伴看</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101613;color:#e9eee8;font:16px/1.6 system-ui,sans-serif}main{max-width:1640px;margin:auto;padding:24px}h1{font-size:28px;margin:0}p{color:#bbc9b4;margin:8px 0 18px}video{display:block;width:100%;aspect-ratio:16/9;background:#060a07}nav{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:18px 0}button,select{font:inherit;color:inherit;background:#1b281e;border:1px solid #52654b;border-radius:4px;padding:8px 14px}button{cursor:pointer}button:disabled{opacity:.35;cursor:default}button[aria-pressed=true]{border-color:#c4eea8;background:#32442d}label{display:flex;gap:8px;align-items:center}small{color:#9db097}@media(max-width:600px){main{padding:12px}h1{font-size:23px}}
+</style>
+</head>
+<body><main>
+<h1>Escape Velocity · 解梗伴看</h1>
+<p>独立出处逐段解释，双语歌词随原曲播放。审阅版本。</p>
+<video id="film" controls playsinline preload="metadata"></video>
+<nav aria-label="视频与章节">
+<button id="full" disabled aria-pressed="false">4K 完整版</button>
+<button id="preview" disabled aria-pressed="false">1080p 预览</button>
+<label>跳到<select id="chapter">
+<option value="0">开场</option><option value="25.66">旧金山科技造型</option><option value="73.7">掉队倒计时</option><option value="112.78">安全、信任与延寿</option><option value="163.66">刹车与油门</option><option value="184.66">三种逃逸</option><option value="216.52">希望清单与现实阻力</option><option value="273.54">乐观面料，末日内衬</option>
+</select></label>
+</nav>
+<small>03:36–03:56 的部分内容来自作者原稿，实际唱词仍待核对，画面已注明。</small>
+</main>
+<script>
+const film=document.querySelector('#film'),buttons={full:document.querySelector('#full'),preview:document.querySelector('#preview')};
+const paths={full:'outputs/LLMV_002_V001_R000_001_companion_v001.0.mp4',preview:'previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4'};
+function select(key){const at=film.currentTime||0,playing=!film.paused;film.src=paths[key];for(const [name,button] of Object.entries(buttons))button.setAttribute('aria-pressed',String(name===key));film.addEventListener('loadedmetadata',()=>{film.currentTime=Math.min(at,film.duration);if(playing)film.play().catch(()=>{});},{once:true});}
+for(const key of Object.keys(buttons))buttons[key].onclick=()=>select(key);
+document.querySelector('#chapter').onchange=e=>{film.currentTime=Number(e.target.value);};
+(async()=>{const states=await Promise.all(Object.keys(paths).map(async key=>({key,available:(await fetch(paths[key],{method:'HEAD'})).ok})));for(const state of states)buttons[state.key].disabled=!state.available;const first=states.find(state=>state.available);if(first)select(first.key);})();
+</script>
+</body></html>

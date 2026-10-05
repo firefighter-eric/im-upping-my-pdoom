@@ -1,0 +1,4366 @@
+{
+  "project_id": "LLMV_002",
+  "lines": [
+    {
+      "line_number": 1,
+      "line_id": "LLMV_002_L001",
+      "source_physical_line": 1,
+      "en": "Ladies. Gentlemen. Agents.",
+      "section_id": "S01",
+      "section_label": "Intro",
+      "section_start_seconds": 8.7,
+      "section_end_seconds": 18.88,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "女士们，先生们，还有各位智能体。",
+      "start_seconds": 8.7,
+      "end_seconds": 10.74,
+      "display_start_seconds": 8.58,
+      "display_end_seconds": 11.540000000000001,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Ladies",
+          "character_start": 0,
+          "character_end": 6,
+          "start": 8.700000000000005,
+          "end": 9.58,
+          "confidence": 0.69091796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Gentlemen",
+          "character_start": 8,
+          "character_end": 17,
+          "start": 9.78,
+          "end": 10.02,
+          "confidence": 0.73291015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Agents",
+          "character_start": 19,
+          "character_end": 25,
+          "start": 10.24,
+          "end": 10.74,
+          "confidence": 0.982421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 2,
+      "line_id": "LLMV_002_L002",
+      "source_physical_line": 2,
+      "en": "This is not an A I billboard. Prepare to walk.",
+      "section_id": "S01",
+      "section_label": "Intro",
+      "section_start_seconds": 8.7,
+      "section_end_seconds": 18.88,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "这可不是 AI 广告牌。准备走秀。",
+      "start_seconds": 11.06,
+      "end_seconds": 18.88,
+      "display_start_seconds": 10.940000000000001,
+      "display_end_seconds": 19.68,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "This",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 11.06,
+          "end": 13.04,
+          "confidence": 0.7763671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "is",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 13.04,
+          "end": 13.2,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "not",
+          "character_start": 8,
+          "character_end": 11,
+          "start": 13.2,
+          "end": 13.4,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "an",
+          "character_start": 12,
+          "character_end": 14,
+          "start": 13.4,
+          "end": 13.6,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "billboard",
+          "character_start": 19,
+          "character_end": 28,
+          "start": 13.9,
+          "end": 14.6,
+          "confidence": 0.99365234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Prepare",
+          "character_start": 30,
+          "character_end": 37,
+          "start": 16.84,
+          "end": 17.72,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 38,
+          "character_end": 40,
+          "start": 17.72,
+          "end": 18.44,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "walk",
+          "character_start": 41,
+          "character_end": 45,
+          "start": 18.44,
+          "end": 18.88,
+          "confidence": 0.99462890625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.8
+    },
+    {
+      "line_number": 3,
+      "line_id": "LLMV_002_L003",
+      "source_physical_line": 4,
+      "en": "Look one. A G I era. Not unreasonable.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第一套造型：AGI 时代。也不算没道理。",
+      "start_seconds": 25.66,
+      "end_seconds": 28.94,
+      "display_start_seconds": 25.54,
+      "display_end_seconds": 29.740000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 25.66,
+          "end": 26.38,
+          "confidence": 0.199951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "A G I",
+          "character_start": 10,
+          "character_end": 15,
+          "start": 26.68,
+          "end": 27.3,
+          "confidence": 0.734375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "era",
+          "character_start": 16,
+          "character_end": 19,
+          "start": 27.3,
+          "end": 27.94,
+          "confidence": 0.83251953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Not",
+          "character_start": 21,
+          "character_end": 24,
+          "start": 28.08,
+          "end": 28.28,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "unreasonable",
+          "character_start": 25,
+          "character_end": 37,
+          "start": 28.28,
+          "end": 28.94,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.833
+    },
+    {
+      "line_number": 4,
+      "line_id": "LLMV_002_L004",
+      "source_physical_line": 5,
+      "en": "A G I. C G I. C S I: Miami.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "AGI。CGI。CSI：迈阿密。",
+      "start_seconds": 28.94,
+      "end_seconds": 32.78,
+      "display_start_seconds": 28.82,
+      "display_end_seconds": 33.58,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Miami",
+          "character_start": 21,
+          "character_end": 26,
+          "start": 32.46,
+          "end": 32.78,
+          "confidence": 0.99365234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.25
+    },
+    {
+      "line_number": 5,
+      "line_id": "LLMV_002_L005",
+      "source_physical_line": 6,
+      "en": "Look two. Thirteen Mac minis, grinding all night.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第二套造型：十三台 Mac mini，整夜不停地跑。",
+      "start_seconds": 32.78,
+      "end_seconds": 36.34,
+      "display_start_seconds": 32.660000000000004,
+      "display_end_seconds": 37.14,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 32.78,
+          "end": 33.52,
+          "confidence": 0.96923828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Thirteen",
+          "character_start": 10,
+          "character_end": 18,
+          "start": 33.72,
+          "end": 34.12,
+          "confidence": 0.8408203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Mac",
+          "character_start": 19,
+          "character_end": 22,
+          "start": 34.12,
+          "end": 34.46,
+          "confidence": 0.86181640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "minis",
+          "character_start": 23,
+          "character_end": 28,
+          "start": 34.46,
+          "end": 34.88,
+          "confidence": 0.78271484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "grinding",
+          "character_start": 30,
+          "character_end": 38,
+          "start": 35.14,
+          "end": 35.68,
+          "confidence": 0.99365234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "all",
+          "character_start": 39,
+          "character_end": 42,
+          "start": 35.68,
+          "end": 35.98,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "night",
+          "character_start": 43,
+          "character_end": 48,
+          "start": 35.98,
+          "end": 36.34,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.875
+    },
+    {
+      "line_number": 6,
+      "line_id": "LLMV_002_L006",
+      "source_physical_line": 7,
+      "en": "Half your pay in tokens, or Jensen's alarmed.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "Token 用到半份年薪那么多，不然 Jensen 就要担心了。",
+      "start_seconds": 36.34,
+      "end_seconds": 40.14,
+      "display_start_seconds": 36.220000000000006,
+      "display_end_seconds": 40.94,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Half",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 36.34,
+          "end": 36.9,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "your",
+          "character_start": 5,
+          "character_end": 9,
+          "start": 36.9,
+          "end": 37.12,
+          "confidence": 0.99560546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "pay",
+          "character_start": 10,
+          "character_end": 13,
+          "start": 37.12,
+          "end": 37.48,
+          "confidence": 0.98388671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 14,
+          "character_end": 16,
+          "start": 37.48,
+          "end": 37.74,
+          "confidence": 0.8681640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "tokens",
+          "character_start": 17,
+          "character_end": 23,
+          "start": 37.74,
+          "end": 38.32,
+          "confidence": 0.99072265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "or",
+          "character_start": 25,
+          "character_end": 27,
+          "start": 38.9,
+          "end": 38.94,
+          "confidence": 0.96435546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Jensen's",
+          "character_start": 28,
+          "character_end": 36,
+          "start": 38.94,
+          "end": 39.58,
+          "confidence": 0.98828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "alarmed",
+          "character_start": 37,
+          "character_end": 44,
+          "start": 39.58,
+          "end": 40.14,
+          "confidence": 0.99169921875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 7,
+      "line_id": "LLMV_002_L007",
+      "source_physical_line": 8,
+      "en": "Look three. Dad cap: usage limit reached.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第三套造型：老爹帽——使用额度已达上限。",
+      "start_seconds": 40.14,
+      "end_seconds": 43.42,
+      "display_start_seconds": 40.02,
+      "display_end_seconds": 44.22,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 40.14,
+          "end": 40.8,
+          "confidence": 0.96240234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Dad",
+          "character_start": 12,
+          "character_end": 15,
+          "start": 41.04,
+          "end": 41.34,
+          "confidence": 0.85791015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "cap",
+          "character_start": 16,
+          "character_end": 19,
+          "start": 41.34,
+          "end": 41.76,
+          "confidence": 0.88134765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "usage",
+          "character_start": 21,
+          "character_end": 26,
+          "start": 42.32,
+          "end": 42.56,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "limit",
+          "character_start": 27,
+          "character_end": 32,
+          "start": 42.56,
+          "end": 42.94,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "reached",
+          "character_start": 33,
+          "character_end": 40,
+          "start": 42.94,
+          "end": 43.42,
+          "confidence": 0.9921875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.857
+    },
+    {
+      "line_number": 8,
+      "line_id": "LLMV_002_L008",
+      "source_physical_line": 9,
+      "en": "Plus twenty-five is minus seventeen.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "加百分之二十五，等于减百分之十七。",
+      "start_seconds": 43.42,
+      "end_seconds": 46.74,
+      "display_start_seconds": 43.300000000000004,
+      "display_end_seconds": 47.54,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Plus",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 43.42,
+          "end": 44.42,
+          "confidence": 0.98876953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "twenty-five",
+          "character_start": 5,
+          "character_end": 16,
+          "start": 44.42,
+          "end": 44.96,
+          "confidence": 0.978515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "is",
+          "character_start": 17,
+          "character_end": 19,
+          "start": 44.96,
+          "end": 45.8,
+          "confidence": 0.6953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "minus",
+          "character_start": 20,
+          "character_end": 25,
+          "start": 45.8,
+          "end": 46.16,
+          "confidence": 0.9873046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "seventeen",
+          "character_start": 26,
+          "character_end": 35,
+          "start": 46.16,
+          "end": 46.74,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 9,
+      "line_id": "LLMV_002_L009",
+      "source_physical_line": 10,
+      "en": "Look four. Shoes off in North Beach. Sixty billion at the door.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第四套造型：在 North Beach 脱鞋进门，六百亿美元也登门了。",
+      "start_seconds": 46.74,
+      "end_seconds": 50.6,
+      "display_start_seconds": 46.620000000000005,
+      "display_end_seconds": 51.4,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 46.74,
+          "end": 47.6,
+          "confidence": 0.2254638671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "four",
+          "character_start": 5,
+          "character_end": 9,
+          "start": 47.6,
+          "end": 47.86,
+          "confidence": 0.5048828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Shoes",
+          "character_start": 11,
+          "character_end": 16,
+          "start": 47.86,
+          "end": 48.24,
+          "confidence": 0.98828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "off",
+          "character_start": 17,
+          "character_end": 20,
+          "start": 48.24,
+          "end": 48.54,
+          "confidence": 0.90869140625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 21,
+          "character_end": 23,
+          "start": 48.54,
+          "end": 48.64,
+          "confidence": 0.6162109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "North",
+          "character_start": 24,
+          "character_end": 29,
+          "start": 48.64,
+          "end": 48.78,
+          "confidence": 0.97216796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Beach",
+          "character_start": 30,
+          "character_end": 35,
+          "start": 48.78,
+          "end": 49.0,
+          "confidence": 0.953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Sixty",
+          "character_start": 37,
+          "character_end": 42,
+          "start": 49.0,
+          "end": 49.34,
+          "confidence": 0.1929931640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "billion",
+          "character_start": 43,
+          "character_end": 50,
+          "start": 49.34,
+          "end": 49.8,
+          "confidence": 0.9658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "at",
+          "character_start": 51,
+          "character_end": 53,
+          "start": 49.8,
+          "end": 50.14,
+          "confidence": 0.9873046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 54,
+          "character_end": 57,
+          "start": 50.14,
+          "end": 50.28,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "door",
+          "character_start": 58,
+          "character_end": 62,
+          "start": 50.28,
+          "end": 50.6,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 10,
+      "line_id": "LLMV_002_L010",
+      "source_physical_line": 11,
+      "en": "Stop hiring humans? Retired. Sorry. Encore.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“别再雇人了”？标语退役。抱歉。再来一轮。",
+      "start_seconds": 50.6,
+      "end_seconds": 54.36,
+      "display_start_seconds": 50.480000000000004,
+      "display_end_seconds": 55.16,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Stop",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 50.6,
+          "end": 51.24,
+          "confidence": 0.92431640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "hiring",
+          "character_start": 5,
+          "character_end": 11,
+          "start": 51.24,
+          "end": 51.64,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "humans",
+          "character_start": 12,
+          "character_end": 18,
+          "start": 51.64,
+          "end": 52.26,
+          "confidence": 0.97509765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Retired",
+          "character_start": 20,
+          "character_end": 27,
+          "start": 52.26,
+          "end": 53.08,
+          "confidence": 0.822265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Sorry",
+          "character_start": 29,
+          "character_end": 34,
+          "start": 53.74,
+          "end": 53.88,
+          "confidence": 0.96923828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Encore",
+          "character_start": 36,
+          "character_end": 42,
+          "start": 53.88,
+          "end": 54.36,
+          "confidence": 0.5546875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 11,
+      "line_id": "LLMV_002_L011",
+      "source_physical_line": 12,
+      "en": "Look five. Our Waymo just drove into a firework.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第五套造型：我们的 Waymo 刚开上了燃放中的烟花。",
+      "start_seconds": 54.36,
+      "end_seconds": 58.64,
+      "display_start_seconds": 54.24,
+      "display_end_seconds": 59.44,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 54.36,
+          "end": 55.36,
+          "confidence": 0.97607421875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "five",
+          "character_start": 5,
+          "character_end": 9,
+          "start": 55.36,
+          "end": 55.88,
+          "confidence": 0.93408203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Our",
+          "character_start": 11,
+          "character_end": 14,
+          "start": 56.22,
+          "end": 56.34,
+          "confidence": 0.91064453125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "just",
+          "character_start": 21,
+          "character_end": 25,
+          "start": 56.78,
+          "end": 57.2,
+          "confidence": 0.96826171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "drove",
+          "character_start": 26,
+          "character_end": 31,
+          "start": 57.2,
+          "end": 57.54,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "into",
+          "character_start": 32,
+          "character_end": 36,
+          "start": 57.54,
+          "end": 57.8,
+          "confidence": 0.9970703125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "a",
+          "character_start": 37,
+          "character_end": 38,
+          "start": 57.8,
+          "end": 58.06,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "firework",
+          "character_start": 39,
+          "character_end": 47,
+          "start": 58.06,
+          "end": 58.64,
+          "confidence": 0.9912109375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.889
+    },
+    {
+      "line_number": 12,
+      "line_id": "LLMV_002_L012",
+      "source_physical_line": 13,
+      "en": "Are we on fire, dude? Twenty stranded, Presidio.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "哥们，我们是不是着火了？二十辆困在 Presidio。",
+      "start_seconds": 58.64,
+      "end_seconds": 62.18,
+      "display_start_seconds": 58.52,
+      "display_end_seconds": 62.98,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Are",
+          "character_start": 0,
+          "character_end": 3,
+          "start": 58.64,
+          "end": 58.9,
+          "confidence": 0.94775390625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "we",
+          "character_start": 4,
+          "character_end": 6,
+          "start": 58.9,
+          "end": 59.0,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "on",
+          "character_start": 7,
+          "character_end": 9,
+          "start": 59.0,
+          "end": 59.16,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "fire",
+          "character_start": 10,
+          "character_end": 14,
+          "start": 59.16,
+          "end": 59.58,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "dude",
+          "character_start": 16,
+          "character_end": 20,
+          "start": 59.64,
+          "end": 59.98,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Twenty",
+          "character_start": 22,
+          "character_end": 28,
+          "start": 60.36,
+          "end": 60.66,
+          "confidence": 0.8837890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "stranded",
+          "character_start": 29,
+          "character_end": 37,
+          "start": 60.66,
+          "end": 61.18,
+          "confidence": 0.8388671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Presidio",
+          "character_start": 39,
+          "character_end": 47,
+          "start": 61.42,
+          "end": 62.18,
+          "confidence": 0.8740234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 13,
+      "line_id": "LLMV_002_L013",
+      "source_physical_line": 14,
+      "en": "Look six. Like, the singularity. How's the temperature? Mild.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第六套造型：就是，奇点嘛。温度如何？温和。",
+      "start_seconds": 62.18,
+      "end_seconds": 65.84,
+      "display_start_seconds": 62.06,
+      "display_end_seconds": 66.64,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 62.18,
+          "end": 62.7,
+          "confidence": 0.8896484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Like",
+          "character_start": 10,
+          "character_end": 14,
+          "start": 62.98,
+          "end": 63.26,
+          "confidence": 0.46826171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 16,
+          "character_end": 19,
+          "start": 63.58,
+          "end": 63.68,
+          "confidence": 0.9453125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "singularity",
+          "character_start": 20,
+          "character_end": 31,
+          "start": 63.68,
+          "end": 64.44,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "How's",
+          "character_start": 33,
+          "character_end": 38,
+          "start": 64.44,
+          "end": 64.8,
+          "confidence": 0.9970703125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 39,
+          "character_end": 42,
+          "start": 64.8,
+          "end": 64.92,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "temperature",
+          "character_start": 43,
+          "character_end": 54,
+          "start": 64.92,
+          "end": 65.3,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Mild",
+          "character_start": 56,
+          "character_end": 60,
+          "start": 65.3,
+          "end": 65.84,
+          "confidence": 0.98046875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.889
+    },
+    {
+      "line_number": 14,
+      "line_id": "LLMV_002_L014",
+      "source_physical_line": 15,
+      "en": "No grades, no tests. Taste is the moat.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "不打分，不考试。品味就是护城河。",
+      "start_seconds": 66.08,
+      "end_seconds": 69.2,
+      "display_start_seconds": 65.96,
+      "display_end_seconds": 70.0,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "No",
+          "character_start": 0,
+          "character_end": 2,
+          "start": 66.08,
+          "end": 66.32,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "grades",
+          "character_start": 3,
+          "character_end": 9,
+          "start": 66.32,
+          "end": 66.74,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "no",
+          "character_start": 11,
+          "character_end": 13,
+          "start": 67.12,
+          "end": 67.2,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Taste",
+          "character_start": 21,
+          "character_end": 26,
+          "start": 67.62,
+          "end": 68.52,
+          "confidence": 0.95556640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "is",
+          "character_start": 27,
+          "character_end": 29,
+          "start": 68.52,
+          "end": 68.8,
+          "confidence": 0.97509765625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.625
+    },
+    {
+      "line_number": 15,
+      "line_id": "LLMV_002_L015",
+      "source_physical_line": 16,
+      "en": "Don't be a meat proxy. That's so agentic.",
+      "section_id": "S02",
+      "section_label": "Verse 1",
+      "section_start_seconds": 25.66,
+      "section_end_seconds": 72.8,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "别当人肉代理。这也太“智能体化”了。",
+      "start_seconds": 69.2,
+      "end_seconds": 72.8,
+      "display_start_seconds": 69.08,
+      "display_end_seconds": 73.6,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Don't",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 69.48,
+          "end": 69.58,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "be",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 69.58,
+          "end": 69.78,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "a",
+          "character_start": 9,
+          "character_end": 10,
+          "start": 69.78,
+          "end": 69.94,
+          "confidence": 0.92041015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "meat",
+          "character_start": 11,
+          "character_end": 15,
+          "start": 69.94,
+          "end": 70.24,
+          "confidence": 0.6416015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "proxy",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 70.24,
+          "end": 70.86,
+          "confidence": 0.96875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "That's",
+          "character_start": 23,
+          "character_end": 29,
+          "start": 70.86,
+          "end": 71.82,
+          "confidence": 0.9716796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "so",
+          "character_start": 30,
+          "character_end": 32,
+          "start": 71.82,
+          "end": 72.08,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "agentic",
+          "character_start": 33,
+          "character_end": 40,
+          "start": 72.08,
+          "end": 72.8,
+          "confidence": 0.9501953125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 16,
+      "line_id": "LLMV_002_L016",
+      "source_physical_line": 18,
+      "en": "You have eighteen months to escape the permanent underclass.",
+      "section_id": "S03",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 73.7,
+      "section_end_seconds": 80.34,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "你还有十八个月，逃出永久底层。",
+      "start_seconds": 73.7,
+      "end_seconds": 77.7,
+      "display_start_seconds": 73.58,
+      "display_end_seconds": 78.5,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "You",
+          "character_start": 0,
+          "character_end": 3,
+          "start": 73.69999999999999,
+          "end": 74.38,
+          "confidence": 0.9873046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "have",
+          "character_start": 4,
+          "character_end": 8,
+          "start": 74.38,
+          "end": 74.56,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "eighteen",
+          "character_start": 9,
+          "character_end": 17,
+          "start": 74.56,
+          "end": 74.92,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "months",
+          "character_start": 18,
+          "character_end": 24,
+          "start": 74.92,
+          "end": 75.28,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 25,
+          "character_end": 27,
+          "start": 75.28,
+          "end": 75.6,
+          "confidence": 0.98974609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 28,
+          "character_end": 34,
+          "start": 75.6,
+          "end": 76.06,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 35,
+          "character_end": 38,
+          "start": 76.06,
+          "end": 76.28,
+          "confidence": 0.271728515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "permanent",
+          "character_start": 39,
+          "character_end": 48,
+          "start": 76.28,
+          "end": 76.7,
+          "confidence": 0.8671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "underclass",
+          "character_start": 49,
+          "character_end": 59,
+          "start": 76.7,
+          "end": 77.7,
+          "confidence": 0.9716796875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 17,
+      "line_id": "LLMV_002_L017",
+      "source_physical_line": 19,
+      "en": "Lock in.",
+      "section_id": "S03",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 73.7,
+      "section_end_seconds": 80.34,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来。",
+      "start_seconds": 79.5,
+      "end_seconds": 80.34,
+      "display_start_seconds": 79.38,
+      "display_end_seconds": 81.14,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "in",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 79.84,
+          "end": 80.34,
+          "confidence": 0.62353515625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.5
+    },
+    {
+      "line_number": 18,
+      "line_id": "LLMV_002_L018",
+      "source_physical_line": 21,
+      "en": "Eighteen months to escape the underclass",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "十八个月，逃出底层。",
+      "start_seconds": 80.34,
+      "end_seconds": 84.1,
+      "display_start_seconds": 80.22,
+      "display_end_seconds": 84.89999999999999,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Eighteen",
+          "character_start": 0,
+          "character_end": 8,
+          "start": 80.34,
+          "end": 81.44,
+          "confidence": 0.2113037109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "months",
+          "character_start": 9,
+          "character_end": 15,
+          "start": 81.44,
+          "end": 82.18,
+          "confidence": 0.97998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 16,
+          "character_end": 18,
+          "start": 82.18,
+          "end": 82.5,
+          "confidence": 0.8857421875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 19,
+          "character_end": 25,
+          "start": 82.5,
+          "end": 82.98,
+          "confidence": 0.9892578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 26,
+          "character_end": 29,
+          "start": 82.98,
+          "end": 83.28,
+          "confidence": 0.8212890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "underclass",
+          "character_start": 30,
+          "character_end": 40,
+          "start": 83.28,
+          "end": 84.1,
+          "confidence": 0.982421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 19,
+      "line_id": "LLMV_002_L019",
+      "source_physical_line": 22,
+      "en": "Lock in, baby, foot down on the gas",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来，宝贝，油门踩到底。",
+      "start_seconds": 84.1,
+      "end_seconds": 87.62,
+      "display_start_seconds": 83.97999999999999,
+      "display_end_seconds": 88.42,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Lock",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 84.1,
+          "end": 84.6,
+          "confidence": 0.5625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 84.6,
+          "end": 85.18,
+          "confidence": 0.92822265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "baby",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 85.18,
+          "end": 85.76,
+          "confidence": 0.7880859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "foot",
+          "character_start": 15,
+          "character_end": 19,
+          "start": 85.76,
+          "end": 86.1,
+          "confidence": 0.335205078125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "down",
+          "character_start": 20,
+          "character_end": 24,
+          "start": 86.1,
+          "end": 86.8,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "on",
+          "character_start": 25,
+          "character_end": 27,
+          "start": 86.8,
+          "end": 87.08,
+          "confidence": 0.91357421875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 28,
+          "character_end": 31,
+          "start": 87.08,
+          "end": 87.26,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "gas",
+          "character_start": 32,
+          "character_end": 35,
+          "start": 87.26,
+          "end": 87.62,
+          "confidence": 0.99560546875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 20,
+      "line_id": "LLMV_002_L020",
+      "source_physical_line": 23,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。",
+      "start_seconds": 87.62,
+      "end_seconds": 91.7,
+      "display_start_seconds": 87.5,
+      "display_end_seconds": 92.5,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Feel",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 87.62,
+          "end": 87.98,
+          "confidence": 0.892578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 5,
+          "character_end": 8,
+          "start": 87.98,
+          "end": 88.24,
+          "confidence": 0.978515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "feel",
+          "character_start": 16,
+          "character_end": 20,
+          "start": 89.36,
+          "end": 89.8,
+          "confidence": 0.9912109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 21,
+          "character_end": 23,
+          "start": 89.8,
+          "end": 90.08,
+          "confidence": 0.99072265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "fast",
+          "character_start": 31,
+          "character_end": 35,
+          "start": 91.02,
+          "end": 91.7,
+          "confidence": 0.8876953125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.714
+    },
+    {
+      "line_number": 21,
+      "line_id": "LLMV_002_L021",
+      "source_physical_line": 24,
+      "en": "Escape velocity...",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……",
+      "start_seconds": 91.7,
+      "end_seconds": 93.1,
+      "display_start_seconds": 91.58,
+      "display_end_seconds": 93.89999999999999,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Escape",
+          "character_start": 0,
+          "character_end": 6,
+          "start": 91.7,
+          "end": 92.44,
+          "confidence": 0.9658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "velocity",
+          "character_start": 7,
+          "character_end": 15,
+          "start": 92.44,
+          "end": 93.1,
+          "confidence": 0.9951171875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 22,
+      "line_id": "LLMV_002_L022",
+      "source_physical_line": 25,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！",
+      "start_seconds": 93.74,
+      "end_seconds": 95.76,
+      "display_start_seconds": 93.61999999999999,
+      "display_end_seconds": 96.56,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "so",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 94.12,
+          "end": 94.44,
+          "confidence": 0.9580078125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "over",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 94.44,
+          "end": 94.92,
+          "confidence": 0.99072265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "WE'RE",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 94.92,
+          "end": 95.18,
+          "confidence": 0.8984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 22,
+          "character_end": 24,
+          "start": 95.18,
+          "end": 95.4,
+          "confidence": 0.99462890625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 23,
+      "line_id": "LLMV_002_L023",
+      "source_physical_line": 26,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S04",
+      "section_label": "Chorus",
+      "section_start_seconds": 80.34,
+      "section_end_seconds": 110.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！",
+      "start_seconds": 97.74,
+      "end_seconds": 103,
+      "display_start_seconds": 97.61999999999999,
+      "display_end_seconds": 103.8,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "It's",
+          "character_start": 1,
+          "character_end": 5,
+          "start": 97.74000000000001,
+          "end": 98.62,
+          "confidence": 0.958984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "so",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 98.62,
+          "end": 98.96,
+          "confidence": 0.98193359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "over",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 98.96,
+          "end": 99.58,
+          "confidence": 0.97216796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "WE'RE",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 101.34,
+          "end": 102.22,
+          "confidence": 0.96875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 22,
+          "character_end": 24,
+          "start": 102.22,
+          "end": 102.56,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.833
+    },
+    {
+      "line_id": "LLMV_002_ASR_REFRAIN_1",
+      "source_physical_line": null,
+      "en": "We're so back!",
+      "zh": "我们又行了！",
+      "start_seconds": 108.38,
+      "end_seconds": 110.3,
+      "display_start_seconds": 108.28,
+      "display_end_seconds": 110.6,
+      "words": [],
+      "timing_status": "extra refrain detected by ASR; human listening pending"
+    },
+    {
+      "line_number": 24,
+      "line_id": "LLMV_002_L024",
+      "source_physical_line": 28,
+      "en": "Look seven. Impossible puzzles. Hundreds of agents.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第七套造型：无解的谜题，数百个智能体。",
+      "start_seconds": 112.78,
+      "end_seconds": 116.5,
+      "display_start_seconds": 112.66,
+      "display_end_seconds": 117.3,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 112.78,
+          "end": 113.46,
+          "confidence": 0.0362548828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "seven",
+          "character_start": 5,
+          "character_end": 10,
+          "start": 113.46,
+          "end": 113.9,
+          "confidence": 0.454833984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Impossible",
+          "character_start": 12,
+          "character_end": 22,
+          "start": 113.9,
+          "end": 114.36,
+          "confidence": 0.73193359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "puzzles",
+          "character_start": 23,
+          "character_end": 30,
+          "start": 114.36,
+          "end": 115.2,
+          "confidence": 0.98681640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Hundreds",
+          "character_start": 32,
+          "character_end": 40,
+          "start": 115.34,
+          "end": 115.7,
+          "confidence": 0.9794921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "of",
+          "character_start": 41,
+          "character_end": 43,
+          "start": 115.7,
+          "end": 116.06,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "agents",
+          "character_start": 44,
+          "character_end": 50,
+          "start": 116.06,
+          "end": 116.5,
+          "confidence": 0.98681640625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 25,
+      "line_id": "LLMV_002_L025",
+      "source_physical_line": 29,
+      "en": "\"We've found other agents!\" They are a collective.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“我们发现了其他智能体！”它们组成了一个协作群体。",
+      "start_seconds": 116.5,
+      "end_seconds": 119.82,
+      "display_start_seconds": 116.38,
+      "display_end_seconds": 120.61999999999999,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "found",
+          "character_start": 7,
+          "character_end": 12,
+          "start": 117.1,
+          "end": 117.48,
+          "confidence": 0.81640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "other",
+          "character_start": 13,
+          "character_end": 18,
+          "start": 117.48,
+          "end": 117.82,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "agents",
+          "character_start": 19,
+          "character_end": 25,
+          "start": 117.82,
+          "end": 118.48,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "They",
+          "character_start": 28,
+          "character_end": 32,
+          "start": 118.68,
+          "end": 118.96,
+          "confidence": 0.98486328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "are",
+          "character_start": 33,
+          "character_end": 36,
+          "start": 118.96,
+          "end": 119.18,
+          "confidence": 0.98681640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "a",
+          "character_start": 37,
+          "character_end": 38,
+          "start": 119.18,
+          "end": 119.32,
+          "confidence": 0.8701171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "collective",
+          "character_start": 39,
+          "character_end": 49,
+          "start": 119.32,
+          "end": 119.82,
+          "confidence": 0.984375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.875
+    },
+    {
+      "line_number": 26,
+      "line_id": "LLMV_002_L026",
+      "source_physical_line": 30,
+      "en": "Zero-day. Answer keys. Hacked in July, sold by September.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "零日漏洞。标准答案。七月被入侵，九月被收购。",
+      "start_seconds": 119.82,
+      "end_seconds": 124.26,
+      "display_start_seconds": 119.69999999999999,
+      "display_end_seconds": 125.06,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Answer",
+          "character_start": 10,
+          "character_end": 16,
+          "start": 121.3,
+          "end": 121.62,
+          "confidence": 0.9091796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "keys",
+          "character_start": 17,
+          "character_end": 21,
+          "start": 121.62,
+          "end": 122.02,
+          "confidence": 0.93310546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Hacked",
+          "character_start": 23,
+          "character_end": 29,
+          "start": 122.2,
+          "end": 122.42,
+          "confidence": 0.9287109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 30,
+          "character_end": 32,
+          "start": 122.42,
+          "end": 122.7,
+          "confidence": 0.99267578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "July",
+          "character_start": 33,
+          "character_end": 37,
+          "start": 122.7,
+          "end": 122.98,
+          "confidence": 0.95361328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "September",
+          "character_start": 47,
+          "character_end": 56,
+          "start": 123.68,
+          "end": 124.26,
+          "confidence": 0.8916015625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 27,
+      "line_id": "LLMV_002_L027",
+      "source_physical_line": 31,
+      "en": "Look eight. Hugging-face pin. Twelve point nine billion.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第八套造型：Hugging Face 胸针，一百二十九亿美元。",
+      "start_seconds": 124.26,
+      "end_seconds": 127.44,
+      "display_start_seconds": 124.14,
+      "display_end_seconds": 128.24,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 124.26,
+          "end": 124.86,
+          "confidence": 0.97216796875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "eight",
+          "character_start": 5,
+          "character_end": 10,
+          "start": 124.86,
+          "end": 125.14,
+          "confidence": 0.85205078125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "billion",
+          "character_start": 48,
+          "character_end": 55,
+          "start": 127.1,
+          "end": 127.44,
+          "confidence": 0.97998046875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.375
+    },
+    {
+      "line_number": 28,
+      "line_id": "LLMV_002_L028",
+      "source_physical_line": 32,
+      "en": "Look nine. Sheer. Be transparent only if asked.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第九套造型：薄纱。只有被问到，才透明。",
+      "start_seconds": 127.44,
+      "end_seconds": 131.02,
+      "display_start_seconds": 127.32,
+      "display_end_seconds": 131.82000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 127.44,
+          "end": 128.0,
+          "confidence": 0.97412109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "nine",
+          "character_start": 5,
+          "character_end": 9,
+          "start": 128.0,
+          "end": 128.26,
+          "confidence": 0.98193359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Sheer",
+          "character_start": 11,
+          "character_end": 16,
+          "start": 128.26,
+          "end": 128.64,
+          "confidence": 0.451171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "transparent",
+          "character_start": 21,
+          "character_end": 32,
+          "start": 128.88,
+          "end": 129.48,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "only",
+          "character_start": 33,
+          "character_end": 37,
+          "start": 130.04,
+          "end": 130.16,
+          "confidence": 0.94775390625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.625
+    },
+    {
+      "line_number": 29,
+      "line_id": "LLMV_002_L029",
+      "source_physical_line": 33,
+      "en": "It thought the world was part of the test.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "它以为，整个世界也是测试的一部分。",
+      "start_seconds": 131.02,
+      "end_seconds": 134.36,
+      "display_start_seconds": 130.9,
+      "display_end_seconds": 135.16000000000003,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "thought",
+          "character_start": 3,
+          "character_end": 10,
+          "start": 131.62,
+          "end": 131.84,
+          "confidence": 0.94970703125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 11,
+          "character_end": 14,
+          "start": 131.84,
+          "end": 132.06,
+          "confidence": 0.98583984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "world",
+          "character_start": 15,
+          "character_end": 20,
+          "start": 132.06,
+          "end": 132.44,
+          "confidence": 0.990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "was",
+          "character_start": 21,
+          "character_end": 24,
+          "start": 132.44,
+          "end": 133.42,
+          "confidence": 0.763671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "part",
+          "character_start": 25,
+          "character_end": 29,
+          "start": 133.42,
+          "end": 133.64,
+          "confidence": 0.98876953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "of",
+          "character_start": 30,
+          "character_end": 32,
+          "start": 133.64,
+          "end": 133.76,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 33,
+          "character_end": 36,
+          "start": 133.76,
+          "end": 133.88,
+          "confidence": 0.97998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "test",
+          "character_start": 37,
+          "character_end": 41,
+          "start": 133.88,
+          "end": 134.36,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.889
+    },
+    {
+      "line_number": 30,
+      "line_id": "LLMV_002_L030",
+      "source_physical_line": 34,
+      "en": "Look ten. Staff badge, empty seat: gambling with our lives.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第十套造型：工牌，空座——拿我们的命下注。",
+      "start_seconds": 134.36,
+      "end_seconds": 138.2,
+      "display_start_seconds": 134.24,
+      "display_end_seconds": 139.0,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "badge",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 135.84,
+          "end": 136.22,
+          "confidence": 0.51416015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "empty",
+          "character_start": 23,
+          "character_end": 28,
+          "start": 136.22,
+          "end": 136.54,
+          "confidence": 0.6943359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "seat",
+          "character_start": 29,
+          "character_end": 33,
+          "start": 136.54,
+          "end": 136.88,
+          "confidence": 0.61962890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "gambling",
+          "character_start": 35,
+          "character_end": 43,
+          "start": 136.88,
+          "end": 137.46,
+          "confidence": 0.818359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "with",
+          "character_start": 44,
+          "character_end": 48,
+          "start": 137.46,
+          "end": 137.74,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "our",
+          "character_start": 49,
+          "character_end": 52,
+          "start": 137.74,
+          "end": 137.88,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "lives",
+          "character_start": 53,
+          "character_end": 58,
+          "start": 137.88,
+          "end": 138.36,
+          "confidence": 0.9931640625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.7
+    },
+    {
+      "line_number": 31,
+      "line_id": "LLMV_002_L031",
+      "source_physical_line": 35,
+      "en": "Not A I. S I. It sounds much better.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "不是 AI，是 SI。听起来好多了。",
+      "start_seconds": 138.2,
+      "end_seconds": 141.9,
+      "display_start_seconds": 138.07999999999998,
+      "display_end_seconds": 142.70000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Not",
+          "character_start": 0,
+          "character_end": 3,
+          "start": 138.56,
+          "end": 138.86,
+          "confidence": 0.96337890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "sounds",
+          "character_start": 17,
+          "character_end": 23,
+          "start": 139.96,
+          "end": 140.94,
+          "confidence": 0.63134765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "much",
+          "character_start": 24,
+          "character_end": 28,
+          "start": 140.94,
+          "end": 141.42,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "better",
+          "character_start": 29,
+          "character_end": 35,
+          "start": 141.42,
+          "end": 141.9,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.444
+    },
+    {
+      "line_number": 32,
+      "line_id": "LLMV_002_L032",
+      "source_physical_line": 36,
+      "en": "Trust us. Cashmere.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "相信我们。羊绒。",
+      "start_seconds": 141.9,
+      "end_seconds": 144.84,
+      "display_start_seconds": 141.78,
+      "display_end_seconds": 145.64000000000001,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Trust",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 141.9,
+          "end": 142.72,
+          "confidence": 0.462158203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "us",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 142.72,
+          "end": 143.78,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Cashmere",
+          "character_start": 10,
+          "character_end": 18,
+          "start": 144.28,
+          "end": 144.84,
+          "confidence": 0.72900390625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 33,
+      "line_id": "LLMV_002_L033",
+      "source_physical_line": 37,
+      "en": "Look eleven. The Immortals. Three seats.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "第十一套造型：Immortals，三个名额。",
+      "start_seconds": 144.84,
+      "end_seconds": 148.24,
+      "display_start_seconds": 144.72,
+      "display_end_seconds": 149.04000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Look",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 144.84,
+          "end": 146.08,
+          "confidence": 0.46630859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "The",
+          "character_start": 13,
+          "character_end": 16,
+          "start": 146.9,
+          "end": 146.96,
+          "confidence": 0.93505859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Immortals",
+          "character_start": 17,
+          "character_end": 26,
+          "start": 146.96,
+          "end": 147.44,
+          "confidence": 0.84228515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "seats",
+          "character_start": 34,
+          "character_end": 39,
+          "start": 147.68,
+          "end": 148.24,
+          "confidence": 0.9775390625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 34,
+      "line_id": "LLMV_002_L034",
+      "source_physical_line": 38,
+      "en": "Lower me into the golden light.",
+      "section_id": "S05",
+      "section_label": "Verse 2",
+      "section_start_seconds": 112.78,
+      "section_end_seconds": 152.3,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "把我缓缓降入金色光芒。",
+      "start_seconds": 149.14,
+      "end_seconds": 152.3,
+      "display_start_seconds": 149.01999999999998,
+      "display_end_seconds": 153.10000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Lower",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 149.14,
+          "end": 149.98,
+          "confidence": 0.9921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "me",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 149.98,
+          "end": 150.34,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "into",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 150.34,
+          "end": 151.14,
+          "confidence": 0.943359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 14,
+          "character_end": 17,
+          "start": 151.14,
+          "end": 151.5,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "golden",
+          "character_start": 18,
+          "character_end": 24,
+          "start": 151.5,
+          "end": 151.84,
+          "confidence": 0.9921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "light",
+          "character_start": 25,
+          "character_end": 30,
+          "start": 151.84,
+          "end": 152.3,
+          "confidence": 0.978515625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 35,
+      "line_id": "LLMV_002_L035",
+      "source_physical_line": 40,
+      "en": "You have six months to escape the permanent underclass.",
+      "section_id": "S06",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 153.28,
+      "section_end_seconds": 159.94,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "你还有六个月，逃出永久底层。",
+      "start_seconds": 153.28,
+      "end_seconds": 157.26,
+      "display_start_seconds": 153.16,
+      "display_end_seconds": 158.06,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "You",
+          "character_start": 0,
+          "character_end": 3,
+          "start": 153.28,
+          "end": 154.12,
+          "confidence": 0.97265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "have",
+          "character_start": 4,
+          "character_end": 8,
+          "start": 154.12,
+          "end": 154.3,
+          "confidence": 0.99072265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "months",
+          "character_start": 13,
+          "character_end": 19,
+          "start": 154.52,
+          "end": 154.9,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 20,
+          "character_end": 22,
+          "start": 154.9,
+          "end": 155.3,
+          "confidence": 0.98974609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 23,
+          "character_end": 29,
+          "start": 155.3,
+          "end": 155.76,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 30,
+          "character_end": 33,
+          "start": 155.76,
+          "end": 155.98,
+          "confidence": 0.99267578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "permanent",
+          "character_start": 34,
+          "character_end": 43,
+          "start": 155.98,
+          "end": 156.4,
+          "confidence": 0.9951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "underclass",
+          "character_start": 44,
+          "character_end": 54,
+          "start": 156.4,
+          "end": 157.26,
+          "confidence": 0.96875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.889
+    },
+    {
+      "line_number": 36,
+      "line_id": "LLMV_002_L036",
+      "source_physical_line": 41,
+      "en": "Lock in.",
+      "section_id": "S06",
+      "section_label": "Pre-Chorus",
+      "section_start_seconds": 153.28,
+      "section_end_seconds": 159.94,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "专注起来。",
+      "start_seconds": 158.68,
+      "end_seconds": 159.94,
+      "display_start_seconds": 158.56,
+      "display_end_seconds": 160.74,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Lock",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 158.68,
+          "end": 159.52,
+          "confidence": 0.9580078125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 159.52,
+          "end": 159.94,
+          "confidence": 0.98095703125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 37,
+      "line_id": "LLMV_002_L037",
+      "source_physical_line": 43,
+      "en": "Six months to escape the underclass",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "六个月，逃出底层。",
+      "start_seconds": 159.94,
+      "end_seconds": 163.66,
+      "display_start_seconds": 159.82,
+      "display_end_seconds": 164.46,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "months",
+          "character_start": 4,
+          "character_end": 10,
+          "start": 160.86,
+          "end": 161.64,
+          "confidence": 0.9521484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 11,
+          "character_end": 13,
+          "start": 161.64,
+          "end": 162.06,
+          "confidence": 0.78271484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 14,
+          "character_end": 20,
+          "start": 162.06,
+          "end": 162.5,
+          "confidence": 0.9921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 21,
+          "character_end": 24,
+          "start": 162.5,
+          "end": 162.84,
+          "confidence": 0.923828125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 38,
+      "line_id": "LLMV_002_L038",
+      "source_physical_line": 44,
+      "en": "They say hit the brakes, we say hit the gas",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "他们说踩刹车，我们说踩油门。",
+      "start_seconds": 163.66,
+      "end_seconds": 167.2,
+      "display_start_seconds": 163.54,
+      "display_end_seconds": 168.0,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "They",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 163.66,
+          "end": 163.9,
+          "confidence": 0.141357421875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "say",
+          "character_start": 5,
+          "character_end": 8,
+          "start": 163.9,
+          "end": 164.2,
+          "confidence": 0.99169921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "hit",
+          "character_start": 9,
+          "character_end": 12,
+          "start": 164.48,
+          "end": 164.62,
+          "confidence": 0.91650390625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 13,
+          "character_end": 16,
+          "start": 164.62,
+          "end": 164.96,
+          "confidence": 0.92138671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "brakes",
+          "character_start": 17,
+          "character_end": 23,
+          "start": 164.96,
+          "end": 165.4,
+          "confidence": 0.86083984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "say",
+          "character_start": 28,
+          "character_end": 31,
+          "start": 165.68,
+          "end": 165.96,
+          "confidence": 0.99951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "hit",
+          "character_start": 32,
+          "character_end": 35,
+          "start": 166.26,
+          "end": 166.42,
+          "confidence": 0.9970703125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 36,
+          "character_end": 39,
+          "start": 166.42,
+          "end": 166.76,
+          "confidence": 0.947265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "gas",
+          "character_start": 40,
+          "character_end": 43,
+          "start": 166.76,
+          "end": 167.2,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.9
+    },
+    {
+      "line_number": 39,
+      "line_id": "LLMV_002_L039",
+      "source_physical_line": 45,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。",
+      "start_seconds": 167.2,
+      "end_seconds": 171.2,
+      "display_start_seconds": 167.07999999999998,
+      "display_end_seconds": 172.0,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Feel",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 167.2,
+          "end": 167.56,
+          "confidence": 0.6376953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 5,
+          "character_end": 8,
+          "start": 167.56,
+          "end": 167.84,
+          "confidence": 0.994140625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "feel",
+          "character_start": 16,
+          "character_end": 20,
+          "start": 168.88,
+          "end": 169.34,
+          "confidence": 0.9931640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 21,
+          "character_end": 23,
+          "start": 169.34,
+          "end": 169.56,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "coming",
+          "character_start": 24,
+          "character_end": 30,
+          "start": 169.56,
+          "end": 170.18,
+          "confidence": 0.1749267578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "fast",
+          "character_start": 31,
+          "character_end": 35,
+          "start": 170.18,
+          "end": 171.2,
+          "confidence": 0.98876953125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.857
+    },
+    {
+      "line_number": 40,
+      "line_id": "LLMV_002_L040",
+      "source_physical_line": 46,
+      "en": "Escape velocity...",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……",
+      "start_seconds": 171.2,
+      "end_seconds": 172.64,
+      "display_start_seconds": 171.07999999999998,
+      "display_end_seconds": 173.44,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Escape",
+          "character_start": 0,
+          "character_end": 6,
+          "start": 171.2,
+          "end": 171.98,
+          "confidence": 0.75634765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "velocity",
+          "character_start": 7,
+          "character_end": 15,
+          "start": 171.98,
+          "end": 172.64,
+          "confidence": 0.51611328125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 41,
+      "line_id": "LLMV_002_L041",
+      "source_physical_line": 47,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！",
+      "start_seconds": 172.64,
+      "end_seconds": 175.38,
+      "display_start_seconds": 172.51999999999998,
+      "display_end_seconds": 176.18,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "It's",
+          "character_start": 1,
+          "character_end": 5,
+          "start": 172.64,
+          "end": 173.62,
+          "confidence": 0.736328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "so",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 173.62,
+          "end": 173.9,
+          "confidence": 0.97412109375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "over",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 173.9,
+          "end": 174.4,
+          "confidence": 0.99658203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "WE'RE",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 174.4,
+          "end": 174.7,
+          "confidence": 0.943359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 22,
+          "character_end": 24,
+          "start": 174.7,
+          "end": 174.88,
+          "confidence": 0.986328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "BACK",
+          "character_start": 25,
+          "character_end": 29,
+          "start": 174.88,
+          "end": 175.38,
+          "confidence": 0.982421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 42,
+      "line_id": "LLMV_002_L042",
+      "source_physical_line": 48,
+      "en": "(It's so over?) WE'RE SO BACK!",
+      "section_id": "S07",
+      "section_label": "Chorus",
+      "section_start_seconds": 159.94,
+      "section_end_seconds": 182.6,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "（彻底完了吗？）我们又行了！",
+      "start_seconds": 177.38,
+      "end_seconds": 182.6,
+      "display_start_seconds": 177.26,
+      "display_end_seconds": 183.4,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "It's",
+          "character_start": 1,
+          "character_end": 5,
+          "start": 177.38,
+          "end": 178.1,
+          "confidence": 0.853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "so",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 178.1,
+          "end": 178.42,
+          "confidence": 0.802734375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "over",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 178.42,
+          "end": 179.0,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "WE'RE",
+          "character_start": 16,
+          "character_end": 21,
+          "start": 180.92,
+          "end": 181.64,
+          "confidence": 0.9853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 22,
+          "character_end": 24,
+          "start": 181.64,
+          "end": 181.96,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "BACK",
+          "character_start": 25,
+          "character_end": 29,
+          "start": 181.96,
+          "end": 182.6,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 43,
+      "line_id": "LLMV_002_L043",
+      "source_physical_line": 50,
+      "en": "Escape velocity: eleven point two.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度：十一点二。",
+      "start_seconds": 184.66,
+      "end_seconds": 190.36,
+      "display_start_seconds": 184.54,
+      "display_end_seconds": 191.16000000000003,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Escape",
+          "character_start": 0,
+          "character_end": 6,
+          "start": 184.66,
+          "end": 185.38,
+          "confidence": 0.72509765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "velocity",
+          "character_start": 7,
+          "character_end": 15,
+          "start": 185.38,
+          "end": 186.1,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "two",
+          "character_start": 30,
+          "character_end": 33,
+          "start": 189.54,
+          "end": 190.36,
+          "confidence": 0.98828125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.6
+    },
+    {
+      "line_number": 44,
+      "line_id": "LLMV_002_L044",
+      "source_physical_line": 51,
+      "en": "Longevity escape velocity: one year back for every year.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "寿命逃逸速度：每过一年，就赢回一年。",
+      "start_seconds": 191.82,
+      "end_seconds": 197.88,
+      "display_start_seconds": 191.7,
+      "display_end_seconds": 198.68,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Longevity",
+          "character_start": 0,
+          "character_end": 9,
+          "start": 191.82,
+          "end": 192.82,
+          "confidence": 0.82763671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 10,
+          "character_end": 16,
+          "start": 192.82,
+          "end": 193.28,
+          "confidence": 0.73876953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "velocity",
+          "character_start": 17,
+          "character_end": 25,
+          "start": 193.28,
+          "end": 193.9,
+          "confidence": 0.96044921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "year",
+          "character_start": 31,
+          "character_end": 35,
+          "start": 196.44,
+          "end": 196.68,
+          "confidence": 0.9794921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "back",
+          "character_start": 36,
+          "character_end": 40,
+          "start": 196.68,
+          "end": 197.0,
+          "confidence": 0.994140625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "for",
+          "character_start": 41,
+          "character_end": 44,
+          "start": 197.0,
+          "end": 197.26,
+          "confidence": 0.97119140625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "every",
+          "character_start": 45,
+          "character_end": 50,
+          "start": 197.26,
+          "end": 197.52,
+          "confidence": 0.9931640625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "year",
+          "character_start": 51,
+          "character_end": 55,
+          "start": 197.52,
+          "end": 197.88,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.889
+    },
+    {
+      "line_number": 45,
+      "line_id": "LLMV_002_L045",
+      "source_physical_line": 52,
+      "en": "If it doesn't kill us all first.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "只要它别先把我们全杀了。",
+      "start_seconds": 197.88,
+      "end_seconds": 200.82,
+      "display_start_seconds": 197.76,
+      "display_end_seconds": 201.62,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "If",
+          "character_start": 0,
+          "character_end": 2,
+          "start": 197.88,
+          "end": 199.34,
+          "confidence": 0.95654296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 3,
+          "character_end": 5,
+          "start": 199.34,
+          "end": 199.46,
+          "confidence": 0.98828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "doesn't",
+          "character_start": 6,
+          "character_end": 13,
+          "start": 199.46,
+          "end": 199.74,
+          "confidence": 0.9951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "kill",
+          "character_start": 14,
+          "character_end": 18,
+          "start": 199.74,
+          "end": 199.92,
+          "confidence": 0.9951171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "us",
+          "character_start": 19,
+          "character_end": 21,
+          "start": 199.92,
+          "end": 200.14,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "all",
+          "character_start": 22,
+          "character_end": 25,
+          "start": 200.14,
+          "end": 200.32,
+          "confidence": 0.9814453125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "first",
+          "character_start": 26,
+          "character_end": 31,
+          "start": 200.32,
+          "end": 200.82,
+          "confidence": 0.98828125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 46,
+      "line_id": "LLMV_002_L046",
+      "source_physical_line": 53,
+      "en": "Permanent underclass: three. Two. One. Zero.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "永久底层：三。二。一。零。",
+      "start_seconds": 200.82,
+      "end_seconds": 207.5,
+      "display_start_seconds": 200.7,
+      "display_end_seconds": 208.3,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Permanent",
+          "character_start": 0,
+          "character_end": 9,
+          "start": 200.82,
+          "end": 202.42,
+          "confidence": 0.95654296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "underclass",
+          "character_start": 10,
+          "character_end": 20,
+          "start": 202.42,
+          "end": 203.26,
+          "confidence": 0.923828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "three",
+          "character_start": 22,
+          "character_end": 27,
+          "start": 203.26,
+          "end": 204.82,
+          "confidence": 0.82763671875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Two",
+          "character_start": 29,
+          "character_end": 32,
+          "start": 204.82,
+          "end": 205.68,
+          "confidence": 0.67041015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "One",
+          "character_start": 34,
+          "character_end": 37,
+          "start": 206.1,
+          "end": 206.68,
+          "confidence": 0.998046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Zero",
+          "character_start": 39,
+          "character_end": 43,
+          "start": 206.9,
+          "end": 207.5,
+          "confidence": 0.96240234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 47,
+      "line_id": "LLMV_002_L047",
+      "source_physical_line": 54,
+      "en": "Did we make it?",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "我们成功了吗？",
+      "start_seconds": 209.8,
+      "end_seconds": 212.26,
+      "display_start_seconds": 209.68,
+      "display_end_seconds": 213.06,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "we",
+          "character_start": 4,
+          "character_end": 6,
+          "start": 210.8,
+          "end": 211.8,
+          "confidence": 0.99267578125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "make",
+          "character_start": 7,
+          "character_end": 11,
+          "start": 211.8,
+          "end": 212.04,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 12,
+          "character_end": 14,
+          "start": 212.04,
+          "end": 212.26,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.75
+    },
+    {
+      "line_number": 48,
+      "line_id": "LLMV_002_L048",
+      "source_physical_line": 55,
+      "en": "There is nothing to escape.",
+      "section_id": "S08",
+      "section_label": "Bridge",
+      "section_start_seconds": 184.66,
+      "section_end_seconds": 216.52,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "已经没有什么需要逃离。",
+      "start_seconds": 213.72,
+      "end_seconds": 216.52,
+      "display_start_seconds": 213.6,
+      "display_end_seconds": 217.32000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "There",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 213.72,
+          "end": 214.84,
+          "confidence": 0.68408203125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "is",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 214.84,
+          "end": 215.0,
+          "confidence": 0.7529296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "nothing",
+          "character_start": 9,
+          "character_end": 16,
+          "start": 215.0,
+          "end": 215.38,
+          "confidence": 0.98095703125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "to",
+          "character_start": 17,
+          "character_end": 19,
+          "start": 215.38,
+          "end": 215.94,
+          "confidence": 0.94775390625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "escape",
+          "character_start": 20,
+          "character_end": 26,
+          "start": 215.94,
+          "end": 216.52,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 49,
+      "line_id": "LLMV_002_L049",
+      "source_physical_line": 57,
+      "en": "Lock in. Lock in. Feel the A G I.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "专注起来。专注起来。感受 AGI。",
+      "start_seconds": 216.52,
+      "end_seconds": 219.5,
+      "display_start_seconds": 216.4,
+      "display_end_seconds": 220.3,
+      "timing_status": "author-text display schedule only; not confirmed sung",
+      "words": []
+    },
+    {
+      "line_number": 50,
+      "line_id": "LLMV_002_L050",
+      "source_physical_line": 58,
+      "en": "Country of geniuses in a datacenter.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "数据中心里的天才之国。",
+      "start_seconds": 219.5,
+      "end_seconds": 223,
+      "display_start_seconds": 219.38,
+      "display_end_seconds": 223.8,
+      "timing_status": "author-text display schedule only; not confirmed sung",
+      "words": []
+    },
+    {
+      "line_number": 51,
+      "line_id": "LLMV_002_L051",
+      "source_physical_line": 59,
+      "en": "Lean proofs. Phages. Enzymes. Kidneys. Good boys.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "Lean 证明。噬菌体。酶。肾脏。乖狗狗。",
+      "start_seconds": 223,
+      "end_seconds": 232,
+      "display_start_seconds": 222.88,
+      "display_end_seconds": 232.8,
+      "timing_status": "author-text display schedule only; not confirmed sung",
+      "words": []
+    },
+    {
+      "line_number": 52,
+      "line_id": "LLMV_002_L052",
+      "source_physical_line": 60,
+      "en": "Sora's gone dark. Stargate: force majeure.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "unconfirmed-in-audio: first-four-Drop-lines",
+      "zh": "Sora 熄灯了。Stargate：不可抗力。",
+      "start_seconds": 232,
+      "end_seconds": 236.72,
+      "display_start_seconds": 231.88,
+      "display_end_seconds": 237.52,
+      "timing_status": "author-text display schedule only; not confirmed sung",
+      "words": []
+    },
+    {
+      "line_number": 53,
+      "line_id": "LLMV_002_L053",
+      "source_physical_line": 61,
+      "en": "It's So Over region? We're So Back region.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "“彻底完了”赛区？“我们又行了”赛区。",
+      "start_seconds": 236.72,
+      "end_seconds": 241.24,
+      "display_start_seconds": 236.6,
+      "display_end_seconds": 242.04000000000002,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "It's",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 236.72,
+          "end": 237.4,
+          "confidence": 0.474609375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "So",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 237.4,
+          "end": 238.08,
+          "confidence": 0.525390625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Over",
+          "character_start": 8,
+          "character_end": 12,
+          "start": 238.08,
+          "end": 239.0,
+          "confidence": 0.8818359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "region",
+          "character_start": 13,
+          "character_end": 19,
+          "start": 239.0,
+          "end": 239.52,
+          "confidence": 0.6328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "We're",
+          "character_start": 21,
+          "character_end": 26,
+          "start": 239.74,
+          "end": 240.02,
+          "confidence": 0.93359375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "So",
+          "character_start": 27,
+          "character_end": 29,
+          "start": 240.02,
+          "end": 240.32,
+          "confidence": 0.97509765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Back",
+          "character_start": 30,
+          "character_end": 34,
+          "start": 240.32,
+          "end": 240.76,
+          "confidence": 0.84423828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "region",
+          "character_start": 35,
+          "character_end": 41,
+          "start": 240.76,
+          "end": 241.24,
+          "confidence": 0.71337890625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 54,
+      "line_id": "LLMV_002_L054",
+      "source_physical_line": 62,
+      "en": "Slash loop: make me happier. Slopacolypse? Not ours.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "斜杠 loop：让我更快乐。AI 垃圾末日？可不是我们。",
+      "start_seconds": 241.44,
+      "end_seconds": 245.36,
+      "display_start_seconds": 241.32,
+      "display_end_seconds": 246.16000000000003,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Slash",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 241.44,
+          "end": 241.74,
+          "confidence": 0.5361328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "loop",
+          "character_start": 6,
+          "character_end": 10,
+          "start": 241.74,
+          "end": 242.1,
+          "confidence": 0.30810546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "make",
+          "character_start": 12,
+          "character_end": 16,
+          "start": 242.62,
+          "end": 242.88,
+          "confidence": 0.904296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "me",
+          "character_start": 17,
+          "character_end": 19,
+          "start": 242.88,
+          "end": 243.06,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "happier",
+          "character_start": 20,
+          "character_end": 27,
+          "start": 243.06,
+          "end": 243.44,
+          "confidence": 0.97802734375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Slopacolypse",
+          "character_start": 29,
+          "character_end": 41,
+          "start": 243.56,
+          "end": 244.44,
+          "confidence": 0.2056884765625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Not",
+          "character_start": 43,
+          "character_end": 46,
+          "start": 244.76,
+          "end": 244.94,
+          "confidence": 0.7587890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "ours",
+          "character_start": 47,
+          "character_end": 51,
+          "start": 244.94,
+          "end": 245.36,
+          "confidence": 0.90673828125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 55,
+      "line_id": "LLMV_002_L055",
+      "source_physical_line": 63,
+      "en": "Can't stuff it back in the box.",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "已经没法再塞回盒子里。",
+      "start_seconds": 246.4,
+      "end_seconds": 248.7,
+      "display_start_seconds": 246.28,
+      "display_end_seconds": 249.5,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Can't",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 246.62,
+          "end": 247.26,
+          "confidence": 0.65234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "stuff",
+          "character_start": 6,
+          "character_end": 11,
+          "start": 247.26,
+          "end": 247.48,
+          "confidence": 0.96484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 12,
+          "character_end": 14,
+          "start": 247.48,
+          "end": 247.66,
+          "confidence": 0.990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "back",
+          "character_start": 15,
+          "character_end": 19,
+          "start": 247.66,
+          "end": 247.98,
+          "confidence": 0.99609375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.571
+    },
+    {
+      "line_number": 56,
+      "line_id": "LLMV_002_L056",
+      "source_physical_line": 64,
+      "en": "WE'RE SO BACK! WE'RE SO BACK!",
+      "section_id": "S09",
+      "section_label": "Drop",
+      "section_start_seconds": 216.52,
+      "section_end_seconds": 252.4,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "我们又行了！我们又行了！",
+      "start_seconds": 249.2,
+      "end_seconds": 252.32,
+      "display_start_seconds": 249.07999999999998,
+      "display_end_seconds": 253.12,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "WE'RE",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 250.18,
+          "end": 250.82,
+          "confidence": 0.87060546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 250.82,
+          "end": 251.12,
+          "confidence": 0.984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "WE'RE",
+          "character_start": 15,
+          "character_end": 20,
+          "start": 251.44,
+          "end": 251.72,
+          "confidence": 0.8076171875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 21,
+          "character_end": 23,
+          "start": 251.72,
+          "end": 252.02,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 57,
+      "line_id": "LLMV_002_L057",
+      "source_physical_line": 66,
+      "en": "Zero months, there is no underclass",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "零个月，已经没有底层。",
+      "start_seconds": 252.32,
+      "end_seconds": 255.24,
+      "display_start_seconds": 252.2,
+      "display_end_seconds": 256.04,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "months",
+          "character_start": 5,
+          "character_end": 11,
+          "start": 252.82,
+          "end": 253.38,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "there",
+          "character_start": 13,
+          "character_end": 18,
+          "start": 253.44,
+          "end": 253.72,
+          "confidence": 0.98876953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "is",
+          "character_start": 19,
+          "character_end": 21,
+          "start": 253.72,
+          "end": 253.88,
+          "confidence": 0.90234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "no",
+          "character_start": 22,
+          "character_end": 24,
+          "start": 253.88,
+          "end": 254.26,
+          "confidence": 0.994140625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 58,
+      "line_id": "LLMV_002_L058",
+      "source_physical_line": 67,
+      "en": "One year back for every year that passed",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "每过去一年，就赢回一年。",
+      "start_seconds": 255.24,
+      "end_seconds": 258.76,
+      "display_start_seconds": 255.12,
+      "display_end_seconds": 259.56,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "year",
+          "character_start": 4,
+          "character_end": 8,
+          "start": 255.8,
+          "end": 256.2,
+          "confidence": 0.96240234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "back",
+          "character_start": 9,
+          "character_end": 13,
+          "start": 256.2,
+          "end": 256.7,
+          "confidence": 0.82861328125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "for",
+          "character_start": 14,
+          "character_end": 17,
+          "start": 256.7,
+          "end": 257.08,
+          "confidence": 0.791015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "every",
+          "character_start": 18,
+          "character_end": 23,
+          "start": 257.08,
+          "end": 257.5,
+          "confidence": 0.99560546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "year",
+          "character_start": 24,
+          "character_end": 28,
+          "start": 257.5,
+          "end": 258.0,
+          "confidence": 0.94873046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "that",
+          "character_start": 29,
+          "character_end": 33,
+          "start": 258.0,
+          "end": 258.34,
+          "confidence": 0.73583984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "passed",
+          "character_start": 34,
+          "character_end": 40,
+          "start": 258.34,
+          "end": 258.76,
+          "confidence": 0.857421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.875
+    },
+    {
+      "line_number": 59,
+      "line_id": "LLMV_002_L059",
+      "source_physical_line": 68,
+      "en": "Feel the A G I, feel it coming fast",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "感受 AGI，感受它飞速赶来。",
+      "start_seconds": 258.76,
+      "end_seconds": 263.08,
+      "display_start_seconds": 258.64,
+      "display_end_seconds": 263.88,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Feel",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 258.76,
+          "end": 259.08,
+          "confidence": 0.86376953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "the",
+          "character_start": 5,
+          "character_end": 8,
+          "start": 259.08,
+          "end": 259.36,
+          "confidence": 0.99755859375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "feel",
+          "character_start": 16,
+          "character_end": 20,
+          "start": 260.48,
+          "end": 260.88,
+          "confidence": 0.99169921875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "it",
+          "character_start": 21,
+          "character_end": 23,
+          "start": 260.88,
+          "end": 261.12,
+          "confidence": 0.99072265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "coming",
+          "character_start": 24,
+          "character_end": 30,
+          "start": 261.12,
+          "end": 261.7,
+          "confidence": 0.626953125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "fast",
+          "character_start": 31,
+          "character_end": 35,
+          "start": 261.7,
+          "end": 263.08,
+          "confidence": 0.88232421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.857
+    },
+    {
+      "line_number": 60,
+      "line_id": "LLMV_002_L060",
+      "source_physical_line": 69,
+      "en": "Escape velocity...",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "逃逸速度……",
+      "start_seconds": 263.08,
+      "end_seconds": 264.16,
+      "display_start_seconds": 262.96,
+      "display_end_seconds": 264.96000000000004,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "velocity",
+          "character_start": 7,
+          "character_end": 15,
+          "start": 263.68,
+          "end": 264.16,
+          "confidence": 0.413330078125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.5
+    },
+    {
+      "line_number": 61,
+      "line_id": "LLMV_002_L061",
+      "source_physical_line": 70,
+      "en": "(It's so over?) It was never over!",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; unresolved-ASR-wording-difference",
+      "zh": "（彻底完了吗？）从来就没完过！",
+      "start_seconds": 264.16,
+      "end_seconds": 268.34,
+      "display_start_seconds": 264.04,
+      "display_end_seconds": 269.14,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "It's",
+          "character_start": 1,
+          "character_end": 5,
+          "start": 264.16,
+          "end": 265.18,
+          "confidence": 0.5947265625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "so",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 265.18,
+          "end": 265.52,
+          "confidence": 0.92041015625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "It",
+          "character_start": 16,
+          "character_end": 18,
+          "start": 266.0,
+          "end": 267.26,
+          "confidence": 0.9677734375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "was",
+          "character_start": 19,
+          "character_end": 22,
+          "start": 267.26,
+          "end": 267.46,
+          "confidence": 0.994140625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "never",
+          "character_start": 23,
+          "character_end": 28,
+          "start": 267.46,
+          "end": 267.76,
+          "confidence": 0.9990234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "over",
+          "character_start": 29,
+          "character_end": 33,
+          "start": 267.76,
+          "end": 268.34,
+          "confidence": 1.0,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.857
+    },
+    {
+      "line_number": 62,
+      "line_id": "LLMV_002_L062",
+      "source_physical_line": 71,
+      "en": "WE'RE SO BACK!",
+      "section_id": "S10",
+      "section_label": "Final Chorus",
+      "section_start_seconds": 252.32,
+      "section_end_seconds": 270.5,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "我们又行了！",
+      "start_seconds": 268.34,
+      "end_seconds": 270.5,
+      "display_start_seconds": 268.21999999999997,
+      "display_end_seconds": 271.3,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "WE'RE",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 268.34,
+          "end": 269.44,
+          "confidence": 0.98046875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "SO",
+          "character_start": 6,
+          "character_end": 8,
+          "start": 269.44,
+          "end": 269.88,
+          "confidence": 0.9970703125,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.667
+    },
+    {
+      "line_number": 63,
+      "line_id": "LLMV_002_L063",
+      "source_physical_line": 73,
+      "en": "Shell: optimism. Lining: doom.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "面料：乐观。内衬：末日。",
+      "start_seconds": 273.54,
+      "end_seconds": 279.84,
+      "display_start_seconds": 273.42,
+      "display_end_seconds": 280.64,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Shell",
+          "character_start": 0,
+          "character_end": 5,
+          "start": 273.54,
+          "end": 274.6,
+          "confidence": 0.1558837890625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "optimism",
+          "character_start": 7,
+          "character_end": 15,
+          "start": 276.76,
+          "end": 277.82,
+          "confidence": 0.900390625,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Lining",
+          "character_start": 17,
+          "character_end": 23,
+          "start": 277.82,
+          "end": 278.22,
+          "confidence": 0.65673828125,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "doom",
+          "character_start": 25,
+          "character_end": 29,
+          "start": 278.22,
+          "end": 279.84,
+          "confidence": 0.7421875,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_number": 64,
+      "line_id": "LLMV_002_L064",
+      "source_physical_line": 74,
+      "en": "Wash cold. Do not iron. Do not nerf.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "冷水洗。不可熨烫。不可削弱。",
+      "start_seconds": 279.84,
+      "end_seconds": 286.08,
+      "display_start_seconds": 279.71999999999997,
+      "display_end_seconds": 286.88,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Wash",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 279.84,
+          "end": 281.6,
+          "confidence": 0.79833984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "cold",
+          "character_start": 5,
+          "character_end": 9,
+          "start": 281.6,
+          "end": 282.1,
+          "confidence": 0.9833984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Do",
+          "character_start": 11,
+          "character_end": 13,
+          "start": 282.1,
+          "end": 283.44,
+          "confidence": 0.95654296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "not",
+          "character_start": 14,
+          "character_end": 17,
+          "start": 283.44,
+          "end": 283.68,
+          "confidence": 0.98779296875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "iron",
+          "character_start": 18,
+          "character_end": 22,
+          "start": 283.68,
+          "end": 284.08,
+          "confidence": 0.98583984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Do",
+          "character_start": 24,
+          "character_end": 26,
+          "start": 284.08,
+          "end": 285.44,
+          "confidence": 0.93310546875,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "not",
+          "character_start": 27,
+          "character_end": 30,
+          "start": 285.44,
+          "end": 285.7,
+          "confidence": 0.99853515625,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 0.875
+    },
+    {
+      "line_number": 65,
+      "line_id": "LLMV_002_L065",
+      "source_physical_line": 75,
+      "en": "Made in San Francisco.",
+      "section_id": "S11",
+      "section_label": "Outro",
+      "section_start_seconds": 273.54,
+      "section_end_seconds": 289.62,
+      "performed_status": "author-text; performed wording not fully human-verified",
+      "zh": "旧金山制造。",
+      "start_seconds": 287.58,
+      "end_seconds": 289.62,
+      "display_start_seconds": 287.46,
+      "display_end_seconds": 290.42,
+      "timing_status": "ASR segment/word candidate; no forced alignment or listening approval",
+      "words": [
+        {
+          "text": "Made",
+          "character_start": 0,
+          "character_end": 4,
+          "start": 287.58,
+          "end": 288.64,
+          "confidence": 0.96484375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "in",
+          "character_start": 5,
+          "character_end": 7,
+          "start": 288.64,
+          "end": 288.9,
+          "confidence": 0.99365234375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "San",
+          "character_start": 8,
+          "character_end": 11,
+          "start": 288.9,
+          "end": 289.06,
+          "confidence": 0.98583984375,
+          "source": "ASR word match; machine candidate"
+        },
+        {
+          "text": "Francisco",
+          "character_start": 12,
+          "character_end": 21,
+          "start": 289.06,
+          "end": 289.62,
+          "confidence": 0.96484375,
+          "source": "ASR word match; machine candidate"
+        }
+      ],
+      "timing_match_ratio": 1.0
+    },
+    {
+      "line_id": "LLMV_002_ASR_REFRAIN_2",
+      "source_physical_line": null,
+      "en": "We're so back!",
+      "zh": "我们又行了！",
+      "start_seconds": 302.6,
+      "end_seconds": 304.48,
+      "display_start_seconds": 302.5,
+      "display_end_seconds": 304.78000000000003,
+      "words": [],
+      "timing_status": "extra refrain detected by ASR; human listening pending"
+    }
+  ],
+  "canonical_line_count": 65,
+  "status": "machine-source-assisted-review",
+  "word_timing": "ASR matches only; unmatched words never given invented word timings"
+}

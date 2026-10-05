@@ -1,0 +1,50 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "date": "2026-10-05T12:41:48.463Z",
+  "reviewer": "Codex model image inspection; not human approval",
+  "status": "passed for inspected layout stills",
+  "inspected": [
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_4",
+      "variant": "companion",
+      "status": "review",
+      "time": 225,
+      "path": "designs/LLMV_002_V001_R001_001_layout_4_225000ms.jpg",
+      "sha256": "e673f618c38f8d7c32ec5b128c0a42cfe769649d54361d16e855606ef6d9614a",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_5",
+      "variant": "companion",
+      "status": "review",
+      "time": 251.5,
+      "path": "designs/LLMV_002_V001_R001_001_layout_5_251500ms.jpg",
+      "sha256": "246cbbbfea32ced43941dc6da49ce3663c9499be3314503a4fe174c5c0b819cf",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_HD",
+      "variant": "companion",
+      "status": "review",
+      "time": 70.7,
+      "path": "designs/LLMV_002_V001_R001_001_layout_preview_70700ms.jpg",
+      "sha256": "01ed0bfd3a2e3d555f9609d497779b45b6e16b2f6cc0541135a226a403bcf24b",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "observations": [
+    "Current annotation occupies the middle slot, with a visible green status marker and vertical highlight.",
+    "Exactly one complete previous annotation remains above; only the upcoming title appears below.",
+    "Inspected dense and author-background examples have no clipped current body or overlapping annotations."
+  ],
+  "limitations": [
+    "Native 4K images inspected through a downscaled view.",
+    "Dense annotations and perceptual sync still require human review.",
+    "No new offline MP4 was exported."
+  ],
+  "human_approval": null
+}

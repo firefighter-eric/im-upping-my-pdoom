@@ -1,0 +1,25 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "mechanism_reuse": {
+    "path": "projects/agi/versions/v006.13/production/render.mjs",
+    "sha256": "86f55a326c6cd0b2fa8c371d10ab1841007fb420a0f4195cbeba75162e4d8603",
+    "scope": "version-local JPEG pipe plus direct source video composition and AAC copy; no AGI scene or content"
+  },
+  "fonts": {
+    "licenses": "renderer/public/fonts/Archivo-OFL.txt and OFL.txt",
+    "files": {
+      "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+      "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+      "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  },
+  "audio_clock": {
+    "start_time": 0,
+    "source": "ffprobe registered M4A; full untrimmed decode"
+  },
+  "generated_scene_content": "new original companion typography only",
+  "human_approval": null
+}
