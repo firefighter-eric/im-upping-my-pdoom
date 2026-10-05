@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "video_version": "v006.13",
+  "video_generation_id": "LLMV_001_V006_R013_001",
+  "date": "2026-10-05",
+  "platform_intent": "bilibili",
+  "title": "眩晕瘫坐！AGI 神曲 P(doom) 逐句解梗",
+  "song_title": "I'm Upping My P(doom)",
+  "status": "selected-for-repository-release",
+  "user_statements": [
+    "视频名称起什么比较好呢？",
+    "最好和《眩晕滩做AGI》拉上关系。",
+    "是眩晕瘫坐，刚刚字打错了。",
+    "有办法把Pdoom也加进去吗？",
+    "PR and Accept."
+  ],
+  "editorial_basis": "采用用户更正后的“眩晕瘫坐”，保留 AGI 与 P(doom)，明确逐句解梗的内容。P(doom) 为标题中的歌曲关键词，完整歌名另行列出。",
+  "wording_scope": "editorial video title; no attribution of this reaction to the source author or a public figure",
+  "repository_release_scope": [
+    "publishing title and documentation",
+    "two original-frame cover images",
+    "cover selection and source hash records"
+  ],
+  "covers": {
+    "record": "docs/plans/agi-bilibili-cover-v001/record.json",
+    "primary": "docs/plans/agi-bilibili-cover-v001/LLMV_001_V006_R013_COVER_ORIGINAL_001_35000ms.jpg",
+    "backup": "docs/plans/agi-bilibili-cover-v001/LLMV_001_V006_R013_COVER_ORIGINAL_002_122000ms.jpg",
+    "status": "review"
+  },
+  "media_status": "approved",
+  "media_approval_record": "projects/agi/versions/v006.13/provenance/USER_FINAL_APPROVAL.json",
+  "rights_status": "TBD"
+}

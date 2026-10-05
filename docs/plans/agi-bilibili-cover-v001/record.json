@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_001",
+  "project_slug": "agi",
+  "video_version": "v006.13",
+  "video_generation_id": "LLMV_001_V006_R013_001",
+  "generation_id": "LLMV_001_V006_R013_COVER_ORIGINAL_001",
+  "variant": "bilibili-cover-original-frame",
+  "created_at": "2026-10-05T13:42:01.142822+00:00",
+  "status": "review",
+  "user_request": "之前有一个AGI的视频，那个视频的封面有点难确定，你帮我看看。呃，做什么封面比较好呢？就按照刚刚的规则来取个封面。",
+  "inherited_preferences": [
+    "直接用原视频截图",
+    "不使用加字幕和解说的较大合成版本",
+    "原片有合适镜头时优先女性人物近景"
+  ],
+  "source": {
+    "id": "LLMV_001_SOURCE",
+    "path": "projects/agi/sources/references/LLMV_001_source_v001.mp4",
+    "sha256": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890"
+  },
+  "tools": {
+    "method": "FFmpeg original-frame extraction",
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "imagegen_calls": 0
+  },
+  "selection": {
+    "primary": "LLMV_001_V006_R013_COVER_ORIGINAL_001_35000ms.jpg",
+    "backup": "LLMV_001_V006_R013_COVER_ORIGINAL_002_122000ms.jpg",
+    "selected_by": "assistant visual recommendation",
+    "human_approval": null,
+    "basis": "原片主要是动态图形；选择修格斯与笑脸面具作为可辨识的主体，不添加或借用另一作品的人物。"
+  },
+  "frames_reviewed": [
+    {
+      "index": 1,
+      "requested_source_seconds": 2,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_01_2000ms.jpg",
+      "sha256": "43d5850d18462d5f1b3da2f6cd13ae7d9491d11bb49af9994d768e0b30c285fe",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 2,
+      "requested_source_seconds": 7,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_02_7000ms.jpg",
+      "sha256": "03dcaa64b590891a183b0bee974281c6e62f0e3d650aeeaca0c6783b5f33e0fb",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 3,
+      "requested_source_seconds": 12,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_03_12000ms.jpg",
+      "sha256": "91e65dacc0783040b7f57471dbeff0f80d0a6c83e4403dcaf4e93aeaa6a56987",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 4,
+      "requested_source_seconds": 17,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_04_17000ms.jpg",
+      "sha256": "c296b048111bb37cd93a455d0dd8e29cdbfeae6103447fb10740f9602ec2973c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 5,
+      "requested_source_seconds": 22,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_05_22000ms.jpg",
+      "sha256": "51230719032b505f53b3e3d8dc7d578b851dbcb30ded7a7f8f8788ba25a3dcb7",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 6,
+      "requested_source_seconds": 27,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_06_27000ms.jpg",
+      "sha256": "094bc56a203c94d320d4358f623764a2e5becfc9fe86e56a46be0acf74e6333a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 7,
+      "requested_source_seconds": 32,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_07_32000ms.jpg",
+      "sha256": "64e1e58acb8b1b4da502a1cbb602dc27723278cf9a5ab690cf9b5daf893ccb18",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 8,
+      "requested_source_seconds": 37,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_08_37000ms.jpg",
+      "sha256": "5eca45e78a94739a6eb3cf0e64352070419e4b955223d2aab012354531ceef2d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 9,
+      "requested_source_seconds": 42,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_09_42000ms.jpg",
+      "sha256": "3e65486996cc787c11eae9e1c152acf81ab9513ce48bd89e4e5df03075e3b5cf",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 10,
+      "requested_source_seconds": 47,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_10_47000ms.jpg",
+      "sha256": "d656db7ea5c400fdfa37ff80a5c035c76a81800780ad7ddb1482ffdc3a79e0eb",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 11,
+      "requested_source_seconds": 52,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_11_52000ms.jpg",
+      "sha256": "6d5f66dd3b180f80d1683732020700e893eab0c332943026135cb3b9babe5ab6",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 12,
+      "requested_source_seconds": 57,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_12_57000ms.jpg",
+      "sha256": "ace6c85bfc76a4522400e6811b00c5a0da2931bccdbf52fff3dcd67fb1a6e0bd",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 13,
+      "requested_source_seconds": 62,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_13_62000ms.jpg",
+      "sha256": "386ed393b5494f768209175ef0ecaac6b52ddbb278d68a20416902f6e5148b14",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 14,
+      "requested_source_seconds": 67,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_14_67000ms.jpg",
+      "sha256": "ceb27b4de9557b8604e681c974c7af475c8c9a072a978855832181480ed188a1",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 15,
+      "requested_source_seconds": 72,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_15_72000ms.jpg",
+      "sha256": "14d7b5649dd1ffb6408830b06db2b0676b387834d94c96717896f137bbdcba3b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 16,
+      "requested_source_seconds": 77,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_16_77000ms.jpg",
+      "sha256": "c12795a55debe65994abfcfff902da1fcc4a8df22260012fb532198293bfe784",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 17,
+      "requested_source_seconds": 82,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_17_82000ms.jpg",
+      "sha256": "c78e808e75d07ca77a3bebd1c7f3c75c70fcad4839dc7d50e064f86f377db1a4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 18,
+      "requested_source_seconds": 87,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_18_87000ms.jpg",
+      "sha256": "658a6cef1c655a7c4a70e2146426fe631f2edc1396637090c176d06818aeb98b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 19,
+      "requested_source_seconds": 92,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_19_92000ms.jpg",
+      "sha256": "2d8d31cc85a69ff35918d4728c8fbe1d7251ac1eae33e423899460630c95462a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 20,
+      "requested_source_seconds": 97,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_20_97000ms.jpg",
+      "sha256": "2849ce21a80b5498e5e630b96714b7095911fcb8bd8b16d474decdccc397b21e",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 21,
+      "requested_source_seconds": 102,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_21_102000ms.jpg",
+      "sha256": "0576e2d059a60aaa843178a1b175d14e32a6bf0571954291331ca9a7f683b644",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 22,
+      "requested_source_seconds": 107,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_22_107000ms.jpg",
+      "sha256": "e0f61d5b58124b7f303797018bdc2486daf38b449fa1d98d7f03fe0beb560cfe",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 23,
+      "requested_source_seconds": 112,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_23_112000ms.jpg",
+      "sha256": "c4c6edad2bfb04f5f7ec52733483a91ccbd80136b8891e98f3e59f22208c830a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 24,
+      "requested_source_seconds": 117,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_24_117000ms.jpg",
+      "sha256": "f707443f2cb70633cdce8ef5c13171b6e51e42c5d617c6082536f797f1dabdc1",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 25,
+      "requested_source_seconds": 122,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_25_122000ms.jpg",
+      "sha256": "bc9d08ea124522e5aa32221fe349f701e988150e86e82d04523627fefc6347fc",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 26,
+      "requested_source_seconds": 127,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_26_127000ms.jpg",
+      "sha256": "3b7e4046e71591b6374513055cb2412e6613625232dc9ae0b1ee4169da97cef4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 27,
+      "requested_source_seconds": 132,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_27_132000ms.jpg",
+      "sha256": "f5a7ae0b1692e763c770c22788a120057f6a888a0891cd3363023a6b10d528c2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 28,
+      "requested_source_seconds": 137,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_28_137000ms.jpg",
+      "sha256": "019a67cf235fabe8e6bfd358f535f6a2fee8a44e4107cb5cdac81abf0c0098d0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 29,
+      "requested_source_seconds": 142,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_29_142000ms.jpg",
+      "sha256": "0ba74e59e6310c3034091ab3791afb13de23b9c53d3baa9ce4b1d4932e9eb1fa",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 30,
+      "requested_source_seconds": 147,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_30_147000ms.jpg",
+      "sha256": "74386c0c18a1d071010db4b5205c0516d6a29d8c8d7e04e9d5a4292e73e32247",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 31,
+      "requested_source_seconds": 152,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_31_152000ms.jpg",
+      "sha256": "bb1cebedfe33316cacea44467dc6c99432feee73b4b252eeeb539a29841f741c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 32,
+      "requested_source_seconds": 155,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_32_155000ms.jpg",
+      "sha256": "44b25f12d10d54968a16d7dd7c6acf18018c0ddccf3f01a16cb19b0dec703d84",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 33,
+      "requested_source_seconds": 33,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_33_33000ms.jpg",
+      "sha256": "6a7d94e6c9a1727b08200366659055ddc48cf7ed349354152633ef90b744162f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 34,
+      "requested_source_seconds": 34,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_34_34000ms.jpg",
+      "sha256": "727c4bddc06c99f2df5a8f04c0423e20dd293bb549b84f4408b086ed4acc7682",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 35,
+      "requested_source_seconds": 35,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_35_35000ms.jpg",
+      "sha256": "47d8499e9791541b5aba8bdfee2c98b00df99346dd1c87ef966d1cea3691bde6",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 36,
+      "requested_source_seconds": 36,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_36_36000ms.jpg",
+      "sha256": "fa4e90b2cfd45e86ef80c3203f37642e5435efb6aba383095a6ce06ce66e244e",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 37,
+      "requested_source_seconds": 36.5,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_37_36500ms.jpg",
+      "sha256": "7b13fd34e9160d16884bcce37b5c51f38759dc67f17761b245ff2f0cb049ac6e",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 38,
+      "requested_source_seconds": 38,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_38_38000ms.jpg",
+      "sha256": "eb7fd72e2baa027ac2dd80225c726456894d9503d0698145c1c723db28b0c1f9",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 39,
+      "requested_source_seconds": 39,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_39_39000ms.jpg",
+      "sha256": "f7af9418554c75341f7252f1647181c92c84e3e0d88127c13b343f505d36a0c2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 40,
+      "requested_source_seconds": 119,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_40_119000ms.jpg",
+      "sha256": "9f34eba70fbdf449edbae0d9d9e16038a885ebefa56b8cca4d8c7d7fb03d5d0b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 41,
+      "requested_source_seconds": 120,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_41_120000ms.jpg",
+      "sha256": "eeed01a8041ab833a446bc87de66d2ed14121c1602402dbd51f47fccaa115f28",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 42,
+      "requested_source_seconds": 121,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_42_121000ms.jpg",
+      "sha256": "f68aa549f87fa298dfe9214a87e4f2bb8cc2d7de8f9341a86a67b8d4083a705c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 43,
+      "requested_source_seconds": 123,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_43_123000ms.jpg",
+      "sha256": "e6c7255d046354c9b3f75571059c2e16a0f43dd57d65af286a5d041755dbad86",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "index": 44,
+      "requested_source_seconds": 124,
+      "path": ".cache/agi-cover-review-2026-10-05/shot_44_124000ms.jpg",
+      "sha256": "b7c363568baad06735bca775b2951e99220bb80c71651db66a95b46f4b6b28bd",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "diagnostics": {
+    "record": ".cache/agi-cover-review-2026-10-05/review.json",
+    "contacts": [
+      {
+        "path": ".cache/agi-cover-review-2026-10-05/contact-1.jpg",
+        "frames_in_reading_order": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "path": ".cache/agi-cover-review-2026-10-05/contact-2.jpg",
+        "frames_in_reading_order": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      {
+        "path": ".cache/agi-cover-review-2026-10-05/contact-3.jpg",
+        "frames_in_reading_order": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ]
+      }
+    ],
+    "storage": "local-only, Git ignored",
+    "purpose": "cover comparison; not deliverable images"
+  },
+  "outputs": [
+    {
+      "role": "primary",
+      "generation_id": "LLMV_001_V006_R013_COVER_ORIGINAL_001",
+      "path": "LLMV_001_V006_R013_COVER_ORIGINAL_001_35000ms.jpg",
+      "requested_source_seconds": 35,
+      "candidate_index": 35,
+      "sha256": "47d8499e9791541b5aba8bdfee2c98b00df99346dd1c87ef966d1cea3691bde6",
+      "size_bytes": 182925,
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "reason": "修格斯主体占比大，橙色眼睛醒目，与白色笑脸面具形成明显的视觉反差，贴合 AI 解梗视频。",
+      "processing": "FFmpeg direct original-video frame extraction; JPEG q:v=2; no crop, retouching, added text, companion panel or upscale"
+    },
+    {
+      "role": "backup",
+      "generation_id": "LLMV_001_V006_R013_COVER_ORIGINAL_002",
+      "path": "LLMV_001_V006_R013_COVER_ORIGINAL_002_122000ms.jpg",
+      "requested_source_seconds": 122,
+      "candidate_index": 25,
+      "sha256": "bc9d08ea124522e5aa32221fe349f701e988150e86e82d04523627fefc6347fc",
+      "size_bytes": 79909,
+      "width": 1280,
+      "height": 720,
+      "format": "JPEG",
+      "reason": "笑脸面具轮廓简单、面积大，黑白对比鲜明，画面信息相对少，适合偏简洁的封面。",
+      "processing": "FFmpeg direct original-video frame extraction; JPEG q:v=2; no crop, retouching, added text, companion panel or upscale"
+    }
+  ],
+  "rights_status": "TBD",
+  "human_approval": null,
+  "preservation": {
+    "source_sha256_reverified": "47aaddf0b93bcc6aeaac26dc872a31b75086d1e1dfb6296ff7fbbcbb8dacf890",
+    "original_video_unchanged": true,
+    "approved_video_version_edited": false
+  }
+}
