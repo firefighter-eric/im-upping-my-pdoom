@@ -1,0 +1,23 @@
+{
+  "project_id": "LLMV_002",
+  "status": "review",
+  "human_approval": null,
+  "parent_annotations_sha256": "8507d8015499c946d27f9a2863596683c8fc2e54fe36e7dd1b2b20d81d0c5385",
+  "target_count": null,
+  "derived_category_counts": {
+    "narrative": 10,
+    "reference": 33,
+    "term": 5,
+    "wordplay": 3
+  },
+  "split_examples": [
+    "Cursor office culture / SpaceX transaction",
+    "Waymo firework / Presidio gridlock",
+    "Academy / taste moat",
+    "Lean / phages / enzymes / kidneys / dogs",
+    "loop command / slopacolypse",
+    "shell-lining / nerf / San Francisco"
+  ],
+  "original_65_nonempty_lines_preserved": true,
+  "old_revision_preserved": true
+}

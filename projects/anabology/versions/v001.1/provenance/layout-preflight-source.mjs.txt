@@ -1,0 +1,42 @@
+import {chromium} from 'playwright';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {once} from 'node:events';
+import path from 'node:path';
+import {loadVersion,ROOT,inside,saveJson} from '../../scripts/project.mjs';
+import {buildRenderer,rendererURL} from '../../scripts/renderer.mjs';
+import {createProjectServer} from '../../scripts/server.mjs';
+const v=await loadVersion('anabology','v001.1'),m=v.manifest;
+const build=await buildRenderer(v),server=createProjectServer(v.projectDirectory,{rendererBuild:build});server.listen(0,'127.0.0.1');await once(server,'listening');
+const browser=await chromium.launch({headless:true,channel:'chrome'}),errors=[];
+try{
+ const page=await browser.newPage({viewport:{width:1920,height:1080}});page.on('pageerror',e=>errors.push(e.message));page.on('console',msg=>{if(msg.type()==='error')errors.push(msg.text());});
+ const url=rendererURL(v,server.address().port,{exportMode:true});await page.goto(url.href);await page.evaluate(()=>window.ready);
+ const layout=await page.evaluate(()=>window.getLayoutReport());
+ if(!layout.all_pairs_fit||!layout.all_slots_fit||!layout.all_subtitles_fit||!layout.fonts_loaded)throw Error('One of the centered layouts is clipped.');
+ const copy=JSON.parse(await readFile(inside(v.directory,m.data.screen_copy)));
+ const markers=[];
+ for(const cue of copy.events){const t=cue.start+.4;const measured=await page.evaluate(async t=>{
+  await window.renderFrame(t,'companion',false);const c=document.querySelector('#stage'),scale=c.width/1920,gl=c.getContext('webgl2');
+  const x=Math.round(1380*scale),y0=Math.round(330*scale),width=Math.round(40*scale),height=Math.round(170*scale),p=new Uint8Array(width*height*4);
+  gl.readPixels(x,c.height-y0-height,width,height,gl.RGBA,gl.UNSIGNED_BYTE,p);const rows=[];
+  for(let row=0;row<height;row++)for(let col=0;col<width;col++){const at=(row*width+col)*4,r=p[at],g=p[at+1],b=p[at+2];if(r>120&&g-r>25&&r-b>15){rows.push((y0+height-1-row)/scale);break;}}
+  return {state:window.getFrameState(t),green_label_top:Math.min(...rows),green_label_bottom:Math.max(...rows),green_rows:rows.length};
+ },t);if(!Number.isFinite(measured.green_label_top)||measured.green_rows<5)throw Error('Current label is missing.');markers.push({unit:cue.unit_id,time:t,...measured});}
+ const labelVariation=Math.max(...markers.map(x=>x.green_label_top))-Math.min(...markers.map(x=>x.green_label_top));if(labelVariation>2)throw Error('Rendered current label moves vertically.');
+ const times=[45,70.7,119,225,251.5,287.9],images=[];
+ for(const [i,t] of times.entries()){const jpg=await page.evaluate(t=>window.renderFrame(t,'companion',true),t),buffer=Buffer.from(jpg,'base64');const filename=`designs/LLMV_002_V001_R001_001_layout_${i+1}_${Math.round(t*1000)}ms.jpg`;await writeFile(inside(v.directory,filename),buffer,{flag:'wx'});images.push({generation_id:`LLMV_002_V001_R001_001_LAYOUT_${i+1}`,variant:'companion',status:'review',time:t,path:filename,sha256:createHash('sha256').update(buffer).digest('hex'),width:3840,height:2160});}
+ const a=await page.evaluate(()=>window.renderFrame(70.7,'companion',false));await page.evaluate(()=>window.renderFrame(9,'companion',false));const b=await page.evaluate(()=>window.renderFrame(70.7,'companion',false));if(a!==b)throw Error('Render depends on frame order.');
+ url.searchParams.set('preview','1');await page.goto(url.href);await page.evaluate(()=>window.ready);const preview=await page.evaluate(()=>window.getLayoutReport());if(!preview.all_pairs_fit||!preview.all_slots_fit||!preview.all_subtitles_fit)throw Error('HD preview layout does not fit.');
+ const hd=Buffer.from(await page.evaluate(()=>window.renderFrame(70.7,'companion',true)),'base64'),hdPath='designs/LLMV_002_V001_R001_001_layout_preview_70700ms.jpg';await writeFile(inside(v.directory,hdPath),hd,{flag:'wx'});images.push({generation_id:'LLMV_002_V001_R001_001_LAYOUT_HD',variant:'companion',status:'review',time:70.7,path:hdPath,sha256:createHash('sha256').update(hd).digest('hex'),width:1920,height:1080});
+ // Actual realtime source playback drives the revised scene; no offline video render.
+ url.searchParams.delete('export');url.searchParams.set('t','65.2');await page.goto(url.href);await page.evaluate(()=>window.ready);await page.locator('#play').click();
+ const start=await page.evaluate(()=>window.getLivePlaybackState()),playback=[];
+ for(let i=0;i<10;i++){await page.waitForTimeout(600);const data=await page.evaluate(()=>({media:window.getLivePlaybackState(),frame:window.getFrameState(document.querySelector('video').currentTime)}));if(data.media.error||data.media.readyState<3||data.media.paused||data.frame.current_top!==428)throw Error('Live playback or centered current focus failed.');playback.push(data);}
+ const last=playback.at(-1).media;if(last.time<=start.time+3||last.muted)throw Error('Realtime source clock or audio playback failed.');await page.evaluate(()=>window.pauseLivePlayback());
+ const seeks=[];for(const t of [45,225,287.9]){await page.evaluate(t=>window.seekLive(t),t);seeks.push(await page.evaluate(()=>({media:window.getLivePlaybackState(),frame:window.getFrameState(document.querySelector('video').currentTime)})));}
+ const responsive=[];for(const size of [{width:1600,height:1000},{width:1024,height:768},{width:390,height:844}]){await page.setViewportSize(size);const r=await page.evaluate(()=>({viewport:[innerWidth,innerHeight],horizontal_overflow:document.documentElement.scrollWidth>innerWidth,controls:!document.querySelector('#live-controls').hidden}));if(r.horizontal_overflow||!r.controls)throw Error('Live review page overflows or hides controls.');responsive.push(r);}
+ if(errors.length)throw Error(errors.join('\n'));
+ const receipt={project_id:m.project_id,version:m.version,status:'passed',purpose:'centered layout stills and realtime playback QA; no offline MP4 submitted',date:new Date().toISOString(),request:m.request,input_hashes:Object.fromEntries(Object.entries(m.inputs).map(([k,v])=>[k,v.sha256])),renderer_files:m.renderer.files,data_hashes:m.data_hashes,treatment_sha256:createHash('sha256').update(await readFile(inside(v.directory,'TREATMENT.md'))).digest('hex'),tools:{node:process.version,browser:browser.version(),qa_tool_sha256:createHash('sha256').update(await readFile(new URL(import.meta.url))).digest('hex')},native_layout:layout,preview_sampling:preview.sampling,actual_current_label_pixel_variation:labelVariation,actual_current_label_positions:markers,images,deterministic_frame_sha256:createHash('sha256').update(Buffer.from(a,'base64')).digest('hex'),realtime:{start,playback,seeks,responsive,claim:'advancing original source with unmuted playback; perceptual synchronization remains pending'},visual_review:'pending model image inspection',full_video_rerender:'not submitted',human_approval:null};
+ await saveJson(inside(v.directory,'provenance/layout-qa.json'),receipt);console.log(JSON.stringify({status:'passed',all_units_checked:markers.length,current_label_y_range:[Math.min(...markers.map(x=>x.green_label_top)),Math.max(...markers.map(x=>x.green_label_top))],pixel_position_variation:labelVariation,current_card_center_range:[Math.min(...layout.slots.map(x=>x.current_center)),Math.max(...layout.slots.map(x=>x.current_center))],stills:images.length,realtime_elapsed:last.time-start.time,full_video_rerender:'not submitted'}));
+}finally{await browser.close();server.close();}

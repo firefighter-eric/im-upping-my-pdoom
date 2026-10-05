@@ -1,0 +1,21 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "date": "2026-10-05T12:23:30.452761+00:00",
+  "scope": "one decoded sample per second, source frame mapping replicated at 30fps then sampled; 306 samples, not every output frame",
+  "source_sha256": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+  "output_sha256": "51ab5a508db153bafc29e6603ff9f355d5ddd450c2e5d616fbe7b8ecaa24b42b",
+  "output_source_region": [
+    40,
+    110,
+    1248,
+    702
+  ],
+  "source_scaling": "lanczos 1248x702",
+  "samples": 306,
+  "mean_ssim": 0.9774412973856209,
+  "minimum_ssim": 0.96396,
+  "maximum_ssim": 0.998662,
+  "expected_difference": "H.264 recompression; source is not rendered anew",
+  "does_not_waive": "preview short by two video frames; audio perceptual alignment pending"
+}

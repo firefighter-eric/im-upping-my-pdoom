@@ -2,7 +2,7 @@
 
 仓库名：`im-upping-my-pdoom`。当前首个作品为 **AGI**，稳定 ID `LLMV_001`，目录 `projects/agi/`。仓库按作品与递增制作版本组织，支持更多歌曲、概念视频和其他代码动画作品。同一创意方向使用主版本＋小版本，例如 v003.0、v003.1；新的创意方向递增主版本。没有固定的前端应用。
 
-当前有两个独立 LLMV 参考：`LLMV_001 / AGI` 为原 B 站参考；`LLMV_002 / anabology` 为 2026-10-03 新增的 X 视频，单独保存在 `projects/anabology/`，1080p24、约 5 分 6 秒，暂未创建制作版本。两者的来源、原片、音轨和记录各自独立；AGI 的版本和变体不另计为参考。完整目录见 [docs/REFERENCES.md](docs/REFERENCES.md)。
+当前有两个独立 LLMV 参考：`LLMV_001 / AGI` 为原 B 站参考；`LLMV_002 / anabology` 为 2026-10-03 新增的 X 视频，单独保存在 `projects/anabology/`，1080p24、约 5 分 6 秒。其独立解梗伴看 v001.1 已交付完整 4K60 成片（review），固定当前解释在右栏中间，完整原音轨、18,389 帧与实际播放检查通过。历史 v001.0 的缺帧预览和记录原样保留，见 [LLMV_002 解梗入口](projects/anabology/EXPLAINER.md)。两者的来源、原片、音轨和记录各自独立；AGI 的版本和变体不另计为参考。完整目录见 [docs/REFERENCES.md](docs/REFERENCES.md)。
 
 ## 基本层级
 

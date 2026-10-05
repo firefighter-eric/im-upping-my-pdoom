@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "project_id": "LLMV_002",
+  "created_local_date": "2026-10-05",
+  "annotation_status": "review",
+  "human_approval": null,
+  "text_structure": {
+    "cards": 40,
+    "canonical_nonempty_lines": 65,
+    "covered_nonempty_lines": 65,
+    "missing_lines": [],
+    "intentional_shared_physical_lines": [
+      {
+        "physical_line": 60,
+        "reason": "Sora and Stargate are separate references in the same line",
+        "card_ids": [
+          "35",
+          "36"
+        ]
+      }
+    ],
+    "source_count": 40,
+    "all_source_ids_resolve": true,
+    "all_english_lines_byte_exact_after_newline_split": true,
+    "all_lines_have_chinese_translation": true,
+    "original_video_sha256_match": true,
+    "original_lyrics_sha256_match": true,
+    "unconfirmed_Drop_physical_lines": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "timing": "section-navigation-only"
+  },
+  "repository_checks": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "result": "Shared scripts and all HTML/TypeScript version renderers compile."
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "result": "12 tests passed; 0 failed."
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "result": "55 preserved migration files; 20 versions; valid project/version lineage. One historical user-removed output has verified receipts; that media is not restored or verified."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "No tracked diff whitespace errors."
+    }
+  ],
+  "semantic_review": "Codex source and wording review; no human approval",
+  "no_claim_of_confirmed_full_vocal_alignment": true,
+  "artifact_checks": {
+    "all_json_parse": true,
+    "all_local_markdown_links_resolve": true,
+    "all_recorded_output_hashes_match": true,
+    "all_11_evidence_frame_hashes_match": true,
+    "unchanged_source_video_and_lyrics": true
+  }
+}

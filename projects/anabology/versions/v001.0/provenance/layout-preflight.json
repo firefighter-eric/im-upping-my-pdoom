@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "project_id": "LLMV_002",
+  "native_canvas": [
+    3840,
+    2160
+  ],
+  "preview_canvas": [
+    1920,
+    1080
+  ],
+  "all_pairs_fit": true,
+  "all_subtitles_fit": true,
+  "fonts_loaded": true,
+  "max_pair_height": 648,
+  "note_viewport_height": 926,
+  "max_subtitle_height": 92,
+  "minimum_reading_seconds": 5.440000000000005,
+  "native_sampling": {
+    "samples": 1,
+    "shutter": 0,
+    "space": "linear WebGL render targets"
+  },
+  "preview_sampling": {
+    "samples": 4,
+    "shutter": 0.2,
+    "space": "linear WebGL render targets"
+  },
+  "order_independent_sha256": "75c5798c8ac16f8e12b3dfa533e6986be2aef7103a1c580eb87b2636816ec06a",
+  "stills": [
+    9,
+    45,
+    70.7,
+    119,
+    151,
+    194,
+    225,
+    241.8,
+    251.5,
+    275,
+    287.9
+  ],
+  "target_count": null,
+  "visual_review": "model inspected original-source composite stills: source pane uncropped, readable notes/subtitles; no fixed item counter",
+  "audio_perceptual_alignment": "pending human listening"
+}

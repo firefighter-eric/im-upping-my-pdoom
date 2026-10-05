@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>Escape Velocity · 中置解释版式预览</title><style>
+html,body{margin:0;background:#101613;color:#e9eee8;font:16px/1.5 system-ui,sans-serif}canvas{display:block;width:100vw;height:auto}canvas:fullscreen{width:100vw;height:100vh;object-fit:contain}video{display:none}#live-controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px 20px}#live-controls[hidden]{display:none}button,select{color:inherit;background:#233020;border:1px solid #52654b;border-radius:4px;font:inherit;padding:5px 10px}button{cursor:pointer}#seek{flex:1;min-width:180px;accent-color:#c4eea8}#cue{max-width:300px}#live-time{color:#b1c1a9;font-size:14px}
+</style></head><body><canvas id="stage"></canvas><div id="live-controls" hidden>
+<button id="play">播放原曲</button><input id="seek" type="range" min="0" max="306.480181" step="0.01" value="0" aria-label="播放位置"><span id="live-time">正在载入原片</span>
+<select id="cue" aria-label="跳到解读段落"></select><button id="fullscreen">全屏</button><span style="color:#9db097;font-size:14px">版式预览</span>
+</div><script type="module" src="./src/main.ts"></script></body></html>

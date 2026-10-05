@@ -1,0 +1,30 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "date": "2026-10-05T13:03:13.415Z",
+  "reviewer": "Codex model image inspection; not human full-video approval",
+  "status": "passed for inspected encoded frames",
+  "output_sha256": "a572712619e7f3e59aee1c109d9752972827e798ec2214b7ff41331e4e82a219",
+  "inspected": [
+    {
+      "requested_time": 70.7,
+      "source": "encoded output; native 3840x2160 view"
+    },
+    {
+      "requested_time": 225,
+      "source": "encoded output; downscaled view"
+    },
+    {
+      "requested_time": 306.45,
+      "source": "encoded output; downscaled view"
+    }
+  ],
+  "observations": [
+    "Current annotation is in the middle slot, previous annotation remains above, upcoming title below.",
+    "Native 4K text and thin highlight are readable in the inspected 01:10.7 frame.",
+    "No current body clipping or overlapping note blocks in inspected frames.",
+    "Final frame retains the source film fade and the completed annotation; no image truncation before the full original audio."
+  ],
+  "perceptual_audio_sync": "pending human listening",
+  "human_full_video_approval": null
+}

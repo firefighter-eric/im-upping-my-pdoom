@@ -1,0 +1,24 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "status": "preview-media-validation-failed",
+  "date": "2026-10-05T12:19:22.244043+00:00",
+  "run_id": "RUN_2026-10-05T12-11-56-505Z_d397759b",
+  "render_process_status": "completed",
+  "expected_frames": 9195,
+  "decoded_frames": 9193,
+  "expected_audio_duration": 306.480181,
+  "actual_video_duration": 306.433333,
+  "actual_audio_duration": 306.480181,
+  "output": {
+    "variant": "companion",
+    "generation_id": "LLMV_002_V001_R000_PREVIEW_001",
+    "path": "previews/LLMV_002_V001_R000_PREVIEW_001_companion.mp4",
+    "sha256": "51ab5a508db153bafc29e6603ff9f355d5ddd450c2e5d616fbe7b8ecaa24b42b"
+  },
+  "aac_packet_hash": "SHA256=50b216eb54c8b32f6e591c2485674b5bc7703117cdb26487b07cecccc01f538c",
+  "cause": "overlay shortest=1 ended when the shorter source video stream reached EOF, despite eof_action=repeat",
+  "native_render_submitted": false,
+  "next_action": "explicit authorization required for a fresh production revision; patch prepared but not applied",
+  "human_approval": null
+}

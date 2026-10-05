@@ -1,0 +1,198 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "generation_id": "LLMV_002_V001_R001_001",
+  "run_id": "RUN_2026-10-05T12-45-57-413Z_e2997305",
+  "date": "2026-10-05T13:02:07.904Z",
+  "status": "passed",
+  "browser": "154.0.8037.93",
+  "initial": {
+    "time": 1.162078,
+    "readyState": 4,
+    "error": null,
+    "paused": false,
+    "muted": true,
+    "width": 3840,
+    "height": 2160,
+    "duration": 306.483333
+  },
+  "dense_segment": [
+    {
+      "time": 65.762839,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 66.36792,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 66.973813,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 67.580435,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 68.184986,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 68.788644,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 69.391781,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 69.997774,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 70.600746,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    {
+      "time": 71.203782,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": true,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    }
+  ],
+  "chapter_select": {
+    "time": 216.802733,
+    "readyState": 4,
+    "error": null,
+    "paused": false,
+    "muted": true,
+    "width": 3840,
+    "height": 2160,
+    "duration": 306.483333
+  },
+  "unmuted_playback": {
+    "before": {
+      "time": 216.86177,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": false,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    "after": {
+      "time": 217.986399,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": false,
+      "width": 3840,
+      "height": 2160,
+      "duration": 306.483333
+    },
+    "claim": "technical playback only; perceptual sync pending human listening"
+  },
+  "tail": {
+    "time": 306.483333,
+    "ended": true,
+    "error": null,
+    "duration": 306.483333
+  },
+  "responsive": [
+    {
+      "viewport": [
+        1600,
+        1000
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:63574/versions/v001.1/outputs/LLMV_002_V001_R001_001_companion_v001.1.mp4",
+      "full_enabled": true,
+      "preview_enabled": false,
+      "full_pressed": "true"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:63574/versions/v001.1/outputs/LLMV_002_V001_R001_001_companion_v001.1.mp4",
+      "full_enabled": true,
+      "preview_enabled": false,
+      "full_pressed": "true"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "horizontal_overflow": false,
+      "source": "http://127.0.0.1:63574/versions/v001.1/outputs/LLMV_002_V001_R001_001_companion_v001.1.mp4",
+      "full_enabled": true,
+      "preview_enabled": false,
+      "full_pressed": "true"
+    }
+  ],
+  "errors": [],
+  "qa_tool_sha256": "92eca4669796b8afce14c348bdc32d85a623f36af25ed56860b314aca6499da4",
+  "full_video_human_approval": null
+}

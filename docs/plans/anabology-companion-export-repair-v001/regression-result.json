@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "purpose": "isolated exporter endpoint regression on generated color and silent AAC fixtures; no LLMV inputs, not a production rerender",
+  "results": [
+    {
+      "fps": 30,
+      "fix": false,
+      "target_frames": 17,
+      "decoded_frames": 15,
+      "video_duration": 0.5,
+      "audio_duration": 0.55,
+      "aac_packets_identical": true,
+      "complete_decode": "passed"
+    },
+    {
+      "fps": 30,
+      "fix": true,
+      "target_frames": 17,
+      "decoded_frames": 17,
+      "video_duration": 0.566667,
+      "audio_duration": 0.55,
+      "aac_packets_identical": true,
+      "complete_decode": "passed"
+    },
+    {
+      "fps": 60,
+      "fix": false,
+      "target_frames": 33,
+      "decoded_frames": 30,
+      "video_duration": 0.5,
+      "audio_duration": 0.55,
+      "aac_packets_identical": true,
+      "complete_decode": "passed"
+    },
+    {
+      "fps": 60,
+      "fix": true,
+      "target_frames": 33,
+      "decoded_frames": 33,
+      "video_duration": 0.55,
+      "audio_duration": 0.55,
+      "aac_packets_identical": true,
+      "complete_decode": "passed"
+    }
+  ]
+}

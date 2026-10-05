@@ -7,6 +7,6 @@
 | LLMV_001 | AGI | [Bilibili · BV18ta86EEHb](https://www.bilibili.com/video/BV18ta86EEHb/) | 1280×720，30fps，约 2:37 | [projects/agi/project.yaml](../projects/agi/project.yaml) |
 | LLMV_002 | anabology · X 视频参考 | [X · 2103534482930491441](https://x.com/anabology/status/2103534482930491441) | 1920×1080，24fps，约 5:06 | [projects/anabology/REFERENCE.md](../projects/anabology/REFERENCE.md) |
 
-AGI 的 v001、v002、v003.0、v003.1、v004.0、v005.0、v006.0–v006.13 及其变体都属于 `LLMV_001`；V006 为原片解梗伴看的特殊衍生视频，其中 [v006.13](../projects/agi/versions/v006.13/QA.md) 已交付完整 4K60 成片并由用户确认为正式稿（approved），此前样图与制作版本保留各自状态。`LLMV_002` 当前仅登记原始参考，没有制作版本。
+AGI 的 v001、v002、v003.0、v003.1、v004.0、v005.0、v006.0–v006.13 及其变体都属于 `LLMV_001`；V006 为原片解梗伴看的特殊衍生视频，其中 [v006.13](../projects/agi/versions/v006.13/QA.md) 已交付完整 4K60 成片并由用户确认为正式稿（approved），此前样图与制作版本保留各自状态。`LLMV_002` 已另建无固定梗数目标的解梗伴看；最新 [v001.1 居中版式完整版](../projects/anabology/versions/v001.1/DELIVERY.md) 已交付 4K60、18,389 帧和完整原音轨，技术与播放验收通过，状态 review。历史 [v001.0](../projects/anabology/versions/v001.0/QA.md) 缺帧预览和失败记录保留。
 
 原片和音轨保留在各作品的 `sources/`，由 Git 忽略。来源权利均为 TBD；下载、技术验收或源码发布不构成创意批准或素材使用授权。

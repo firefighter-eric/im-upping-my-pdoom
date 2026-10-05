@@ -1,0 +1,2669 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "status": "passed",
+  "purpose": "centered layout stills and realtime playback QA; no offline MP4 submitted",
+  "date": "2026-10-05T12:38:20.264Z",
+  "request": [
+    "有一个问题就是经常正在解释的并不处于中间。而是处于第三个位置，这样比较难看到。"
+  ],
+  "input_hashes": {
+    "video": "5a22be4feed3c46051b4a7561ff9a3a8be7fab1ba87966a8c2495c957bae900d",
+    "audio": "45383f70955fb4b416ffb07687f4c4247865dbc54eaa2b1bcdc89c8e28192c99"
+  },
+  "renderer_files": {
+    "renderer/index.html": "28b283ee3034becdba29326aca7e730ae8b8525ae4d81a95f906117ad9a67354",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "27c576c4cdce470feaea93bc85c0cbbcbefba6a8805140442a9246655e319201",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "data_hashes": {
+    "screen_copy": "af566d4445c2b79c835abf979d0a5ebd927a59390fe8c289d795ee686f129d2d",
+    "editorial_review": "ec4bbc70c836c34c5092b50ab222806c61f7fee2af82aa9d4cb9f41e5c801085",
+    "sources": "d8053dc8e9fa3fb229db900b7e5f95ea3b842bfc69a993c9861daaed94933685",
+    "layout": "7528288a43c2a0a55b549a580201bf32bc0893154bac785e51f00b937ac46e6e",
+    "beat_analysis": "24c0c8ceb4648141a3c0f066c845502a2cff1ff755153652c664072d685013bd",
+    "lyric_timing": "5fa244267c386653c1be967590433c5e2e4bf80d6379b0b5bf8508aabaf45dca",
+    "content_adoption": "f63576a6364a93e009d197e3f705aa02eea289ac313c784e6ad4553917eec08b",
+    "exporter": "e1e6daec0545f4a144b8342f9771f1f84c66da3994ab2b95525b3e6444109ccc",
+    "review_player": "d77b8fc6dc52771e6e4a53d5e55f7a862ba794827bd6fed105bca9ac8864336d",
+    "analysis_tool": "3675d5aac85d5fcaf0375bbf9193af8d958ed3a44bcb7ca8dbf44a5ef37408ef",
+    "time_script": "d1102d5c29ea74739c3691366d5dfb70099d7d4f0a17ff18b611474ec207d9d9"
+  },
+  "treatment_sha256": "6b84f178baf97f32ec95c28f3b784b2654e8c28f406f8177e344f7bd02ccfbcc",
+  "tools": {
+    "node": "v25.8.2",
+    "browser": "154.0.8037.93",
+    "qa_tool_sha256": "0446429aa42d03b95f4b7a2cd003d9fe27b7b2b18954ec83279718272e5ca282"
+  },
+  "native_layout": {
+    "canvas": [
+      3840,
+      2160
+    ],
+    "all_pairs_fit": true,
+    "all_slots_fit": true,
+    "all_subtitles_fit": true,
+    "fonts_loaded": true,
+    "pairHeights": [
+      {
+        "event": 0,
+        "unit_id": "agents",
+        "height": 279,
+        "previous_and_current": 279
+      },
+      {
+        "event": 1,
+        "unit_id": "model-runway",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 2,
+        "unit_id": "agi-era",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 3,
+        "unit_id": "acronym-chain",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 4,
+        "unit_id": "mac-minis",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 5,
+        "unit_id": "jensen-tokens",
+        "height": 341,
+        "previous_and_current": 602.52
+      },
+      {
+        "event": 6,
+        "unit_id": "usage-cap",
+        "height": 279,
+        "previous_and_current": 595.0799999999999
+      },
+      {
+        "event": 7,
+        "unit_id": "quota-denominator",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 8,
+        "unit_id": "cursor-no-shoes",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 9,
+        "unit_id": "cursor-deal",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 10,
+        "unit_id": "artisan-billboard",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 11,
+        "unit_id": "waymo-firework",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 12,
+        "unit_id": "waymo-presidio",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 13,
+        "unit_id": "mild-singularity",
+        "height": 309,
+        "previous_and_current": 598.6800000000001
+      },
+      {
+        "event": 14,
+        "unit_id": "academy-no-tests",
+        "height": 279,
+        "previous_and_current": 566.9200000000001
+      },
+      {
+        "event": 15,
+        "unit_id": "taste-moat",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 16,
+        "unit_id": "meat-proxy",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 17,
+        "unit_id": "underclass",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 18,
+        "unit_id": "lock-in",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 19,
+        "unit_id": "feel-agi",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 20,
+        "unit_id": "over-back",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 21,
+        "unit_id": "agents-collective",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 22,
+        "unit_id": "july-september",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 23,
+        "unit_id": "huggingface-price",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 24,
+        "unit_id": "conditional-transparency",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 25,
+        "unit_id": "world-as-test",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 26,
+        "unit_id": "empty-seat",
+        "height": 309,
+        "previous_and_current": 570.52
+      },
+      {
+        "event": 27,
+        "unit_id": "ai-to-si",
+        "height": 311,
+        "previous_and_current": 598.9200000000001
+      },
+      {
+        "event": 28,
+        "unit_id": "cashmere-trust",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 29,
+        "unit_id": "immortals-three",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 30,
+        "unit_id": "midjourney-scanner",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 31,
+        "unit_id": "brake-gas",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 32,
+        "unit_id": "escape-physics",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 33,
+        "unit_id": "longevity-escape",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 34,
+        "unit_id": "doom-condition",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 35,
+        "unit_id": "no-underclass",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 36,
+        "unit_id": "genius-country",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 37,
+        "unit_id": "lean-proofs",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 38,
+        "unit_id": "phages",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 39,
+        "unit_id": "enzymes",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 40,
+        "unit_id": "kidneys",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 41,
+        "unit_id": "good-boys",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 42,
+        "unit_id": "sora-dark",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 43,
+        "unit_id": "stargate-delay",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 44,
+        "unit_id": "apocalypse-bracket",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 45,
+        "unit_id": "loop-happiness",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 46,
+        "unit_id": "slopacolypse",
+        "height": 311,
+        "previous_and_current": 572.52
+      },
+      {
+        "event": 47,
+        "unit_id": "back-in-box",
+        "height": 311,
+        "previous_and_current": 600.6800000000001
+      },
+      {
+        "event": 48,
+        "unit_id": "shell-lining",
+        "height": 279,
+        "previous_and_current": 568.6800000000001
+      },
+      {
+        "event": 49,
+        "unit_id": "do-not-nerf",
+        "height": 279,
+        "previous_and_current": 540.52
+      },
+      {
+        "event": 50,
+        "unit_id": "made-in-sf",
+        "height": 311,
+        "previous_and_current": 572.52
+      }
+    ],
+    "subtitleHeights": [
+      {
+        "line": "LLMV_002_L001",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L002",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L003",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L004",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L005",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L006",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L007",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L008",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L009",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L010",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L011",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L012",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L013",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L014",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L015",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L016",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L017",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L018",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L019",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L020",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L021",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L022",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L023",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_ASR_REFRAIN_1",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L024",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L025",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L026",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L027",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L028",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L029",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L030",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L031",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L032",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L033",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L034",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L035",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L036",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L037",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L038",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L039",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L040",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L041",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L042",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L043",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L044",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L045",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L046",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L047",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L048",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L049",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L050",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L051",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L052",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L053",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L054",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L055",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L056",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L057",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L058",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L059",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L060",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L061",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L062",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L063",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L064",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_L065",
+        "height": 92
+      },
+      {
+        "line": "LLMV_002_ASR_REFRAIN_2",
+        "height": 92
+      }
+    ],
+    "slots": [
+      {
+        "unit_id": "agents",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": null,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "model-runway",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "agi-era",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "acronym-chain",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "mac-minis",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "jensen-tokens",
+        "current_top": 428,
+        "current_bottom": 769,
+        "current_center": 598.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "usage-cap",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 111.92000000000002,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "quota-denominator",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "cursor-no-shoes",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "cursor-deal",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "artisan-billboard",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "waymo-firework",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "waymo-presidio",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "mild-singularity",
+        "current_top": 428,
+        "current_bottom": 737,
+        "current_center": 582.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "academy-no-tests",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 140.07999999999998,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "taste-moat",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "meat-proxy",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "underclass",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "lock-in",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "feel-agi",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "over-back",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "agents-collective",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "july-september",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "huggingface-price",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "conditional-transparency",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "world-as-test",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "empty-seat",
+        "current_top": 428,
+        "current_bottom": 737,
+        "current_center": 582.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "ai-to-si",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 140.07999999999998,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "cashmere-trust",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "immortals-three",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "midjourney-scanner",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "brake-gas",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "escape-physics",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "longevity-escape",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "doom-condition",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "no-underclass",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "genius-country",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "lean-proofs",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "phages",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "enzymes",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "kidneys",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "good-boys",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "sora-dark",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "stargate-delay",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "apocalypse-bracket",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "loop-happiness",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "slopacolypse",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "back-in-box",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "shell-lining",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 138.32,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "do-not-nerf",
+        "current_top": 428,
+        "current_bottom": 707,
+        "current_center": 567.5,
+        "previous_top": 166.48,
+        "next_bottom": 890
+      },
+      {
+        "unit_id": "made-in-sf",
+        "current_top": 428,
+        "current_bottom": 739,
+        "current_center": 583.5,
+        "previous_top": 166.48,
+        "next_bottom": null
+      }
+    ],
+    "viewport_height": 926,
+    "focus_y": 428,
+    "focus_position_variation": 0,
+    "body_size_at_1080p": 21,
+    "previous_body_size_at_1080p": 18.48,
+    "semantic_unit_count": 51,
+    "target_count": null,
+    "sampling": {
+      "samples": 1,
+      "shutter": 0,
+      "space": "linear WebGL render targets"
+    },
+    "reading": [
+      {
+        "unit_id": "agents",
+        "first": 8.7,
+        "fully_visible_until": 25.66,
+        "full_visible_seconds": 16.96
+      },
+      {
+        "unit_id": "model-runway",
+        "first": 13.6,
+        "fully_visible_until": 28.94,
+        "full_visible_seconds": 15.340000000000002
+      },
+      {
+        "unit_id": "agi-era",
+        "first": 25.66,
+        "fully_visible_until": 32.78,
+        "full_visible_seconds": 7.120000000000001
+      },
+      {
+        "unit_id": "acronym-chain",
+        "first": 28.94,
+        "fully_visible_until": 36.34,
+        "full_visible_seconds": 7.400000000000002
+      },
+      {
+        "unit_id": "mac-minis",
+        "first": 32.78,
+        "fully_visible_until": 40.14,
+        "full_visible_seconds": 7.359999999999999
+      },
+      {
+        "unit_id": "jensen-tokens",
+        "first": 36.34,
+        "fully_visible_until": 43.42,
+        "full_visible_seconds": 7.079999999999998
+      },
+      {
+        "unit_id": "usage-cap",
+        "first": 40.14,
+        "fully_visible_until": 46.74,
+        "full_visible_seconds": 6.600000000000001
+      },
+      {
+        "unit_id": "quota-denominator",
+        "first": 43.42,
+        "fully_visible_until": 49,
+        "full_visible_seconds": 5.579999999999998
+      },
+      {
+        "unit_id": "cursor-no-shoes",
+        "first": 46.74,
+        "fully_visible_until": 50.6,
+        "full_visible_seconds": 3.8599999999999994
+      },
+      {
+        "unit_id": "cursor-deal",
+        "first": 49,
+        "fully_visible_until": 54.36,
+        "full_visible_seconds": 5.359999999999999
+      },
+      {
+        "unit_id": "artisan-billboard",
+        "first": 50.6,
+        "fully_visible_until": 60.36,
+        "full_visible_seconds": 9.759999999999998
+      },
+      {
+        "unit_id": "waymo-firework",
+        "first": 54.36,
+        "fully_visible_until": 62.18,
+        "full_visible_seconds": 7.82
+      },
+      {
+        "unit_id": "waymo-presidio",
+        "first": 60.36,
+        "fully_visible_until": 66.08,
+        "full_visible_seconds": 5.719999999999999
+      },
+      {
+        "unit_id": "mild-singularity",
+        "first": 62.18,
+        "fully_visible_until": 67.62,
+        "full_visible_seconds": 5.440000000000005
+      },
+      {
+        "unit_id": "academy-no-tests",
+        "first": 66.08,
+        "fully_visible_until": 69.2,
+        "full_visible_seconds": 3.1200000000000045
+      },
+      {
+        "unit_id": "taste-moat",
+        "first": 67.62,
+        "fully_visible_until": 73.7,
+        "full_visible_seconds": 6.079999999999998
+      },
+      {
+        "unit_id": "meat-proxy",
+        "first": 69.2,
+        "fully_visible_until": 79.5,
+        "full_visible_seconds": 10.299999999999997
+      },
+      {
+        "unit_id": "underclass",
+        "first": 73.7,
+        "fully_visible_until": 87.62,
+        "full_visible_seconds": 13.920000000000002
+      },
+      {
+        "unit_id": "lock-in",
+        "first": 79.5,
+        "fully_visible_until": 93.74,
+        "full_visible_seconds": 14.239999999999995
+      },
+      {
+        "unit_id": "feel-agi",
+        "first": 87.62,
+        "fully_visible_until": 112.78,
+        "full_visible_seconds": 25.159999999999997
+      },
+      {
+        "unit_id": "over-back",
+        "first": 93.74,
+        "fully_visible_until": 119.82,
+        "full_visible_seconds": 26.08
+      },
+      {
+        "unit_id": "agents-collective",
+        "first": 112.78,
+        "fully_visible_until": 124.26,
+        "full_visible_seconds": 11.480000000000004
+      },
+      {
+        "unit_id": "july-september",
+        "first": 119.82,
+        "fully_visible_until": 127.44,
+        "full_visible_seconds": 7.6200000000000045
+      },
+      {
+        "unit_id": "huggingface-price",
+        "first": 124.26,
+        "fully_visible_until": 131.02,
+        "full_visible_seconds": 6.760000000000005
+      },
+      {
+        "unit_id": "conditional-transparency",
+        "first": 127.44,
+        "fully_visible_until": 134.36,
+        "full_visible_seconds": 6.920000000000016
+      },
+      {
+        "unit_id": "world-as-test",
+        "first": 131.02,
+        "fully_visible_until": 138.2,
+        "full_visible_seconds": 7.179999999999978
+      },
+      {
+        "unit_id": "empty-seat",
+        "first": 134.36,
+        "fully_visible_until": 141.9,
+        "full_visible_seconds": 7.539999999999992
+      },
+      {
+        "unit_id": "ai-to-si",
+        "first": 138.2,
+        "fully_visible_until": 144.84,
+        "full_visible_seconds": 6.640000000000015
+      },
+      {
+        "unit_id": "cashmere-trust",
+        "first": 141.9,
+        "fully_visible_until": 149.14,
+        "full_visible_seconds": 7.239999999999981
+      },
+      {
+        "unit_id": "immortals-three",
+        "first": 144.84,
+        "fully_visible_until": 163.66,
+        "full_visible_seconds": 18.819999999999993
+      },
+      {
+        "unit_id": "midjourney-scanner",
+        "first": 149.14,
+        "fully_visible_until": 184.66,
+        "full_visible_seconds": 35.52000000000001
+      },
+      {
+        "unit_id": "brake-gas",
+        "first": 163.66,
+        "fully_visible_until": 191.82,
+        "full_visible_seconds": 28.159999999999997
+      },
+      {
+        "unit_id": "escape-physics",
+        "first": 184.66,
+        "fully_visible_until": 197.88,
+        "full_visible_seconds": 13.219999999999999
+      },
+      {
+        "unit_id": "longevity-escape",
+        "first": 191.82,
+        "fully_visible_until": 200.82,
+        "full_visible_seconds": 9
+      },
+      {
+        "unit_id": "doom-condition",
+        "first": 197.88,
+        "fully_visible_until": 216.52,
+        "full_visible_seconds": 18.640000000000015
+      },
+      {
+        "unit_id": "no-underclass",
+        "first": 200.82,
+        "fully_visible_until": 220,
+        "full_visible_seconds": 19.180000000000007
+      },
+      {
+        "unit_id": "genius-country",
+        "first": 216.52,
+        "fully_visible_until": 223,
+        "full_visible_seconds": 6.47999999999999
+      },
+      {
+        "unit_id": "lean-proofs",
+        "first": 220,
+        "fully_visible_until": 226,
+        "full_visible_seconds": 6
+      },
+      {
+        "unit_id": "phages",
+        "first": 223,
+        "fully_visible_until": 229,
+        "full_visible_seconds": 6
+      },
+      {
+        "unit_id": "enzymes",
+        "first": 226,
+        "fully_visible_until": 232,
+        "full_visible_seconds": 6
+      },
+      {
+        "unit_id": "kidneys",
+        "first": 229,
+        "fully_visible_until": 235,
+        "full_visible_seconds": 6
+      },
+      {
+        "unit_id": "good-boys",
+        "first": 232,
+        "fully_visible_until": 238,
+        "full_visible_seconds": 6
+      },
+      {
+        "unit_id": "sora-dark",
+        "first": 235,
+        "fully_visible_until": 241.1,
+        "full_visible_seconds": 6.099999999999994
+      },
+      {
+        "unit_id": "stargate-delay",
+        "first": 238,
+        "fully_visible_until": 244.3,
+        "full_visible_seconds": 6.300000000000011
+      },
+      {
+        "unit_id": "apocalypse-bracket",
+        "first": 241.1,
+        "fully_visible_until": 247.5,
+        "full_visible_seconds": 6.400000000000006
+      },
+      {
+        "unit_id": "loop-happiness",
+        "first": 244.3,
+        "fully_visible_until": 251,
+        "full_visible_seconds": 6.699999999999989
+      },
+      {
+        "unit_id": "slopacolypse",
+        "first": 247.5,
+        "fully_visible_until": 273.54,
+        "full_visible_seconds": 26.04000000000002
+      },
+      {
+        "unit_id": "back-in-box",
+        "first": 251,
+        "fully_visible_until": 282.1,
+        "full_visible_seconds": 31.100000000000023
+      },
+      {
+        "unit_id": "shell-lining",
+        "first": 273.54,
+        "fully_visible_until": 287.58,
+        "full_visible_seconds": 14.039999999999964
+      },
+      {
+        "unit_id": "do-not-nerf",
+        "first": 282.1,
+        "fully_visible_until": 306.480181,
+        "full_visible_seconds": 24.380180999999993
+      },
+      {
+        "unit_id": "made-in-sf",
+        "first": 287.58,
+        "fully_visible_until": 306.480181,
+        "full_visible_seconds": 18.900181000000032
+      }
+    ]
+  },
+  "preview_sampling": {
+    "samples": 4,
+    "shutter": 0.2,
+    "space": "linear WebGL render targets"
+  },
+  "actual_current_label_pixel_variation": 0,
+  "actual_current_label_positions": [
+    {
+      "unit": "agents",
+      "time": 9.1,
+      "state": {
+        "time": 9.1,
+        "unit": "agents",
+        "previous": null,
+        "next": "model-runway",
+        "lyric": "LLMV_002_L001",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "model-runway",
+      "time": 14,
+      "state": {
+        "time": 14,
+        "unit": "model-runway",
+        "previous": "agents",
+        "next": "agi-era",
+        "lyric": "LLMV_002_L002",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "agi-era",
+      "time": 26.06,
+      "state": {
+        "time": 26.06,
+        "unit": "agi-era",
+        "previous": "model-runway",
+        "next": "acronym-chain",
+        "lyric": "LLMV_002_L003",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "acronym-chain",
+      "time": 29.34,
+      "state": {
+        "time": 29.34,
+        "unit": "acronym-chain",
+        "previous": "agi-era",
+        "next": "mac-minis",
+        "lyric": "LLMV_002_L004",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "mac-minis",
+      "time": 33.18,
+      "state": {
+        "time": 33.18,
+        "unit": "mac-minis",
+        "previous": "acronym-chain",
+        "next": "jensen-tokens",
+        "lyric": "LLMV_002_L005",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "jensen-tokens",
+      "time": 36.74,
+      "state": {
+        "time": 36.74,
+        "unit": "jensen-tokens",
+        "previous": "mac-minis",
+        "next": "usage-cap",
+        "lyric": "LLMV_002_L006",
+        "current_top": 428,
+        "current_bottom": 769,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "usage-cap",
+      "time": 40.54,
+      "state": {
+        "time": 40.54,
+        "unit": "usage-cap",
+        "previous": "jensen-tokens",
+        "next": "quota-denominator",
+        "lyric": "LLMV_002_L007",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "quota-denominator",
+      "time": 43.82,
+      "state": {
+        "time": 43.82,
+        "unit": "quota-denominator",
+        "previous": "usage-cap",
+        "next": "cursor-no-shoes",
+        "lyric": "LLMV_002_L008",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "cursor-no-shoes",
+      "time": 47.14,
+      "state": {
+        "time": 47.14,
+        "unit": "cursor-no-shoes",
+        "previous": "quota-denominator",
+        "next": "cursor-deal",
+        "lyric": "LLMV_002_L009",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "cursor-deal",
+      "time": 49.4,
+      "state": {
+        "time": 49.4,
+        "unit": "cursor-deal",
+        "previous": "cursor-no-shoes",
+        "next": "artisan-billboard",
+        "lyric": "LLMV_002_L009",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "artisan-billboard",
+      "time": 51,
+      "state": {
+        "time": 51,
+        "unit": "artisan-billboard",
+        "previous": "cursor-deal",
+        "next": "waymo-firework",
+        "lyric": "LLMV_002_L010",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "waymo-firework",
+      "time": 54.76,
+      "state": {
+        "time": 54.76,
+        "unit": "waymo-firework",
+        "previous": "artisan-billboard",
+        "next": "waymo-presidio",
+        "lyric": "LLMV_002_L011",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "waymo-presidio",
+      "time": 60.76,
+      "state": {
+        "time": 60.76,
+        "unit": "waymo-presidio",
+        "previous": "waymo-firework",
+        "next": "mild-singularity",
+        "lyric": "LLMV_002_L012",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "mild-singularity",
+      "time": 62.58,
+      "state": {
+        "time": 62.58,
+        "unit": "mild-singularity",
+        "previous": "waymo-presidio",
+        "next": "academy-no-tests",
+        "lyric": "LLMV_002_L013",
+        "current_top": 428,
+        "current_bottom": 737,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "academy-no-tests",
+      "time": 66.48,
+      "state": {
+        "time": 66.48,
+        "unit": "academy-no-tests",
+        "previous": "mild-singularity",
+        "next": "taste-moat",
+        "lyric": "LLMV_002_L014",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "taste-moat",
+      "time": 68.02000000000001,
+      "state": {
+        "time": 68.02000000000001,
+        "unit": "taste-moat",
+        "previous": "academy-no-tests",
+        "next": "meat-proxy",
+        "lyric": "LLMV_002_L014",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "meat-proxy",
+      "time": 69.60000000000001,
+      "state": {
+        "time": 69.60000000000001,
+        "unit": "meat-proxy",
+        "previous": "taste-moat",
+        "next": "underclass",
+        "lyric": "LLMV_002_L015",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "underclass",
+      "time": 74.10000000000001,
+      "state": {
+        "time": 74.10000000000001,
+        "unit": "underclass",
+        "previous": "meat-proxy",
+        "next": "lock-in",
+        "lyric": "LLMV_002_L016",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "lock-in",
+      "time": 79.9,
+      "state": {
+        "time": 79.9,
+        "unit": "lock-in",
+        "previous": "underclass",
+        "next": "feel-agi",
+        "lyric": "LLMV_002_L017",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "feel-agi",
+      "time": 88.02000000000001,
+      "state": {
+        "time": 88.02000000000001,
+        "unit": "feel-agi",
+        "previous": "lock-in",
+        "next": "over-back",
+        "lyric": "LLMV_002_L020",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "over-back",
+      "time": 94.14,
+      "state": {
+        "time": 94.14,
+        "unit": "over-back",
+        "previous": "feel-agi",
+        "next": "agents-collective",
+        "lyric": "LLMV_002_L022",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "agents-collective",
+      "time": 113.18,
+      "state": {
+        "time": 113.18,
+        "unit": "agents-collective",
+        "previous": "over-back",
+        "next": "july-september",
+        "lyric": "LLMV_002_L024",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "july-september",
+      "time": 120.22,
+      "state": {
+        "time": 120.22,
+        "unit": "july-september",
+        "previous": "agents-collective",
+        "next": "huggingface-price",
+        "lyric": "LLMV_002_L026",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "huggingface-price",
+      "time": 124.66000000000001,
+      "state": {
+        "time": 124.66000000000001,
+        "unit": "huggingface-price",
+        "previous": "july-september",
+        "next": "conditional-transparency",
+        "lyric": "LLMV_002_L027",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "conditional-transparency",
+      "time": 127.84,
+      "state": {
+        "time": 127.84,
+        "unit": "conditional-transparency",
+        "previous": "huggingface-price",
+        "next": "world-as-test",
+        "lyric": "LLMV_002_L028",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "world-as-test",
+      "time": 131.42000000000002,
+      "state": {
+        "time": 131.42000000000002,
+        "unit": "world-as-test",
+        "previous": "conditional-transparency",
+        "next": "empty-seat",
+        "lyric": "LLMV_002_L029",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "empty-seat",
+      "time": 134.76000000000002,
+      "state": {
+        "time": 134.76000000000002,
+        "unit": "empty-seat",
+        "previous": "world-as-test",
+        "next": "ai-to-si",
+        "lyric": "LLMV_002_L030",
+        "current_top": 428,
+        "current_bottom": 737,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "ai-to-si",
+      "time": 138.6,
+      "state": {
+        "time": 138.6,
+        "unit": "ai-to-si",
+        "previous": "empty-seat",
+        "next": "cashmere-trust",
+        "lyric": "LLMV_002_L031",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "cashmere-trust",
+      "time": 142.3,
+      "state": {
+        "time": 142.3,
+        "unit": "cashmere-trust",
+        "previous": "ai-to-si",
+        "next": "immortals-three",
+        "lyric": "LLMV_002_L032",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "immortals-three",
+      "time": 145.24,
+      "state": {
+        "time": 145.24,
+        "unit": "immortals-three",
+        "previous": "cashmere-trust",
+        "next": "midjourney-scanner",
+        "lyric": "LLMV_002_L033",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "midjourney-scanner",
+      "time": 149.54,
+      "state": {
+        "time": 149.54,
+        "unit": "midjourney-scanner",
+        "previous": "immortals-three",
+        "next": "brake-gas",
+        "lyric": "LLMV_002_L034",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "brake-gas",
+      "time": 164.06,
+      "state": {
+        "time": 164.06,
+        "unit": "brake-gas",
+        "previous": "midjourney-scanner",
+        "next": "escape-physics",
+        "lyric": "LLMV_002_L038",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "escape-physics",
+      "time": 185.06,
+      "state": {
+        "time": 185.06,
+        "unit": "escape-physics",
+        "previous": "brake-gas",
+        "next": "longevity-escape",
+        "lyric": "LLMV_002_L043",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "longevity-escape",
+      "time": 192.22,
+      "state": {
+        "time": 192.22,
+        "unit": "longevity-escape",
+        "previous": "escape-physics",
+        "next": "doom-condition",
+        "lyric": "LLMV_002_L044",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "doom-condition",
+      "time": 198.28,
+      "state": {
+        "time": 198.28,
+        "unit": "doom-condition",
+        "previous": "longevity-escape",
+        "next": "no-underclass",
+        "lyric": "LLMV_002_L045",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "no-underclass",
+      "time": 201.22,
+      "state": {
+        "time": 201.22,
+        "unit": "no-underclass",
+        "previous": "doom-condition",
+        "next": "genius-country",
+        "lyric": "LLMV_002_L046",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "genius-country",
+      "time": 216.92000000000002,
+      "state": {
+        "time": 216.92000000000002,
+        "unit": "genius-country",
+        "previous": "no-underclass",
+        "next": "lean-proofs",
+        "lyric": "LLMV_002_L049",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "lean-proofs",
+      "time": 220.4,
+      "state": {
+        "time": 220.4,
+        "unit": "lean-proofs",
+        "previous": "genius-country",
+        "next": "phages",
+        "lyric": "LLMV_002_L050",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "phages",
+      "time": 223.4,
+      "state": {
+        "time": 223.4,
+        "unit": "phages",
+        "previous": "lean-proofs",
+        "next": "enzymes",
+        "lyric": "LLMV_002_L051",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "enzymes",
+      "time": 226.4,
+      "state": {
+        "time": 226.4,
+        "unit": "enzymes",
+        "previous": "phages",
+        "next": "kidneys",
+        "lyric": "LLMV_002_L051",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "kidneys",
+      "time": 229.4,
+      "state": {
+        "time": 229.4,
+        "unit": "kidneys",
+        "previous": "enzymes",
+        "next": "good-boys",
+        "lyric": "LLMV_002_L051",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "good-boys",
+      "time": 232.4,
+      "state": {
+        "time": 232.4,
+        "unit": "good-boys",
+        "previous": "kidneys",
+        "next": "sora-dark",
+        "lyric": "LLMV_002_L052",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "sora-dark",
+      "time": 235.4,
+      "state": {
+        "time": 235.4,
+        "unit": "sora-dark",
+        "previous": "good-boys",
+        "next": "stargate-delay",
+        "lyric": "LLMV_002_L052",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "stargate-delay",
+      "time": 238.4,
+      "state": {
+        "time": 238.4,
+        "unit": "stargate-delay",
+        "previous": "sora-dark",
+        "next": "apocalypse-bracket",
+        "lyric": "LLMV_002_L053",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "apocalypse-bracket",
+      "time": 241.5,
+      "state": {
+        "time": 241.5,
+        "unit": "apocalypse-bracket",
+        "previous": "stargate-delay",
+        "next": "loop-happiness",
+        "lyric": "LLMV_002_L054",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "loop-happiness",
+      "time": 244.70000000000002,
+      "state": {
+        "time": 244.70000000000002,
+        "unit": "loop-happiness",
+        "previous": "apocalypse-bracket",
+        "next": "slopacolypse",
+        "lyric": "LLMV_002_L054",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "slopacolypse",
+      "time": 247.9,
+      "state": {
+        "time": 247.9,
+        "unit": "slopacolypse",
+        "previous": "loop-happiness",
+        "next": "back-in-box",
+        "lyric": "LLMV_002_L055",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "back-in-box",
+      "time": 251.4,
+      "state": {
+        "time": 251.4,
+        "unit": "back-in-box",
+        "previous": "slopacolypse",
+        "next": "shell-lining",
+        "lyric": "LLMV_002_L056",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "shell-lining",
+      "time": 273.94,
+      "state": {
+        "time": 273.94,
+        "unit": "shell-lining",
+        "previous": "back-in-box",
+        "next": "do-not-nerf",
+        "lyric": "LLMV_002_L063",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "do-not-nerf",
+      "time": 282.5,
+      "state": {
+        "time": 282.5,
+        "unit": "do-not-nerf",
+        "previous": "shell-lining",
+        "next": "made-in-sf",
+        "lyric": "LLMV_002_L064",
+        "current_top": 428,
+        "current_bottom": 707,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    },
+    {
+      "unit": "made-in-sf",
+      "time": 287.97999999999996,
+      "state": {
+        "time": 287.97999999999996,
+        "unit": "made-in-sf",
+        "previous": "do-not-nerf",
+        "next": null,
+        "lyric": "LLMV_002_L065",
+        "current_top": 428,
+        "current_bottom": 739,
+        "blend": 1
+      },
+      "green_label_top": 429.5,
+      "green_label_bottom": 445,
+      "green_rows": 32
+    }
+  ],
+  "images": [
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_1",
+      "variant": "companion",
+      "status": "review",
+      "time": 45,
+      "path": "designs/LLMV_002_V001_R001_001_layout_1_45000ms.jpg",
+      "sha256": "c7d5e06acfd4261c5d15d36be947fae5aae54b7bec3c2181b11510740960605b",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_2",
+      "variant": "companion",
+      "status": "review",
+      "time": 70.7,
+      "path": "designs/LLMV_002_V001_R001_001_layout_2_70700ms.jpg",
+      "sha256": "8391d4586f9a2c11e60299ee30911261d68a25df23ebfa059ffeba43931b718b",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_3",
+      "variant": "companion",
+      "status": "review",
+      "time": 119,
+      "path": "designs/LLMV_002_V001_R001_001_layout_3_119000ms.jpg",
+      "sha256": "b0d2a7c527a8b6bc08d2a8b37aa300fc8bc9c261a26bf80fbc4da0f4d661785b",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_4",
+      "variant": "companion",
+      "status": "review",
+      "time": 225,
+      "path": "designs/LLMV_002_V001_R001_001_layout_4_225000ms.jpg",
+      "sha256": "e673f618c38f8d7c32ec5b128c0a42cfe769649d54361d16e855606ef6d9614a",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_5",
+      "variant": "companion",
+      "status": "review",
+      "time": 251.5,
+      "path": "designs/LLMV_002_V001_R001_001_layout_5_251500ms.jpg",
+      "sha256": "246cbbbfea32ced43941dc6da49ce3663c9499be3314503a4fe174c5c0b819cf",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_6",
+      "variant": "companion",
+      "status": "review",
+      "time": 287.9,
+      "path": "designs/LLMV_002_V001_R001_001_layout_6_287900ms.jpg",
+      "sha256": "731a9d4dadce09c7d51d0c7e3819d7042df4f3b55066df70cce5cbe5682859af",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "generation_id": "LLMV_002_V001_R001_001_LAYOUT_HD",
+      "variant": "companion",
+      "status": "review",
+      "time": 70.7,
+      "path": "designs/LLMV_002_V001_R001_001_layout_preview_70700ms.jpg",
+      "sha256": "01ed0bfd3a2e3d555f9609d497779b45b6e16b2f6cc0541135a226a403bcf24b",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "deterministic_frame_sha256": "bfe8d0220fdd44149b72e4394a4f176c03d39693352e826b3e35fbeacd54d688",
+  "realtime": {
+    "start": {
+      "enabled": true,
+      "time": 65.2,
+      "readyState": 4,
+      "error": null,
+      "paused": false,
+      "muted": false,
+      "duration": 306.480181,
+      "width": 1920,
+      "height": 1080,
+      "focus_top": 428
+    },
+    "playback": [
+      {
+        "media": {
+          "enabled": true,
+          "time": 65.710243,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 65.710243,
+          "unit": "mild-singularity",
+          "previous": "waymo-presidio",
+          "next": "academy-no-tests",
+          "lyric": "LLMV_002_L013",
+          "current_top": 428,
+          "current_bottom": 737,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 66.320037,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 66.320037,
+          "unit": "academy-no-tests",
+          "previous": "mild-singularity",
+          "next": "taste-moat",
+          "lyric": "LLMV_002_L014",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 66.920018,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 66.920018,
+          "unit": "academy-no-tests",
+          "previous": "mild-singularity",
+          "next": "taste-moat",
+          "lyric": "LLMV_002_L014",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 67.530724,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 67.530724,
+          "unit": "academy-no-tests",
+          "previous": "mild-singularity",
+          "next": "taste-moat",
+          "lyric": "LLMV_002_L014",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 68.129171,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 68.129171,
+          "unit": "taste-moat",
+          "previous": "academy-no-tests",
+          "next": "meat-proxy",
+          "lyric": "LLMV_002_L014",
+          "current_top": 428,
+          "current_bottom": 739,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 68.729528,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 68.729528,
+          "unit": "taste-moat",
+          "previous": "academy-no-tests",
+          "next": "meat-proxy",
+          "lyric": "LLMV_002_L014",
+          "current_top": 428,
+          "current_bottom": 739,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 69.33863,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 69.33863,
+          "unit": "meat-proxy",
+          "previous": "taste-moat",
+          "next": "underclass",
+          "lyric": "LLMV_002_L015",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 0.8658110549906938
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 69.936613,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 69.936613,
+          "unit": "meat-proxy",
+          "previous": "taste-moat",
+          "next": "underclass",
+          "lyric": "LLMV_002_L015",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 70.546961,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 70.546961,
+          "unit": "meat-proxy",
+          "previous": "taste-moat",
+          "next": "underclass",
+          "lyric": "LLMV_002_L015",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 71.146101,
+          "readyState": 4,
+          "error": null,
+          "paused": false,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 71.146101,
+          "unit": "meat-proxy",
+          "previous": "taste-moat",
+          "next": "underclass",
+          "lyric": "LLMV_002_L015",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      }
+    ],
+    "seeks": [
+      {
+        "media": {
+          "enabled": true,
+          "time": 45,
+          "readyState": 4,
+          "error": null,
+          "paused": true,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 45,
+          "unit": "quota-denominator",
+          "previous": "usage-cap",
+          "next": "cursor-no-shoes",
+          "lyric": "LLMV_002_L008",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 225,
+          "readyState": 4,
+          "error": null,
+          "paused": true,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 225,
+          "unit": "phages",
+          "previous": "lean-proofs",
+          "next": "enzymes",
+          "lyric": "LLMV_002_L051",
+          "current_top": 428,
+          "current_bottom": 707,
+          "blend": 1
+        }
+      },
+      {
+        "media": {
+          "enabled": true,
+          "time": 287.9,
+          "readyState": 4,
+          "error": null,
+          "paused": true,
+          "muted": false,
+          "duration": 306.480181,
+          "width": 1920,
+          "height": 1080,
+          "focus_top": 428
+        },
+        "frame": {
+          "time": 287.9,
+          "unit": "made-in-sf",
+          "previous": "do-not-nerf",
+          "next": null,
+          "lyric": "LLMV_002_L065",
+          "current_top": 428,
+          "current_bottom": 739,
+          "blend": 1
+        }
+      }
+    ],
+    "responsive": [
+      {
+        "viewport": [
+          1600,
+          1000
+        ],
+        "horizontal_overflow": false,
+        "controls": true
+      },
+      {
+        "viewport": [
+          1024,
+          768
+        ],
+        "horizontal_overflow": false,
+        "controls": true
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "horizontal_overflow": false,
+        "controls": true
+      }
+    ],
+    "claim": "advancing original source with unmuted playback; perceptual synchronization remains pending"
+  },
+  "visual_review": "pending model image inspection",
+  "full_video_rerender": "not submitted",
+  "human_approval": null
+}

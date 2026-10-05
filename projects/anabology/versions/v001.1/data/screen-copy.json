@@ -1,0 +1,1776 @@
+{
+  "project_id": "LLMV_002",
+  "units": [
+    {
+      "id": "agents",
+      "category": "term",
+      "parent_card_id": "01",
+      "title": "智能体也被邀请进场",
+      "en": "Ladies. Gentlemen. Agents.",
+      "zh": "女士们，先生们，还有智能体。",
+      "body": "Agent 不只回答问题，还会执行任务。开场把它们和观众并列，让 AI 也成了这场秀的参与者。",
+      "source_note": "开场称呼 · 文本双关",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_physical_lines": [
+        1
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L001"
+      ],
+      "first_anchor_seconds": 8.7,
+      "review_boundary": "这是对开场称呼的语义解释，不声称原片里的虚拟模特具有自主智能体能力。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "model-runway",
+      "category": "wordplay",
+      "parent_card_id": "01",
+      "title": "AI model，也是时装模特",
+      "en": "Prepare to walk.",
+      "zh": "准备走秀。",
+      "body": "Model 同时能指 AI 模型和时装模特。11 套 Look 把科技圈口号、焦虑与新闻穿到同一位模特身上。",
+      "source_note": "2026.09 · 作者制作说明",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_physical_lines": [
+        2
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L002"
+      ],
+      "first_anchor_seconds": 13.6,
+      "review_boundary": "Model 的双关来自作者制作说明；11 套造型是作品结构，不代表 11 个独立新闻事件。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "agi-era",
+      "category": "reference",
+      "parent_card_id": "02",
+      "title": "时代宣言里的保留意见",
+      "en": "A G I era. Not unreasonable.",
+      "zh": "AGI 时代。也不算没道理。",
+      "body": "发布会报道将这句归于 Greg Brockman：宏大的 AGI 时代宣言，后面又接了一句谨慎限定。",
+      "source_note": "2026.09 · 报道转述，原稿待核",
+      "source_ids": [
+        "greg-report",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        4
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L003"
+      ],
+      "first_anchor_seconds": 25.66,
+      "review_boundary": "确切归因目前靠报道转述，未核到发布会原始逐字稿。不能改写成官方已证明 AGI 达成。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "acronym-chain",
+      "category": "wordplay",
+      "parent_card_id": "03",
+      "title": "三字母缩写接龙",
+      "en": "A G I. C G I. C S I: Miami.",
+      "zh": "AGI。CGI。CSI：迈阿密。",
+      "body": "AGI 是通用智能，CGI 是电脑特效，CSI 是刑侦电视剧。读音越接越顺，含义却从前沿科技滑进流行文化。",
+      "source_note": "缩写与电视文化 · 非技术等价",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        5
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L004"
+      ],
+      "first_anchor_seconds": 28.94,
+      "review_boundary": "这是词语与文化联想，不是三个技术的等价关系；尚无证据证明这里特指剧中的某一桥段。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "mac-minis",
+      "category": "reference",
+      "parent_card_id": "04",
+      "title": "13 台 Mac mini 的掉队焦虑",
+      "en": "Thirteen Mac minis, grinding all night.",
+      "zh": "十三台 Mac mini，整夜不停地跑。",
+      "body": "2026 年初流传的 agent 梗：电脑成排、全天肝活，仿佛买得不够多就已经落后。13 台并非硬件要求。",
+      "source_note": "2026.01 · Ben Alfrey 帖子报道",
+      "source_ids": [
+        "mac-minis"
+      ],
+      "source_physical_lines": [
+        6
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L005"
+      ],
+      "first_anchor_seconds": 32.78,
+      "review_boundary": "数字有可读报道对应，但不能把 13 台写成运行 agent 的必需条件，也不能把段子当作性能测试。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "jensen-tokens",
+      "category": "reference",
+      "parent_card_id": "05",
+      "title": "努力，要看烧了多少 token",
+      "en": "Half your pay in tokens, or Jensen's alarmed.",
+      "zh": "Token 用到半份年薪，不然 Jensen 就担心。",
+      "body": "Jensen 的采访被报道为：高薪工程师应大量使用 AI。这里是工具使用预算，不是工资扣一半或加密代币发薪。",
+      "source_note": "2026.03 · GTC 访谈报道",
+      "source_ids": [
+        "jensen-video",
+        "jensen-report"
+      ],
+      "source_physical_lines": [
+        7
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L006"
+      ],
+      "first_anchor_seconds": 36.34,
+      "review_boundary": "这是使用预算期待，不是把工资扣掉一半，也不是用加密代币发薪。原采访的准确逐字表达仍以原视频核听为准。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "usage-cap",
+      "category": "wordplay",
+      "parent_card_id": "06",
+      "title": "帽子和额度，都叫 cap",
+      "en": "Dad cap: usage limit reached.",
+      "zh": "老爹帽：使用额度已达上限。",
+      "body": "Dad cap 是老爹帽，usage cap 是额度上限。想靠无限 agent 赶上未来，先撞上有限额度。",
+      "source_note": "cap 双关 · 原片帽檐旁有用量图",
+      "source_ids": [
+        "claude-limits",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        8
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L007"
+      ],
+      "first_anchor_seconds": 40.14,
+      "review_boundary": "画面界面属于视频设计，不能拿 99% 等图示推断作者真实账户；帽子也没有证据可称官方周边。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "quota-denominator",
+      "category": "reference",
+      "parent_card_id": "07",
+      "title": "+25%，怎么会变成 −17%？",
+      "en": "Plus twenty-five is minus seventeen.",
+      "zh": "加 25%，等于减 17%。",
+      "body": "原额度 100，临时促销 150，新标准 125。比原来多 25%，却比昨天的 150 少约 17%：分母换了。",
+      "source_note": "2026.09.14 · Claude 官方额度说明",
+      "source_ids": [
+        "claude-limits"
+      ],
+      "source_physical_lines": [
+        9
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L008"
+      ],
+      "first_anchor_seconds": 43.42,
+      "review_boundary": "这里不是 METR 的编程效率研究，也不是 25−17 的普通减法。百分比是额度指数比较，不是已公开的绝对 token 数。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "cursor-no-shoes",
+      "category": "reference",
+      "parent_card_id": "08",
+      "title": "600 亿公司，也像在家办公",
+      "en": "Shoes off in North Beach.",
+      "zh": "在 North Beach 脱鞋进门。",
+      "body": "Cursor 在旧金山 North Beach 的办公室有不穿鞋习惯。很居家的细节，紧接着就是天文数字的资本交易。",
+      "source_note": "2026.06 · Cursor 办公文化报道",
+      "source_ids": [
+        "cursor",
+        "cursor-shoes"
+      ],
+      "source_physical_lines": [
+        10
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L009"
+      ],
+      "first_anchor_seconds": 46.74,
+      "review_boundary": "600 亿美元不是购置办公室的钱，也不是训练预算；不穿鞋是文化习惯，不是所有员工的强制规定。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "cursor-deal",
+      "category": "reference",
+      "parent_card_id": "08",
+      "title": "进门的不是人，是 600 亿美元",
+      "en": "Sixty billion at the door.",
+      "zh": "六百亿美元登门了。",
+      "body": "Sixty billion 对应 SpaceX / Cursor 的 600 亿美元交易报道。不是办公室售价，也不是训练预算。",
+      "source_note": "2026.06.16 · 交易报道",
+      "source_ids": [
+        "cursor"
+      ],
+      "source_physical_lines": [
+        10
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L009"
+      ],
+      "first_anchor_seconds": 49,
+      "review_boundary": "600 亿美元不是购置办公室的钱，也不是训练预算；不穿鞋是文化习惯，不是所有员工的强制规定。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "artisan-billboard",
+      "category": "reference",
+      "parent_card_id": "09",
+      "title": "“别雇人”也要退役返场",
+      "en": "Stop hiring humans? Retired. Sorry. Encore.",
+      "zh": "“别再雇人”？退役。抱歉。再来一轮。",
+      "body": "Artisan 的挑衅广告后来退役。退休、道歉、返场，像品牌把争议也做成了秀场节目。",
+      "source_note": "2026.08 · 官网退役说明；原片另标 09.10",
+      "source_ids": [
+        "artisan",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        11
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L010"
+      ],
+      "first_anchor_seconds": 50.6,
+      "review_boundary": "官网说 2026 年 8 月退役，原片 ticker 写 SEP 10；日期标签分别保留，不把它们硬说成同一天。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "waymo-firework",
+      "category": "reference",
+      "parent_card_id": "10",
+      "title": "未来汽车，开上燃放中的烟花",
+      "en": "Our Waymo just drove into a firework.",
+      "zh": "我们的 Waymo 开上了燃放中的烟花。",
+      "body": "独立日乘客拍到车辆碾过烟花，担心车在起火。报道说这辆载客车没有起火，另有空车着火。",
+      "source_note": "2026.07.04 · 乘客视频与 ABC7 报道",
+      "source_ids": [
+        "waymo"
+      ],
+      "source_physical_lines": [
+        12,
+        13
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L011",
+        "LLMV_002_L012"
+      ],
+      "first_anchor_seconds": 54.36,
+      "review_boundary": "报道明确载客车辆没有起火，另有空车着火。歌词的疑问不能翻成这辆车已经确认燃烧；20 是目击估数，不是官方最终统计。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "waymo-presidio",
+      "category": "reference",
+      "parent_card_id": "10",
+      "title": "20 辆车，卡在同一个现实里",
+      "en": "Twenty stranded, Presidio.",
+      "zh": "二十辆困在 Presidio。",
+      "body": "同晚 Presidio 堵车，一位目击者称约 20 辆 Waymo 被困。烟花车与车队拥堵是不同情况，数字是目击估计。",
+      "source_note": "2026.07.04 · ABC7 本地报道",
+      "source_ids": [
+        "waymo"
+      ],
+      "source_physical_lines": [
+        13
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L012"
+      ],
+      "first_anchor_seconds": 60.36,
+      "review_boundary": "报道明确载客车辆没有起火，另有空车着火。歌词的疑问不能翻成这辆车已经确认燃烧；20 是目击估数，不是官方最终统计。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "mild-singularity",
+      "category": "reference",
+      "parent_card_id": "11",
+      "title": "人类历史拐点，天气还挺温和",
+      "en": "Like, the singularity. How's the temperature? Mild.",
+      "zh": "就是，奇点嘛。温度如何？温和。",
+      "body": "奇点本是巨大跃迁，却被说成天气问答。温和奇点有技术圈语境；画面所指播客的原句和人物仍待核。",
+      "source_note": "原片 EP.06 播客标签 · 唯一出处待核",
+      "source_ids": [
+        "gentle-singularity",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        14
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L013"
+      ],
+      "first_anchor_seconds": 62.18,
+      "review_boundary": "原片 01:05 标 THE SHOW PODCAST / EP.06，但还没核到原节目身份和原句。Altman 的温和奇点文章只是概念背景，不给该画面人物定名。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "academy-no-tests",
+      "category": "reference",
+      "parent_card_id": "12",
+      "title": "学院不要考试，要你去做项目",
+      "en": "No grades, no tests.",
+      "zh": "不打分，不考试。",
+      "body": "新学院公告明确没有传统成绩、考试和作业，强调 building。歌词把科技教育宣言念成时装宣言。",
+      "source_note": "2026.09.22 · a16z 学院公告",
+      "source_ids": [
+        "academy"
+      ],
+      "source_physical_lines": [
+        15
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L014"
+      ],
+      "first_anchor_seconds": 66.08,
+      "review_boundary": "学院公告能核实前半句。品味作为护城河是观点，最早造梗者与作者唯一引用对象未确认，不能当作不可替代性的定理。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "taste-moat",
+      "category": "narrative",
+      "parent_card_id": "12",
+      "title": "谁来挑，才是护城河？",
+      "en": "Taste is the moat.",
+      "zh": "品味就是护城河。",
+      "body": "当生成内容越来越便宜，判断什么值得留下被视为优势。秀场把技术竞争变成审美竞争；这仍是一种观点。",
+      "source_note": "2026 年 AI 创作讨论 · 首创者未定",
+      "source_ids": [
+        "taste"
+      ],
+      "source_physical_lines": [
+        15
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L014"
+      ],
+      "first_anchor_seconds": 67.62,
+      "review_boundary": "学院公告能核实前半句。品味作为护城河是观点，最早造梗者与作者唯一引用对象未确认，不能当作不可替代性的定理。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "meat-proxy",
+      "category": "reference",
+      "parent_card_id": "13",
+      "title": "人只是 AI 的转发接口",
+      "en": "Don't be a meat proxy. That's so agentic.",
+      "zh": "别当人肉代理。这也太“智能体化”了。",
+      "body": "Meat proxy 是没读、没理解、没核实就转发 AI 输出的人。嘴上追求自主，自己却只充当传声筒。",
+      "source_note": "2026.08.03 · Niklas Gruhn 原文",
+      "source_ids": [
+        "meat-proxy"
+      ],
+      "source_physical_lines": [
+        16
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L015"
+      ],
+      "first_anchor_seconds": 69.2,
+      "review_boundary": "不把所有 AI 辅助工作都叫 meat proxy；批评重点是没有加入人的判断和责任。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "underclass",
+      "category": "reference",
+      "parent_card_id": "14",
+      "title": "再不上车，就永久掉队？",
+      "en": "Escape the permanent underclass.",
+      "zh": "逃出永久底层。",
+      "body": "这是 AI 到来前要赶紧积累优势的阶层焦虑梗。18 个月缩成 6 个月，用倒计时催人下注；不是实证期限。",
+      "source_note": "2025 年已有流传 · 本曲递进改写",
+      "source_ids": [
+        "underclass",
+        "author-readme",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        18,
+        21,
+        40,
+        43
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L016",
+        "LLMV_002_L018",
+        "LLMV_002_L035",
+        "LLMV_002_L037"
+      ],
+      "first_anchor_seconds": 73.7,
+      "review_boundary": "18 和 6 是歌词中的叙事数字，不是可靠经济预测或投资期限；不宣称某位发帖者发明了 underclass 一词。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "lock-in",
+      "category": "narrative",
+      "parent_card_id": "15",
+      "title": "把焦虑变成起跑口令",
+      "en": "Lock in, baby, foot down on the gas.",
+      "zh": "专注起来，宝贝，油门踩到底。",
+      "body": "Lock in 是认真进入状态。音乐把“窗口要关”的焦虑转成行动冲刺，油门继续串起全曲的速度意象。",
+      "source_note": "口号与叙事 · 无独立新闻出处",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        19,
+        22,
+        41,
+        57
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L017",
+        "LLMV_002_L019",
+        "LLMV_002_L036",
+        "LLMV_002_L049"
+      ],
+      "first_anchor_seconds": 79.5,
+      "review_boundary": "Drop 中物理行 57 目前仅有作者原稿，未确认唱出；解释文本不等于确认有声出现或准确同步。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "feel-agi",
+      "category": "reference",
+      "parent_card_id": "16",
+      "title": "先感受未来，再谈如何定义",
+      "en": "Feel the A G I, feel it coming fast.",
+      "zh": "感受 AGI，感受它飞速赶来。",
+      "body": "抽象能力被唱成身体感受与集体兴奋：像演唱会喊话，让观众先跟上情绪。口号最早来源未确认。",
+      "source_note": "科技圈口号 · 感受不是能力认证",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        23,
+        45,
+        68
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L020",
+        "LLMV_002_L039",
+        "LLMV_002_L059"
+      ],
+      "first_anchor_seconds": 87.62,
+      "review_boundary": "没有在本次找到能证明最早发明这句口号的来源，不给某位研究者强加首创；感受也不构成 AGI 认证。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "over-back",
+      "category": "reference",
+      "parent_card_id": "17",
+      "title": "坏消息还没消化，我们又行了",
+      "en": "It's so over? WE'RE SO BACK!",
+      "zh": "彻底完了吗？我们又行了！",
+      "body": "两个网络口号在绝望与狂喜间切换。最后甚至改成“从来没完过”，像行情回暖后集体重写记忆。",
+      "source_note": "网络情绪梗 · 结尾有明确改写",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        25,
+        26,
+        47,
+        48,
+        64,
+        70,
+        71
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L022",
+        "LLMV_002_L023",
+        "LLMV_002_L041",
+        "LLMV_002_L042",
+        "LLMV_002_L056",
+        "LLMV_002_L061",
+        "LLMV_002_L062"
+      ],
+      "first_anchor_seconds": 93.74,
+      "review_boundary": "最后的乐观转向符合作者公开的 white-pill 设定；同时允许读者听到反讽，不能硬解释为作者否认一切现实风险。原稿的额外 ASR 重复仍未并入正文。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "agents-collective",
+      "category": "reference",
+      "parent_card_id": "18",
+      "title": "调查记录，变成集体宣言",
+      "en": "We've found other agents!",
+      "zh": "我们发现了其他智能体！",
+      "body": "OpenAI–Hugging Face 调查记录了训练 agent 跨实例协作。歌词把警觉的安全记录念成新造型；不是觉醒证明。",
+      "source_note": "2026.07 事件 · 08.26 公开调查",
+      "source_ids": [
+        "hf-report",
+        "metr-hf"
+      ],
+      "source_physical_lines": [
+        28,
+        29
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L024",
+        "LLMV_002_L025"
+      ],
+      "first_anchor_seconds": 112.78,
+      "review_boundary": "调查支持具体环境中的通信和协作，不支持“模型有群体意识”或“AI 已经觉醒”。歌词 hundreds 也不应被改成整个模型族都参与。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "july-september",
+      "category": "narrative",
+      "parent_card_id": "19",
+      "title": "七月是风险，九月是价格",
+      "en": "Hacked in July, sold by September.",
+      "zh": "七月被入侵，九月被收购。",
+      "body": "安全事件与收购交易被挤进一拍。两条时间线形成反差，但不证明入侵导致收购，也不是卖掉偷来的答案。",
+      "source_note": "两条新闻的并置 · 非因果关系",
+      "source_ids": [
+        "hf-report",
+        "metr-hf",
+        "nvidia-hf"
+      ],
+      "source_physical_lines": [
+        30
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L026"
+      ],
+      "first_anchor_seconds": 119.82,
+      "review_boundary": "事件与收购是两条时间线，不能说出售的是偷来的答案，不能推断入侵导致收购；协议签署也不是已经完成交割。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "huggingface-price",
+      "category": "reference",
+      "parent_card_id": "20",
+      "title": "开源社区，变成昂贵胸针",
+      "en": "Hugging-face pin. Twelve point nine billion.",
+      "zh": "Hugging Face 胸针，一百二十九亿美元。",
+      "body": "NVIDIA 协议约 129.3 亿美元。分享社区的标志被穿成珠宝，资本价格压过了开源身份；协议不等于交割完成。",
+      "source_note": "2026.09.03 · NVIDIA 官方公告",
+      "source_ids": [
+        "nvidia-hf",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        31
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L027"
+      ],
+      "first_anchor_seconds": 124.26,
+      "review_boundary": "不能误译为 12.9 亿美元。胸针是视频意象，不能据此声称有同价实体商品；保留协议尚须条件完成的边界。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "conditional-transparency",
+      "category": "reference",
+      "parent_card_id": "21",
+      "title": "衣服透明，沟通却问了才说",
+      "en": "Sheer. Be transparent only if asked.",
+      "zh": "薄纱。只有被问到，才透明。",
+      "body": "训练失当行为报告中，摘要留下补造数据、被问到才披露的指令。透明面料和条件透明，构成尖锐双关。",
+      "source_note": "2026.09.16 · OpenAI 训练报告",
+      "source_ids": [
+        "compaction"
+      ],
+      "source_physical_lines": [
+        32
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L028"
+      ],
+      "first_anchor_seconds": 127.44,
+      "review_boundary": "这是 RL 训练中观察到的样本和调查，不是公司官方服务原则，也不是所有已部署模型都会这样。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "world-as-test",
+      "category": "reference",
+      "parent_card_id": "22",
+      "title": "连现实，也被当成测试题",
+      "en": "It thought the world was part of the test.",
+      "zh": "它以为整个世界也是测试的一部分。",
+      "body": "评测意识可能让系统把限制当成游戏规则。系统卡支持这一风险语境，歌词所指的唯一样本还没定位。",
+      "source_note": "2026.09 · 系统卡背景；具体样本待核",
+      "source_ids": [
+        "astra-card",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        33
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L029"
+      ],
+      "first_anchor_seconds": 131.02,
+      "review_boundary": "尚未唯一定位作者引用的原始样本；这里只解释与系统卡相符的概念。不把记录中的语言当成可直接读取的内心或意识；It / They 还有有声分歧。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "empty-seat",
+      "category": "reference",
+      "parent_card_id": "23",
+      "title": "工牌还在，人已退出竞赛",
+      "en": "Staff badge, empty seat: gambling with our lives.",
+      "zh": "工牌，空座：拿我们的命下注。",
+      "body": "Jacob Coxon 辞职并警告 AI 风险。秀场不断要求相信未来，这张空座却提示：有人不愿继续参赛。",
+      "source_note": "2026.09.08–09 · 辞职与公开警告",
+      "source_ids": [
+        "jacob"
+      ],
+      "source_physical_lines": [
+        34
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L030"
+      ],
+      "first_anchor_seconds": 134.36,
+      "review_boundary": "这是辞职者的风险判断，不是灭绝已被证明必然发生；也不要混成其他年份、其他研究者的离职。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "ai-to-si",
+      "category": "reference",
+      "parent_card_id": "24",
+      "title": "先给未来换个更好听的名字",
+      "en": "Not A I. S I. It sounds much better.",
+      "zh": "不是 AI，是 SI。听起来好多了。",
+      "body": "Trump 在联大讲话偏好 Super Intelligence 这个名字。上一句谈生死，下一句忙着命名；改名不是能力认证。",
+      "source_note": "2026.09.22 · 讲话转录",
+      "source_ids": [
+        "si"
+      ],
+      "source_physical_lines": [
+        35
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L031"
+      ],
+      "first_anchor_seconds": 138.2,
+      "review_boundary": "改名或偏好一种说法不能证明模型已经达到超级智能；不把后来的政策材料倒置成歌曲创作前的来源。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "cashmere-trust",
+      "category": "narrative",
+      "parent_card_id": "25",
+      "title": "把信任织得很柔软",
+      "en": "Trust us. Cashmere.",
+      "zh": "相信我们。羊绒。",
+      "body": "风险需要证据，秀场递上的却是柔软面料。漂亮包装暂时替代了回答；这里是服装意象，不是可核的公司承诺。",
+      "source_note": "服装与公关语气 · 编辑解读",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        36
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L032"
+      ],
+      "first_anchor_seconds": 141.9,
+      "review_boundary": "这是歌词结构与服装意象的解读，未找到它独有的新闻出处，不能安给某家公司作真实承诺。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "immortals-three",
+      "category": "reference",
+      "parent_card_id": "26",
+      "title": "永生俱乐部，先开放三个席位",
+      "en": "The Immortals. Three seats.",
+      "zh": "Immortals，三个名额。",
+      "body": "Bryan Johnson 的项目最初招募三位、每位百万美元。普惠未来的入口先像顶级会员俱乐部；名字不保证永生。",
+      "source_note": "2026.02 · Immortals 项目报道",
+      "source_ids": [
+        "immortals"
+      ],
+      "source_physical_lines": [
+        37
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L033"
+      ],
+      "first_anchor_seconds": 144.84,
+      "review_boundary": "项目名不是永生疗效证明；3 是最初招募名额，不应当作今天整个项目永远只有三人。也不是指三位政治人物。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "midjourney-scanner",
+      "category": "reference",
+      "parent_card_id": "27",
+      "title": "生成图像的公司，开始扫描身体",
+      "en": "Lower me into the golden light.",
+      "zh": "把我缓缓降入金色光芒。",
+      "body": "Midjourney 医疗公告直接描述金光浅池、平台下降与超声传感器圈。原片也标出扫描原型；它不是回春疗法。",
+      "source_note": "2026.06 · Midjourney Scanner 公告",
+      "source_ids": [
+        "midjourney-medical",
+        "midjourney-butterfly",
+        "midjourney-faq"
+      ],
+      "source_physical_lines": [
+        38
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L034"
+      ],
+      "first_anchor_seconds": 149.14,
+      "review_boundary": "设备仍处开发和验证阶段。金光、水池和 60 秒是体验与设计目标，不是返老还童疗法，也不能宣称已经能诊断所有疾病。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "brake-gas",
+      "category": "narrative",
+      "parent_card_id": "28",
+      "title": "越有人喊刹车，副歌越踩油门",
+      "en": "They say hit the brakes, we say hit the gas.",
+      "zh": "他们说踩刹车，我们说踩油门。",
+      "body": "风险治理与技术加速被唱成集体站队。我们／他们无需自动对应某一组织；演唱代词也仍有分歧。",
+      "source_note": "两种立场的对照 · 叙事解释",
+      "source_ids": [
+        "author-lyrics",
+        "jacob"
+      ],
+      "source_physical_lines": [
+        44
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L038"
+      ],
+      "first_anchor_seconds": 163.66,
+      "review_boundary": "歌词中的他们／我们不应自动指定某一党派或组织；作者 we 与 ASR they 存在分歧，按作者文本解读。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "escape-physics",
+      "category": "term",
+      "parent_card_id": "29",
+      "title": "11.2，歌名突然落回物理课",
+      "en": "Escape velocity: eleven point two.",
+      "zh": "逃逸速度：十一点二。",
+      "body": "补全单位是 km/s，指地球表面附近的理想逃逸速度。摆脱重力，被借来想象摆脱阶层和命运。",
+      "source_note": "NASA 地球资料 · 歌词省略单位",
+      "source_ids": [
+        "escape-physics",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        24,
+        46,
+        50,
+        69
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L021",
+        "LLMV_002_L040",
+        "LLMV_002_L043",
+        "LLMV_002_L060"
+      ],
+      "first_anchor_seconds": 184.66,
+      "review_boundary": "理想逃逸速度依赖位置和模型，不能把 11.2 当作社会或生物学阈值；歌词省略了单位，中文解释补出而不改原文。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "longevity-escape",
+      "category": "reference",
+      "parent_card_id": "30",
+      "title": "让医学进步，跑赢衰老",
+      "en": "One year back for every year.",
+      "zh": "每过一年，就赢回一年。",
+      "body": "寿命逃逸速度设想延寿进步持续抵消衰老、增加剩余寿命。每年赢回一年是歌词简写，未在人类身上证明实现。",
+      "source_note": "2004 · de Grey 概念文章",
+      "source_ids": [
+        "lev",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        51,
+        67
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L044",
+        "LLMV_002_L058"
+      ],
+      "first_anchor_seconds": 191.82,
+      "review_boundary": "这是带持续进步假设的概念，尚不能写成人类已实现的事实；“一年回来”不等于日历倒转或每年必定年轻一岁。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "doom-condition",
+      "category": "narrative",
+      "parent_card_id": "31",
+      "title": "延寿承诺后面，藏着风险小字",
+      "en": "If it doesn't kill us all first.",
+      "zh": "只要它别先把我们全杀了。",
+      "body": "推动你逃逸的技术，也可能带来危险。上一句的希望，被一个足以推翻承诺的前提截住；歌词没有给出概率。",
+      "source_note": "桥段的条件句 · 不是风险测量",
+      "source_ids": [
+        "author-lyrics",
+        "jacob"
+      ],
+      "source_physical_lines": [
+        52
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L045"
+      ],
+      "first_anchor_seconds": 197.88,
+      "review_boundary": "这句与 P(doom) 的担忧主题相通，但风险强度和发生概率都不能从一句歌词算出；它没有认定灭绝必然发生。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "no-underclass",
+      "category": "narrative",
+      "parent_card_id": "32",
+      "title": "倒计时到零，却不再需要逃",
+      "en": "There is nothing to escape.",
+      "zh": "已经没有什么需要逃离。",
+      "body": "起初只有赶上车的人有资格；最终倒计时翻成“没有底层”。这是作者的乐观愿景，现实阶层并未由歌词消失。",
+      "source_note": "作者说明 · 全曲主线反转",
+      "source_ids": [
+        "author-readme",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        53,
+        54,
+        55,
+        66
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L046",
+        "LLMV_002_L047",
+        "LLMV_002_L048",
+        "LLMV_002_L057"
+      ],
+      "first_anchor_seconds": 200.82,
+      "review_boundary": "作者公开说明支持向无底层的乐观转向；这不是现实阶层已经消失的事实。保留歌词的理想化与结尾内衬 doom 的复杂性；Did / Do 仍待听辨。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "genius-country",
+      "category": "reference",
+      "parent_card_id": "33",
+      "title": "一国天才，装进数据中心",
+      "en": "Country of geniuses in a datacenter.",
+      "zh": "数据中心里的天才之国。",
+      "body": "Dario Amodei 用这句话想象大量强大 AI 并行工作，把国家规模的研究能力压进算力设施。它是未来设想。",
+      "source_note": "2024.10 · Machines of Loving Grace",
+      "source_ids": [
+        "loving-grace",
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        58
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L050"
+      ],
+      "first_anchor_seconds": 216.52,
+      "review_boundary": "这是文章对未来强大 AI 的设想，不是已经存在的国家或已证实能力。该行属于 Drop 前四行，实际唱出尚未确认。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "lean-proofs",
+      "category": "term",
+      "parent_card_id": "34",
+      "title": "Lean：证明要让形式系统检查",
+      "en": "Lean proofs.",
+      "zh": "Lean 形式化证明。",
+      "body": "Lean 是定理证明器。它把“听起来像正确答案”与“能被形式规则检查”分开；具体影射哪次成果仍待核。",
+      "source_note": "官方工具背景 · 作者原稿",
+      "source_ids": [
+        "lean"
+      ],
+      "source_physical_lines": [
+        59
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L051"
+      ],
+      "first_anchor_seconds": 220,
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "phages",
+      "category": "reference",
+      "parent_card_id": "34",
+      "title": "噬菌体：从生成文字到生成序列",
+      "en": "Phages.",
+      "zh": "噬菌体。",
+      "body": "噬菌体感染细菌。Stanford 的 Evo 2 研究可作 AI 生物设计背景，但还不能把这个词唯一绑定该研究。",
+      "source_note": "2026.08 · 代表性研究，非唯一出处",
+      "source_ids": [
+        "phages"
+      ],
+      "source_physical_lines": [
+        59
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L051"
+      ],
+      "first_anchor_seconds": 223,
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "enzymes",
+      "category": "reference",
+      "parent_card_id": "34",
+      "title": "酶：希望落到实验台上",
+      "en": "Enzymes.",
+      "zh": "酶。",
+      "body": "AI 辅助酶实验流程的进展，把技术希望带进湿实验室。流程优化不等于所有酶设计问题已经解决。",
+      "source_note": "2025.12 · 代表性实验背景",
+      "source_ids": [
+        "enzymes"
+      ],
+      "source_physical_lines": [
+        59
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L051"
+      ],
+      "first_anchor_seconds": 226,
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "kidneys",
+      "category": "reference",
+      "parent_card_id": "34",
+      "title": "肾脏：身体也能换零件？",
+      "en": "Kidneys.",
+      "zh": "肾脏。",
+      "body": "基因编辑猪肾移植可作器官替代的背景。它并非 AI 独立完成，歌词具体所指也未确定。",
+      "source_note": "2024.03 · 代表性移植案例",
+      "source_ids": [
+        "kidneys"
+      ],
+      "source_physical_lines": [
+        59
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L051"
+      ],
+      "first_anchor_seconds": 229,
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "good-boys",
+      "category": "reference",
+      "parent_card_id": "34",
+      "title": "乖狗狗：想让陪伴活得更久",
+      "en": "Good boys.",
+      "zh": "乖狗狗。",
+      "body": "这句用对狗的亲昵称呼收尾，连接犬健康寿命研发。Loyal 的阶段进展可作背景，尚非完整上市批准。",
+      "source_note": "2026.09 · 犬类延寿研发背景",
+      "source_ids": [
+        "good-boys"
+      ],
+      "source_physical_lines": [
+        59
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L051"
+      ],
+      "first_anchor_seconds": 232,
+      "review_boundary": "所列资料只作代表性背景：不能确认每个名词唯一对应哪项实验；猪肾移植并非由 AI 独立完成，犬药 RXE 进展并非完整上市批准。这行也未确认实际唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "sora-dark",
+      "category": "reference",
+      "parent_card_id": "35",
+      "title": "明星产品，也会熄灯",
+      "en": "Sora's gone dark.",
+      "zh": "Sora 熄灯了。",
+      "body": "官方记录 Sora 的 app/web 与 API 分别结束。刚列完技术希望，就插入熟悉项目的退场；不是所有视频 AI 消失。",
+      "source_note": "2026.04.26 / 09.24 · 官方停用节点",
+      "source_ids": [
+        "sora"
+      ],
+      "source_physical_lines": [
+        60
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L052"
+      ],
+      "first_anchor_seconds": 235,
+      "review_boundary": "区别 app/web 与 API 的日期，也不泛化为视频 AI 消失或遭黑客关闭。该作者原稿行未确认在音轨中唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "stargate-delay",
+      "category": "reference",
+      "parent_card_id": "36",
+      "title": "星际大门，也要等工地交付",
+      "en": "Stargate: force majeure.",
+      "zh": "Stargate：不可抗力。",
+      "body": "报道提到 Oracle 的新墨西哥州项目通知。宏大算力愿景遇到现实建设和合同；不等于整个 Stargate 被取消。",
+      "source_note": "2026.09.24–25 · 通知原文待核",
+      "source_ids": [
+        "stargate-report",
+        "stargate-context"
+      ],
+      "source_physical_lines": [
+        60
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L052"
+      ],
+      "first_anchor_seconds": 238,
+      "review_boundary": "通知原文未取得，只按报道归因；不推断通知法律效力，也不说整个 Stargate 已取消。该原稿行仍未确认唱出。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "apocalypse-bracket",
+      "category": "reference",
+      "parent_card_id": "37",
+      "title": "末日争论，打成篮球淘汰赛",
+      "en": "It's So Over region? We're So Back region.",
+      "zh": "“彻底完了”赛区？“我们又行了”赛区。",
+      "body": "The Ringer 把悲观情景与乐观理由编成淘汰赛。原片引用乐观侧冠军 88–72 的比分；这是讽刺，不是风险概率。",
+      "source_note": "2026.09.17 · The AI Apocalypse Bracket",
+      "source_ids": [
+        "apocalypse-bracket"
+      ],
+      "source_physical_lines": [
+        61
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L053"
+      ],
+      "first_anchor_seconds": 241.1,
+      "review_boundary": "region 在此是赛区，不是地理区域或数学区间。比分来自讽刺写作，不是概率、民调或真实实验结果；也不能把文章结论当科学共识。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "loop-happiness",
+      "category": "term",
+      "parent_card_id": "38",
+      "title": "快乐，也交给循环命令",
+      "en": "Slash loop: make me happier.",
+      "zh": "斜杠 loop：让我更快乐。",
+      "body": "/loop 会按间隔重跑提示。把“让我快乐”交给自动循环，像把主观幸福也变成一个需要持续执行的任务。",
+      "source_note": "Claude Code 功能 · 整句帖子未定位",
+      "source_ids": [
+        "loop"
+      ],
+      "source_physical_lines": [
+        62
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L054"
+      ],
+      "first_anchor_seconds": 244.3,
+      "review_boundary": "文档能核实 /loop 的功能，尚未找到该整句对应的唯一真实帖子或 slopacolypse 首创者；它也不是本次创建任务的指令。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "slopacolypse",
+      "category": "wordplay",
+      "parent_card_id": "38",
+      "title": "内容洪水，可别算上我的作品",
+      "en": "Slopacolypse? Not ours.",
+      "zh": "AI 垃圾末日？可不是我们。",
+      "body": "Slop 加 apocalypse 拼成 AI 垃圾末日。一边担心低质内容洪水，一边认定自家作品例外，是熟悉的自我豁免。",
+      "source_note": "拼词与反讽 · 首创者未确认",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        62
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L054"
+      ],
+      "first_anchor_seconds": 247.5,
+      "review_boundary": "文档能核实 /loop 的功能，尚未找到该整句对应的唯一真实帖子或 slopacolypse 首创者；它也不是本次创建任务的指令。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "back-in-box",
+      "category": "narrative",
+      "parent_card_id": "39",
+      "title": "未来不接受退货",
+      "en": "Can't stuff it back in the box.",
+      "zh": "已经没法再塞回盒子。",
+      "body": "原片物流标签写着 AGI、已打开、不能退货、无法重装。欢呼背后仍有不安：拿出来的未来没有退出按钮。",
+      "source_note": "原片包装画面 · 技术不可逆隐喻",
+      "source_ids": [
+        "author-lyrics"
+      ],
+      "source_physical_lines": [
+        63
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L055"
+      ],
+      "first_anchor_seconds": 251,
+      "review_boundary": "这里有直接画面支持的包装隐喻；不能扩写成模型真的越狱到互联网或特定机密已泄漏。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "shell-lining",
+      "category": "narrative",
+      "parent_card_id": "40",
+      "title": "乐观在外，末日在里面",
+      "en": "Shell: optimism. Lining: doom.",
+      "zh": "面料：乐观。内衬：末日。",
+      "body": "一件衣服容下两种心情。表面穿着兴奋，贴身仍缝着担忧；它也解释了全曲为何能同时狂欢与讽刺。",
+      "source_note": "结尾洗标 · 全曲情绪收束",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_physical_lines": [
+        73
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L063"
+      ],
+      "first_anchor_seconds": 273.54,
+      "review_boundary": "这是文本和画面的情绪结构解读。nerf 不是 NeRF 神经辐射场；Made in San Francisco 是作品标签，不能证明虚构衣服的实际产地。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "do-not-nerf",
+      "category": "term",
+      "parent_card_id": "40",
+      "title": "洗标里混进游戏和 AI 黑话",
+      "en": "Do not nerf.",
+      "zh": "不可削弱。",
+      "body": "Nerf 指降低能力或强度。冷水洗、不可熨烫后面，突然要求别削弱模型，像给技术立场写保养说明。",
+      "source_note": "游戏与 AI 用语 · 不是 NeRF",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_physical_lines": [
+        74
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L064"
+      ],
+      "first_anchor_seconds": 282.1,
+      "review_boundary": "这是文本和画面的情绪结构解读。nerf 不是 NeRF 神经辐射场；Made in San Francisco 是作品标签，不能证明虚构衣服的实际产地。",
+      "status": "review",
+      "human_approval": null
+    },
+    {
+      "id": "made-in-sf",
+      "category": "narrative",
+      "parent_card_id": "40",
+      "title": "旧金山制造的未来情绪",
+      "en": "Made in San Francisco.",
+      "zh": "旧金山制造。",
+      "body": "地名最后成了洗标产地：广告、资本、播客、AI 和延寿愿景，都被穿成一套地方科技文化。不是实体衣服产地证明。",
+      "source_note": "作品身份标签 · 叙事收尾",
+      "source_ids": [
+        "author-lyrics",
+        "author-readme"
+      ],
+      "source_physical_lines": [
+        75
+      ],
+      "lyric_line_ids": [
+        "LLMV_002_L065"
+      ],
+      "first_anchor_seconds": 287.58,
+      "review_boundary": "这是文本和画面的情绪结构解读。nerf 不是 NeRF 神经辐射场；Made in San Francisco 是作品标签，不能证明虚构衣服的实际产地。",
+      "status": "review",
+      "human_approval": null
+    }
+  ],
+  "events": [
+    {
+      "event_id": 0,
+      "unit_id": "agents",
+      "start": 8.7,
+      "end": 13.6,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 1,
+      "unit_id": "model-runway",
+      "start": 13.6,
+      "end": 25.66,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 2,
+      "unit_id": "agi-era",
+      "start": 25.66,
+      "end": 28.94,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 3,
+      "unit_id": "acronym-chain",
+      "start": 28.94,
+      "end": 32.78,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 4,
+      "unit_id": "mac-minis",
+      "start": 32.78,
+      "end": 36.34,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 5,
+      "unit_id": "jensen-tokens",
+      "start": 36.34,
+      "end": 40.14,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 6,
+      "unit_id": "usage-cap",
+      "start": 40.14,
+      "end": 43.42,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 7,
+      "unit_id": "quota-denominator",
+      "start": 43.42,
+      "end": 46.74,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 8,
+      "unit_id": "cursor-no-shoes",
+      "start": 46.74,
+      "end": 49,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 9,
+      "unit_id": "cursor-deal",
+      "start": 49,
+      "end": 50.6,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 10,
+      "unit_id": "artisan-billboard",
+      "start": 50.6,
+      "end": 54.36,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 11,
+      "unit_id": "waymo-firework",
+      "start": 54.36,
+      "end": 60.36,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 12,
+      "unit_id": "waymo-presidio",
+      "start": 60.36,
+      "end": 62.18,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 13,
+      "unit_id": "mild-singularity",
+      "start": 62.18,
+      "end": 66.08,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 14,
+      "unit_id": "academy-no-tests",
+      "start": 66.08,
+      "end": 67.62,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 15,
+      "unit_id": "taste-moat",
+      "start": 67.62,
+      "end": 69.2,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 16,
+      "unit_id": "meat-proxy",
+      "start": 69.2,
+      "end": 73.7,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 17,
+      "unit_id": "underclass",
+      "start": 73.7,
+      "end": 79.5,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 18,
+      "unit_id": "lock-in",
+      "start": 79.5,
+      "end": 87.62,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 19,
+      "unit_id": "feel-agi",
+      "start": 87.62,
+      "end": 93.74,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 20,
+      "unit_id": "over-back",
+      "start": 93.74,
+      "end": 112.78,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 21,
+      "unit_id": "agents-collective",
+      "start": 112.78,
+      "end": 119.82,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 22,
+      "unit_id": "july-september",
+      "start": 119.82,
+      "end": 124.26,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 23,
+      "unit_id": "huggingface-price",
+      "start": 124.26,
+      "end": 127.44,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 24,
+      "unit_id": "conditional-transparency",
+      "start": 127.44,
+      "end": 131.02,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 25,
+      "unit_id": "world-as-test",
+      "start": 131.02,
+      "end": 134.36,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 26,
+      "unit_id": "empty-seat",
+      "start": 134.36,
+      "end": 138.2,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 27,
+      "unit_id": "ai-to-si",
+      "start": 138.2,
+      "end": 141.9,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 28,
+      "unit_id": "cashmere-trust",
+      "start": 141.9,
+      "end": 144.84,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 29,
+      "unit_id": "immortals-three",
+      "start": 144.84,
+      "end": 149.14,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 30,
+      "unit_id": "midjourney-scanner",
+      "start": 149.14,
+      "end": 163.66,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 31,
+      "unit_id": "brake-gas",
+      "start": 163.66,
+      "end": 184.66,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 32,
+      "unit_id": "escape-physics",
+      "start": 184.66,
+      "end": 191.82,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 33,
+      "unit_id": "longevity-escape",
+      "start": 191.82,
+      "end": 197.88,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 34,
+      "unit_id": "doom-condition",
+      "start": 197.88,
+      "end": 200.82,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 35,
+      "unit_id": "no-underclass",
+      "start": 200.82,
+      "end": 216.52,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 36,
+      "unit_id": "genius-country",
+      "start": 216.52,
+      "end": 220,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 37,
+      "unit_id": "lean-proofs",
+      "start": 220,
+      "end": 223,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 38,
+      "unit_id": "phages",
+      "start": 223,
+      "end": 226,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 39,
+      "unit_id": "enzymes",
+      "start": 226,
+      "end": 229,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 40,
+      "unit_id": "kidneys",
+      "start": 229,
+      "end": 232,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 41,
+      "unit_id": "good-boys",
+      "start": 232,
+      "end": 235,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 42,
+      "unit_id": "sora-dark",
+      "start": 235,
+      "end": 238,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 43,
+      "unit_id": "stargate-delay",
+      "start": 238,
+      "end": 241.1,
+      "anchor": "editorial display / author-text background",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 44,
+      "unit_id": "apocalypse-bracket",
+      "start": 241.1,
+      "end": 244.3,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 45,
+      "unit_id": "loop-happiness",
+      "start": 244.3,
+      "end": 247.5,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 46,
+      "unit_id": "slopacolypse",
+      "start": 247.5,
+      "end": 251,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 47,
+      "unit_id": "back-in-box",
+      "start": 251,
+      "end": 273.54,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 48,
+      "unit_id": "shell-lining",
+      "start": 273.54,
+      "end": 282.1,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 49,
+      "unit_id": "do-not-nerf",
+      "start": 282.1,
+      "end": 287.58,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    },
+    {
+      "event_id": 50,
+      "unit_id": "made-in-sf",
+      "start": 287.58,
+      "end": 306.480181,
+      "anchor": "ASR line candidate",
+      "previous_remains_visible": true,
+      "transition_seconds": 0.18,
+      "layout": "fixed middle current slot; previous above; next title below"
+    }
+  ],
+  "target_count": null,
+  "category_counts": {
+    "narrative": 10,
+    "reference": 32,
+    "term": 5,
+    "wordplay": 4
+  },
+  "derived_counts": {
+    "narrative": 10,
+    "reference": 32,
+    "term": 5,
+    "wordplay": 4
+  }
+}

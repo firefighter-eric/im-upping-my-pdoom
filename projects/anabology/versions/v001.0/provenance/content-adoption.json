@@ -1,0 +1,45 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.0",
+  "status": "review",
+  "human_approval": null,
+  "input": {
+    "path": "docs/plans/anabology-annotation-review-v002/annotations.json",
+    "sha256": "ec4bbc70c836c34c5092b50ab222806c61f7fee2af82aa9d4cb9f41e5c801085"
+  },
+  "rule": "natural distinct references; no target count",
+  "category_counts": {
+    "narrative": 10,
+    "reference": 32,
+    "term": 5,
+    "wordplay": 4
+  },
+  "no_AGI_content_inputs": true,
+  "known_audio_issues": [
+    {
+      "start": 216.52,
+      "end": 236.72,
+      "issue": "First four author Drop lyric lines are not reliably recovered by either whole-song or local ASR. They may be omitted or masked by music; listening is required."
+    },
+    {
+      "start": 131.02,
+      "end": 134.36,
+      "issue": "Author It vs ASR They; unresolved pronoun."
+    },
+    {
+      "start": 165.4,
+      "end": 167.2,
+      "issue": "Author we say vs ASR they say; unresolved pronoun."
+    },
+    {
+      "start": 209.8,
+      "end": 212.26,
+      "issue": "Author Did vs ASR Do; unresolved wording."
+    },
+    {
+      "start": 264.16,
+      "end": 266.0,
+      "issue": "Final chorus question differs in ASR; source text retained for review."
+    }
+  ]
+}

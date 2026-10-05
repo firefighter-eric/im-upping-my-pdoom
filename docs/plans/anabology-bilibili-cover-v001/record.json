@@ -1,0 +1,56 @@
+{
+  "project_id": "LLMV_002",
+  "video_version": "v001.1",
+  "generation_id": "LLMV_002_V001_R001_COVER_001",
+  "variant": "bilibili-cover-4x3",
+  "status": "superseded-before-generation",
+  "created_at": "2026-10-05T13:12:25.897Z",
+  "user_request": "主要用来让我给哔哩哔哩做封面。",
+  "input": {
+    "path": "projects/anabology/versions/v001.1/provenance/final-frames/LLMV_002_V001_R001_001_251500ms.jpg",
+    "sha256": "e3ee77ece45096ec9a48ef927fa3a1b0bdeff8c5701ab421ac7a603480b3bf84",
+    "source_video_seconds": 251.5
+  },
+  "video_manifest_sha256": "2a407e93873366b727ded9e2677c671ed514c0c938860820705c4c9274d96d3b",
+  "renderer_files": {
+    "renderer/index.html": "28b283ee3034becdba29326aca7e730ae8b8525ae4d81a95f906117ad9a67354",
+    "renderer/public/fonts/Archivo-500.ttf": "bafcdd01342208afee59debeb1264abaeaedf7efcb067d96fe4ff20cf204cc22",
+    "renderer/public/fonts/Archivo-700.ttf": "c19fb7f90860e8e6e5e7795a8b7ec603fc788c69cef7fbfa47d69674a4ce5847",
+    "renderer/public/fonts/Archivo-OFL.txt": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "renderer/public/fonts/NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "renderer/public/fonts/OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "renderer/src/main.ts": "27c576c4cdce470feaea93bc85c0cbbcbefba6a8805140442a9246655e319201",
+    "renderer/tsconfig.json": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+  },
+  "data_hashes": {
+    "screen_copy": "af566d4445c2b79c835abf979d0a5ebd927a59390fe8c289d795ee686f129d2d",
+    "editorial_review": "ec4bbc70c836c34c5092b50ab222806c61f7fee2af82aa9d4cb9f41e5c801085",
+    "sources": "d8053dc8e9fa3fb229db900b7e5f95ea3b842bfc69a993c9861daaed94933685",
+    "layout": "7528288a43c2a0a55b549a580201bf32bc0893154bac785e51f00b937ac46e6e",
+    "beat_analysis": "24c0c8ceb4648141a3c0f066c845502a2cff1ff755153652c664072d685013bd",
+    "lyric_timing": "5fa244267c386653c1be967590433c5e2e4bf80d6379b0b5bf8508aabaf45dca",
+    "content_adoption": "f63576a6364a93e009d197e3f705aa02eea289ac313c784e6ad4553917eec08b",
+    "exporter": "e1e6daec0545f4a144b8342f9771f1f84c66da3994ab2b95525b3e6444109ccc",
+    "review_player": "d77b8fc6dc52771e6e4a53d5e55f7a862ba794827bd6fed105bca9ac8864336d",
+    "analysis_tool": "3675d5aac85d5fcaf0375bbf9193af8d958ed3a44bcb7ca8dbf44a5ef37408ef",
+    "time_script": "d1102d5c29ea74739c3691366d5dfb70099d7d4f0a17ff18b611474ec207d9d9"
+  },
+  "video_output_sha256": "a572712619e7f3e59aee1c109d9752972827e798ec2214b7ff41331e4e82a219",
+  "tool": "built-in image_gen.imagegen",
+  "model": "TBD; tool default",
+  "prompt": "PROMPT.txt",
+  "prompt_sha256": "4180256db8f8634d9380e3dde4e34a7a926e03474e4627dd6fc42e709619d14e",
+  "requested_profiles": [
+    "4:3",
+    "16:9"
+  ],
+  "rights": {
+    "source_picture": "TBD",
+    "adaptation": "TBD"
+  },
+  "outputs": [],
+  "human_approval": null,
+  "superseded_by": "anabology-bilibili-cover-v002",
+  "generation_calls": 0,
+  "reason": "User clarified: direct original-video screenshots; no added captions or explainer layout."
+}

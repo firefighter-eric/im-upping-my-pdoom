@@ -1,0 +1,34 @@
+import {execFileSync} from 'node:child_process';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import path from 'node:path';
+import {loadVersion,inside} from '../../scripts/project.mjs';
+const digest=b=>createHash('sha256').update(b).digest('hex');
+const v=await loadVersion('anabology','v001.1'),m=v.manifest,variant=m.variants[0],out=variant.output;
+if(m.status!=='review'||!out||m.validation.full_decode!=='passed')throw Error('Register and full-decode verification must finish first.');
+const file=inside(v.directory,out.path),probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',file],{maxBuffer:1e7}));
+const video=probe.streams.find(s=>s.codec_type==='video'),audio=probe.streams.find(s=>s.codec_type==='audio');
+if(video.width!==3840||video.height!==2160||video.avg_frame_rate!=='60/1'||Number(video.nb_frames)!==18389||audio.codec_name!=='aac'||Math.abs(Number(video.duration)-m.settings.duration_seconds)>=1/60)throw Error('Final 4K60/full-audio specification mismatch.');
+const packetProbe=JSON.parse(execFileSync('ffprobe',['-v','error','-select_streams','v:0','-show_packets','-show_entries','packet=pts_time,duration_time','-of','json',file],{maxBuffer:3e7}));
+const pts=packetProbe.packets.map(p=>Number(p.pts_time)).sort((a,b)=>a-b),maxError=Math.max(...pts.map((t,i)=>Math.abs(t-i/60)));
+if(pts.length!==18389||maxError>1e-5)throw Error('Encoded CFR timestamps are not complete.');
+const copy=JSON.parse(await readFile(inside(v.directory,m.data.screen_copy),'utf8')),timing=JSON.parse(await readFile(inside(v.directory,m.data.lyric_timing),'utf8'));
+const canonical=(await readFile(inside(v.projectDirectory,'sources/text/LLMV_002_lyrics_en_v001.txt'),'utf8')).split(/\r?\n/).filter(s=>s.trim());
+if(copy.target_count!==null||JSON.stringify(canonical)!==JSON.stringify(timing.lines.filter(x=>x.source_physical_line!==null).map(x=>x.en)))throw Error('Canonical lyrics or natural-unit policy changed.');
+const focus=[];
+for(const cue of copy.events){
+ const requested=cue.start+.4,buf=execFileSync('ffmpeg',['-v','error','-ss',String(requested),'-i',file,'-frames:v','1','-vf','crop=80:340:2760:660','-pix_fmt','rgb24','-f','rawvideo','pipe:1'],{maxBuffer:1e6}),rows=[];
+ if(buf.length!==80*340*3)throw Error('Missing encoded annotation crop: '+cue.unit_id);
+ for(let y=0;y<340;y++)for(let x=0;x<80;x++){const at=(y*80+x)*3,r=buf[at],g=buf[at+1],b=buf[at+2];if(r>120&&g-r>25&&r-b>15){rows.push((660+y)/2);break;}}
+ if(rows.length<5)throw Error('Encoded current marker is missing: '+cue.unit_id);
+ focus.push({unit:cue.unit_id,requested_time:requested,encoded_frame_time:Math.ceil(requested*60-1e-7)/60,green_label_top:Math.min(...rows),green_label_bottom:Math.max(...rows),rows:rows.length});
+}
+const variation=Math.max(...focus.map(x=>x.green_label_top))-Math.min(...focus.map(x=>x.green_label_top));
+if(variation>2||focus.some(x=>Math.abs(x.green_label_top-429.5)>2))throw Error('Current marker is not fixed in the middle in the encoded output.');
+const framesDir=inside(v.directory,'provenance/final-frames');await mkdir(framesDir,{recursive:true});
+const sampleTimes=[45,70.7,119,225,251.5,287.9,306.45],images=[];
+for(const t of sampleTimes){const name=`LLMV_002_V001_R001_001_${Math.round(t*1000)}ms.jpg`,dest=path.join(framesDir,name);execFileSync('ffmpeg',['-v','error','-n','-ss',String(t),'-i',file,'-frames:v','1','-q:v','2',dest]);const b=await readFile(dest);images.push({path:path.relative(v.directory,dest),requested_time:t,sha256:digest(b),width:3840,height:2160});}
+const record={project_id:m.project_id,version:m.version,generation_id:variant.generation_id,run_id:out.run_id,date:new Date().toISOString(),status:'passed',output:out,profile:[video.width,video.height,60],frame_count:Number(video.nb_frames),video_duration_seconds:Number(video.duration),original_audio_duration_seconds:m.settings.duration_seconds,end_gap_seconds:Math.abs(Number(video.duration)-m.settings.duration_seconds),full_decode:'passed during register',aac_packet_hash:out.audio_packet_hash,cfr_timestamps:{count:pts.length,first:pts[0],last:pts.at(-1),maximum_grid_error_seconds:maxError},canonical_lyric_lines:canonical.length,natural_unit_count:copy.events.length,target_count:null,encoded_focus:{count:focus.length,variation_at_1080p:variation,range_at_1080p:[Math.min(...focus.map(x=>x.green_label_top)),Math.max(...focus.map(x=>x.green_label_top))],samples:focus},sampled_frames:images,qa_tool_sha256:digest(await readFile(new URL(import.meta.url))),human_video_approval:null,perceptual_sync:'pending human listening'};
+await writeFile(inside(v.directory,'provenance/final-media-qa.json'),JSON.stringify(record,null,2)+'\n',{flag:'wx'});
+await writeFile(inside(v.directory,'provenance/final-media-qa-tool.mjs.txt'),await readFile(new URL(import.meta.url)),{flag:'wx'});
+console.log(JSON.stringify({status:record.status,profile:record.profile,frames:record.frame_count,end_gap:record.end_gap_seconds,aac:'packet-identical',cfr:pts.length,encoded_focus_units:focus.length,encoded_focus_variation:variation,stills:images.length}));

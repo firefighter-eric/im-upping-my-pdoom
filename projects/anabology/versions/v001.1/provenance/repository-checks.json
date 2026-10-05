@@ -1,0 +1,36 @@
+{
+  "project_id": "LLMV_002",
+  "version": "v001.1",
+  "date": "2026-10-05T12:43:06.525Z",
+  "checks": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "result": "All shared scripts and version renderers compile."
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "tests": 12,
+      "passed": 12
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "preserved_migration_files": 55,
+      "versions": 22,
+      "note": "One previously user-removed output has a verified receipt; that removed media is not verified."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "interactive_preview": {
+    "url": "http://127.0.0.1:61758/versions/v001.1/renderer/index.html?mode=companion&preview=1&t=70.7",
+    "http_status": 200,
+    "temporary_read_only": true
+  },
+  "new_offline_media": "not exported",
+  "human_approval": null
+}

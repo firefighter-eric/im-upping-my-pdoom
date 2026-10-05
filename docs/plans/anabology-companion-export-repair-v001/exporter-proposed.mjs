@@ -1,0 +1,89 @@
+import {chromium} from 'playwright';
+import {execFileSync} from 'node:child_process';
+import {readFile,writeFile,mkdir,link,unlink} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {createHash,randomUUID} from 'node:crypto';
+import {once} from 'node:events';
+import path from 'node:path';
+import {ROOT,loadVersion,inside,outputIdentity,saveJson} from '../../../../../scripts/project.mjs';
+import {createProjectServer} from '../../../../../scripts/server.mjs';
+import {buildRenderer,rendererFiles,rendererURL} from '../../../../../scripts/renderer.mjs';
+import {createEncoder} from '../../../../../scripts/encoder.mjs';
+
+// Version-local exporter: the browser draws only the new companion layout.
+// FFmpeg decodes, scales and places the registered original video without recreating its scenes.
+const smoke=process.argv.includes('--smoke'),preview=process.argv.includes('--preview');
+if(process.argv.slice(2).some(a=>!['--smoke','--preview'].includes(a))||smoke&&preview)throw Error('Use either --smoke, --preview, or no option for full render.');
+const v=await loadVersion('anabology','v001.0'),m=v.manifest;
+const effective=preview?{...m.settings,...m.preview_profile}:m.settings;
+if(m.status!=='draft'||m.variants.length!==1)throw Error('Use a fresh, single-variant draft.');
+if(m.production_authorization?.scope!=='full-video')throw Error('Full render needs the recorded user authorization.');
+const hash=async f=>createHash('sha256').update(await readFile(f)).digest('hex');
+const source=inside(v.projectDirectory,m.inputs.video.path),audio=inside(v.projectDirectory,m.inputs.audio.path);
+for(const [key,file] of [['video',source],['audio',audio]])if(await hash(file)!==m.inputs[key].sha256)throw Error('Registered input changed: '+key);
+const a=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-of','json',audio])).streams.find(s=>s.codec_type==='audio');
+if(a.codec_name!=='aac'||m.settings.target_frames!==Math.ceil(Number(a.duration)*m.settings.fps))throw Error('Full-audio frame count mismatch.');
+const rendererHash=await hash(inside(v.directory,m.renderer.path)),files=await rendererFiles(v);
+if(rendererHash!==m.renderer.sha256||JSON.stringify(files)!==JSON.stringify(m.renderer.files))throw Error('Renderer is not frozen in the manifest.');
+const dataHashes={};for(const [key,file] of Object.entries(m.data)){dataHashes[key]=await hash(inside(v.directory,file));if(dataHashes[key]!==m.data_hashes[key])throw Error('Unrecorded data edit: '+key);}
+const runId='RUN_'+new Date().toISOString().replace(/[:.]/g,'-')+'_'+randomUUID().slice(0,8);
+const target=preview?{id:m.preview_profile.generation_id,path:m.preview_profile.path}:outputIdentity(m,m.variants[0]);
+const root=smoke?path.join(ROOT,'.cache/anabology-v001-pipeline-smoke',runId):v.directory;
+const file=inside(root,target.path),partial=file.replace(/\.mp4$/,'.partial.mp4');
+if(existsSync(file)||existsSync(partial))throw Error('Output exists. Never overwrite or retry a render in place.');
+await mkdir(path.dirname(file),{recursive:true});await mkdir(path.join(root,'runs'),{recursive:true});
+const record=path.join(root,'runs',runId+'.json'),lock=path.join(v.directory,'.render.lock');
+const receipt={id:runId,project_id:m.project_id,version:m.version,status:'preparing',started_at:new Date().toISOString(),purpose:smoke?'smoke':preview?'full-preview-render':'full-render',renderer_sha256:rendererHash,renderer_files:files,audio_sha256:m.inputs.audio.sha256,source_video_sha256:m.inputs.video.sha256,data_hashes:dataHashes,settings:m.settings,effective_settings:effective,request:m.request,treatment_sha256:await hash(path.join(v.directory,'TREATMENT.md')),tools:{ffmpeg:execFileSync('ffmpeg',['-version'],{encoding:'utf8'}).split('\n')[0],node:process.version,exporter_sha256:await hash(new URL(import.meta.url))},variants:[m.variants[0].id],outputs:[],compositing:{original_scene_rendering:false,source_video_direct_decode:true,source_pts:'preserved; mapped to declared output fps grid; first frame padded to t=0',source_resolution:[1920,1080],source_fps:24,original_audio_packet_copy:true,native_text_canvas:[effective.width,effective.height]}};
+await saveJson(record,receipt);
+let owned=false,server,browser,encoder;
+try{
+ await writeFile(lock,runId,{flag:'wx'});owned=true;
+ const build=await buildRenderer(v);receipt.build_key=build.key;
+ server=createProjectServer(v.projectDirectory,{rendererBuild:build});server.listen(0,'127.0.0.1');await once(server,'listening');
+ browser=await chromium.launch({headless:true,channel:'chrome',args:['--disable-background-timer-throttling']});receipt.tools.browser=browser.version();
+ const page=await browser.newPage({viewport:{width:1920,height:1080}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('console',msg=>{if(msg.type()==='error')errors.push(msg.text());});
+ const url=rendererURL(v,server.address().port,{exportMode:true});if(preview)url.searchParams.set('preview','1');await page.goto(url.href);await page.evaluate(()=>window.ready);
+ const layout=await page.evaluate(()=>window.getLayoutReport());
+ if(!layout.all_pairs_fit||!layout.all_subtitles_fit||!layout.fonts_loaded||layout.canvas[0]!==effective.width||layout.canvas[1]!==effective.height)throw Error('Layout preflight failed.');
+ receipt.layout_preflight={all_pairs_fit:true,all_subtitles_fit:true,fonts_loaded:true,max_pair_height:Math.max(...layout.pairHeights.map(p=>p.previous_and_current)),viewport_height:layout.viewport_height};
+ const fps=effective.fps,frames=smoke?30:effective.target_frames,start=smoke?43.42:0;const scale=effective.width/1920;
+ const filter=`[0:v:0]scale=in_range=full:out_range=tv:out_color_matrix=bt709,format=yuv420p[base];[1:v:0]fps=fps=${fps}:round=near:start_time=0,scale=${1248*scale}:${702*scale}:flags=lanczos,setsar=1[src];[base][src]overlay=x=${40*scale}:y=${110*scale}:eof_action=repeat:shortest=0:format=yuv420,setsar=1[v]`;
+ const args=['-hide_banner','-loglevel','error','-n','-filter_complex_threads','2','-f','image2pipe','-vcodec','mjpeg','-framerate',String(fps),'-i','pipe:0'];
+ if(smoke)args.push('-ss',String(start));args.push('-i',source);
+ if(!smoke)args.push('-i',audio);
+ args.push('-filter_complex',filter,'-map','[v]');if(!smoke)args.push('-map','2:a:0');
+ args.push('-frames:v',String(frames));
+ args.push('-c:v','libx264','-preset',effective.preset,'-crf',String(effective.crf),'-pix_fmt','yuv420p','-r',String(fps),'-fps_mode','cfr','-color_range','tv','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709');
+ args.push(...(smoke?['-an']:['-c:a','copy']),'-movflags','+faststart',partial);
+ receipt.encoder_arguments=args.map(s=>s.startsWith(ROOT)?path.relative(ROOT,s):s);receipt.segment=smoke?{start,frames,purpose:'technical pipeline smoke only'}:null;
+ receipt.status='running';receipt.memory_samples=[];receipt.process_id=process.pid;await saveJson(record,receipt);encoder=createEncoder(args);
+ for(let i=0;i<frames;i++){
+  if(encoder.error)throw encoder.error;
+  // A shared pending failure promise would retain every resolved base64 frame.
+  const jpg=await page.evaluate(t=>window.renderFrame(t,'companion',false),start+i/fps);
+  if(encoder.error)throw encoder.error;
+  if(typeof jpg!=='string'||jpg.length<1000)throw Error('Invalid companion frame.');
+  await encoder.write(Buffer.from(jpg,'base64'));
+  if(i%240===0||i===frames-1){
+   const memory=process.memoryUsage();
+   const sample={frames:i+1,heap_used_bytes:memory.heapUsed,heap_total_bytes:memory.heapTotal,rss_bytes:memory.rss,external_bytes:memory.external};
+   receipt.memory_samples.push(sample);
+   console.log(JSON.stringify({run_id:runId,...sample,total:frames,percent:Math.round((i+1)/frames*100),elapsed_seconds:Math.round((Date.now()-Date.parse(receipt.started_at))/1000)}));
+  }
+ }
+ if(errors.length)throw Error(errors.join('\n'));
+ await encoder.finish();encoder=null;
+ const outputProbe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-of','json',partial]));
+ const picture=outputProbe.streams.find(s=>s.codec_type==='video');
+ if(!picture||picture.width!==effective.width||picture.height!==effective.height||picture.avg_frame_rate!==`${fps}/1`||Number(picture.nb_frames)!==frames)throw Error('Encoded frame count or profile mismatch.');
+ const audioPackets=f=>execFileSync('ffmpeg',['-v','error','-i',f,'-map','0:a:0','-c:a','copy','-f','hash','-hash','sha256','-'],{encoding:'utf8'}).trim();
+ if(!smoke&&(Math.abs(Number(picture.duration)-effective.duration_seconds)>=1/fps||audioPackets(partial)!==audioPackets(audio)))throw Error('Full-audio duration or AAC packet mismatch.');
+ receipt.encoded_media_preflight={frames:Number(picture.nb_frames),duration:Number(picture.duration),profile:[picture.width,picture.height,fps],audio:smoke?'not-used':'packet-identical'};
+ if(await hash(source)!==m.inputs.video.sha256||await hash(audio)!==m.inputs.audio.sha256)throw Error('An input changed during render.');
+ await link(partial,file);await unlink(partial);
+ receipt.outputs.push({variant:m.variants[0].id,generation_id:target.id,path:target.path,sha256:await hash(file)});
+ receipt.transport={format:'jpeg-new-layout-plus-direct-source-composite',frames};receipt.status='completed';receipt.finished_at=new Date().toISOString();await saveJson(record,receipt);
+ console.log(JSON.stringify({status:'completed',profile:preview?'preview':'full',path:path.relative(ROOT,file),record:path.relative(ROOT,record)}));
+}catch(error){receipt.status='failed';receipt.error=error.message;receipt.finished_at=new Date().toISOString();await saveJson(record,receipt);throw error;}
+finally{if(encoder)await encoder.stop();if(browser)await browser.close();if(server)server.close();if(owned)await unlink(lock);}
