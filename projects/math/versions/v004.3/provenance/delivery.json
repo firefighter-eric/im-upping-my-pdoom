@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "parent_version": "v004.2",
+  "generation_id": "MATH_001_V004_R003_001",
+  "variant": "math-github-preview",
+  "recorded_at": "2026-10-07T10:11:31.890Z",
+  "status": "review",
+  "output": {
+    "path": "outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+    "sha256": "7f2e072d160b3974edcb89986290ab6c01266373c60b708ee5ef452f5d8950d2",
+    "size_bytes": 73582009,
+    "duration_seconds": 58,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "60/1",
+    "frame_count": 3480,
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "status": "review",
+    "run_id": "RUN_2026-10-07T10-04-24-272Z_b850ef15"
+  },
+  "render_attempts": 1,
+  "render_run_id": "RUN_2026-10-07T10-04-24-272Z_b850ef15",
+  "renderer_and_treatment_binding": "unchanged since completed full render",
+  "behavior": {
+    "total_seconds": 58,
+    "intro_seconds": 10,
+    "scroll_start_seconds": 0,
+    "scroll_end_seconds": 57.983333333333334,
+    "scroll_uniform": true,
+    "english_source": "registered original GitHub screenshot segments",
+    "chinese_notes": 722,
+    "ending": "Direct end after final actual row; no separate ending card.",
+    "cyber_milestone": "2026-02-05 Claude Opus 4.6: Anthropic reports more than 500 discovered and validated high-severity vulnerabilities. Discovery/validation does not imply all were fixed.",
+    "cyber_selection": "Optional clarification received no response before production; followed the user-specified February, using the explicitly stated Opus 4.6 assumption."
+  },
+  "specifications": {
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "60/1",
+    "frames": 3480,
+    "duration_seconds": 58,
+    "video_codec": "h264",
+    "audio": "AAC 44100Hz stereo; unchanged inherited 58-second input packets",
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    }
+  },
+  "technical_validation": {
+    "repository_check": "passed",
+    "repository_tests": "12 of 12 passed",
+    "version_verify": "passed",
+    "media_verify": "passed",
+    "full_decode": "passed",
+    "constant_timestamps": {
+      "project_id": "MATH_001",
+      "version": "v004.3",
+      "status": "passed",
+      "frames": 3480,
+      "expected_fps": 60,
+      "maximum_timestamp_error_seconds": 3.3333333604446125e-7,
+      "first_timestamp": 0,
+      "last_timestamp": 57.983333
+    },
+    "encoded_motion": {
+      "frames": 16,
+      "unique_frame_hashes": 16,
+      "minimum_upward_shift_px": 10,
+      "maximum_upward_shift_px": 10,
+      "scope": "Vertical pixel matching on sixteen actual decoded consecutive frames; source-English column only, no header or opening overlay."
+    },
+    "normal_speed_unmuted_playback": {
+      "seconds": 58,
+      "reached_end": true,
+      "media_errors": [],
+      "decoded_audio_bytes": 1397369,
+      "playback_quality": {
+        "totalVideoFrames": 3480,
+        "droppedVideoFrames": 7,
+        "corruptedVideoFrames": 0
+      },
+      "drop_observation": "7 dropped frames were recorded within the first 0.36 seconds; the counter stayed at 7 throughout the rest of the full playback and all resumed seeks. Zero corrupted frames. This headless Chrome result does not measure the user device display refresh or in-app WebKit presentation."
+    },
+    "resumed_seeks": [
+      {
+        "target_seconds": 5,
+        "observed_seconds": 5.402541,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 29,
+        "observed_seconds": 29.390879,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 53.94,
+        "observed_seconds": 54.345758,
+        "advanced": true,
+        "error": null
+      }
+    ],
+    "fullscreen": {
+      "element": "VIDEO",
+      "width": 1920,
+      "height": 1200
+    },
+    "preview_http": "passed; page, poster and three byte ranges match local files",
+    "historical_preservation": {
+      "checked_files": 246,
+      "status": "all unchanged"
+    }
+  },
+  "encoded_still_inspection": [
+    {
+      "path": "provenance/encoded-frames/frame-01.png",
+      "frame": 0,
+      "seconds": 0,
+      "sha256": "759f0c62c64cc431d1b4d5fe10c9b82b8b153fb463c306a92aa924b5fbbd9840",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 36,
+      "seconds": 0.6,
+      "sha256": "679e95c55a12b590fee8d6e5a76a79a0c4d7c081a1b367c56e471931ec26bc6c",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-03.png",
+      "frame": 107,
+      "seconds": 1.7833333333333334,
+      "sha256": "9ba5f3b9812f780b7a1f7b15eb01e313b63126b03b51fd284e183c8ac185303e",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-04.png",
+      "frame": 180,
+      "seconds": 3,
+      "sha256": "302bd2795fbc42020337608261342cc4568bb60666195619fa2c9af2e2f6697f",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-05.png",
+      "frame": 252,
+      "seconds": 4.2,
+      "sha256": "5e4add5c1707a1fa37738eba565aa75168200b29e326965d8420f7a7ea0ebce6",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 326,
+      "seconds": 5.433333333333334,
+      "sha256": "37e0f781f7a7ce181f6552805a77a947569c027a71f0ec7180da17457d234928",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-07.png",
+      "frame": 403,
+      "seconds": 6.716666666666667,
+      "sha256": "74d32621015ca234ca69cca934bbefd6924fd8bdefe581d17b926a5dd5abb240",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-08.png",
+      "frame": 478,
+      "seconds": 7.966666666666667,
+      "sha256": "5af80e3026dfb2045ad52ee5ce57fdbd52c883969c087455a16ce5d051712ec1",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-09.png",
+      "frame": 558,
+      "seconds": 9.3,
+      "sha256": "ea8e8e96d3ba701ced6231cad0dfd39e3651790a10e30a57733079114f2a9e04",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 580,
+      "seconds": 9.666666666666666,
+      "sha256": "d295c0d7650f5b0f362be132f0aeaeacdbcd15043d58ce412bbbf6bba901dfb7",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-11.png",
+      "frame": 600,
+      "seconds": 10,
+      "sha256": "0116d7b0b6ee61a75fae288cd0a0b93d7c354a7343934df3f609362ccef1576f",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-12.png",
+      "frame": 1200,
+      "seconds": 20,
+      "sha256": "beeaa1f8e1c810b1944668f4fba2f5c4d34ed22fffcaa03c9f2bf982cf27a46a",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-13.png",
+      "frame": 1201,
+      "seconds": 20.016666666666666,
+      "sha256": "fadb7879b2091747ba75cca9c7be7d53692c86b8732f24260b8c5953b6a0e13d",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 1920,
+      "seconds": 32,
+      "sha256": "0342519e2939b1f457f29b2d1d5727d6e857927faaff05f028cefaa992fc4697",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    },
+    {
+      "path": "provenance/encoded-frames/frame-15.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "c90d007e6fc62e984e4e589e9173f35359abc30eba3fd86bedfaba69ad6a28e8",
+      "visual_inspection": "passed",
+      "inspection_scope": "Encoded still layout, typography, source screenshot alignment and milestone transitions; no subject-matter or human musical approval."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "provenance/audiovisual-playback.json",
+      "sha256": "aa460cd22dd83450eded34e8201a7496a081ab3a65159d40b9cafb92286388fa"
+    },
+    {
+      "path": "provenance/encoded-motion.json",
+      "sha256": "c571594dee381ff2a82901888c83e22d4cda49a6999581de0351ead996282c38"
+    },
+    {
+      "path": "provenance/frame-timestamps.json",
+      "sha256": "2e6c09e7d6170076be1c351da1960a866f6f3e643c53eb8f7a3c2b3d1b8b5777"
+    },
+    {
+      "path": "provenance/historical-preservation.json",
+      "sha256": "c9e5868107361a40762e86ca742e58fb1acfb57650f839b3362fd8552fea3482"
+    },
+    {
+      "path": "provenance/preview-http.json",
+      "sha256": "d58ed95ddf9a17bc678d58aab05f9f2d39f14745fdd370d3c8ce0623effa69b0"
+    },
+    {
+      "path": "provenance/encoded-frame-index.json",
+      "sha256": "6a098d30dbf48e2c50c891babe1166089b1791d1b4a35dd1781d3eb7e4143aa1"
+    },
+    {
+      "path": "provenance/motion-preflight.json",
+      "sha256": "ae8165dc4b9ecad478490caccaf015b2791fe679ad91bf9fe46c4cbc8626e63d"
+    },
+    {
+      "path": "provenance/motion-preflight-parser-error.json",
+      "sha256": "8a4be9c160c6b00a5b0052cfdd0eaa53543dbe18e3b8657eca861be1b33646a9"
+    },
+    {
+      "path": "provenance/player-fullscreen.png",
+      "sha256": "18f0f0c43bafdd5d4b4144a168a332a4047c6a29187b636c56b13fd544bb5fa8"
+    },
+    {
+      "path": "provenance/repository-verification.json",
+      "sha256": "087aba5b92976723f74a453cd6ee38e2e4b8eafef61f0bed14deeeaf3392e475"
+    }
+  ],
+  "human_review": {
+    "status": "pending",
+    "scope": "Chinese mathematical subject matter, perceptual audio/music synchronization, scrolling readability and overall aesthetic approval"
+  },
+  "limitations": [
+    "Under-one-minute presentation of all 722 papers remains scan-reading; fullscreen improves text size but does not provide detailed reading time.",
+    "True encoded 60fps and continuous motion are verified; display refresh and perceptual smoothness on the user device have not been measured."
+  ],
+  "rights": {
+    "status": "TBD",
+    "distribution": "Local-only media; no publishing authorized or performed."
+  }
+}

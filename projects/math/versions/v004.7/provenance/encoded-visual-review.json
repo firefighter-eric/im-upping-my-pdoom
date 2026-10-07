@@ -1,0 +1,129 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "generation_id": "MATH_001_V004_R007_001",
+  "output_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "recorded_at": "2026-10-07T11:32:24.862Z",
+  "status": "passed",
+  "scope": "Agent visual inspection of unmodified actual encoded frames: all eight full node layouts and dates, old-left/new-right transition with anchored 2026, fully clear GitHub after 24s, whole-page statistics, joint fade and final white frame. This is a limited visual check, not human approval.",
+  "extracted": 50,
+  "unique_extracted_frames": 48,
+  "generic_extracted": 46,
+  "opening_extracted": 4,
+  "inspected": 16,
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 75,
+      "seconds": 1.25,
+      "sha256": "50bf80c6872c33b52199504f9150d115a3c34a4749076758e5a26262a450b2dd",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 225,
+      "seconds": 3.75,
+      "sha256": "f509d9761e676ee2c13755f0a620eabd03169f1b35dd0c81f952279f1c98c16b",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 375,
+      "seconds": 6.25,
+      "sha256": "a0c1eb138c7fb020ca2f3768239811451d5801fb72a6d21c46b0b2849201faf7",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 525,
+      "seconds": 8.75,
+      "sha256": "23a7355fb9b7d5915c5922d2469f384d28286b6c493cab26a81a4a99dde18983",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-18.png",
+      "frame": 705,
+      "seconds": 11.75,
+      "sha256": "8e549e03b1529636ff4bd644d9f693e33c011b132fcc4c181482af2b8d3af337",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-22.png",
+      "frame": 885,
+      "seconds": 14.75,
+      "sha256": "f04045ce224434cb5e758b02dad0f7ff61f08f102176a602c8c54eeec4327a31",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-26.png",
+      "frame": 1080,
+      "seconds": 18,
+      "sha256": "c98cfac598f34b6a8955252a2ffa30f78d2a53814b07f3e10342d2db1b50c387",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-30.png",
+      "frame": 1320,
+      "seconds": 22,
+      "sha256": "12f2cacb838a69e3541ad9261f40081d9c0f39da9d9a703817b002ed13223da2",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-33.png",
+      "frame": 1440,
+      "seconds": 24,
+      "sha256": "8115ad8a483bc5b2dc3558eda1e1cbdb482e0161bea76b1b28c326abc095f297",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-43.png",
+      "frame": 3405,
+      "seconds": 56.75,
+      "sha256": "b084a93e4b76e66167138f2981cac795b2c65abbc98e3cc0af839df55c7d3745",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-45.png",
+      "frame": 3456,
+      "seconds": 57.6,
+      "sha256": "f40a6e244db1b34936c3d3f2e03747935a57f8a46705d6820efe85c48fb0713c",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-46.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "a208140a3848d388e3f48a13cdd733c51912945d0858df91cacd2027523227f8",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-01.png",
+      "frame": 792,
+      "seconds": 13.2,
+      "sha256": "7beb03e85fc88bd3973480e55b09508dbd42115004633245dfc0e928cd750ed8",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-02.png",
+      "frame": 801,
+      "seconds": 13.35,
+      "sha256": "2e76c19c35f1ae3095e81525fdb7c32440b998b78287aec7ed8f9eb4f7c2ba9d",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-03.png",
+      "frame": 819,
+      "seconds": 13.65,
+      "sha256": "ce76faa13e19ff5f175ee310add428f453b1c66973437550bd2a5a01bd28f3c1",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-04.png",
+      "frame": 828,
+      "seconds": 13.8,
+      "sha256": "639cfb288fc945586d30239a424c4e98bfaa291083ac8509a9635bbce6389fdf",
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}

@@ -1,0 +1,30 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:31:52.329Z",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "output": "Shared scripts and all HTML/TypeScript version renderers compile.",
+      "scope": "Completed after the final renderer refinement in this production turn."
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "result": "12 of 12 tests passed in this production turn."
+    },
+    {
+      "command": "npm run verify -- --project math --version v004.4",
+      "exit_code": 0,
+      "output": "> im-upping-my-pdoom@0.1.0 verify\n> node scripts/verify.mjs --project math --version v004.4\n\nVerified 55 preserved migration files, 0 media files skipped, 1 versions checked; project/version lineage valid.",
+      "scope": "Final validation after registration and delivery metadata updates."
+    },
+    {
+      "command": "npm run verify:media -- --project math --version v004.4",
+      "exit_code": 0,
+      "result": "Completed after registration; actual media specifications, full decode and source AAC packets verified."
+    }
+  ]
+}

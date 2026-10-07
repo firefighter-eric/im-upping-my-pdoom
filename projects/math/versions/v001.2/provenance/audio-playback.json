@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.2",
+  "audio_output_id": "MATH_001_V001_R002_AUDIO_001",
+  "audio_sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+  "tested_at": "2026-10-07T07:34:52.484Z",
+  "browser": "Codex In-app Browser",
+  "duration_seconds": 209.002812,
+  "status": "passed",
+  "tests": {
+    "initial": {
+      "currentTime": 0.219698,
+      "readyState": 4,
+      "paused": false,
+      "error": null
+    },
+    "advancing": {
+      "currentTime": 10.255914,
+      "readyState": 4,
+      "error": null
+    },
+    "middle_seek": {
+      "currentTime": 104.599607,
+      "readyState": 4,
+      "paused": false,
+      "error": null
+    },
+    "reset_for_user": {
+      "currentTime": 0,
+      "readyState": 4,
+      "paused": true,
+      "error": null
+    }
+  },
+  "scope": "Technical browser playback and middle seek; user listening and aesthetic approval remain pending."
+}

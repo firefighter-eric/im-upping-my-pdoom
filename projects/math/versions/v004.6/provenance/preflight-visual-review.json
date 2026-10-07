@@ -1,0 +1,53 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "recorded_at": "2026-10-07T11:06:39.287231+00:00",
+  "status": "passed",
+  "scope": "Agent inspection of six native design frames: Mythos date/title, revised mathematics opening, statistics entrance, complete-page closing statistics, partial fade and last frame. Human audiovisual approval pending.",
+  "extracted": 26,
+  "inspected": 6,
+  "images": [
+    {
+      "path": "provenance/design-frames/frame-05.png",
+      "seconds": 6.35,
+      "sha256": "7e1c1eb349ddd1c2a16f169489b34f20f4bcb7614faedae183f1e9aea5ed68a4",
+      "render_and_transport_ms": 44.96091700000011,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-08.png",
+      "seconds": 11.1,
+      "sha256": "9b86e81b2e2abd9267f7a1c4470cf15b3d9fcb67246505976ba76f01fd203552",
+      "render_and_transport_ms": 44.31079199999999,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-19.png",
+      "seconds": 55.95,
+      "sha256": "4dacd13ce18899da6997a81dff3a3a4f60347c5b80e526e62ce323a87372c383",
+      "render_and_transport_ms": 126.24862499999995,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-22.png",
+      "seconds": 56.75,
+      "sha256": "39e6b5efbe36affaa79a2cc2ce6bf805d27e417dba093af7cb6cb9353cb6b58c",
+      "render_and_transport_ms": 26.044417000000067,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-24.png",
+      "seconds": 57.6,
+      "sha256": "25c2267582abb99a4642feefbf47bde69127eb644c1ec4b464b859e11d571a57",
+      "render_and_transport_ms": 26.74387499999966,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-25.png",
+      "seconds": 57.983333333333334,
+      "sha256": "49d230f940ce098d02911db1b7bd3860caf640e458dfb9a0157725d44dc09d01",
+      "render_and_transport_ms": 14.006584000000203,
+      "visual_inspection": "passed"
+    }
+  ]
+}

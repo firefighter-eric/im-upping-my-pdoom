@@ -1,0 +1,84 @@
+{
+  "id": "RUN_2026-10-07T08-18-30-332Z_ec0907ae",
+  "project_id": "MATH_001",
+  "version": "v003.0",
+  "status": "completed",
+  "purpose": "stills",
+  "started_at": "2026-10-07T08:18:30.333Z",
+  "renderer_sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+  "renderer_files": {
+    "renderer/index.html": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+    "renderer/src/scroll.ts": "2ea0b67f41a5af31626fef3f1b2c4bf49113e2458cba9c03ccdcb144badce11b",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "6d944609234aade2a52760a0f7d3896ae80cf9f8a3805c1a8d8d4af55f464085",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "8213e9fbadbb6642d3707bd5521233f34252d48790e7fb6e90ba53c0ab810445"
+  },
+  "treatment_sha256": "07cc99832d9832d9c8c7b103ced1bca7c3f8af3864c6ca49ab26e2db259f7f0a",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "58秒以内；全部722篇匀速滚动；中文仅供快速扫读。",
+    "保留英文标题在左，对应中文解释在右；歌曲只作配乐，不加歌词字幕。",
+    "先给片头、片中、片尾截图，不渲染整片。"
+  ],
+  "script_sha256": "7425af3786fb28374a60b974c4023664570d8e8602d715d5ac82aca2fe15ff7d",
+  "tools": {
+    "browser": "154.0.8037.98",
+    "method": "Three.js renderFrame; exact-time stills; no video or audio encoding"
+  },
+  "variants": [
+    "bilingual-directory-stills"
+  ],
+  "outputs": [
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/01-opening.jpg",
+      "seconds": 1.74,
+      "sha256": "d0286e8231f6fda3219e488fd060843b8f8b1dd80830ab97bb1513588a1a8608",
+      "scope": "design still only"
+    },
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/02-directory.jpg",
+      "seconds": 45.28,
+      "sha256": "fcd4f173944d13a48ad971ebc50c3500a9bc6be60c158c4c68845d8a8fdd4b97",
+      "scope": "design still only"
+    },
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/03-closing.jpg",
+      "seconds": 54.4,
+      "sha256": "361b98030c6c8f69ce609b377815ffcc18cc496017115143dacc218308548c51",
+      "scope": "design still only"
+    }
+  ],
+  "build_key": "f0679dfe6b022da1286e09b51cf790073dd5aacbd5ead94650ab99296c515fa5",
+  "middle_scene": {
+    "seconds": 45.28,
+    "visible_range": [
+      603,
+      614
+    ],
+    "notes_complete_for_visible_rows": true,
+    "shared_offset_px": 45882.54425837321
+  },
+  "finished_at": "2026-10-07T08:18:31.206Z"
+}

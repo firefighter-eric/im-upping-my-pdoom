@@ -1,0 +1,139 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "recorded_at": "2026-10-07T10:48:39.407001+00:00",
+  "output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+  "status": "passed",
+  "extracted": 47,
+  "inspected": 18,
+  "scope": "Agent visual inspection of eighteen unmodified encoded frames: eight milestone midpoints, last-row scroll and camera join, five pullback stages, complete-page hold, partial white fade and final white frame. No perceptual music or human subject-matter approval is implied.",
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 42,
+      "seconds": 0.7,
+      "sha256": "0063c2aea5934d5ed24925622464896c9a7dec4a6515d410d3713ca2f528d76c",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 126,
+      "seconds": 2.1,
+      "sha256": "757823ec83d0a29951bb9ea8879e3557ddf53bd3394f8c0dda81353fc6033ac8",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 210,
+      "seconds": 3.5,
+      "sha256": "e43230e0ce1dee6ec950f9132c55b0c8f1708542e552278ddb47735bdf9595d7",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 294,
+      "seconds": 4.9,
+      "sha256": "6917c15be924ee8ca2aacbff0a93065512e87cbbc7b591153f8e2b78a92ad52c",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-18.png",
+      "frame": 381,
+      "seconds": 6.35,
+      "sha256": "307aae8dfc65fad94c0ff1ae5945d5e2907cb0f176cfa6813da7c1ce78991fc1",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-22.png",
+      "frame": 471,
+      "seconds": 7.85,
+      "sha256": "3141be2dd825eb64ba78b6be02c4ae857a1b9231741568822819f1c0653ab6fd",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-26.png",
+      "frame": 564,
+      "seconds": 9.4,
+      "sha256": "6cd44157cfbf832defe152899c5ae709801130d706b253b94784c5da056cdd55",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-30.png",
+      "frame": 666,
+      "seconds": 11.1,
+      "sha256": "6efc674c3b326b724ecd178b441452a9c2422872833ff79ffae21dfd94127a76",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-37.png",
+      "frame": 3179,
+      "seconds": 52.983333333333334,
+      "sha256": "3895c497ff941910c5f43704632a803d1f7b89c12eef37bebf05b2ffb73b6ee6",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-38.png",
+      "frame": 3180,
+      "seconds": 53,
+      "sha256": "21b4e8888adf0ed40c578ede5561ae45953a452c40310d5f17ec94dd36144287",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-39.png",
+      "frame": 3198,
+      "seconds": 53.3,
+      "sha256": "3592a59006e1169a1e5e5499cfe8c29cbf80339f668c6bd79dda06f4577cce15",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-40.png",
+      "frame": 3240,
+      "seconds": 54,
+      "sha256": "613bdf87ab71aa619fa23ea15948d70fc206c75601ef3a6dcad30d9a2f4fe068",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-41.png",
+      "frame": 3300,
+      "seconds": 55,
+      "sha256": "c061aa5cb23ad33adfda5bc1de3b5b8dadf92ad316b8b2d1e6fc6e1e3e04a7f3",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-42.png",
+      "frame": 3360,
+      "seconds": 56,
+      "sha256": "e7ac439b828b8422dbbce0c17a865fc9b39d686c9e8b9699e33c2e4b36ac6519",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-43.png",
+      "frame": 3379,
+      "seconds": 56.31666666666667,
+      "sha256": "fc0e45c8e12cbd60e2ee658fd61fad88d00776f31302305af1495ae24358b6bb",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-44.png",
+      "frame": 3405,
+      "seconds": 56.75,
+      "sha256": "1803f964d43231b98c8537af33abb5faf3d31a6fae85a9c5da260a8759a4f63b",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-46.png",
+      "frame": 3456,
+      "seconds": 57.6,
+      "sha256": "39825211ca0fa8ae99cad18e69dbb9e990169857f10fdb16147aa123eb8be11a",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-47.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "bcb8725192f5ffa9135dc4a9a720c07c9a6b09c9dd09dc001f28c1ac13b9502c",
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}

@@ -1,0 +1,15 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "created_at": "2026-10-07T09:41:14.620280+00:00",
+  "tool": "Codex (GPT-6; exact model identifier TBD)",
+  "prompt": "Write one short Chinese research topic and a one-sentence explanation for each native GitHub directory entry, based on its registered paper title and abstract. Preserve scope and avoid independently certifying results. Keep the 28 prior sample notes unchanged.",
+  "source_id": "MATH_001_CATALOG_CONTENTS",
+  "source_sha256": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8",
+  "new_notes": 694,
+  "inherited_notes": 28,
+  "total_notes": 722,
+  "mapping_validation": "each index and folder matches native fixed-commit row",
+  "human_review": "pending",
+  "rights": "TBD"
+}

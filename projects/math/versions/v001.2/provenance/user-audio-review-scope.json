@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.2",
+  "recorded_at": "2026-10-07T07:31:27.633Z",
+  "user_instructions": [
+    "先把音频制作好了以后给我看一下。",
+    "再看看这个好，这个不用变速，只要1倍。"
+  ],
+  "source_url": "https://www.bilibili.com/video/BV1Qra66EEVc/",
+  "scope": "audio-preview-first-at-original-speed",
+  "video_render": "awaiting-user-audio-selection",
+  "audio_output_id": "MATH_001_V001_R002_AUDIO_001",
+  "audio_sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+  "human_approval": null
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "source_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "status": "passed",
+  "method": "Vertical pixel matching on sixteen actual decoded consecutive frames; source-English column only, no header or opening overlay.",
+  "crop": {
+    "width": 720,
+    "height": 780,
+    "x": 0,
+    "y": 180
+  },
+  "first_frame": 1920,
+  "frames": 16,
+  "shifts": [
+    {
+      "from_frame": 1920,
+      "to_frame": 1921,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.46823450199586397,
+      "stationary_error": 30.988577886788825
+    },
+    {
+      "from_frame": 1921,
+      "to_frame": 1922,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.32133410282306546,
+      "stationary_error": 30.176429567642955
+    },
+    {
+      "from_frame": 1922,
+      "to_frame": 1923,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.4262973115952484,
+      "stationary_error": 30.565430673784448
+    },
+    {
+      "from_frame": 1923,
+      "to_frame": 1924,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3842879815322464,
+      "stationary_error": 31.40174577982975
+    },
+    {
+      "from_frame": 1924,
+      "to_frame": 1925,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3807050449670562,
+      "stationary_error": 31.235632183908045
+    },
+    {
+      "from_frame": 1925,
+      "to_frame": 1926,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.32470062040109654,
+      "stationary_error": 30.354854999278604
+    },
+    {
+      "from_frame": 1926,
+      "to_frame": 1927,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.4480113499735488,
+      "stationary_error": 30.074063386716684
+    },
+    {
+      "from_frame": 1927,
+      "to_frame": 1928,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3446352137738662,
+      "stationary_error": 30.735247439041984
+    },
+    {
+      "from_frame": 1928,
+      "to_frame": 1929,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.4430096667147598,
+      "stationary_error": 31.369018419660463
+    },
+    {
+      "from_frame": 1929,
+      "to_frame": 1930,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.29245419131438466,
+      "stationary_error": 30.738589910065887
+    },
+    {
+      "from_frame": 1930,
+      "to_frame": 1931,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3638484105227721,
+      "stationary_error": 30.05795219545039
+    },
+    {
+      "from_frame": 1931,
+      "to_frame": 1932,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.37784350502572983,
+      "stationary_error": 30.430577598230172
+    },
+    {
+      "from_frame": 1932,
+      "to_frame": 1933,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.39989419516183333,
+      "stationary_error": 31.28598566825374
+    },
+    {
+      "from_frame": 1933,
+      "to_frame": 1934,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.34901168662530657,
+      "stationary_error": 31.186288654835764
+    },
+    {
+      "from_frame": 1934,
+      "to_frame": 1935,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.38503342471023905,
+      "stationary_error": 30.395517722310395
+    }
+  ],
+  "minimum_upward_shift_px": 11,
+  "maximum_upward_shift_px": 11,
+  "unique_frame_hashes": 16
+}

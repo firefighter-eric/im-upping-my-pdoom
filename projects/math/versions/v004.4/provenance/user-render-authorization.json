@@ -1,0 +1,22 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:20:10.269Z",
+  "source": "Direct user revision request in ongoing full-video production",
+  "request": [
+    "NS问题和722篇数学预印本也要加上时间，和之前一样。",
+    "片头的速度有点太快了，可以再慢一点点。",
+    "片头转换最好顺滑一点，选择适合的移动和淡入淡出方式。",
+    "沿用58秒总长、真实白底GitHub立即匀速滚动、英文左中文右全部722项、60fps和已选原AAC输入。"
+  ],
+  "scope": "New local review video incorporating all three revisions; internal still and transition QA before one full render; no new publishing or human approval.",
+  "choices": {
+    "intro_seconds": 12,
+    "total_seconds": 58,
+    "transition": "Subtle upward exit and entry with sequential eased fades, no horizontal slide or punch scaling; repeated year held stable.",
+    "ns_date": "2026.09.08 publication date",
+    "preprint_date": "As of 2026.10.07; snapshot date, not the publication date of every paper."
+  },
+  "human_approval": "pending",
+  "rights": "TBD"
+}

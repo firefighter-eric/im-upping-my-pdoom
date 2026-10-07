@@ -1,0 +1,102 @@
+{
+  "id": "RUN_2026-10-07T08-30-58-535Z_00e187fb",
+  "project_id": "MATH_001",
+  "version": "v003.1",
+  "status": "completed",
+  "purpose": "stills",
+  "started_at": "2026-10-07T08:30:58.536Z",
+  "renderer_sha256": "084d6ff3fb0f3a8cf8117e148ea5a58cc43ba720363bd94a31c50e50605300d1",
+  "renderer_files": {
+    "renderer/index.html": "084d6ff3fb0f3a8cf8117e148ea5a58cc43ba720363bd94a31c50e50605300d1",
+    "renderer/src/scroll.ts": "bc49ccc11299b09dd9740aeca452fe80e1388381d42bbd3b48e2b55fa4e1ff9c",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "c3eb830d10c36aa80ca2a159db3c6698bffcf13dc7136dd28452e0ecb6c54c16",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "539f47d3a4cbb124f82fc19f443eb98af149ea97a0efb31b71b95040c57148e2",
+    "screenshot_layout": "6eb0dae9f86efa50ddd0dcb376ae4532bdddeaf23235910ea7316275ac28c68c"
+  },
+  "treatment_sha256": "d7e5ba835056eb2109ca3ac3634771b71aa340bb31c22f640955d02dcb859f17",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "全部用白色背景，和GitHub融为一体。",
+    "片中GitHub直接全屏；使用用户提供的GitHub原图，不加装饰网格。",
+    "继续英文在左、对应中文在右，722篇匀速扫读，歌曲不加歌词字幕。",
+    "本轮仍先交付片头、片中、片尾三张样图，不导出整片。"
+  ],
+  "script_sha256": "9899fc1e7c09bb02fc36c39abe074828b3a817e6dd5bc2b0160ef443df7462c2",
+  "input_hashes": {
+    "audio": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+    "preprints": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a",
+    "layout_reference": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+    "catalog": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8"
+  },
+  "tools": {
+    "browser": "154.0.8037.98",
+    "method": "Three.js renderDesignPng; actual source screenshot; no video or audio encoding"
+  },
+  "variants": [
+    "white-github-stills"
+  ],
+  "outputs": [
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/01-opening.png",
+      "seconds": 1.74,
+      "sha256": "914b5d66da201a1a2fa8c304d25812b9f023e26b4a3aac3105d2c043f826278d",
+      "scope": "design still only"
+    },
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/02-directory.png",
+      "seconds": 45.31305109787747,
+      "sha256": "7a14a4ef5e0402b85ef74ec73f3fcb9e075c5f17426d274ddd4079b5619752f9",
+      "scope": "design still only"
+    },
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/03-closing.png",
+      "seconds": 54.4,
+      "sha256": "9d020d42b5d9915178d2b9594233fa47ad187f6c83c77b794c7eea0297ebed14",
+      "scope": "design still only"
+    }
+  ],
+  "build_key": "49a2a32b88f33beba52952ff78437f8849e741a32c6153e0598a4af7ad1a0880",
+  "middle_scene": {
+    "seconds": 45.31305109787747,
+    "source_sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+    "crop": [
+      0,
+      84,
+      2222,
+      1165.875
+    ],
+    "visible_rows": [
+      601,
+      614
+    ],
+    "original_english_layer": "actual source screenshot scaled and cropped; no redrawn English or folders",
+    "overlays": [
+      "Chinese topic and explanation inside the original commit column only"
+    ],
+    "notes_complete_for_visible_rows": true
+  },
+  "finished_at": "2026-10-07T08:30:59.391Z"
+}

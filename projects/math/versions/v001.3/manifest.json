@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.3",
+  "parent_version": "v001.2",
+  "status": "draft",
+  "created_at": "2026-10-07T07:37:52.727Z",
+  "request": [
+    "最简单版本：白底 GitHub preprints 目录滚动加音乐。",
+    "再加 https://www.bilibili.com/video/BV1WNsVz9EhB/ 这个版本，然后变到1.25倍速。",
+    "3个音频的原倍速都保留着。",
+    "当前只交付音频试听，视频合成等待用户选定音频。"
+  ],
+  "model": "Codex (GPT-6)",
+  "method": "保留三个用户指定链接的完整原速 AAC/M4A；第三个来源另做 atempo=1.25 试听音频。目录滚动视频等待音频选定。",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+    "files": {
+      "renderer/index.html": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+      "renderer/src/scroll.ts": "100e36f3e971135ae5d0e48121b56050be353c09a5ea40c881c1a23c9726b3c6",
+      "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+    }
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 274.052993,
+    "target_frames": 8222,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "inputs": {
+    "audio": {
+      "source_id": "MATH_001_V001_R003_BGM_SPEED125",
+      "path": "versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+      "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc"
+    },
+    "preprints": {
+      "source_id": "MATH_001_PREPRINTS",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a"
+    },
+    "layout_reference": {
+      "source_id": "MATH_001_LAYOUT_REFERENCE",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+    }
+  },
+  "data": {
+    "directory": "data/directory.json"
+  },
+  "variants": [
+    {
+      "id": "directory-scroll",
+      "label": "白底论文目录滚动",
+      "generation_id": "MATH_001_V001_R003_001",
+      "description": "固定顶部路径；全部 722 个论文目录依次滚动。",
+      "known_issues": [
+        "完整视频尚未导出；先等待用户试听并选定音频。"
+      ],
+      "output": null,
+      "poster": null
+    }
+  ],
+  "rights": {
+    "status": "TBD"
+  },
+  "validation": {
+    "human_review": "pending",
+    "audio_full_decode": "passed",
+    "audio_playback": "passed",
+    "music": "three-originals-preserved-and-third-candidate-speed125",
+    "complete_video": "not-rendered"
+  },
+  "title": "OpenAI Math · 三个配乐候选与原速保留",
+  "type": "directory-scroll-video",
+  "production_stage": "audio-review-awaiting-user",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66"
+  },
+  "historical_provenance": null,
+  "audio_preview": {
+    "id": "MATH_001_V001_R003_AUDIO_001",
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 274.052993,
+    "size_bytes": 6697799,
+    "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc",
+    "path": "audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+    "full_decode": "passed",
+    "status": "review",
+    "human_review": "pending",
+    "processing": {
+      "filter": "atempo=1.25",
+      "speed": 1.25,
+      "speed_basis": "downloaded source audio; uploader title labels it 0.9x",
+      "preserve_pitch": true,
+      "trim": null,
+      "encoder": "AAC 192 kbps"
+    },
+    "provenance": "provenance/audio-intake-third-speed125.json",
+    "playback": "passed",
+    "playback_record": "provenance/audio-playback.json"
+  },
+  "audio_collection": {
+    "path": "audio/listen.html",
+    "original_count": 3,
+    "derived_count": 2,
+    "human_review": "pending",
+    "samples": [
+      {
+        "id": "candidate-1-original",
+        "candidate": 1,
+        "speed": 1,
+        "source_id": "MATH_001_BGM_ORIGINAL",
+        "path": "sources/audio/MATH_001_BGM_ORIGINAL_v001.m4a",
+        "sha256": "d947a7c13f76792f429524b07f1b7b6be78c8d530b887b64998a6f4ac5550dda",
+        "duration_seconds": 250.822449,
+        "full_decode": "passed",
+        "retention": "preserved-original"
+      },
+      {
+        "id": "candidate-1-speed125",
+        "candidate": 1,
+        "speed": 1.25,
+        "source_id": "MATH_001_V001_R001_BGM_SPEED125",
+        "path": "versions/v001.1/audio/MATH_001_BGM_SPEED125_v001.1.m4a",
+        "sha256": "92166011ec3605c4fb160f2889e46de6dc4c31ca6083dc9de0cca83ef13806ee",
+        "duration_seconds": 200.642993,
+        "full_decode": "passed"
+      },
+      {
+        "id": "candidate-2-original",
+        "candidate": 2,
+        "speed": 1,
+        "source_id": "MATH_001_BGM_002_ORIGINAL",
+        "path": "sources/audio/MATH_001_BGM_002_ORIGINAL_v001.m4a",
+        "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+        "duration_seconds": 209.002812,
+        "full_decode": "passed",
+        "retention": "preserved-original"
+      },
+      {
+        "id": "candidate-3-original",
+        "candidate": 3,
+        "speed": 1,
+        "source_id": "MATH_001_BGM_003_ORIGINAL",
+        "path": "sources/audio/MATH_001_BGM_003_ORIGINAL_v001.m4a",
+        "sha256": "edd7c138aef43d8e536a5c065ac29e5aca5a4d099834be70f3dcc047573bf39f",
+        "duration_seconds": 342.563764,
+        "full_decode": "passed",
+        "retention": "preserved-original"
+      },
+      {
+        "id": "candidate-3-speed125",
+        "candidate": 3,
+        "speed": 1.25,
+        "source_id": "MATH_001_V001_R003_BGM_SPEED125",
+        "path": "versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+        "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc",
+        "duration_seconds": 274.052993,
+        "full_decode": "passed"
+      }
+    ],
+    "retention_record": "provenance/audio-originals-preservation.json",
+    "playback": "passed",
+    "playback_record": "provenance/audio-playback.json",
+    "page_sha256": "731f1b03c6065aed117e57a5f78b4c51035a008a8e96f2d72ff702b6d931b048"
+  }
+}

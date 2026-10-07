@@ -1,0 +1,115 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "recorded_at": "2026-10-07T11:05:41.602Z",
+  "status": "passed",
+  "scope": "Chosen official-source identity/date and approved copy direction, canvas font widths and safe frame, statistics separation from the original page and shared fade; human subject-matter/music/aesthetic approval is pending.",
+  "cyber_source": {
+    "source_id": "MATH_001_CYBER_MILESTONES",
+    "sha256": "574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742",
+    "fact_id": "F11",
+    "date": "2026-04-07",
+    "name": "Claude Mythos Preview",
+    "url": "https://www.anthropic.com/research/mythos-preview"
+  },
+  "opening_math": {
+    "id": "TL_722",
+    "year": "2026",
+    "start": 10.2,
+    "end": 12,
+    "date_display": "截至 2026.10.07",
+    "title": "AI 正在攻克前沿数学难题",
+    "count": 722,
+    "count_unit": "篇数学论文",
+    "summary": "372 组相关成果 · OpenAI 内部前沿模型",
+    "fact_ids": [
+      "F05",
+      "F06"
+    ],
+    "date_role": "editorial-as-of",
+    "date_layout": "shared large year and month-day",
+    "suffix": "10.07"
+  },
+  "ending_statistics": {
+    "start": 55.75,
+    "enter_seconds": 0.45,
+    "fade_with_document": true,
+    "layout": "two blue numeric statements on either side of the single proportional full-page overview",
+    "items": [
+      {
+        "count": 722,
+        "unit": "篇数学论文",
+        "x": 560
+      },
+      {
+        "count": 372,
+        "unit": "组相关成果",
+        "x": 1360
+      }
+    ],
+    "number_baseline_px": 565,
+    "number_size_px": 156,
+    "unit_baseline_px": 633,
+    "unit_size_px": 36,
+    "color": "#0969da",
+    "scope": "Counts of manuscripts and related result families; no claim that 722 distinct problems were all solved or fully verified."
+  },
+  "typography": [
+    {
+      "id": "TL_2022",
+      "title": "ChatGPT 上线",
+      "date": "2022.11.30",
+      "title_right_px": 807.3125,
+      "summary_right_px": 426
+    },
+    {
+      "id": "TL_2023",
+      "title": "GPT-4",
+      "date": "2023.03.14",
+      "title_right_px": 434.2342529296875,
+      "summary_right_px": 543
+    },
+    {
+      "id": "TL_2024",
+      "title": "o1 · 深度推理",
+      "date": "2024.09.12",
+      "title_right_px": 738.6796875,
+      "summary_right_px": 646.489013671875
+    },
+    {
+      "id": "TL_2025",
+      "title": "GPT-5",
+      "date": "2025.08.07",
+      "title_right_px": 394.0086975097656,
+      "summary_right_px": 685.489013671875
+    },
+    {
+      "id": "TL_CYBER_2026_04",
+      "title": "Claude Mythos Preview",
+      "date": "2026.04.07",
+      "title_right_px": 1268.583251953125,
+      "summary_right_px": 752.56787109375
+    },
+    {
+      "id": "TL_2026",
+      "title": "GPT-6 Astra",
+      "date": "2026.09.03",
+      "title_right_px": 723.0936279296875,
+      "summary_right_px": 685.489013671875
+    },
+    {
+      "id": "TL_NS",
+      "title": "NS 千禧难题 · 给出解法",
+      "date": "2026.09.08",
+      "title_right_px": 1243.9921875,
+      "summary_right_px": 853.01953125
+    },
+    {
+      "id": "TL_722",
+      "title": "AI 正在攻克前沿数学难题",
+      "date": "截至 2026.10.07",
+      "title_right_px": 641.0546875,
+      "summary_right_px": 661.109375
+    }
+  ]
+}

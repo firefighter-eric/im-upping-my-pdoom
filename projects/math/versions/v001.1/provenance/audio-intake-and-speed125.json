@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.1",
+  "purpose": "authorized-audio-intake-and-speed-change",
+  "started_at": "2026-10-07T07:27:42.368310+00:00",
+  "status": "completed",
+  "source_url": "https://www.bilibili.com/video/BV1cFG76nExW/",
+  "bvid": "BV1cFG76nExW",
+  "user_instruction": "使用这里的音频，然后加速1.25倍。",
+  "processing": {
+    "filter": "atempo=1.25",
+    "speed": 1.25,
+    "preserve_pitch": true,
+    "trim": null,
+    "encoder": "AAC 192 kbps"
+  },
+  "rights": {
+    "status": "TBD"
+  },
+  "network_chunks": [
+    {
+      "from": 0,
+      "to": 2097151,
+      "total": 4673843,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 2097152,
+      "to": 4194303,
+      "total": 4673843,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 4194304,
+      "to": 4673842,
+      "total": 4673843,
+      "received": 479539,
+      "status": 206,
+      "attempt": 1
+    }
+  ],
+  "source_metadata": {
+    "bvid": "BV1cFG76nExW",
+    "cid": 38576458962,
+    "title": "误闯天家，劝余放下手中砂《误闯天家DJ》",
+    "duration": 251,
+    "pubdate": 1779844500,
+    "desc": "误闯天家，劝余放下手中砂\n【如有侵权，告知会立即删除】",
+    "uploader_name": "YYBBXXLL"
+  },
+  "public_stream": {
+    "id": 30280,
+    "bandwidth": 149051,
+    "codecs": "mp4a.40.2",
+    "mimeType": "audio/mp4"
+  },
+  "original": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 250.822449,
+    "size_bytes": 4673843,
+    "sha256": "d947a7c13f76792f429524b07f1b7b6be78c8d530b887b64998a6f4ac5550dda",
+    "path": "sources/audio/MATH_001_BGM_ORIGINAL_v001.m4a",
+    "full_decode": "passed"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "derived": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 200.642993,
+    "size_bytes": 4878672,
+    "sha256": "92166011ec3605c4fb160f2889e46de6dc4c31ca6083dc9de0cca83ef13806ee",
+    "path": "versions/v001.1/audio/MATH_001_BGM_SPEED125_v001.1.m4a",
+    "full_decode": "passed"
+  },
+  "expected_duration_seconds": 200.6579592,
+  "duration_difference_seconds": -0.014966200000003482,
+  "finished_at": "2026-10-07T07:27:45.226471+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "project_id": "MATH_001",
+  "recorded_at": "2026-10-07T12:50:48.212Z",
+  "status": "passed",
+  "scope": "Six removed old MP4s correctly fail requireMedia checks with bound user-removal receipts; retained latest media is independently verified.",
+  "results": [
+    {
+      "version": "v002.0",
+      "generation_id": "MATH_001_V002_R000_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V002_R000_001"
+    },
+    {
+      "version": "v004.2",
+      "generation_id": "MATH_001_V004_R002_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V004_R002_001"
+    },
+    {
+      "version": "v004.3",
+      "generation_id": "MATH_001_V004_R003_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V004_R003_001"
+    },
+    {
+      "version": "v004.4",
+      "generation_id": "MATH_001_V004_R004_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V004_R004_001"
+    },
+    {
+      "version": "v004.5",
+      "generation_id": "MATH_001_V004_R005_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V004_R005_001"
+    },
+    {
+      "version": "v004.6",
+      "generation_id": "MATH_001_V004_R006_001",
+      "status": "expected-rejection",
+      "message": "Local output was removed by user; restore or rebuild before media verification: MATH_001_V004_R006_001"
+    }
+  ]
+}

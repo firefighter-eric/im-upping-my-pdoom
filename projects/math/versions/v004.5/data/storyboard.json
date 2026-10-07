@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "duration_seconds": 58,
+  "seed": 722,
+  "intro_end": 12,
+  "scroll_end": 53,
+  "outro_start": 53,
+  "outro_card": false,
+  "overlay_fade_seconds": 0.6,
+  "source_count": 722,
+  "family_count": 372,
+  "source_label": "github.com/openai/math",
+  "scroll_mode": "linear-from-first-frame",
+  "opening_background": "Actual GitHub Math directory already moving under translucent milestone type",
+  "opening_effect": "Twelve-second translucent white opening; all eight dates use large shared-year typography, no scale punch, sequential gentle upward fade transitions, final 0.6-second dissolve.",
+  "ending": "Reach actual row 721 at 53 seconds; continuously zoom the same complete long document out, show all 722 rows at native proportions, hold about 0.85 seconds, fade to white by 58 seconds.",
+  "timeline": [
+    {
+      "id": "TL_2022",
+      "year": "2022",
+      "suffix": "11.30",
+      "date_display": "2022.11.30",
+      "start": 0,
+      "end": 1.4,
+      "title": "ChatGPT 上线",
+      "summary": "从一次对话开始。",
+      "fact_ids": [
+        "F01"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2023",
+      "year": "2023",
+      "suffix": "03.14",
+      "date_display": "2023.03.14",
+      "start": 1.4,
+      "end": 2.8,
+      "title": "GPT-4",
+      "summary": "读图与复杂指令理解升级",
+      "fact_ids": [
+        "F02"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2024",
+      "year": "2024",
+      "suffix": "09.12",
+      "date_display": "2024.09.12",
+      "start": 2.8,
+      "end": 4.2,
+      "title": "o1 · 深度推理",
+      "summary": "先思考再回答 · 数学与编程更强",
+      "fact_ids": [
+        "F03"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2025",
+      "year": "2025",
+      "suffix": "08.07",
+      "date_display": "2025.08.07",
+      "start": 4.2,
+      "end": 5.6,
+      "title": "GPT-5",
+      "summary": "按需深度思考 · 数学与编程再提升",
+      "fact_ids": [
+        "F08"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_CYBER_2026_02",
+      "year": "2026",
+      "suffix": "02.05",
+      "date_display": "2026.02.05",
+      "start": 5.6,
+      "end": 7.1,
+      "title": "Claude Opus 4.6",
+      "summary": "Anthropic 公布：发现并验证 500+ 高危漏洞",
+      "fact_ids": [
+        "F10"
+      ],
+      "publisher": "Anthropic",
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2026",
+      "year": "2026",
+      "suffix": "09.03",
+      "date_display": "2026.09.03",
+      "start": 7.1,
+      "end": 8.6,
+      "title": "GPT-6 Astra",
+      "summary": "科学与编程更强 · 更擅长复杂任务",
+      "fact_ids": [
+        "F09"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_NS",
+      "kind": "ns",
+      "year": "2026",
+      "suffix": "09.08",
+      "date_display": "2026.09.08",
+      "start": 8.6,
+      "end": 10.2,
+      "title": "NS 千禧难题 · 给出解法",
+      "summary": "OpenAI 内部系统 · 有外力 C/D · Lean 形式化",
+      "fact_ids": [
+        "F07"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_722",
+      "year": "2026",
+      "start": 10.2,
+      "end": 12,
+      "date_display": "截至 2026.10.07",
+      "title": "AI 挑战数学前沿",
+      "count": 722,
+      "count_unit": "篇数学预印本",
+      "summary": "372 组相关结果 · OpenAI 内部前沿模型",
+      "fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "date_role": "editorial-as-of",
+      "date_layout": "shared large year and month-day",
+      "suffix": "10.07"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 12,
+      "action": "Twelve-second shared-date opening over immediate uniform scrolling; unchanged typography and upward fade curves."
+    },
+    {
+      "id": "S02",
+      "start": 12,
+      "end": 53,
+      "action": "White native GitHub continues uniform scrolling to the last actual directory row; all 722 Chinese notes."
+    },
+    {
+      "id": "S03",
+      "start": 53,
+      "end": 56.31666666666667,
+      "action": "The last-row viewport becomes a continuous long-page camera pullback; sticky breadcrumb dissolves over 0.25s, full document remains spatially connected."
+    },
+    {
+      "id": "S04",
+      "start": 56.31666666666667,
+      "end": 57.166666666666664,
+      "action": "Hold the complete 722-row long page at native aspect ratio, centered vertically with 60px margins."
+    },
+    {
+      "id": "S05",
+      "start": 57.166666666666664,
+      "end": 58,
+      "action": "Fade the entire long-page overview to white; end with the unchanged audio input."
+    }
+  ],
+  "human_copy_approval": "pending",
+  "intro_copy_review": "NS publication date verified live on official OpenAI page; 722 date remains an editorial-as-of date; human review pending",
+  "music_anchor_validation": "Ending keyframes use inherited low-frequency onset candidates and frame-quantized timing; perceptual music synchronization remains pending.",
+  "annotation_status": {
+    "prepared": 722,
+    "remaining": 0,
+    "human_review": "pending"
+  },
+  "geometry": {
+    "source_body_height_px": 29602,
+    "viewport_source_height_px": 825.8718496849684,
+    "maximum_offset_px": 28776.12815031503,
+    "source_speed_px_per_second": 542.9458141568874,
+    "output_speed_px_per_second": 662.2973082472832
+  },
+  "inherited_from": "v004.4",
+  "scroll_start": 0,
+  "cyber_selection": {
+    "fact_id": "F10",
+    "selection": "February milestone from the user-recalled month",
+    "clarification": "Two verified options presented; no answer at drafting time. Proceeded with explicit February date after more than 60 seconds.",
+    "human_editorial_review": "pending"
+  },
+  "transition": {
+    "mode": "sequential fade-out and fade-in with subtle upward motion; year anchored across consecutive same-year nodes",
+    "enter_seconds": 0.18,
+    "exit_seconds": 0.18,
+    "initial_enter_seconds": 0.28,
+    "travel_px": 18,
+    "final_travel_px": 12,
+    "scaling": "none"
+  },
+  "ending_panorama": {
+    "start": 53,
+    "zoom_end": 56.31666666666667,
+    "hold_end": 57.166666666666664,
+    "fade_end": 58,
+    "overview_top_px": 60,
+    "overview_height_px": 960,
+    "sticky_header_fade_seconds": 0.25,
+    "zoom_curve": "smoothstep easing applied to logarithmic scale; center horizontally and move document bottom from 1080px to 1020px",
+    "source": "all eight original GitHub screenshot segments and all 722 inherited Chinese notes; one continuous page with native aspect ratio",
+    "extra_title": false,
+    "background": "white",
+    "edge": "subtle native gray page border and soft shadow; no grid or collage"
+  },
+  "ending_music_anchors": [
+    {
+      "event": "last row / start zoom",
+      "id": "LF_0168",
+      "anchor_audio_seconds": 52.91,
+      "target_video_seconds": 53,
+      "intentional_offset_seconds": 0.09,
+      "verification": "automatic-candidate; row completion takes priority"
+    },
+    {
+      "event": "complete full-page overview",
+      "id": "LF_0176",
+      "anchor_audio_seconds": 56.31,
+      "target_video_seconds": 56.31666666666667,
+      "intentional_offset_seconds": 0.006666666666667709,
+      "verification": "automatic-candidate; quantized to 60fps"
+    },
+    {
+      "event": "begin white fade",
+      "id": "LF_0178",
+      "anchor_audio_seconds": 57.16,
+      "target_video_seconds": 57.166666666666664,
+      "intentional_offset_seconds": 0.006666666666667709,
+      "verification": "automatic-candidate; quantized to 60fps"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "source_id": "MATH_001_MODEL_MILESTONES",
+  "version": "v001",
+  "retrieved_at": "2026-10-07T09:58:06.185Z",
+  "method": "Chinese editorial paraphrases verified with the official OpenAI publication pages via web tools; dates use release announcements or the official release index.",
+  "facts": [
+    {
+      "id": "F02",
+      "date": "2023-03-14",
+      "name": "GPT-4",
+      "claim_zh": "支持图文输入，更可靠地处理复杂指令。",
+      "source_title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4-research/",
+      "evidence": "Official announcement date; multimodal inputs and complex instruction handling."
+    },
+    {
+      "id": "F03",
+      "date": "2024-09-12",
+      "name": "o1-preview",
+      "claim_zh": "回答前花更多时间思考，提升科学、编程和数学推理。",
+      "source_title": "Introducing OpenAI o1-preview",
+      "url": "https://openai.com/index/introducing-openai-o1-preview/",
+      "evidence": "Official announcement date; spends more time thinking before responding."
+    },
+    {
+      "id": "F08",
+      "date": "2025-08-07",
+      "name": "GPT-5",
+      "claim_zh": "按需快速回答或深度思考，数学与编程能力提升。",
+      "source_title": "Introducing GPT-5",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "evidence": "Official announcement date and unified system routing between fast answers and deeper reasoning."
+    },
+    {
+      "id": "F09",
+      "date": "2026-09-03",
+      "name": "GPT-6 Astra",
+      "claim_zh": "科学、编程与复杂任务能力再提升。",
+      "source_title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "date_source_title": "OpenAI Research release index",
+      "date_source_url": "https://openai.com/research/index/release/",
+      "evidence": "Release index lists September 3, 2026; announcement describes advances in science, coding and multistep work."
+    }
+  ],
+  "scope": "Public release milestones only. Does not identify the internal unpublished model behind the NS publication or the 722-preprint release as a public GPT-6 model.",
+  "rights": {
+    "status": "TBD"
+  }
+}

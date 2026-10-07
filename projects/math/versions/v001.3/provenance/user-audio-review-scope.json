@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.3",
+  "recorded_at": "2026-10-07T07:39:43.514Z",
+  "user_request": [
+    "最简单版本：白底 GitHub preprints 目录滚动加音乐。",
+    "再加 https://www.bilibili.com/video/BV1WNsVz9EhB/ 这个版本，然后变到1.25倍速。",
+    "3个音频的原倍速都保留着。",
+    "当前只交付音频试听，视频合成等待用户选定音频。"
+  ],
+  "scope": "audio-intake, full 1.25x audio candidate, all three originals retained, comparison listening page",
+  "audio_approval": "pending",
+  "video_render_authorization": "waiting-for-user-audio-selection",
+  "rights": {
+    "status": "TBD"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "started_at": "2026-10-07T07:54:40.215295+00:00",
+  "status": "completed",
+  "request": "一分钟以内，加入片头片尾，做精美的配乐目录视频。",
+  "input": {
+    "path": "versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+    "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc"
+  },
+  "selection": "Latest third candidate at the previously requested 1.25x speed.",
+  "originals_retention": "all three full originals and both prior speed edits unchanged",
+  "human_audio_review": "pending",
+  "rights": {
+    "status": "TBD"
+  },
+  "finished_at": "2026-10-07T07:54:41.480776+00:00",
+  "executed_script": {
+    "path": "analysis/prepare-short-audio.py",
+    "sha256": "2555567df3bb430481e12fd58c6b891d1d118ae8c77444dc6bed2de316804db8"
+  },
+  "excerpt_start_seconds": 22.9,
+  "excerpt_end_seconds": 80.9,
+  "excerpt_clock": "seconds in the third, already 1.25x, candidate",
+  "processing": {
+    "filter": "atrim=start=22.9:duration=58,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.12,afade=t=out:st=56.5:d=1.5",
+    "additional_speed_change": null,
+    "preserve_pitch": true,
+    "duration_seconds": 58.0,
+    "encoder": "AAC 192 kbps"
+  },
+  "output": {
+    "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+    "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+    "size_bytes": 1408252,
+    "duration_seconds": 58.0,
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "full_decode": "passed"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "data_hashes": {
+    "music-features.json": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "storyboard.json": "e14ed8a51c7a9e3336cdc211311d541e97396be3763e5a8b978ca45cc1174a00"
+  }
+}

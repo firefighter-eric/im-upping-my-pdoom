@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.1",
+  "recorded_at": "2026-10-07T07:29:17.300Z",
+  "user_instructions": [
+    "使用这里的音频，然后加速1.25倍。",
+    "先把音频制作好了以后给我看一下。"
+  ],
+  "source_url": "https://www.bilibili.com/video/BV1cFG76nExW/",
+  "scope": "audio-preview-first",
+  "video_render": "awaiting-user-audio-review",
+  "audio_output_id": "MATH_001_V001_R001_AUDIO_001",
+  "audio_sha256": "92166011ec3605c4fb160f2889e46de6dc4c31ca6083dc9de0cca83ef13806ee",
+  "human_approval": null
+}

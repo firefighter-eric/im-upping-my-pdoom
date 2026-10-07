@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "parent_version": "v004.5",
+  "status": "review",
+  "created_at": "2026-10-07T10:58:54.741Z",
+  "request": [
+    "不要用 Opus 4.6 的漏洞成果，改用 Mythos 的成果。",
+    "第1、第2项按刚才推荐直接修改：片头突出数学难题，统计722篇论文及372组相关成果；收尾补充相同统计。",
+    "产出最终完整本地视频；沿用58秒、原生60fps、十二秒片头和长页全景收尾。"
+  ],
+  "model": "Codex (GPT-6; exact model identifier TBD)",
+  "method": "Native-time 1080p60 TypeScript/Three.js production with the April 7 Mythos Preview milestone, math-results opening, paired manuscript/family statements beside the continuous native-aspect long-page overview, and unchanged copied AAC.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl",
+    "build": "vite",
+    "source_directory": "renderer",
+    "files": {
+      "renderer/index.html": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+      "renderer/src/scroll.ts": "06e7c7670bafb30f70d3eeb15445f0437de43f2850a3f4e4f669c026e6ff07b4",
+      "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+    },
+    "sha256": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "inputs": {
+    "audio": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "preprints": {
+      "source_id": "MATH_001_PREPRINTS",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a"
+    },
+    "layout_reference": {
+      "source_id": "MATH_001_LAYOUT_REFERENCE",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+    },
+    "catalog": {
+      "source_id": "MATH_001_CATALOG_CONTENTS",
+      "path": "sources/references/MATH_001_CATALOG_CONTENTS_v001.md",
+      "sha256": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8"
+    },
+    "timeline_facts": {
+      "source_id": "MATH_001_TIMELINE_FACTS",
+      "path": "sources/references/MATH_001_TIMELINE_FACTS_v001.json",
+      "sha256": "923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8"
+    },
+    "ns_publication": {
+      "source_id": "MATH_001_NS_PUBLICATION",
+      "path": "sources/references/MATH_001_NS_PUBLICATION_v001.json",
+      "sha256": "1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6"
+    },
+    "github_segment_001": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_001",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_001_v001.jpg",
+      "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+    },
+    "github_segment_002": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_002",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_002_v001.jpg",
+      "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+    },
+    "github_segment_003": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_003",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_003_v001.jpg",
+      "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+    },
+    "github_segment_004": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_004",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_004_v001.jpg",
+      "sha256": "4f48ad877c282ad658e805460d854b9c26b646645a03900b8a05858845526786"
+    },
+    "github_segment_005": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_005",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_005_v001.jpg",
+      "sha256": "eace09e8e6227bd293f020abdde0f0cfda54aa0d4109f9004e7fd7e599522278"
+    },
+    "github_segment_006": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_006",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_006_v001.jpg",
+      "sha256": "09c7aa54b27fc56362645fe39503207ebd3908af5d7178ef064702d803d6bc48"
+    },
+    "github_segment_007": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_007",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_007_v001.jpg",
+      "sha256": "971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36"
+    },
+    "github_segment_008": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_008",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_008_v001.jpg",
+      "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926"
+    },
+    "model_milestones": {
+      "source_id": "MATH_001_MODEL_MILESTONES",
+      "path": "sources/references/MATH_001_MODEL_MILESTONES_v001.json",
+      "sha256": "8057fed6edbd64f4ef922b448e70ebb21ab434be488e615d6e2cdbed1f3acb82"
+    },
+    "cyber_milestones": {
+      "source_id": "MATH_001_CYBER_MILESTONES",
+      "path": "sources/references/MATH_001_CYBER_MILESTONES_v001.json",
+      "sha256": "574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742"
+    }
+  },
+  "data": {
+    "directory": "data/directory.json",
+    "storyboard": "data/storyboard.json",
+    "music_features": "data/music-features.json",
+    "catalog_papers": "data/catalog-papers.json",
+    "annotations_zh": "data/annotations.zh.json",
+    "screenshot_layout": "data/screenshot-layout.json",
+    "github_capture": "data/github-capture.json",
+    "editorial_notes": "data/editorial-notes.tsv"
+  },
+  "variants": [
+    {
+      "id": "math-github-preview",
+      "label": "GitHub Math · 数学成果与 Mythos · 58秒60帧",
+      "generation_id": "MATH_001_V004_R006_001",
+      "description": "Twelve-second dated opening includes Mythos Preview (2026.04.07) and manuscript/family statistics. All 722 bilingual rows scroll to 53s; continuous full-page pullback with 722 manuscripts / 372 result families flanking the overview, fading to white by 58s.",
+      "known_issues": [
+        "All 722 papers within one minute remain scan-reading.",
+        "The final full-page thumbnail shows document scale and completeness; individual titles are too small for detailed reading.",
+        "Chinese subject matter, perceptual music synchronization and aesthetic review pending."
+      ],
+      "output": {
+        "path": "outputs/MATH_001_V004_R006_001_math-github-preview_v004.6.mp4",
+        "sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+        "size_bytes": 75779716,
+        "duration_seconds": 58,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "60/1",
+        "frame_count": 3480,
+        "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+        "status": "review",
+        "run_id": "RUN_2026-10-07T11-06-45-435Z_87cadae0",
+        "retention": {
+          "state": "removed-by-user",
+          "record": "provenance/media-cleanup-2026-10-07.json",
+          "record_sha256": "06219d022c5e6bbd9e7d040fc174720860a3e91a013aaa2bad407a53897b60aa"
+        }
+      },
+      "poster": {
+        "path": "poster.jpg",
+        "sha256": "076e3e7bf89368c3b67c7989ea8e17f77a601478c7abcb68af52770de00f1f37",
+        "size_bytes": 293678,
+        "width": 1920,
+        "height": 1080,
+        "source_output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+        "source_frame": 666,
+        "source_seconds": 11.1,
+        "method": "Unmodified encoded frame extracted with ffmpeg; JPEG encoding only."
+      }
+    }
+  ],
+  "rights": {
+    "status": "TBD"
+  },
+  "validation": {
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-07T11:08:22.956Z",
+    "human_review": "pending",
+    "copy_layout": "passed; official Mythos Preview identity/date and statistical units, safe typography and unobstructed shared-fade ending statistics",
+    "frame_timestamps": "passed; all 3480 frames at 60fps",
+    "encoded_motion": "passed; sixteen unique consecutive frames and fifteen upward 11px steps",
+    "ending_panorama": "passed; continuous camera join, 301 frame-time states, all 722 bilingual rows and eight original source segments in complete overview",
+    "encoded_panorama": "passed; centered whole-page pixels, both numeric statements, decreasing fade contrast and last-frame maximum RGB white error of one",
+    "encoded_still_inspection": "passed; twelve inspected out of forty-seven extracted unmodified MP4 frames",
+    "technical_playback": "passed; full 58s at 1x unmuted, five resumed seeks, ending shortcut and VIDEO fullscreen; zero dropped or corrupted frames in this test",
+    "historical_preservation": "passed; all 575 preexisting Math source and historical version files unchanged",
+    "preview_http": "passed; exact page/poster and three MP4 byte ranges"
+  },
+  "title": "GitHub Math · 数学成果与 Mythos",
+  "type": "bilingual-directory-scroll-video",
+  "production_stage": "full-preview-review",
+  "audio_edit": {
+    "path": "../v002.0/provenance/audio-edit-58.json",
+    "source_candidate": 3,
+    "source_speed": 1.25,
+    "excerpt_start_seconds": 22.9,
+    "excerpt_end_seconds": 80.9,
+    "duration_seconds": 58,
+    "status": "inherited-input; no new audio edit",
+    "human_review": "pending"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "aa2db498de9c5d20798ba96219c9dd577c767be1397ced27608bbbbaf7d84ac0",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "historical_provenance": null
+}

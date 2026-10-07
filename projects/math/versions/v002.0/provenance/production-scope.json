@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "recorded_at": "2026-10-07T07:59:16.499Z",
+  "user_request": "一分钟以内，片头片尾需要有点其他的东西吗？再想想。要一个精美的视频。",
+  "interpretation": "Create a concrete 58-second preview candidate with opening and closing, using the latest music candidate as background; retain every original.",
+  "format_assumption": "16:9 follows existing work",
+  "audio_excerpt_approval": "pending",
+  "new_copy_approval": "pending",
+  "video_approval": "pending",
+  "preservation": {
+    "checked_files": 57,
+    "all_preexisting_hashes_unchanged": true
+  }
+}

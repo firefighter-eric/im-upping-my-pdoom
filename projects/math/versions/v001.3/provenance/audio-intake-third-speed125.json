@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.3",
+  "purpose": "authorized-audio-intake-and-speed-change",
+  "started_at": "2026-10-07T07:38:17.046011+00:00",
+  "status": "completed",
+  "source_url": "https://www.bilibili.com/video/BV1WNsVz9EhB/",
+  "bvid": "BV1WNsVz9EhB",
+  "user_instruction": "再加 BV1WNsVz9EhB 这个版本，然后变到1.25倍速。3个音频的原倍速都保留着。",
+  "processing": {
+    "filter": "atempo=1.25",
+    "speed": 1.25,
+    "speed_basis": "downloaded source audio; uploader title labels it 0.9x",
+    "preserve_pitch": true,
+    "trim": null,
+    "encoder": "AAC 192 kbps"
+  },
+  "rights": {
+    "status": "TBD"
+  },
+  "network_chunks": [
+    {
+      "from": 0,
+      "to": 2097151,
+      "total": 8180015,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 2097152,
+      "to": 4194303,
+      "total": 8180015,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 4194304,
+      "to": 6291455,
+      "total": 8180015,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 6291456,
+      "to": 8180014,
+      "total": 8180015,
+      "received": 1888559,
+      "status": 206,
+      "attempt": 1
+    }
+  ],
+  "executed_script": {
+    "path": "analysis/intake-audio.py",
+    "sha256": "bc5a30e1340627a8cfa29e0cb7a4588978cdafb825d2129d0649dad1139d2361"
+  },
+  "source_metadata": {
+    "bvid": "BV1WNsVz9EhB",
+    "cid": 33330498514,
+    "title": "“天下谁人不识君.”|《辞九门回忆+莫问归期dj》0.9x",
+    "duration": 343,
+    "pubdate": 1761264000,
+    "desc": "🎵 正在播放：《辞九门回忆+莫问归期dj》0.9x\n🎤歌手：等什么君/蒋雪儿\n*【如有侵权，告知会立即删除】",
+    "uploader_name": "一支yuuu"
+  },
+  "public_stream": {
+    "id": 30280,
+    "bandwidth": 190991,
+    "codecs": "mp4a.40.2",
+    "mimeType": "audio/mp4"
+  },
+  "original": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 342.563764,
+    "size_bytes": 8180015,
+    "sha256": "edd7c138aef43d8e536a5c065ac29e5aca5a4d099834be70f3dcc047573bf39f",
+    "path": "sources/audio/MATH_001_BGM_003_ORIGINAL_v001.m4a",
+    "full_decode": "passed"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "derived": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 274.052993,
+    "size_bytes": 6697799,
+    "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc",
+    "path": "versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+    "full_decode": "passed"
+  },
+  "expected_duration_seconds": 274.0510112,
+  "duration_difference_seconds": 0.0019818000000100255,
+  "finished_at": "2026-10-07T07:38:21.683662+00:00"
+}

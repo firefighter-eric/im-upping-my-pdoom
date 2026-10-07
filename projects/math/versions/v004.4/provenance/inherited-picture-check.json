@@ -1,0 +1,24 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "status": "passed",
+  "scope": "Native renderer PNG samples after the opening are byte-identical to v004.3; all 722 Chinese annotations are inherited with identical hash.",
+  "images": [
+    {
+      "seconds": 20,
+      "sha256": "73f247108f5074b7de46082acac6ecfb421d31bd07b7b511255858ce0035b544",
+      "status": "identical"
+    },
+    {
+      "seconds": 20.016666666666666,
+      "sha256": "806acd71c2ebbc364d7b54e4f46690e46b2f065c1ebff2f7dd50c949ba37a96c",
+      "status": "identical"
+    },
+    {
+      "seconds": 32,
+      "sha256": "1c342454bb26695e8f45b7871351e8dd2fd15230a90bced335ce32be53d0277f",
+      "status": "identical"
+    }
+  ],
+  "annotation_sha256": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e"
+}

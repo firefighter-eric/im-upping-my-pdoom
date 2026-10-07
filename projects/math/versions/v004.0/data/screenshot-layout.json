@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.0",
+  "source_id": "MATH_001_LAYOUT_REFERENCE",
+  "source_path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+  "source_sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+  "width": 2222,
+  "height": 2436,
+  "header_height_px": 84,
+  "row_height_px": 82,
+  "first_complete_row": 601,
+  "first_complete_row_top_px": 118,
+  "last_complete_row": 628,
+  "source_global_offset_px": 49248,
+  "sample_seconds": 46.34142595922938,
+  "output_width": 1920,
+  "output_height": 1080,
+  "image_scale": 0.8640864086408641,
+  "note_column_x_px": 1608,
+  "mask_column_x_px": 1580,
+  "visible_rows": [
+    601,
+    614
+  ],
+  "method": "Scale and crop the actual user-supplied GitHub screenshot to fill the 16:9 frame; Chinese overlay confined to the original commit column; original English pixels and native separators retained.",
+  "full_directory_capture": "TBD; screenshot captures only this segment, no complete-video export in this version."
+}

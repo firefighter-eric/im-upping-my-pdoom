@@ -1,0 +1,34 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "recorded_at": "2026-10-07T10:49:48.480Z",
+  "status": "passed",
+  "scope": "Executed repository checks, global lineage verification, registered media validation and final scoped metadata validation. Existing intentional removal applies to historical AGI output, not the current Math video.",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "output": "Shared scripts and all HTML/TypeScript version renderers compile."
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "output": "> im-upping-my-pdoom@0.1.0 test\n> node --test tests/*.test.mjs\n\n✔ missing outputs fail unless an exact completed user-removal receipt is bound (5.636375ms)\n✔ a cleanup receipt never bypasses integrity checks on a present or restored output (3.575209ms)\n✔ tampered, incomplete and mismatched removal records fail even in source-only checks (5.78175ms)\n✔ encoder failure while writing a large frame rejects without a drain deadlock (65.468458ms)\n✔ a successful encoder consumes every byte and exits after input EOF (52.286791ms)\n✔ modular renderer sources are inherited and approval is cleared in a new version (16.341708ms)\n✔ verification fails for a requested version that does not exist (136.365166ms)\n✔ media server supports exact byte seeking and rejects missing LFS objects/private paths (28.309708ms)\n✔ new versions retain exact input lineage, leave parent outputs immutable and start in draft (16.664708ms)\n✔ cross-project version records and paths outside a project are rejected (2.242667ms)\n✔ range parser handles end clamping, empty ranges and invalid multi-range requests (0.071125ms)\n✔ revision versions sort numerically, reject equivalent directories and clone with independent identities (11.389792ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 348.923916"
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 36 versions checked; project/version lineage valid; 1 output(s) intentionally removed by user, receipts verified, media not verified."
+    },
+    {
+      "command": "npm run verify:media -- --project math --version v004.5",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 1 versions checked; project/version lineage valid, video specs and source AAC packets verified."
+    },
+    {
+      "command": "npm run verify -- --project math --version v004.5",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 1 versions checked; project/version lineage valid."
+    }
+  ]
+}

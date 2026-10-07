@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.3",
+  "checked_at": "2026-10-07T07:41:58.275Z",
+  "method": "Codex in-app browser; native media play and timeline controls; read-only DOM media state",
+  "url": "http://127.0.0.1:60547/versions/v001.3/audio/listen.html",
+  "observations": [
+    {
+      "id": "candidate-1-original",
+      "started_seconds": 0.226761,
+      "seek_seconds": 125.360693,
+      "after_pause_seconds": 125.383651,
+      "ready_state": 4,
+      "error": null,
+      "playback": "passed",
+      "native_middle_seek": "passed"
+    },
+    {
+      "id": "candidate-1-speed125",
+      "started_seconds": 0.117562,
+      "advanced_seconds": 4.291687,
+      "seek_seconds": 100.782779,
+      "ready_state": 4,
+      "error": null,
+      "playback": "passed",
+      "native_middle_seek": "passed"
+    },
+    {
+      "id": "candidate-2-original",
+      "started_seconds": 0.170171,
+      "advanced_seconds": 5.116621,
+      "seek_seconds": 104.969248,
+      "ready_state": 4,
+      "error": null,
+      "playback": "passed",
+      "native_middle_seek": "passed"
+    },
+    {
+      "id": "candidate-3-original",
+      "started_seconds": 0.279518,
+      "advanced_seconds": 3.698343,
+      "seek_seconds": 171.899558,
+      "ready_state": 4,
+      "error": null,
+      "playback": "passed",
+      "native_middle_seek": "passed"
+    },
+    {
+      "id": "candidate-3-speed125",
+      "started_seconds": 0.229822,
+      "advanced_seconds": 4.732448,
+      "seek_seconds": 137.611299,
+      "ready_state": 4,
+      "error": null,
+      "playback": "passed",
+      "native_middle_seek": "passed"
+    }
+  ],
+  "single_track_playback": "passed: starting another track automatically paused the previous track",
+  "viewport": {
+    "width": 549,
+    "height": 772,
+    "horizontal_overflow": false
+  },
+  "final_state": {
+    "all_paused": true,
+    "all_current_time_seconds": 0,
+    "all_ready_state": 4,
+    "all_errors": null
+  },
+  "technical_result": "passed",
+  "human_audio_approval": "pending",
+  "complete_video": "not-rendered"
+}

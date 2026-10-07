@@ -1,0 +1,98 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "source_sha256": "7f2e072d160b3974edcb89986290ab6c01266373c60b708ee5ef452f5d8950d2",
+  "method": "Unmodified encoded MP4 frames extracted with ffmpeg",
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-01.png",
+      "frame": 0,
+      "seconds": 0,
+      "sha256": "759f0c62c64cc431d1b4d5fe10c9b82b8b153fb463c306a92aa924b5fbbd9840"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 36,
+      "seconds": 0.6,
+      "sha256": "679e95c55a12b590fee8d6e5a76a79a0c4d7c081a1b367c56e471931ec26bc6c"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-03.png",
+      "frame": 107,
+      "seconds": 1.7833333333333334,
+      "sha256": "9ba5f3b9812f780b7a1f7b15eb01e313b63126b03b51fd284e183c8ac185303e"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-04.png",
+      "frame": 180,
+      "seconds": 3,
+      "sha256": "302bd2795fbc42020337608261342cc4568bb60666195619fa2c9af2e2f6697f"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-05.png",
+      "frame": 252,
+      "seconds": 4.2,
+      "sha256": "5e4add5c1707a1fa37738eba565aa75168200b29e326965d8420f7a7ea0ebce6"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 326,
+      "seconds": 5.433333333333334,
+      "sha256": "37e0f781f7a7ce181f6552805a77a947569c027a71f0ec7180da17457d234928"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-07.png",
+      "frame": 403,
+      "seconds": 6.716666666666667,
+      "sha256": "74d32621015ca234ca69cca934bbefd6924fd8bdefe581d17b926a5dd5abb240"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-08.png",
+      "frame": 478,
+      "seconds": 7.966666666666667,
+      "sha256": "5af80e3026dfb2045ad52ee5ce57fdbd52c883969c087455a16ce5d051712ec1"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-09.png",
+      "frame": 558,
+      "seconds": 9.3,
+      "sha256": "ea8e8e96d3ba701ced6231cad0dfd39e3651790a10e30a57733079114f2a9e04"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 580,
+      "seconds": 9.666666666666666,
+      "sha256": "d295c0d7650f5b0f362be132f0aeaeacdbcd15043d58ce412bbbf6bba901dfb7"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-11.png",
+      "frame": 600,
+      "seconds": 10,
+      "sha256": "0116d7b0b6ee61a75fae288cd0a0b93d7c354a7343934df3f609362ccef1576f"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-12.png",
+      "frame": 1200,
+      "seconds": 20,
+      "sha256": "beeaa1f8e1c810b1944668f4fba2f5c4d34ed22fffcaa03c9f2bf982cf27a46a"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-13.png",
+      "frame": 1201,
+      "seconds": 20.016666666666666,
+      "sha256": "fadb7879b2091747ba75cca9c7be7d53692c86b8732f24260b8c5953b6a0e13d"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 1920,
+      "seconds": 32,
+      "sha256": "0342519e2939b1f457f29b2d1d5727d6e857927faaff05f028cefaa992fc4697"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-15.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "c90d007e6fc62e984e4e589e9173f35359abc30eba3fd86bedfaba69ad6a28e8"
+    }
+  ]
+}

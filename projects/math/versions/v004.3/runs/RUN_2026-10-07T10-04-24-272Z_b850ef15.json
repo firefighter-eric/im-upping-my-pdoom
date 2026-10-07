@@ -1,0 +1,65 @@
+{
+  "id": "RUN_2026-10-07T10-04-24-272Z_b850ef15",
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "status": "completed",
+  "started_at": "2026-10-07T10:04:24.312Z",
+  "purpose": "full-render",
+  "renderer_sha256": "89d65083d4b7fbbcb6e5236a5361b410d94be1726903276a5b34cb3f0228134c",
+  "renderer_files": {
+    "renderer/index.html": "89d65083d4b7fbbcb6e5236a5361b410d94be1726903276a5b34cb3f0228134c",
+    "renderer/src/scroll.ts": "1a916d34a430ca6ed2b286c69bfc84bc0909083bce21f8e3f03e86a3d0eec5da",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "db1b207319e718c1ba99c19764524ef9a5504c1f6ba9f50ca2c7b52490dd9d78",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "是不是帧率太低了？有点看不清啊，这抖动太厉害了。",
+    "片头可以延长到10秒。片头出来的时候，就已经开始滚动，不用等片头结束。",
+    "每年列出节点，GPT-4、5、6 各补充一句简短背景，并保留 NS 节点。",
+    "沿用58秒总长、全部722行、英文左中文右的原图滚动与已选音乐。",
+    "最好还可以加一个2026年2月份，MISS发布的解决几百个还是1000个漏洞的；核对为2月Opus 4.6发现并验证500多个，4月Mythos为另一个节点。"
+  ],
+  "treatment_sha256": "559da41e63901622bd8a5f2a995221e066a379b697241f86146c0e999f542849",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-github-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R003_001",
+      "path": "outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "sha256": "7f2e072d160b3974edcb89986290ab6c01266373c60b708ee5ef452f5d8950d2"
+    }
+  ],
+  "build_key": "d4c2618807da0755c70ecbd31c3c66fbcecfacc66d5a93478baf190c0cffdc92",
+  "finished_at": "2026-10-07T10:05:32.546Z"
+}

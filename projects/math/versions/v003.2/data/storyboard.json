@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v003.2",
+  "duration_seconds": 58.0,
+  "seed": 722,
+  "intro_end": 2.75,
+  "outro_start": 52.91,
+  "source_count": 722,
+  "family_count": 372,
+  "headline": [
+    "误闯",
+    "数学天家"
+  ],
+  "closing": "目录的尽头，是下一个问题。",
+  "source_label": "github.com/openai/math",
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 2.75,
+      "action": "White GitHub header, black title and GitHub-blue 722; plain white background.",
+      "anchor": "LF_0058"
+    },
+    {
+      "id": "S02",
+      "start": 2.75,
+      "end": 52.91,
+      "action": "Actual GitHub screenshot fills the frame; small Chinese notes replace the commit labels, sharing original rows; no custom table, grid, card, border, focus highlight or progress bar.",
+      "anchor": "LF_0058"
+    },
+    {
+      "id": "S03",
+      "start": 52.91,
+      "end": 58.0,
+      "action": "White background, count and closing copy, native GitHub header and source.",
+      "anchor": "LF_0168"
+    }
+  ],
+  "human_copy_approval": "pending",
+  "music_anchor_validation": "automatic-candidates; audible review pending",
+  "scroll_mode": "constant-speed"
+}

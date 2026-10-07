@@ -1,0 +1,51 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:24:07.649Z",
+  "status": "passed",
+  "scope": "Internal layout inspection before full rendering: large NS and snapshot dates, regular model layout, stable 2026 year, no clipping, corrected same-metric year-rail highlight, fade midpoint and overlay removal.",
+  "images": [
+    {
+      "path": "provenance/design-frames/frame-03.png",
+      "seconds": 3.5,
+      "sha256": "35affa3f7c79c9d42c3bb8c430f578a4054e2d456be57c3f2487e052e9eeeb6a"
+    },
+    {
+      "path": "provenance/design-frames/frame-04.png",
+      "seconds": 4.9,
+      "sha256": "e8ad12dc39c3f2d95a7748600418225824658b63eacd7086de209c3028b9caff"
+    },
+    {
+      "path": "provenance/design-frames/frame-06.png",
+      "seconds": 7.85,
+      "sha256": "fd40d02af2ef2b30c3d3b5717afbbb24f1c5e2c2d0a5389234fb60ecffb7b899"
+    },
+    {
+      "path": "provenance/design-frames/frame-07.png",
+      "seconds": 9.399999999999999,
+      "sha256": "f46e23ba98b9a54659c4d07e1fa194a6bdcd0b227d654685e417f679913e540c"
+    },
+    {
+      "path": "provenance/design-frames/frame-08.png",
+      "seconds": 11.1,
+      "sha256": "4daa0a8a6787e6e11427c4ca86b005e852f5f969319de6bcd4a6cf0734b4d2de"
+    },
+    {
+      "path": "provenance/design-frames/frame-10.png",
+      "seconds": 1.4,
+      "sha256": "ae015b3be40b4e333f41a39427d19b583c9e3cdbf2942648e5261421350c99fe"
+    },
+    {
+      "path": "provenance/design-frames/frame-30.png",
+      "seconds": 11.4,
+      "sha256": "3702f0e560124a16f689d4d4ad1f94ae4e975629601a9a247a89b725f1a91937"
+    },
+    {
+      "path": "provenance/design-frames/frame-32.png",
+      "seconds": 12,
+      "sha256": "ef712b36bd6be4d5e7a8678f73c675e07015f937bbdd32c314cd290af1d4b404"
+    }
+  ],
+  "earlier_inspection": "Initial-layout frames were inspected before the small rail-weight refinement; retained in first-preflight/.",
+  "human_approval": "pending"
+}

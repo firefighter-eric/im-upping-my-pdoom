@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "duration_seconds": 58.0,
+  "seed": 722,
+  "intro_end": 2.75,
+  "outro_start": 52.91,
+  "source_count": 722,
+  "family_count": 372,
+  "headline": [
+    "误闯",
+    "数学天家"
+  ],
+  "closing": "数学的边界，还在延伸。",
+  "source_label": "github.com/openai/math",
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 2.75,
+      "action": "Ink-blue title and large 722, restrained mathematical linework.",
+      "anchor": "LF_0058"
+    },
+    {
+      "id": "S02",
+      "start": 2.75,
+      "end": 52.91,
+      "action": "All 722 real GitHub directory entries scroll in preserved API order; stable header, progress and count.",
+      "anchor": "LF_0058"
+    },
+    {
+      "id": "S03",
+      "start": 52.91,
+      "end": 58.0,
+      "action": "Return to 722, show preprints label and source; music fades to close.",
+      "anchor": "LF_0168"
+    }
+  ],
+  "human_copy_approval": "pending",
+  "music_anchor_validation": "automatic-candidates; audible review pending"
+}

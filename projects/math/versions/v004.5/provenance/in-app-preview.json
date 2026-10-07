@@ -1,0 +1,17 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "recorded_at": "2026-10-07T10:51:00.751295+00:00",
+  "status": "passed",
+  "scope": "Read-only in-app browser DOM/media inspection after opening the new player; marked user-facing tab as deliverable. Full technical playback is recorded separately.",
+  "browser": "Codex In-app Browser",
+  "tab_id": "8",
+  "url": "http://127.0.0.1:60547/versions/v004.5/watch.html",
+  "heading": "GitHub Math · 长页全景收尾",
+  "duration_seconds": 58,
+  "width": 1920,
+  "height": 1080,
+  "readyState": 4,
+  "media_error": null,
+  "ending_shortcut_present": true
+}

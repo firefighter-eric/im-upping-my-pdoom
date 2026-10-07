@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "source_id": "MATH_001_NS_PUBLICATION",
+  "version": "v001",
+  "retrieved_at": "2026-10-07T08:51:58.853880+00:00",
+  "fact_id": "F07",
+  "publication_date": "2026-09-08",
+  "source_title": "On the Navier–Stokes Millennium Prize Problem",
+  "url": "https://openai.com/index/navier-stokes-solution/",
+  "supporting_repository": "https://github.com/openai/NavierStokesAndEuler",
+  "claim_zh": "OpenAI 公布内部系统产出的 Navier–Stokes 千禧难题解法与 Lean 形式化证明；构造有光滑外力的有限时间奇性，覆盖官方题目的 C/D 选项。",
+  "scope": "OpenAI-reported solution to the forced versions C/D; this production does not independently re-check the proof or claim Clay prize recognition.",
+  "not_claimed": [
+    "a solution of unforced Navier–Stokes regularity",
+    "a prize awarded by Clay",
+    "an extra manuscript included in the 722 count"
+  ],
+  "rights": {
+    "status": "TBD"
+  }
+}

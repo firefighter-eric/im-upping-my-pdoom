@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "parent_version": "v001.3",
+  "status": "review",
+  "created_at": "2026-10-07T07:53:33.039Z",
+  "request": [
+    "用GitHub preprints论文目录向下滚动，配用户指定音乐。",
+    "一分钟以内，片头片尾需要有点其他内容，要一个精美的视频。",
+    "本轮采用58秒横屏Preview，基于最后一份1.25倍速配乐独立裁剪；三个完整原速素材及既有加速版全部保留。"
+  ],
+  "model": "Codex (GPT-6)",
+  "method": "TypeScript + Three.js/WebGL deterministic typography and directory composition; 58-second independent audio excerpt; 1080p30 four temporal samples.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl",
+    "build": "vite",
+    "source_directory": "renderer",
+    "sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+    "files": {
+      "renderer/index.html": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+      "renderer/src/scroll.ts": "a8cc93af2d85f84cee80ccf73a273b5d3f5c7949a16fc470231c76b76aa0fd9f",
+      "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+    }
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "inputs": {
+    "audio": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "preprints": {
+      "source_id": "MATH_001_PREPRINTS",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a"
+    },
+    "layout_reference": {
+      "source_id": "MATH_001_LAYOUT_REFERENCE",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+    }
+  },
+  "data": {
+    "directory": "data/directory.json",
+    "storyboard": "data/storyboard.json",
+    "music_features": "data/music-features.json"
+  },
+  "variants": [
+    {
+      "id": "math-heaven-preview",
+      "label": "误闯数学天家 · 58秒Preview",
+      "generation_id": "MATH_001_V002_R000_001",
+      "description": "Short typographic opening, all 722 genuine directory entries, closing count and source.",
+      "known_issues": [
+        "Fast scroll emphasizes scale; long paper titles cannot all be read in full.",
+        "Audio excerpt and new title/copy await human review."
+      ],
+      "output": {
+        "path": "outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4",
+        "sha256": "99ebe4132077fc25cc810c3aac80829584c8052d38ac32c64c6753386c607075",
+        "size_bytes": 74567666,
+        "duration_seconds": 58,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "30/1",
+        "frame_count": 1740,
+        "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+        "status": "review",
+        "run_id": "RUN_2026-10-07T08-01-56-946Z_7da85793"
+      },
+      "poster": null
+    }
+  ],
+  "rights": {
+    "status": "TBD"
+  },
+  "validation": {
+    "full_decode": "passed",
+    "source_audio_packets": "identical",
+    "registered_at": "2026-10-07T08:05:14.178Z",
+    "human_review": "pending"
+  },
+  "title": "误闯数学天家 · 58秒精装目录预览",
+  "type": "directory-scroll-video",
+  "production_stage": "short-preview-production",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "e14ed8a51c7a9e3336cdc211311d541e97396be3763e5a8b978ca45cc1174a00",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe"
+  },
+  "historical_provenance": null,
+  "audio_edit": {
+    "path": "provenance/audio-edit-58.json",
+    "source_candidate": 3,
+    "source_speed": 1.25,
+    "excerpt_start_seconds": 22.9,
+    "excerpt_end_seconds": 80.9,
+    "duration_seconds": 58,
+    "status": "review",
+    "human_review": "pending"
+  }
+}

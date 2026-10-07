@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "duration_seconds": 58,
+  "seed": 722,
+  "intro_end": 5,
+  "scroll_end": 57.96666666666667,
+  "outro_start": 58,
+  "outro_card": false,
+  "overlay_fade_seconds": 0.18,
+  "source_count": 722,
+  "family_count": 372,
+  "source_label": "github.com/openai/math",
+  "scroll_mode": "constant-speed",
+  "opening_background": "same actual first directory viewport as at t=5; static during opening",
+  "opening_effect": "translucent white gradient, 42–68 percent; text and wash fade together during 4.82–5.00",
+  "ending": "finish on the last native directory row, no separate card",
+  "timeline": [
+    {
+      "id": "TL_2022",
+      "year": "2022",
+      "suffix": "11.30",
+      "date_display": "2022.11.30",
+      "start": 0,
+      "end": 1.06,
+      "title": "ChatGPT 上线",
+      "summary": "从一次对话开始。",
+      "anchor": "LF_0052",
+      "fact_ids": [
+        "F01"
+      ]
+    },
+    {
+      "id": "TL_2025",
+      "year": "2025",
+      "suffix": "07",
+      "date_display": "2025.07",
+      "start": 1.06,
+      "end": 2.33,
+      "title": "数学奥赛 · 金牌水平",
+      "summary": "OpenAI 推理模型 · IMO 2025 · 35 / 42 分",
+      "anchor": "LF_0054",
+      "fact_ids": [
+        "F04"
+      ]
+    },
+    {
+      "id": "TL_NS",
+      "kind": "ns",
+      "year": "2026",
+      "suffix": "09.08",
+      "date_display": "2026.09.08",
+      "start": 2.33,
+      "end": 3.61,
+      "title": "NS 千禧难题 · 给出解法",
+      "summary": "OpenAI 公布 · 有外力版本（C/D）· Lean 形式化",
+      "anchor": "LF_0057",
+      "fact_ids": [
+        "F07"
+      ]
+    },
+    {
+      "id": "TL_722",
+      "year": "2026",
+      "start": 3.61,
+      "end": 5,
+      "date_display": "截至 2026.10.07",
+      "title": "AI 挑战数学前沿",
+      "count": 722,
+      "count_unit": "篇数学预印本",
+      "summary": "372 组相关结果 · OpenAI 内部前沿模型",
+      "anchor": "LF_0059",
+      "fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "date_role": "editorial-as-of"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 5,
+      "action": "Actual GitHub Math first viewport remains visible underneath translucent milestone type; source position stays fixed.",
+      "anchor": "LF_0052"
+    },
+    {
+      "id": "S02",
+      "start": 5,
+      "end": 58,
+      "action": "Clear native GitHub directory, all 722 rows and matching Chinese notes move uniformly; source bottom reached on last frame.",
+      "anchor": "exact-user-5-second-boundary"
+    }
+  ],
+  "human_copy_approval": "pending",
+  "intro_copy_review": "pending",
+  "music_anchor_validation": "automatic-candidates; audible review pending",
+  "annotation_status": {
+    "prepared": 722,
+    "remaining": 0,
+    "human_review": "pending"
+  },
+  "geometry": {
+    "source_body_height_px": 29602,
+    "viewport_source_height_px": 825.8718496849684,
+    "maximum_offset_px": 28776.12815031503,
+    "source_speed_px_per_second": 543.2875044112341,
+    "output_speed_px_per_second": 662.7141095740593
+  },
+  "inherited_from": "v004.1"
+}

@@ -1,0 +1,125 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "source_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+  "status": "passed",
+  "method": "Vertical pixel matching on sixteen actual decoded consecutive frames; source-English column only, no header or opening overlay.",
+  "crop": {
+    "width": 720,
+    "height": 780,
+    "x": 0,
+    "y": 180
+  },
+  "first_frame": 1200,
+  "frames": 16,
+  "shifts": [
+    {
+      "from_frame": 1200,
+      "to_frame": 1201,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.4435867840138508,
+      "stationary_error": 32.118838070504495
+    },
+    {
+      "from_frame": 1201,
+      "to_frame": 1202,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.40326071273986436,
+      "stationary_error": 31.96527677583802
+    },
+    {
+      "from_frame": 1202,
+      "to_frame": 1203,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.37541480305872166,
+      "stationary_error": 32.614726109748474
+    },
+    {
+      "from_frame": 1203,
+      "to_frame": 1204,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.42297888712547493,
+      "stationary_error": 33.1887414033569
+    },
+    {
+      "from_frame": 1204,
+      "to_frame": 1205,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.4433703650266917,
+      "stationary_error": 32.763237628047904
+    },
+    {
+      "from_frame": 1205,
+      "to_frame": 1206,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3543740681960275,
+      "stationary_error": 31.97831000817583
+    },
+    {
+      "from_frame": 1206,
+      "to_frame": 1207,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.40912807194728995,
+      "stationary_error": 31.993555523493484
+    },
+    {
+      "from_frame": 1207,
+      "to_frame": 1208,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3760400134660703,
+      "stationary_error": 32.927114894435626
+    },
+    {
+      "from_frame": 1208,
+      "to_frame": 1209,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.47643437695378255,
+      "stationary_error": 33.46169383927283
+    },
+    {
+      "from_frame": 1209,
+      "to_frame": 1210,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.40814216322800945,
+      "stationary_error": 32.81313422786515
+    },
+    {
+      "from_frame": 1210,
+      "to_frame": 1211,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.38262876929735967,
+      "stationary_error": 32.68075794738614
+    },
+    {
+      "from_frame": 1211,
+      "to_frame": 1212,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.40879142018948683,
+      "stationary_error": 33.49225700957053
+    },
+    {
+      "from_frame": 1212,
+      "to_frame": 1213,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3934978117635743,
+      "stationary_error": 34.28266724378397
+    },
+    {
+      "from_frame": 1213,
+      "to_frame": 1214,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.44632809118453326,
+      "stationary_error": 33.613980666570484
+    },
+    {
+      "from_frame": 1214,
+      "to_frame": 1215,
+      "upward_shift_px": 11,
+      "mean_absolute_error": 0.3216707545808686,
+      "stationary_error": 32.60893089020343
+    }
+  ],
+  "minimum_upward_shift_px": 11,
+  "maximum_upward_shift_px": 11,
+  "unique_frame_hashes": 16
+}

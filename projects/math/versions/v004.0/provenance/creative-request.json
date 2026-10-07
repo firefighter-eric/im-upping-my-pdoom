@@ -1,0 +1,15 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.0",
+  "date": "2026-10-07T08:49:00.161701+00:00",
+  "scope": "opening design and stills; no full video export",
+  "user_request": "开头不够炸裂，要讲从ChatGPT 2022年几月几号我有点忘了开始，然后慢慢进步到现在2026年10月7日，可以解722很难的数学题。",
+  "factual_adjustment": "722 is manuscripts across 372 result families, not 722 independently confirmed solved problems. The mathematics results come from an unreleased internal model.",
+  "as_of_date": "2026-10-07",
+  "math_publication_date": "2026-10-06",
+  "prior_versions_preserved": "/tmp/math-before-v004-0.json",
+  "human_approval": "pending",
+  "additional_request": "中间加一个解决了NS问题。",
+  "ns_copy": "NS 千禧难题 · 给出解法；OpenAI 公布 · 有外力版本（C/D）· Lean 形式化",
+  "intro_seconds": 9.54
+}

@@ -1,0 +1,625 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "parent_version": "v004.5",
+  "generation_id": "MATH_001_V004_R006_001",
+  "variant": "math-github-preview",
+  "recorded_at": "2026-10-07T11:14:19.001719+00:00",
+  "status": "review",
+  "output": {
+    "path": "outputs/MATH_001_V004_R006_001_math-github-preview_v004.6.mp4",
+    "sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+    "size_bytes": 75779716,
+    "duration_seconds": 58,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "60/1",
+    "frame_count": 3480,
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "status": "review",
+    "run_id": "RUN_2026-10-07T11-06-45-435Z_87cadae0"
+  },
+  "poster": {
+    "path": "poster.jpg",
+    "sha256": "076e3e7bf89368c3b67c7989ea8e17f77a601478c7abcb68af52770de00f1f37",
+    "size_bytes": 293678,
+    "width": 1920,
+    "height": 1080,
+    "source_output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+    "source_frame": 666,
+    "source_seconds": 11.1,
+    "method": "Unmodified encoded frame extracted with ffmpeg; JPEG encoding only."
+  },
+  "preview_url": "http://127.0.0.1:60547/versions/v004.6/watch.html",
+  "request_fulfillment": "All three requested revisions delivered in a complete local video: mathematics-breakthrough opening with manuscript/family counts; Mythos Preview rather than Opus vulnerability milestone; matching counts alongside the complete-page ending.",
+  "revisions": {
+    "opening_math": {
+      "id": "TL_722",
+      "year": "2026",
+      "start": 10.2,
+      "end": 12,
+      "date_display": "截至 2026.10.07",
+      "title": "AI 正在攻克前沿数学难题",
+      "count": 722,
+      "count_unit": "篇数学论文",
+      "summary": "372 组相关成果 · OpenAI 内部前沿模型",
+      "fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "date_role": "editorial-as-of",
+      "date_layout": "shared large year and month-day",
+      "suffix": "10.07"
+    },
+    "cyber_milestone": {
+      "id": "F11",
+      "date": "2026-04-07",
+      "name": "Claude Mythos Preview",
+      "publisher": "Anthropic",
+      "claim_zh": "Anthropic 报告发现数千个高严重性及关键严重性漏洞，正推进披露和逐项人工验证。",
+      "source_title": "Claude Mythos Preview's cybersecurity capabilities",
+      "url": "https://www.anthropic.com/research/mythos-preview",
+      "scope": "Publisher-reported discovery; not a claim that every report has been human-validated or every vulnerability repaired."
+    },
+    "cyber_display_copy": "Anthropic 报告：发现数千个高危漏洞",
+    "ending_statistics": {
+      "start": 55.75,
+      "enter_seconds": 0.45,
+      "fade_with_document": true,
+      "layout": "two blue numeric statements on either side of the single proportional full-page overview",
+      "items": [
+        {
+          "count": 722,
+          "unit": "篇数学论文",
+          "x": 560
+        },
+        {
+          "count": 372,
+          "unit": "组相关成果",
+          "x": 1360
+        }
+      ],
+      "number_baseline_px": 565,
+      "number_size_px": 156,
+      "unit_baseline_px": 633,
+      "unit_size_px": 36,
+      "color": "#0969da",
+      "scope": "Counts of manuscripts and related result families; no claim that 722 distinct problems were all solved or fully verified."
+    }
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "timing": {
+    "scroll_start_seconds": 0,
+    "opening_end_seconds": 12,
+    "last_row_and_zoom_start_seconds": 53,
+    "statistics_entrance_start_seconds": 55.75,
+    "statistics_entrance_duration_seconds": 0.45,
+    "zoom_end_and_hold_start_seconds": 56.31666666666667,
+    "fade_start_seconds": 57.166666666666664,
+    "end_seconds": 58
+  },
+  "audio": {
+    "input": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "edit": "inherited existing 58-second candidate-3 clip at 1.25x; no new trim, time-stretch or audio re-encoding",
+    "packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "matches_input_packets": true
+  },
+  "run": {
+    "path": "runs/RUN_2026-10-07T11-06-45-435Z_87cadae0.json",
+    "sha256": "f8abc6149b01825e2e5b47644d524c3589df5d772e462ee6b857c38dfe8322a9",
+    "id": "RUN_2026-10-07T11-06-45-435Z_87cadae0",
+    "status": "completed",
+    "started_at": "2026-10-07T11:06:45.493Z",
+    "finished_at": "2026-10-07T11:08:01.888Z",
+    "full_render_attempts": 1,
+    "tools": {
+      "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+      "browser": "154.0.8037.98"
+    }
+  },
+  "sources": {
+    "audio": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "preprints": {
+      "source_id": "MATH_001_PREPRINTS",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a"
+    },
+    "layout_reference": {
+      "source_id": "MATH_001_LAYOUT_REFERENCE",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+    },
+    "catalog": {
+      "source_id": "MATH_001_CATALOG_CONTENTS",
+      "path": "sources/references/MATH_001_CATALOG_CONTENTS_v001.md",
+      "sha256": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8"
+    },
+    "timeline_facts": {
+      "source_id": "MATH_001_TIMELINE_FACTS",
+      "path": "sources/references/MATH_001_TIMELINE_FACTS_v001.json",
+      "sha256": "923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8"
+    },
+    "ns_publication": {
+      "source_id": "MATH_001_NS_PUBLICATION",
+      "path": "sources/references/MATH_001_NS_PUBLICATION_v001.json",
+      "sha256": "1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6"
+    },
+    "github_segment_001": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_001",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_001_v001.jpg",
+      "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+    },
+    "github_segment_002": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_002",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_002_v001.jpg",
+      "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+    },
+    "github_segment_003": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_003",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_003_v001.jpg",
+      "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+    },
+    "github_segment_004": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_004",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_004_v001.jpg",
+      "sha256": "4f48ad877c282ad658e805460d854b9c26b646645a03900b8a05858845526786"
+    },
+    "github_segment_005": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_005",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_005_v001.jpg",
+      "sha256": "eace09e8e6227bd293f020abdde0f0cfda54aa0d4109f9004e7fd7e599522278"
+    },
+    "github_segment_006": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_006",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_006_v001.jpg",
+      "sha256": "09c7aa54b27fc56362645fe39503207ebd3908af5d7178ef064702d803d6bc48"
+    },
+    "github_segment_007": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_007",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_007_v001.jpg",
+      "sha256": "971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36"
+    },
+    "github_segment_008": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_008",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_008_v001.jpg",
+      "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926"
+    },
+    "model_milestones": {
+      "source_id": "MATH_001_MODEL_MILESTONES",
+      "path": "sources/references/MATH_001_MODEL_MILESTONES_v001.json",
+      "sha256": "8057fed6edbd64f4ef922b448e70ebb21ab434be488e615d6e2cdbed1f3acb82"
+    },
+    "cyber_milestones": {
+      "source_id": "MATH_001_CYBER_MILESTONES",
+      "path": "sources/references/MATH_001_CYBER_MILESTONES_v001.json",
+      "sha256": "574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742"
+    }
+  },
+  "renderer_files": {
+    "renderer/index.html": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+    "renderer/src/scroll.ts": "06e7c7670bafb30f70d3eeb15445f0437de43f2850a3f4e4f669c026e6ff07b4",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "aa2db498de9c5d20798ba96219c9dd577c767be1397ced27608bbbbaf7d84ac0",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "validation": {
+    "repository_checks": [
+      {
+        "command": "npm run check",
+        "exit_code": 0
+      },
+      {
+        "command": "npm test",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify:media -- --project math --version v004.6",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify -- --project math --version v004.6",
+        "exit_code": 0
+      }
+    ],
+    "full_decode": "passed",
+    "source_aac_packets": "identical",
+    "frame_timestamps": {
+      "project_id": "MATH_001",
+      "version": "v004.6",
+      "status": "passed",
+      "frames": 3480,
+      "expected_fps": 60,
+      "maximum_timestamp_error_seconds": 3.3333333604446125e-07,
+      "first_timestamp": 0,
+      "last_timestamp": 57.983333
+    },
+    "encoded_scroll_motion": {
+      "sampled_consecutive_frames": 16,
+      "unique_frame_hashes": 16,
+      "minimum_upward_shift_px": 11,
+      "maximum_upward_shift_px": 11
+    },
+    "copy_layout": {
+      "status": "passed",
+      "cyber_source": {
+        "source_id": "MATH_001_CYBER_MILESTONES",
+        "sha256": "574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742",
+        "fact_id": "F11",
+        "date": "2026-04-07",
+        "name": "Claude Mythos Preview",
+        "url": "https://www.anthropic.com/research/mythos-preview"
+      },
+      "safe_typography": "passed",
+      "statistics_separate_from_page": "passed",
+      "statistics_fade_with_page": "passed"
+    },
+    "panorama_preflight": {
+      "status": "passed",
+      "ending_states_checked": 301,
+      "source_page_height_px": 36181.757337106006,
+      "same_page_camera_join": "passed",
+      "overview": {
+        "seconds": 56.75,
+        "phase": "overview",
+        "progress": 1,
+        "scale": 0.026532707934986813,
+        "page_x": 934.5286003824126,
+        "page_y": 60.000000000000114,
+        "page_width": 50.94279923517468,
+        "page_height": 959.9999999999999,
+        "document_alpha": 1,
+        "sticky_header_alpha": 0,
+        "statistics_alpha": 1,
+        "visible_source_start": 0,
+        "visible_source_end": 29602,
+        "visible_rows": [
+          0,
+          721
+        ],
+        "whole_document_visible": true
+      },
+      "row_count": 722,
+      "source_segment_count": 8,
+      "all_annotations_present": true,
+      "native_aspect_ratio_preserved": true,
+      "white_endpoint_maximum_rgb_deviation": 0,
+      "deterministic_reverse_seek": "passed"
+    },
+    "encoded_panorama": {
+      "project_id": "MATH_001",
+      "version": "v004.6",
+      "output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+      "recorded_at": "2026-10-07T11:08:38.755Z",
+      "status": "passed",
+      "method": "Independent RGB analysis of three decoded MP4 frames: centered full-height overview in the original-page strip, both flanking numeric statements, partial fade contrast reduction and white last frame.",
+      "expected_overview_bounds": [
+        934.5286003824126,
+        60,
+        985.4713996175873,
+        1020
+      ],
+      "samples": [
+        {
+          "frame": 3405,
+          "seconds": 56.75,
+          "mean_white_deviation": 2.944192708333289,
+          "maximum_white_deviation": 225,
+          "nonwhite_pixels_below_245": 56701,
+          "nonwhite_bounds": [
+            929,
+            59,
+            989,
+            1024
+          ],
+          "statistics_nonwhite_pixels": {
+            "left": 19303,
+            "right": 19582
+          }
+        },
+        {
+          "frame": 3456,
+          "seconds": 57.6,
+          "mean_white_deviation": 1.4251630015433139,
+          "maximum_white_deviation": 110,
+          "nonwhite_pixels_below_245": 49667,
+          "nonwhite_bounds": [
+            932,
+            59,
+            985,
+            1021
+          ],
+          "statistics_nonwhite_pixels": {
+            "left": 18711,
+            "right": 19072
+          }
+        },
+        {
+          "frame": 3479,
+          "seconds": 57.983333333333334,
+          "mean_white_deviation": 3.76157407407407e-05,
+          "maximum_white_deviation": 1,
+          "nonwhite_pixels_below_245": 0,
+          "nonwhite_bounds": null,
+          "statistics_nonwhite_pixels": {
+            "left": 0,
+            "right": 0
+          }
+        }
+      ],
+      "human_approval": "pending"
+    },
+    "normal_speed_unmuted_playback": {
+      "seconds": 58,
+      "reached_end": true,
+      "media_errors": [],
+      "decoded_audio_bytes": 1397369,
+      "playback_quality": {
+        "totalVideoFrames": 3480,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      },
+      "drop_observation": "Zero dropped or corrupted frames during full normal-speed playback; counters remained at zero during resumed seeks and ending shortcut. This test does not measure user-device display refresh."
+    },
+    "resumed_seeks": [
+      {
+        "target_seconds": 9.4,
+        "observed_seconds": 9.797894,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 29,
+        "observed_seconds": 29.390255,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 53.7,
+        "observed_seconds": 54.087995,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 56.75,
+        "observed_seconds": 57.141335,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 57.6,
+        "observed_seconds": 58,
+        "advanced": true,
+        "error": null
+      }
+    ],
+    "ending_shortcut": {
+      "start_seconds": 52.5,
+      "observed_seconds": 52.805205,
+      "playing": true,
+      "error": null
+    },
+    "fullscreen": {
+      "element": "VIDEO",
+      "width": 1920,
+      "height": 1200
+    },
+    "preview_http": "passed; exact watch/poster and three 1024-byte beginning/middle/end MP4 ranges",
+    "in_app_preview": "passed; 58-second 1920x1080 media loaded with readyState 4 and no media error",
+    "historical_preservation": {
+      "checked_files": 575,
+      "status": "all unchanged"
+    }
+  },
+  "encoded_still_inspection": {
+    "project_id": "MATH_001",
+    "version": "v004.6",
+    "recorded_at": "2026-10-07T11:12:10.746523+00:00",
+    "output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+    "status": "passed",
+    "extracted": 47,
+    "inspected": 12,
+    "scope": "Agent inspection of twelve unmodified encoded frames: Mythos entrance, full date/title and exit; revised mathematics entrance and full title/counts; last-row scroll and camera join; pullback before and during statistics, overview hold, shared fade and final white frame. Human subject-matter, music synchronization and aesthetic approval pending.",
+    "images": [
+      {
+        "path": "provenance/encoded-frames/frame-17.png",
+        "frame": 341,
+        "seconds": 5.683333333333334,
+        "sha256": "3164994e4a16b888cd06372b10d838fa189315e49bfd60e1707fc4cac39fca27",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-18.png",
+        "frame": 381,
+        "seconds": 6.35,
+        "sha256": "d60a5b2168c88f4c7848b4178c18eafb4ae930bcc203587e164d73e1c98a2aee",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-19.png",
+        "frame": 421,
+        "seconds": 7.016666666666667,
+        "sha256": "3419aac0f4c0630a8eea83820504ae9767e55f13311c49358e03a940bcf0e4df",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-29.png",
+        "frame": 617,
+        "seconds": 10.283333333333333,
+        "sha256": "e87e5f8d0ef57ac4dd5eabde014ed8d1756c194676ebfbda1fb6ca5fe38faf91",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-30.png",
+        "frame": 666,
+        "seconds": 11.1,
+        "sha256": "e886f007cccc9f36303bfb7502b28367a8e6baff8262cb195680771392ccd5aa",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-37.png",
+        "frame": 3179,
+        "seconds": 52.983333333333334,
+        "sha256": "3895c497ff941910c5f43704632a803d1f7b89c12eef37bebf05b2ffb73b6ee6",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-38.png",
+        "frame": 3180,
+        "seconds": 53,
+        "sha256": "21b4e8888adf0ed40c578ede5561ae45953a452c40310d5f17ec94dd36144287",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-41.png",
+        "frame": 3300,
+        "seconds": 55,
+        "sha256": "c061aa5cb23ad33adfda5bc1de3b5b8dadf92ad316b8b2d1e6fc6e1e3e04a7f3",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-42.png",
+        "frame": 3360,
+        "seconds": 56,
+        "sha256": "7f24f2f36a097d6b8ec639ab0d8fc56ac5037a8ae2cc4f2c06f283f38a3c19d9",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-44.png",
+        "frame": 3405,
+        "seconds": 56.75,
+        "sha256": "b084a93e4b76e66167138f2981cac795b2c65abbc98e3cc0af839df55c7d3745",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-46.png",
+        "frame": 3456,
+        "seconds": 57.6,
+        "sha256": "f40a6e244db1b34936c3d3f2e03747935a57f8a46705d6820efe85c48fb0713c",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-47.png",
+        "frame": 3479,
+        "seconds": 57.983333333333334,
+        "sha256": "a208140a3848d388e3f48a13cdd733c51912945d0858df91cacd2027523227f8",
+        "visual_inspection": "passed"
+      }
+    ],
+    "human_approval": "pending"
+  },
+  "qa_receipts": [
+    {
+      "path": "provenance/source-verification.json",
+      "sha256": "58c44bf23d05a58f8fb8a3fe462e7e6b78a94244f0710347fa2fc6586435fc62"
+    },
+    {
+      "path": "provenance/repository-verification.json",
+      "sha256": "449e1f9983a55237cd35a8ac083762c7daa2dafe8b276e224eb4ad992c50be40"
+    },
+    {
+      "path": "provenance/user-render-authorization.json",
+      "sha256": "127d2b26a44df4095bcc85ee8082c2611c1af101aba746428439a1586a7a4748"
+    },
+    {
+      "path": "provenance/cyber-selection.json",
+      "sha256": "f3598949868e38d1a5516f01376d192b2aa136d080e6f45263d55db43f27d6c0"
+    },
+    {
+      "path": "provenance/copy-layout-preflight.json",
+      "sha256": "a82f23a90c88dfd877e4cf71e556ea804834a1afacee2294613f1bd5fe136051"
+    },
+    {
+      "path": "provenance/preflight-visual-review.json",
+      "sha256": "c42f6036ce189f572115aac825cd4c3872a9f32e05d13f06f4efbb09361991d6"
+    },
+    {
+      "path": "provenance/panorama-preflight.json",
+      "sha256": "234c9cb5b28b121617b382079bb5619e7c3ae867aef293e62aab8226d1a2418d"
+    },
+    {
+      "path": "provenance/frame-timestamps.json",
+      "sha256": "8da12a686a7cb8abbfdf5f21ab28a645476035191d3380c92d8f29704d213b7c"
+    },
+    {
+      "path": "provenance/encoded-motion.json",
+      "sha256": "8b34e3c87bb9833e7147f97bb94fcd148cde1f66960cd5b49d0e1221a17f46c9"
+    },
+    {
+      "path": "provenance/encoded-panorama.json",
+      "sha256": "8910d7eec963a9f130a4c17ff1dd10dceda4cae86f3f01c867311bf99d12bf3e"
+    },
+    {
+      "path": "provenance/encoded-frame-index.json",
+      "sha256": "9f2f778110bfbe75a388c97ed4d6e10d529019513c6c580dcce1dd8e304f09b9"
+    },
+    {
+      "path": "provenance/encoded-visual-review.json",
+      "sha256": "2f79e2c7971787f5dacac99008e10072a6150f322d68bb699870016065847289"
+    },
+    {
+      "path": "provenance/audiovisual-playback.json",
+      "sha256": "b2238ace91e24f01b53bdec71553e892922936051079842839a1af30139a6480"
+    },
+    {
+      "path": "provenance/preview-http.json",
+      "sha256": "a3f09b5a7f4c96afebd04efcd3f8aca72b206625b18d6a1fa85429efe673143e"
+    },
+    {
+      "path": "provenance/in-app-preview.json",
+      "sha256": "f28b4b53d78648eba22180c64212d4e1c4e38fe7d760d8c451a858c390cf98be"
+    },
+    {
+      "path": "provenance/historical-preservation.json",
+      "sha256": "b0d7b3572a9a05d4d297f2733f620aeb51eff685c933445367bf6b6d1fc1b917"
+    }
+  ],
+  "human_review": {
+    "status": "pending",
+    "scope": "Chinese mathematical subject matter, perceptual audio/music synchronization, scrolling readability and overall aesthetic approval"
+  },
+  "limitations": [
+    "All 722 papers within one minute remain scan-reading.",
+    "The final full-page thumbnail shows document scale and completeness; individual titles are too small for detailed reading.",
+    "Chinese subject matter, perceptual music synchronization and aesthetic review pending.",
+    "Native encoded 60fps, continuous camera states and full technical playback are verified; user-device refresh and perceptual smoothness are not measured."
+  ],
+  "rights": {
+    "status": "TBD",
+    "distribution": "Local-only media; no publishing authorized or performed."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "generation_id": "MATH_001_V004_R002_001",
+  "recorded_at": "2026-10-07T09:49:57.294Z",
+  "status": "review",
+  "output": {
+    "path": "outputs/MATH_001_V004_R002_001_math-github-preview_v004.2.mp4",
+    "sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e",
+    "size_bytes": 237005928,
+    "duration_seconds": 58,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "frame_count": 1740,
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "status": "review",
+    "run_id": "RUN_2026-10-07T09-41-53-163Z_d1aa603f"
+  },
+  "render": {
+    "run_id": "RUN_2026-10-07T09-41-53-163Z_d1aa603f",
+    "count": 1,
+    "receipt": "runs/RUN_2026-10-07T09-41-53-163Z_d1aa603f.json"
+  },
+  "behavior": {
+    "duration_seconds": 58,
+    "translucent_opening_seconds": 5,
+    "scroll_seconds": 53,
+    "total_directory_rows": 722,
+    "chinese_annotations": 722,
+    "native_source_pixels": true,
+    "ending": "Actual last directory row; direct end"
+  },
+  "validation": {
+    "commands": [
+      {
+        "command": "npm run check",
+        "status": "passed",
+        "scope": "Source preflight"
+      },
+      {
+        "command": "npm test",
+        "status": "passed",
+        "tests": 12,
+        "scope": "Source preflight"
+      },
+      {
+        "command": "npm run verify",
+        "status": "passed",
+        "scope": "Source preflight; preserved migration and version lineage"
+      },
+      {
+        "command": "npm run verify:media -- --project math --version v004.2",
+        "status": "passed",
+        "scope": "Registered output specifications, 1740 decoded frames, exact source AAC packets"
+      }
+    ],
+    "full_decode": "passed at register",
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "source_audio_packets": "identical",
+    "frame_timestamps": {
+      "path": "provenance/frame-timestamps.json",
+      "status": "passed",
+      "frames": 1740
+    },
+    "encoded_frame_inspection": {
+      "path": "provenance/encoded-frame-index.json",
+      "frames": 14,
+      "reviewer": "Codex",
+      "scope": "Visual inspection of all 14 actual encoded frames, including opening text, t=5 overlay removal, directory-scroll row alignment, and final native row",
+      "status": "passed for sampled-frame visual layout"
+    },
+    "playback": {
+      "path": "provenance/audiovisual-playback.json",
+      "status": "passed",
+      "full_normal_speed_unmuted_seconds": 58,
+      "decoded_audio_bytes": 1397369,
+      "resumed_seeks": [
+        5,
+        29,
+        53.94
+      ],
+      "errors": [],
+      "dropped_frames": "unavailable"
+    },
+    "historical_preservation": {
+      "path": "provenance/historical-preservation.json",
+      "files": 204,
+      "status": "passed"
+    }
+  },
+  "preview": {
+    "url": "http://127.0.0.1:60547/versions/v004.2/watch.html",
+    "http_verified": [
+      {
+        "path": "watch.html",
+        "status": 200,
+        "size_bytes": 1518,
+        "sha256": "fcb9c399d2d194f51c5fa2ab29b77026e6dc0323de122dbd3712c2d11480c2bc"
+      },
+      {
+        "path": "poster.jpg",
+        "status": 200,
+        "size_bytes": 308846,
+        "sha256": "0db0571bc2dfa54a78e615587f51fae952ab8e1094411c5464bdbad0bf4f43dd"
+      }
+    ],
+    "byte_ranges_verified": [
+      {
+        "start": 0,
+        "end": 1023,
+        "status": 206,
+        "content_range": "bytes 0-1023/237005928",
+        "size_bytes": 1024
+      },
+      {
+        "start": 118502964,
+        "end": 118503987,
+        "status": 206,
+        "content_range": "bytes 118502964-118503987/237005928",
+        "size_bytes": 1024
+      },
+      {
+        "start": 237004904,
+        "end": 237005927,
+        "status": 206,
+        "content_range": "bytes 237004904-237005927/237005928",
+        "size_bytes": 1024
+      }
+    ],
+    "service": "Existing read-only local preview service retained"
+  },
+  "poster": {
+    "path": "poster.jpg",
+    "sha256": "0db0571bc2dfa54a78e615587f51fae952ab8e1094411c5464bdbad0bf4f43dd",
+    "size_bytes": 308846,
+    "width": 1920,
+    "height": 1080,
+    "source_output_sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e",
+    "source_frame": 129,
+    "source_seconds": 4.3,
+    "method": "Unmodified encoded-video frame extracted with ffmpeg; JPEG encoding"
+  },
+  "review_scope": {
+    "human_approval": "pending",
+    "chinese_subject_matter_review": "pending",
+    "perceptual_audio_and_musical_sync": "pending; technical unmuted playback and audio decoding are not human listening evidence"
+  },
+  "rights_status": "TBD",
+  "media_publication": "Local only; no external media upload"
+}

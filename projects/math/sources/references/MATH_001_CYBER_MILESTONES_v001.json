@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "source_id": "MATH_001_CYBER_MILESTONES",
+  "version": "v001",
+  "retrieved_at": "2026-10-07T10:00:16.309Z",
+  "method": "Paraphrases verified against official Anthropic research articles via web tools. No exploit details are used in this production.",
+  "facts": [
+    {
+      "id": "F10",
+      "date": "2026-02-05",
+      "name": "Claude Opus 4.6",
+      "publisher": "Anthropic",
+      "claim_zh": "Anthropic 报告，使用 Claude 发现并验证 500 多个高严重性漏洞，开始披露并与维护者推进修复。",
+      "source_title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days",
+      "url": "https://www.anthropic.com/research/zero-days",
+      "scope": "Discovery and human validation; not a claim that all 500+ were repaired at announcement."
+    },
+    {
+      "id": "F11",
+      "date": "2026-04-07",
+      "name": "Claude Mythos Preview",
+      "publisher": "Anthropic",
+      "claim_zh": "Anthropic 报告发现数千个高严重性及关键严重性漏洞，正推进披露和逐项人工验证。",
+      "source_title": "Claude Mythos Preview's cybersecurity capabilities",
+      "url": "https://www.anthropic.com/research/mythos-preview",
+      "scope": "Publisher-reported discovery; not a claim that every report has been human-validated or every vulnerability repaired."
+    }
+  ],
+  "editorial_note": "The user recalled MISS and February; these are two different release milestones. The chosen timeline event is recorded in the version storyboard.",
+  "rights": {
+    "status": "TBD"
+  }
+}

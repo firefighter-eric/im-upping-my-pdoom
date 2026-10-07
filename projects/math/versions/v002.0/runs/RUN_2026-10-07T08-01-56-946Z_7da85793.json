@@ -1,0 +1,63 @@
+{
+  "id": "RUN_2026-10-07T08-01-56-946Z_7da85793",
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "status": "completed",
+  "started_at": "2026-10-07T08:01:56.999Z",
+  "purpose": "full-render",
+  "renderer_sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+  "renderer_files": {
+    "renderer/index.html": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+    "renderer/src/scroll.ts": "a8cc93af2d85f84cee80ccf73a273b5d3f5c7949a16fc470231c76b76aa0fd9f",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "e14ed8a51c7a9e3336cdc211311d541e97396be3763e5a8b978ca45cc1174a00",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "用GitHub preprints论文目录向下滚动，配用户指定音乐。",
+    "一分钟以内，片头片尾需要有点其他内容，要一个精美的视频。",
+    "本轮采用58秒横屏Preview，基于最后一份1.25倍速配乐独立裁剪；三个完整原速素材及既有加速版全部保留。"
+  ],
+  "treatment_sha256": "2bddbdff09bb0021e1e3259153aaa26f744ebe5443401ebaeab82437370dae4a",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-heaven-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-heaven-preview",
+      "generation_id": "MATH_001_V002_R000_001",
+      "path": "outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4",
+      "sha256": "99ebe4132077fc25cc810c3aac80829584c8052d38ac32c64c6753386c607075"
+    }
+  ],
+  "build_key": "1fa7e22fae42f3de81e788b61f88c9eb32e2ea5c0de4bc17f23a456bf764672a",
+  "transport": {
+    "format": "rgba-bottom-up",
+    "inflight": 2,
+    "frames": 1740
+  },
+  "finished_at": "2026-10-07T08:03:14.919Z"
+}
