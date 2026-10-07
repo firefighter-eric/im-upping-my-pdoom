@@ -1,0 +1,427 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "generation_id": "MATH_001_V004_R006_001",
+  "output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+  "recorded_at": "2026-10-07T11:10:19.857Z",
+  "status": "passed",
+  "scope": "Full 58-second normal-speed unmuted technical playback and five resumed seeks",
+  "browser": "154.0.8037.98",
+  "samples": [
+    {
+      "time": 0.344998,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 15781,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 26,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 5.347508,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 136464,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 326,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 10.358914,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 257050,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 627,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 15.367379,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 377365,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 927,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 20.393756,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 498601,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 1229,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 25.401933,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 619465,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 1529,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 30.408088,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 739487,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 1829,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 35.406332,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 859696,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 2130,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 40.418128,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 980818,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 2430,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 45.425358,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1101248,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 2731,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 50.436254,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1222245,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 3031,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 55.447864,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1343310,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 3332,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "time": 58,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": true,
+      "ended": true,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1397369,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 3480,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    }
+  ],
+  "ending": {
+    "time": 58,
+    "duration": 58,
+    "width": 1920,
+    "height": 1080,
+    "readyState": 4,
+    "paused": true,
+    "ended": true,
+    "muted": false,
+    "volume": 1,
+    "playbackRate": 1,
+    "error": null,
+    "decodedAudioBytes": 1397369,
+    "audioTracks": 1,
+    "playbackQuality": {
+      "totalVideoFrames": 3480,
+      "droppedVideoFrames": 0,
+      "corruptedVideoFrames": 0
+    }
+  },
+  "seeks": [
+    {
+      "target_seconds": 9.4,
+      "time": 9.797894,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1440949,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 3573,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "target_seconds": 29,
+      "time": 29.390255,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1554740,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 3843,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "target_seconds": 53.7,
+      "time": 54.087995,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1662273,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 4094,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "target_seconds": 56.75,
+      "time": 57.141335,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1704142,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 4183,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    },
+    {
+      "target_seconds": 57.6,
+      "time": 58,
+      "duration": 58,
+      "width": 1920,
+      "height": 1080,
+      "readyState": 4,
+      "paused": false,
+      "ended": false,
+      "muted": false,
+      "volume": 1,
+      "playbackRate": 1,
+      "error": null,
+      "decodedAudioBytes": 1759872,
+      "audioTracks": 1,
+      "playbackQuality": {
+        "totalVideoFrames": 4318,
+        "droppedVideoFrames": 0,
+        "corruptedVideoFrames": 0
+      }
+    }
+  ],
+  "ending_shortcut": {
+    "time": 52.805205,
+    "duration": 58,
+    "width": 1920,
+    "height": 1080,
+    "readyState": 4,
+    "paused": false,
+    "ended": false,
+    "muted": false,
+    "volume": 1,
+    "playbackRate": 1,
+    "error": null,
+    "decodedAudioBytes": 1836044,
+    "audioTracks": 1,
+    "playbackQuality": {
+      "totalVideoFrames": 4492,
+      "droppedVideoFrames": 0,
+      "corruptedVideoFrames": 0
+    }
+  },
+  "fullscreen": {
+    "element": "VIDEO",
+    "width": 1920,
+    "height": 1200
+  },
+  "errors": [],
+  "perceptual_audio_sync": "pending; unmuted state and decoded audio are not human listening evidence",
+  "human_approval": "pending"
+}

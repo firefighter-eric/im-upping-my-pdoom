@@ -1,0 +1,16 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "recorded_at": "2026-10-07T11:05:18.103272+00:00",
+  "status": "authorized-to-produce-local-complete-video",
+  "requests": [
+    "不要用Opus 4.6那个成果，而是改用Mythos的那个成果。",
+    "其他的1和2按照你刚刚给的直接修改掉就行，然后产出最终的视频。"
+  ],
+  "copy_direction": {
+    "opening": "AI 正在攻克前沿数学难题；722篇数学论文；372组相关成果",
+    "cyber": "2026.04.07 · Claude Mythos Preview；Anthropic 报告：发现数千个高危漏洞",
+    "ending": "722篇数学论文，372组相关成果"
+  },
+  "scope": "New local version, internal draft QA, one full render, technical registration and playback delivery. No media publication or unseen-output human approval."
+}

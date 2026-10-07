@@ -1,0 +1,64 @@
+{
+  "id": "RUN_2026-10-07T09-41-53-163Z_d1aa603f",
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "status": "completed",
+  "started_at": "2026-10-07T09:41:53.205Z",
+  "purpose": "full-render",
+  "renderer_sha256": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af",
+  "renderer_files": {
+    "renderer/index.html": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af",
+    "renderer/src/scroll.ts": "054b5f6a16b69758d96c278ff29963aefebbc867108d9f2fd8858c5e6f6a11a0",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "f01595f84fb5e870ae957c3f9ab79cac662d0e14b3f9020de4ef233d4753ee06",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "把视频做出来看一下。",
+    "前5秒在真实GitHub Math页面上有半透明片头，之后全屏清晰匀速滚动，全722项在一分钟内展示，滑到底结束。",
+    "英文原图在左，右侧中文解释对应滚动；没有独立片尾、装饰网格或歌词字幕。",
+    "继续使用已经选择的58秒配乐，不追加音频处理。"
+  ],
+  "treatment_sha256": "55373491e03cd8a085e1552c00da585110471ea8f4bc260a4bf39b20d494b40c",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-github-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R002_001",
+      "path": "outputs/MATH_001_V004_R002_001_math-github-preview_v004.2.mp4",
+      "sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e"
+    }
+  ],
+  "build_key": "21a75048751eba677e9995132945aa370d42d11e7d34553f85cf171b4ce806e8",
+  "finished_at": "2026-10-07T09:42:29.361Z"
+}

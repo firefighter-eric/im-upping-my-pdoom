@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.2",
+  "purpose": "authorized-audio-intake-at-original-speed",
+  "started_at": "2026-10-07T07:30:50.530096+00:00",
+  "status": "completed",
+  "source_url": "https://www.bilibili.com/video/BV1Qra66EEVc/",
+  "bvid": "BV1Qra66EEVc",
+  "user_instruction": "使用 BV1Qra66EEVc 的完整音频；不用变速，只要1倍。先交付音频试听。",
+  "processing": {
+    "filter": null,
+    "speed": 1,
+    "preserve_pitch": true,
+    "trim": null,
+    "encoder": null,
+    "method": "byte-identical copy of original AAC/M4A"
+  },
+  "rights": {
+    "status": "TBD"
+  },
+  "network_chunks": [
+    {
+      "from": 0,
+      "to": 2097151,
+      "total": 3095510,
+      "received": 2097152,
+      "status": 206,
+      "attempt": 1
+    },
+    {
+      "from": 2097152,
+      "to": 3095509,
+      "total": 3095510,
+      "received": 998358,
+      "status": 206,
+      "attempt": 1
+    }
+  ],
+  "source_metadata": {
+    "bvid": "BV1Qra66EEVc",
+    "cid": 42371449875,
+    "title": "误闯天家歌曲三分钟纯享版",
+    "duration": 210,
+    "pubdate": 1790858609,
+    "desc": "-",
+    "uploader_name": "可爱的绿灯侠"
+  },
+  "public_stream": {
+    "id": 30232,
+    "bandwidth": 118466,
+    "codecs": "mp4a.40.2",
+    "mimeType": "audio/mp4"
+  },
+  "original": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 209.002812,
+    "size_bytes": 3095510,
+    "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+    "path": "sources/audio/MATH_001_BGM_002_ORIGINAL_v001.m4a",
+    "full_decode": "passed"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "byte_identical_to_original": true,
+  "derived": {
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 209.002812,
+    "size_bytes": 3095510,
+    "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+    "path": "versions/v001.2/audio/MATH_001_BGM_SPEED100_v001.2.m4a",
+    "full_decode": "passed"
+  },
+  "expected_duration_seconds": 209.002812,
+  "duration_difference_seconds": 0.0,
+  "finished_at": "2026-10-07T07:30:51.644085+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+  "recorded_at": "2026-10-07T10:44:53.366Z",
+  "status": "passed",
+  "method": "Independent RGB analysis of three decoded MP4 frames: centered full-height overview bounds, partial fade contrast reduction and white last frame.",
+  "expected_overview_bounds": [
+    934.5286003824126,
+    60,
+    985.4713996175873,
+    1020
+  ],
+  "samples": [
+    {
+      "frame": 3405,
+      "seconds": 56.75,
+      "mean_white_deviation": 0.38948013117283925,
+      "maximum_white_deviation": 224,
+      "nonwhite_pixels_below_245": 17697,
+      "nonwhite_bounds": [
+        929,
+        59,
+        988,
+        1025
+      ]
+    },
+    {
+      "frame": 3456,
+      "seconds": 57.6,
+      "mean_white_deviation": 0.22922196502058148,
+      "maximum_white_deviation": 121,
+      "nonwhite_pixels_below_245": 12039,
+      "nonwhite_bounds": [
+        933,
+        59,
+        985,
+        1021
+      ]
+    },
+    {
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "mean_white_deviation": 0.000013503086419753087,
+      "maximum_white_deviation": 1,
+      "nonwhite_pixels_below_245": 0,
+      "nonwhite_bounds": null
+    }
+  ],
+  "human_approval": "pending"
+}

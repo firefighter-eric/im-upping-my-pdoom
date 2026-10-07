@@ -1,0 +1,147 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "generation_id": "MATH_001_V004_R004_001",
+  "output_sha256": "7aaa4ec1b5992e3d303e5f7d90896280b157ec3a82eed6266931ff34e2ac4394",
+  "recorded_at": "2026-10-07T10:30:43.822Z",
+  "status": "passed",
+  "scope": "Agent visual inspection of eighteen unmodified encoded frames: all eight milestone midpoints, GPT-6 to NS and NS to preprint transitions, the final 0.6-second dissolve, and the last actual directory row. Continuous perceptual and human subject-matter/audio approval are pending.",
+  "extracted_frames": 37,
+  "inspected_frames": 18,
+  "observations": [
+    "Shared large year and month-day remain legible for every midpoint, including NS and the as-of preprint snapshot.",
+    "The 2026 year remains anchored while dates and node text fade sequentially; no overlapping node titles.",
+    "The final overlay dissolves by 12 seconds into the same scrolling directory.",
+    "No clipped node titles or bottom-rail shadowing in inspected encoded frames.",
+    "Last actual directory row remains visible on frame 3479."
+  ],
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 42,
+      "seconds": 0.7,
+      "sha256": "69d6530cafded8eec068d5588289b06ab5fc02bace5fbdc7591daa6e90f11ccd",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 126,
+      "seconds": 2.1,
+      "sha256": "6a34ff183f575b986498c327e618dafa83ed10d123264f9fa24516b63e8fca56",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 210,
+      "seconds": 3.5,
+      "sha256": "1656d0a833a6b35d33f679fb634025220dcfe6a106b6d6371f37623b10a7ab48",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 294,
+      "seconds": 4.9,
+      "sha256": "fd64a9f83e741e3206d82bf811231fdf81327be1245b4c42c1c8fb4f61d2856f",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-18.png",
+      "frame": 381,
+      "seconds": 6.35,
+      "sha256": "45bf165db777c4535f247d2ea26a1b3bba0a168aafac522d1f028e36e02a4108",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-22.png",
+      "frame": 471,
+      "seconds": 7.85,
+      "sha256": "1461f1b7cbf2ff2df4da851627015534c66d8ac6e4bfe9df06e71b765a578d87",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-23.png",
+      "frame": 511,
+      "seconds": 8.516666666666667,
+      "sha256": "c6644a686815ecd7bb1efba7d8615a3ec7eb4181acfd5168ad7cdcf45e63d021",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-24.png",
+      "frame": 516,
+      "seconds": 8.6,
+      "sha256": "1be45d1ddc2e13f0339a8d23910c7ac2a6cf94db0c7d0fd3fce913ca643cacc2",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-25.png",
+      "frame": 521,
+      "seconds": 8.683333333333334,
+      "sha256": "84b3ee2ec98ccc5f17a5d22ab4653aad9e0b16d1f6dc587fedb0c3b42863b652",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-26.png",
+      "frame": 564,
+      "seconds": 9.4,
+      "sha256": "f335539ed49ac21c73bc7e8b9799a3ef14d447bffd2950afdf39830197a9a23a",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-27.png",
+      "frame": 607,
+      "seconds": 10.116666666666667,
+      "sha256": "513680877b2f8328f5c5904726edef89b35d2279ae3e9b325ea1526472740d41",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-28.png",
+      "frame": 612,
+      "seconds": 10.2,
+      "sha256": "f41f8c5574d1d1f8c8b8ad61bd324087384a5a1408a7519d8d03294b8c76faff",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-29.png",
+      "frame": 617,
+      "seconds": 10.283333333333333,
+      "sha256": "cfe49c96fb8a3b79f5841f7442c2e10864b283c6a059252cc9dee4548dc52240",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-30.png",
+      "frame": 666,
+      "seconds": 11.1,
+      "sha256": "d1336b95c4abc3f6988964f80c9d9521c8110e42aa68ae3af88774511ed4d4a9",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-31.png",
+      "frame": 684,
+      "seconds": 11.4,
+      "sha256": "a1d29e691c8af8dbb04cff9d9de2c0ae39cc96e4a2d9ac1822ab4fa63cca3b92",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-32.png",
+      "frame": 702,
+      "seconds": 11.7,
+      "sha256": "932db52e8f83bb1e1b81d868183f09fcc73b8796d55e8f72b82e91827817f792",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-33.png",
+      "frame": 720,
+      "seconds": 12,
+      "sha256": "3bfc245eca5aab007cd5159618b15ca87e7d96b42f70188f6d069b451b04016d",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-37.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "c90d007e6fc62e984e4e589e9173f35359abc30eba3fd86bedfaba69ad6a28e8",
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}

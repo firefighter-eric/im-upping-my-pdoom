@@ -1,0 +1,63 @@
+{
+  "id": "RUN_2026-10-07T11-24-32-236Z_27ca014d",
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "status": "completed",
+  "started_at": "2026-10-07T11:24:32.296Z",
+  "purpose": "full-render",
+  "renderer_sha256": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+  "renderer_files": {
+    "renderer/index.html": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+    "renderer/src/scroll.ts": "607ece5577fb9c5f130a9041842428122e723e4bc545568ffb8bf71fb5a35e5c",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "69aa87dc3c6ba4d25ed48a141f80ddcc7491af1bcea08c3ad3fa37bb06034a32",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "用户明确选择24秒片头，保留全部8个节点。",
+    "采用已推荐的小幅横向滑动与柔和淡入淡出：50px、0.6秒换页、无回弹或放大；连续2026年份固定。",
+    "按上述方案制作完整新版；58秒、1080p60、全部722项滚动、既有长页统计收尾及音轨沿用。"
+  ],
+  "treatment_sha256": "15cec822324d91c39c480fd9fe02d77f2617f5482506396b9413bf91b38f3791",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-github-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R007_001",
+      "path": "outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4",
+      "sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213"
+    }
+  ],
+  "build_key": "049f0dbb3431a82059593d949af3df5eb1a564d89dec594dc29e611b8e005e18",
+  "finished_at": "2026-10-07T11:25:49.298Z"
+}

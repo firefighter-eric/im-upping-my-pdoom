@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "source_id": "MATH_001_LAYOUT_REFERENCE",
+  "source_path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+  "source_sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+  "width": 2222,
+  "height": 2436,
+  "header_height_px": 84,
+  "version": "v004.2",
+  "method": "Isolated original Math/preprints breadcrumb from the user screenshot; directory body comes from the complete browser capture.",
+  "inherited_from": "v004.1"
+}

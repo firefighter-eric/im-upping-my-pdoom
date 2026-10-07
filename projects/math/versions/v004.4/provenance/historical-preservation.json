@@ -1,0 +1,1576 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:24:56.687Z",
+  "status": "passed",
+  "snapshot_sha256": "0ec6f8aae3c60e1700673c0a053cf36c5f921349b734b7d7c1ee36d16acf683d",
+  "checked_files": 313,
+  "scope": "All preexisting Math source and historical version files, including original audio, v004.3 output and evidence; new v004.4 draft and project README updates are outside this snapshot.",
+  "files": [
+    {
+      "path": "projects/math/sources/audio/MATH_001_BGM_002_ORIGINAL_v001.m4a",
+      "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/audio/MATH_001_BGM_003_ORIGINAL_v001.m4a",
+      "sha256": "edd7c138aef43d8e536a5c065ac29e5aca5a4d099834be70f3dcc047573bf39f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/audio/MATH_001_BGM_ORIGINAL_v001.m4a",
+      "sha256": "d947a7c13f76792f429524b07f1b7b6be78c8d530b887b64998a6f4ac5550dda",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/provenance/intake-v001.json",
+      "sha256": "7b59488699ec297384fe0c0b473037478c09f2024774eced2aa6954eaaf1c31e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_CATALOG_CONTENTS_v001.md",
+      "sha256": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_CYBER_MILESTONES_v001.json",
+      "sha256": "574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_001_v001.jpg",
+      "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_002_v001.jpg",
+      "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_003_v001.jpg",
+      "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_004_v001.jpg",
+      "sha256": "4f48ad877c282ad658e805460d854b9c26b646645a03900b8a05858845526786",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_005_v001.jpg",
+      "sha256": "eace09e8e6227bd293f020abdde0f0cfda54aa0d4109f9004e7fd7e599522278",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_006_v001.jpg",
+      "sha256": "09c7aa54b27fc56362645fe39503207ebd3908af5d7178ef064702d803d6bc48",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_007_v001.jpg",
+      "sha256": "971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_GITHUB_SEGMENT_008_v001.jpg",
+      "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_MODEL_MILESTONES_v001.json",
+      "sha256": "8057fed6edbd64f4ef922b448e70ebb21ab434be488e615d6e2cdbed1f3acb82",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_NS_PUBLICATION_v001.json",
+      "sha256": "1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/sources/references/MATH_001_TIMELINE_FACTS_v001.json",
+      "sha256": "923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/SCRIPT.md",
+      "sha256": "36a34f8851df54dad8617ead0d57c6f70a2664b7d7cd1d9d917016ef17f0e189",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/TREATMENT.md",
+      "sha256": "4626a4bc7d4a452f756931d8839a35c9553baaf7e2280996892cbc0b601467af",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/manifest.json",
+      "sha256": "cd0bbc3de2d1c817b82f1a00779959f273dad1624eda211593b554c8fc99aa30",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/provenance/user-direction-v001.json",
+      "sha256": "02848ca1256f902a98ffad36fcc1347b2865c861449f65269cee35446e45e3e4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/renderer/index.html",
+      "sha256": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/renderer/src/scroll.ts",
+      "sha256": "100e36f3e971135ae5d0e48121b56050be353c09a5ea40c881c1a23c9726b3c6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/AUDIO.md",
+      "sha256": "281eb6f3f6c7ace75b5fe9d963155fa13aa2044bad8e6043877fcdaa08c6a270",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/SCRIPT.md",
+      "sha256": "e0a8682ff9600865117b553b645d202da59b16c7bb3af9e664ca0dc091f6b9cd",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/TREATMENT.md",
+      "sha256": "02a24bbc45a9560f7a7bbb536e3332b15b4821ecca65fbe5bbdc35187def6463",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/analysis/intake-audio.py",
+      "sha256": "68a072d2e91dc819caf8ae8d485c9da548404775771b8950b2281097b97297c5",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/audio/MATH_001_BGM_SPEED125_v001.1.m4a",
+      "sha256": "92166011ec3605c4fb160f2889e46de6dc4c31ca6083dc9de0cca83ef13806ee",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/audio/listen.html",
+      "sha256": "e60f7b834dde9e56158dd632784c09b640556c4f3438cb66be835e64e6957d9f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/manifest.json",
+      "sha256": "fdd71ffe5a66d73e501264be9e5da3476bc2955245d4bf3b3e5f664bc885c6ce",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/provenance/audio-intake-and-speed125.json",
+      "sha256": "9350bd309034e6c94992ba5b8f24ac49129eacc40cb26e76ea0aae80f240eb0a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/provenance/user-audio-review-scope.json",
+      "sha256": "36147e972b14faf28af13e75d288d7200646937883735876cb8044ca6b6a7c5d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/renderer/index.html",
+      "sha256": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/renderer/src/scroll.ts",
+      "sha256": "100e36f3e971135ae5d0e48121b56050be353c09a5ea40c881c1a23c9726b3c6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.1/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/AUDIO.md",
+      "sha256": "359bc5340cc0b48ce49a0e1c8b92b73dcbd25cbe79e542437786603f60d41413",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/SCRIPT.md",
+      "sha256": "111b0ba0a5eb7859629c0292b4b0fd5ce884c157c39d87f502a9324e33d77ea7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/TREATMENT.md",
+      "sha256": "e9eec74a3678ff552c6afef3cbe1d9fb10da2afd5b31f60bb7b75dd2c67ded95",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/analysis/intake-audio.py",
+      "sha256": "ad3e381d53c9f30611c9c9b70a7174cfb7dcdd1e10bbcff8595594528b7cae22",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/audio/MATH_001_BGM_SPEED100_v001.2.m4a",
+      "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/audio/listen.html",
+      "sha256": "d5de492b2687645101921ce191c30ae2c07e1511cba64e43bf6b4dd3dbb90d4a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/manifest.json",
+      "sha256": "38979901bd6f3d57e0fcd2c8f1836a4fc579e8a52fd91d96abfbaceb905edfe7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/provenance/audio-intake-speed100.json",
+      "sha256": "e0c296180fd787b709fbbf4b4862612fc6ee75b5da5518adabb303fe631410f0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/provenance/audio-playback.json",
+      "sha256": "90c5fea7126b17b69b8aeebd980300f40be294b4ffad3fcef80a5289269c7f03",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/provenance/user-audio-review-scope.json",
+      "sha256": "f7bf24d326169a3ca09e76d4994f8d9517eb9ac858a812fc6b837cbf87e2789e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/renderer/index.html",
+      "sha256": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/renderer/src/scroll.ts",
+      "sha256": "100e36f3e971135ae5d0e48121b56050be353c09a5ea40c881c1a23c9726b3c6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.2/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/AUDIO.md",
+      "sha256": "0a438169602209fba6d33d23e9b19a357c4bf2e9e3e8879e80dc16447c1adc85",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/QA.md",
+      "sha256": "f2b9ac7857ee36c12ae309dbc230dfb03a40c2be1f65ce2e6f2a306be16517f3",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/SCRIPT.md",
+      "sha256": "b6b300694e2272f1007eeb49937af95e4642463c6efb138603acfa495ea9df1a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/TREATMENT.md",
+      "sha256": "41d1548a3baba818f39d3bad1e1007dab593fdab334e3c45d7280a8f5a42b2f4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/analysis/intake-audio.py",
+      "sha256": "bc5a30e1340627a8cfa29e0cb7a4588978cdafb825d2129d0649dad1139d2361",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a",
+      "sha256": "0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/audio/listen.html",
+      "sha256": "731f1b03c6065aed117e57a5f78b4c51035a008a8e96f2d72ff702b6d931b048",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/manifest.json",
+      "sha256": "37a8892f533890a4825cf94d4d41301b9ed21aa5a6573379c0609a9aa3102ece",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/provenance/audio-intake-third-speed125.json",
+      "sha256": "377e55d97fc192474cd2eb1e3068a94ebe131498ccbe21875d9f37d22f6df37e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/provenance/audio-originals-preservation.json",
+      "sha256": "adf0be736be00b47d6d94847260e892c8bc805d1887b5fb2f9b5f86cf3f02a3c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/provenance/audio-playback.json",
+      "sha256": "5aabcfaf26781446e1681af164c0c9d0fa822c7a2ce4bc5e1d385a5b7874d5cc",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/provenance/user-audio-review-scope.json",
+      "sha256": "aff5f2e65b1244c18745d1b55cd65760e490e7336ac307b46a03c3788b1e0840",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/renderer/index.html",
+      "sha256": "fcd7a4b8a7b390b9b32119dcd21bc61fd19428c12bb5711c8c40cc7a70583592",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/renderer/src/scroll.ts",
+      "sha256": "100e36f3e971135ae5d0e48121b56050be353c09a5ea40c881c1a23c9726b3c6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v001.3/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/SCRIPT.md",
+      "sha256": "970d2364fd1baaa6e1fbdcfe90932d36402355899af5a39bb3a7577b79d0ada9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/TREATMENT.md",
+      "sha256": "2bddbdff09bb0021e1e3259153aaa26f744ebe5443401ebaeab82437370dae4a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/analysis/prepare-short-audio.py",
+      "sha256": "2555567df3bb430481e12fd58c6b891d1d118ae8c77444dc6bed2de316804db8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/data/storyboard.json",
+      "sha256": "e14ed8a51c7a9e3336cdc211311d541e97396be3763e5a8b978ca45cc1174a00",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/manifest.json",
+      "sha256": "130ec5431abd4fd9690d9d70cf54e4f05e8e020a365833988ff9b869aa71444f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4",
+      "sha256": "99ebe4132077fc25cc810c3aac80829584c8052d38ac32c64c6753386c607075",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/provenance/audio-edit-58.json",
+      "sha256": "f15365adbf179e93288b1024ac9222c147596616c8698ffb806b632348ab9e5e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/provenance/directory-coverage.json",
+      "sha256": "39909bdc911bd50ddec43242644b6dff24540b21f887e1ea4bc2a85175e0641a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/provenance/production-scope.json",
+      "sha256": "be1273bca525a0ab3e82ccb510935ce27a906451b1cfc9fc80461d8879dc8dfc",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/renderer/index.html",
+      "sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/renderer/src/scroll.ts",
+      "sha256": "a8cc93af2d85f84cee80ccf73a273b5d3f5c7949a16fc470231c76b76aa0fd9f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/review.html",
+      "sha256": "952063137d1f743f7408c97fa45c7f09c977a82b7a8bc1c90f0c2cffad433a1d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/runs/MATH_001_V002_R000_001-ffprobe.json",
+      "sha256": "1e864fb00ece66b3314e69dc9db4cf034f958861160034f17afb557d169a0c0a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/runs/RUN_2026-10-07T08-00-05-821Z_e36b64a7.json",
+      "sha256": "209f7cf6513bf593060c0ab037ed82014a2e9bc74579a69e8e7b3260f38236b6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/runs/RUN_2026-10-07T08-01-56-946Z_7da85793.json",
+      "sha256": "89e339b2790a9b36775acb16a8daf0002e11448522b26540f99d8ea789438e55",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-1.740.jpg",
+      "sha256": "2e5c7c02c6c819cc3edcb0697e2c6cb1724c1ebe7b18246107867ad017706432",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-17.400.jpg",
+      "sha256": "1b2172761f7e2eb1774283d58c09114212e89730a1521f1fd3c96b81525fc948",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-23.780.jpg",
+      "sha256": "56018008e4ea2375fa700cc6df398f771140e22b5e94535da7a024f78cc74500",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-30.740.jpg",
+      "sha256": "230b692374109c624932070eee230c8c17986786caf5a54ebbd4ff209c8f8401",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-37.120.jpg",
+      "sha256": "eac3b0c2a829a0d6555ee279fc325aafc9b4c5a3227e4033d121efef447521a4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-45.820.jpg",
+      "sha256": "6eede90f224935ec8c2f345ec063beff8589d2fafa2af05ae426969c0c209cad",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-53.940.jpg",
+      "sha256": "b9b4e6d6aeb5e7624e38dac3b2ba5893868060361d7695ee5d3dc5c356a83369",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v002.0/stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-9.860.jpg",
+      "sha256": "3bd56ccf2a7645ae57de9c0836a0d135a311a66478a200aef14e8f72fbecfb8e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/SCRIPT.md",
+      "sha256": "5b7341387e6e26dc9f6af499f902f0df773c5539c1d249654b35651b80daf4c7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/TREATMENT.md",
+      "sha256": "07cc99832d9832d9c8c7b103ced1bca7c3f8af3864c6ca49ab26e2db259f7f0a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/analysis/render-design-stills.mjs",
+      "sha256": "7425af3786fb28374a60b974c4023664570d8e8602d715d5ac82aca2fe15ff7d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/data/annotations.zh.json",
+      "sha256": "8213e9fbadbb6642d3707bd5521233f34252d48790e7fb6e90ba53c0ab810445",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/data/storyboard.json",
+      "sha256": "6d944609234aade2a52760a0f7d3896ae80cf9f8a3805c1a8d8d4af55f464085",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/manifest.json",
+      "sha256": "0abdf55a9d2e8add23a76988378fe1b56ca1020c816d29d7d1fe6c666e54425f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/provenance/still-delivery.json",
+      "sha256": "d75fd04592f362525930f90d411439f4e66890f67caf55a5f5ec9777de33660f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/renderer/index.html",
+      "sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/renderer/src/scroll.ts",
+      "sha256": "2ea0b67f41a5af31626fef3f1b2c4bf49113e2458cba9c03ccdcb144badce11b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/runs/RUN_2026-10-07T08-18-30-332Z_ec0907ae.json",
+      "sha256": "8580481c775afa0e88ef170f68ea0fe2cfacd7ddb982082892a33f1b35976302",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/01-opening.jpg",
+      "sha256": "d0286e8231f6fda3219e488fd060843b8f8b1dd80830ab97bb1513588a1a8608",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/02-directory.jpg",
+      "sha256": "fcd4f173944d13a48ad971ebc50c3500a9bc6be60c158c4c68845d8a8fdd4b97",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/03-closing.jpg",
+      "sha256": "361b98030c6c8f69ce609b377815ffcc18cc496017115143dacc218308548c51",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.0/stills.html",
+      "sha256": "06dd22bd364218e8ac33588e051859cf243d660a4b9c4f929692e75eff25acb2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/SCRIPT.md",
+      "sha256": "5dbd5ed06a57d958078d3f49d408cc324e8bd2eb19436671b1c3d505c53ec1c2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/TREATMENT.md",
+      "sha256": "d7e5ba835056eb2109ca3ac3634771b71aa340bb31c22f640955d02dcb859f17",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/analysis/render-design-stills.mjs",
+      "sha256": "9899fc1e7c09bb02fc36c39abe074828b3a817e6dd5bc2b0160ef443df7462c2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/annotations.zh.json",
+      "sha256": "539f47d3a4cbb124f82fc19f443eb98af149ea97a0efb31b71b95040c57148e2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/screenshot-layout.json",
+      "sha256": "6eb0dae9f86efa50ddd0dcb376ae4532bdddeaf23235910ea7316275ac28c68c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/data/storyboard.json",
+      "sha256": "c3eb830d10c36aa80ca2a159db3c6698bffcf13dc7136dd28452e0ecb6c54c16",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/manifest.json",
+      "sha256": "553dfe3fac654fba81afde701796d239c5c51371471f89e6a842fbaf8c185869",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/renderer/index.html",
+      "sha256": "084d6ff3fb0f3a8cf8117e148ea5a58cc43ba720363bd94a31c50e50605300d1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/renderer/src/scroll.ts",
+      "sha256": "bc49ccc11299b09dd9740aeca452fe80e1388381d42bbd3b48e2b55fa4e1ff9c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/runs/RUN_2026-10-07T08-30-58-535Z_00e187fb.json",
+      "sha256": "6d2f0e03675162225afab532f9d065fd95bddb2d0239bb891b66673fc78f155e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/01-opening.png",
+      "sha256": "914b5d66da201a1a2fa8c304d25812b9f023e26b4a3aac3105d2c043f826278d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/02-directory.png",
+      "sha256": "7a14a4ef5e0402b85ef74ec73f3fcb9e075c5f17426d274ddd4079b5619752f9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.1/stills/RUN_2026-10-07T08-30-58-535Z_00e187fb/03-closing.png",
+      "sha256": "9d020d42b5d9915178d2b9594233fa47ad187f6c83c77b794c7eea0297ebed14",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/SCRIPT.md",
+      "sha256": "d5772366d1cb1bcfc7e3cc7dc0b85d7318ab782a269b9558b7e31e219a1ae0a0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/TREATMENT.md",
+      "sha256": "1efe9ba99cda8282bcb6a150a766412b56c6395f03e0128bad3936b707221031",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/analysis/render-design-stills.mjs",
+      "sha256": "9899fc1e7c09bb02fc36c39abe074828b3a817e6dd5bc2b0160ef443df7462c2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/annotations.zh.json",
+      "sha256": "14f87e2d565dab6ea0421c204f07d44c2a466d9c7d7068861d29eed47e88dd35",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/screenshot-layout.json",
+      "sha256": "62b058c0d83cc41d435af8f5bd720b4634ca0584ad77d09803a0a21368c6eca3",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/data/storyboard.json",
+      "sha256": "44d6037044932a270a9122b6ea1d8d6af75ed3399c68206ea0111aa367a8e220",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/manifest.json",
+      "sha256": "b475ab9e37f05b410e0d411e67b9302500c36c6c118a18c24fa4413a07229c42",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/provenance/still-delivery.json",
+      "sha256": "952f541c6ca380f40ead8fd526d78b9c4e2d760cf154a45b6b41aa6d857ed7d2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/renderer/index.html",
+      "sha256": "084d6ff3fb0f3a8cf8117e148ea5a58cc43ba720363bd94a31c50e50605300d1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/renderer/src/scroll.ts",
+      "sha256": "2cdbb61516d1f52e58cf053b579cb8d84def967ae34985a21c0899d7b66979ab",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/runs/RUN_2026-10-07T08-33-45-623Z_5e39cbd6.json",
+      "sha256": "896962a5c72c19e742144b843bba03ea0b16164c05dae3718ec04c63f0a67c6f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/01-opening.png",
+      "sha256": "ce26ab4cd649c0d445d80276a6f6b853c82f041e6ca6775a065d1a19df4f48c8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/02-directory.png",
+      "sha256": "831755c30d9b075552f4477d42deabcaf8d7061e67bb4f6a7fe4bacbe24aff7b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/03-closing.png",
+      "sha256": "5e421a1939df1947e20ca0229c6422bb9fd8879dc8e7bfda1efad9952e85310e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v003.2/stills.html",
+      "sha256": "86132a3688e803cd0904fc1345284ab2bd1de6e0a32d237b7ea3b164b243adc9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/SCRIPT.md",
+      "sha256": "29270d4e8f01bba83c4b0b05d284e1f2b79eb20a5dd11d42dc7239cf83bb11c8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/TREATMENT.md",
+      "sha256": "e61a6c1f9587e16de7169dc2bb3f7e336a1cf9037e9c1080edc4f982f3bc2369",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/analysis/render-design-stills.mjs",
+      "sha256": "5ceb4b33a7780671749c7d148e4798bbf2f2b167659fb5097cd7318b4fa2886b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/annotations.zh.json",
+      "sha256": "c2b2ba76d3d8f5a332f15d995e2a7e888d06cab1d16f636edccd035e48ef150e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/screenshot-layout.json",
+      "sha256": "512f1eca82819e475e90d540edc57f94f236b9a36c5480267a4ad34429ba3dff",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/data/storyboard.json",
+      "sha256": "64f6b984513aa33f06942cd20d90f0d8847b7f29566a8735d44e3b8a71f0249d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/manifest.json",
+      "sha256": "2b4f8d419ceec1a39405956c2a2072d02de0cd6c03931e6cdf28897d114107fe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/provenance/creative-request.json",
+      "sha256": "0666b2ccf0b4a562b33baaeadac78360dd36265ac54476c7cc730363b6859462",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/provenance/parent-integrity.json",
+      "sha256": "bcc58323ff3072678f9f804f9b922afed4d8fb676ab1a280cc19b96e04cd231c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/provenance/still-delivery.json",
+      "sha256": "0f726781e28f91d439882f15f0185b2113d13076c1799d958eb81e090fa51057",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/renderer/index.html",
+      "sha256": "f1721fcd21097d6be62158091c2ee7ee7e9d46d81a7e72d9cc90a6675fbf92f7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/renderer/src/scroll.ts",
+      "sha256": "51ff150581395f9ed9a182717d50595eb91fd44a0ca37d376734f09a643dd350",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/runs/RUN_2026-10-07T08-53-32-041Z_5e8487c1.json",
+      "sha256": "3413fdfa8a26740a4aa4479c183530546891d14bd7c3301bad57cb8ba0eba897",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/01-launch.png",
+      "sha256": "95024cb548ac85066fd37ed597a4564b01a29507cc81b88b1ee7b8130a01a6b6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/02-gpt4.png",
+      "sha256": "ef9b03db4844cc5526f887986ec79571345122e9a9ebcc0621cfda793111248f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/03-o1.png",
+      "sha256": "a72726b8270bbc77e3f2388820f90051e023ddec25ff63f4bdce782d2997efe1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/04-imo.png",
+      "sha256": "965df3c004a8b23ed343fc260fb2c4d69ad50d7ed48f268b029ede59e69d0806",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/05-ns.png",
+      "sha256": "8cc75bb54402065e72c2508e85cfd774123a036eacc9e90176cf82318435dca6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/06-frontier.png",
+      "sha256": "fd093c4a42a579db83ebb66b83effcf89a38599e0b15b08dd477a0554b9ff272",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/07-722.png",
+      "sha256": "ffeb8636f4347c2c6ff403e9e8c75fdf07ed31d4b56e6720eb2bb2e07693880d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/08-directory.png",
+      "sha256": "831755c30d9b075552f4477d42deabcaf8d7061e67bb4f6a7fe4bacbe24aff7b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/09-closing.png",
+      "sha256": "5e421a1939df1947e20ca0229c6422bb9fd8879dc8e7bfda1efad9952e85310e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.0/stills.html",
+      "sha256": "e71782a9653aa1f4021fec5ca59cb65c1bdfe86ba562750e67557971b6435f1b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/SCRIPT.md",
+      "sha256": "9fa46c6f18a5f79a5144d19f63f7e164730fa93e2628d99064cf677dcbc4a10a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/TREATMENT.md",
+      "sha256": "fb62bc97fade922e8fb5c1e561168777f32ad5021f65a088fa1526ea879df0ba",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/analysis/render-design-stills.mjs",
+      "sha256": "c436341c8243982629b26a6028e40de956a266f3d57bd043252e2cc0163260eb",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/annotations.zh.json",
+      "sha256": "f0b50ccab7d92a9d90ddaba93a54ca6b2afab233c0ca32d9225b20730a1647c9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/github-capture.json",
+      "sha256": "c5b94d3112640da3d6e75be0172e8411bbde38be14e859590a69b1900793d274",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/screenshot-layout.json",
+      "sha256": "9688cd6069e77d477c4c7715bb9b6ada34e0883f65d1b5f8f304b796c21eee5e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/data/storyboard.json",
+      "sha256": "fd9a343e39cfa1395b20974cebafac61cf666ace2e7de4751465eb537a390a74",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/manifest.json",
+      "sha256": "65381da59b681cd5e41f04de4d5f51d5b49820bc3c0574b55f92bca7c475e73a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/provenance/browser-source-capture.json",
+      "sha256": "1c2547b399910fabbac13cb74001c00e953fa44ff65a1b78f49b9983c81dd59d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/provenance/historical-preservation.json",
+      "sha256": "af126f32637cc47386adf0c78c4b7172123f1d82fe8066627ae6179428d4b928",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/provenance/still-delivery.json",
+      "sha256": "ed37aaaf98a32cfc129e254d4faab062f878f5d3c51d9c040ecb8fb979d15c7d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/provenance/user-direction-v004-1.json",
+      "sha256": "e34de4dfa9c8e97775dbcfa03f0bedae7aa90a9681a799544a6e6f7cf305a7ba",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/renderer/index.html",
+      "sha256": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/renderer/src/scroll.ts",
+      "sha256": "054b5f6a16b69758d96c278ff29963aefebbc867108d9f2fd8858c5e6f6a11a0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/runs/RUN_2026-10-07T09-25-41-802Z_a0b66af9.json",
+      "sha256": "79590557b2cd50869348e0a2ade82fdbf845cf7dd8841647f563c544e0032810",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/01-launch.png",
+      "sha256": "34cb708977994a583bac50535be0ae85db557462a5e3a5af759a200a1044fe7a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/02-imo.png",
+      "sha256": "c6c11be92bd65f92a4a08ff078174e2917b28754c87f2140dea8d7578b7cf63b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/03-ns.png",
+      "sha256": "333868ae1cb742ca6452472e1aa3052b7d42bd7df28601638276c5c1d8949f46",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/04-722.png",
+      "sha256": "36fac48874e6d377210852189717cfe35bc485508c0f8b9c44679865904b139e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/05-clear.png",
+      "sha256": "a87e39318723fe7039b335ad4c2bf3b3743b41c4172f2b50d0682bfa25cfa0a3",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/06-scrolling.png",
+      "sha256": "40811ff9504051bc758805b2148cb62a70fa9b07bdba4e52fa366fa47e2cedb7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/07-bilingual.png",
+      "sha256": "d20136a966ab63bc8eb3abc33b8a987c32bab59c0b632a8363bb1aeaa2a4c48d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/08-bottom.png",
+      "sha256": "e66fabbdb15f9d83e75efdaf610096844cb5d5ebca0683067ab1c3b092e3bcd6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.1/stills.html",
+      "sha256": "2e84e22d71e239ac2d621cf012d3d01bd2b8ed47fc437ce5ee8fac525c517886",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/DELIVERY.md",
+      "sha256": "f809f6ae203722eb87abb0fdb581b381626942b1042208ee69faadf75140e85d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/SCRIPT.md",
+      "sha256": "143e5ca9e1bde95baf68e61ad8a01bfbc1e70f1f9bc1442caacceb93364e0ed4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/TREATMENT.md",
+      "sha256": "55373491e03cd8a085e1552c00da585110471ea8f4bc260a4bf39b20d494b40c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/analysis/verify-audiovisual-playback.mjs",
+      "sha256": "27c78004b82dec0ea4c024c7ff83192ad127ca014eab72518301dfcf07b3307a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/annotations.zh.json",
+      "sha256": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/editorial-notes.tsv",
+      "sha256": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/github-capture.json",
+      "sha256": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/screenshot-layout.json",
+      "sha256": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/data/storyboard.json",
+      "sha256": "f01595f84fb5e870ae957c3f9ab79cac662d0e14b3f9020de4ef233d4753ee06",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/manifest.json",
+      "sha256": "5599fc3077d762941012a8ca502dbdc1bf62cd2d901190ef268580965b0394f1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/outputs/MATH_001_V004_R002_001_math-github-preview_v004.2.mp4",
+      "sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/poster.jpg",
+      "sha256": "0db0571bc2dfa54a78e615587f51fae952ab8e1094411c5464bdbad0bf4f43dd",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/annotation-production.json",
+      "sha256": "9de1607c3b897ce08ecef54b245e2b93c75f1d138de57e6494d76d51e0f98ad9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/audiovisual-playback.json",
+      "sha256": "34007b64a6d81189e6387657b5a64d84d3e9841cc9fb1625c407681d6a4c6521",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/delivery.json",
+      "sha256": "eef501d652131b82bb631b081e8d623fda02fa49e678485737bb66fa0b57f1b5",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frame-index.json",
+      "sha256": "399b441a6e979da553fbd6807a1b6f2e7ec57ae42e03ed9d53aaa09b4fe03818",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-01.png",
+      "sha256": "017451d6590d4a6c7347756e748a3a5b7b20e20bdfa2a6a42ab01c8c3333c1de",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-02.png",
+      "sha256": "78b94dbb01108cb8feffe250fe81fcf1011adec92342f7de697fef3d862381bd",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-03.png",
+      "sha256": "e91f76fff2263d579ebc5a02db52acfbb6bf8ff70106445f704bdf7dcc2fb581",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-04.png",
+      "sha256": "900edc5200460731b0235f4441480f9ab130fa6a3fe56da44280dd4ad452c734",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-05.png",
+      "sha256": "5361396d3c3702fca041e0e9e06d999686cf174837230f062976a747f81fc76a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-06.png",
+      "sha256": "61485916334ed29b02e02e48d356cb1096603af1eaf72fb296a5f580847e0334",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-07.png",
+      "sha256": "836dee7b2c5c92ebd350d61d3bb921991f6e8481b5ac1c422feff90811776af0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-08.png",
+      "sha256": "bd89cf68026fd11cbc4928d1152194992ffb9997b1b6496a9efa2292fb8d5c30",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-09.png",
+      "sha256": "1e076a27b341f6c5e65a144fdf88f7379b0bc7bdac6bf6583679a5bad7c33150",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-10.png",
+      "sha256": "82014b7e12cba8f3fb9ab823744a5725727a84cde850299cc213e4fd2e7f1707",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-11.png",
+      "sha256": "03a95d22416d7fc6e41f446987ef9586770442a5b159e390520c3c4bdc90dbb0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-12.png",
+      "sha256": "d7cb7bd5cde26f75a4f73f38a112edbb303e732bef07cf78129c96a6040270b3",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-13.png",
+      "sha256": "ea092829d0bc49942047aa42f518f8e2b1147c1ce195dce5d2d154fa1958754d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/encoded-frames/frame-14.png",
+      "sha256": "c6b5a15d1d6f4d95a07f55790f49aa5d5944b27beb1e6718fbc1fd01d29988fe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/frame-timestamps.json",
+      "sha256": "f0b098cfd062762172366d87df8554c79a91a0c6c86ac485d1d47dcdadd43b5c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/historical-preservation.json",
+      "sha256": "85d7fc9c19fbaf262163d571a052575214d195141e9b1660bc070c4da291e183",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/provenance/user-render-authorization.json",
+      "sha256": "c3914efeda082259ecc2ecdd47a890bf47b71d0341cbcbc10d5b23418ef8a0e7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/renderer/index.html",
+      "sha256": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/renderer/src/scroll.ts",
+      "sha256": "054b5f6a16b69758d96c278ff29963aefebbc867108d9f2fd8858c5e6f6a11a0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/runs/MATH_001_V004_R002_001-ffprobe.json",
+      "sha256": "cdd2f769105f8f974ccc6356dfbb7dbe9109a891a30b156553c2cf5d7e11d000",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/runs/RUN_2026-10-07T09-41-53-163Z_d1aa603f.json",
+      "sha256": "fde53109626f510e2a3d3fc83c764909d014ce7c3ca2c023a8b076aed5c6ac7d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.2/watch.html",
+      "sha256": "fcb9c399d2d194f51c5fa2ab29b77026e6dc0323de122dbd3712c2d11480c2bc",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/DELIVERY.md",
+      "sha256": "0f41d5173a28b4b2290937ec2d1bef47a5a6665c3209011dd4ac5166e3196a62",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/SCRIPT.md",
+      "sha256": "0b7f3b43f67fedf21172f94dfb8307d802d7d08992437b39f0914d3c00bf28c4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/TREATMENT.md",
+      "sha256": "559da41e63901622bd8a5f2a995221e066a379b697241f86146c0e999f542849",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/analysis/inspect-motion.mjs",
+      "sha256": "99710450194ed586ac48a2df8e1f1eb6c61f2c7a94a6b5114518dce56cd44ae6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/analysis/verify-audiovisual-playback.mjs",
+      "sha256": "8152b3a38deb91565c3b65a90cc1e8b9ee45a4e4eaf24ac18b9edde7a9b8f270",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/analysis/verify-encoded-motion.mjs",
+      "sha256": "ba77fdc49f7e3bbc51356e489ea15dad4a76d4dcbf97e056c483f51b2a4b6e8b",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/annotations.zh.json",
+      "sha256": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/catalog-papers.json",
+      "sha256": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/directory.json",
+      "sha256": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/editorial-notes.tsv",
+      "sha256": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/github-capture.json",
+      "sha256": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/music-features.json",
+      "sha256": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/screenshot-layout.json",
+      "sha256": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/data/storyboard.json",
+      "sha256": "db1b207319e718c1ba99c19764524ef9a5504c1f6ba9f50ca2c7b52490dd9d78",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/manifest.json",
+      "sha256": "3d6841b4ea9389f1d39a83e17b90fbceac2afe7930ff6b11094e83d2caf37f7a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "sha256": "7f2e072d160b3974edcb89986290ab6c01266373c60b708ee5ef452f5d8950d2",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/poster.jpg",
+      "sha256": "015611649133137b13fcc760217a4b450f247004e03f9079146b892800fa66f7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/audiovisual-playback.json",
+      "sha256": "aa460cd22dd83450eded34e8201a7496a081ab3a65159d40b9cafb92286388fa",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/delivery.json",
+      "sha256": "c42cea214a550a69644ff8b86a698b5e6c28c8a2cca8ef2978b75bddba9acc4f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-01.png",
+      "sha256": "cfffe302d51e23a3f00ae29aadfac5b36841373de2d49cfc2b92cd803ea58e0f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-02.png",
+      "sha256": "a6110f6ca320313400d81f6cfe7c3e66368f64287d109b6a41c6c637ffd9f3b8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-03.png",
+      "sha256": "58bf7bceecfd954325e1100becf8fedc9c6e18a47b95dffd3c27ca3f4adee0bf",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-04.png",
+      "sha256": "63b3d26ccbf0189179b9651fec91e9c52f6b00b91743b2e1c66b754831385f8d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-05.png",
+      "sha256": "107030cb647dbe860775f0baee0c879cc2624dd1845fc676652cd8734d283ec8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-06.png",
+      "sha256": "c09a070b0f50aaa7d265c770b92c6804572909d7b156c5f259cbff7e4beaa3a1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-07.png",
+      "sha256": "594fd846cec79a6ae401853028bd6e326a71a80b5dcd3f586ad52b0e0d9b0d29",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-08.png",
+      "sha256": "95e9f87290ef9280c30c0afd44a1ff8eecf4fe83f7ad643636155df7d3296f68",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-09.png",
+      "sha256": "2f380cdb731a00c933367d2153c56cf568e460a0705520d6ac79cb4ca37ee829",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-10.png",
+      "sha256": "a26521c96f836fb8f2b6b7073062fcb540e981d5be073b01ae4c3503cee1b273",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-11.png",
+      "sha256": "73f247108f5074b7de46082acac6ecfb421d31bd07b7b511255858ce0035b544",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-12.png",
+      "sha256": "806acd71c2ebbc364d7b54e4f46690e46b2f065c1ebff2f7dd50c949ba37a96c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-13.png",
+      "sha256": "1c342454bb26695e8f45b7871351e8dd2fd15230a90bced335ce32be53d0277f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/design-frames/frame-14.png",
+      "sha256": "54232e55d0df275bf2b2f0777629b5f948df4156900bec7a8c6cde6d1d947e7e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frame-index.json",
+      "sha256": "6a098d30dbf48e2c50c891babe1166089b1791d1b4a35dd1781d3eb7e4143aa1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-01.png",
+      "sha256": "759f0c62c64cc431d1b4d5fe10c9b82b8b153fb463c306a92aa924b5fbbd9840",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-02.png",
+      "sha256": "679e95c55a12b590fee8d6e5a76a79a0c4d7c081a1b367c56e471931ec26bc6c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-03.png",
+      "sha256": "9ba5f3b9812f780b7a1f7b15eb01e313b63126b03b51fd284e183c8ac185303e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-04.png",
+      "sha256": "302bd2795fbc42020337608261342cc4568bb60666195619fa2c9af2e2f6697f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-05.png",
+      "sha256": "5e4add5c1707a1fa37738eba565aa75168200b29e326965d8420f7a7ea0ebce6",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-06.png",
+      "sha256": "37e0f781f7a7ce181f6552805a77a947569c027a71f0ec7180da17457d234928",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-07.png",
+      "sha256": "74d32621015ca234ca69cca934bbefd6924fd8bdefe581d17b926a5dd5abb240",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-08.png",
+      "sha256": "5af80e3026dfb2045ad52ee5ce57fdbd52c883969c087455a16ce5d051712ec1",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-09.png",
+      "sha256": "ea8e8e96d3ba701ced6231cad0dfd39e3651790a10e30a57733079114f2a9e04",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-10.png",
+      "sha256": "d295c0d7650f5b0f362be132f0aeaeacdbcd15043d58ce412bbbf6bba901dfb7",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-11.png",
+      "sha256": "0116d7b0b6ee61a75fae288cd0a0b93d7c354a7343934df3f609362ccef1576f",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-12.png",
+      "sha256": "beeaa1f8e1c810b1944668f4fba2f5c4d34ed22fffcaa03c9f2bf982cf27a46a",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-13.png",
+      "sha256": "fadb7879b2091747ba75cca9c7be7d53692c86b8732f24260b8c5953b6a0e13d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-14.png",
+      "sha256": "0342519e2939b1f457f29b2d1d5727d6e857927faaff05f028cefaa992fc4697",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-frames/frame-15.png",
+      "sha256": "c90d007e6fc62e984e4e589e9173f35359abc30eba3fd86bedfaba69ad6a28e8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/encoded-motion.json",
+      "sha256": "c571594dee381ff2a82901888c83e22d4cda49a6999581de0351ead996282c38",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/frame-timestamps.json",
+      "sha256": "2e6c09e7d6170076be1c351da1960a866f6f3e643c53eb8f7a3c2b3d1b8b5777",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/historical-preservation.json",
+      "sha256": "c9e5868107361a40762e86ca742e58fb1acfb57650f839b3362fd8552fea3482",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/motion-diagnosis.json",
+      "sha256": "9b9d9bf71b4cd2d4f58d5fc1318f769b6f1cb26859376948353b6bdd3318c090",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/motion-preflight-parser-error.json",
+      "sha256": "8a4be9c160c6b00a5b0052cfdd0eaa53543dbe18e3b8657eca861be1b33646a9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/motion-preflight.json",
+      "sha256": "ae8165dc4b9ecad478490caccaf015b2791fe679ad91bf9fe46c4cbc8626e63d",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/player-fullscreen.png",
+      "sha256": "18f0f0c43bafdd5d4b4144a168a332a4047c6a29187b636c56b13fd544bb5fa8",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/preview-http.json",
+      "sha256": "d58ed95ddf9a17bc678d58aab05f9f2d39f14745fdd370d3c8ce0623effa69b0",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/repository-verification.json",
+      "sha256": "087aba5b92976723f74a453cd6ee38e2e4b8eafef61f0bed14deeeaf3392e475",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/provenance/user-render-authorization.json",
+      "sha256": "5ee7ad4d14d9724c120c8ce41cec3a2c126ed0a8e7adf760a3c71d0ec2201441",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/renderer/index.html",
+      "sha256": "89d65083d4b7fbbcb6e5236a5361b410d94be1726903276a5b34cb3f0228134c",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/renderer/src/scroll.ts",
+      "sha256": "1a916d34a430ca6ed2b286c69bfc84bc0909083bce21f8e3f03e86a3d0eec5da",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/renderer/tsconfig.json",
+      "sha256": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/runs/MATH_001_V004_R003_001-ffprobe.json",
+      "sha256": "7b1cd4c3e21d83bc93f615f200e689ec7e45b584c90f95307f1006fe62bd98be",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/runs/RUN_2026-10-07T10-04-24-272Z_b850ef15.json",
+      "sha256": "0c3efaf12349963015f9bb2589cbffb60ef8f193e52a56c11ef26972c7cc5eb9",
+      "status": "unchanged"
+    },
+    {
+      "path": "projects/math/versions/v004.3/watch.html",
+      "sha256": "aa6cea8520e6b0f2d14ecd2fb5b183d6f927a679dde6e2784f5ca46edc52d76e",
+      "status": "unchanged"
+    }
+  ]
+}

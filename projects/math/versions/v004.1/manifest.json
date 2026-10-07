@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.1",
+  "parent_version": "v004.0",
+  "status": "draft",
+  "created_at": "2026-10-07T09:07:31.345Z",
+  "request": [
+    "片头简化成5秒，背景是之前真实的GitHub Math页面，刚开始有一些半透明效果。",
+    "5秒以后效果退场，同一GitHub页面清晰全屏匀速向下滚动；几十秒后滑到底就结束。",
+    "保留ChatGPT上线到2026.10.07、IMO、NS、722的推进；不使用单独片尾卡。",
+    "本轮只更新静帧样图，不渲染整片。"
+  ],
+  "model": "Codex (GPT-6; exact model identifier TBD)",
+  "method": "TypeScript + Three.js/WebGL; time-driven canvas composition of eight original GitHub captures; translucent 5-second opening over the same native page; 53-second linear scroll; no closing card; still-only delivery.",
+  "renderer": {
+    "path": "renderer/index.html",
+    "entrypoint": "renderFrame",
+    "engine": "three-webgl",
+    "build": "vite",
+    "source_directory": "renderer",
+    "files": {
+      "renderer/index.html": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af",
+      "renderer/src/scroll.ts": "054b5f6a16b69758d96c278ff29963aefebbc867108d9f2fd8858c5e6f6a11a0",
+      "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+    },
+    "sha256": "664399589b0149b72247f490c6a9287f5fbdf19aff9f5913647a092fbc52e1af"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "inputs": {
+    "audio": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "preprints": {
+      "source_id": "MATH_001_PREPRINTS",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a"
+    },
+    "layout_reference": {
+      "source_id": "MATH_001_LAYOUT_REFERENCE",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+    },
+    "catalog": {
+      "source_id": "MATH_001_CATALOG_CONTENTS",
+      "path": "sources/references/MATH_001_CATALOG_CONTENTS_v001.md",
+      "sha256": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8"
+    },
+    "timeline_facts": {
+      "source_id": "MATH_001_TIMELINE_FACTS",
+      "path": "sources/references/MATH_001_TIMELINE_FACTS_v001.json",
+      "sha256": "923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8"
+    },
+    "ns_publication": {
+      "source_id": "MATH_001_NS_PUBLICATION",
+      "path": "sources/references/MATH_001_NS_PUBLICATION_v001.json",
+      "sha256": "1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6"
+    },
+    "github_segment_001": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_001",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_001_v001.jpg",
+      "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+    },
+    "github_segment_002": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_002",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_002_v001.jpg",
+      "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+    },
+    "github_segment_003": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_003",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_003_v001.jpg",
+      "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+    },
+    "github_segment_004": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_004",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_004_v001.jpg",
+      "sha256": "4f48ad877c282ad658e805460d854b9c26b646645a03900b8a05858845526786"
+    },
+    "github_segment_005": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_005",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_005_v001.jpg",
+      "sha256": "eace09e8e6227bd293f020abdde0f0cfda54aa0d4109f9004e7fd7e599522278"
+    },
+    "github_segment_006": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_006",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_006_v001.jpg",
+      "sha256": "09c7aa54b27fc56362645fe39503207ebd3908af5d7178ef064702d803d6bc48"
+    },
+    "github_segment_007": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_007",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_007_v001.jpg",
+      "sha256": "971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36"
+    },
+    "github_segment_008": {
+      "source_id": "MATH_001_GITHUB_SEGMENT_008",
+      "path": "sources/references/MATH_001_GITHUB_SEGMENT_008_v001.jpg",
+      "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926"
+    }
+  },
+  "data": {
+    "directory": "data/directory.json",
+    "storyboard": "data/storyboard.json",
+    "music_features": "data/music-features.json",
+    "catalog_papers": "data/catalog-papers.json",
+    "annotations_zh": "data/annotations.zh.json",
+    "screenshot_layout": "data/screenshot-layout.json",
+    "github_capture": "data/github-capture.json"
+  },
+  "variants": [
+    {
+      "id": "github-overlay-stills",
+      "label": "5秒半透明片头 + GitHub 原图全屏滚动",
+      "generation_id": "MATH_001_V004_R001_001",
+      "description": "The native directory is visible from the first frame; the opening overlay disappears at exactly 5 seconds, followed by uniform scrolling through all 722 rows and ending at the bottom.",
+      "known_issues": [
+        "Only 28 Chinese notes prepared; 694 remain to be written before a complete bilingual video.",
+        "Stills do not verify continuous motion, music timing or full-video playback."
+      ],
+      "output": null,
+      "poster": null
+    }
+  ],
+  "rights": {
+    "status": "TBD"
+  },
+  "validation": {
+    "human_review": "pending",
+    "music_sync": "pending",
+    "continuous_scroll_review": "pending",
+    "full_video": "not-generated",
+    "still_capture": "passed",
+    "source_capture": "passed; native 722-row coverage and order",
+    "still_specs": "passed; eight 1920x1080 PNGs",
+    "repository_check": "passed",
+    "repository_test": "passed; 12 tests",
+    "repository_verify": "passed",
+    "still_media_verification": "passed; still PNG specs separately probed; no complete-video output"
+  },
+  "title": "GitHub Math · 5秒半透明片头，清晰滚动到底",
+  "type": "bilingual-directory-scroll-video",
+  "production_stage": "five-second-overlay-still-review",
+  "historical_provenance": null,
+  "audio_edit": {
+    "path": "../v002.0/provenance/audio-edit-58.json",
+    "source_candidate": 3,
+    "source_speed": 1.25,
+    "excerpt_start_seconds": 22.9,
+    "excerpt_end_seconds": 80.9,
+    "duration_seconds": 58,
+    "status": "inherited-input; no new audio edit",
+    "human_review": "pending"
+  },
+  "still_review": {
+    "status": "review",
+    "scope": "translucent opening, exact 5-second clear boundary, beginning of scroll, bilingual sample and true last row; design stills only",
+    "full_video_requested": false,
+    "frames": [
+      {
+        "id": "01-launch",
+        "label": "半透明片头 · ChatGPT 上线",
+        "seconds": 0.64,
+        "scene": "timeline",
+        "filename": "01-launch.png"
+      },
+      {
+        "id": "02-imo",
+        "label": "半透明片头 · 数学奥赛",
+        "seconds": 1.7,
+        "scene": "timeline",
+        "filename": "02-imo.png"
+      },
+      {
+        "id": "03-ns",
+        "label": "半透明片头 · NS",
+        "seconds": 3,
+        "scene": "timeline",
+        "filename": "03-ns.png"
+      },
+      {
+        "id": "04-722",
+        "label": "半透明片头 · 截至 2026.10.07，722 篇",
+        "seconds": 4.3,
+        "scene": "timeline",
+        "filename": "04-722.png"
+      },
+      {
+        "id": "05-clear",
+        "label": "第 5 秒 · 效果全部退场",
+        "seconds": 5,
+        "scene": "directory",
+        "filename": "05-clear.png"
+      },
+      {
+        "id": "06-scrolling",
+        "label": "第 5.3 秒 · 同一页面开始滚动",
+        "seconds": 5.3,
+        "scene": "directory",
+        "filename": "06-scrolling.png"
+      },
+      {
+        "id": "07-bilingual",
+        "label": "滚动中 · 英文左、中文右样例",
+        "seconds": 50.35627968602781,
+        "scene": "directory",
+        "filename": "07-bilingual.png",
+        "check_annotations": true
+      },
+      {
+        "id": "08-bottom",
+        "label": "最后一帧 · 滑到底直接结束",
+        "seconds": 57.96666666666667,
+        "scene": "directory",
+        "filename": "08-bottom.png"
+      }
+    ],
+    "times_seconds": [
+      0.64,
+      1.7,
+      3,
+      4.3,
+      5,
+      5.3,
+      50.35627968602781,
+      57.96666666666667
+    ],
+    "images": [
+      {
+        "id": "01-launch",
+        "label": "半透明片头 · ChatGPT 上线",
+        "scene": "timeline",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/01-launch.png",
+        "seconds": 0.64,
+        "sha256": "34cb708977994a583bac50535be0ae85db557462a5e3a5af759a200a1044fe7a",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            81,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            0,
+            20
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 1,
+          "scroll_offset_px": 0,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column",
+            "Translucent white opening wash and milestone type; disappear by 5 seconds"
+          ]
+        },
+        "timeline_phase": {
+          "id": "TL_2022",
+          "year": "2022",
+          "suffix": "11.30",
+          "date_display": "2022.11.30",
+          "start": 0,
+          "end": 1.06,
+          "title": "ChatGPT 上线",
+          "summary": "从一次对话开始。",
+          "anchor": "LF_0052",
+          "fact_ids": [
+            "F01"
+          ]
+        }
+      },
+      {
+        "id": "02-imo",
+        "label": "半透明片头 · 数学奥赛",
+        "scene": "timeline",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/02-imo.png",
+        "seconds": 1.7,
+        "sha256": "c6c11be92bd65f92a4a08ff078174e2917b28754c87f2140dea8d7578b7cf63b",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            81,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            0,
+            20
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 1,
+          "scroll_offset_px": 0,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column",
+            "Translucent white opening wash and milestone type; disappear by 5 seconds"
+          ]
+        },
+        "timeline_phase": {
+          "id": "TL_2025",
+          "year": "2025",
+          "suffix": "07",
+          "date_display": "2025.07",
+          "start": 1.06,
+          "end": 2.33,
+          "title": "数学奥赛 · 金牌水平",
+          "summary": "OpenAI 推理模型 · IMO 2025 · 35 / 42 分",
+          "anchor": "LF_0054",
+          "fact_ids": [
+            "F04"
+          ]
+        }
+      },
+      {
+        "id": "03-ns",
+        "label": "半透明片头 · NS",
+        "scene": "timeline",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/03-ns.png",
+        "seconds": 3,
+        "sha256": "333868ae1cb742ca6452472e1aa3052b7d42bd7df28601638276c5c1d8949f46",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            81,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            0,
+            20
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 1,
+          "scroll_offset_px": 0,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column",
+            "Translucent white opening wash and milestone type; disappear by 5 seconds"
+          ]
+        },
+        "timeline_phase": {
+          "id": "TL_NS",
+          "kind": "ns",
+          "year": "2026",
+          "suffix": "09.08",
+          "date_display": "2026.09.08",
+          "start": 2.33,
+          "end": 3.61,
+          "title": "NS 千禧难题 · 给出解法",
+          "summary": "OpenAI 公布 · 有外力版本（C/D）· Lean 形式化",
+          "anchor": "LF_0057",
+          "fact_ids": [
+            "F07"
+          ]
+        }
+      },
+      {
+        "id": "04-722",
+        "label": "半透明片头 · 截至 2026.10.07，722 篇",
+        "scene": "timeline",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/04-722.png",
+        "seconds": 4.3,
+        "sha256": "36fac48874e6d377210852189717cfe35bc485508c0f8b9c44679865904b139e",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            81,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            0,
+            20
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 1,
+          "scroll_offset_px": 0,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column",
+            "Translucent white opening wash and milestone type; disappear by 5 seconds"
+          ]
+        },
+        "timeline_phase": {
+          "id": "TL_722",
+          "year": "2026",
+          "start": 3.61,
+          "end": 5,
+          "date_display": "截至 2026.10.07",
+          "title": "AI 挑战数学前沿",
+          "count": 722,
+          "count_unit": "篇数学预印本",
+          "summary": "372 组相关结果 · OpenAI 内部前沿模型",
+          "anchor": "LF_0059",
+          "fact_ids": [
+            "F05",
+            "F06"
+          ],
+          "date_role": "editorial-as-of"
+        }
+      },
+      {
+        "id": "05-clear",
+        "label": "第 5 秒 · 效果全部退场",
+        "scene": "directory",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/05-clear.png",
+        "seconds": 5,
+        "sha256": "a87e39318723fe7039b335ad4c2bf3b3743b41c4172f2b50d0682bfa25cfa0a3",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            81,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            0,
+            20
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 0,
+          "scroll_offset_px": 0,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column"
+          ]
+        }
+      },
+      {
+        "id": "06-scrolling",
+        "label": "第 5.3 秒 · 同一页面开始滚动",
+        "scene": "directory",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/06-scrolling.png",
+        "seconds": 5.3,
+        "sha256": "40811ff9504051bc758805b2148cb62a70fa9b07bdba4e52fa366fa47e2cedb7",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_001",
+              "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+            }
+          ],
+          "crop": [
+            0,
+            243.98625132337014,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            3,
+            24
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 0,
+          "scroll_offset_px": 162.98625132337014,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column"
+          ]
+        }
+      },
+      {
+        "id": "07-bilingual",
+        "label": "滚动中 · 英文左、中文右样例",
+        "scene": "directory",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/07-bilingual.png",
+        "seconds": 50.35627968602781,
+        "sha256": "d20136a966ab63bc8eb3abc33b8a987c32bab59c0b632a8363bb1aeaa2a4c48d",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_007",
+              "sha256": "971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36"
+            }
+          ],
+          "crop": [
+            0,
+            24722.5,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            601,
+            621
+          ],
+          "annotated_visible_rows": [
+            601,
+            602,
+            603,
+            604,
+            605,
+            606,
+            607,
+            608,
+            609,
+            610,
+            611,
+            612,
+            613,
+            614,
+            615,
+            616,
+            617,
+            618,
+            619,
+            620,
+            621
+          ],
+          "overlay_alpha": 0,
+          "scroll_offset_px": 24641.5,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column"
+          ]
+        }
+      },
+      {
+        "id": "08-bottom",
+        "label": "最后一帧 · 滑到底直接结束",
+        "scene": "directory",
+        "variant": "github-overlay-stills",
+        "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/08-bottom.png",
+        "seconds": 57.96666666666667,
+        "sha256": "e66fabbdb15f9d83e75efdaf610096844cb5d5ebca0683067ab1c3b092e3bcd6",
+        "scope": "design still only",
+        "source_state": {
+          "source_segments": [
+            {
+              "source_id": "MATH_001_GITHUB_SEGMENT_008",
+              "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926"
+            }
+          ],
+          "crop": [
+            0,
+            28857.12815031503,
+            1574,
+            825.8718496849684
+          ],
+          "visible_rows": [
+            701,
+            721
+          ],
+          "annotated_visible_rows": [],
+          "overlay_alpha": 0,
+          "scroll_offset_px": 28776.12815031503,
+          "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+          "overlays": [
+            "Native breadcrumb header from the user screenshot",
+            "Chinese notes only inside annotated rows of the original commit column"
+          ]
+        }
+      }
+    ],
+    "human_approval": "pending",
+    "run_id": "RUN_2026-10-07T09-25-41-802Z_a0b66af9"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "fd9a343e39cfa1395b20974cebafac61cf666ace2e7de4751465eb537a390a74",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "f0b50ccab7d92a9d90ddaba93a54ca6b2afab233c0ca32d9225b20730a1647c9",
+    "screenshot_layout": "9688cd6069e77d477c4c7715bb9b6ada34e0883f65d1b5f8f304b796c21eee5e",
+    "github_capture": "c5b94d3112640da3d6e75be0172e8411bbde38be14e859590a69b1900793d274"
+  }
+}

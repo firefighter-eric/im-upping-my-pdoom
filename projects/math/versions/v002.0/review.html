@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>误闯数学天家 · 58秒视频预览</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#091321;color:#f5f7fb;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1220px;margin:auto;padding:28px 20px}h1{font-size:25px;margin:0 0 10px}p{color:#a8bad4;line-height:1.8;font-size:14px;margin:0 0 20px}video{display:block;width:100%;aspect-ratio:16/9;background:#0c1728;border:1px solid #35435a;border-radius:10px}.chapters{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}button,a{font:inherit;font-size:14px;color:#dce5f3;border:1px solid #41516b;background:#152238;padding:9px 13px;border-radius:7px;cursor:pointer;text-decoration:none}button:hover,a:hover{background:#213654}.note{margin-top:22px;font-size:13px}
+  </style>
+</head>
+<body><main>
+  <h1>误闯数学天家</h1>
+  <p>58 秒 Preview · 1920 × 1080 · 30 fps · 第三份配乐的 1.25 倍速片段</p>
+  <video id="preview" aria-label="误闯数学天家58秒预览" controls playsinline preload="auto" poster="stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-1.740.jpg" src="outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4"></video>
+  <div class="chapters"><button data-time="0">看片头</button><button data-time="28">看目录滚动</button><button data-time="54.5">看片尾</button><a href="outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4" download>下载视频</a></div>
+  <p class="note">GitHub 真实目录数据按参考版式重绘，722 项连续滚过。原速音频完整保留；短片的文案、音乐片段与观看体验待审。</p>
+</main><script>
+const video=document.querySelector('video');for(const button of document.querySelectorAll('button[data-time]'))button.addEventListener('click',()=>{video.currentTime=Number(button.dataset.time);video.play().catch(()=>{});});
+</script></body></html>

@@ -1,0 +1,51 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "recorded_at": "2026-10-07T10:10:26.079Z",
+  "status": "passed",
+  "url": "http://127.0.0.1:60547/versions/v004.3/watch.html",
+  "checks": [
+    {
+      "path": "watch.html",
+      "status": 200,
+      "sha256": "aa6cea8520e6b0f2d14ecd2fb5b183d6f927a679dde6e2784f5ca46edc52d76e",
+      "matches_local": true
+    },
+    {
+      "path": "poster.jpg",
+      "status": 200,
+      "sha256": "015611649133137b13fcc760217a4b450f247004e03f9079146b892800fa66f7",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "status": 206,
+      "range": [
+        0,
+        1023
+      ],
+      "content_range": "bytes 0-1023/73582009",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "status": 206,
+      "range": [
+        36791004,
+        36792027
+      ],
+      "content_range": "bytes 36791004-36792027/73582009",
+      "matches_local": true
+    },
+    {
+      "path": "outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "status": 206,
+      "range": [
+        73580985,
+        73582008
+      ],
+      "content_range": "bytes 73580985-73582008/73582009",
+      "matches_local": true
+    }
+  ]
+}

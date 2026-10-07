@@ -1,0 +1,11 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:23:15.927Z",
+  "stage": "Draft layout QA before any full render",
+  "observation": "Gray and blue year-rail type used different weights, producing offset letter shapes during the highlight overlay.",
+  "correction": "Use identical 500-weight metrics for base and highlight; source headline/date typography unchanged.",
+  "earlier_qa_preserved": "first-preflight/",
+  "full_render_attempts": 0,
+  "human_approval": "pending"
+}

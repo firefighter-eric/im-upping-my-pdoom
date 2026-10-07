@@ -1,0 +1,63 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "output_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "recorded_at": "2026-10-07T11:28:37.935Z",
+  "status": "passed",
+  "method": "Independent RGB analysis of three decoded MP4 frames: centered full-height overview in the original-page strip, both flanking numeric statements, partial fade contrast reduction and white last frame.",
+  "expected_overview_bounds": [
+    934.5286003824126,
+    60,
+    985.4713996175873,
+    1020
+  ],
+  "samples": [
+    {
+      "frame": 3405,
+      "seconds": 56.75,
+      "mean_white_deviation": 2.944192708333289,
+      "maximum_white_deviation": 225,
+      "nonwhite_pixels_below_245": 56701,
+      "nonwhite_bounds": [
+        929,
+        59,
+        989,
+        1024
+      ],
+      "statistics_nonwhite_pixels": {
+        "left": 19303,
+        "right": 19582
+      }
+    },
+    {
+      "frame": 3456,
+      "seconds": 57.6,
+      "mean_white_deviation": 1.4251630015433139,
+      "maximum_white_deviation": 110,
+      "nonwhite_pixels_below_245": 49667,
+      "nonwhite_bounds": [
+        932,
+        59,
+        985,
+        1021
+      ],
+      "statistics_nonwhite_pixels": {
+        "left": 18711,
+        "right": 19072
+      }
+    },
+    {
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "mean_white_deviation": 0.0000376157407407407,
+      "maximum_white_deviation": 1,
+      "nonwhite_pixels_below_245": 0,
+      "nonwhite_bounds": null,
+      "statistics_nonwhite_pixels": {
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "human_approval": "pending"
+}

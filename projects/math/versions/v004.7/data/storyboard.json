@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "duration_seconds": 58,
+  "seed": 722,
+  "intro_end": 24,
+  "scroll_end": 53,
+  "outro_start": 53,
+  "outro_card": false,
+  "overlay_fade_seconds": 0.6,
+  "source_count": 722,
+  "family_count": 372,
+  "source_label": "github.com/openai/math",
+  "scroll_mode": "linear-from-first-frame",
+  "opening_background": "Actual GitHub Math directory already moving under translucent milestone type",
+  "opening_effect": "Twenty-four-second translucent white opening; gentle right-to-left text exchanges, no bounce or scaling. Year and rail stay aligned and 2026 remains fixed across its four nodes. Text settles between transitions; wash dissolves by 24 seconds.",
+  "ending": "Reach row 721 at 53 seconds; zoom the same long page out; show 722 manuscripts and 372 related result families beside the complete overview, then fade everything to white by 58 seconds.",
+  "timeline": [
+    {
+      "id": "TL_2022",
+      "year": "2022",
+      "suffix": "11.30",
+      "date_display": "2022.11.30",
+      "start": 0,
+      "end": 2.5,
+      "title": "ChatGPT 上线",
+      "summary": "从一次对话开始。",
+      "fact_ids": [
+        "F01"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2023",
+      "year": "2023",
+      "suffix": "03.14",
+      "date_display": "2023.03.14",
+      "start": 2.5,
+      "end": 5,
+      "title": "GPT-4",
+      "summary": "读图与复杂指令理解升级",
+      "fact_ids": [
+        "F02"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2024",
+      "year": "2024",
+      "suffix": "09.12",
+      "date_display": "2024.09.12",
+      "start": 5,
+      "end": 7.5,
+      "title": "o1 · 深度推理",
+      "summary": "先思考再回答 · 数学与编程更强",
+      "fact_ids": [
+        "F03"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2025",
+      "year": "2025",
+      "suffix": "08.07",
+      "date_display": "2025.08.07",
+      "start": 7.5,
+      "end": 10,
+      "title": "GPT-5",
+      "summary": "按需深度思考 · 数学与编程再提升",
+      "fact_ids": [
+        "F08"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_CYBER_2026_04",
+      "year": "2026",
+      "suffix": "04.07",
+      "date_display": "2026.04.07",
+      "start": 10,
+      "end": 13.5,
+      "title": "Claude Mythos Preview",
+      "summary": "Anthropic 报告：发现数千个高危漏洞",
+      "fact_ids": [
+        "F11"
+      ],
+      "publisher": "Anthropic",
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_2026",
+      "year": "2026",
+      "suffix": "09.03",
+      "date_display": "2026.09.03",
+      "start": 13.5,
+      "end": 16,
+      "title": "GPT-6 Astra",
+      "summary": "科学与编程更强 · 更擅长复杂任务",
+      "fact_ids": [
+        "F09"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_NS",
+      "kind": "ns",
+      "year": "2026",
+      "suffix": "09.08",
+      "date_display": "2026.09.08",
+      "start": 16,
+      "end": 20,
+      "title": "NS 千禧难题 · 给出解法",
+      "summary": "OpenAI 内部系统 · 有外力 C/D · Lean 形式化",
+      "fact_ids": [
+        "F07"
+      ],
+      "date_layout": "shared large year and month-day"
+    },
+    {
+      "id": "TL_722",
+      "year": "2026",
+      "start": 20,
+      "end": 24,
+      "date_display": "截至 2026.10.07",
+      "title": "AI 正在攻克前沿数学难题",
+      "count": 722,
+      "count_unit": "篇数学论文",
+      "summary": "372 组相关成果 · OpenAI 内部前沿模型",
+      "fact_ids": [
+        "F05",
+        "F06"
+      ],
+      "date_role": "editorial-as-of",
+      "date_layout": "shared large year and month-day",
+      "suffix": "10.07"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 24,
+      "action": "Twelve-second shared-date opening over immediate uniform scrolling; unchanged typography and upward fade curves."
+    },
+    {
+      "id": "S02",
+      "start": 24,
+      "end": 53,
+      "action": "White native GitHub continues uniform scrolling to the last actual directory row; all 722 Chinese notes."
+    },
+    {
+      "id": "S03",
+      "start": 53,
+      "end": 56.31666666666667,
+      "action": "The last-row viewport becomes a continuous long-page camera pullback; sticky breadcrumb dissolves over 0.25s, full document remains spatially connected."
+    },
+    {
+      "id": "S04",
+      "start": 56.31666666666667,
+      "end": 57.166666666666664,
+      "action": "Hold all 722 rows at native proportions; blue 722 manuscripts and 372 related result families flank the long thumbnail."
+    },
+    {
+      "id": "S05",
+      "start": 57.166666666666664,
+      "end": 58,
+      "action": "Fade complete panorama and both statistics to white with the unchanged audio input."
+    }
+  ],
+  "human_copy_approval": "pending",
+  "intro_copy_review": "User explicitly approved 24-second opening and proposed gentle horizontal slide/fade. Existing copy, dates, mathematical statistics and source selection remain unchanged; completed output human review pending.",
+  "music_anchor_validation": "Ending keyframes use inherited low-frequency onset candidates and frame-quantized timing; perceptual music synchronization remains pending.",
+  "annotation_status": {
+    "prepared": 722,
+    "remaining": 0,
+    "human_review": "pending"
+  },
+  "geometry": {
+    "source_body_height_px": 29602,
+    "viewport_source_height_px": 825.8718496849684,
+    "maximum_offset_px": 28776.12815031503,
+    "source_speed_px_per_second": 542.9458141568874,
+    "output_speed_px_per_second": 662.2973082472832
+  },
+  "inherited_from": "v004.6",
+  "scroll_start": 0,
+  "cyber_selection": {
+    "fact_id": "F11",
+    "selection": "Claude Mythos Preview; explicit user direction",
+    "date": "2026-04-07",
+    "scope": "Publisher-reported discovery of thousands of high/critical severity vulnerabilities; not all reports human-validated or repaired at announcement.",
+    "human_editorial_review": "user requested this specific milestone; full audiovisual approval pending"
+  },
+  "transition": {
+    "mode": "sequential right-to-left slide and fade; dates/content enter from +50px and exit toward -50px; year stationary, repeated 2026 year anchored",
+    "enter_seconds": 0.3,
+    "exit_seconds": 0.3,
+    "total_exchange_seconds": 0.6,
+    "initial_enter_seconds": 0.45,
+    "travel_px": 50,
+    "final_travel_px": 50,
+    "scaling": "none",
+    "easing": "smoothstep, monotonic, zero velocity at both ends",
+    "year_translation": "none"
+  },
+  "ending_panorama": {
+    "start": 53,
+    "zoom_end": 56.31666666666667,
+    "hold_end": 57.166666666666664,
+    "fade_end": 58,
+    "overview_top_px": 60,
+    "overview_height_px": 960,
+    "sticky_header_fade_seconds": 0.25,
+    "zoom_curve": "smoothstep easing applied to logarithmic scale; center horizontally and move document bottom from 1080px to 1020px",
+    "source": "all eight original GitHub screenshot segments and all 722 inherited Chinese notes; one continuous page with native aspect ratio",
+    "extra_title": true,
+    "background": "white",
+    "edge": "subtle native gray page border and soft shadow; no grid or collage"
+  },
+  "ending_music_anchors": [
+    {
+      "event": "last row / start zoom",
+      "id": "LF_0168",
+      "anchor_audio_seconds": 52.91,
+      "target_video_seconds": 53,
+      "intentional_offset_seconds": 0.09,
+      "verification": "automatic-candidate; row completion takes priority"
+    },
+    {
+      "event": "complete full-page overview",
+      "id": "LF_0176",
+      "anchor_audio_seconds": 56.31,
+      "target_video_seconds": 56.31666666666667,
+      "intentional_offset_seconds": 0.006666666666667709,
+      "verification": "automatic-candidate; quantized to 60fps"
+    },
+    {
+      "event": "begin white fade",
+      "id": "LF_0178",
+      "anchor_audio_seconds": 57.16,
+      "target_video_seconds": 57.166666666666664,
+      "intentional_offset_seconds": 0.006666666666667709,
+      "verification": "automatic-candidate; quantized to 60fps"
+    }
+  ],
+  "ending_statistics": {
+    "start": 55.75,
+    "enter_seconds": 0.45,
+    "fade_with_document": true,
+    "layout": "two blue numeric statements on either side of the single proportional full-page overview",
+    "items": [
+      {
+        "count": 722,
+        "unit": "篇数学论文",
+        "x": 560
+      },
+      {
+        "count": 372,
+        "unit": "组相关成果",
+        "x": 1360
+      }
+    ],
+    "number_baseline_px": 565,
+    "number_size_px": 156,
+    "unit_baseline_px": 633,
+    "unit_size_px": 36,
+    "color": "#0969da",
+    "scope": "Counts of manuscripts and related result families; no claim that 722 distinct problems were all solved or fully verified."
+  }
+}

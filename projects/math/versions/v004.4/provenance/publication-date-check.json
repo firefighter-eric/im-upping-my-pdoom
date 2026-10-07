@@ -1,0 +1,10 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:24:07.650Z",
+  "method": "Live official OpenAI publication read",
+  "url": "https://openai.com/index/navier-stokes-solution/",
+  "publication_date": "2026-09-08",
+  "display": "2026.09.08",
+  "scope": "Publication announcement date; forced C/D result and Lean formalization retained from registered source. The 722-paper display uses the separate editorial-as-of date 2026.10.07."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "method": "Analytical, per-frame viewport coverage using the rendering equation; not human title reading.",
+  "fps": 30,
+  "target_frames": 1740,
+  "directory_count": 722,
+  "covered_count": 722,
+  "all_entries_covered": true,
+  "missing_indices": [],
+  "maximum_scroll_pixels": 41080,
+  "steady_rows_per_second": 14.451660111588769,
+  "typical_title_on_screen_seconds": 0.9496582278481012,
+  "human_readability": "pending; intentionally fast scale overview"
+}

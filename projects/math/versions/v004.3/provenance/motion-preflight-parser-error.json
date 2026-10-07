@@ -1,0 +1,11 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "recorded_at": "2026-10-07T10:03:09.351Z",
+  "stage": "internal QA image transport parsing",
+  "status": "failed",
+  "error": "Buffer.from received undefined because renderDesignPng returns bare PNG base64, not a data URL.",
+  "renderer_status": "Renderer initialized and returned a valid base64 image; deterministic geometry checks passed before the QA parser failed.",
+  "full_video_render_attempts": 0,
+  "correction": "Accept the documented bare base64 PNG returned by the renderer and validate its PNG signature before writing."
+}

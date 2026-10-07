@@ -1,0 +1,31 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "parent": "v004.2",
+  "recorded_at": "2026-10-07T09:58:06.211Z",
+  "observed_player": {
+    "native_width": 1920,
+    "native_height": 1080,
+    "display_width": 549,
+    "display_height": 308.8125,
+    "browser": "Codex in-app browser; read-only DOM inspection",
+    "quality_counter": "unavailable"
+  },
+  "before": {
+    "fps": 30,
+    "shutter": 0,
+    "logical_pixels_per_second": 662.7141095740594,
+    "pixels_per_frame": 22.090470319135314,
+    "sampling_note": "Four identical time samples because shutter is zero"
+  },
+  "after": {
+    "fps": 60,
+    "shutter": 0.2,
+    "distinct_temporal_samples": 4,
+    "logical_pixels_per_second": 605.3766715223801,
+    "pixels_per_frame": 10.089611192039667,
+    "scroll_start": 0,
+    "overlay_end": 10
+  },
+  "tradeoff": "A slight 0.2-frame exposure reduces temporal edge flicker; source and Chinese text remain at their existing sizes. Moving 722 rows within 58 seconds remains a rapid scan."
+}

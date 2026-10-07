@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "recorded_at": "2026-10-07T07:25:03.893Z",
+  "status": "source-verified",
+  "repository_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "commit_message": "Initial commit",
+  "commit_has_no_parents": true,
+  "public_directory_count": 722,
+  "sources": [
+    {
+      "id": "MATH_001_PREPRINTS",
+      "version": "v001",
+      "type": "public-directory-snapshot",
+      "path": "sources/references/MATH_001_PREPRINTS_v001.raw.json",
+      "url": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints",
+      "api_url": "https://api.github.com/repos/openai/math/contents/preprints?ref=adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "repository": "openai/math",
+      "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "directory_count": 722,
+      "sha256": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a",
+      "rights": {
+        "status": "TBD"
+      }
+    },
+    {
+      "id": "MATH_001_LAYOUT_REFERENCE",
+      "version": "v001",
+      "type": "user-provided-screenshot",
+      "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+      "origin": "User attachment on 2026-10-07",
+      "width": 2222,
+      "height": 2436,
+      "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+      "rights": {
+        "status": "TBD"
+      }
+    }
+  ],
+  "scope": "Public repository directory metadata and user layout reference only; no paper theorem verification or music intake."
+}

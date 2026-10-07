@@ -1,0 +1,130 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "output_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "recorded_at": "2026-10-07T11:27:57.987Z",
+  "status": "passed",
+  "scope": "Four unmodified decoded frames around the Mythos-to-Astra exchange: independent foreground bounds measure leftward old-title exit/new-title entry; opaque 2026 glyph masks remain fixed. Complete 24s timing states and settled reading windows are separately recorded in opening-transition-preflight. Human pacing/music perception pending.",
+  "title_roi": [
+    40,
+    620,
+    1350,
+    103
+  ],
+  "title_gray_threshold": 144,
+  "year_roi": [
+    90,
+    280,
+    890,
+    245
+  ],
+  "year_gray_threshold": 70,
+  "samples": [
+    {
+      "frame": 792,
+      "seconds": 13.2,
+      "title_bounds": [
+        110,
+        626,
+        1267,
+        722
+      ],
+      "title_pixels": 38097,
+      "year_bounds": [
+        109,
+        281,
+        949,
+        524
+      ],
+      "year_pixels": 108305
+    },
+    {
+      "frame": 801,
+      "seconds": 13.35,
+      "title_bounds": [
+        85,
+        626,
+        1240,
+        722
+      ],
+      "title_pixels": 13794,
+      "year_bounds": [
+        109,
+        281,
+        949,
+        524
+      ],
+      "year_pixels": 108300
+    },
+    {
+      "frame": 819,
+      "seconds": 13.65,
+      "title_bounds": [
+        136,
+        628,
+        741,
+        708
+      ],
+      "title_pixels": 6597,
+      "year_bounds": [
+        109,
+        281,
+        949,
+        524
+      ],
+      "year_pixels": 108296
+    },
+    {
+      "frame": 828,
+      "seconds": 13.8,
+      "title_bounds": [
+        110,
+        627,
+        717,
+        708
+      ],
+      "title_pixels": 19451,
+      "year_bounds": [
+        109,
+        281,
+        949,
+        524
+      ],
+      "year_pixels": 108300
+    }
+  ],
+  "old_title_exit_shift_px": -25,
+  "new_title_entry_shift_px": -26,
+  "year_mask_jaccard": [
+    0.9996584226511941,
+    0.9996214953702421,
+    0.9996215023586865
+  ],
+  "images": [
+    {
+      "path": "provenance/encoded-opening-frames/frame-01.png",
+      "frame": 792,
+      "seconds": 13.2,
+      "sha256": "7beb03e85fc88bd3973480e55b09508dbd42115004633245dfc0e928cd750ed8"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-02.png",
+      "frame": 801,
+      "seconds": 13.35,
+      "sha256": "2e76c19c35f1ae3095e81525fdb7c32440b998b78287aec7ed8f9eb4f7c2ba9d"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-03.png",
+      "frame": 819,
+      "seconds": 13.65,
+      "sha256": "ce76faa13e19ff5f175ee310add428f453b1c66973437550bd2a5a01bd28f3c1"
+    },
+    {
+      "path": "provenance/encoded-opening-frames/frame-04.png",
+      "frame": 828,
+      "seconds": 13.8,
+      "sha256": "639cfb288fc945586d30239a424c4e98bfaa291083ac8509a9635bbce6389fdf"
+    }
+  ],
+  "human_approval": "pending"
+}

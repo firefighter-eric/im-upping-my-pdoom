@@ -1,0 +1,317 @@
+schema_version: 1
+id: MATH_001
+slug: math
+title: OpenAI Math · 论文目录滚动
+created_at: 2026-10-07T07:19:49.407Z
+type: code-video
+sources:
+  - id: MATH_001_PREPRINTS
+    version: v001
+    type: public-directory-snapshot
+    path: sources/references/MATH_001_PREPRINTS_v001.raw.json
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    api_url: https://api.github.com/repos/openai/math/contents/preprints?ref=adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    repository: openai/math
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    directory_count: 722
+    sha256: 15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a
+    rights:
+      status: TBD
+  - id: MATH_001_LAYOUT_REFERENCE
+    version: v001
+    type: user-provided-screenshot
+    path: sources/references/MATH_001_LAYOUT_REFERENCE_v001.png
+    origin: User attachment on 2026-10-07
+    width: 2222
+    height: 2436
+    sha256: 1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60
+    rights:
+      status: TBD
+  - id: MATH_001_BGM_ORIGINAL
+    version: v001
+    type: source-audio
+    path: sources/audio/MATH_001_BGM_ORIGINAL_v001.m4a
+    url: https://www.bilibili.com/video/BV1cFG76nExW/
+    source_title: 误闯天家，劝余放下手中砂《误闯天家DJ》
+    uploader_name: YYBBXXLL
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    duration_seconds: 250.822449
+    size_bytes: 4673843
+    sha256: d947a7c13f76792f429524b07f1b7b6be78c8d530b887b64998a6f4ac5550dda
+    full_decode: passed
+    rights:
+      status: TBD
+  - id: MATH_001_V001_R001_BGM_SPEED125
+    version: v001.1
+    type: derived-audio-input
+    parent_source_id: MATH_001_BGM_ORIGINAL
+    path: versions/v001.1/audio/MATH_001_BGM_SPEED125_v001.1.m4a
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    duration_seconds: 200.642993
+    size_bytes: 4878672
+    sha256: 92166011ec3605c4fb160f2889e46de6dc4c31ca6083dc9de0cca83ef13806ee
+    full_decode: passed
+    processing_version: v001.1
+    processing:
+      speed: 1.25
+      preserve_pitch: true
+      filter: atempo=1.25
+      trim: null
+    rights:
+      status: TBD
+  - id: MATH_001_BGM_002_ORIGINAL
+    version: v001
+    type: source-audio
+    path: sources/audio/MATH_001_BGM_002_ORIGINAL_v001.m4a
+    url: https://www.bilibili.com/video/BV1Qra66EEVc/
+    source_title: 误闯天家歌曲三分钟纯享版
+    uploader_name: 可爱的绿灯侠
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    duration_seconds: 209.002812
+    size_bytes: 3095510
+    sha256: cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13
+    full_decode: passed
+    rights:
+      status: TBD
+  - id: MATH_001_BGM_003_ORIGINAL
+    version: v001
+    type: source-audio
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    duration_seconds: 342.563764
+    size_bytes: 8180015
+    sha256: edd7c138aef43d8e536a5c065ac29e5aca5a4d099834be70f3dcc047573bf39f
+    path: sources/audio/MATH_001_BGM_003_ORIGINAL_v001.m4a
+    full_decode: passed
+    url: https://www.bilibili.com/video/BV1WNsVz9EhB/
+    source_title: “天下谁人不识君.”|《辞九门回忆+莫问归期dj》0.9x
+    uploader_name: 一支yuuu
+    intake_record: versions/v001.3/provenance/audio-intake-third-speed125.json
+    rights:
+      status: TBD
+  - id: MATH_001_V001_R003_BGM_SPEED125
+    version: v001.3
+    type: derived-audio-input
+    parent_source_id: MATH_001_BGM_003_ORIGINAL
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    duration_seconds: 274.052993
+    size_bytes: 6697799
+    sha256: 0a94710b98f1a80d8c121d809f6cfb488dfb5a7eab182933c6f03b06e49e6abc
+    path: versions/v001.3/audio/MATH_001_BGM_003_SPEED125_v001.3.m4a
+    full_decode: passed
+    processing_version: v001.3
+    processing:
+      filter: atempo=1.25
+      speed: 1.25
+      speed_basis: downloaded source audio; uploader title labels it 0.9x
+      preserve_pitch: true
+      trim: null
+      encoder: AAC 192 kbps
+    rights:
+      status: TBD
+  - id: MATH_001_V002_R000_BGM_CLIP58
+    version: v002.0
+    type: derived-audio-input
+    parent_source_id: MATH_001_V001_R003_BGM_SPEED125
+    path: versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a
+    sha256: a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211
+    size_bytes: 1408252
+    duration_seconds: 58
+    codec: aac
+    sample_rate: 44100
+    channels: 2
+    full_decode: passed
+    processing_version: v002.0
+    processing:
+      filter: atrim=start=22.9:duration=58,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.12,afade=t=out:st=56.5:d=1.5
+      additional_speed_change: null
+      preserve_pitch: true
+      duration_seconds: 58
+      encoder: AAC 192 kbps
+      excerpt_start_seconds: 22.9
+      excerpt_end_seconds: 80.9
+    rights:
+      status: TBD
+  - id: MATH_001_CATALOG_CONTENTS
+    version: v001
+    type: public-manuscript-catalog
+    path: sources/references/MATH_001_CATALOG_CONTENTS_v001.md
+    url: https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    sha256: b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8
+    manuscript_count: 722
+    rights:
+      status: TBD
+  - id: MATH_001_TIMELINE_FACTS
+    version: v001
+    type: verified-publication-fact-notes
+    path: sources/references/MATH_001_TIMELINE_FACTS_v001.json
+    sha256: 923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8
+    retrieved_at: 2026-10-07T08:49:00.161701+00:00
+    editorial_as_of: 2026-10-07
+    rights:
+      status: TBD
+  - id: MATH_001_NS_PUBLICATION
+    version: v001
+    type: verified-publication-fact-notes
+    path: sources/references/MATH_001_NS_PUBLICATION_v001.json
+    url: https://openai.com/index/navier-stokes-solution/
+    publication_date: 2026-09-08
+    sha256: 1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_001
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_001_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 0
+    size_bytes: 797410
+    sha256: a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_002
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_002_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 4000
+    size_bytes: 806676
+    sha256: 30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_003
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_003_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 8000
+    size_bytes: 809541
+    sha256: dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_004
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_004_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 12000
+    size_bytes: 789464
+    sha256: 4f48ad877c282ad658e805460d854b9c26b646645a03900b8a05858845526786
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_005
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_005_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 16000
+    size_bytes: 809397
+    sha256: eace09e8e6227bd293f020abdde0f0cfda54aa0d4109f9004e7fd7e599522278
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_006
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_006_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 20000
+    size_bytes: 784996
+    sha256: 09c7aa54b27fc56362645fe39503207ebd3908af5d7178ef064702d803d6bc48
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_007
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_007_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 4000
+    table_top_px: 24000
+    size_bytes: 783825
+    sha256: 971f317b049dddc042f3f59a92ed6fdc418909c5d9bbfe2c72320b63c7b25c36
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_GITHUB_SEGMENT_008
+    version: v001
+    type: original-browser-directory-screenshot
+    path: sources/references/MATH_001_GITHUB_SEGMENT_008_v001.jpg
+    url: https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints
+    commit: adc7f1241b42e322a6451854ab7e4b4c146bf78a
+    captured_at: 2026-10-07T09:12:41.313Z
+    tool: Codex unified computer use Chrome screenshots
+    width: 1574
+    height: 1684
+    table_top_px: 28000
+    size_bytes: 333041
+    sha256: efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926
+    scope: Public directory table only
+    rights:
+      status: TBD
+  - id: MATH_001_MODEL_MILESTONES
+    version: v001
+    type: official-model-milestones
+    path: sources/references/MATH_001_MODEL_MILESTONES_v001.json
+    url: https://openai.com/index/gpt-6-astra/
+    sha256: 8057fed6edbd64f4ef922b448e70ebb21ab434be488e615d6e2cdbed1f3acb82
+    rights:
+      status: TBD
+  - id: MATH_001_CYBER_MILESTONES
+    version: v001
+    type: official-cyber-milestones
+    path: sources/references/MATH_001_CYBER_MILESTONES_v001.json
+    url: https://www.anthropic.com/research/zero-days
+    sha256: 574dfb1851a05ee32d053cae4fcb1d249b9184b55dfd088fe31f47078d834742
+    rights:
+      status: TBD
+rights:
+  status: TBD

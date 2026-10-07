@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "source_id": "MATH_001_TIMELINE_FACTS",
+  "version": "v001",
+  "retrieved_at": "2026-10-07T08:49:00.161701+00:00",
+  "editorial_as_of": "2026-10-07",
+  "method": "Chinese factual paraphrases checked against official OpenAI publications and the public math repository; editorial copy recorded separately.",
+  "facts": [
+    {
+      "id": "F01",
+      "date": "2022-11-30",
+      "claim_zh": "ChatGPT 公开上线。",
+      "source_title": "Introducing ChatGPT",
+      "url": "https://openai.com/index/chatgpt/",
+      "date_precision": "day"
+    },
+    {
+      "id": "F02",
+      "date": "2023-03-14",
+      "claim_zh": "GPT-4 发布，更可靠地处理复杂指令。",
+      "source_title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4-research/",
+      "date_precision": "day"
+    },
+    {
+      "id": "F03",
+      "date": "2024-09-12",
+      "claim_zh": "o1-preview 发布，模型在回答前花更多时间推理。",
+      "source_title": "Introducing OpenAI o1",
+      "url": "https://openai.com/index/introducing-openai-o1-preview/",
+      "date_precision": "day"
+    },
+    {
+      "id": "F04",
+      "date": "2025-07",
+      "claim_zh": "OpenAI 报告通用推理模型在 IMO 达到金牌水平，35/42 分。",
+      "source_title": "Our First Proof submissions",
+      "url": "https://openai.com/index/first-proof-submissions/",
+      "date_precision": "month",
+      "scope": "Reported gold-medal-level model performance; no claim of an officially awarded medal."
+    },
+    {
+      "id": "F05",
+      "date": "2026-10-06",
+      "claim_zh": "OpenAI 公布内部前沿模型在数学领域的新结果。",
+      "source_title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "date_precision": "day"
+    },
+    {
+      "id": "F06",
+      "date": "2026-10-07",
+      "claim_zh": "仓库含 722 篇数学预印本，分为 372 组相关结果；产出来自内部未发布模型，验证状态各异。",
+      "source_title": "openai/math README",
+      "url": "https://github.com/openai/math",
+      "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "count_basis": "722 manuscripts, 372 families; includes companions, consequences and alternative proofs.",
+      "not_claimed": [
+        "722 independent open problems solved",
+        "all manuscripts verified",
+        "public ChatGPT solved all results"
+      ]
+    }
+  ],
+  "editorial": {
+    "as_of_date": "2026-10-07",
+    "as_of_is_release_date": false,
+    "hook": "不到 4 年",
+    "elapsed_days": 1407,
+    "progression": "从对话到数学前沿",
+    "rights": "TBD"
+  }
+}

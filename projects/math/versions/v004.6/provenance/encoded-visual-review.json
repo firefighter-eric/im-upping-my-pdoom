@@ -1,0 +1,97 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "recorded_at": "2026-10-07T11:12:10.746523+00:00",
+  "output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+  "status": "passed",
+  "extracted": 47,
+  "inspected": 12,
+  "scope": "Agent inspection of twelve unmodified encoded frames: Mythos entrance, full date/title and exit; revised mathematics entrance and full title/counts; last-row scroll and camera join; pullback before and during statistics, overview hold, shared fade and final white frame. Human subject-matter, music synchronization and aesthetic approval pending.",
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-17.png",
+      "frame": 341,
+      "seconds": 5.683333333333334,
+      "sha256": "3164994e4a16b888cd06372b10d838fa189315e49bfd60e1707fc4cac39fca27",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-18.png",
+      "frame": 381,
+      "seconds": 6.35,
+      "sha256": "d60a5b2168c88f4c7848b4178c18eafb4ae930bcc203587e164d73e1c98a2aee",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-19.png",
+      "frame": 421,
+      "seconds": 7.016666666666667,
+      "sha256": "3419aac0f4c0630a8eea83820504ae9767e55f13311c49358e03a940bcf0e4df",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-29.png",
+      "frame": 617,
+      "seconds": 10.283333333333333,
+      "sha256": "e87e5f8d0ef57ac4dd5eabde014ed8d1756c194676ebfbda1fb6ca5fe38faf91",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-30.png",
+      "frame": 666,
+      "seconds": 11.1,
+      "sha256": "e886f007cccc9f36303bfb7502b28367a8e6baff8262cb195680771392ccd5aa",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-37.png",
+      "frame": 3179,
+      "seconds": 52.983333333333334,
+      "sha256": "3895c497ff941910c5f43704632a803d1f7b89c12eef37bebf05b2ffb73b6ee6",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-38.png",
+      "frame": 3180,
+      "seconds": 53,
+      "sha256": "21b4e8888adf0ed40c578ede5561ae45953a452c40310d5f17ec94dd36144287",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-41.png",
+      "frame": 3300,
+      "seconds": 55,
+      "sha256": "c061aa5cb23ad33adfda5bc1de3b5b8dadf92ad316b8b2d1e6fc6e1e3e04a7f3",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-42.png",
+      "frame": 3360,
+      "seconds": 56,
+      "sha256": "7f24f2f36a097d6b8ec639ab0d8fc56ac5037a8ae2cc4f2c06f283f38a3c19d9",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-44.png",
+      "frame": 3405,
+      "seconds": 56.75,
+      "sha256": "b084a93e4b76e66167138f2981cac795b2c65abbc98e3cc0af839df55c7d3745",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-46.png",
+      "frame": 3456,
+      "seconds": 57.6,
+      "sha256": "f40a6e244db1b34936c3d3f2e03747935a57f8a46705d6820efe85c48fb0713c",
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/encoded-frames/frame-47.png",
+      "frame": 3479,
+      "seconds": 57.983333333333334,
+      "sha256": "a208140a3848d388e3f48a13cdd733c51912945d0858df91cacd2027523227f8",
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}

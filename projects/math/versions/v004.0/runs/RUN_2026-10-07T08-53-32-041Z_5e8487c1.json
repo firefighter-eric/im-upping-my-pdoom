@@ -1,0 +1,277 @@
+{
+  "id": "RUN_2026-10-07T08-53-32-041Z_5e8487c1",
+  "project_id": "MATH_001",
+  "version": "v004.0",
+  "status": "completed",
+  "purpose": "stills",
+  "started_at": "2026-10-07T08:53:32.042Z",
+  "renderer_sha256": "f1721fcd21097d6be62158091c2ee7ee7e9d46d81a7e72d9cc90a6675fbf92f7",
+  "renderer_files": {
+    "renderer/index.html": "f1721fcd21097d6be62158091c2ee7ee7e9d46d81a7e72d9cc90a6675fbf92f7",
+    "renderer/src/scroll.ts": "51ff150581395f9ed9a182717d50595eb91fd44a0ca37d376734f09a643dd350",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "64f6b984513aa33f06942cd20d90f0d8847b7f29566a8735d44e3b8a71f0249d",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "c2b2ba76d3d8f5a332f15d995e2a7e888d06cab1d16f636edccd035e48ef150e",
+    "screenshot_layout": "512f1eca82819e475e90d540edc57f94f236b9a36c5480267a4ad34429ba3dff"
+  },
+  "treatment_sha256": "e61a6c1f9587e16de7169dc2bb3f7e336a1cf9037e9c1080edc4f982f3bc2369",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "开头不够炸裂；从 ChatGPT 的公开上线日期开始，推进到 2026 年 10 月 7 日，再显示数学成果规模。",
+    "保持白底，片中 GitHub 原图全屏、英文左中文右，无装饰网格，无歌词。",
+    "保留此前不到一分钟和 722 项匀速扫读的安排；本轮继续样图审看，不导出整片。",
+    "中间加一个解决了 NS 问题的数学里程碑。"
+  ],
+  "script_sha256": "5ceb4b33a7780671749c7d148e4798bbf2f2b167659fb5097cd7318b4fa2886b",
+  "input_hashes": {
+    "audio": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+    "preprints": "15d7ce0943d04669566455474312e722655219016e76f55c0483152261cc7d5a",
+    "layout_reference": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+    "catalog": "b50788220a4ad521ca00bd1d00a89b360931d4b6c7971aad86dfcef120a32cd8",
+    "timeline_facts": "923f45cf938510c33ab238bb9bf44a7ab46c726273e0a6c4e3736eb1c65299d8",
+    "ns_publication": "1304133c3c26537c07af6694ef0b4294c4ca27664b47a4842fa6d314c8c7bef6"
+  },
+  "tools": {
+    "browser": "154.0.8037.98",
+    "method": "Three.js renderDesignPng; actual source screenshot; no video or audio encoding"
+  },
+  "variants": [
+    "timeline-github-stills"
+  ],
+  "outputs": [
+    {
+      "id": "01-launch",
+      "label": "2022 · ChatGPT 上线",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/01-launch.png",
+      "seconds": 0.94,
+      "sha256": "95024cb548ac85066fd37ed597a4564b01a29507cc81b88b1ee7b8130a01a6b6",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_2022",
+        "year": "2022",
+        "suffix": "11.30",
+        "date_display": "2022.11.30",
+        "start": 0,
+        "end": 1.68,
+        "title": "ChatGPT 上线",
+        "summary": "从一次对话开始。",
+        "anchor": "LF_0052",
+        "fact_ids": [
+          "F01"
+        ]
+      }
+    },
+    {
+      "id": "02-gpt4",
+      "label": "2023 · GPT-4",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/02-gpt4.png",
+      "seconds": 2.21,
+      "sha256": "ef9b03db4844cc5526f887986ec79571345122e9a9ebcc0621cfda793111248f",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_2023",
+        "year": "2023",
+        "suffix": "03.14",
+        "date_display": "2023.03.14",
+        "start": 1.68,
+        "end": 2.75,
+        "title": "GPT-4 发布",
+        "summary": "能力继续升级。",
+        "anchor": "LF_0055",
+        "fact_ids": [
+          "F02"
+        ]
+      }
+    },
+    {
+      "id": "03-o1",
+      "label": "2024 · o1 推理",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/03-o1.png",
+      "seconds": 3.23,
+      "sha256": "a72726b8270bbc77e3f2388820f90051e023ddec25ff63f4bdce782d2997efe1",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_2024",
+        "year": "2024",
+        "suffix": "09.12",
+        "date_display": "2024.09.12",
+        "start": 2.75,
+        "end": 3.61,
+        "title": "o1 推理模型",
+        "summary": "回答前，先推理。",
+        "anchor": "LF_0058",
+        "fact_ids": [
+          "F03"
+        ]
+      }
+    },
+    {
+      "id": "04-imo",
+      "label": "2025 · 数学奥赛金牌水平",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/04-imo.png",
+      "seconds": 4.51,
+      "sha256": "965df3c004a8b23ed343fc260fb2c4d69ad50d7ed48f268b029ede59e69d0806",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_2025",
+        "year": "2025",
+        "suffix": "07",
+        "date_display": "2025.07",
+        "start": 3.61,
+        "end": 5.31,
+        "title": "数学奥赛 · 金牌水平",
+        "summary": "OpenAI 推理模型 · IMO 2025 · 35 / 42 分",
+        "anchor": "LF_0059",
+        "fact_ids": [
+          "F04"
+        ]
+      }
+    },
+    {
+      "id": "05-ns",
+      "label": "2026.09.08 · NS 千禧难题解法",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/05-ns.png",
+      "seconds": 6.2,
+      "sha256": "8cc75bb54402065e72c2508e85cfd774123a036eacc9e90176cf82318435dca6",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_NS",
+        "kind": "ns",
+        "year": "2026",
+        "suffix": "09.08",
+        "date_display": "2026.09.08",
+        "start": 5.31,
+        "end": 7.01,
+        "title": "NS 千禧难题 · 给出解法",
+        "summary": "OpenAI 公布 · 有外力版本（C/D）· Lean 形式化",
+        "anchor": "LF_0060",
+        "fact_ids": [
+          "F07"
+        ]
+      }
+    },
+    {
+      "id": "06-frontier",
+      "label": "截至 2026.10.07 · 数学前沿",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/06-frontier.png",
+      "seconds": 7.53,
+      "sha256": "fd093c4a42a579db83ebb66b83effcf89a38599e0b15b08dd477a0554b9ff272",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_2026",
+        "year": "2026",
+        "suffix": "10.07",
+        "date_display": "截至 2026.10.07",
+        "start": 7.01,
+        "end": 7.87,
+        "title": "AI 挑战数学前沿",
+        "summary": "从对话，走向研究级数学。",
+        "anchor": "LF_0064",
+        "fact_ids": [
+          "F05",
+          "F06"
+        ],
+        "date_role": "editorial-as-of"
+      }
+    },
+    {
+      "id": "07-722",
+      "label": "压轴 · 722 篇预印本",
+      "scene": "timeline",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/07-722.png",
+      "seconds": 8.62,
+      "sha256": "ffeb8636f4347c2c6ff403e9e8c75fdf07ed31d4b56e6720eb2bb2e07693880d",
+      "scope": "design still only",
+      "timeline_phase": {
+        "id": "TL_722",
+        "year": "2026",
+        "start": 7.87,
+        "end": 9.54,
+        "date_display": "截至 2026.10.07",
+        "title": "AI 挑战数学前沿",
+        "count": 722,
+        "count_unit": "篇数学预印本",
+        "summary": "372 组相关结果 · OpenAI 内部前沿模型",
+        "anchor": "LF_0066",
+        "fact_ids": [
+          "F05",
+          "F06"
+        ],
+        "date_role": "editorial-as-of"
+      }
+    },
+    {
+      "id": "08-directory",
+      "label": "片中 · GitHub 原图全屏",
+      "scene": "directory",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/08-directory.png",
+      "seconds": 46.34142595922938,
+      "sha256": "831755c30d9b075552f4477d42deabcaf8d7061e67bb4f6a7fe4bacbe24aff7b",
+      "scope": "design still only"
+    },
+    {
+      "id": "09-closing",
+      "label": "片尾",
+      "scene": "closing",
+      "variant": "timeline-github-stills",
+      "path": "stills/RUN_2026-10-07T08-53-32-041Z_5e8487c1/09-closing.png",
+      "seconds": 54.4,
+      "sha256": "5e421a1939df1947e20ca0229c6422bb9fd8879dc8e7bfda1efad9952e85310e",
+      "scope": "design still only"
+    }
+  ],
+  "build_key": "ea5d44b1bafe2eabe2dece04fa0f354b0de0a9f4591131ef9e8cedd4e719a6c9",
+  "middle_scene": {
+    "seconds": 46.34142595922938,
+    "source_sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60",
+    "crop": [
+      0,
+      84,
+      2222,
+      1165.875
+    ],
+    "visible_rows": [
+      601,
+      614
+    ],
+    "original_english_layer": "actual source screenshot scaled and cropped; no redrawn English or folders",
+    "overlays": [
+      "Chinese topic and explanation inside the original commit column only"
+    ],
+    "notes_complete_for_visible_rows": true
+  },
+  "finished_at": "2026-10-07T08:53:32.984Z"
+}

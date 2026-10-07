@@ -1,0 +1,28 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.3",
+  "recorded_at": "2026-10-07T10:12:20.633Z",
+  "status": "passed",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "output": "Shared scripts and all HTML/TypeScript version renderers compile."
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "result": "12 tests passed; completed earlier in this production turn."
+    },
+    {
+      "command": "npm run verify -- --project math --version v004.3",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 1 versions checked; project/version lineage valid."
+    },
+    {
+      "command": "npm run verify:media -- --project math --version v004.3",
+      "exit_code": 0,
+      "result": "Completed after registration in this production turn."
+    }
+  ]
+}

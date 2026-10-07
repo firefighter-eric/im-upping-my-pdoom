@@ -1,0 +1,78 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "source_sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e",
+  "method": "Unmodified frames extracted from encoded MP4 by ffmpeg",
+  "images": [
+    {
+      "path": "provenance/encoded-frames/frame-01.png",
+      "frame": 0,
+      "seconds": 0.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-02.png",
+      "frame": 19,
+      "seconds": 0.6333333333333333
+    },
+    {
+      "path": "provenance/encoded-frames/frame-03.png",
+      "frame": 51,
+      "seconds": 1.7
+    },
+    {
+      "path": "provenance/encoded-frames/frame-04.png",
+      "frame": 90,
+      "seconds": 3.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-05.png",
+      "frame": 129,
+      "seconds": 4.3
+    },
+    {
+      "path": "provenance/encoded-frames/frame-06.png",
+      "frame": 144,
+      "seconds": 4.8
+    },
+    {
+      "path": "provenance/encoded-frames/frame-07.png",
+      "frame": 150,
+      "seconds": 5.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-08.png",
+      "frame": 159,
+      "seconds": 5.3
+    },
+    {
+      "path": "provenance/encoded-frames/frame-09.png",
+      "frame": 360,
+      "seconds": 12.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-10.png",
+      "frame": 600,
+      "seconds": 20.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-11.png",
+      "frame": 870,
+      "seconds": 29.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-12.png",
+      "frame": 1200,
+      "seconds": 40.0
+    },
+    {
+      "path": "provenance/encoded-frames/frame-13.png",
+      "frame": 1511,
+      "seconds": 50.36666666666667
+    },
+    {
+      "path": "provenance/encoded-frames/frame-14.png",
+      "frame": 1739,
+      "seconds": 57.96666666666667
+    }
+  ]
+}

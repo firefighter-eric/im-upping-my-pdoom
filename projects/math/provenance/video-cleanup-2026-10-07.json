@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "action": "retain-latest-local-video-only",
+  "authorized_by": "conversation-user",
+  "user_statement": "只保留一个最新版本的，其他的不要了。",
+  "scope": "Six old locally registered video outputs only; latest v004.7, all source/audio/code/images/runs and historical QA retained.",
+  "started_at": "2026-10-07T12:49:42.577729+00:00",
+  "status": "completed",
+  "inventory": {
+    "path": "provenance/video-cleanup-inventory-2026-10-07.json",
+    "sha256": "f2edd092f2ed1bd67a5236b7204e972907792595dff9845af42808e9e14e4cd4"
+  },
+  "removed": [
+    {
+      "version": "v002.0",
+      "path": "versions/v002.0/outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4",
+      "output_sha256": "99ebe4132077fc25cc810c3aac80829584c8052d38ac32c64c6753386c607075",
+      "size_bytes": 74567666,
+      "allocated_bytes_before": 83890176,
+      "receipt": {
+        "path": "versions/v002.0/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "ca3c565094ba38ba9a2b3627e72cc6faa6d37fda5f214e3bbc1d21982b50c4c3"
+      }
+    },
+    {
+      "version": "v004.2",
+      "path": "versions/v004.2/outputs/MATH_001_V004_R002_001_math-github-preview_v004.2.mp4",
+      "output_sha256": "a4dbc2b15e1ea14a2c2f40a4d93e59269626e37678b90c83cdfc93dbc181c63e",
+      "size_bytes": 237005928,
+      "allocated_bytes_before": 251662336,
+      "receipt": {
+        "path": "versions/v004.2/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "7eb5a6b504ac3bf7a6dbb2514c6e02ad6936364be6fcb17944a5cc19904e42f1"
+      }
+    },
+    {
+      "version": "v004.3",
+      "path": "versions/v004.3/outputs/MATH_001_V004_R003_001_math-github-preview_v004.3.mp4",
+      "output_sha256": "7f2e072d160b3974edcb89986290ab6c01266373c60b708ee5ef452f5d8950d2",
+      "size_bytes": 73582009,
+      "allocated_bytes_before": 83890176,
+      "receipt": {
+        "path": "versions/v004.3/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "4f3db38f2176ba825f4d562c1a26df79c35f77d892b59b0885749db1c8c086db"
+      }
+    },
+    {
+      "version": "v004.4",
+      "path": "versions/v004.4/outputs/MATH_001_V004_R004_001_math-github-preview_v004.4.mp4",
+      "output_sha256": "7aaa4ec1b5992e3d303e5f7d90896280b157ec3a82eed6266931ff34e2ac4394",
+      "size_bytes": 74711141,
+      "allocated_bytes_before": 83890176,
+      "receipt": {
+        "path": "versions/v004.4/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "aa3808e48b9194f9ae092c1b5e1b7fa0503c8e861562039685007d091bf49eed"
+      }
+    },
+    {
+      "version": "v004.5",
+      "path": "versions/v004.5/outputs/MATH_001_V004_R005_001_math-github-preview_v004.5.mp4",
+      "output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+      "size_bytes": 75701911,
+      "allocated_bytes_before": 75702272,
+      "receipt": {
+        "path": "versions/v004.5/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "5d0ef725308266b1a00c9ed2169128ba42cc5778c68e79baf393eefb6f14fbd3"
+      }
+    },
+    {
+      "version": "v004.6",
+      "path": "versions/v004.6/outputs/MATH_001_V004_R006_001_math-github-preview_v004.6.mp4",
+      "output_sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad",
+      "size_bytes": 75779716,
+      "allocated_bytes_before": 83890176,
+      "receipt": {
+        "path": "versions/v004.6/provenance/media-cleanup-2026-10-07.json",
+        "sha256": "06219d022c5e6bbd9e7d040fc174720860a3e91a013aaa2bad407a53897b60aa"
+      }
+    }
+  ],
+  "retained": [
+    {
+      "version": "v004.7",
+      "variant_id": "math-github-preview",
+      "generation_id": "MATH_001_V004_R007_001",
+      "path": "versions/v004.7/outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4",
+      "output": {
+        "path": "outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4",
+        "sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+        "size_bytes": 81265930,
+        "duration_seconds": 58,
+        "codec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "frame_rate": "60/1",
+        "frame_count": 3480,
+        "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+        "status": "review",
+        "run_id": "RUN_2026-10-07T11-24-32-236Z_27ca014d"
+      },
+      "allocated_bytes": 83890176,
+      "manifest_sha256": "58fcf39435bed70828bcd1b79435bcdff00385fa2f959afe009c3579a05d2f4b",
+      "run_path": "versions/v004.7/runs/RUN_2026-10-07T11-24-32-236Z_27ca014d.json",
+      "run_sha256": "1493c7fd5887752b6360510de9a95c763fec1cb901bfccd1610997efd5175c3b",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "60/1",
+            "duration": "58.000000",
+            "nb_frames": "3480",
+            "side_data_list": [
+              {}
+            ]
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "duration": "58.000000",
+            "nb_frames": "2499"
+          }
+        ],
+        "format": {
+          "duration": "58.000000",
+          "size": "81265930"
+        }
+      },
+      "action": "retain"
+    }
+  ],
+  "removed_bytes": 611348371,
+  "removed_allocated_bytes": 662925312,
+  "completed_at": "2026-10-07T12:49:43.035095+00:00",
+  "retained_existing_files_checked": 823,
+  "remaining_video_count": 1,
+  "remaining_video_bytes": 81265930,
+  "latest_video_sha256_unchanged": true,
+  "validation": "passed; check, 12 tests, global integrity/retention verification, latest actual media specs/AAC integrity, advancing playback and three seeks, six expected removed-media rejections, and 823 unchanged existing files",
+  "verified_at": "2026-10-07T12:51:19.493243+00:00",
+  "validation_receipts": [
+    {
+      "path": "provenance/cleanup-verification-2026-10-07.json",
+      "sha256": "edf996c731cc1d3898ac663896b84a78f907588d31c9b95249150f4aa2e26815"
+    },
+    {
+      "path": "provenance/cleanup-removed-media-check-2026-10-07.json",
+      "sha256": "1f352a28dc5abd10ae4177cfa2d85a465d68acf9c8c964842dc920649da3b11f"
+    },
+    {
+      "path": "provenance/cleanup-latest-playback-2026-10-07.json",
+      "sha256": "e32b7cdfb1a9c0b19646193cf4ff52b9493277a4080321b3d722d3b321db56e4"
+    }
+  ],
+  "remaining_video_allocated_bytes": 83890176,
+  "project_allocated_bytes_before_final_receipt_write": 530034688
+}

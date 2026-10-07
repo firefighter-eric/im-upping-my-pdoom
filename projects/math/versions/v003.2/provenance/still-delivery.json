@@ -1,0 +1,56 @@
+{
+  "project_id": "MATH_001",
+  "version": "v003.2",
+  "status": "review",
+  "scope": "three white-background design stills only",
+  "human_approval": "pending",
+  "images": [
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/01-opening.png",
+      "seconds": 1.74,
+      "sha256": "ce26ab4cd649c0d445d80276a6f6b853c82f041e6ca6775a065d1a19df4f48c8",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    },
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/02-directory.png",
+      "seconds": 45.31305109787747,
+      "sha256": "831755c30d9b075552f4477d42deabcaf8d7061e67bb4f6a7fe4bacbe24aff7b",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    },
+    {
+      "variant": "white-github-stills",
+      "path": "stills/RUN_2026-10-07T08-33-45-623Z_5e39cbd6/03-closing.png",
+      "seconds": 54.4,
+      "sha256": "5e421a1939df1947e20ca0229c6422bb9fd8879dc8e7bfda1efad9952e85310e",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    }
+  ],
+  "original_picture_source": {
+    "source_id": "MATH_001_LAYOUT_REFERENCE",
+    "path": "sources/references/MATH_001_LAYOUT_REFERENCE_v001.png",
+    "sha256": "1654990306bccdd74c13868ce310c6be6c3c12ea46d040fe227226a162036a60"
+  },
+  "annotation_count": 28,
+  "remaining_annotations": 694,
+  "video_export": "not_requested",
+  "agent_visual_inspection": {
+    "status": "passed",
+    "scope": "all three PNGs inspected; white opening/closing; original GitHub screenshot fills middle frame edge to edge; Chinese in original commit column; no custom grid or surrounding card; source header crop edge clean",
+    "human_review": "pending"
+  },
+  "preserved_history": {
+    "checked_files": 96,
+    "changed_files": []
+  }
+}

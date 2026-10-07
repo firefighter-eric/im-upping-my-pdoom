@@ -1,0 +1,92 @@
+{
+  "id": "RUN_2026-10-07T08-00-05-821Z_e36b64a7",
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "status": "completed",
+  "started_at": "2026-10-07T08:00:05.851Z",
+  "purpose": "stills",
+  "renderer_sha256": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+  "renderer_files": {
+    "renderer/index.html": "7aebe74a49908753f72942f796506bb89fc212b9f5c32012f99c354d98f77873",
+    "renderer/src/scroll.ts": "a8cc93af2d85f84cee80ccf73a273b5d3f5c7949a16fc470231c76b76aa0fd9f",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": null,
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "e14ed8a51c7a9e3336cdc211311d541e97396be3763e5a8b978ca45cc1174a00",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 58,
+    "target_frames": 1740,
+    "frame_transport": "rgba-websocket",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "用GitHub preprints论文目录向下滚动，配用户指定音乐。",
+    "一分钟以内，片头片尾需要有点其他内容，要一个精美的视频。",
+    "本轮采用58秒横屏Preview，基于最后一份1.25倍速配乐独立裁剪；三个完整原速素材及既有加速版全部保留。"
+  ],
+  "treatment_sha256": "2bddbdff09bb0021e1e3259153aaa26f744ebe5443401ebaeab82437370dae4a",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-heaven-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-1.740.jpg",
+      "sha256": "2e5c7c02c6c819cc3edcb0697e2c6cb1724c1ebe7b18246107867ad017706432"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-9.860.jpg",
+      "sha256": "3bd56ccf2a7645ae57de9c0836a0d135a311a66478a200aef14e8f72fbecfb8e"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-17.400.jpg",
+      "sha256": "1b2172761f7e2eb1774283d58c09114212e89730a1521f1fd3c96b81525fc948"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-23.780.jpg",
+      "sha256": "56018008e4ea2375fa700cc6df398f771140e22b5e94535da7a024f78cc74500"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-30.740.jpg",
+      "sha256": "230b692374109c624932070eee230c8c17986786caf5a54ebbd4ff209c8f8401"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-37.120.jpg",
+      "sha256": "eac3b0c2a829a0d6555ee279fc325aafc9b4c5a3227e4033d121efef447521a4"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-45.820.jpg",
+      "sha256": "6eede90f224935ec8c2f345ec063beff8589d2fafa2af05ae426969c0c209cad"
+    },
+    {
+      "variant": "math-heaven-preview",
+      "path": "stills/RUN_2026-10-07T08-00-05-821Z_e36b64a7/math-heaven-preview-53.940.jpg",
+      "sha256": "b9b4e6d6aeb5e7624e38dac3b2ba5893868060361d7695ee5d3dc5c356a83369"
+    }
+  ],
+  "build_key": "1fa7e22fae42f3de81e788b61f88c9eb32e2ea5c0de4bc17f23a456bf764672a",
+  "finished_at": "2026-10-07T08:00:07.424Z"
+}

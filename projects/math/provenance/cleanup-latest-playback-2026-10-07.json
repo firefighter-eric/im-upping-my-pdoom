@@ -1,0 +1,37 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "date": "2026-10-07T12:50:30.115Z",
+  "browser": "154.0.8037.98",
+  "status": "passed",
+  "results": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R007_001",
+      "src": "http://127.0.0.1:52924/versions/v004.7/outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4",
+      "time": 1.093628,
+      "readyState": 4,
+      "error": null,
+      "width": 1920,
+      "height": 1080,
+      "duration": 58,
+      "seeks": [
+        {
+          "time": 17.614883,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 37.332312,
+          "readyState": 4,
+          "error": null
+        },
+        {
+          "time": 54.155901,
+          "readyState": 4,
+          "error": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001.3",
+  "checked_at": "2026-10-07T07:39:43.491Z",
+  "user_instruction": "3个音频的原倍速都保留着好了。",
+  "meaning_of_original_speed": "Each supplied Bilibili upload as downloaded, including the third upload labelled 0.9x.",
+  "originals": [
+    {
+      "source_id": "MATH_001_BGM_ORIGINAL",
+      "path": "sources/audio/MATH_001_BGM_ORIGINAL_v001.m4a",
+      "sha256": "d947a7c13f76792f429524b07f1b7b6be78c8d530b887b64998a6f4ac5550dda",
+      "size_bytes": 4673843,
+      "duration_seconds": 250.822449,
+      "status": "preserved"
+    },
+    {
+      "source_id": "MATH_001_BGM_002_ORIGINAL",
+      "path": "sources/audio/MATH_001_BGM_002_ORIGINAL_v001.m4a",
+      "sha256": "cf9ea6b9a17373c53d8f51e1952ee0ec0b3c8c66df94f9689783cd43bc5daf13",
+      "size_bytes": 3095510,
+      "duration_seconds": 209.002812,
+      "status": "preserved"
+    },
+    {
+      "source_id": "MATH_001_BGM_003_ORIGINAL",
+      "path": "sources/audio/MATH_001_BGM_003_ORIGINAL_v001.m4a",
+      "sha256": "edd7c138aef43d8e536a5c065ac29e5aca5a4d099834be70f3dcc047573bf39f",
+      "size_bytes": 8180015,
+      "duration_seconds": 342.563764,
+      "status": "preserved"
+    }
+  ],
+  "previous_versions": "unchanged",
+  "human_approval": "pending",
+  "complete_video": "not-rendered",
+  "preexisting_files": {
+    "checked": 40,
+    "all_hashes_unchanged": true
+  }
+}

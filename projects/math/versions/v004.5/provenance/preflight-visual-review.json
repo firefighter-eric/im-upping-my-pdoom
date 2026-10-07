@@ -1,0 +1,87 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "recorded_at": "2026-10-07T10:41:22.392Z",
+  "status": "passed",
+  "scope": "Agent visual inspection of eleven native design frames: NS and count cards, last screen and its join into the same long page, representative camera pullback states, complete panorama, partial fade and white last frame. Human perceptual/music approval remains pending.",
+  "images": [
+    {
+      "path": "provenance/design-frames/frame-07.png",
+      "seconds": 9.399999999999999,
+      "sha256": "7f4acf0a3646af7ec86a52f0f729e89d6351d8461f66a61ae33b55b23acd0653",
+      "render_and_transport_ms": 34.50991700000009,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-08.png",
+      "seconds": 11.1,
+      "sha256": "8e970d6f219cb0f53c512c9af5f59c8088878450e4a80d9e07a2392a97fe703b",
+      "render_and_transport_ms": 44.250332999999955,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-13.png",
+      "seconds": 52.983333333333334,
+      "sha256": "b88a6509a8bc7e7db9dc9f1072955058f07c7c69dace2c51ebd02ded068fa88f",
+      "render_and_transport_ms": 37.271041000000196,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-14.png",
+      "seconds": 53,
+      "sha256": "c53e17b039be51902609355ea2dffe632ad577720118f6ddeb6f8de4ef9c2338",
+      "render_and_transport_ms": 30.630750000000035,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-15.png",
+      "seconds": 53.3,
+      "sha256": "7a41e093fc65a270e12a3decfccb18d6321050e43f0bee7b76d48cb46a970bd4",
+      "render_and_transport_ms": 84.22595799999999,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-16.png",
+      "seconds": 54,
+      "sha256": "a41e2cd1b9537ae74a6f667be176b00ce61c9f7dad36f097053359b2d68f1c8c",
+      "render_and_transport_ms": 64.15295800000013,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-17.png",
+      "seconds": 55,
+      "sha256": "be9bc5ad40601da460f693d23316d883843d6a93accd13b6b28af20137acde2c",
+      "render_and_transport_ms": 57.80837500000007,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-18.png",
+      "seconds": 56,
+      "sha256": "dde3619662d5679a905f11a9f85cd44d549c5a2bc66feb17ee9f7ff048019ceb",
+      "render_and_transport_ms": 89.91245800000002,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-20.png",
+      "seconds": 56.75,
+      "sha256": "5eb48c889a211216a82c35ef050ada436b7b405f445cb6be8844a70536ab39bb",
+      "render_and_transport_ms": 24.813249999999925,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-22.png",
+      "seconds": 57.6,
+      "sha256": "73a6a2809cfead4a66fe098745a435f65e21566ae47bf6a1faafa73a8c0f76e7",
+      "render_and_transport_ms": 206.50566600000002,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-23.png",
+      "seconds": 57.983333333333334,
+      "sha256": "49d230f940ce098d02911db1b7bd3860caf640e458dfb9a0157725d44dc09d01",
+      "render_and_transport_ms": 14.459375000000364,
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}

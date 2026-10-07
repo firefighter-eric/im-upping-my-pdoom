@@ -1,0 +1,63 @@
+{
+  "id": "RUN_2026-10-07T11-06-45-435Z_87cadae0",
+  "project_id": "MATH_001",
+  "version": "v004.6",
+  "status": "completed",
+  "started_at": "2026-10-07T11:06:45.493Z",
+  "purpose": "full-render",
+  "renderer_sha256": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+  "renderer_files": {
+    "renderer/index.html": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+    "renderer/src/scroll.ts": "06e7c7670bafb30f70d3eeb15445f0437de43f2850a3f4e4f669c026e6ff07b4",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "aa2db498de9c5d20798ba96219c9dd577c767be1397ced27608bbbbaf7d84ac0",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "不要用 Opus 4.6 的漏洞成果，改用 Mythos 的成果。",
+    "第1、第2项按刚才推荐直接修改：片头突出数学难题，统计722篇论文及372组相关成果；收尾补充相同统计。",
+    "产出最终完整本地视频；沿用58秒、原生60fps、十二秒片头和长页全景收尾。"
+  ],
+  "treatment_sha256": "f06f3160d531aff97a614e874d9f33d16c3f4ea4f68930f7a52cbd400caed003",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-github-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R006_001",
+      "path": "outputs/MATH_001_V004_R006_001_math-github-preview_v004.6.mp4",
+      "sha256": "8a1ee81f1e35c36a9856b6b0d3881f610a1967116d59e201931077c76f51b4ad"
+    }
+  ],
+  "build_key": "5136f05d670348eeac919e58e8a7c2372c32fd7a6d0a9bb76a6bc8465b33a48b",
+  "finished_at": "2026-10-07T11:08:01.888Z"
+}

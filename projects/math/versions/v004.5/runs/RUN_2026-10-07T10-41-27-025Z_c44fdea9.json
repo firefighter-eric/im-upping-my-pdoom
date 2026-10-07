@@ -1,0 +1,63 @@
+{
+  "id": "RUN_2026-10-07T10-41-27-025Z_c44fdea9",
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "status": "completed",
+  "started_at": "2026-10-07T10:41:27.084Z",
+  "purpose": "full-render",
+  "renderer_sha256": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+  "renderer_files": {
+    "renderer/index.html": "3a3b89679fc545f21935fce581dda400d95e67dd6d57d884a3a77e6f9d5c2f41",
+    "renderer/src/scroll.ts": "d61adacba12d77362e0d4a2475aed2e6e9ed109d7e73bcfb3583570db826011a",
+    "renderer/tsconfig.json": "95cae50ff50c065832305bdb3ebf4df63799e29c2d431f723b402147ea05894e"
+  },
+  "audio_sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211",
+  "data_hashes": {
+    "directory": "22f24cb85f897cfdeead0bc8e7b0b860c0df791403bf5843ff9c9d91cdc4bf66",
+    "storyboard": "2d7c076afbbb50cbde2229fef931a96129d8e1463f56a2891a465e2c178fa11c",
+    "music_features": "eebc3dbc35514267446893935a0f2848ef9f645ff9d2669361fe1740ec8c8fbe",
+    "catalog_papers": "1055dbedcf1a66807b50fb969164a1468091dc85f833861dcc9545530436de11",
+    "annotations_zh": "3e6f1b6a5863b338bb63019db8261b26bd3d6ec4ed607a5bf878580ddb45ad3e",
+    "screenshot_layout": "e8a136748b2929768624368cdfaa7ccc4b48847366fa1bc2cd0d4f68e2c2eed6",
+    "github_capture": "c9f2916fc977d94eae76d7af4f230b846069700fd2cb6b8f7752fcd2f018476c",
+    "editorial_notes": "64ea476c13ea4d6e85a05ad821ed74bd9ef198509d9728217f6f774689c383d4"
+  },
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "request": [
+    "最后收尾的几秒，把滚动好的全部变成一个超级长的缩略图，做全景概览。",
+    "动画从最后一屏连续缩小整个长页，展示全部，然后淡出结束。",
+    "保留十二秒柔和日期片头、立即滚动、英文左中文右全部722项、原生60fps和既有58秒AAC输入；总长仍为58秒。"
+  ],
+  "treatment_sha256": "5c403a893734228b38e539e4dd5f253126505b5f94161055dc03bec48eb82f4a",
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "browser": "154.0.8037.98"
+  },
+  "variants": [
+    "math-github-preview"
+  ],
+  "outputs": [
+    {
+      "variant": "math-github-preview",
+      "generation_id": "MATH_001_V004_R005_001",
+      "path": "outputs/MATH_001_V004_R005_001_math-github-preview_v004.5.mp4",
+      "sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720"
+    }
+  ],
+  "build_key": "eff39a281143dc2ce387b90c7e29bd742d261897bee2ec85ef597f56cad79439",
+  "finished_at": "2026-10-07T10:42:42.867Z"
+}

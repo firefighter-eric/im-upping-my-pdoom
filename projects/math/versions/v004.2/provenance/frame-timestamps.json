@@ -1,0 +1,10 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "status": "passed",
+  "frames": 1740,
+  "expected_fps": 30,
+  "maximum_timestamp_error_seconds": 3.3333333604446125e-07,
+  "first_timestamp": 0.0,
+  "last_timestamp": 57.966667
+}

@@ -1,0 +1,701 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.4",
+  "recorded_at": "2026-10-07T10:21:49.111Z",
+  "status": "passed",
+  "scope": "Deterministic source geometry, twelve-second intro removal, continuous opening curves, stable same-year anchor, explicit NS/as-of dates, distinct native-time 60fps frames and representative layout samples; not a full video or human approval",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "samples": [
+    {
+      "seconds": 0,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_001",
+          "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+        }
+      ],
+      "crop": [
+        0,
+        81,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        0,
+        20
+      ],
+      "annotated_visible_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "overlay_alpha": 1,
+      "scroll_offset_px": 0,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column",
+        "Translucent white opening wash and milestone type; disappear by 12 seconds"
+      ]
+    },
+    {
+      "seconds": 0.016666666666666666,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_001",
+          "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+        }
+      ],
+      "crop": [
+        0,
+        89.27137917514085,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        0,
+        20
+      ],
+      "annotated_visible_rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "overlay_alpha": 1,
+      "scroll_offset_px": 8.271379175140854,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column",
+        "Translucent white opening wash and milestone type; disappear by 12 seconds"
+      ]
+    },
+    {
+      "seconds": 5,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_001",
+          "sha256": "a6f46d6dd73614e0c0ee7d7b26337fb4806c3b904cb714efa7c7e22658e24f5d"
+        }
+      ],
+      "crop": [
+        0,
+        2562.413752542256,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        60,
+        80
+      ],
+      "annotated_visible_rows": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "overlay_alpha": 1,
+      "scroll_offset_px": 2481.413752542256,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column",
+        "Translucent white opening wash and milestone type; disappear by 12 seconds"
+      ]
+    },
+    {
+      "seconds": 11.983333333333333,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_002",
+          "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+        }
+      ],
+      "crop": [
+        0,
+        6028.121626926274,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        145,
+        165
+      ],
+      "annotated_visible_rows": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "overlay_alpha": 0.0022719478737999177,
+      "scroll_offset_px": 5947.121626926274,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column",
+        "Translucent white opening wash and milestone type; disappear by 12 seconds"
+      ]
+    },
+    {
+      "seconds": 12,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_002",
+          "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+        }
+      ],
+      "crop": [
+        0,
+        6036.393006101414,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        145,
+        165
+      ],
+      "annotated_visible_rows": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 5955.393006101414,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    },
+    {
+      "seconds": 12.016666666666667,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_002",
+          "sha256": "30db0a949ee00891839bc7ffb2061c475cd899aa8d6f0201d1502a8ed3e0d870"
+        }
+      ],
+      "crop": [
+        0,
+        6044.664385276556,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        145,
+        165
+      ],
+      "annotated_visible_rows": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 5963.664385276556,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    },
+    {
+      "seconds": 20,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_003",
+          "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+        }
+      ],
+      "crop": [
+        0,
+        10006.655010169025,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        242,
+        262
+      ],
+      "annotated_visible_rows": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 9925.655010169025,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    },
+    {
+      "seconds": 20.016666666666666,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_003",
+          "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+        }
+      ],
+      "crop": [
+        0,
+        10014.926389344166,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        242,
+        262
+      ],
+      "annotated_visible_rows": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 9933.926389344166,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    },
+    {
+      "seconds": 20.033333333333335,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_003",
+          "sha256": "dc96ad6bd6ccb9430f7597aa93560c922a6620c36a60f08dc6372af9a87855d0"
+        }
+      ],
+      "crop": [
+        0,
+        10023.197768519307,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        242,
+        262
+      ],
+      "annotated_visible_rows": [
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 9942.197768519307,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    },
+    {
+      "seconds": 57.983333333333334,
+      "source_segments": [
+        {
+          "source_id": "MATH_001_GITHUB_SEGMENT_008",
+          "sha256": "efc3b3f57181ef52e3dfcbf02981dba224598632dea00956c48d53fbb19a7926"
+        }
+      ],
+      "crop": [
+        0,
+        28857.12815031503,
+        1574,
+        825.8718496849684
+      ],
+      "visible_rows": [
+        701,
+        721
+      ],
+      "annotated_visible_rows": [
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721
+      ],
+      "overlay_alpha": 0,
+      "scroll_offset_px": 28776.12815031503,
+      "original_english_layer": "Unmodified native GitHub screenshot pixels, scaled and cropped; native English, folders, separators and ellipses preserved.",
+      "overlays": [
+        "Native breadcrumb header from the user screenshot",
+        "Chinese notes only inside annotated rows of the original commit column"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "path": "provenance/design-frames/frame-01.png",
+      "seconds": 0.7,
+      "sha256": "dfc376ff186f461a2cc83c377ee8d98dd2e104bb8961b3d463a9fa3ffade6d6d"
+    },
+    {
+      "path": "provenance/design-frames/frame-02.png",
+      "seconds": 2.0999999999999996,
+      "sha256": "29adc120e9cb599f93b84904a8e7019b8ec6a438d720ef795f37372b0f8d4846"
+    },
+    {
+      "path": "provenance/design-frames/frame-03.png",
+      "seconds": 3.5,
+      "sha256": "eb15524f13248f7a1341b77b113fd00f6a6b8a24c481532704dad299dae68838"
+    },
+    {
+      "path": "provenance/design-frames/frame-04.png",
+      "seconds": 4.9,
+      "sha256": "f92b2e3d34fa355376116af806bdfd43240debd919747deb42a1fbaa58f96aee"
+    },
+    {
+      "path": "provenance/design-frames/frame-05.png",
+      "seconds": 6.35,
+      "sha256": "5e0dbf409f8d92a4a82786d2b59526c1a9fc0f80fc8fcbb1ef947f66b9c56366"
+    },
+    {
+      "path": "provenance/design-frames/frame-06.png",
+      "seconds": 7.85,
+      "sha256": "c17ec30a3db1361d9f70b6701e28834e2cd1172f51e594335c7858e964e2e3f3"
+    },
+    {
+      "path": "provenance/design-frames/frame-07.png",
+      "seconds": 9.399999999999999,
+      "sha256": "1001e7249b7cd33e4c000d231d4b6a823c6c58f0cf7c66ab3f688fedf631bdc7"
+    },
+    {
+      "path": "provenance/design-frames/frame-08.png",
+      "seconds": 11.1,
+      "sha256": "551fcce5b33382f23ddca8ec6351588102fbc6206dcf3c3e9e4721c4eadcc482"
+    },
+    {
+      "path": "provenance/design-frames/frame-09.png",
+      "seconds": 1.3099999999999998,
+      "sha256": "b7a49def0d6629e6e9042c63e9b09bb3e4d327a001e56e66ca3d6cbea8c60c03"
+    },
+    {
+      "path": "provenance/design-frames/frame-10.png",
+      "seconds": 1.4,
+      "sha256": "fcc692a06db49588e17a8e7fafd79cf2e27e66de2b61f3eec3f3e036d8cf5d1b"
+    },
+    {
+      "path": "provenance/design-frames/frame-11.png",
+      "seconds": 1.49,
+      "sha256": "04c5ffd4c380874110083d282c210a4de79a977a8005c93679b0f0afdca433a2"
+    },
+    {
+      "path": "provenance/design-frames/frame-12.png",
+      "seconds": 2.71,
+      "sha256": "1ca693e0406666e08960550860d8a28ade62b3f05576837a5e1de2feb7ce4b1d"
+    },
+    {
+      "path": "provenance/design-frames/frame-13.png",
+      "seconds": 2.8,
+      "sha256": "61a8944f1cb44bf11715ed9d5a6e322ccaa31778077c90daff585203d7303078"
+    },
+    {
+      "path": "provenance/design-frames/frame-14.png",
+      "seconds": 2.8899999999999997,
+      "sha256": "4ad54611421acb83b0f8a46577326e90d27cdf51677211dc6b2953e1d8cb0e30"
+    },
+    {
+      "path": "provenance/design-frames/frame-15.png",
+      "seconds": 4.11,
+      "sha256": "dd134f4fb91021cd579467f922bd46b290ce804c05459f7f194bfe498c08678b"
+    },
+    {
+      "path": "provenance/design-frames/frame-16.png",
+      "seconds": 4.2,
+      "sha256": "4e79b445cea3bbda331e8149f90178b1b580508071c438a637adef07327f37fa"
+    },
+    {
+      "path": "provenance/design-frames/frame-17.png",
+      "seconds": 4.29,
+      "sha256": "df4fafce2effb635e28d799d22cadee7578362957f7d31f42a9729d7f9c9d02b"
+    },
+    {
+      "path": "provenance/design-frames/frame-18.png",
+      "seconds": 5.51,
+      "sha256": "9238cb5a181ca38fc9c0f8a2c878f6f3f55dcfe65ecf6d714e05d9a7bec3da88"
+    },
+    {
+      "path": "provenance/design-frames/frame-19.png",
+      "seconds": 5.6,
+      "sha256": "ef109ceb21da428e310b8b5a706ada6afcabe33b084b263f2c5d17dc352051cd"
+    },
+    {
+      "path": "provenance/design-frames/frame-20.png",
+      "seconds": 5.6899999999999995,
+      "sha256": "8e556b34e2b87224c1b22af5c602bfc6bb57cb58e55ed587be4e6abf0d6d424a"
+    },
+    {
+      "path": "provenance/design-frames/frame-21.png",
+      "seconds": 7.01,
+      "sha256": "4831c5cbd348a247781801eff73e8a336f45823705d8809c76248591766bf4e4"
+    },
+    {
+      "path": "provenance/design-frames/frame-22.png",
+      "seconds": 7.1,
+      "sha256": "5410d77c84ee9b41eb3bf810d372e57f35716a93043689e8d7fd2fd58c24425b"
+    },
+    {
+      "path": "provenance/design-frames/frame-23.png",
+      "seconds": 7.1899999999999995,
+      "sha256": "dc43a0a4d3b0b58ef13a4db4692e80e5fd84b7729ddae6202135d71432b836d9"
+    },
+    {
+      "path": "provenance/design-frames/frame-24.png",
+      "seconds": 8.51,
+      "sha256": "e71af8d56eb8957c8edaeceaac050b41ca8c1739ac1600d81749f3e6a64ac93b"
+    },
+    {
+      "path": "provenance/design-frames/frame-25.png",
+      "seconds": 8.6,
+      "sha256": "8435d03b13dc21bc75af4bf7aa5914a94b0b4da01b04bf472ec4ffcc1e745af0"
+    },
+    {
+      "path": "provenance/design-frames/frame-26.png",
+      "seconds": 8.69,
+      "sha256": "a397cb6c8a5f84b3a778f557f97e9b30e776e569934b08c32a82ea3df3a4d92a"
+    },
+    {
+      "path": "provenance/design-frames/frame-27.png",
+      "seconds": 10.11,
+      "sha256": "0fe8a7d230b68c6ba4151672e87e2d088acd827975352ab81c93427b573b02eb"
+    },
+    {
+      "path": "provenance/design-frames/frame-28.png",
+      "seconds": 10.2,
+      "sha256": "42688249a7b933f13bacd35c96729e7fc0fbf3f9009bb41734e79acdce568ab2"
+    },
+    {
+      "path": "provenance/design-frames/frame-29.png",
+      "seconds": 10.29,
+      "sha256": "369aa539f97c1c91c2389ad1a18c004a94786f17a75426c7fddb6adabe9c4170"
+    },
+    {
+      "path": "provenance/design-frames/frame-30.png",
+      "seconds": 11.4,
+      "sha256": "2d089cc79c4bebd3c8663bb2516577b58adcf821681506384c03669188f949c8"
+    },
+    {
+      "path": "provenance/design-frames/frame-31.png",
+      "seconds": 11.7,
+      "sha256": "acd3164f41aef0290dcc5858499b096de30c883fe055e97eb7de186b4b3e31d3"
+    },
+    {
+      "path": "provenance/design-frames/frame-32.png",
+      "seconds": 12,
+      "sha256": "ef712b36bd6be4d5e7a8678f73c675e07015f937bbdd32c314cd290af1d4b404"
+    },
+    {
+      "path": "provenance/design-frames/frame-33.png",
+      "seconds": 20,
+      "sha256": "73f247108f5074b7de46082acac6ecfb421d31bd07b7b511255858ce0035b544"
+    },
+    {
+      "path": "provenance/design-frames/frame-34.png",
+      "seconds": 20.016666666666666,
+      "sha256": "806acd71c2ebbc364d7b54e4f46690e46b2f065c1ebff2f7dd50c949ba37a96c"
+    },
+    {
+      "path": "provenance/design-frames/frame-35.png",
+      "seconds": 32,
+      "sha256": "1c342454bb26695e8f45b7871351e8dd2fd15230a90bced335ce32be53d0277f"
+    },
+    {
+      "path": "provenance/design-frames/frame-36.png",
+      "seconds": 57.983333333333334,
+      "sha256": "54232e55d0df275bf2b2f0777629b5f948df4156900bec7a8c6cde6d1d947e7e"
+    }
+  ],
+  "errors": []
+}

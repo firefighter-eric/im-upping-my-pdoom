@@ -1,0 +1,11 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.2",
+  "recorded_at": "2026-10-07T09:41:14.621898+00:00",
+  "user_request": "把视频做出来看一下。",
+  "scope": "single complete 58-second local audiovisual preview using the reviewed v004.1 direction and all corresponding Chinese notes",
+  "approval_type": "render authorization, not final video approval",
+  "parent_version": "v004.1",
+  "parent_still_run": "RUN_2026-10-07T09-25-41-802Z_a0b66af9",
+  "rights": "TBD"
+}

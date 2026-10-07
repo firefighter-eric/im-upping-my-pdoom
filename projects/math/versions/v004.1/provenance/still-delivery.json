@@ -1,0 +1,117 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.1",
+  "run_id": "RUN_2026-10-07T09-25-41-802Z_a0b66af9",
+  "generation_id": "MATH_001_V004_R001_001",
+  "recorded_at": "2026-10-07T09:28:17.521173+00:00",
+  "status": "review",
+  "scope": "eight design stills; no video or audio output",
+  "input_hash_validation": "passed",
+  "png_spec_validation": "passed",
+  "images": [
+    {
+      "id": "01-launch",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/01-launch.png",
+      "sha256": "34cb708977994a583bac50535be0ae85db557462a5e3a5af759a200a1044fe7a",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "02-imo",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/02-imo.png",
+      "sha256": "c6c11be92bd65f92a4a08ff078174e2917b28754c87f2140dea8d7578b7cf63b",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "03-ns",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/03-ns.png",
+      "sha256": "333868ae1cb742ca6452472e1aa3052b7d42bd7df28601638276c5c1d8949f46",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "04-722",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/04-722.png",
+      "sha256": "36fac48874e6d377210852189717cfe35bc485508c0f8b9c44679865904b139e",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "05-clear",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/05-clear.png",
+      "sha256": "a87e39318723fe7039b335ad4c2bf3b3743b41c4172f2b50d0682bfa25cfa0a3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "06-scrolling",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/06-scrolling.png",
+      "sha256": "40811ff9504051bc758805b2148cb62a70fa9b07bdba4e52fa366fa47e2cedb7",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "07-bilingual",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/07-bilingual.png",
+      "sha256": "d20136a966ab63bc8eb3abc33b8a987c32bab59c0b632a8363bb1aeaa2a4c48d",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "08-bottom",
+      "path": "stills/RUN_2026-10-07T09-25-41-802Z_a0b66af9/08-bottom.png",
+      "sha256": "e66fabbdb15f9d83e75efdaf610096844cb5d5ebca0683067ab1c3b092e3bcd6",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "source_capture": {
+    "row_count": 722,
+    "native_order_matches_fixed_commit": "passed",
+    "segments": 8,
+    "capture_record": "browser-source-capture.json"
+  },
+  "boundary_validation": {
+    "opening_source_position": "first viewport fixed during 0–5 seconds",
+    "at_5_seconds": "overlay alpha 0, source scroll offset 0",
+    "at_5_3_seconds": "overlay alpha 0, source scroll offset 162.98625132337014 px",
+    "last_frame": "native final row 721 visible; no closing card"
+  },
+  "agent_visual_inspection": {
+    "status": "completed",
+    "images_viewed": 8,
+    "observations": [
+      "Original white GitHub directory stays visible through translucent opening.",
+      "Large dates, NS and 722 remain legible.",
+      "Clear boundary, native breadcrumb and final row inspected.",
+      "Prepared Chinese notes align to English rows in the right commit column."
+    ]
+  },
+  "repository_checks": {
+    "npm run check": "passed",
+    "npm test": "passed; 12 tests",
+    "npm run verify": "passed; 32 versions",
+    "npm run verify:media -- --project math --version v004.1": "passed for still-only draft; no registered video output exists to probe"
+  },
+  "historical_preservation": {
+    "files_checked": 168,
+    "changed": 0,
+    "record": "historical-preservation.json"
+  },
+  "full_video": "not-generated",
+  "continuous_motion_review": "pending",
+  "music_sync_review": "pending",
+  "human_approval": "pending",
+  "annotation_status": {
+    "prepared": 28,
+    "remaining": 694
+  },
+  "preview_delivery": {
+    "url": "http://127.0.0.1:60547/versions/v004.1/stills.html",
+    "http_status": 200,
+    "matching_images": 8,
+    "checked_at": "2026-10-07T09:29:01.856846+00:00",
+    "native_panel_open_request": "queued"
+  }
+}

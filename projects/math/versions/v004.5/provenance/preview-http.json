@@ -1,0 +1,58 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "recorded_at": "2026-10-07T10:48:39.407001+00:00",
+  "status": "passed",
+  "base_url": "http://127.0.0.1:60547/versions/v004.5/",
+  "scope": "Read-only existing preview server; exact watch and poster bytes, and exact beginning/middle/end 1024-byte ranges of the registered MP4.",
+  "files": [
+    {
+      "path": "watch.html",
+      "status": 200,
+      "bytes": 2937,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7cb02e351222a737a8294707b56ebbc332cf016aae4f3c898fad1e9c08656bbe",
+      "matches_local": true
+    },
+    {
+      "path": "poster.jpg",
+      "status": 200,
+      "bytes": 291764,
+      "content_type": "image/jpeg",
+      "sha256": "8dea0d42d7c08ad62b2c4ecd379dad310f3c3f7cc54e4fbb7ac98be08030d2f7",
+      "matches_local": true
+    }
+  ],
+  "video_ranges": [
+    {
+      "start": 0,
+      "end": 1023,
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/75701911",
+      "accept_ranges": "bytes",
+      "matches_local": true,
+      "sha256": "23933466f4d7ecab677efbac1563f2a7f9c7bb906698490ae4a2b19e6b5b53e9"
+    },
+    {
+      "start": 37850955,
+      "end": 37851978,
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 37850955-37851978/75701911",
+      "accept_ranges": "bytes",
+      "matches_local": true,
+      "sha256": "2d3bfbd13aa0c8e28b27a80a2fd41061613e4c44b50362912a8997268e0b83f0"
+    },
+    {
+      "start": 75700887,
+      "end": 75701910,
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 75700887-75701910/75701911",
+      "accept_ranges": "bytes",
+      "matches_local": true,
+      "sha256": "839ac26f4b8685e74594c8416ccf5e0bf61199171b9f5e1510ad702273122096"
+    }
+  ]
+}

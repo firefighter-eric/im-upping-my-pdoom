@@ -1,0 +1,36 @@
+{
+  "project_id": "MATH_001",
+  "recorded_at": "2026-10-07T12:51:19.023Z",
+  "status": "passed",
+  "scope": "After user-authorized removal of six old Math MP4s, required repository checks, unchanged latest source/media integrity, advancing latest video playback and three resumed seeks all passed. Old missing media is acknowledged by hashed retention receipts; it is not counted as media-verified.",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "output": "Shared scripts and all HTML/TypeScript version renderers compile.\n"
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "output": "\n> im-upping-my-pdoom@0.1.0 test\n> node --test tests/*.test.mjs\n\n✔ missing outputs fail unless an exact completed user-removal receipt is bound (6.776875ms)\n✔ a cleanup receipt never bypasses integrity checks on a present or restored output (3.24725ms)\n✔ tampered, incomplete and mismatched removal records fail even in source-only checks (7.943458ms)\n✔ encoder failure while writing a large frame rejects without a drain deadlock (68.321833ms)\n✔ a successful encoder consumes every byte and exits after input EOF (52.013792ms)\n✔ modular renderer sources are inherited and approval is cleared in a new version (15.314334ms)\n✔ verification fails for a requested version that does not exist (146.85725ms)\n✔ media server supports exact byte seeking and rejects missing LFS objects/private paths (28.587209ms)\n✔ new versions retain exact input lineage, leave parent outputs immutable and start in draft (15.745709ms)\n✔ cross-project version records and paths outside a project are rejected (3.064083ms)\n✔ range parser handles end clamping, empty ranges and invalid multi-range requests (0.08625ms)\n✔ revision versions sort numerically, reject equivalent directories and clone with independent identities (12.587667ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 364.507041\n"
+    },
+    {
+      "command": "npm run verify",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 38 versions checked; project/version lineage valid; 7 output(s) intentionally removed by user, receipts verified, media not verified.\n"
+    },
+    {
+      "command": "npm run verify:media -- --project math --version v004.7",
+      "exit_code": 0,
+      "output": "Verified 55 preserved migration files, 0 media files skipped, 1 versions checked; project/version lineage valid, video specs and source AAC packets verified.\n"
+    },
+    {
+      "command": "npm run verify:playback -- --project math --version v004.7",
+      "exit_code": 0,
+      "output": "{\n  \"project_id\": \"MATH_001\",\n  \"version\": \"v004.7\",\n  \"date\": \"2026-10-07T12:50:30.115Z\",\n  \"browser\": \"154.0.8037.98\",\n  \"status\": \"passed\",\n  \"results\": [\n    {\n      \"variant\": \"math-github-preview\",\n      \"generation_id\": \"MATH_001_V004_R007_001\",\n      \"src\": \"http://127.0.0.1:52924/versions/v004.7/outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4\",\n      \"time\": 1.093628,\n      \"readyState\": 4,\n      \"error\": null,\n      \"width\": 1920,\n      \"height\": 1080,\n      \"duration\": 58,\n      \"seeks\": [\n        {\n          \"time\": 17.614883,\n          \"readyState\": 4,\n          \"error\": null\n        },\n        {\n          \"time\": 37.332312,\n          \"readyState\": 4,\n          \"error\": null\n        },\n        {\n          \"time\": 54.155901,\n          \"readyState\": 4,\n          \"error\": null\n        }\n      ]\n    }\n  ]\n}\n"
+    }
+  ],
+  "repository_intentional_removals": 7,
+  "math_intentional_removals": 6,
+  "preexisting_other_project_removals": 1
+}

@@ -1,0 +1,51 @@
+{
+  "project_id": "MATH_001",
+  "version": "v003.0",
+  "status": "review",
+  "scope": "three design stills only",
+  "human_approval": "pending",
+  "images": [
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/01-opening.jpg",
+      "seconds": 1.74,
+      "sha256": "d0286e8231f6fda3219e488fd060843b8f8b1dd80830ab97bb1513588a1a8608",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    },
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/02-directory.jpg",
+      "seconds": 45.28,
+      "sha256": "fcd4f173944d13a48ad971ebc50c3500a9bc6be60c158c4c68845d8a8fdd4b97",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    },
+    {
+      "variant": "bilingual-directory-stills",
+      "path": "stills/RUN_2026-10-07T08-18-30-332Z_ec0907ae/03-closing.jpg",
+      "seconds": 54.4,
+      "sha256": "361b98030c6c8f69ce609b377815ffcc18cc496017115143dacc218308548c51",
+      "scope": "design still only",
+      "width": 1920,
+      "height": 1080,
+      "sha256_verified": true
+    }
+  ],
+  "annotation_count": 27,
+  "remaining_annotations": "TBD",
+  "video_export": "not_requested",
+  "preserved_versions": {
+    "checked_files": 78,
+    "changed_files": []
+  },
+  "agent_visual_inspection": {
+    "status": "passed",
+    "scope": "English and Chinese align; no horizontal overflow; top/bottom rows intentionally clipped by scrolling viewport",
+    "human_review": "pending"
+  }
+}

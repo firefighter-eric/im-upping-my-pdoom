@@ -1,0 +1,492 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.5",
+  "parent_version": "v004.4",
+  "generation_id": "MATH_001_V004_R005_001",
+  "variant": "math-github-preview",
+  "recorded_at": "2026-10-07T10:51:00.751295+00:00",
+  "status": "review",
+  "output": {
+    "path": "outputs/MATH_001_V004_R005_001_math-github-preview_v004.5.mp4",
+    "sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+    "size_bytes": 75701911,
+    "duration_seconds": 58,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "60/1",
+    "frame_count": 3480,
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "status": "review",
+    "run_id": "RUN_2026-10-07T10-41-27-025Z_c44fdea9"
+  },
+  "poster": {
+    "path": "poster.jpg",
+    "sha256": "8dea0d42d7c08ad62b2c4ecd379dad310f3c3f7cc54e4fbb7ac98be08030d2f7",
+    "size_bytes": 291764,
+    "width": 1920,
+    "height": 1080,
+    "source_output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+    "source_frame": 666,
+    "source_seconds": 11.1,
+    "method": "Unmodified encoded frame extracted with ffmpeg; JPEG encoding only."
+  },
+  "preview_url": "http://127.0.0.1:60547/versions/v004.5/watch.html",
+  "request_fulfillment": "Continuous pullback from the final directory viewport into the same uncropped single long GitHub page, briefly showing all 722 bilingual rows, then fading to white within the existing 58-second video.",
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 58,
+    "target_frames": 3480,
+    "frame_transport": "jpeg-base64",
+    "sampling": {
+      "mode": "fixed",
+      "samples": 4,
+      "shutter": 0.2
+    },
+    "preset": "fast",
+    "crf": 18
+  },
+  "timing": {
+    "scroll_start_seconds": 0,
+    "opening_end_seconds": 12,
+    "last_row_and_zoom_start_seconds": 53,
+    "zoom_end_and_hold_start_seconds": 56.31666666666667,
+    "fade_start_seconds": 57.166666666666664,
+    "end_seconds": 58
+  },
+  "audio": {
+    "input": {
+      "source_id": "MATH_001_V002_R000_BGM_CLIP58",
+      "path": "versions/v002.0/audio/MATH_001_V002_R000_BGM_CLIP58.m4a",
+      "sha256": "a8edff972eeeaca4fe6ac1017a520e4b11018f245ccb3a5931c943670bba4211"
+    },
+    "edit": "inherited existing 58-second clip; no new trim, time-stretch or audio re-encoding",
+    "packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "matches_input_packets": true
+  },
+  "run": {
+    "path": "runs/RUN_2026-10-07T10-41-27-025Z_c44fdea9.json",
+    "id": "RUN_2026-10-07T10-41-27-025Z_c44fdea9",
+    "status": "completed",
+    "started_at": "2026-10-07T10:41:27.084Z",
+    "finished_at": "2026-10-07T10:42:42.867Z",
+    "full_render_attempts": 1
+  },
+  "validation": {
+    "repository_checks": [
+      {
+        "command": "npm run check",
+        "exit_code": 0
+      },
+      {
+        "command": "npm test",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify:media -- --project math --version v004.5",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run verify -- --project math --version v004.5",
+        "exit_code": 0
+      }
+    ],
+    "full_decode": "passed",
+    "source_aac_packets": "identical",
+    "frame_timestamps": {
+      "project_id": "MATH_001",
+      "version": "v004.5",
+      "status": "passed",
+      "frames": 3480,
+      "expected_fps": 60,
+      "maximum_timestamp_error_seconds": 3.3333333604446125e-07,
+      "first_timestamp": 0,
+      "last_timestamp": 57.983333
+    },
+    "encoded_scroll_motion": {
+      "sampled_consecutive_frames": 16,
+      "unique_frame_hashes": 16,
+      "minimum_upward_shift_px": 11,
+      "maximum_upward_shift_px": 11
+    },
+    "panorama_preflight": {
+      "status": "passed",
+      "ending_states_checked": 301,
+      "source_page_height_px": 36181.757337106006,
+      "same_page_camera_join": "passed",
+      "overview": {
+        "seconds": 56.75,
+        "phase": "overview",
+        "progress": 1,
+        "scale": 0.026532707934986813,
+        "page_x": 934.5286003824126,
+        "page_y": 60.000000000000114,
+        "page_width": 50.94279923517468,
+        "page_height": 959.9999999999999,
+        "document_alpha": 1,
+        "sticky_header_alpha": 0,
+        "visible_source_start": 0,
+        "visible_source_end": 29602,
+        "visible_rows": [
+          0,
+          721
+        ],
+        "whole_document_visible": true
+      },
+      "row_count": 722,
+      "source_segment_count": 8,
+      "all_annotations_present": true,
+      "native_aspect_ratio_preserved": true,
+      "white_endpoint_maximum_rgb_deviation": 0,
+      "deterministic_reverse_seek": "passed"
+    },
+    "encoded_panorama": {
+      "project_id": "MATH_001",
+      "version": "v004.5",
+      "output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+      "recorded_at": "2026-10-07T10:44:53.366Z",
+      "status": "passed",
+      "method": "Independent RGB analysis of three decoded MP4 frames: centered full-height overview bounds, partial fade contrast reduction and white last frame.",
+      "expected_overview_bounds": [
+        934.5286003824126,
+        60,
+        985.4713996175873,
+        1020
+      ],
+      "samples": [
+        {
+          "frame": 3405,
+          "seconds": 56.75,
+          "mean_white_deviation": 0.38948013117283925,
+          "maximum_white_deviation": 224,
+          "nonwhite_pixels_below_245": 17697,
+          "nonwhite_bounds": [
+            929,
+            59,
+            988,
+            1025
+          ]
+        },
+        {
+          "frame": 3456,
+          "seconds": 57.6,
+          "mean_white_deviation": 0.22922196502058148,
+          "maximum_white_deviation": 121,
+          "nonwhite_pixels_below_245": 12039,
+          "nonwhite_bounds": [
+            933,
+            59,
+            985,
+            1021
+          ]
+        },
+        {
+          "frame": 3479,
+          "seconds": 57.983333333333334,
+          "mean_white_deviation": 1.3503086419753087e-05,
+          "maximum_white_deviation": 1,
+          "nonwhite_pixels_below_245": 0,
+          "nonwhite_bounds": null
+        }
+      ],
+      "human_approval": "pending"
+    },
+    "normal_speed_unmuted_playback": {
+      "seconds": 58,
+      "reached_end": true,
+      "media_errors": [],
+      "decoded_audio_bytes": 1397369,
+      "playback_quality": {
+        "totalVideoFrames": 3480,
+        "droppedVideoFrames": 2,
+        "corruptedVideoFrames": 0
+      },
+      "drop_observation": "Two dropped frames accumulated between the 20.37-second and 25.38-second samples; counter stayed at two through remaining full playback, five seeks and the ending shortcut. Zero corrupted frames. This headless Chrome observation does not measure user-device display refresh."
+    },
+    "resumed_seeks": [
+      {
+        "target_seconds": 9.4,
+        "observed_seconds": 9.791673,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 29,
+        "observed_seconds": 29.391235,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 53.7,
+        "observed_seconds": 54.097203,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 56.75,
+        "observed_seconds": 57.146322,
+        "advanced": true,
+        "error": null
+      },
+      {
+        "target_seconds": 57.6,
+        "observed_seconds": 57.995602,
+        "advanced": true,
+        "error": null
+      }
+    ],
+    "ending_shortcut": {
+      "start_seconds": 52.5,
+      "observed_seconds": 52.817395,
+      "playing": true,
+      "error": null
+    },
+    "fullscreen": {
+      "element": "VIDEO",
+      "width": 1920,
+      "height": 1200
+    },
+    "preview_http": "passed; exact watch/poster and three 1024-byte beginning/middle/end MP4 ranges",
+    "in_app_preview": "passed; 58-second 1920x1080 media loaded with readyState 4 and no media error",
+    "historical_preservation": {
+      "checked_files": 464,
+      "status": "all unchanged"
+    }
+  },
+  "encoded_still_inspection": {
+    "project_id": "MATH_001",
+    "version": "v004.5",
+    "recorded_at": "2026-10-07T10:48:39.407001+00:00",
+    "output_sha256": "3309c11cc0871ed3365c35581a751a5eae778404542aa818e7f0084e9ad1a720",
+    "status": "passed",
+    "extracted": 47,
+    "inspected": 18,
+    "scope": "Agent visual inspection of eighteen unmodified encoded frames: eight milestone midpoints, last-row scroll and camera join, five pullback stages, complete-page hold, partial white fade and final white frame. No perceptual music or human subject-matter approval is implied.",
+    "images": [
+      {
+        "path": "provenance/encoded-frames/frame-02.png",
+        "frame": 42,
+        "seconds": 0.7,
+        "sha256": "0063c2aea5934d5ed24925622464896c9a7dec4a6515d410d3713ca2f528d76c",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-06.png",
+        "frame": 126,
+        "seconds": 2.1,
+        "sha256": "757823ec83d0a29951bb9ea8879e3557ddf53bd3394f8c0dda81353fc6033ac8",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-10.png",
+        "frame": 210,
+        "seconds": 3.5,
+        "sha256": "e43230e0ce1dee6ec950f9132c55b0c8f1708542e552278ddb47735bdf9595d7",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-14.png",
+        "frame": 294,
+        "seconds": 4.9,
+        "sha256": "6917c15be924ee8ca2aacbff0a93065512e87cbbc7b591153f8e2b78a92ad52c",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-18.png",
+        "frame": 381,
+        "seconds": 6.35,
+        "sha256": "307aae8dfc65fad94c0ff1ae5945d5e2907cb0f176cfa6813da7c1ce78991fc1",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-22.png",
+        "frame": 471,
+        "seconds": 7.85,
+        "sha256": "3141be2dd825eb64ba78b6be02c4ae857a1b9231741568822819f1c0653ab6fd",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-26.png",
+        "frame": 564,
+        "seconds": 9.4,
+        "sha256": "6cd44157cfbf832defe152899c5ae709801130d706b253b94784c5da056cdd55",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-30.png",
+        "frame": 666,
+        "seconds": 11.1,
+        "sha256": "6efc674c3b326b724ecd178b441452a9c2422872833ff79ffae21dfd94127a76",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-37.png",
+        "frame": 3179,
+        "seconds": 52.983333333333334,
+        "sha256": "3895c497ff941910c5f43704632a803d1f7b89c12eef37bebf05b2ffb73b6ee6",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-38.png",
+        "frame": 3180,
+        "seconds": 53,
+        "sha256": "21b4e8888adf0ed40c578ede5561ae45953a452c40310d5f17ec94dd36144287",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-39.png",
+        "frame": 3198,
+        "seconds": 53.3,
+        "sha256": "3592a59006e1169a1e5e5499cfe8c29cbf80339f668c6bd79dda06f4577cce15",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-40.png",
+        "frame": 3240,
+        "seconds": 54,
+        "sha256": "613bdf87ab71aa619fa23ea15948d70fc206c75601ef3a6dcad30d9a2f4fe068",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-41.png",
+        "frame": 3300,
+        "seconds": 55,
+        "sha256": "c061aa5cb23ad33adfda5bc1de3b5b8dadf92ad316b8b2d1e6fc6e1e3e04a7f3",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-42.png",
+        "frame": 3360,
+        "seconds": 56,
+        "sha256": "e7ac439b828b8422dbbce0c17a865fc9b39d686c9e8b9699e33c2e4b36ac6519",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-43.png",
+        "frame": 3379,
+        "seconds": 56.31666666666667,
+        "sha256": "fc0e45c8e12cbd60e2ee658fd61fad88d00776f31302305af1495ae24358b6bb",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-44.png",
+        "frame": 3405,
+        "seconds": 56.75,
+        "sha256": "1803f964d43231b98c8537af33abb5faf3d31a6fae85a9c5da260a8759a4f63b",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-46.png",
+        "frame": 3456,
+        "seconds": 57.6,
+        "sha256": "39825211ca0fa8ae99cad18e69dbb9e990169857f10fdb16147aa123eb8be11a",
+        "visual_inspection": "passed"
+      },
+      {
+        "path": "provenance/encoded-frames/frame-47.png",
+        "frame": 3479,
+        "seconds": 57.983333333333334,
+        "sha256": "bcb8725192f5ffa9135dc4a9a720c07c9a6b09c9dd09dc001f28c1ac13b9502c",
+        "visual_inspection": "passed"
+      }
+    ],
+    "human_approval": "pending"
+  },
+  "evidence": [
+    {
+      "path": "runs/RUN_2026-10-07T10-41-27-025Z_c44fdea9.json",
+      "sha256": "2d2c8725b20e4cffe7b486a2e0faa3bc518c19e188c3ef8c942642f7a08a6525"
+    },
+    {
+      "path": "provenance/repository-verification.json",
+      "sha256": "90e927745698a99e7e83c080d0e2cdb23a4a97db2aa9529edf7afaf64c8e5328"
+    },
+    {
+      "path": "provenance/source-verification.json",
+      "sha256": "e0f747e226a3f6bff12b9b78060898eb6a9e14f46c4dc9f83a0a1a544beee62c"
+    },
+    {
+      "path": "provenance/audiovisual-playback.json",
+      "sha256": "eaa9858e6638785cc84c2fc434aef9d873d7291a3c04162c66e1acd094685ebe"
+    },
+    {
+      "path": "provenance/encoded-motion.json",
+      "sha256": "3b1038a6306fe330124e469453b0f821a0ba687aafb8990037d2aa427b576e56"
+    },
+    {
+      "path": "provenance/frame-timestamps.json",
+      "sha256": "1bacc7e69b62c43f12f1f60357d4a911ffb358d587f890fd6ecdcf6dcd87562f"
+    },
+    {
+      "path": "provenance/encoded-frame-index.json",
+      "sha256": "016ab823576beee6a64d0eb1bc18a3b736d7b6fdc4c85c4405b88322721572f7"
+    },
+    {
+      "path": "provenance/encoded-visual-review.json",
+      "sha256": "cd3fdb4224e797f1a5caeb1008c7adb1bd69880011337acaa21d219d4891b83e"
+    },
+    {
+      "path": "provenance/panorama-preflight.json",
+      "sha256": "7bc1d42144564125fbff95d8250068fbe32e7a4b22ef4ddf4ea7be3b26ac4ced"
+    },
+    {
+      "path": "provenance/preflight-visual-review.json",
+      "sha256": "6600bbfed5ef498cfb786fd843055854434521d8d576c773a49397f3d3a48d2e"
+    },
+    {
+      "path": "provenance/encoded-panorama.json",
+      "sha256": "67fbe1f53ca38e524c3faa963dbbc236d426c115d8237895198f82f847cc259f"
+    },
+    {
+      "path": "provenance/historical-preservation.json",
+      "sha256": "cf8b4b1d0e8bf99df56eb046c8725360686b6511779ab0bb920fd0c977562943"
+    },
+    {
+      "path": "provenance/preview-http.json",
+      "sha256": "a3f944681b201b201a0eed6594c3ebdb409811ab19d1dd3d5fceeba48a08f273"
+    },
+    {
+      "path": "provenance/player-fullscreen.png",
+      "sha256": "115a7e491c548dbb5e8fa0fe57c85c3750c067d71b386f791b14c0a6323593e5"
+    },
+    {
+      "path": "provenance/in-app-preview.json",
+      "sha256": "9c0ba9400fe7747243a37d744f90ef404281b8000c8ae2bad99b0c5407a5437c"
+    },
+    {
+      "path": "provenance/user-render-authorization.json",
+      "sha256": "8ca5c99da19466766da8a7334cfe4a7efeff72938140a29b1279ea8826d33d15"
+    },
+    {
+      "path": "DELIVERY.md",
+      "sha256": "ef328adc210d5492248d90f56b8dcddcf081da432dcec9fee934bbfaf665978b"
+    },
+    {
+      "path": "watch.html",
+      "sha256": "7cb02e351222a737a8294707b56ebbc332cf016aae4f3c898fad1e9c08656bbe"
+    },
+    {
+      "path": "poster.jpg",
+      "sha256": "8dea0d42d7c08ad62b2c4ecd379dad310f3c3f7cc54e4fbb7ac98be08030d2f7"
+    }
+  ],
+  "human_review": {
+    "status": "pending",
+    "scope": "Chinese mathematical subject matter, perceptual audio/music synchronization, scrolling readability and overall aesthetic approval"
+  },
+  "limitations": [
+    "All 722 papers within one minute remain scan-reading.",
+    "The complete page stays proportional and becomes approximately 50.94 pixels wide by 960 pixels high; individual titles are not readable in the final thumbnail.",
+    "Native encoded 60fps, continuous camera states and full technical playback are verified; user-device refresh and perceptual smoothness are not measured."
+  ],
+  "rights": {
+    "status": "TBD",
+    "distribution": "Local-only media; no publishing authorized or performed."
+  }
+}

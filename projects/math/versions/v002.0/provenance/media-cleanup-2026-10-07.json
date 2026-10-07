@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v002.0",
+  "variant_id": "math-heaven-preview",
+  "generation_id": "MATH_001_V002_R000_001",
+  "action": "remove-local-output",
+  "status": "completed",
+  "authorized_by": "conversation-user",
+  "user_statement": "只保留一个最新版本的，其他的不要了。",
+  "authorization_context": "User saw the seven-video inventory including latest v004.7, then explicitly requested retaining only that latest video.",
+  "scope": "Only this old rendered MP4; original inputs, code, fonts/images, data, execution records and historical QA retained.",
+  "prepared_at": "2026-10-07T12:49:42.578143+00:00",
+  "output": {
+    "path": "outputs/MATH_001_V002_R000_001_math-heaven-preview_v002.0.mp4",
+    "sha256": "99ebe4132077fc25cc810c3aac80829584c8052d38ac32c64c6753386c607075",
+    "size_bytes": 74567666,
+    "duration_seconds": 58,
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "frame_count": 1740,
+    "audio_packet_hash": "SHA256=6691e0d08d02914e125cfe8ef96956c8bb4692c45780659f678cce9928820553",
+    "status": "review",
+    "run_id": "RUN_2026-10-07T08-01-56-946Z_7da85793"
+  },
+  "allocated_bytes_before": 83890176,
+  "manifest_before": {
+    "path": "provenance/manifest-before-media-cleanup-2026-10-07.json",
+    "sha256": "130ec5431abd4fd9690d9d70cf54e4f05e8e020a365833988ff9b869aa71444f"
+  },
+  "run_before": {
+    "path": "runs/RUN_2026-10-07T08-01-56-946Z_7da85793.json",
+    "sha256": "89e339b2790a9b36775acb16a8daf0002e11448522b26540f99d8ea789438e55"
+  },
+  "pre_delete_media_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "58.000000",
+        "nb_frames": "1740"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "58.000000",
+        "nb_frames": "2499"
+      }
+    ],
+    "format": {
+      "duration": "58.000000",
+      "size": "74567666"
+    }
+  },
+  "latest_retained_generation_id": "MATH_001_V004_R007_001",
+  "latest_retained_output_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "restoration": "Original output bytes are no longer retained. Re-rendering requires a new draft version and may not reproduce identical bytes.",
+  "deleted_at": "2026-10-07T12:49:42.606233+00:00"
+}

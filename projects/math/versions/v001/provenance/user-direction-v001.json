@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "MATH_001",
+  "version": "v001",
+  "recorded_at": "2026-10-07T07:25:03.893Z",
+  "kind": "user-direction-record",
+  "instructions": [
+    "先做一个简单的，屏幕滚动加音乐就行。",
+    "你发的 GitHub preprints 目录，展示论文列表（最简单，推荐）",
+    "使用我指定或提供的音乐"
+  ],
+  "reference_source_id": "MATH_001_LAYOUT_REFERENCE",
+  "pending_music_candidate": "用户询问“误闯天家那首歌怎么样”；未指定具体版本或音频输入。",
+  "status": "visual-production-authorized-music-pending",
+  "human_output_approval": null
+}

@@ -1,0 +1,26 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "generation_id": "MATH_001_V004_R007_001",
+  "output_sha256": "167673df2a87040d9090bd1509a91850a4451419ac7f6b17a722d08480a20213",
+  "recorded_at": "2026-10-07T11:33:46.001358+00:00",
+  "status": "passed",
+  "browser": "Codex In-app Browser",
+  "browser_id": "2",
+  "tab_id": "10",
+  "url": "http://127.0.0.1:60547/versions/v004.7/watch.html",
+  "title": "GitHub Math · 24秒横向滑动片头 · v004.7",
+  "media": {
+    "duration": 58,
+    "width": 1920,
+    "height": 1080,
+    "readyState": 4,
+    "paused": true,
+    "playbackRate": 1,
+    "error": null,
+    "source": "http://127.0.0.1:60547/versions/v004.7/outputs/MATH_001_V004_R007_001_math-github-preview_v004.7.mp4",
+    "poster": "http://127.0.0.1:60547/versions/v004.7/poster.jpg"
+  },
+  "deliverable_tab": true,
+  "scope": "Visible new player title, version-specific media URL and video loading verified via cua_repl read-only video state. Complete playback is separately recorded in audiovisual-playback.json."
+}

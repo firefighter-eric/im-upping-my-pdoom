@@ -22,12 +22,13 @@ GitHub 和 ZIP 下载包含代码、字体／图片资产、分析数据与制�
 
 ## 当前作品与交付
 
-以下概览按 2026-10-06 的作品登记、manifest 和交付记录整理。实时完整列表使用 `npm run catalog`；历史阶段的方案或验收文档保留当时表述。
+以下概览按 2026-10-07 的作品登记、manifest 和交付记录整理。实时完整列表使用 `npm run catalog`；历史阶段的方案或验收文档保留当时表述。
 
 | 作品 | 独立身份与目录 | 最新完整交付 | 状态 |
 | --- | --- | --- | --- |
 | AGI / I'm Upping My P(doom) | `LLMV_001` · [projects/agi](projects/agi/project.yaml) | [v006.13 · 原片解梗伴看正式稿](projects/agi/versions/v006.13/QA.md)，3840×2160、60fps、9400 帧，约 2:37 | `approved` · 用户于 2026-10-04 确认 |
 | Escape Velocity / anabology | `LLMV_002` · [projects/anabology](projects/anabology/REFERENCE.md) | [v001.1 · 当前解释居中完整版](projects/anabology/versions/v001.1/DELIVERY.md)，3840×2160、60fps、18,389 帧，约 5:06 | `review` · 技术与播放检查已记录，待整片人工批准 |
+| GitHub Math / 数学论文目录滚动 | `MATH_001` · [projects/math](projects/math/README.md) | [v004.7 · 24秒横向滑动片头与长页全景](projects/math/versions/v004.7/DELIVERY.md)，1920×1080、60fps、3480帧、58秒；722篇论文与372组相关成果 | `review` · 仅最新版视频保留本地，六个旧视频已有清理回执；源码、素材映射与制作记录保留 |
 
 两部伴看视频将原片与中文解释、双语字幕合成到新画布；文字与图形层原生 4K，原片保持其来源清晰度。完整原 AAC 音轨保留。AGI 的[正式稿批准](projects/agi/versions/v006.13/provenance/USER_FINAL_APPROVAL.json)绑定成片哈希，不改变音乐、歌词、原片及改编权利的 `TBD` 状态。
 

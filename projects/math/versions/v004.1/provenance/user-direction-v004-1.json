@@ -1,0 +1,21 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.1",
+  "recorded_at": "2026-10-07T09:24:28.732473+00:00",
+  "user_requests": [
+    "片头简化成5秒，背景是之前真实的GitHub Math页面，刚开始有一些半透明效果。",
+    "5秒以后效果退场，同一GitHub页面清晰全屏匀速向下滚动；几十秒后滑到底就结束。",
+    "保留ChatGPT上线到2026.10.07、IMO、NS、722的推进；不使用单独片尾卡。",
+    "本轮只更新静帧样图，不渲染整片。"
+  ],
+  "scope": "design stills only; no full video",
+  "human_approval": "pending",
+  "implementation": {
+    "opening_end_seconds": 5,
+    "total_duration_seconds": 58,
+    "same_source_background": true,
+    "translucent_white_gradient": true,
+    "constant_scroll": true,
+    "separate_outro_card": false
+  }
+}

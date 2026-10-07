@@ -1,0 +1,82 @@
+{
+  "project_id": "MATH_001",
+  "version": "v004.7",
+  "recorded_at": "2026-10-07T11:24:00.210Z",
+  "status": "passed",
+  "scope": "Agent inspection of ten native PNG design frames: first/midpoint titles, old-left/new-right half fades, fixed 2026 during Mythos-to-Astra exchange, full NS and mathematics nodes, and final overlay withdrawal. Encoded output playback and human perception remain pending.",
+  "extracted": 49,
+  "inspected": 10,
+  "images": [
+    {
+      "path": "provenance/design-frames/frame-01.png",
+      "seconds": 1.25,
+      "sha256": "b5fd002342f8cb265d898a05a73ca6f5a688b88a622fba3b78366ade55bf24a7",
+      "render_and_transport_ms": 37.59770900000001,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-02.png",
+      "seconds": 2.35,
+      "sha256": "3de85cd749800e03166278aecb6af350622a9b08c78fb2686f403b190c678758",
+      "render_and_transport_ms": 41.53137499999991,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-04.png",
+      "seconds": 2.65,
+      "sha256": "a1ea98448175d4a0a990c06f244ac69538564b5c12392b9f2a14f462a7fddb7b",
+      "render_and_transport_ms": 31.749166999999943,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-05.png",
+      "seconds": 3.75,
+      "sha256": "a6cf852843c76c61334351c3fe923b7a0d446951c420a426aac913bcfaa09cfd",
+      "render_and_transport_ms": 34.22325000000001,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-17.png",
+      "seconds": 11.75,
+      "sha256": "a6da3eb62bb278cd8a5705c8d538f936b2ff733d4d3dbb24798ae26c921add8a",
+      "render_and_transport_ms": 36.41300000000001,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-18.png",
+      "seconds": 13.35,
+      "sha256": "ee81b8087e39bc2bd65012e7e46a88afc2b36829666ff32480274bbdb14747ab",
+      "render_and_transport_ms": 38.65816699999982,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-20.png",
+      "seconds": 13.65,
+      "sha256": "a114b171359e1312d90a308ed934469c801e2e61935c4ab406ddcee461ff78db",
+      "render_and_transport_ms": 30.607999999999947,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-25.png",
+      "seconds": 18,
+      "sha256": "8f6d75123c8c1b1385163c6d6fb5b825d1ea7e1e8be1d96167d2cea28da47079",
+      "render_and_transport_ms": 32.45550000000003,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-29.png",
+      "seconds": 22,
+      "sha256": "4bf06283cdc999f60e4d8225ccc1f1d52fa102d692e4cb52c5bf540f5f7dcfd8",
+      "render_and_transport_ms": 41.904666000000134,
+      "visual_inspection": "passed"
+    },
+    {
+      "path": "provenance/design-frames/frame-31.png",
+      "seconds": 23.7,
+      "sha256": "003530acd7d9f39c61117af8417439d99439aa0f9d4ca64795f80b80b9796258",
+      "render_and_transport_ms": 33.333708000000115,
+      "visual_inspection": "passed"
+    }
+  ],
+  "human_approval": "pending"
+}
